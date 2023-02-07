@@ -3,96 +3,16 @@ sidebar_position: 3
 description: "Calendario delle lezioni e materiale utilizzato in ciascuna lezione"
 ---
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {faYoutube, faGithub} from '@fortawesome/free-brands-svg-icons'
+import {faFilePdf} from '@fortawesome/free-solid-svg-icons'
 
 # Registro delle lezioni
 
-| Data       | Ora         | Tipo                | Argomento                                                                                                                   | Slide | Esercizi | Video | Docente       |
-|------------|-------------|---------------------|-----------------------------------------------------------------------------------------------------------------------------|-------|----------|-------|---------------|
-| 29/09/2021 | 11:30-13:00 | Lezione             | L01a Introduzione al corso                                                                                                  | #     | #        | #     | Fulvio Corno  |
-|            |             | Video extra         | L01b Informazioni pratiche sul corso                                                                                        |       |          | #     | Fulvio Corno  |
-| 29/09/2021 | 13:00-14:30 | Lezione             | L02 Introduzione alla programmazione                                                                                        | #     |          | #     | Fulvio Corno  |
-| 30/09/2021 | 11:30-13:00 | Lezione On-line     | L03 Algoritmi e Pseudo-Codice                                                                                               |       |          | #     | Fulvio Corno  |
-|            |             | Video extra         | L04 Diagrammi di flusso                                                                                                     |       |          | #     | Fulvio Corno  |
-| 05/10/2021 | 10:00-11:30 | Laboratorio On-line | Lab 01 - Squadra 3 (on-line)                                                                                                |       | ###      | --    | Luisa Barrera |
-| 05/10/2021 | 13:00-14:30 | Laboratorio         | Lab 01 - Squadra 1                                                                                                          |       |          |       | Luisa Barrera |
-| 05/10/2021 | 16:00-17:30 | Laboratorio         | Lab 01 - Squadra 2                                                                                                          |       |          |       | Luisa Barrera |
-| 06/10/2021 | 11:30-13:00 | Lezione             | L05 Introduzione a Python                                                                                                   |       | #        | #     | Fulvio Corno  |
-| 06/10/2021 | 13:00-14:30 | Lezione             | L06 Variabili, valori, espressioni                                                                                          | #     |          | #     | Fulvio Corno  |
-| 07/10/2021 | 11:30-13:00 | Lezione On-line     | L07 Esercizio variabili ed espressioni. Introduzione alle stringhe.                                                         |       |          | #     | Fulvio Corno  |
-| 12/10/2021 | 10:00-11:30 | Laboratorio On-line | Lab 02 - Squadra 3 (on-line)                                                                                                |       | #        | --    | Luisa Barrera |
-| 12/10/2021 | 13:00-14:30 | Laboratorio         | Lab 02 - Squadra 1                                                                                                          |       |          |       | Luisa Barrera |
-| 12/10/2021 | 16:00-17:30 | Laboratorio         | Lab 02 - Squadra 2                                                                                                          |       |          |       | Luisa Barrera |
-| 13/10/2021 | 11:30-13:00 | Lezione             | L08 Stringhe                                                                                                                | #     |  #       | #     | Fulvio Corno  |
-| 13/10/2021 | 13:00-14:30 | Lezione             | L09 Input, Formattazione, Decisioni                                                                                         |       |          | #     | Fulvio Corno  |
-| 14/10/2021 | 11:30-13:00 | Lezione On-line     | L10 Esercizio su input e decisioni (Scacchiera)                                                                             |       |          | #     | Fulvio Corno  |
-| 19/10/2021 | 10:00-11:30 | Laboratorio On-line | Lab 03 - Squadra 3 (on-line)                                                                                                |       | #        |       | Luisa Barrera |
-| 19/10/2021 | 13:00-14:30 | Laboratorio         | Lab 03 - Squadra 1                                                                                                          |       |          |       | Luisa Barrera |
-| 19/10/2021 | 16:00-17:30 | Laboratorio         | Lab 03 - Squadra 2                                                                                                          |       |          |       | Luisa Barrera |
-| 20/10/2021 | 11:30-13:00 | Lezione             | L11 Analisi di stringhe                                                                                                     |       | #        | #     | Fulvio Corno  |
-| 20/10/2021 | 13:00-14:30 | Lezione             | L12 Cicli while (prima parte)                                                                                               | #     |          | #     | Fulvio Corno  |
-| 21/10/2021 | 11:30-13:00 | Lezione On-line     | L13 Cicli while (seconda parte)                                                                                             |       |          | #     | Fulvio Corno  |
-| 26/10/2021 | 10:00-11:30 | Laboratorio On-line | Lab 04 - Squadra 3 (on-line)                                                                                                |       | #        |       | Luisa Barrera |
-| 26/10/2021 | 13:00-14:30 | Laboratorio         | Lab 04 - Squadra 1                                                                                                          |       |          |       | Luisa Barrera |
-| 26/10/2021 | 16:00-17:30 | Laboratorio         | Lab 04 - Squadra 2                                                                                                          |       |          |       | Luisa Barrera |
-| 27/10/2021 | 11:30-13:00 | Lezione             | L14 Cicli 'for'                                                                                                             |       |  #       | #     | Fulvio Corno  |
-| 27/10/2021 | 13:00-14:30 | Lezione             | L15 Cicli annidati                                                                                                          |       |          | #     | Fulvio Corno  |
-| 28/10/2021 | 11:30-13:00 | Lezione On-line     | L16 Esercizio sui cicli "BlackJack"                                                                                         |       |          | #     | Fulvio Corno  |
-| 02/11/2021 | 10:00-11:30 | Laboratorio On-line | Lab 05 - Squadra 3 (on-line)                                                                                                |       | #        |       | Luisa Barrera |
-| 02/11/2021 | 13:00-14:30 | Laboratorio         | Lab 05 - Squadra 1                                                                                                          |       |          |       | Luisa Barrera |
-| 02/11/2021 | 16:00-17:30 | Laboratorio         | Lab 05 - Squadra 2                                                                                                          |       |          |       | Luisa Barrera |
-| 03/11/2021 | 11:30-13:00 | Lezione             | L17a Avvisi L17b Funzioni (prima parte)                                                                                     | #     |          | ##    | Fulvio Corno  |
-| 03/11/2021 | 13:00-14:30 | Lezione             | L18 Funzioni (seconda parte)                                                                                                |       |          | #     | Fulvio Corno  |
-| 04/11/2021 | 11:30-13:00 | Lezione On-line     | L19 Correzione esercizi selezionati Lab04 e Lab05                                                                           |       | #        | #     | Fulvio Corno  |
-| 09/11/2021 | 10:00-11:30 | Laboratorio On-line | Consulenza sui laboratori precedenti                                                                                        |       |          |       | Luisa Barrera |
-| 09/11/2021 | 13:00-14:30 | Laboratorio         | Lab 06 - Squadra 1                                                                                                          |       | #        |       | Luisa Barrera |
-| 09/11/2021 | 16:00-17:30 | Laboratorio         | Lab 06 - Squadra 2                                                                                                          |       |          |       | Luisa Barrera |
-| 10/11/2021 | 11:30-13:00 | Lezione             | L20 Liste (prima parte)                                                                                                     | #     | #        | #     | Fulvio Corno  |
-| 10/11/2021 | 13:00-14:30 | Lezione             | L21 Liste (seconda parte)                                                                                                   |       |          | #     | Fulvio Corno  |
-| 11/11/2021 | 11:30-13:00 | Lezione On-line     | L22 Esercizio sulle liste (Rubrica)                                                                                         |       |          | #     | Fulvio Corno  |
-| 16/11/2021 | 10:00-11:30 | Laboratorio On-line | Consulenza sui laboratori precedenti                                                                                        |       |          |       | Fulvio Corno  |
-| 16/11/2021 | 13:00-14:30 | Laboratorio         | Lab 07 - Squadra 1                                                                                                          |       | #        |       | Luisa Barrera |
-| 16/11/2021 | 16:00-17:30 | Laboratorio         | Lab 07 - Squadra 2                                                                                                          |       |          |       | Luisa Barrera |
-| 17/11/2021 | 11:30-13:00 | Lezione On-line     | L23 Operazioni sulle Liste (ricerca, cancellazione, comprehension).                                                         |       | #        | #     | Fulvio Corno  |
-| 17/11/2021 | 13:00-14:30 | Lezione On-line     | L24 Liste e funzioni. Tuple. Tabelle.                                                                                       |       |          | #     | Fulvio Corno  |
-| 18/11/2021 | 11:30-13:00 | Lezione On-line     | L25 Esercizio sulle tabelle "Crucipuzzle"                                                                                   |       |          | #     | Fulvio Corno  |
-| 23/11/2021 | 10:00-11:30 | Laboratorio On-line | Consulenza sui laboratori precedenti                                                                                        |       |          |       | Fulvio Corno  |
-| 23/11/2021 | 13:00-14:30 | Laboratorio         | Lab 08 - Squadra 1                                                                                                          |       | #        |       | Luisa Barrera |
-| 23/11/2021 | 14:30-16:00 | Consulenza          | Consulenza individuale                                                                                                      |       |          |       | Luisa Barrera |
-| 23/11/2021 | 16:00-17:30 | Laboratorio         | Lab 08 - Squadra 2                                                                                                          |       |          |       | Luisa Barrera |
-| 24/11/2021 | 11:30-13:00 | Lezione             | L26 Introduzione ai file (prima parte)                                                                                      | #     | #        | #     | Fulvio Corno  |
-| 24/11/2021 | 13:00-14:30 | Lezione             | L27 Introduzione ai file (seconda parte)                                                                                    |       |          | #     | Fulvio Corno  |
-| 25/11/2021 | 11:30-13:00 | Lezione On-line     | L28 Rappresentazione dell'informazione (prima parte)                                                                        | #     |          | #     | Fulvio Corno  |
-| 30/11/2021 | 10:00-11:30 | Laboratorio On-line | Consulenza sui laboratori precedenti                                                                                        |       |          |       | Fulvio Corno  |
-| 30/11/2021 | 13:00-14:30 | Laboratorio         | Lab 09 - Squadra 1                                                                                                          |       | #        |       | Luisa Barrera |
-| 30/11/2021 | 14:30-16:00 | Consulenza          | Consulenza individuale                                                                                                      |       |          |       | Luisa Barrera |
-| 30/11/2021 | 16:00-17:30 | Laboratorio         | Lab 09 - Squadra 2                                                                                                          |       |          |       | Luisa Barrera |
-| 01/12/2021 | 11:30-13:00 | Lezione             | L29 File di testo strutturati                                                                                               |       | #        | #     | Fulvio Corno  |
-| 01/12/2021 | 13:00-14:30 | Lezione             | L30 File in formato CSV                                                                                                     |       |          | #     | Fulvio Corno  |
-| 02/12/2021 | 11:30-13:00 | Video off-line      | L31 Rappresentazione dell'informazione (seconda parte)                                                                      |       |          | #     | Fulvio Corno  |
-| 07/12/2021 | 10:00-11:30 | Laboratorio On-line | Consulenza sui laboratori precedenti                                                                                        |       |          |       | Luisa Barrera |
-| 07/12/2021 | 13:00-14:30 | Laboratorio         | Lab 10 - Squadra 1                                                                                                          |       | #        |       | Luisa Barrera |
-| 07/12/2021 | 14:30-16:00 | Consulenza          | Consulenza individuale                                                                                                      |       |          |       |               |
-| 07/12/2021 | 16:00-17:30 | Laboratorio         | Lab 10 - Squadra 2                                                                                                          |       |          |       | Luisa Barrera |
-| 08/12/2021 |             |                     | Festività                                                                                                                   |       |          |       |               |
-|            |             | Video extra         | L32 Architettura del calcolatore                                                                                            | #     |          | #     | Fulvio Corno  |
-| 09/12/2021 | 11:30-13:00 | Lezione On-line     | L33 Eccezioni. Insiemi                                                                                                      | #     | #        | #     | Fulvio Corno  |
-| 14/12/2021 | 10:00-11:30 | Laboratorio On-line | Consulenza sui laboratori precedenti                                                                                        |       |          |       | Fulvio Corno  |
-| 14/12/2021 | 13:00-14:30 | Laboratorio         | Lab 11 - Squadra 1                                                                                                          |       | #        |       | Luisa Barrera |
-| 14/12/2021 | 14:30-16:00 | Consulenza          | Consulenza individuale                                                                                                      |       |          |       | Luisa Barrera |
-| 14/12/2021 | 16:00-17:30 | Laboratorio         | Lab 11 - Squadra 2                                                                                                          |       |          |       | Luisa Barrera |
-| 15/12/2021 | 11:30-13:00 | Lezione             | L34 Esercizi su insiemi. Introduzione ai dizionari.                                                                         |       | #        | #     | Fulvio Corno  |
-| 15/12/2021 | 13:00-14:30 | Lezione             | L35 Dizionari                                                                                                               |       |          | #     | Fulvio Corno  |
-| 16/12/2021 | 11:30-13:00 | Lezione On-line     | L36 Strutture dati complesse                                                                                                |       |          | #     | Fulvio Corno  |
-| 21/12/2021 | 10:00-11:30 | Laboratorio On-line | Consulenza sui laboratori precedenti                                                                                        |       |          |       | Fulvio Corno  |
-| 21/12/2021 | 13:00-14:30 | Laboratorio         | Lab 12 - Squadra 1                                                                                                          |       |          |       | Luisa Barrera |
-| 21/12/2021 | 14:30-16:00 | Consulenza          | Consulenza individuale                                                                                                      |       |          |       | Luisa Barrera |
-| 21/12/2021 | 16:00-17:30 | Laboratorio         | Lab 12 - Squadra 2                                                                                                          |       |          |       | Luisa Barrera |
-| 22/12/2021 | 11:30-13:00 | Lezione             | L37a Introduzione alla simulazione d'esame Svolgimento della simulazione d'esame                                            |       | #        | #     | Fulvio Corno  |
-| 22/12/2021 | 13:00-14:30 | Lezione             | (segue) Svolgimento della simulazione d'esame L37b Correzione della simulazione d'esame                                     |       |          | #     | Fulvio Corno  |
-|            |             |                     | Vacanze di Natale                                                                                                           |       |          |       |               |
-| 11/01/2022 | 10:00-11:30 | Laboratorio On-line | L38a Risoluzione di un tema d'esame (Fantacalcio)                                                                           |       | #        | #     | Fulvio Corno  |
-| 11/01/2022 | 13:00-14:30 | Laboratorio On-line | L38b Risoluzione di un tema d'esame (Astrologia Calciatori)                                                                 |       |          | #     | Luisa Barrera |
-| 11/01/2022 | 16:00-17:30 | Laboratorio On-line | L38c Risoluzione di temi d'esame (Hacking, Murphy)                                                                          |       |          | #     | Luisa Barrera |
-| 12/01/2022 | 11:30-13:00 | Lezione On-line     |   L39a Esercizi d'esame di teoria (Sistemi di numerazione) L39b Esercizi d'esame di teoria (Architettura dell'elaboratore)  |       |          | ##    | Fulvio Corno  |
-| 12/01/2022 | 13:00-14:30 | Lezione On-line     | L39c Esercizi d'esame di teoria (Programmazione Python)                                                                     |       |          | #     | Fulvio Corno  |
-| 13/01/2022 | 11:30-13:00 | Lezione On-line     | L40 Risoluzione Lab12 - Consigli per l'esame                                                                                |       |          | #     | Fulvio Corno  |
+
+<FontAwesomeIcon icon={faFilePdf} size="xl"/>
+<FontAwesomeIcon icon={faGithub} size="xl"/>
+<FontAwesomeIcon icon={faYoutube} size="xl"/>
+
+NOTA: https://fontawesome.com/docs/web/use-with/react/
+

@@ -7,24 +7,23 @@ description: "Lucidi, videolezioni, esercizi, ..."
 
 ## Lucidi delle lezioni
 
+- [Introduzione al corso](https://github.com/polito-info-2022/Materiale/blob/master/Unita'%200%20-%20Introduzione%20al%20corso%20(Corno).pdf?raw=true)
+- [Unità P1 - La Programmazione](https://github.com/polito-info-2022/Materiale/blob/master/P1-La_Programmazione.pdf?raw=true)
+- [Unità P2 - Numeri e Stringhe](https://github.com/polito-info-2022/Materiale/blob/master/P2-Numeri_e_stringhe.pdf?raw=true)
+- [Unità P3 - Decisioni](https://github.com/polito-info-2022/Materiale/blob/master/P3-Decisioni.pdf?raw=true)
+- [Unità P4 - Cicli](https://github.com/polito-info-2022/Materiale/blob/master/P4-Cicli.pdf?raw=true)
+- [Unità P5 - Funzioni](https://github.com/polito-info-2022/Materiale/blob/master/P5-Funzioni.pdf?raw=true)
+- [Unità P6 - Liste e Tabelle](https://github.com/polito-info-2022/Materiale/blob/master/P6-Liste_e_Tabelle.pdf?raw=true)
+- [Unità P7 - File](https://github.com/polito-info-2022/Materiale/blob/master/P7-File_e_Eccezioni.pdf?raw=true)
+- [Unità P8 - Strutture dati complesse](https://github.com/polito-info-2022/Materiale/blob/master/P8-Strutture_dati_complesse.pdf?raw=true)
+- [Unità T1 - Rappresentazione dell'informazione](https://github.com/polito-info-2022/Materiale/blob/master/T1-Rappresentazione_dati.pdf?raw=true)
+- [Unità T2 - Architettura degli elaboratori](https://github.com/polito-info-2022/Materiale/blob/master/T2-Architettura.pdf?raw=true)
 
--    [Introduzione al corso](slide/Unita%200%20-%20Introduzione%20al%20corso%20(Corno).pdf)
--    Unità P1 - La Programmazione
--    Unità P2 - Numeri e Stringhe
--    Unità P3 - Decisioni
--    Unità P4 - Cicli
--    Unità P5 - Funzioni
--    Unità P6 - Liste e Tabelle
--    Unità P7 - File
--    Unità P8 - Strutture dati complesse
--    Unità T1 - Rappresentazione dell'informazione
--    Unità T2 - Architettura degli elaboratori
-
-Nota: le slide sono anche disponibili su GitHub, al link: https://github.com/polito-info-2021/Materiale
+Nota: le slide sono anche disponibili su GitHub, al link: https://github.com/polito-info-2022/Materiale
 
 ## Video Lezioni
 
-<iframe src="https://www.youtube.com/embed/videoseries?list=PLqRTLlwsxDL_O2e73lHQvJyucwpcMQUnO" allowfullscreen="allowfullscreen" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" width="560" height="315" frameborder="0"></iframe>
+<iframe src="https://www.youtube.com/embed/videoseries?list=PLqRTLlwsxDL-yRy3U34aImItjkWhcnSdY" allowfullscreen="allowfullscreen" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" width="560" height="315" frameborder="0"></iframe>
 
 ## Esercizi svolti in aula
 
@@ -32,7 +31,7 @@ Tutti gli esempi e gli esercizi sviluppati durante le lezioni saranno pubblicati
 
 -    nel Registro delle Lezioni, alla colonna "Esercizi"
 -    nel Portale della Didattica, sotto il Materiale del corso
--    su GitHub, al seguente link:https://github.com/polito-info-2021/Settimane
+-    su GitHub, al seguente link: https://github.com/polito-info-2022/Settimane
 
 
 ## Testi dei laboratori
@@ -42,7 +41,7 @@ Tutti i testi dei laboratori (e le relative soluzioni, che saranno disponibili n
 -    nella sezione Laboratorio
 -    nel Registro delle Lezioni
 -    nel Portale della Didattica, sotto il Materiale del corso
--    su GitHub, al seguent link:https://github.com/polito-info-2021/Laboratori
+-    su GitHub, al seguent link:https://github.com/polito-info-2022/Laboratori
 
 
 ## Libro di testo
@@ -59,6 +58,5 @@ http://www.apogeoeducation.com/concetti-di-informatica-e-fondamenti-di-python.ht
 ## Strumenti Software
 
 
--    Istruzioni per l'installazione in Windows
--    Istruzioni per l'installazione in MacOS
--    Video che descrive i passi di installazione per Windows, MacOS e Linux
+-    [Istruzioni per l'installazione in Windows](https://github.com/polito-info-2022/Materiale/blob/master/Istruzioni/istruzioni%20installazione%20ITA-Win%202022-23.pdf)
+-    [Istruzioni per l'installazione in MacOS](https://github.com/polito-info-2022/Materiale/blob/master/Istruzioni/istruzioni%20installazione%20ITA-Mac%202020-21.pdf)
