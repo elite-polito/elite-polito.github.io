@@ -1,0 +1,51 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* FC: use this page to generate the colors: https://docusaurus.io/docs/styling-layout */
+
+/* You can override the default Infima variables here. */
+:root {
+    /*--ifm-color-primary: #595959;*/
+    /*--ifm-color-primary-dark: #505050;*/
+    /*--ifm-color-primary-darker: #4c4c4c;*/
+    /*--ifm-color-primary-darkest: #434343;*/
+    /*--ifm-color-primary-light: #626262;*/
+    /*--ifm-color-primary-lighter: #666666;*/
+    /*--ifm-color-primary-lightest: #747474;*/
+
+    --ifm-color-primary: #ae3e26;
+    --ifm-color-primary-dark: #9d3822;
+    --ifm-color-primary-darker: #943520;
+    --ifm-color-primary-darkest: #7a2b1b;
+    --ifm-color-primary-light: #bf442a;
+    --ifm-color-primary-lighter: #c8472c;
+    --ifm-color-primary-lightest: #d5593f;
+
+
+    --ifm-card-background-color: #F8F7F7;;
+
+    --ifm-heading-font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    --ifm-heading-font-weight:500;
+    --ifm-heading-color:var(--ifm-color-primary-dark);
+    /*--ifm-hero-background-color: red;*/
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+    /*--ifm-color-primary: #c0c0c0;*/
+    /*--ifm-color-primary-dark: #adadad;*/
+    /*--ifm-color-primary-darker: #a3a3a3;*/
+    /*--ifm-color-primary-darkest: #909090;*/
+    /*--ifm-color-primary-light: #d3d3d3;*/
+    /*--ifm-color-primary-lighter: #dddddd;*/
+    /*--ifm-color-primary-lightest: #fafafa;*/
+
+    --ifm-card-background-color: #434343;
+    --ifm-heading-color:var(--ifm-color-primary-lightest);
+
+    /*shaded-background:var(--ifm-color-secondary-darkest);*/
+
+}

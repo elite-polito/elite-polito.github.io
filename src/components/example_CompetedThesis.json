@@ -1,0 +1,1770 @@
+[
+    {
+      "datestamp": "2022-08-01 11:34:02",
+      "title": "Guided Cooking: migliorare l’interazione quotidiana con un forno connesso = Guided Cooking: improving daily interaction with a connected oven",
+      "status_changed": "2022-08-22 07:04:31",
+      "uri": "http:\/\/webthesis.biblio.polito.it\/id\/eprint\/23571",
+      "documents": [
+          {
+            "rev_number": 1,
+            "eprintid": 23571,
+            "main": "tesi.pdf",
+            "placement": 1,
+            "pos": 1,
+            "docid": 172069,
+            "files": [
+                {
+                  "uri": "http:\/\/webthesis.biblio.polito.it\/id\/file\/232869",
+                  "filename": "tesi.pdf",
+                  "fileid": 232869,
+                  "hash": "4f2d38c946cb9d20807819136521cedc",
+                  "mtime": "2022-08-22 07:04:31",
+                  "datasetid": "document",
+                  "mime_type": "application\/pdf",
+                  "filesize": 5004473,
+                  "hash_type": "MD5",
+                  "objectid": 172069
+                }
+            ],
+            "license": "cc_by_nc_nd",
+            "content": "thesis",
+            "formatdesc": "Tesi_di_laurea",
+            "format": "application\/pdf",
+            "language": "it",
+            "security": "staffonly",
+            "uri": "http:\/\/webthesis.biblio.polito.it\/id\/document\/172069",
+            "date_embargo": "2025-07-29"
+          }
+      ],
+      "metadata_visibility": "show",
+      "date_type": "published",
+      "ispublished": "unpub",
+      "eprint_status": "archive",
+      "lastmod": "2022-08-22 07:04:31",
+      "cdl": [
+        "corso+di+laurea+magistrale+in+ingegneria+informatica+(computer+engineering)"
+      ],
+      "annoacc": "2021\/22",
+      "tesi_meritoria": "FALSE",
+      "relators": [
+        {
+          "id": 25734,
+          "name": {
+            "given": "Luigi",
+            "family": "De Russis",
+            "honourific": null,
+            "lineage": null
+          }
+        }
+      ],
+      "md5_tesi": "0cd462d833b04bd03576414d335f3f82beb7d8dd9735bad68b5ddbc6bbe0ef27a9340a14da0038249c3b4ee229f92f58f50ce02466345dd014e4c1508e592f41",
+      "publication_type": "electronic",
+      "userid": 10,
+      "aziende": [
+        "Enhancers spa"
+      ],
+      "date": "2022-07-29",
+      "type": "thesis",
+      "rev_number": 1,
+      "abstract": "Il seguente lavoro di tesi sarà svolto all'interno di una piattaforma IoT di un noto produttore di elettrodomestici. Attraverso un'unica applicazione, l'utente avrà la possibilità di controllare e monitorare con semplicità tutti i dispositivi intelligenti della casa produttrice e potrà avere una visione d'insieme su quelli attualmente in funzione e sui rispettivi consumi energetici.     L'obiettivo del lavoro di tesi è quello di semplificare e velocizzare l'interazione degli utenti con gli elettrodomestici in cucina durante i pasti giornalieri, soprattutto con i forni. Questi dispositivi, infatti, hanno moltissime configurazioni perché devono supportare la cottura di pietanze complesse, ma nell'utilizzo giornaliero, come pranzi veloci o cene in famiglia, vengono utilizzati principalmente per pasti semplici e veloci. Nei casi sopracitati si utilizzerà solo una cerchia ristretta di funzionalità e si è notato che configurare il forno per questa tipologia di pasti risulta essere troppo complesso e dispendioso in termini di tempo rispetto ai comuni elettrodomestici sul mercato.  Il seguente problema comporta un abbassamento del grado di soddisfazione degli utenti e compromette i loro ulteriori acquisti verso altri dispositivi dell'azienda.    Questa nuova modalità di utilizzo, chiamata Guided Cooking o cottura guidata, dovrà essere sviluppata sia direttamente sull'applicazione installata sul forno che su quella mobile che gestisce tutti i dispositivi intelligenti dell'azienda, in modo da consentire al cliente di avviare la cottura sia in remoto dall'app mobile che direttamente sul forno. Il Guided Cooking permetterà di impostare tutti i parametri della cottura in modo automatico in base alla pietanza scelta.    Il progetto ha previsto una fase iniziale di progettazione ed analisi dell'interfaccia utente da implementare sia sull'app mobile che su quella del dispositivo IoT per comprendere i flussi di esecuzione ed evidenziare eventuali criticità, per poi successivamente passare all'implementazione effettiva della UI. Successivamente si è proceduto a progettare ed implementare l'interazione con il back-end per richiedere i dati delle ricette e l'invio del programma selezionato al forno connesso. In ultimo, essendo un prodotto che avrà un’utenza non omogenea caratterizzata da diverse fasce d’età e nazionalità, si è effettuato un testing scrupoloso sulle funzionalità aggiunte in modo da controllare il loro corretto funzionamento su diverse tipologie di dispositivi con lingue e dimensioni differenti.",
+      "institution": "Politecnico di Torino",
+      "gesd": 1,
+      "full_text_status": "restricted",
+      "eprintid": 23571,
+      "dir": "disk2\/00\/02\/35\/71",
+      "pages": 70,
+      "classes": [
+        "CLASSE_LM-32"
+      ],
+      "thesis_type": "laurea",
+      "creators": [
+        {
+          "id": 279428,
+          "name": {
+            "honourific": null,
+            "lineage": null,
+            "given": "Marco",
+            "family": "La Gala"
+          }
+        }
+      ]
+    },
+    {
+      "userid": 10,
+      "date": "2021-12-17",
+      "relators": [
+        {
+          "id": 25734,
+          "name": {
+            "lineage": null,
+            "honourific": null,
+            "family": "De Russis",
+            "given": "Luigi"
+          }
+        },
+        {
+          "name": {
+            "honourific": null,
+            "lineage": null,
+            "given": "Fulvio",
+            "family": "Corno"
+          },
+          "id": null
+        },
+        {
+          "id": null,
+          "name": {
+            "honourific": null,
+            "lineage": null,
+            "given": "Juan Pablo",
+            "family": "Saenz Moreno"
+          }
+        }
+      ],
+      "tesi_meritoria": "FALSE",
+      "publication_type": "electronic",
+      "md5_tesi": "c66cb3513ae86f6ea80d53ac55f94c2736056555576edd59d9301fe75f576bbed3e471c07e31a897e442d0b77f4b4ab43605d26609470d7c596ca2943c574ba6",
+      "cdl": [
+        "corso+di+laurea+magistrale+in+ingegneria+informatica+(computer+engineering)"
+      ],
+      "annoacc": "2021\/22",
+      "classes": [
+        "CLASSE_LM-32"
+      ],
+      "creators": [
+        {
+          "id": 269705,
+          "name": {
+            "honourific": null,
+            "lineage": null,
+            "given": "Andrea",
+            "family": "Bruno"
+          }
+        }
+      ],
+      "thesis_type": "laurea",
+      "dir": "disk2\/00\/02\/11\/00",
+      "pages": 83,
+      "gesd": 1,
+      "eprintid": 21100,
+      "full_text_status": "public",
+      "rev_number": 1,
+      "type": "thesis",
+      "institution": "Politecnico di Torino",
+      "abstract": "Gli studenti neofiti di informatica, quando si trovano ad affrontare un esercizio di programmazione, si concentrano spesso sulla scrittura del codice e la risoluzione di eventuali errori, tralasciando la fase iniziale di analisi, comprensione e decomposizione del problema. Tale approccio ha ripercussioni negative sulle prestazioni dello studente e lo porta ad assimilare cattive pratiche di programmazione. Le applicazioni pensate per il supporto degli studenti, inoltre, tendono a offrire funzionalità legate alla fase di scrittura del programma piuttosto che a quella di analisi dell'esercizio.  L'obiettivo di questa tesi è individuare le funzionalità necessarie a uno strumento che supporti gli studenti dei corsi introduttivi di informatica nelle fasi di analisi e decomposizione del problema, per poi progettare e valutare un'applicazione web che implementi tali funzionalità.  Uno studio preliminare della letteratura ha permesso di analizzare strumenti attualmente in uso con caratteristiche rilevanti ai fini della tesi, nonché di approfondire le abitudini degli studenti di informatica nel risolvere esercizi. Durante la fase successiva è stato intervistato un gruppo di studenti per approfondire le strategie da loro adottate e le difficoltà che incontrano mentre svolgono i loro esercizi. Le informazioni ottenute nelle fasi precedenti hanno portato alla definizione di una serie di requisiti da seguire nelle successive fasi di progettazione e implementazione di un'applicazione web. Una serie di test di usabilità ha infine permesso di valutare le funzionalità principali del sistema, evidenziando possibili miglioramenti futuri.",
+      "uri": "http:\/\/webthesis.biblio.polito.it\/id\/eprint\/21100",
+      "status_changed": "2022-01-10 08:04:13",
+      "documents": [
+          {
+            "format": "application\/pdf",
+            "formatdesc": "Tesi_di_laurea",
+            "license": "cc_by_nc_nd",
+            "content": "thesis",
+            "files": [
+                {
+                  "filesize": 10235962,
+                  "hash_type": "MD5",
+                  "objectid": 161201,
+                  "mime_type": "application\/pdf",
+                  "mtime": "2022-01-10 08:04:14",
+                  "datasetid": "document",
+                  "uri": "http:\/\/webthesis.biblio.polito.it\/id\/file\/218790",
+                  "hash": "f555a2160216a8f34a39d51d531c47f4",
+                  "filename": "tesi.pdf",
+                  "fileid": 218790
+                }
+            ],
+            "uri": "http:\/\/webthesis.biblio.polito.it\/id\/document\/161201",
+            "security": "public",
+            "language": "it",
+            "main": "tesi.pdf",
+            "eprintid": 21100,
+            "rev_number": 1,
+            "docid": 161201,
+            "pos": 1,
+            "placement": 1
+          }
+      ],
+      "title": "Dal testo al codice: uno strumento per incoraggiare l'analisi degli esercizi di programmazione = From text to code: a tool to encourage analysis of programming exercises",
+      "datestamp": "2021-12-22 10:32:14",
+      "lastmod": "2022-01-10 08:04:14",
+      "ispublished": "unpub",
+      "date_type": "published",
+      "eprint_status": "archive",
+      "metadata_visibility": "show"
+    },
+    {
+      "publication_type": "electronic",
+      "md5_tesi": "9eedf1b04810a10378cfa89868024d95d675e95742d0188df95bfa1aa8e11b7b31a447262ab4cdb853465403e8e65dce8917903630d47eefdfb058e0474e4305",
+      "relators": [
+        {
+          "id": 25734,
+          "name": {
+            "lineage": null,
+            "honourific": null,
+            "family": "De Russis",
+            "given": "Luigi"
+          }
+        }
+      ],
+      "tesi_meritoria": "FALSE",
+      "annoacc": "2021\/22",
+      "cdl": [
+        "corso+di+laurea+magistrale+in+ingegneria+informatica+(computer+engineering)"
+      ],
+      "date": "2021-12-17",
+      "aziende": [
+        "Cluster Reply Srl"
+      ],
+      "userid": 10,
+      "note": "Tesi secretata. Fulltext non presente",
+      "eprintid": 21156,
+      "full_text_status": "none",
+      "gesd": 1,
+      "institution": "Politecnico di Torino",
+      "abstract": "According to Food Agriculture Organization, by 2050 the world population will outnumber 9 billion people; it will be a must to increase food production by a 70%, compared to 2009 performances.  At the same time, farmers are striving to increase crops \/ farms production while maximizing profits and minimizing costs without sacrificing product quality, and reducing waste of natural resources and use of chemicals, having a higher focus on sustainability to reduce environment impact.  So, the motto here is Produce more with less.  Agriculture 4.0 arises in this context with the aim of better management of the different crops \/ farms, predicting the health of the plants and their needs, keeping track of the processes carried out and the data obtained in order to improve production. The Precision Farming technique is the key which gives farmers a boost to face and win this challenge.  The purpose of the thesis is to design and develop a new system capable of offer support on the decision-making process through the constant monitoring of the crops’ parameters, such as soil humidity, temperature, weather forecast, disease recognized, etc.  This system exploits the patterns and paradigms of the Precision Farming technique, supported by the use of IoT device, a weather forecast provider, a satellite imaging provider and an AI detection model, so being able to provide the telemetry and the information needed and to recognized diseases and infestations’ patterns.  In this way, by actively knowing the status of the plantation, it will be possible to proactively suggest the different actions to be undertaken, for example recommending when it's best to irrigate the field in order to optimize to exploitation of the resources (such as water, electricity to power up irrigation system, etc).  The thesis work started with the review of the topic through the analysis of previous studies, works, researches and strategies applied to operate in the different use cases, in order to evaluate the functionalities offered by the current solutions.  The subsequent phase was the analysis of the sector current state, interviewing the sector stakeholders to be aware of the actually used techniques and their goals in order to discover their needs and daily challenges so to find out which are the better improvement opportunities.  Then, exploiting the information gathered in the previous steps, it began possible the define the strategies to apply to perform an efficient design and implementation of a prototype which will fulfil the stakeholders' needs, while improving the agricultural production process itself and making it more sustainable.  The design and implementation of the prototype has been executed accordingly with the strategies built in the previous step using Microsoft's technology. It was been taken into account the challenges that the fields could have and the actual technological availability.  The realization of the system had a focus on the IoT devices configuration, on the modelling of the AI model, on the API which connects them all and on the platform, where the data and the processes will be displayed.",
+      "rev_number": 1,
+      "type": "thesis",
+      "creators": [
+        {
+          "name": {
+            "lineage": null,
+            "honourific": null,
+            "family": "Prudente",
+            "given": "Gaetano"
+          },
+          "id": 276096
+        }
+      ],
+      "thesis_type": "laurea",
+      "classes": [
+        "CLASSE_LM-32"
+      ],
+      "pages": 93,
+      "dir": "disk2\/00\/02\/11\/56",
+      "datestamp": "2021-12-22 13:14:53",
+      "uri": "http:\/\/webthesis.biblio.polito.it\/id\/eprint\/21156",
+      "status_changed": "2022-01-10 08:06:56",
+      "title": "Improving the Sustainability of the Agricultural Process through Precision Farming",
+      "eprint_status": "archive",
+      "ispublished": "unpub",
+      "date_type": "published",
+      "metadata_visibility": "show",
+      "lastmod": "2022-01-10 08:06:56"
+    },
+    {
+      "note": "Tesi secretata. Fulltext non presente",
+      "aziende": [
+        "SYNDIAG SRL"
+      ],
+      "userid": 10,
+      "date": "2021-12-17",
+      "relators": [
+        {
+          "id": 25734,
+          "name": {
+            "honourific": null,
+            "lineage": null,
+            "given": "Luigi",
+            "family": "De Russis"
+          }
+        }
+      ],
+      "tesi_meritoria": "FALSE",
+      "publication_type": "electronic",
+      "md5_tesi": "1651198227d2f0440d6a562b89f518c3e6aae78ecb13cccd83e9267ea4a874364b1dc79d9a980186a1bf2d5b4c2c1c296b66f7d4ffaf16ad14315445535c0c99",
+      "cdl": [
+        "corso+di+laurea+magistrale+in+ingegneria+informatica+(computer+engineering)"
+      ],
+      "annoacc": "2021\/22",
+      "classes": [
+        "CLASSE_LM-32"
+      ],
+      "creators": [
+        {
+          "id": 273716,
+          "name": {
+            "given": "Martina",
+            "family": "Lilla",
+            "honourific": null,
+            "lineage": null
+          }
+        }
+      ],
+      "thesis_type": "laurea",
+      "dir": "disk2\/00\/02\/11\/05",
+      "pages": 115,
+      "gesd": 1,
+      "eprintid": 21105,
+      "full_text_status": "none",
+      "rev_number": 1,
+      "type": "thesis",
+      "institution": "Politecnico di Torino",
+      "abstract": "Il tumore ovarico è la principale causa di morte tra le patologie ginecologiche, ed è tipicamente noto come “il Killer Silenzioso” per la sua natura asintomatica nei primi stadi della malattia.   L’ecografia transvaginale rappresenta nella pratica clinica il sistema di riferimento nell’identificazione precoce del tumore ovarico nelle donne asintomatiche, essendo la tecnica di imaging medica maggiormente informativa tra quelle disponibili, ma è in larga misura operatore-dipendente e richiede decine di anni di esperienza per raggiungere le competenze adeguate. Inoltre, dopo l’identificazione della presenza di una cisti, è fondamentale valutarne la benignità o malignità con un esame istologico, in quanto tale valutazione avrà un impatto decisivo nella prognosi della malattia. Tuttavia, l’analisi istologica può essere eseguita solo a seguito di intervento chirurgico. Per tale ragione, diventa fondamentale fornire agli ecografisti e ginecologi la giusta formazione affinchè siano in grado di prevedere il tipo di istologico direttamente dall’analisi ecografica.  L’obiettivo di questa tesi è proporre una piattaforma di apprendimento digitale e asincrono per i medici inesperti, progettata per educare al corretto flusso decisionale nella valutazione ecografica di casi clinici proponendone la simulazione.  All’interno della piattaforma, allo studente viene proposto un set di casi clinici. Ogni caso clinico è affiancato da un percorso decisionale ottimizzato e approvato da medici esperti, con lo scopo di accompagnare il medico nella valutazione ecografica. Tale percorso propone una serie di domande binarie riguardanti la morfologia della cisti ovarica che si sta analizzando, rispondendo alle quali il medico si vedrà accompagnato verso la diagnosi corretta, con la segnalazione di eventuali errori commessi.  Il progetto di tesi ha coinvolto una fase iniziale di revisione della letteratura medica sul cancro ovarico, allo scopo di realizzare una tassonomia schematica riguardante gli istotipi specifici, le caratteristiche morfologiche, e le relazioni tra essi.  La tipologia di organizzazione dei dati è stata sperimentata tramite algoritmi e modelli differenti, quali: un Albero Decisionale affiancato da un Algoritmo di Clustering Gerarchico, un Grafo Deterministico e un Grafo Probabilistico ispirato alle Reti Bayesiane.  La struttura scelta è stata successivamente adottata per proporre agli studenti un flusso decisionale completo, basato sulle risposte alle domande poste, portando al corretto istotipo durante la simulazione del processo di diagnosi.   I risultati si sono ottenuti durante degli eventi di formazione, chiamati \"Academy\", tenuti periodicamente da medici esperti per insegnare ai medici principianti. Per lo scopo, agli utenti è stata proposta un’interfaccia web dedicata sviluppata durante il progetto.   Sia gli studenti che i medici esperti hanno apprezzato lo strumento come effettivo supporto innovativo all’apprendimento, manifestando sia i punti di forza che quelli di miglioramento, che potranno portare a stabilire un nuovo standard per la formazione nella diagnostica ecografica del tumore ovarico.",
+      "uri": "http:\/\/webthesis.biblio.polito.it\/id\/eprint\/21105",
+      "status_changed": "2022-01-10 08:04:26",
+      "title": "Metodi di e-Learning e supporto decisionale per la diagnostica ecografica del tumore ovarico = e-Learning and decision support methods for ultrasound diagnostic of ovarian cancer",
+      "datestamp": "2021-12-22 10:35:03",
+      "lastmod": "2022-01-10 08:04:27",
+      "ispublished": "unpub",
+      "date_type": "published",
+      "eprint_status": "archive",
+      "metadata_visibility": "show"
+    },
+    {
+      "datestamp": "2021-12-22 10:33:26",
+      "status_changed": "2022-01-10 08:04:19",
+      "uri": "http:\/\/webthesis.biblio.polito.it\/id\/eprint\/21102",
+      "documents": [
+          {
+            "files": [
+                {
+                  "objectid": 161202,
+                  "filesize": 3724676,
+                  "hash_type": "MD5",
+                  "mime_type": "application\/pdf",
+                  "datasetid": "document",
+                  "mtime": "2022-01-10 08:04:19",
+                  "uri": "http:\/\/webthesis.biblio.polito.it\/id\/file\/218793",
+                  "hash": "1ecc3aab8c91964021c4813106aae5be",
+                  "fileid": 218793,
+                  "filename": "tesi.pdf"
+                }
+            ],
+            "license": "cc_by_nc_nd",
+            "content": "thesis",
+            "format": "application\/pdf",
+            "formatdesc": "Tesi_di_laurea",
+            "language": "it",
+            "security": "public",
+            "uri": "http:\/\/webthesis.biblio.polito.it\/id\/document\/161202",
+            "rev_number": 1,
+            "eprintid": 21102,
+            "main": "tesi.pdf",
+            "placement": 1,
+            "pos": 1,
+            "docid": 161202
+          }
+      ],
+      "title": "SQL Interactive: applicazione di supporto per corsi di basi di dati",
+      "date_type": "published",
+      "ispublished": "unpub",
+      "eprint_status": "archive",
+      "metadata_visibility": "show",
+      "lastmod": "2022-01-10 08:04:19",
+      "tesi_meritoria": "FALSE",
+      "relators": [
+        {
+          "name": {
+            "lineage": null,
+            "honourific": null,
+            "family": "De Russis",
+            "given": "Luigi"
+          },
+          "id": 25734
+        },
+        {
+          "name": {
+            "given": "Laura",
+            "family": "Farinetti",
+            "honourific": null,
+            "lineage": null
+          },
+          "id": null
+        }
+      ],
+      "md5_tesi": "2d56b18c9f73ddc7bf7df7a2a3973a356d5ca1ce6ab1da390cb95534f37ee70617059d43bb3994c249b72893877bda589fb660c885a8eccdac67b22c92a33a84",
+      "publication_type": "electronic",
+      "cdl": [
+        "corso+di+laurea+magistrale+in+ingegneria+informatica+(computer+engineering)"
+      ],
+      "annoacc": "2021\/22",
+      "userid": 10,
+      "date": "2021-12-17",
+      "gesd": 1,
+      "full_text_status": "public",
+      "eprintid": 21102,
+      "type": "thesis",
+      "rev_number": 1,
+      "abstract": "Lo svolgimento di esercizi per il corso di basi di dati da parte di studenti in remoto ha da sempre presentato numerose criticità, in quanto veniva richiesto allo studente di ricreare sulla propria macchina un ambiente di sviluppo idoneo.  In questa tesi verrà quindi proposta un'alternativa, presentando un'applicazione web sviluppata con React e NodeJs che, interfacciandosi con un database PostgreSQL, permetta al docente la gestione di esercizi e laboratori, e lo svolgimento da parte di studenti senza la necessità di installare software aggiuntivi.  Il docente del corso di studio avrà la possibilità di creare o caricare nuovi esercizi interagendo direttamente con il database per la creazione e il popolamento delle tabelle necessarie, che verranno rese disponibili agli studenti abilitati senza la possibilità di essere modificate. Gli stessi esercizi potranno essere resi disponibili allo studente anche sotto forma di laboratori, dove sarà presente un canale di comunicazione con il docente in caso di necessità durante lo svolgimento.  L'applicazione web permetterà inoltre la raccolta automatica di statistiche utili a valutare l'efficacia del corso di studio e sull'utilizzo dell'applicazione, attraverso analisi sui principali errori commessi, la percentuale di esercizi risolti correttamente e i tentativi effettuati.",
+      "institution": "Politecnico di Torino",
+      "classes": [
+        "CLASSE_LM-32"
+      ],
+      "thesis_type": "laurea",
+      "creators": [
+        {
+          "id": 267457,
+          "name": {
+            "honourific": null,
+            "lineage": null,
+            "given": "Edoardo",
+            "family": "Convertini"
+          }
+        }
+      ],
+      "dir": "disk2\/00\/02\/11\/02",
+      "pages": 56
+    },
+    {
+      "title": "inControl: promuovere interazioni significative con pagine web tramite la loro riprogettazione temporanea = inControl: promote meaningful interactions with web pages through their temporary redesign",
+      "status_changed": "2022-01-10 08:06:58",
+      "uri": "http:\/\/webthesis.biblio.polito.it\/id\/eprint\/21157",
+      "documents": [
+          {
+            "rev_number": 1,
+            "eprintid": 21157,
+            "main": "tesi.pdf",
+            "pos": 1,
+            "placement": 1,
+            "docid": 161251,
+            "files": [
+                {
+                  "datasetid": "document",
+                  "mtime": "2022-01-10 08:06:58",
+                  "filename": "tesi.pdf",
+                  "uri": "http:\/\/webthesis.biblio.polito.it\/id\/file\/218900",
+                  "fileid": 218900,
+                  "hash": "8fa02f7f2b6e05a3f21535e9fa90c898",
+                  "objectid": 161251,
+                  "hash_type": "MD5",
+                  "filesize": 9816505,
+                  "mime_type": "application\/pdf"
+                }
+            ],
+            "license": "cc_by_nc_nd",
+            "content": "thesis",
+            "format": "application\/pdf",
+            "formatdesc": "Tesi_di_laurea",
+            "language": "it",
+            "security": "public",
+            "uri": "http:\/\/webthesis.biblio.polito.it\/id\/document\/161251"
+          }
+      ],
+      "datestamp": "2021-12-22 13:15:31",
+      "lastmod": "2022-01-10 08:06:59",
+      "metadata_visibility": "show",
+      "date_type": "published",
+      "ispublished": "unpub",
+      "eprint_status": "archive",
+      "date": "2021-12-17",
+      "userid": 10,
+      "cdl": [
+        "corso+di+laurea+magistrale+in+ingegneria+informatica+(computer+engineering)"
+      ],
+      "annoacc": "2021\/22",
+      "relators": [
+        {
+          "name": {
+            "given": "Luigi",
+            "family": "De Russis",
+            "honourific": null,
+            "lineage": null
+          },
+          "id": 25734
+        },
+        {
+          "name": {
+            "family": "Monge Roffarello",
+            "given": "Alberto",
+            "lineage": null,
+            "honourific": null
+          },
+          "id": null
+        }
+      ],
+      "tesi_meritoria": "FALSE",
+      "md5_tesi": "df87a8847d02b744f63ea16bd5a4589743cf82354863ae3413c6bc63727bb27aff4ecfa75819f6b8d9eedebefa5f382c532551a420691fbd58a593475fb13b1c",
+      "publication_type": "electronic",
+      "dir": "disk2\/00\/02\/11\/57",
+      "pages": 82,
+      "classes": [
+        "CLASSE_LM-32"
+      ],
+      "thesis_type": "laurea",
+      "creators": [
+        {
+          "name": {
+            "honourific": null,
+            "lineage": null,
+            "given": "Fabio",
+            "family": "Stabile"
+          },
+          "id": 270121
+        }
+      ],
+      "type": "thesis",
+      "rev_number": 1,
+      "abstract": "I dispositivi digitali sono, ormai da anni, entrati a far parte della nostra quotidianità. Le principali applicazioni di intrattenimento e social network vengono utilizzate in modo considerevole da milioni di utenti in tutto il mondo e generano enormi profitti. Queste piattaforme hanno indubbiamente facilitato aspetti della vita umana ma anche portato molti elementi di distrazione. Da diversi anni il benessere digitale è diventato un argomento sempre più discusso e attenzionato, sia in ambito accademico che dai protagonisti del settore tecnologico. Con il termine “benessere digitale” si intende la capacità dell’utente di saper sfruttare nel modo corretto le tecnologie odierne essendo in grado di regolarne gli effetti sul suo comportamento. I siti web hanno però interesse nel mantenere l’utente il più possibile sulla piattaforma per produrre un maggior guadagno. Per far questo spesso utilizzano debolezze psicologiche e funzionamenti della mente umana per catturare l’utente e mantenerlo sulla piattaforma. La tesi si prefigge prima di tutto l’obiettivo di analizzare i principali meccanismi utilizzati dai siti web di intrattenimento e social network per guidare l’attenzione dell’utente e prolungarne la permanenza. Tale analisi viene condotta consultando studi di settore e analizzando in prima persona i siti web più utilizzati, e ha lo scopo di raggiungere una classificazione per lo più esaustiva dei principali meccanismi utilizzati. Successivamente vengono presentate delle soluzioni al fine di limitare gli effetti di tali meccanismi, così da migliorare il benessere digitale dell’utente e promuovere un utilizzo più significativo. Infine si presenta l’estensione per browser inControl sviluppata appositamente per il lavoro di tesi. Con essa si cerca di fornire delle soluzioni concrete per limitare gli effetti di sistemi di raccomandazione, infinite scrolling e pagine con funzionalità multiple, sui siti web di YouTube e Facebook. Segue la descrizione della fase di test condotta sull’estensione da un gruppo di studenti universitari con lo scopo di valutare l’efficacia delle soluzioni proposte durante un utilizzo quotidiano. Conclude il lavoro di tesi una discussione in merito ai risultati ottenuti dalla fase di test.",
+      "institution": "Politecnico di Torino",
+      "gesd": 1,
+      "full_text_status": "public",
+      "eprintid": 21157
+    },
+    {
+      "datestamp": "2021-10-28 11:48:56",
+      "title": "Analisi del comportamento dei clienti di un e-commerce per prevedere le intenzioni d'acquisto = Behavioral analysis of an e-commerce customers to predict purchase intentions",
+      "uri": "http:\/\/webthesis.biblio.polito.it\/id\/eprint\/20603",
+      "status_changed": "2021-11-05 08:17:46",
+      "documents": [
+          {
+            "pos": 1,
+            "placement": 1,
+            "docid": 158389,
+            "rev_number": 1,
+            "main": "tesi.pdf",
+            "eprintid": 20603,
+            "security": "public",
+            "language": "it",
+            "uri": "http:\/\/webthesis.biblio.polito.it\/id\/document\/158389",
+            "files": [
+                {
+                  "mtime": "2021-11-05 08:17:46",
+                  "datasetid": "document",
+                  "uri": "http:\/\/webthesis.biblio.polito.it\/id\/file\/215391",
+                  "fileid": 215391,
+                  "filename": "tesi.pdf",
+                  "hash": "5d22744f306739faafbd29b5b8f4ce0a",
+                  "hash_type": "MD5",
+                  "filesize": 1807940,
+                  "objectid": 158389,
+                  "mime_type": "application\/pdf"
+                }
+            ],
+            "format": "application\/pdf",
+            "formatdesc": "Tesi_di_laurea",
+            "license": "cc_by_nc_nd",
+            "content": "thesis"
+          }
+      ],
+      "metadata_visibility": "show",
+      "ispublished": "unpub",
+      "date_type": "published",
+      "eprint_status": "archive",
+      "lastmod": "2021-11-05 08:17:46",
+      "cdl": [
+        "corso+di+laurea+magistrale+in+ingegneria+informatica+(computer+engineering)"
+      ],
+      "annoacc": "2021\/22",
+      "tesi_meritoria": "FALSE",
+      "relators": [
+        {
+          "id": 25734,
+          "name": {
+            "given": "Luigi",
+            "family": "De Russis",
+            "honourific": null,
+            "lineage": null
+          }
+        }
+      ],
+      "publication_type": "electronic",
+      "md5_tesi": "9d302f08b701109c6018f94d48bbb74bb28b9059a42957bb43c4afbde7805c647168c3c6a723eb2242b483d0674dd4c16ce3c9874559a03a3b2f364e9495f0bc",
+      "date": "2021-10-26",
+      "aziende": [
+        "Zero11  srl"
+      ],
+      "userid": 10,
+      "rev_number": 1,
+      "type": "thesis",
+      "institution": "Politecnico di Torino",
+      "abstract": "La User Experience (UX) in un sito di e-commerce è fondamentale per favorire la conversione dei visitatori in compratori, per massimizzare le vendite e per garantire la soddisfazione i clienti. L'intelligenza artificiale permette di analizzare i dati di navigazione degli utilizzatori dei siti e-commerce identificando comportamenti di acquisto omogenei. L'ipotesi di questo progetto di ricerca sperimentale è che utilizzando tecniche di intelligenza artificiale sia possibile realizzare una analisi prescrittiva dei comportamenti di acquisto che consenta di offrire customer journey e customer experience (CX) personalizzate ed ottimizzate attraverso la modifica dinamica degli elementi di UI con cui il visitatore interagisce.",
+      "gesd": 1,
+      "eprintid": 20603,
+      "full_text_status": "public",
+      "dir": "disk2\/00\/02\/06\/03",
+      "pages": 94,
+      "classes": [
+        "CLASSE_LM-32"
+      ],
+      "creators": [
+        {
+          "id": 267562,
+          "name": {
+            "honourific": null,
+            "lineage": null,
+            "given": "Simone",
+            "family": "Sinagra"
+          }
+        }
+      ],
+      "thesis_type": "laurea"
+    },
+    {
+      "datestamp": "2021-10-28 11:46:15",
+      "documents": [
+          {
+            "placement": 1,
+            "pos": 1,
+            "docid": 158377,
+            "rev_number": 1,
+            "main": "tesi.pdf",
+            "eprintid": 20598,
+            "security": "public",
+            "language": "it",
+            "uri": "http:\/\/webthesis.biblio.polito.it\/id\/document\/158377",
+            "files": [
+                {
+                  "objectid": 158377,
+                  "hash_type": "MD5",
+                  "filesize": 4003262,
+                  "mime_type": "application\/pdf",
+                  "datasetid": "document",
+                  "mtime": "2021-11-05 08:17:31",
+                  "fileid": 215374,
+                  "uri": "http:\/\/webthesis.biblio.polito.it\/id\/file\/215374",
+                  "filename": "tesi.pdf",
+                  "hash": "8f43fb65aed375d7be7eac5d4be569e6"
+                }
+            ],
+            "formatdesc": "Tesi_di_laurea",
+            "format": "application\/pdf",
+            "license": "cc_by_nc_nd",
+            "content": "thesis"
+          }
+      ],
+      "status_changed": "2021-11-05 08:17:30",
+      "uri": "http:\/\/webthesis.biblio.polito.it\/id\/eprint\/20598",
+      "title": "Conversational Agents for Creating Personalization Rules in the IoT",
+      "eprint_status": "archive",
+      "date_type": "published",
+      "ispublished": "unpub",
+      "metadata_visibility": "show",
+      "lastmod": "2021-11-05 08:17:31",
+      "md5_tesi": "eac603d70439d36ae4eec39f1c463f075659af2aeed98f943182bc1f2096c2980d20d9884978b370fa6598b6db8480d189ba1dae16d04a6ee96805485e4b67c5",
+      "publication_type": "electronic",
+      "relators": [
+        {
+          "name": {
+            "given": "Luigi",
+            "family": "De Russis",
+            "honourific": null,
+            "lineage": null
+          },
+          "id": 25734
+        },
+        {
+          "id": null,
+          "name": {
+            "lineage": null,
+            "honourific": null,
+            "family": "Monge Roffarello",
+            "given": "Alberto"
+          }
+        }
+      ],
+      "tesi_meritoria": "FALSE",
+      "annoacc": "2021\/22",
+      "cdl": [
+        "corso+di+laurea+magistrale+in+ingegneria+informatica+(computer+engineering)"
+      ],
+      "userid": 10,
+      "date": "2021-10-26",
+      "full_text_status": "public",
+      "eprintid": 20598,
+      "gesd": 1,
+      "abstract": "Smart speakers, such as Google Home or Amazon Echo, are entering our homes and enriching the ecosystem of the Internet of Things (IoT) already present in them. The Intelligent Personal Assistants (IPAs) they include allow users to ask for different information (e.g. the weather or a recipe), set reminders and lists, and directly control other IoT devices (e.g. lamps). These assistants, through a companion app installed on the owner’s smartphone, provide advanced features like the possibility to set up some personalization rules in the form of trigger-action: if something happens, then do something else.  In alternatives, there are visual programming tools such as IFFTT or Node-RED that allow for more complex management of IoT by creating also complicated rules, but these tools lack simple management and require some effort by less technical users.  The voice processing capabilities of the IPAs and their knowledge of the IoT ecosystem in which they are inserted could be exploited for the creation of the rules through a purely vocal interaction.    This thesis aims to explore novel approaches for creating personalization rules through conversation between the user and an IPA. To this end, interviews were held focused on identifying a set of strategies used to create rules in trigger-action format by voice. Later the study illustrates the design and the implementation of two prototypes with different rules composition approaches: one completely based on voice interaction and the other requiring physical action on home devices to show the IPA what to do. The work continues with the evaluation conducted through an in-the-lab experiment with 10 users; the evaluation focused on the usability and the efficiency of the conversational agents, then we have carried out a comparison between the interfaces based on the considerations and the results achieved by testing.",
+      "institution": "Politecnico di Torino",
+      "type": "thesis",
+      "rev_number": 1,
+      "thesis_type": "laurea",
+      "creators": [
+        {
+          "id": 270097,
+          "name": {
+            "family": "Borsarelli",
+            "given": "Carlo",
+            "lineage": null,
+            "honourific": null
+          }
+        }
+      ],
+      "classes": [
+        "CLASSE_LM-32"
+      ],
+      "pages": 91,
+      "dir": "disk2\/00\/02\/05\/98"
+    },
+    {
+      "cdl": [
+        "corso+di+laurea+magistrale+in+ingegneria+informatica+(computer+engineering)"
+      ],
+      "annoacc": "2021\/22",
+      "tesi_meritoria": "FALSE",
+      "relators": [
+        {
+          "id": 25734,
+          "name": {
+            "given": "Luigi",
+            "family": "De Russis",
+            "honourific": null,
+            "lineage": null
+          }
+        },
+        {
+          "name": {
+            "family": "Monge Roffarello",
+            "given": "Alberto",
+            "lineage": null,
+            "honourific": null
+          },
+          "id": null
+        }
+      ],
+      "md5_tesi": "8bb341ff3a64552f74183fbd4011cfd26ba9eecbacf38cd19e4f373cab8c15708ee6c8755782ec186d60f104d09c7f00be11ebbeec2f0f2b34f951540a0f4974",
+      "publication_type": "electronic",
+      "userid": 10,
+      "date": "2021-10-26",
+      "type": "thesis",
+      "rev_number": 1,
+      "abstract": "La presenza pervasiva della tecnologia nello svolgimento delle attività giornaliere può diventare un ostacolo per il conseguimento degli obiettivi personali e lavorativi. Per questo motivo viene dedicata sempre più attenzione da parte del mondo della ricerca e dello sviluppo software al concetto di Benessere Digitale ovvero la capacità di creare e mantenere una relazione sana con la tecnologia.  Attualmente sono disponibili sul mercato diversi strumenti detti Digital Self-Control Tool (DSCT) per controllare e monitorare l’utilizzo di smartphone e\/o pc. Tali strumenti, pur avendo un bacino di utenza molto ampio, spesso non raggiungono l’efficacia sperata, evidenziando la necessità di ampliare la portata delle tecniche utilizzate nello sviluppo futuro di DSCT, accostando nuove misure ed incentivi ai semplici meccanismi di blocco.    Lo scopo di questa tesi è quello di esplorare delle soluzioni innovative, che incorporino principi appartenenti a teorie non tradizionalmente associate al Benessere Digitale al fine di promuovere un utilizzo più consapevole ed equilibrato della tecnologia nel contesto del lavoro da remoto. Tali teorie sono: Behavioral Activation - un tipo di terapia tradizionalmente utilizzata per trattare la depressione - e Time Blocking - una tecnica appartenente al dominio della produttività.    Nello specifico l'obiettivo della tesi è quello di contrastare l'impatto negativo di alcune delle criticità emerse nel contesto del lavoro da remoto: Minor equilibrio vita-lavoro e Maggiori Distrazioni, incentivando una distinzione più netta tra gli intervalli di tempo dedicati al lavoro e quelli dedicati alle attività personali e limitando le distrazioni nei momenti di concentrazione per favorire lo sviluppo ed il mantenimento di abitudini digitali sane.  Il DSCT sviluppato applicando le soluzioni individuate, “Focused Moments” è pensato per un bacino di utenza costituito da studenti e lavoratori che utilizzano quotidianamente il pc ed internet ed hanno quindi familiarità con diversi Social Network e la suite di Google. Questo strumento permetterà agli utenti di programmare delle sessioni di lavoro e, per ciascuna, imporre degli interventi come un blocco o un limite di utilizzo per determinati siti.  I passi principali della tesi hanno incluso:  1.??Analisi della letteratura scientifica disponibile, per ottenere una panoramica delle strategie implementate dai DSCT esistenti e delle teorie impiegate.  2.??Design, in questa fase sono state definite le strategie adottate dal DSCT partendo dalle teorie esaminate al punto precedente.   3.??Implementazione delle strategie definite al punto 2.  4.??Valutazione dell’usabilità e dell’efficacia del DSCT, realizzato attraverso uno studio utente.",
+      "institution": "Politecnico di Torino",
+      "gesd": 1,
+      "full_text_status": "public",
+      "eprintid": 20605,
+      "dir": "disk2\/00\/02\/06\/05",
+      "pages": 71,
+      "classes": [
+        "CLASSE_LM-32"
+      ],
+      "thesis_type": "laurea",
+      "creators": [
+        {
+          "id": 255190,
+          "name": {
+            "family": "Zonno",
+            "given": "Eleonora",
+            "lineage": null,
+            "honourific": null
+          }
+        }
+      ],
+      "datestamp": "2021-10-28 11:50:02",
+      "title": "Metodi innovativi per il benessere digitale nel lavoro da remoto = Behavioral Activation and Time Blocking for Digital Wellbeing at Work",
+      "status_changed": "2021-11-05 08:17:51",
+      "uri": "http:\/\/webthesis.biblio.polito.it\/id\/eprint\/20605",
+      "documents": [
+          {
+            "main": "tesi.pdf",
+            "eprintid": 20605,
+            "rev_number": 1,
+            "docid": 158391,
+            "placement": 1,
+            "pos": 1,
+            "formatdesc": "Tesi_di_laurea",
+            "format": "application\/pdf",
+            "license": "cc_by_nc_nd",
+            "content": "thesis",
+            "files": [
+                {
+                  "mime_type": "application\/pdf",
+                  "filesize": 4370915,
+                  "hash_type": "MD5",
+                  "objectid": 158391,
+                  "uri": "http:\/\/webthesis.biblio.polito.it\/id\/file\/215395",
+                  "filename": "tesi.pdf",
+                  "hash": "0841595ea215d70ddf775164711b6159",
+                  "fileid": 215395,
+                  "mtime": "2021-11-05 08:17:52",
+                  "datasetid": "document"
+                }
+            ],
+            "uri": "http:\/\/webthesis.biblio.polito.it\/id\/document\/158391",
+            "security": "public",
+            "language": "it"
+          }
+      ],
+      "metadata_visibility": "show",
+      "date_type": "published",
+      "ispublished": "unpub",
+      "eprint_status": "archive",
+      "lastmod": "2021-11-05 08:17:52"
+    },
+    {
+      "title": "StepByStep: un'applicazione educativa per il Digital Wellbeing = StepByStep: an educational application for Digital Wellbeing",
+      "documents": [
+          {
+            "uri": "http:\/\/webthesis.biblio.polito.it\/id\/document\/158388",
+            "language": "it",
+            "security": "public",
+            "license": "cc_by_nc_nd",
+            "content": "thesis",
+            "formatdesc": "Tesi_di_laurea",
+            "format": "application\/pdf",
+            "files": [
+                {
+                  "uri": "http:\/\/webthesis.biblio.polito.it\/id\/file\/215389",
+                  "fileid": 215389,
+                  "filename": "tesi.pdf",
+                  "hash": "11dc0438c55d177df02127bac3bae8c1",
+                  "mtime": "2021-11-05 08:17:43",
+                  "datasetid": "document",
+                  "mime_type": "application\/pdf",
+                  "hash_type": "MD5",
+                  "filesize": 5198446,
+                  "objectid": 158388
+                }
+            ],
+            "docid": 158388,
+            "placement": 1,
+            "pos": 1,
+            "eprintid": 20602,
+            "main": "tesi.pdf",
+            "rev_number": 1
+          }
+      ],
+      "uri": "http:\/\/webthesis.biblio.polito.it\/id\/eprint\/20602",
+      "status_changed": "2021-11-05 08:17:43",
+      "datestamp": "2021-10-28 11:48:15",
+      "lastmod": "2021-11-05 08:17:44",
+      "metadata_visibility": "show",
+      "eprint_status": "archive",
+      "ispublished": "unpub",
+      "date_type": "published",
+      "date": "2021-10-26",
+      "userid": 10,
+      "annoacc": "2021\/22",
+      "cdl": [
+        "corso+di+laurea+magistrale+in+ingegneria+informatica+(computer+engineering)"
+      ],
+      "publication_type": "electronic",
+      "md5_tesi": "0465a5e22d859a191f38bbbc37e7de1872a82b6deec67590928b4902cb37ab413f7e6743ec5737e065118e03ac94bdbecb6896c55a3e8761a768a07b94867373",
+      "tesi_meritoria": "FALSE",
+      "relators": [
+        {
+          "id": 25734,
+          "name": {
+            "family": "De Russis",
+            "given": "Luigi",
+            "lineage": null,
+            "honourific": null
+          }
+        },
+        {
+          "name": {
+            "family": "Monge Roffarello",
+            "given": "Alberto",
+            "lineage": null,
+            "honourific": null
+          },
+          "id": null
+        }
+      ],
+      "pages": 83,
+      "dir": "disk2\/00\/02\/06\/02",
+      "creators": [
+        {
+          "id": 262888,
+          "name": {
+            "honourific": null,
+            "lineage": null,
+            "given": "Giulio",
+            "family": "Piacentini"
+          }
+        }
+      ],
+      "thesis_type": "laurea",
+      "classes": [
+        "CLASSE_LM-32"
+      ],
+      "institution": "Politecnico di Torino",
+      "abstract": "Il presente lavoro di tesi si colloca nell'ambito del Digital Wellbeing, con la finalità di sviluppare e valutare un'applicazione mobile che svolga un ruolo di supporto per aiutare l'utente a imparare e mantenere sane abitudini tecnologiche con il proprio smartphone.    Nella prima parte verranno esposte le principali teorie su cui si basa l'applicazione, con un particolare focus sul loro utilizzo in ambito di Digital Wellbeing. In particolare la Dual-System Theory e l'Habit Alteration Model rappresentano il backround in sui si colloca questo lavoro.  In seguito si esporranno le fasi di progettazione e implementazione dell'applicazione, a cui è stato dato il nome StepByStep.   Infine, verranno discussi i risultati del test compiuto su un campione di utenti con il fine di valutare la sua usabilità ed efficacia.",
+      "rev_number": 1,
+      "type": "thesis",
+      "eprintid": 20602,
+      "full_text_status": "public",
+      "gesd": 1
+    },
+    {
+      "aziende": [
+        "Cluster Reply Srl"
+      ],
+      "userid": 10,
+      "date": "2021-07-27",
+      "relators": [
+        {
+          "name": {
+            "honourific": null,
+            "lineage": null,
+            "given": "Luigi",
+            "family": "De Russis"
+          },
+          "id": 25734
+        }
+      ],
+      "tesi_meritoria": "FALSE",
+      "publication_type": "electronic",
+      "md5_tesi": "0fca2fc040f63d6cad7b9d4e8f01969a1e5df71c13d65df3f7a14d979f1715ac5c42f280f50ead1bcede1407f134eb75d3307d1bab5288152499a66e07fd897a",
+      "cdl": [
+        "corso+di+laurea+magistrale+in+ingegneria+informatica+(computer+engineering)"
+      ],
+      "annoacc": "2020\/21",
+      "classes": [
+        "CLASSE_LM-32"
+      ],
+      "creators": [
+        {
+          "name": {
+            "honourific": null,
+            "lineage": null,
+            "given": "Andrea",
+            "family": "Scibetta"
+          },
+          "id": 250729
+        }
+      ],
+      "thesis_type": "laurea",
+      "dir": "disk2\/00\/01\/92\/11",
+      "pages": 62,
+      "gesd": 1,
+      "eprintid": 19211,
+      "full_text_status": "public",
+      "rev_number": 1,
+      "type": "thesis",
+      "institution": "Politecnico di Torino",
+      "abstract": "With the advent of COVID19 and lockdown, issues about home working and smart working became a main topic. Many companies found themselves in the need of some support solution for the employees, that can give them not only instruments for communication, but a central hub that may be a common interface between departments, trying to ease daily work life.     This thesis has the goal of proposing a solution to improve the interaction of employees with an external news feed, making it simpler and more comfortable to use in a smart working condition. Basing on a real use case, we started the existing solution based on an intranet “legacy” and we studied a solution easier to use also in a multi-device fruition from home, with many fresh functionalities. To make these, we considered the cloud platforms adopted by the company and so already available and familiar to the employees. In this context we studied which one could satisfy the requests in the better way, both in terms of technology, security and user experience. After analyzing the situation, the state of the art and the possible solutions, we opted for Microsoft Teams, platform largely used for company 1:1 communication, but also capable to provide also the requested functionalities. In this way we created a direct channel, immediate and familiar, for company-employee communication. From a practical point of view we can obtain this result with an app that can embed the news flow and many related functionalities.     In the months of lockdown, Microsoft Teams platform has been at the forefront in providing support to companies that suddenly had to front the remote working. Also, in the specific use case Teams was already largely used as a communication instrument. However, in the present context it became much more important, becoming the central hub for everyday work life.     For these reasons, in this thesis we’re going to explore the potentials of the platform, and to analyze the benefit that it’s adoption can bring in a business context. During the development of the thesis, the candidate will take care of the following activities:     Analysis of the business need in the specific use case and the possible solutions to the problems, based on the current state of the art     Analysis of Teams environment, its base functionalities, its integration with Microsoft 365 and its user experience     Analysis and description of the possibilities of integration with the business environment     Implementation of an app proof of concept that allow to interact through Microsoft Teams with a flow of business news     Analysis of the impact and improvements that this new interface could have on everyday work life     The goal of the thesis is to analyze the real problem and propose a solution. In particular the proof of concept that will be realized using Microsoft Teams will be applied to an intranet company context, allowing to change the way human resources department communicates with the rest of the employees. With our solution we want to substitute the traditional email and flat fruition of content through a web interface, with a new and fresh solution, realized through the integration in Teams.     We’re going to analyze the real context of business communication, focusing on the “company news” concept, at the beginning based on a “legacy” technology. We’ll define the technologic perimeter that will be adopted to implement this news flow on Microsoft Teams, and how this can enrich and innovate the experience",
+      "uri": "http:\/\/webthesis.biblio.polito.it\/id\/eprint\/19211",
+      "status_changed": "2021-08-16 15:15:21",
+      "documents": [
+          {
+            "docid": 152155,
+            "placement": 1,
+            "pos": 1,
+            "eprintid": 19211,
+            "main": "tesi.pdf",
+            "rev_number": 1,
+            "uri": "http:\/\/webthesis.biblio.polito.it\/id\/document\/152155",
+            "language": "it",
+            "security": "public",
+            "license": "cc_by_nc_nd",
+            "content": "thesis",
+            "formatdesc": "Tesi_di_laurea",
+            "format": "application\/pdf",
+            "files": [
+                {
+                  "mime_type": "application\/pdf",
+                  "objectid": 152155,
+                  "hash_type": "MD5",
+                  "filesize": 2532648,
+                  "filename": "tesi.pdf",
+                  "uri": "http:\/\/webthesis.biblio.polito.it\/id\/file\/207638",
+                  "fileid": 207638,
+                  "hash": "7e8a41d9a01bd392beba9293c8182e6c",
+                  "datasetid": "document",
+                  "mtime": "2021-08-16 15:15:21"
+                }
+            ]
+          }
+      ],
+      "title": "Improving company communication for remote working: a use case",
+      "datestamp": "2021-07-29 10:25:26",
+      "lastmod": "2021-08-16 15:15:21",
+      "ispublished": "unpub",
+      "date_type": "published",
+      "eprint_status": "archive",
+      "metadata_visibility": "show"
+    },
+    {
+      "title": "Modelli predittivi della saliency nelle rappresentazioni grafiche dei dati  = Predictive models of saliency in abstract data visualizations",
+      "uri": "http:\/\/webthesis.biblio.polito.it\/id\/eprint\/17340",
+      "status_changed": "2021-04-09 06:21:27",
+      "documents": [
+          {
+            "rev_number": 1,
+            "eprintid": 17340,
+            "main": "tesi.pdf",
+            "placement": 1,
+            "pos": 1,
+            "docid": 142788,
+            "files": [
+                {
+                  "datasetid": "document",
+                  "mtime": "2021-04-09 06:21:27",
+                  "fileid": 195678,
+                  "uri": "http:\/\/webthesis.biblio.polito.it\/id\/file\/195678",
+                  "hash": "e49162ccfbd55737fc2261504fb6542b",
+                  "filename": "tesi.pdf",
+                  "objectid": 142788,
+                  "hash_type": "MD5",
+                  "filesize": 11965610,
+                  "mime_type": "application\/pdf"
+                }
+            ],
+            "license": "cc_by_nc_nd",
+            "content": "thesis",
+            "format": "application\/pdf",
+            "formatdesc": "Tesi_di_laurea",
+            "language": "it",
+            "security": "public",
+            "uri": "http:\/\/webthesis.biblio.polito.it\/id\/document\/142788"
+          }
+      ],
+      "datestamp": "2021-04-01 14:02:52",
+      "lastmod": "2021-04-09 06:21:28",
+      "metadata_visibility": "show",
+      "ispublished": "unpub",
+      "date_type": "published",
+      "eprint_status": "archive",
+      "userid": 10,
+      "date": "2021-03-19",
+      "cdl": [
+        "corso+di+laurea+magistrale+in+ingegneria+matematica"
+      ],
+      "annoacc": "2020\/21",
+      "relators": [
+        {
+          "name": {
+            "lineage": null,
+            "honourific": null,
+            "family": "Corno",
+            "given": "Fulvio"
+          },
+          "id": 2154
+        },
+        {
+          "id": 25734,
+          "name": {
+            "family": "De Russis",
+            "given": "Luigi",
+            "lineage": null,
+            "honourific": null
+          }
+        },
+        {
+          "name": {
+            "family": "Barrera Leon",
+            "given": "Luisa Fernanda",
+            "lineage": null,
+            "honourific": null
+          },
+          "id": 50419
+        }
+      ],
+      "tesi_meritoria": "FALSE",
+      "publication_type": "electronic",
+      "md5_tesi": "0faf8834504aa4e662d5d31a6c46ddc77ad3b6cecc4b1f8fe20df75813ef562492809062dc6ec3a580d4c47cedbeadf8f0222120e4c4a31845e2f75059cf64bc",
+      "dir": "disk1\/00\/01\/73\/40",
+      "pages": 58,
+      "classes": [
+        "CLASSE_LM-44"
+      ],
+      "creators": [
+        {
+          "name": {
+            "honourific": null,
+            "lineage": null,
+            "given": "Samuel",
+            "family": "Grassi"
+          },
+          "id": 267372
+        }
+      ],
+      "thesis_type": "laurea",
+      "rev_number": 1,
+      "type": "thesis",
+      "institution": "Politecnico di Torino",
+      "abstract": "L’obiettivo di questo lavoro di tesi è quello di approfondire ed entrare nel dettaglio dell’argomento della saliency nell’analisi e nella distribuzione dei punti di fissazione di un osservatore su grafici di business. Inizialmente il focus era quello di cercare di trovare un algoritmo competitivo con alcuni modelli sulla saliency visiva già proposti (Itti, Matzen), ma in seguito, dopo aver analizzato i risultati su un dataset già esistente (MASSVIS), ci si è concentrati sul valutare attentamente le performance di questi modelli già esistenti su un nuovo esperimento creato e controllato da noi.  Infine, alla luce di quanto trovato e del materiale prodotto, il lavoro si conclude con alcuni spunti e proposte contenenti alcune indicazioni sulle quali ci si potrebbe andare a focalizzare per produrre una modifica che effettivamente sia confrontabile o addirittura migliore di ciò che è già disponibile.",
+      "gesd": 1,
+      "eprintid": 17340,
+      "full_text_status": "public"
+    },
+    {
+      "annoacc": "2020\/21",
+      "cdl": [
+        "corso+di+laurea+magistrale+in+ingegneria+informatica+(computer+engineering)"
+      ],
+      "publication_type": "electronic",
+      "md5_tesi": "0bb044bac1e78e13ced79eb207f0370da8837cd2f285d76938df0f1d3303a7262e80542c3419e543571d76aeff6c7df20c382b8c30bb2530f6231ae8010ff6d7",
+      "tesi_meritoria": "FALSE",
+      "relators": [
+        {
+          "name": {
+            "lineage": null,
+            "honourific": null,
+            "family": "De Russis",
+            "given": "Luigi"
+          },
+          "id": 25734
+        },
+        {
+          "id": 40637,
+          "name": {
+            "family": "Monge Roffarello",
+            "given": "Alberto",
+            "lineage": null,
+            "honourific": null
+          }
+        }
+      ],
+      "date": "2020-10-23",
+      "userid": 10,
+      "institution": "Politecnico di Torino",
+      "abstract": "Many studies about digital wellbeing and related tools mainly focus on the interaction between the user and a single device. In the modern multi-device world, the definitions of digital “habit”, “overuse”, “addiction” look reductive if uniquely related to the smartphone. Nowadays, people deal with more than one type of device, e.g. smartphone, PC, tablet, smartwatch, smart TV and often use them in a concurrent way, thus motivating the need for exploring digital wellbeing in a multi-device setting.  In this thesis, I analysed the literature referred to digital wellbeing, searching for some studies that include multi-device and cross-device environments, with the aim to define in a rigorous way the concept of multi-device digital habit, and the self-control strategies that can be adopted in a multi-device environment.  Afterwards, I present a prototype of multi-device tool, “FeelHabits”, built with for improving those digital habits that involve both the PC and the smartphone. The thesis presents the results of a test of the tool, conducted on a small number of users, evaluating the effectiveness of the built system and assessing the future potentiality of designing multi-device Digital Self Control Tools.",
+      "rev_number": 1,
+      "type": "thesis",
+      "eprintid": 15976,
+      "full_text_status": "public",
+      "gesd": 1,
+      "pages": 88,
+      "dir": "disk1\/00\/01\/59\/76",
+      "creators": [
+        {
+          "id": 248208,
+          "name": {
+            "family": "Bravo",
+            "given": "Elia",
+            "lineage": null,
+            "honourific": null
+          }
+        }
+      ],
+      "thesis_type": "laurea",
+      "classes": [
+        "CLASSE_LM-32"
+      ],
+      "datestamp": "2020-10-30 14:04:57",
+      "title": "Towards Designing Multi-Device Digital Self-Control Tools",
+      "documents": [
+          {
+            "rev_number": 1,
+            "main": "tesi.pdf",
+            "eprintid": 15976,
+            "pos": 1,
+            "placement": 1,
+            "docid": 135857,
+            "files": [
+                {
+                  "mime_type": "application\/pdf",
+                  "objectid": 135857,
+                  "filesize": 2659598,
+                  "hash_type": "MD5",
+                  "uri": "http:\/\/webthesis.biblio.polito.it\/id\/file\/187079",
+                  "filename": "tesi.pdf",
+                  "hash": "6ccdc7e9764ad1b0b9e4fe85a24c87fd",
+                  "fileid": 187079,
+                  "datasetid": "document",
+                  "mtime": "2020-11-04 08:02:30"
+                }
+            ],
+            "formatdesc": "Tesi_di_laurea",
+            "format": "application\/pdf",
+            "license": "cc_by_nc_nd",
+            "content": "thesis",
+            "security": "public",
+            "language": "it",
+            "uri": "http:\/\/webthesis.biblio.polito.it\/id\/document\/135857"
+          }
+      ],
+      "uri": "http:\/\/webthesis.biblio.polito.it\/id\/eprint\/15976",
+      "status_changed": "2020-11-04 08:02:30",
+      "metadata_visibility": "show",
+      "eprint_status": "archive",
+      "ispublished": "unpub",
+      "date_type": "published",
+      "lastmod": "2020-11-04 08:02:30"
+    },
+    {
+      "annoacc": "2020\/21",
+      "cdl": [
+        "corso+di+laurea+magistrale+in+ingegneria+gestionale"
+      ],
+      "md5_tesi": "b30a3bbc90bf434b156590e6a5434e0dd214748ee81dd5ce1cb50a088a315f5c7f5be71a5dff97f82148fd396c3b93907a141e905a7926feafb6ce23895de4d5",
+      "publication_type": "electronic",
+      "relators": [
+        {
+          "name": {
+            "given": "Laura",
+            "family": "Farinetti",
+            "honourific": null,
+            "lineage": null
+          },
+          "id": 2236
+        },
+        {
+          "id": 25734,
+          "name": {
+            "lineage": null,
+            "honourific": null,
+            "family": "De Russis",
+            "given": "Luigi"
+          }
+        }
+      ],
+      "tesi_meritoria": "FALSE",
+      "date": "2020-10-21",
+      "userid": 10,
+      "abstract": "Studio e sperimentazione di quali messaggi d’errore relativi a query SQL siano più utili e comprensibili dal punto di vista dell’apprendimento del linguaggio.  In particolare, il lavoro parte da un’analisi della letteratura inerente alla classificazione ed all’interpretazione di errori relativi a SQL, con l’obiettivo di identificare o formalizzare una classificazione di possibili errori. A valle di questa fase, avvalendosi di un dataset reale di query SQL errate, si cercherà di classificare gli errori forniti da diversi DBMS e valutare messaggi che siano più comprensibili rispetto a quelli standard dei DBMS per una persona che stia imparando a usare il linguaggio SQL. I messaggi di errore forniti da un DBMS, infatti, hanno un ruolo in come gli studenti cercheranno di correggere la propria query non corretta.",
+      "institution": "Politecnico di Torino",
+      "type": "thesis",
+      "rev_number": 1,
+      "full_text_status": "public",
+      "eprintid": 16067,
+      "gesd": 1,
+      "pages": 141,
+      "dir": "disk1\/00\/01\/60\/67",
+      "thesis_type": "laurea",
+      "creators": [
+        {
+          "name": {
+            "given": "Stefana Alina",
+            "family": "Corlade",
+            "honourific": null,
+            "lineage": null
+          },
+          "id": 255034
+        }
+      ],
+      "classes": [
+        "CLASSE_LM-31"
+      ],
+      "datestamp": "2020-11-02 10:14:29",
+      "title": "Imparare SQL: verso la generazione di messaggi d'errore indipendenti dal DBMS = Learning SQL: towards generating DBMS independent error messages",
+      "documents": [
+          {
+            "main": "tesi.pdf",
+            "eprintid": 16067,
+            "rev_number": 1,
+            "docid": 135958,
+            "pos": 1,
+            "placement": 1,
+            "format": "application\/pdf",
+            "formatdesc": "Tesi_di_laurea",
+            "license": "cc_by_nc_nd",
+            "content": "thesis",
+            "files": [
+                {
+                  "hash_type": "MD5",
+                  "filesize": 2224360,
+                  "objectid": 135958,
+                  "mime_type": "application\/pdf",
+                  "mtime": "2020-11-04 08:07:05",
+                  "datasetid": "document",
+                  "uri": "http:\/\/webthesis.biblio.polito.it\/id\/file\/187273",
+                  "fileid": 187273,
+                  "filename": "tesi.pdf",
+                  "hash": "11089bdd8dbac960ab0d63a01b6d96cf"
+                }
+            ],
+            "uri": "http:\/\/webthesis.biblio.polito.it\/id\/document\/135958",
+            "security": "public",
+            "language": "it"
+          }
+      ],
+      "status_changed": "2020-11-04 08:07:05",
+      "uri": "http:\/\/webthesis.biblio.polito.it\/id\/eprint\/16067",
+      "metadata_visibility": "show",
+      "eprint_status": "archive",
+      "date_type": "published",
+      "ispublished": "unpub",
+      "lastmod": "2020-11-04 08:07:06"
+    },
+    {
+      "documents": [
+          {
+            "placement": 1,
+            "pos": 1,
+            "docid": 128480,
+            "rev_number": 1,
+            "eprintid": 14421,
+            "main": "tesi.pdf",
+            "language": "it",
+            "security": "public",
+            "uri": "http:\/\/webthesis.biblio.polito.it\/id\/document\/128480",
+            "files": [
+                {
+                  "mtime": "2020-04-27 07:45:48",
+                  "datasetid": "document",
+                  "hash": "df115f70122629be311e6c70db5047aa",
+                  "uri": "http:\/\/webthesis.biblio.polito.it\/id\/file\/177854",
+                  "fileid": 177854,
+                  "filename": "tesi.pdf",
+                  "filesize": 3148710,
+                  "hash_type": "MD5",
+                  "objectid": 128480,
+                  "mime_type": "application\/pdf"
+                }
+            ],
+            "license": "cc_by_nc_nd",
+            "content": "thesis",
+            "formatdesc": "Tesi_di_laurea",
+            "format": "application\/pdf"
+          }
+      ],
+      "uri": "http:\/\/webthesis.biblio.polito.it\/id\/eprint\/14421",
+      "status_changed": "2020-04-27 07:45:48",
+      "title": "Creative image processing algorithms for drawing robots: from raster images to vector-based graphics",
+      "datestamp": "2020-04-22 11:26:48",
+      "lastmod": "2020-04-27 07:45:49",
+      "eprint_status": "archive",
+      "ispublished": "unpub",
+      "date_type": "published",
+      "metadata_visibility": "show",
+      "date": "2020-03-27",
+      "aziende": [
+        "Makr Shakr s.r.l."
+      ],
+      "userid": 10,
+      "publication_type": "electronic",
+      "md5_tesi": "22a87043a257d3d4fa34d4c472cafaf86431f37459e5c860b01386a53c8330defc4f4e8d82022199cc12affe639825a65d846b0cbf3e6d8227a6dac09817ee6d",
+      "relators": [
+        {
+          "id": 2293,
+          "name": {
+            "lineage": null,
+            "honourific": null,
+            "family": "Montrucchio",
+            "given": "Bartolomeo"
+          }
+        },
+        {
+          "name": {
+            "family": "De Russis",
+            "given": "Luigi",
+            "lineage": null,
+            "honourific": null
+          },
+          "id": 25734
+        }
+      ],
+      "tesi_meritoria": "FALSE",
+      "annoacc": "2019\/20",
+      "cdl": [
+        "corso+di+laurea+magistrale+in+ingegneria+informatica+(computer+engineering)"
+      ],
+      "creators": [
+        {
+          "name": {
+            "honourific": null,
+            "lineage": null,
+            "given": "Barbara",
+            "family": "Munoz Viamonte"
+          },
+          "id": 243861
+        }
+      ],
+      "thesis_type": "laurea",
+      "classes": [
+        "CLASSE_LM-32"
+      ],
+      "pages": 83,
+      "dir": "disk1\/00\/01\/44\/21",
+      "eprintid": 14421,
+      "full_text_status": "public",
+      "gesd": 1,
+      "institution": "Politecnico di Torino",
+      "abstract": "Progettazione, implementazione e validazione di algoritmi per la conversione di immagini in pattern grafici disegnabili dal robot Scribit",
+      "rev_number": 1,
+      "type": "thesis"
+    },
+    {
+      "datestamp": "2019-12-19 11:16:21",
+      "documents": [
+          {
+            "pos": 1,
+            "placement": 1,
+            "docid": 121653,
+            "rev_number": 1,
+            "eprintid": 13193,
+            "main": "tesi.pdf",
+            "language": "it",
+            "security": "public",
+            "uri": "http:\/\/webthesis.biblio.polito.it\/id\/document\/121653",
+            "files": [
+                {
+                  "mime_type": "application\/pdf",
+                  "objectid": 121653,
+                  "filesize": 9760500,
+                  "hash_type": "MD5",
+                  "uri": "http:\/\/webthesis.biblio.polito.it\/id\/file\/169659",
+                  "filename": "tesi.pdf",
+                  "fileid": 169659,
+                  "hash": "87cac423e2033b64bdc0dd8a73d6427e",
+                  "datasetid": "document",
+                  "mtime": "2020-01-07 08:45:16"
+                }
+            ],
+            "content": "thesis",
+            "license": "cc_by_nc_nd",
+            "format": "application\/pdf",
+            "formatdesc": "Tesi_di_laurea"
+          }
+      ],
+      "uri": "http:\/\/webthesis.biblio.polito.it\/id\/eprint\/13193",
+      "status_changed": "2020-01-07 08:45:15",
+      "title": "A semi-automatic multi agent intelligent system for production processes",
+      "eprint_status": "archive",
+      "ispublished": "unpub",
+      "date_type": "published",
+      "metadata_visibility": "show",
+      "lastmod": "2020-01-07 08:45:17",
+      "publication_type": "electronic",
+      "md5_tesi": "45d80a8851812d80623f5a890f89070f294dc179950bdf2a89b56a363c190056ea556085f3a835f4c86f1af47c34e2603714f902d188e74e37aedd8393be6532",
+      "tesi_meritoria": "FALSE",
+      "relators": [
+        {
+          "name": {
+            "lineage": null,
+            "honourific": null,
+            "family": "Corno",
+            "given": "Fulvio"
+          },
+          "id": 2154
+        },
+        {
+          "name": {
+            "family": "De Russis",
+            "given": "Luigi",
+            "lineage": null,
+            "honourific": null
+          },
+          "id": 25734
+        }
+      ],
+      "annoacc": "2019\/20",
+      "cdl": [
+        "corso+di+laurea+magistrale+in+ingegneria+informatica+(computer+engineering)"
+      ],
+      "userid": 10,
+      "aziende": [
+        "Istituto Superiore Mario Boella"
+      ],
+      "date": "2019-12-18",
+      "eprintid": 13193,
+      "full_text_status": "public",
+      "gesd": 1,
+      "institution": "Politecnico di Torino",
+      "abstract": "With the expansion of the industry 4.0, the factories, with the aim of improving production processes, are more and more focusing on connectivity and interaction among machines and people. Multi agent systems are an example of communication between software agents and they are widely used in different domains. The objective of the thesis is to design, develop and test a multi-agent intelligent system in the context of industry 4.0. Nowadays there exists a variety of multi-agent system framework, some of them are flexible and powerful, but usually they lack of the intelligent part, the proposed platform already integrates a machine learning algorithm that can be used by the agents to take actions based on the data they are perceiving. Moreover, due to the low risk policy affecting the industry scenario, starting from a complete automation of the process is too venturesome and dangerous. So, this system provides a partial automation exploiting a human-in-the-loop model, in this way the operator has a complete control on what is happening on the plant. Each agent’s action must be validated by the supervisor before it takes effect and it is also a way to improve agent’s decision. The system was finally tested in a partially simulated environment with an unsupervised dataset, in order to show the ability of the agents to communicate among themselves and the ability to interact with the human supervisor.",
+      "rev_number": 1,
+      "type": "thesis",
+      "creators": [
+        {
+          "id": 243916,
+          "name": {
+            "family": "Turco",
+            "given": "Nunzio",
+            "lineage": null,
+            "honourific": null
+          }
+        }
+      ],
+      "thesis_type": "laurea",
+      "classes": [
+        "CLASSE_LM-32"
+      ],
+      "pages": 49,
+      "dir": "disk1\/00\/01\/31\/93"
+    },
+    {
+      "metadata_visibility": "show",
+      "eprint_status": "archive",
+      "ispublished": "unpub",
+      "date_type": "published",
+      "lastmod": "2019-04-29 07:31:58",
+      "datestamp": "2019-04-17 10:14:59",
+      "title": "Assistente conversazionale e multimodale per veicoli connessi = Multimodal Conversational Assistant for Connected Vehicles",
+      "documents": [
+          {
+            "rev_number": 1,
+            "eprintid": 10935,
+            "main": "tesi.pdf",
+            "placement": 1,
+            "pos": 1,
+            "docid": 110458,
+            "files": [
+                {
+                  "objectid": 110458,
+                  "hash_type": "MD5",
+                  "filesize": 9775053,
+                  "mime_type": "application\/pdf",
+                  "datasetid": "document",
+                  "mtime": "2019-04-29 07:31:57",
+                  "hash": "90529f6f378a8609c96f12f64c444fbe",
+                  "uri": "http:\/\/webthesis.biblio.polito.it\/id\/file\/155760",
+                  "filename": "tesi.pdf",
+                  "fileid": 155760
+                }
+            ],
+            "content": "thesis",
+            "license": "cc_by_nc_nd",
+            "formatdesc": "Tesi_di_laurea",
+            "format": "application\/pdf",
+            "language": "it",
+            "security": "public",
+            "uri": "http:\/\/webthesis.biblio.polito.it\/id\/document\/110458"
+          }
+      ],
+      "uri": "http:\/\/webthesis.biblio.polito.it\/id\/eprint\/10935",
+      "status_changed": "2019-04-29 07:31:57",
+      "institution": "Politecnico di Torino",
+      "abstract": "Ormai è all'ordine del giorno trovarsi ad utilizzare tecnologie sempre più smart, le quali se da una parte offrono tantissime funzionalità, dall'altra non sempre ne facilitano l'utilizzo. In questo senso, negli ultimi anni, l'introduzione di assistenti conversazionali ha costituito una semplificazione enorme, per l'utente finale, nell'accesso a determinate funzionalità del prodotto da lui comprato. Tali software hanno permesso di spostare l'interazione tra utente e macchina su un livello umano, infatti al fine di richiedere l'esecuzione di una determinata azione basta chiederlo a voce (o in alcuni casi basta scrivere, come nel caso dei chatbot) . La semplicità di utilizzo ha fatto sì che tali assistenti si guadagnassero il loro posto anche nel mondo automotive. La loro introduzione in tale campo era volta, inizialmente, a migliorare e semplificare l'esperienza di guida dell'utente. Purtroppo, però, le ultime versioni sul mercato hanno raggiunto questi obiettivi solo in parte. Sicuramente da un lato l'esperienza di guida è stata migliorata (e semplificata) enormemente, basti pensare alla possibilità di chiedere all'assistente di impostare una determinata destinazione per il navigatore a voce, dall'altro lato, però, le case automobilistiche hanno riempito il cruscotto dei loro veicoli con una serie di bottoni, bottoncini, leve e touch-screen, che alla fine risultano distrarre l'utilizzatore dal suo compito principale: guidare. È proprio questo il problema che questa tesi punta a risolvere, sviluppare un assistente conversazionale che non distragga il guidare e che in aggiunta alle proprietà degli altri assistenti sul mercato sia in grado di determinare se siano presenti problemi all'interno del veicolo e in caso avvisare l'utente. Le due proprietà chiave attorno le quali è stato sviluppato il lavoro, sono di conseguenza: integrazione con il veicolo e proattività.",
+      "rev_number": 1,
+      "type": "thesis",
+      "eprintid": 10935,
+      "full_text_status": "public",
+      "gesd": 1,
+      "pages": 88,
+      "dir": "disk0\/00\/01\/09\/35",
+      "creators": [
+        {
+          "name": {
+            "lineage": null,
+            "honourific": null,
+            "family": "Gallea",
+            "given": "Eugenio"
+          },
+          "id": 241876
+        }
+      ],
+      "thesis_type": "laurea",
+      "classes": [
+        "CLASSE_LM-32"
+      ],
+      "annoacc": "2018\/19",
+      "cdl": [
+        "corso+di+laurea+magistrale+in+ingegneria+informatica+(computer+engineering)"
+      ],
+      "publication_type": "electronic",
+      "md5_tesi": "0910128aa1d5756979772c5af6726f10faf0ed53aaf82c01e0f7b1f799d0965069ad0f05d4290b91df74556fc990eb99b0ac447acdfae5848897495bb6bf1b23",
+      "relators": [
+        {
+          "id": 2154,
+          "name": {
+            "family": "Corno",
+            "given": "Fulvio",
+            "lineage": null,
+            "honourific": null
+          }
+        },
+        {
+          "name": {
+            "given": "Alberto",
+            "family": "Monge Roffarello",
+            "honourific": null,
+            "lineage": null
+          },
+          "id": 40637
+        },
+        {
+          "id": 25734,
+          "name": {
+            "honourific": null,
+            "lineage": null,
+            "given": "Luigi",
+            "family": "De Russis"
+          }
+        }
+      ],
+      "tesi_meritoria": "FALSE",
+      "userid": 10,
+      "date": "2019-04-16"
+    },
+    {
+      "institution": "Politecnico di Torino",
+      "abstract": "Interfacce per End-User Debugging nel contesto Internet of Things    Negli ultimi anni il mondo dell' Internet of Things (IoT) si sta sviluppando sempre più rapidamente, contaminando ogni aspetto della vita sia da un punto di vista personale che industriale.  Questo sviluppo ha portato gli utenti finali a voler gestire in prima persona la creazione di regole utilizzate per la gestione del sistema. La creazione di queste regole avviene tramite l'uso di tool specifici di End-User Development (EUD).  Nonostante siano stati fatti molti passi in avanti per quanto riguarda i tool di EUD,  resta ancora carente l'assistenza che questi forniscono durante il processo di debug.  L'obiettivo di questa tesi è di creare un tool di End-User Debugging che aiuti un utente finale sia nella creazione di regole che nel debug di eventuali problemi che possono insorgere.  Nel corso di questa tesi verranno per prima cosa analizzate quali sono le informazioni utili all'utente in fase di debug e quale sia il linguaggio visuale migliore per rappresentarle. Successivamente sarà creato un prototipo che verrà testato con degli utenti finali.",
+      "rev_number": 1,
+      "type": "thesis",
+      "eprintid": 9554,
+      "full_text_status": "public",
+      "gesd": 1,
+      "pages": 80,
+      "dir": "disk0\/00\/00\/95\/54",
+      "creators": [
+        {
+          "id": 240244,
+          "name": {
+            "lineage": null,
+            "honourific": null,
+            "family": "Carosella",
+            "given": "Alessia"
+          }
+        }
+      ],
+      "thesis_type": "laurea",
+      "classes": [
+        "CLASSE_LM-32"
+      ],
+      "annoacc": "2018\/19",
+      "cdl": [
+        "corso+di+laurea+magistrale+in+ingegneria+informatica+(computer+engineering)"
+      ],
+      "publication_type": "electronic",
+      "md5_tesi": "b2e39979fa62730343cf49f3545da962c73cf4f5971486920c66821ce8a7f4691d7af99e0a618c88eb1b5133fc2749fbc64c963058a9e17d81cba03785d24f9c",
+      "relators": [
+        {
+          "id": 2154,
+          "name": {
+            "lineage": null,
+            "honourific": null,
+            "family": "Corno",
+            "given": "Fulvio"
+          }
+        },
+        {
+          "id": 25734,
+          "name": {
+            "lineage": null,
+            "honourific": null,
+            "family": "De Russis",
+            "given": "Luigi"
+          }
+        },
+        {
+          "name": {
+            "given": "Alberto",
+            "family": "Monge Roffarello",
+            "honourific": null,
+            "lineage": null
+          },
+          "id": 40637
+        }
+      ],
+      "tesi_meritoria": "FALSE",
+      "userid": 10,
+      "date": "2018-12-14",
+      "metadata_visibility": "show",
+      "eprint_status": "archive",
+      "ispublished": "unpub",
+      "date_type": "published",
+      "lastmod": "2019-01-08 11:33:02",
+      "datestamp": "2018-12-14 00:00:00",
+      "title": "Interfacce per End-User Debugging nel contesto Internet of Things = Interfaces for End-User Debugging in the Internet of Things",
+      "documents": [
+          {
+            "security": "public",
+            "language": "it",
+            "uri": "http:\/\/webthesis.biblio.polito.it\/id\/document\/74447",
+            "files": [
+                {
+                  "filename": "tesi.pdf",
+                  "uri": "http:\/\/webthesis.biblio.polito.it\/id\/file\/118066",
+                  "fileid": 118066,
+                  "hash": "9a45732e269034fdef9af887dca1aefa",
+                  "mtime": "2019-01-08 11:33:01",
+                  "datasetid": "document",
+                  "mime_type": "application\/pdf",
+                  "hash_type": "MD5",
+                  "filesize": 2310249,
+                  "objectid": 74447
+                }
+            ],
+            "formatdesc": "Tesi_di_laurea",
+            "format": "application\/pdf",
+            "license": "cc_by_nc_nd",
+            "content": "thesis",
+            "pos": 1,
+            "placement": 1,
+            "docid": 74447,
+            "rev_number": 1,
+            "main": "tesi.pdf",
+            "eprintid": 9554
+          }
+      ],
+      "uri": "http:\/\/webthesis.biblio.polito.it\/id\/eprint\/9554",
+      "status_changed": "2019-01-08 11:33:01"
+    },
+    {
+      "dir": "disk0\/00\/00\/94\/78",
+      "pages": 84,
+      "classes": [
+        "CLASSE_LM-32"
+      ],
+      "creators": [
+        {
+          "name": {
+            "given": "Alessia",
+            "family": "Mantovani",
+            "honourific": null,
+            "lineage": null
+          },
+          "id": 222315
+        }
+      ],
+      "thesis_type": "laurea",
+      "rev_number": 1,
+      "type": "thesis",
+      "institution": "Politecnico di Torino",
+      "abstract": "Recommending trigger-action rules for the IOT",
+      "gesd": 1,
+      "eprintid": 9478,
+      "full_text_status": "public",
+      "date": "2018-12-14",
+      "userid": 10,
+      "cdl": [
+        "corso+di+laurea+magistrale+in+ingegneria+informatica+(computer+engineering)"
+      ],
+      "annoacc": "2018\/19",
+      "tesi_meritoria": "FALSE",
+      "relators": [
+        {
+          "name": {
+            "family": "Corno",
+            "given": "Fulvio",
+            "lineage": null,
+            "honourific": null
+          },
+          "id": 2154
+        },
+        {
+          "name": {
+            "given": "Luigi",
+            "family": "De Russis",
+            "honourific": null,
+            "lineage": null
+          },
+          "id": 25734
+        },
+        {
+          "name": {
+            "given": "Alberto",
+            "family": "Monge Roffarello",
+            "honourific": null,
+            "lineage": null
+          },
+          "id": 40637
+        }
+      ],
+      "publication_type": "electronic",
+      "md5_tesi": "7334896c9d0a16eaa072200e375f491b21fa7fb9d4cd869df2577eb6a24ef5f9b0a5910c34c6e299f5cc18c588f9a07efb6e4a8f7b192324f9f2ef26b996c877",
+      "lastmod": "2019-01-08 11:26:53",
+      "metadata_visibility": "show",
+      "ispublished": "unpub",
+      "date_type": "published",
+      "eprint_status": "archive",
+      "title": "Recommending trigger-action rules for the IOT",
+      "uri": "http:\/\/webthesis.biblio.polito.it\/id\/eprint\/9478",
+      "status_changed": "2019-01-08 11:26:52",
+      "documents": [
+          {
+            "content": "thesis",
+            "license": "cc_by_nc_nd",
+            "format": "application\/pdf",
+            "formatdesc": "Tesi_di_laurea",
+            "files": [
+                {
+                  "objectid": 74312,
+                  "filesize": 1514452,
+                  "hash_type": "MD5",
+                  "mime_type": "application\/pdf",
+                  "datasetid": "document",
+                  "mtime": "2019-01-08 11:26:52",
+                  "filename": "tesi.pdf",
+                  "uri": "http:\/\/webthesis.biblio.polito.it\/id\/file\/117855",
+                  "hash": "73a63e6b108f4b646ebcec99a0520f74",
+                  "fileid": 117855
+                }
+            ],
+            "uri": "http:\/\/webthesis.biblio.polito.it\/id\/document\/74312",
+            "language": "it",
+            "security": "public",
+            "eprintid": 9478,
+            "main": "tesi.pdf",
+            "rev_number": 1,
+            "docid": 74312,
+            "placement": 1,
+            "pos": 1
+          }
+      ],
+      "datestamp": "2018-12-14 00:00:00"
+    }
+]
+

@@ -1,0 +1,70 @@
+# EUDebug
+
+:::note
+*Active*, since 2019
+:::
+
+<img src={require("./architecture.png").default} width="40%" style={{float: 'left', marginRight: '1em'}}/>
+
+Nowadays, end users who want to personalize their **Internet of Things** (IoT) ecosystem can take advantage of
+visual programming platforms such as [IFTTT](https://ifttt.com/discover) or [Zapier](https://zapier.com/). In such
+**End-User Development** (EUD) platforms, users can program
+the joint behavior of their devices and online services by defining **trigger-action** rules such as “_if the Nest
+camera in
+the kitchen detects a movement,then send me a Telegram message_.” Trigger-action programming is, however, a complex task
+for non-programmers, and errors made during the composition of rules may lead to unpredictable behaviors and security
+issues, e.g., a lamp that is continuously flashing or a door thatis unexpectedly unlocked. As a consequence, one of the
+most important and urgent challenges in this context is the need to avoid possible conflicts and to assess the
+correctness of trigger-action rules. For this purpose, we introduce **EUDebug**, a system that enables end users to
+debug
+their trigger-action rules.
+
+The goal of **EUDebug** is to properly warn users when they are defining any troublesome or potentially dangerous
+behavior,
+according to two strategies:
+
+1. by assisting them in identifying rule conflicts, and
+2. by helping them foresee the run-time behavior of their rules through step-by-step simulation.
+
+The figure below shows a sample usage scenario.
+
+<img src={require("./overview.png").default}/>
+
+1. The user composes a new trigger-action rule in a web-based application modeled after IFTTT (e.g., “_if the security
+   camera in the office is armed, then unlock the door_”). As the user is composing the rule, EUDebug employs a novel
+   hybrid
+   Semantic Colored Petri Net to model, check, and simulate the rule with respect to previously defined trigger-action
+   rules.
+2. When the rule composition is completed, EUDebug highlights possible problems that the rule may generate, by providing
+   a short explanation to the user.
+3. If needed, the user can further inspect and understand the problems by asking EUDebug to perform and show a
+   step-by-step simulation of the problematic rules.
+4. Finally, the user can edit the composed rule or decide to ignore the highlighted problems, thus saving the rule in
+   the current format.
+
+Thanks to the Semantic Colored Petri Net, EUDebug is able to detect problems in rules that involve different types of
+devices but with similar functions. The adopted semantic representation is [EUPont], a high-level semantic model for EUD
+in the IoT. It allows the net to reason about the final goal of each object (e.g., illumination, messaging, ...) to
+detect and show problems like loops, inconsistencies, and redundancies.
+
+Check out the following video and papers for additional details.
+
+<iframe style={{display:'block', marginLeft: 'auto', marginRight: 'auto'}}
+src="https://www.youtube-nocookie.com/embed/iE34A1agELI"
+width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
+
+## Publications
+
+* Corno Fulvio, De Russis Luigi, Monge Roffarello Alberto. 2019. [My IoT Puzzle: Debugging IF-THEN Rules Through the
+  Jigsaw Metaphor](http://hdl.handle.net/11583/2731417). In End User Development, IS-EUD: the 7th International
+  Symposium on End-User Development, ISBN:
+  978-3-030-24780-5, DOI: https://doi.org/10.1007/978-3-030-24781-2_2
+* Corno Fulvio, De Russis Luigi, Monge Roffarello Alberto.
+  2019. [Empowering End Users in Debugging Trigger-Action Rules](http://hdl.handle.net/11583/2724318).
+  In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems, ISBN: 978-1-4503-5970-2,
+  DOI: https://doi.org/10.1145/3290605.3300618
+* De Russis Luigi, Monge Roffarello Alberto. 2018. [A Debugging Approach for Trigger-Action
+  Programming](http://hdl.handle.net/11583/2701270). In Proceedings of the 2018 CHI Conference Extended Abstracts on
+  Human Factors in Computing Systems, pp.
+  LBW105:1--LBW105:6, ISBN: 978-1-4503-5621-3. DOI: https://doi.org/10.1145/3170427.3188641

@@ -1,0 +1,9 @@
+{
+  "label": "Previous Courses",
+  "position": 999,
+  "link": {
+    "type": "generated-index",
+    "slug": "/teaching/old-courses",
+    "description": "Courses held in the previous academic years"
+  }
+}

@@ -1,0 +1,29 @@
+corno:
+  name: Fulvio Corno
+  title: Full Professor
+  url: https://github.com/fulcorno
+  image_url: /img/people/FulvioCorno.webp
+
+derussis:
+  name: Luigi De Russis
+  title: Associate Professor
+  url: https://github.com/luigidr
+  image_url: /img/people/LuigiDeRussis.jpg
+
+mannella:
+  name: Luca Mannella
+  title: Ph.D. Student
+  url: https://github.com/Sarcares
+  image_url: /img/people/LucaMannella.jpg
+
+monge:
+  name: Alberto Monge Roffarello
+  title: Assistant Professor
+  url: https://github.com/alberto-mr
+  image_url: /img/people/AlbertoMonge.jpg
+
+saenz:
+  name: Juan Pablo Sáenz Moreno
+  title: Postdoc Research Assistant
+  url: https://github.com/jpsaenzmo
+  image_url: /img/people/JuanSaenz.png
