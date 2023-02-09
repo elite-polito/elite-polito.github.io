@@ -1,0 +1,851 @@
+[
+  {
+    "app_name": "QualityTime - My Digital Diet",
+    "app_downloads": 1000000,
+    "app_rating": 4.2,
+    "app_area": "Individual",
+    "app_category": "Productivity",
+    "app_functionality": [
+      "phone unlocks",
+      "phone time",
+      "app time",
+      "app checking",
+      "phone summary",
+      "app summary",
+      "charts",
+      "daily/widget recap",
+      "phone timers",
+      "take a break",
+      "app timers"
+    ],
+    "app_reviews_file": "reviews/qualitytime.csv"
+  },
+  {
+    "app_name": "Social Fever – Beat Smartphone addiction",
+    "app_downloads": 10000,
+    "app_rating": 4.6,
+    "app_area": "Individual",
+    "app_category": "Health & Fitness",
+    "app_functionality": [
+      "phone unlocks",
+      "phone time",
+      "app time",
+      "phone summary",
+      "app summary",
+      "charts",
+      "daily/widget recap",
+      "phone timers",
+      "take a break",
+      "app timers",
+      "motivational quotes"
+    ],
+    "app_reviews_file": "reviews/social_fever.csv"
+  },
+  {
+    "app_name": "AppTym: Phone Usage Tracker & App Monitor",
+    "app_downloads": 10000,
+    "app_rating": 3.9,
+    "app_area": "Individual",
+    "app_category": "Productivity",
+    "app_functionality": [
+      "phone time",
+      "app time",
+      "phone summary",
+      "app summary",
+      "charts",
+      "daily/widget recap",
+      "app timers",
+      "phone timers"
+    ],
+    "app_reviews_file": "reviews/apptym.csv"
+  },
+  {
+    "app_name": "Use Wisely - Say No to Phone Addiction",
+    "app_downloads": 50000,
+    "app_rating": 4.5,
+    "app_area": "Individual",
+    "app_category": "Productivity",
+    "app_functionality": [
+      "phone unlocks",
+      "phone time",
+      "app time",
+      "app checking",
+      "charts",
+      "phone summary",
+      "app summary",
+      "app timers",
+      "phone timers"
+    ],
+    "app_reviews_file": "reviews/use_wisely.csv"
+  },
+  {
+    "app_name": "AntiSocial: phone Addiction",
+    "app_downloads": 100000,
+    "app_rating": 4.2,
+    "app_area": "Individual",
+    "app_category": "Productivity",
+    "app_functionality": [
+      "phone unlocks",
+      "phone time",
+      "app time",
+      "social comparison",
+      "phone summary",
+      "app summary",
+      "charts",
+      "daily/widget recap",
+      "phone timers",
+      "app blockers",
+      "take a break"
+    ],
+    "app_reviews_file": "reviews/antisocial.csv"
+  },
+  {
+    "app_name": "Forest: Stay focused",
+    "app_downloads": 5000000,
+    "app_rating": 4.4,
+    "app_area": "Individual",
+    "app_category": "Productivity",
+    "app_functionality": [
+      "phone unlocks",
+      "phone time",
+      "app time",
+      "app summary",
+      "app checking",
+      "rewards",
+      "phone summary",
+      "social comparison"
+    ],
+    "app_reviews_file": "reviews/forest.csv"
+  },
+  {
+    "app_name": "SPACE - Break phone addiction",
+    "app_downloads": 1000000,
+    "app_rating": 4.2,
+    "app_area": "Individual",
+    "app_category": "Productivity",
+    "app_functionality": [
+      "phone unlocks",
+      "phone time",
+      "phone timers",
+      "notification blockers",
+      "phone summary",
+      "rewards",
+      "social comparison"
+    ],
+    "app_reviews_file": "reviews/space.csv"
+  },
+  {
+    "app_name": "( OFFTIME ) - Distraction Free",
+    "app_downloads": 500000,
+    "app_rating": 4,
+    "app_area": "Individual",
+    "app_category": "Productivity",
+    "app_functionality": [
+      "app time",
+      "phone time",
+      "phone summary",
+      "app summary",
+      "app timers",
+      "notification blockers",
+      "charts",
+      "social comparison",
+      "take a break"
+    ],
+    "app_reviews_file": "reviews/offtime.csv"
+  },
+  {
+    "app_name": "Time Used",
+    "app_downloads": 50000,
+    "app_rating": 4,
+    "app_area": "Individual",
+    "app_category": "Productivity",
+    "app_functionality": [
+      "phone unlocks",
+      "phone time",
+      "phone summary",
+      "charts",
+      "daily/widget recap"
+    ],
+    "app_reviews_file": "reviews/time_used.csv"
+  },
+  {
+    "app_name": "Stay Focused - App Block",
+    "app_downloads": 100000,
+    "app_rating": 4.5,
+    "app_area": "Individual",
+    "app_category": "Productivity",
+    "app_functionality": [
+      "app time",
+      "app timers",
+      "app blockers",
+      "app summary",
+      "charts",
+      "notification blockers",
+      "daily/widget recap",
+      "motivational quotes"
+    ],
+    "app_reviews_file": "reviews/stay_focused.csv"
+  },
+  {
+    "app_name": "Phone Addiction Blocker",
+    "app_downloads": 50000,
+    "app_rating": 4,
+    "app_area": "Individual",
+    "app_category": "Productivity",
+    "app_functionality": [
+      "phone blockers"
+    ],
+    "app_reviews_file": "reviews/phone_addiction_blocker.csv"
+  },
+  {
+    "app_name": "Timeout - Control Your Smartphone Addiction",
+    "app_downloads": 1000,
+    "app_rating": 3.6,
+    "app_area": "Individual",
+    "app_category": "Productivity",
+    "app_functionality": [
+      "app time",
+      "app checking",
+      "app timers",
+      "app summary",
+      "charts",
+      "daily/widget recap"
+    ],
+    "app_reviews_file": "reviews/timeout.csv"
+  },
+  {
+    "app_name": "Reservi(β): Smartphone Addiction Timer Lock",
+    "app_downloads": 5000,
+    "app_rating": 4,
+    "app_area": "Individual",
+    "app_category": "Productivity",
+    "app_functionality": [
+      "phone blockers"
+    ],
+    "app_reviews_file": "reviews/reservi.csv"
+  },
+  {
+    "app_name": "MyAddictometer - Mobile addiction tracker",
+    "app_downloads": 50000,
+    "app_rating": 3.7,
+    "app_area": "Individual",
+    "app_category": "Productivity",
+    "app_functionality": [
+      "phone unlocks",
+      "phone time",
+      "phone summary",
+      "charts",
+      "daily/widget recap"
+    ],
+    "app_reviews_file": "reviews/myaddictiometer.csv"
+  },
+  {
+    "app_name": "UBhind: No.1 Mobile Life Tracker/Addiction Manager",
+    "app_downloads": 1000000,
+    "app_rating": 4.2,
+    "app_area": "Individual",
+    "app_category": "Productivity",
+    "app_functionality": [
+      "phone time",
+      "app time",
+      "phone summary",
+      "app summary",
+      "charts",
+      "daily/widget recap",
+      "app timers",
+      "app blockers"
+    ],
+    "app_reviews_file": "reviews/ubhind.csv"
+  },
+  {
+    "app_name": "Smartphone addiction Timerlock",
+    "app_downloads": 50000,
+    "app_rating": 2.9,
+    "app_area": "Parental Control",
+    "app_category": "Tools",
+    "app_functionality": [
+      "app blockers"
+    ],
+    "app_reviews_file": "reviews/smartphone_addiction_timerlock.csv"
+  },
+  {
+    "app_name": "Keep Me Out",
+    "app_downloads": 100000,
+    "app_rating": 4.2,
+    "app_area": "Individual",
+    "app_category": "Productivity",
+    "app_functionality": [
+      "phone blockers"
+    ],
+    "app_reviews_file": "reviews/keep_me_out.csv"
+  },
+  {
+    "app_name": "Mobile Addiction Tracker - Anti Social",
+    "app_downloads": 5000,
+    "app_rating": 3.6,
+    "app_area": "Individual",
+    "app_category": "Productivity",
+    "app_functionality": [
+      "phone time",
+      "app time",
+      "app checking",
+      "charts",
+      "phone timers",
+      "app summary",
+      "phone summary",
+      "daily/widget recap"
+    ],
+    "app_reviews_file": "reviews/mobile_addiction_tracker.csv"
+  },
+  {
+    "app_name": "Time Lock",
+    "app_downloads": 100000,
+    "app_rating": 4.1,
+    "app_area": "Individual",
+    "app_category": "Productivity",
+    "app_functionality": [
+      "phone blockers",
+      "phone timers",
+      "motivational quotes"
+    ],
+    "app_reviews_file": "reviews/time_lock.csv"
+  },
+  {
+    "app_name": "Lock Me Out - Freedom from phone addiction",
+    "app_downloads": 100000,
+    "app_rating": 3.6,
+    "app_area": "Individual",
+    "app_category": "Productivity",
+    "app_functionality": [
+      "phone time",
+      "phone unlocks",
+      "phone blockers",
+      "phone timers",
+      "automatic interventions"
+    ],
+    "app_reviews_file": "reviews/lock_me_out.csv"
+  },
+  {
+    "app_name": "HelpMeFocus - Block Distractions, Stay Focused",
+    "app_downloads": 10000,
+    "app_rating": 4.3,
+    "app_area": "Individual",
+    "app_category": "Productivity",
+    "app_functionality": [
+      "motivational quotes",
+      "app blockers",
+      "notification blockers"
+    ],
+    "app_reviews_file": "reviews/helpmefocus.csv"
+  },
+  {
+    "app_name": "Addicted - phone usage tracker",
+    "app_downloads": 5000,
+    "app_rating": 4,
+    "app_area": "Individual",
+    "app_category": "Productivity",
+    "app_functionality": [
+      "phone unlocks",
+      "phone time",
+      "phone summary",
+      "charts"
+    ],
+    "app_reviews_file": "reviews/addicted.csv"
+  },
+  {
+    "app_name": "NoPhone -This Won't Let You Use Your Phone",
+    "app_downloads": 10000,
+    "app_rating": 4.3,
+    "app_area": "Individual",
+    "app_category": "Productivity",
+    "app_functionality": [
+      "app blockers"
+    ],
+    "app_reviews_file": "reviews/nophone.csv"
+  },
+  {
+    "app_name": "Phone Smart - Free Your Time",
+    "app_downloads": 1000,
+    "app_rating": 4.3,
+    "app_area": "Individual",
+    "app_category": "Productivity",
+    "app_functionality": [
+      "phone unlocks",
+      "app time",
+      "app summary",
+      "phone summary",
+      "charts",
+      "notification blockers",
+      "app blockers"
+    ],
+    "app_reviews_file": "reviews/phone_smart.csv"
+  },
+  {
+    "app_name": "RealizD - Track how much you use your phone",
+    "app_downloads": 10000,
+    "app_rating": 3.7,
+    "app_area": "Individual",
+    "app_category": "Productivity",
+    "app_functionality": [
+      "phone time",
+      "phone unlocks",
+      "app time",
+      "phone summary",
+      "app summary",
+      "charts",
+      "phone timers"
+    ],
+    "app_reviews_file": "reviews/realizd.csv"
+  },
+  {
+    "app_name": "PhoneUseFree Tracks Usage Time",
+    "app_downloads": 1000,
+    "app_rating": 4.6,
+    "app_area": "Individual",
+    "app_category": "Productivity",
+    "app_functionality": [
+      "phone time",
+      "phone unlocks",
+      "phone summary",
+      "charts"
+    ],
+    "app_reviews_file": "reviews/phoneusefree.csv"
+  },
+  {
+    "app_name": "Checky - Phone Habit Tracker",
+    "app_downloads": 100000,
+    "app_rating": 3.9,
+    "app_area": "Individual",
+    "app_category": "Productivity",
+    "app_functionality": [
+      "phone unlocks",
+      "phone summary",
+      "charts"
+    ],
+    "app_reviews_file": "reviews/checky.csv"
+  },
+  {
+    "app_name": "PhoneUsage",
+    "app_downloads": 10000,
+    "app_rating": 3.9,
+    "app_area": "Individual",
+    "app_category": "Tools",
+    "app_functionality": [
+      "phone time",
+      "phone unlocks",
+      "app time",
+      "app checking",
+      "phone summary",
+      "app summary",
+      "charts"
+    ],
+    "app_reviews_file": "reviews/phoneusage.csv"
+  },
+  {
+    "app_name": "ClearLock: block distractions!",
+    "app_downloads": 100000,
+    "app_rating": 4,
+    "app_area": "Individual",
+    "app_category": "Productivity",
+    "app_functionality": [
+      "app blockers"
+    ],
+    "app_reviews_file": "reviews/clearlock.csv"
+  },
+  {
+    "app_name": "No Distractions!",
+    "app_downloads": 5000,
+    "app_rating": 4.1,
+    "app_area": "Individual",
+    "app_category": "Productivity",
+    "app_functionality": [
+      "app timers",
+      "app blockers"
+    ],
+    "app_reviews_file": "reviews/no_distractions.csv"
+  },
+  {
+    "app_name": "Bashful: stop procrastinating",
+    "app_downloads": 10000,
+    "app_rating": 4.4,
+    "app_area": "Individual",
+    "app_category": "Productivity",
+    "app_functionality": [
+      "notification blockers",
+      "phone blockers"
+    ],
+    "app_reviews_file": "reviews/bashful.csv"
+  },
+  {
+    "app_name": "AppBlock - Stay Focused",
+    "app_downloads": 500000,
+    "app_rating": 4.2,
+    "app_area": "Individual",
+    "app_category": "Productivity",
+    "app_functionality": [
+      "app blockers",
+      "notification blockers",
+      "contextual-based interventions",
+      "app timers"
+    ],
+    "app_reviews_file": "reviews/appblock.csv"
+  },
+  {
+    "app_name": "Flipd — Stay Focused, Remove Distractions",
+    "app_downloads": 100000,
+    "app_rating": 3.8,
+    "app_area": "Individual",
+    "app_category": "Productivity",
+    "app_functionality": [
+      "app blockers",
+      "social comparison"
+    ],
+    "app_reviews_file": "reviews/flipd.csv"
+  },
+  {
+    "app_name": "Siempo - The Phone for Humans",
+    "app_downloads": 10000,
+    "app_rating": 4.1,
+    "app_area": "Individual",
+    "app_category": "Lifestyle",
+    "app_functionality": [
+      "notification blockers",
+      "app timers",
+      "motivational quotes",
+      "redesign UI"
+    ],
+    "app_reviews_file": "reviews/siempo.csv"
+  },
+  {
+    "app_name": "ZenScreen - Track and limit screen time",
+    "app_downloads": 5000,
+    "app_rating": 4.1,
+    "app_area": "Individual",
+    "app_category": "Parenting",
+    "app_functionality": [
+      "phone time",
+      "app time",
+      "app blockers",
+      "app timers",
+      "app summary",
+      "phone summary"
+    ],
+    "app_reviews_file": "reviews/zenscreen.csv"
+  },
+  {
+    "app_name": "Eye Ease:Screen On Time(Free)",
+    "app_downloads": 1000,
+    "app_rating": 4.5,
+    "app_area": "Individual",
+    "app_category": "Health & Fitness",
+    "app_functionality": [
+      "phone time",
+      "phone timers",
+      "phone summary",
+      "charts"
+    ],
+    "app_reviews_file": "reviews/eye_ease.csv"
+  },
+  {
+    "app_name": "App Usage Tracker",
+    "app_downloads": 100000,
+    "app_rating": 4,
+    "app_area": "Individual",
+    "app_category": "Tools",
+    "app_functionality": [
+      "app time",
+      "app summary",
+      "charts",
+      "daily/widget recap"
+    ],
+    "app_reviews_file": "reviews/app_usage_tracker.csv"
+  },
+  {
+    "app_name": "Phone Usage Tracker",
+    "app_downloads": 5000,
+    "app_rating": 3.1,
+    "app_area": "Individual",
+    "app_category": "Productivity",
+    "app_functionality": [
+      "phone unlocks",
+      "phone time",
+      "phone summary",
+      "charts",
+      "daily/widget recap"
+    ],
+    "app_reviews_file": "reviews/phone_usage_tracker.csv"
+  },
+  {
+    "app_name": "Phone Usage Time",
+    "app_downloads": 100000,
+    "app_rating": 4.1,
+    "app_area": "Individual",
+    "app_category": "Lifestyle",
+    "app_functionality": [
+      "app time",
+      "app summary",
+      "daily/widget recap"
+    ],
+    "app_reviews_file": "reviews/phone_usage_tracker.csv"
+  },
+  {
+    "app_name": "Phone usage tracker - Time used",
+    "app_downloads": 1000,
+    "app_rating": 3.9,
+    "app_area": "Individual",
+    "app_category": "Productivity",
+    "app_functionality": [
+      "phone unlocks",
+      "phone time",
+      "phone summary",
+      "charts",
+      "daily/widget recap",
+      "social comparison"
+    ],
+    "app_reviews_file": "reviews/phone_usage_tracker_time_used.csv"
+  },
+  {
+    "app_name": "AppUp - App Usage Phone",
+    "app_downloads": 10000,
+    "app_rating": 4.3,
+    "app_area": "Individual",
+    "app_category": "Productivity",
+    "app_functionality": [
+      "app time",
+      "app summary",
+      "charts"
+    ],
+    "app_reviews_file": "reviews/appup.csv"
+  },
+  {
+    "app_name": "Instant - Quantified Self, Track Digital Wellbeing",
+    "app_downloads": 100000,
+    "app_rating": 3.9,
+    "app_area": "Individual",
+    "app_category": "Productivity",
+    "app_functionality": [
+      "phone unlocks",
+      "phone time",
+      "app time",
+      "phone summary",
+      "app summary",
+      "charts",
+      "daily/widget recap"
+    ],
+    "app_reviews_file": "reviews/instant.csv"
+  },
+  {
+    "app_name": "App Usage - Manage/Track Usage",
+    "app_downloads": 100000,
+    "app_rating": 4.3,
+    "app_area": "Individual",
+    "app_category": "Productivity",
+    "app_functionality": [
+      "app time",
+      "app summary",
+      "phone unlocks",
+      "app summary",
+      "phone summary",
+      "charts",
+      "daily/widget recap",
+      "app timers"
+    ],
+    "app_reviews_file": "reviews/app_usage.csv"
+  },
+  {
+    "app_name": "Mobile Fence Parental Control",
+    "app_downloads": 1000000,
+    "app_rating": 2.9,
+    "app_area": "Parental Control",
+    "app_category": "Tools",
+    "app_functionality": [
+      "app time",
+      "phone time",
+      "app summary",
+      "phone summary",
+      "charts",
+      "app blockers",
+      "phone blockers",
+      "daily/widget recap",
+      "contextual-based interventions"
+    ],
+    "app_reviews_file": "reviews/mobile_fence_parental_control.csv"
+  },
+  {
+    "app_name": "Screen Time Parental Control",
+    "app_downloads": 1000000,
+    "app_rating": 4,
+    "app_area": "Parental Control",
+    "app_category": "Tools",
+    "app_functionality": [
+      "app time",
+      "phone time",
+      "app summary",
+      "phone summary",
+      "phone blockers",
+      "app blockers",
+      "daily/widget recap",
+      "rewards",
+      "contextual-based interventions"
+    ],
+    "app_reviews_file": "reviews/screen_time_parental_control.csv"
+  },
+  {
+    "app_name": "Screen Time for Kids",
+    "app_downloads": 1000000,
+    "app_rating": 2.5,
+    "app_area": "Parental Control",
+    "app_category": "Tools",
+    "app_functionality": [
+      "phone time",
+      "phone summary",
+      "charts",
+      "phone blockers",
+      "app blockers",
+      "app time",
+      "app summary",
+      "charts",
+      "contextual-based interventions",
+      "rewards"
+    ],
+    "app_reviews_file": "reviews/screen_time_for_kids.csv"
+  },
+  {
+    "app_name": "Limitly Screen Time Control",
+    "app_downloads": 10000,
+    "app_rating": 2.6,
+    "app_area": "Parental Control",
+    "app_category": "Productivity",
+    "app_functionality": [
+      "app blockers",
+      "app time",
+      "app checking",
+      "app summary",
+      "phone blockers",
+      "phone time",
+      "phone summary"
+    ],
+    "app_reviews_file": "reviews/limitly_screen_time_control.csv"
+  },
+  {
+    "app_name": "Kids Place Screen Time",
+    "app_downloads": 100000,
+    "app_rating": 2.9,
+    "app_area": "Parental Control",
+    "app_category": "Tools",
+    "app_functionality": [
+      "phone time",
+      "app time",
+      "phone summary",
+      "charts",
+      "app summary",
+      "charts",
+      "app blockers",
+      "phone blockers"
+    ],
+    "app_reviews_file": "reviews/kids_place_screen_time.csv"
+  },
+  {
+    "app_name": "Boomerang - Parental and Screen Time Controls",
+    "app_downloads": 50000,
+    "app_rating": 3.9,
+    "app_area": "Parental Control",
+    "app_category": "Tools",
+    "app_functionality": [
+      "app blockers",
+      "phone blockers"
+    ],
+    "app_reviews_file": "reviews/boomerang.csv"
+  },
+  {
+    "app_name": "Screen Time Squish",
+    "app_downloads": 10000,
+    "app_rating": 3.3,
+    "app_area": "Parental Control",
+    "app_category": "Lifestyle",
+    "app_functionality": [
+      "phone blockers",
+      "app blockers",
+      "app time",
+      "phone time",
+      "phone summary",
+      "app summary",
+      "charts"
+    ],
+    "app_reviews_file": "reviews/screen_time_squish.csv"
+  },
+  {
+    "app_name": "Parent App - Limit Screen Time",
+    "app_downloads": 1000,
+    "app_rating": 3.8,
+    "app_area": "Parental Control",
+    "app_category": "Parenting",
+    "app_functionality": [
+      "app blockers"
+    ],
+    "app_reviews_file": "reviews/parent_app.csv"
+  },
+  {
+    "app_name": "Habyts - Easier Screen Time",
+    "app_downloads": 1000,
+    "app_rating": 2.8,
+    "app_area": "Parental Control",
+    "app_category": "Parenting",
+    "app_functionality": [
+      "app blockers",
+      "phone blockers",
+      "rewards",
+      "daily/widget recap"
+    ],
+    "app_reviews_file": "reviews/habyts.csv"
+  },
+  {
+    "app_name": "SecureTeen Parental Control - Screen time manager",
+    "app_downloads": 1000000,
+    "app_rating": 3.5,
+    "app_area": "Parental Control",
+    "app_category": "Tools",
+    "app_functionality": [
+      "phone blockers",
+      "app blockers"
+    ],
+    "app_reviews_file": "reviews/secureteen_parental_control.csv"
+  },
+  {
+    "app_name": "OurPact – Parental Control & GPS Family Locator",
+    "app_downloads": 100000,
+    "app_rating": 2.6,
+    "app_area": "Parental Control",
+    "app_category": "Lifestyle",
+    "app_functionality": [
+      "phone blockers",
+      "app blockers"
+    ],
+    "app_reviews_file": "reviews/ourpact.csv"
+  },
+  {
+    "app_name": "Control Child Parental Control",
+    "app_downloads": 10000,
+    "app_rating": 3.7,
+    "app_area": "Parental Control",
+    "app_category": "Tools",
+    "app_functionality": [
+      "app time",
+      "app summary",
+      "charts",
+      "app blockers"
+    ],
+    "app_reviews_file": "reviews/control_child_parental_control.csv"
+  },
+  {
+    "app_name": "Kids Place - Parental Control",
+    "app_downloads": 1000000,
+    "app_rating": 4,
+    "app_area": "Parental Control",
+    "app_category": "Entertainment",
+    "app_functionality": [
+      "app blockers"
+    ],
+    "app_reviews_file": "reviews/kids_place.csv"
+  }
+]

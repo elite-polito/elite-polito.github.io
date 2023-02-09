@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://elite-polito.github.io/news</id>
+    <title>e-Lite Research Group Blog</title>
+    <updated>2023-02-07T14:08:34.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://elite-polito.github.io/news"/>
+    <subtitle>e-Lite Research Group Blog</subtitle>
+    <icon>https://elite-polito.github.io/img/favicon.ico</icon>
+    <rights>Copyright © 2023 Politecnico di Torino</rights>
+    <entry>
+        <title type="html"><![CDATA[Call for Papers: Special Session on Cybersecurity and IoT @ SpliTech 2023]]></title>
+        <id>https://elite-polito.github.io/news/2023-01-cfp-splitech2023-cybersecurity</id>
+        <link href="https://elite-polito.github.io/news/2023-01-cfp-splitech2023-cybersecurity"/>
+        <updated>2023-02-07T14:08:34.000Z</updated>
+        <summary type="html"><![CDATA[The e-Lite research group is organizing a special session focused on Cybersecurity and the Internet of Things]]></summary>
+        <content type="html"><![CDATA[<p>The e-Lite research group is organizing a <strong>special session</strong> focused on <strong>Cybersecurity</strong> and the <strong>Internet of Things
+</strong> (IoT).</p><p>The poster of the special session, with all the relevant information, is available at the following
+link: <a href="https://2023.splitech.org/assets/SS%20Cybersecurity.pdf" target="_blank" rel="noopener noreferrer">https://2023.splitech.org/assets/SS%20Cybersecurity.pdf</a></p><p><img loading="lazy" alt="CfP banner" src="/assets/images/SpliTech23-post-reduced-e3d836de0c9d77ecbba188fff84ca0a0.png" width="500" height="500" class="img_ev3q"></p><p>This special session aims to explore cutting-edge advancements in cybersecurity as it pertains to the Internet of
+Things. Attendees will have the chance to engage in discussions and exchange ideas on the latest applications, design
+challenges, solutions, research findings, and ongoing work in this vital field of technology.</p><p>The special session on “Cybersecurity and IoT” will be part of the <strong>International Symposium on the Internet of Things</strong>
+organized in the frame of the 8th
+International Conference on Smart and Sustainable Technologies (<a href="https://2023.splitech.org/home" target="_blank" rel="noopener noreferrer">SpliTech 2023</a>),
+technically co-sponsored by
+IEEE <a href="https://www.comsoc.org/conferences-events/international-conference-smart-and-sustainable-technologies-2023" target="_blank" rel="noopener noreferrer">Communication Society</a> (
+ComSoc).
+The conference will be held in <strong>Bol</strong> and <strong>Split</strong>, <strong>Croatia</strong>, June 20-23, 2023.</p><p>Submissions are open until February 24, 2023, at the following link, by selecting the symposium ("SYM_IOT") and our
+special issue ("<strong><code>SS_CYBER</code></strong>"):
+<a href="https://www.edas.info/newPaper.php?c=30289&amp;track=114859" target="_blank" rel="noopener noreferrer">https://www.edas.info/newPaper.php?c=30289&amp;track=114859</a></p><p>Accepted and presented papers will be published in the conference proceedings and submitted to <strong>IEEE Xplore</strong> as well
+as other Abstracting and Indexing (A&amp;I) databases. Authors of selected best papers will be invited to submit an extended
+version of their manuscripts for publication in a special issue of some international and indexed journals.</p><p>For any needs, feel free to contact <a href="https://www.polito.it/en/staff?p=luca.mannella" target="_blank" rel="noopener noreferrer">Luca Mannella</a> at his e-mail address: <em>name(
+dot)surname(at)polito(dot)it</em></p><p>More information:</p><ul><li><a href="https://www.edas.info/newPaper.php?c=30289&amp;track=114859" target="_blank" rel="noopener noreferrer">Submit your paper</a></li><li>CfP: <a href="https://2023.splitech.org/assets/SS%20Cybersecurity.pdf" target="_blank" rel="noopener noreferrer">Special Session on Cybersecurity and IoT</a></li><li>CfP: <a href="https://2023.splitech.org/assets/SYM%20IoT%20F.pdf" target="_blank" rel="noopener noreferrer">International Symposium on the Internet of Things</a></li><li><a href="https://2023.splitech.org/home" target="_blank" rel="noopener noreferrer">SpliTech 2023 website</a></li></ul>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Participation at SPLITECH 2022]]></title>
+        <id>https://elite-polito.github.io/news/2022/07/11/splitech</id>
+        <link href="https://elite-polito.github.io/news/2022/07/11/splitech"/>
+        <updated>2022-07-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Last week, from the 5th to the 8th of July, the e-Lite research group participated in the 7th International Conference on Smart and Sustainable Technologies (SpliTech 2022). The conference was held in Croatia, in Split, and in Bol (Brač island). According to the current COVID-19 pandemic, the conference was held in a hybrid form.]]></summary>
+        <content type="html"><![CDATA[<p>Last week, from the 5th to the 8th of July, the e-Lite research group participated in the 7th International Conference on Smart and Sustainable Technologies (SpliTech 2022). The conference was held in Croatia, in Split, and in Bol (Brač island). According to the current COVID-19 pandemic, the conference was held in a hybrid form.</p><p>During this event, Luca Mannella presented a paper entitled: "A Threat Model for Extensible Smart Home Gateways".</p><p>This paper proposes a threat model for a specific class of components of IoT infrastructures: smart home gateways extensible through plug-ins. The purpose of the proposed model is twofold.
+From one side, it helps to understand some possible issues that could be generated from a malicious or defective plug-in implementation and affect the gateway itself or other smart home devices. Consequently, the model could help programmers of gateway applications, plug-ins, and devices
+think about possible countermeasures and develop more resilient solutions.
+On the other side, the model could be regarded as a set of guidelines. Indeed, plug-in developers should not create plug-ins acting like the threats reported in the paper.
+To provide a first validation of the model, the paper presents a use case based on Home Assistant, an open-source smart home gateway application.</p><p>The slides of the presentation are available on SlideShare.</p><p>You can also find the video recorder presentation on YouTube:</p><p>Additional information about this work and the conference:</p><div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">Paper at PORTO@IRIS</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">DOI: 10.3233/AISE210074</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Conference website</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Full conference program</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg class="copyButtonIcon_y97N" viewBox="0 0 24 24"><path d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg class="copyButtonSuccessIcon_LjdS" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>]]></content>
+        <author>
+            <name>Fulvio Corno</name>
+            <uri>https://github.com/fulcorno</uri>
+        </author>
+        <author>
+            <name>Luca Mannella</name>
+            <uri>https://github.com/Sarcares</uri>
+        </author>
+        <category label="conference" term="conference"/>
+        <category label="paper" term="paper"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Special Issue: Understanding Digital Wellbeing within Complex Technological Contexts]]></title>
+        <id>https://elite-polito.github.io/news/2021/12/01/ijhcs-wellbeing</id>
+        <link href="https://elite-polito.github.io/news/2021/12/01/ijhcs-wellbeing"/>
+        <updated>2021-12-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[IJHCS cover]]></summary>
+        <content type="html"><![CDATA[<p><img loading="lazy" alt="IJHCS cover" src="/assets/images/2021-ijhcs-cover-0189203317291ebe510f5a2e276e60fc.jpg" width="250" height="333" class="img_ev3q"></p><p>The International Journal of Human Computer Studies (IJHCS) issued a special issue on the topic "Understanding Digital Wellbeing within Complex Technological Contexts".</p><p>Nowadays, there is a growing — yet debated — discussion around the negative aspects of overusing technology, with many people that feel conflicted about the amount of time they spend on their devices. In this context, researchers and practitioners have started to consider a new kind of psychological digital wellbeing, giving rise to the flourishing of digital self-control tools (DSCTs), i.e., external applications that support users in self-regulating their technology use through interventions like timers and lock-out mechanisms.
+Currently, the digital wellbeing topic is nearly always contextualized to consider single technological sources at a time, with a prevalence of studies and DSCTs that focus on smartphones only. As many people nowadays own (and use) several devices, however, there is a need to better understand their complex and overlapping use (and non-use), and the relationships to other people’s digital wellbeing.</p><p>The purpose of this special issue is to provide the academic and industry research communities a venue for work at the state-of-the-art on digital wellbeing and DSCTs, with a particular focus on digital wellbeing within complex technological contexts.</p><p>Submissions are open until February 15, 2022. Submissions can be made at the journal submission website at <a href="https://www.editorialmanager.com/ijhcs/default.aspx" target="_blank" rel="noopener noreferrer">https://www.editorialmanager.com/ijhcs/default.aspx</a>, by selecting the special issue.</p><p>Guest editors:</p><div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">Luigi De Russis, Politecnico di Torino, Italy</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Alberto Monge Roffarello, Politecnico di Torino, Italy</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Danielle Lottridge, University of Auckland, Aotearoa New Zealand</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Marta E. Cecchinato, University of Northumbria, UK</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg class="copyButtonIcon_y97N" viewBox="0 0 24 24"><path d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg class="copyButtonSuccessIcon_LjdS" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div><p>More information:</p><div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">International Journal of Human Computer Studies main page</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Call for papers for the special issue on Understanding Digital Wellbeing within Complex Technological Contexts</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg class="copyButtonIcon_y97N" viewBox="0 0 24 24"><path d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg class="copyButtonSuccessIcon_LjdS" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>]]></content>
+        <author>
+            <name>Luigi De Russis</name>
+            <uri>https://github.com/luigidr</uri>
+        </author>
+        <author>
+            <name>Alberto Monge Roffarello</name>
+            <uri>https://github.com/alberto-mr</uri>
+        </author>
+        <category label="journal" term="journal"/>
+        <category label="paper" term="paper"/>
+        <category label="special issue" term="special issue"/>
+    </entry>
+</feed>
