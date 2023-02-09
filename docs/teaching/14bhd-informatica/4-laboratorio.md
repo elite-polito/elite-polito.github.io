@@ -1,5 +1,4 @@
 ---
-sidebar_position: 4
 description: "Testi e soluzoini delle esercitazioni di laboratorio"
 ---
 

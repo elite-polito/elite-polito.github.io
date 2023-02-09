@@ -1,5 +1,4 @@
 ---
-sidebar_position: 5
 pagination_next: null
 description: "Materiale per la preparazione all'esame"
 ---
