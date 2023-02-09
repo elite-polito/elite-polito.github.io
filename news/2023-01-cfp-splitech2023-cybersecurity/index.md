@@ -1,3 +1,8 @@
+---
+authors: [mannella]
+tags: [journal, paper, special issue]
+---
+
 # Call for Papers: Special Session on Cybersecurity and IoT @ SpliTech 2023
 
 The e-Lite research group is organizing a **special session** focused on **Cybersecurity** and the **Internet of Things
