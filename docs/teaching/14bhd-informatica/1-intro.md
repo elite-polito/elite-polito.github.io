@@ -30,12 +30,12 @@ Link breve a questa pagina: http://bit.ly/polito-informatica
 
 ## Orario delle lezioni (dal 27/09/2022 al 14/01/2023)
 
-Giorno |Ora |Tipo |Luogo |Note
--------|----|-----|------|----
-Lunedì |16:00-17:30 |Lezione/Esercitazione |Aula 4 | 
-Mercoledì |11:30-13:00 |Lezione/Esercitazione |Aula 4 | 
-Mercoledì |13:00-14:30 |Lezione/Esercitazione |Aula 4 | 
-Mercoledì |16:00-17:30 |Laboratorio (Squadra 3) |LAIB 1 |a partire dal 05/10/2022
-Giovedì |11:30-13:00 |Laboratorio (Squadra 1) |LAIB 2B |a partire dal 06/10/2022
-Giovedì |13:00-14:30 |Laboratorio (Squadra 2) |LAIB 2B |a partire dal 06/10/2022
+| Giorno   |Ora |Tipo |Luogo |Note |
+|----------|----|-----|------|----|
+| Lunedì   |16:00-17:30 |Lezione/Esercitazione |Aula 4 | |
+| Mercoledì |11:30-13:00 |Lezione/Esercitazione |Aula 4 | |
+| Mercoledì |13:00-14:30 |Lezione/Esercitazione |Aula 4 | |
+| Mercoledì |16:00-17:30 |Laboratorio (Squadra 3) |LAIB 1 |a partire dal 05/10/2022 |
+| Giovedì  |11:30-13:00 |Laboratorio (Squadra 1) |LAIB 2B |a partire dal 06/10/2022 |
+| Giovedì  |13:00-14:30 |Laboratorio (Squadra 2) |LAIB 2B |a partire dal 06/10/2022 |
 

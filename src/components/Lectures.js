@@ -9,6 +9,7 @@ import {faFilePdf, faFileZipper} from '@fortawesome/free-solid-svg-icons'
 
 const defaultTableContext = {
     defaultTeacher: undefined,
+    defaultType: undefined,
     showMaterial: true
 }
 const TableContext = createContext(defaultTableContext);
@@ -22,16 +23,29 @@ const TableContext = createContext(defaultTableContext);
  * @constructor
  */
 function IconicLinks({links, label, icon}) {
+    let i = 0;
     return (
         links ?
             ensureArray(links).map(item =>
-                <a href={item} title={label}><FontAwesomeIcon icon={icon} size="xl"/> </a>)
+                <a key={i++} href={item} title={label}><FontAwesomeIcon icon={icon} size="2x"/> </a>)
             : null
     )
 }
 
 
 /**
+ * Generates a single row of the course schedule.
+ *
+ * Accepts, as props (*all optional*):
+ * - `date`
+ * - `time`
+ * - `type` (or defaults to `defaultType` set in `LectureTable` -- to suppress the default use `''`)
+ * - `topic` (alternatively the topic can be defined as the CHILDREN of the component)
+ * - `pdf`, `python`, `zip`, `github`: link(s) to resources to go into the "Materiale" column (if enabled)
+ * - `video`: link(s) to video lecture
+ * - `teacher` (or defaults to `defaultTeacher` set in `LectureTable` -- to suppress the default set `''`)
+ *
+ * Note: *link(s)* refers to a single link (string) or a list of links (array of strings)
  *
  * @param props
  * @returns {JSX.Element}
@@ -39,23 +53,23 @@ function IconicLinks({links, label, icon}) {
  */
 function LectureRow(props) {
     const tableContext = useContext(TableContext);
-    const teacher = props.teacher || tableContext.defaultTeacher
+    const teacher = props.teacher == undefined ? tableContext.defaultTeacher : props.teacher
+    const type = props.type == undefined ? tableContext.defaultType : props.type
+
     return (<tr>
         <td>{props.date}</td>
         <td>{props.time}</td>
-        <td>{props.type || "Lezione"}</td>
+        <td>{type}</td>
         <td>{props.topic}{props.children}</td>
         {tableContext.showMaterial &&
             <td style={{textAlign: 'center'}}>
-                <IconicLinks links={props.pdfLink} icon={faFilePdf} label={"PDF"}/>
-                <IconicLinks links={props.githubLink} icon={faGithub} label={"GitHub"}/>
-                <IconicLinks links={props.pythonLink} icon={faPython} label={"Python"}/>
-                <IconicLinks links={props.zipLink} icon={faFileZipper} label={"Zip"}/>
+                <IconicLinks links={props.pdf} icon={faFilePdf} label={"PDF"}/>
+                <IconicLinks links={props.github} icon={faGithub} label={"GitHub"}/>
+                <IconicLinks links={props.python} icon={faPython} label={"Python"}/>
+                <IconicLinks links={props.zip} icon={faFileZipper} label={"Zip"}/>
             </td>
         }
-        <td style={{textAlign: 'center'}}><a href="{props.videoLink}}" title={"Video"}><FontAwesomeIcon icon={faYoutube}
-                                                                                                        size="xl"/></a>
-        </td>
+        <td style={{textAlign: 'center'}}><IconicLinks links={props.video} icon={faYoutube} label={"Video"}/></td>
         <td>{teacher}</td>
     </tr>)
 }
