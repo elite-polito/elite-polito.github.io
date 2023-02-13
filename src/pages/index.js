@@ -35,7 +35,7 @@ function HomepageHeader() {
                         {/*        e-Lite Research*/}
                         {/*    </Link>*/}
                         {/*</div>*/}
-                    <   /div>
+                    </div>
                     <div className="col col--4">
                         <Admonition type="info" title={'Latest updates'}>
                             <p>Some information</p>
