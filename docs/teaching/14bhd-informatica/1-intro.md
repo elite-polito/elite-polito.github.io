@@ -39,3 +39,16 @@ Link breve a questa pagina: http://bit.ly/polito-informatica
 | Giovedì  |11:30-13:00 |Laboratorio (Squadra 1) |LAIB 2B |a partire dal 06/10/2022 |
 | Giovedì  |13:00-14:30 |Laboratorio (Squadra 2) |LAIB 2B |a partire dal 06/10/2022 |
 
+## Gruppo Telegram
+
+Per facilitare la comunicazione con i docenti e tra gli studenti, in questo corso si utilizza la piattaforma *Telegram*. Per comunicare con i docenti utilizzare esclusivamente la piattaforma Telegram. Non inviare e-mail (non verranno considerate).
+
+Gli studenti sono tutti invitati ad unirsi al gruppo Telegram del corso, iscrivendosi all'indirizzo https://t.me/+WRe9K0wicTxkOGE0 .
+
+
+Il gruppo Telegram potrà essere usato:
+
+- per avvisi o condivisione di materiale o informazione da parte dei docenti
+- per contattarsi rapidamente in caso di comunicazioni urgenti
+- per fornire supporto agli studenti sugli argomenti del corso
+- per svolgere i laboratori o gli esercizi assegnati

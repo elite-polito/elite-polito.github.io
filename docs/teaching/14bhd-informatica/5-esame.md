@@ -6,19 +6,13 @@ description: "Materiale per la preparazione all'esame"
 
 # Esame
 
-## Esercizi d'esame (Python)
+## Esercizi d'esame
 
-   - Selezione dei temi d'esame proposti nell'anno accademico 2020/21
-   - Esempi di testi simil-esame
-   - Repository GitHub con esempi d'esame (e relative soluzioni): https://github.com/polito-info-2021/Esempi-esame
+I temi d'esame (di teoria e di programmazione) degli anni accademici precedenti sono disponibili sul sito:
+- https://github.com/polito-info-2022/Esempi-esame
 
 
-### Prontuario (cheat-sheet)
+## Prontuario (cheat-sheet)
+- [Prontuario contenente le funzioni ed i metodi principali (sarà possibile consultarlo durante l'esame)](slide/Python_Cheat_Sheet-3.2.pdf)
+- [Prontuario contenente le funzioni ed i metodi principali, versione accessibile](slide/Python_Cheat_Sheet-Accessibile-v3.2.pdf)
 
-   - Prontuario contenente le funzioni ed i metodi principali (sarà possibile consultarlo durante l'esame)
-   - Prontuario contenente le funzioni ed i metodi principali, versione accessibile
-
-## Esercizi di preparazione (Teoria)
-
-    - Esercizi di preparazione alle domande di Teoria
-    - Selezione dei temi d'esame proposti nell'anno accademico 2020/21
