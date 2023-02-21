@@ -1,0 +1,46 @@
+---
+description: "Development Resources"
+---
+
+# Development Resources
+
+This section presents some resources useful for software development that *might* be relevant for (final) high-fidelity prototypes.
+
+Do you need to refresh your memory about **web development**? [Web Fundamentals](https://developers.google.com/web/fundamentals/) is "Google's opinionated reference for building amazing web experiences".
+
+## Suggested Software
+
+- [Node.js](https://nodejs.org/en/) 16.14 (LTS) and npm
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [git](https://git-scm.com/)
+- [ngrok](https://ngrok.com/download)
+
+## Design Resources
+
+- **Fonts**: [Google Fonts](https://fonts.google.com/) is a great resource of easy-to-use fonts, while [FontPair](https://fontpair.co/) may help you pair them.
+- **Icons**: [Font Awesome](https://fontawesome.com/) and [Noun Project](https://thenounproject.com/) are a good free icons package.
+- **[Subtle Patterns](https://www.toptal.com/designers/subtlepatterns/)** is useful if you want to add some light patterns to any plain background color.
+- **Sample images**: [Wunderstock](https://wunderstock.com/) and [Unsplash](https://unsplash.com/) are a good starting point to find Creative Commons photos.
+- **Colors**: [Adobe Color](https://color.adobe.com/) is an interactive web app to help you choose nice color schemes.
+
+## Web Development Resources
+
+
+- Simulate a **mobile device** from a desktop browser (e.g., with Chrome's [Device Mode](https://developers.google.com/web/tools/chrome-devtools/device-mode))
+- **Geolocation**:
+  - [HTML5 Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API)
+  - [Google Maps Javascript API](https://developers.google.com/maps/documentation/javascript/tutorial)
+- **Device orientation**: you can access the device gyroscope/accelerometer through dedicate [HTML5 API](https://developer.mozilla.org/en-US/docs/Web/API/Detecting_device_orientation)
+  - [Step-by-step tutorial](https://developers.google.com/web/fundamentals/native-hardware/device-orientation/)
+- **Microphone and camera**: get audio and take photos with the [HTML5 Media Capture API](https://developer.mozilla.org/en-US/docs/Web/API/Media_Streams_API)
+- **Camera roll**: to open the smartphone's camera roll, just use
+```html
+<input type="file" accept="image/*" capture="camera">
+```
+- **Vibration**: make the phone vibrate with the [HTML5 Vibration API](https://developer.mozilla.org/en-US/docs/Web/API/Vibration_API)
+- **Touch** gesture: enable advanced touch gestures (e.g., multi-touch, force touch, etc.) thanks to the [HTML5 Touch events](https://developer.mozilla.org/en-US/docs/Web/API/Touch_events)
+- **Notifications**: [HTML5 Notifications API](https://developer.mozilla.org/en-US/docs/Web/API/Notifications_API) allows the generation of notifications from the browser
+  - useful read: [Web Workers](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API) and [PWA](https://developers.google.com/web/progressive-web-apps)
+- Examples of usages in the 2020 GitHub course organization: https://github.com/polito-hci-2020?q=sample
+
+

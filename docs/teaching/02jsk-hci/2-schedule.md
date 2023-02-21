@@ -411,6 +411,145 @@ All slides, examples, exercises, and any other material used in the classroom an
 
 <LectureDivider/>{/*-------------------------------------------*/}
 
+<LectureRow
+    date="12/12/2022" time="13:00-14:30"
+    teacher='Alberto Monge Roffarello'
+    video='https://youtu.be/HeBxQ7mNujM' >
+    <a href="https://polito-hci-2022.github.io/materials/slides/10-usability-testing.pdf">Usability testing</a>
+</LectureRow>
+
+<LectureRow
+    date="13/12/2022" time="11:30-13:00"
+    teacher='Alberto Monge Roffarello'
+    video='https://youtu.be/U2TioZYbc70' >
+    Usability testing (cont'd)
+</LectureRow>
+
+<LectureRow variant='success'
+    date="15/12/2022" time="EOD"
+    teacher=''
+    type=''>
+    <em>Assignment 4 (medium-fidelity prototype) due</em>
+</LectureRow>
+
+<LectureRow
+    date="16/12/2022" time="13:00-14:30"
+    teacher='Alberto Monge Roffarello'
+    type='Lab' >
+    <a href="https://polito-hci-2022.github.io/materials/assignments/A5-heuristic-evaluation.pdf">Assignment 5: Heuristic evaluation - individual assignment</a> (group 1)
+</LectureRow>
+
+<LectureRow
+    date="16/12/2022" time="14:30-16:00"
+    teacher='Luigi De Russis'
+    type='Lab' >
+    <a href="https://polito-hci-2022.github.io/materials/assignments/A5-heuristic-evaluation.pdf">Assignment 5: Heuristic evaluation - individual assignment</a> (group 2)
+</LectureRow>
+
+<LectureRow
+    date="16/12/2022" time="16:00-17:30"
+    teacher='Tommaso Calò'
+    type='Lab' >
+    <a href="https://polito-hci-2022.github.io/materials/assignments/A5-heuristic-evaluation.pdf">Assignment 5: Heuristic evaluation - individual assignment</a> (group 3)
+</LectureRow>
+
+<LectureDivider/>{/*-------------------------------------------*/}
+
+<LectureRow
+    date="19/12/2022" time="13:00-14:30"
+    teacher='Alberto Monge Roffarello'
+    type='Lab' >
+    <a href="https://polito-hci-2022.github.io/materials/assignments/A6-high-fidelity-prototype.pdf">Assignment 6: High-fidelity prototype</a> (group 1, online)
+</LectureRow>
+
+<LectureRow
+    date="19/12/2022" time="13:00-14:30"
+    teacher='Luigi De Russis'
+    type='Lab' >
+    <a href="https://polito-hci-2022.github.io/materials/assignments/A6-high-fidelity-prototype.pdf">Assignment 6: High-fidelity prototype</a> (group 2, online)
+</LectureRow>
+
+<LectureRow
+    date="19/12/2022" time="13:00-14:30"
+    teacher='Tommaso Calò'
+    type='Lab' >
+    <a href="https://polito-hci-2022.github.io/materials/assignments/A6-high-fidelity-prototype.pdf">Assignment 6: High-fidelity prototype</a> (group 3, online)
+</LectureRow>
+
+<LectureRow
+    date="20/12/2022" time="11:30-13:00"
+    type='Exercise'
+    video='https://youtu.be/A6h_cxu2haI' >
+    <a href="https://docs.google.com/document/d/1Qb5if-jt7pfmI6iDrs2kl-qmaPg1YZAVBjK6gDPwT0s">Usability Testing</a><br/>(plan drafted in class)
+</LectureRow>
+
+<LectureRow variant='success'
+    date="20/12/2022" time="EOD"
+    teacher=''
+    type=''>
+    <em>Assignment 5 (heuristic evaluation) due</em>
+</LectureRow>
+
+<LectureRow variant='warning' type=''
+    teacher=''
+    date="" >
+    <em>Christmas vacation</em>
+</LectureRow>{/*-------------------------------------------*/}
+
+<LectureRow
+    date="09/01/2023" time="13:00-14:30"
+    teacher='Alberto Monge Roffarello'
+    type='Lab' >
+    Assignment 6: High-fidelity prototype (cont'd, group 1)
+</LectureRow>
+
+<LectureRow
+    date="09/01/2023" time="13:00-14:30"
+    teacher='Luigi De Russis'
+    type='Lab' >
+    Assignment 6: High-fidelity prototype (cont'd, group 2)
+</LectureRow>
+
+<LectureRow
+    date="09/01/2023" time="13:00-14:30"
+    teacher='Tommaso Calò'
+    type='Lab' >
+    Assignment 6: High-fidelity prototype (cont'd, group 3)
+</LectureRow>
+
+<LectureRow
+    date="10/01/2023" time="11:30-13:00"
+    type='Seminar' >
+    <a href="https://polito-hci-2022.github.io/materials/slides/coolshop-seminar.pdf">HCI processes in industry: the Coolshop case</a>
+</LectureRow>
+
+<LectureRow
+    date="11/01/2023" time="14:30-16:00"
+    type='Exercise'
+    video='https://youtu.be/UUKk7qHcRAc' >
+    Q&A on the exam and final report
+</LectureRow>
+
+<LectureRow
+    date="13/01/2023" time="13:00-14:30"
+    teacher='Alberto Monge Roffarello'
+    type='Lab' >
+    Assignment 6: High-fidelity prototype (cont'd, group 1)
+</LectureRow>
+
+<LectureRow
+    date="13/01/2023" time="14:30-16:00"
+    teacher='Luigi De Russis'
+    type='Lab' >
+    Assignment 6: High-fidelity prototype (cont'd, group 2)
+</LectureRow>
+
+<LectureRow
+    date="13/01/2023" time="16:00-17:30"
+    teacher='Tommaso Calò'
+    type='Lab' >
+    Assignment 6: High-fidelity prototype (cont'd, group 3)
+</LectureRow>
 
 
 </LectureTable>
