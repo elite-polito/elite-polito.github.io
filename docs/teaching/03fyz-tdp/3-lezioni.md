@@ -8,6 +8,20 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 
 <LectureTable defaultTeacher="Fulvio Corno" defaultType="Lezione">
 
+<LectureRow
+    topic='Istruzioni di installazione del software (Windows)'
+    pdf='https://github.com/TdP-2023/materiale/blob/master/info/Istruzioni%20di%20installazione%20software%20(Win).pdf?raw=True'
+    type='Info'
+    teacher=''
+/>
+
+<LectureRow
+    topic='Istruzioni di installazione del software (Mac OS X)'
+    pdf='https://github.com/TdP-2023/materiale/blob/master/info/Istruzioni%20di%20installazione%20software_MAC.pdf?raw=True'
+    type='Info'
+    teacher=''
+/>
+
 <LectureDivider topic="Settimana 01"/>
 
 <LectureRow

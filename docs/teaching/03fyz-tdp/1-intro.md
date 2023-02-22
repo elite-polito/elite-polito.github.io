@@ -7,7 +7,9 @@ description: "Avvisi e informazioni di base"
 
 Sito ufficiale del corso di *Tecniche di programmazione* (codice 03FYZPL) per studenti del corso di laurea in Ingegneria Gestionale (Classe L-8).
 
-Link breve a questa pagina: http://bit.ly/tecn-progr
+:::info
+Link breve a questa pagina: https://bit.ly/polito-TdP
+:::
 
 ## Informazioni in sintesi
 

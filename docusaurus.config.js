@@ -178,17 +178,41 @@ const config = {
       '@docusaurus/plugin-client-redirects',
       {
         redirects: [
-          {
-            to: '/teaching/14bhd-informatica',
-            from: '/teaching/current-courses/527-14bhd-info'
+          { // http://bit.ly/polito-benessere-digitale
+            to: '/teaching/',
+            from: '/teaching/current-courses/559-01del-digital-wellbeing'
           },
-          {
+          { // https://bit.ly/polito-iaw
+            to: '/teaching/',
+            from: '/teaching/current-courses/564-01dxu-iaw'
+          },
+          { // http://bit.ly/polito-design4dwb
+            to: '/teaching/',
+            from: '/teaching/current-courses/565-01gofiu-strategies-for-dwb'
+          },
+          { // http://bit.ly/polito-wa1
+            to: '/teaching/',
+            from: '/teaching/current-courses/521-wa1'
+          },
+          { // https://bit.ly/polito-wa1-ii
+            to: '/teaching/',
+            from: '/teaching/current-courses/556-01txyov-wa1'
+          },
+          { // http://bit.ly/polito-hcai
+            to: '/teaching/',
+            from: '/teaching/current-courses/516-01ujuiu-human-ai-interaction'
+          },
+          { // http://bit.ly/polito-hci
             to: '/teaching/02jsk-hci',
             from: '/teaching/current-courses/513-02jskov-hci'
           },
-          {
+          { // bit.ly/tecn-progr
             to: '/teaching/03fyz-tdp',
             from: '/teaching-mainmenu-69/laurea-i-livello-mainmenu-82/164-03fyz-tecn-progr'
+          },
+          { // http://bit.ly/polito-informatica
+            to: '/teaching/14bhd-informatica',
+            from: '/teaching/current-courses/527-14bhd-info'
           },
         ]
       }
