@@ -37,21 +37,21 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 <LectureRow
     date="28/02/2023" time="13:00-16:00"
     type="Lab"
-    teacher=''
+    teacher='Giuseppe Averta'
     topic="Lab 0: JavaFX (Squadra 1: AA-LI)"
 />
 
 <LectureRow
     date="01/03/2023" time="13:00-14:30"
     topic="L03 Esercizio Programmazione JavFX"
-    teacher=''
+    teacher='Carlo Masone'
 />
 
 
 <LectureRow
     date="01/03/2023" time="16:00-19:00"
     type="Lab"
-    teacher=''
+    teacher='Carlo Masone'
     topic="Lab 0: JavaFX (Squadra 2: LO-ZZ)"
 />
 
