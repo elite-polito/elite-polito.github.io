@@ -24,7 +24,8 @@ Link breve a questa pagina: https://bit.ly/polito-TdP
 | Docente titolare:      | 	Fulvio Corno                                                                                                                            |
 | Docenti collaboratori: | 	Giuseppe Averta, Carlo Masone   |
 | Pagina ufficiale: 	 | [Guida dello studente](https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=03FYZPL&p_a_acc=2023&p_header=S&p_lang=&multi=N) |
-| Video Lezioni: 	     | [Playlist YouTube]                                                 |
+| Video Lezioni: 	     | [Playlist YouTube](https://youtube.com/playlist?list=PLqRTLlwsxDL9ClNsiXVXH3vpgcpBSWK7U) |
+| Materiale ed Esercizi  | [Repository GitHub](https://github.com/TdP-2023)
 | Gruppo Telegram: 	     | https://t.me/+rdazF33SmL83YzVk                                                                                                           |
 
 ## Orario delle lezioni (dal 27/02/2022 al 10/06/2023)

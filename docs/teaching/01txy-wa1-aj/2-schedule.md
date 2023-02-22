@@ -8,9 +8,9 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 # Schedule
 
 :::info
-- Slides: GitHub
-- Exercises: GitHub
-- Video Lectures: YouTube playlist
+- Slides: [GitHub](https://github.com/TdP-2023/materiale)
+- Exercises: [GitHub](https://github.com/TdP-2023)
+- Video Lectures: [YouTube playlist](https://youtube.com/playlist?list=PLqRTLlwsxDL8WgeiSZVJzjEr1f9aHy2gz)
 :::
 
 <LectureTable defaultTeacher="Fulvio Corno" defaultType="Lecture" showMaterial={true} language='EN'>
