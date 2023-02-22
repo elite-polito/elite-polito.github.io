@@ -183,7 +183,7 @@ const config = {
             from: '/teaching/current-courses/559-01del-digital-wellbeing'
           },
           { // https://bit.ly/polito-iaw
-            to: '/teaching/',
+            to: '/teaching/01dxu-iaw',
             from: '/teaching/current-courses/564-01dxu-iaw'
           },
           { // http://bit.ly/polito-design4dwb
