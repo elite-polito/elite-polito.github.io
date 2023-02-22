@@ -38,11 +38,8 @@ const config = {
         docs: {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          // editUrl:
-          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
+        
         blog: {
           showReadingTime: true,
           path: 'news',
@@ -91,25 +88,23 @@ const config = {
         },
         items: [
           {to: '/news', label: 'News', position: 'left'},
-          // {
-          //   type: 'doc',
-          //   docId: 'teaching',
-          //   position: 'left',
-          //   label: 'Teaching',
-          // },
+
           {
             type: 'docSidebar',
             position: 'left',
             sidebarId: 'teachingSidebar',
             label: 'Teaching',
           },
+
           {
             type: 'docSidebar',
             position: 'left',
             sidebarId: 'researchSidebar',
             label: 'Research',
           },
+
           {to: '/people', label: 'People', position: 'left'},
+
           {
             type: 'dropdown',
             label: 'Thesis',
@@ -123,21 +118,9 @@ const config = {
             ],
             position: 'left',
           },
-          {to: '/jobs', label: 'Jobs', position: 'left'},
 
+          // {to: '/jobs', label: 'Jobs', position: 'left'},
 
-
-          // {
-          //   type: 'doc',
-          //   docId: 'intro',
-          //   position: 'left',
-          //   label: 'Tutorial',
-          // },
-          // {
-          //   href: 'https://github.com/facebook/docusaurus',
-          //   label: 'GitHub',
-          //   position: 'right',
-          // },
         ],
       },
       footer: {
@@ -190,6 +173,27 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
+    plugins: [
+      [
+      '@docusaurus/plugin-client-redirects',
+      {
+        redirects: [
+          {
+            to: '/teaching/14bhd-informatica',
+            from: '/teaching/current-courses/527-14bhd-info'
+          },
+          {
+            to: '/teaching/02jsk-hci',
+            from: '/teaching/current-courses/513-02jskov-hci'
+          },
+          {
+            to: '/teaching/03fyz-tdp',
+            from: '/teaching-mainmenu-69/laurea-i-livello-mainmenu-82/164-03fyz-tecn-progr'
+          },
+        ]
+      }
+      ],
+    ],
 };
 
 module.exports = config;

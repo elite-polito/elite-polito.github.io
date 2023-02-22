@@ -7,7 +7,7 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Admonition from '@theme/Admonition';
 
 import styles from './index.module.css';
-import logoFull from '@site/static/img/logo_elite_full.png';
+// import logoFull from '@site/static/img/logo_elite_full.png';
 
 function HomepageHeader() {
     const {siteConfig} = useDocusaurusContext();
@@ -15,7 +15,7 @@ function HomepageHeader() {
         <header className={clsx('hero shadow--lw', styles.heroBanner)}>
             <div className="container">
                 <div className="row">
-                    <div className="col col--8">
+                    <div className="col col--9">
                         {/*<p><img src={logoFull}/></p>*/}
                         <h1 className="hero__title">{siteConfig.title}</h1>
                         <p className="hero__subtitle">{siteConfig.tagline}</p>
@@ -36,9 +36,13 @@ function HomepageHeader() {
                         {/*    </Link>*/}
                         {/*</div>*/}
                     </div>
-                    <div className="col col--4">
-                        <Admonition type="info" title={'Latest updates'}>
-                            <p>Some information</p>
+                    <div className="col col--3">
+                        <Admonition type="info" title={'Quick links'}>
+                            <a href='/teaching/01txy-wa1-aj'>Web Applications I (A-L)</a><br/>
+                            <a href='/teaching/01txy-wa1-mz'>Web Applications I (M-Z)</a><br/>
+                            <a href='/teaching/03fyz-tdp'>Tecniche di Programmazione</a><br/>
+                            <br/>
+                            <a href='/thesis-offers'>Thesis offers</a>
                         </Admonition>
                     </div>
                 </div>
