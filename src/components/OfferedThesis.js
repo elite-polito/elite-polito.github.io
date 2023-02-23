@@ -15,12 +15,14 @@ export function OfferedThesisList(props) {
         callLoad();
     }, []);
 
-    if (allThesis.length)
+    if (allThesis.length) {
+        const today = (new Date()).toISOString().substring(0,10);
+    
         return <>
-            {allThesis.filter(t => t.exp_date >= new Date().toLocaleDateString('en-CA')).map(t => (
+            {allThesis.filter(t => t.exp_date >= today).map(t => (
                 <OfferedThesis key={t.id} {...t} />))}
         </>;
-    else
+    } else
         return <p>Loading...</p>
 }
 
