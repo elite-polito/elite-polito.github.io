@@ -8,8 +8,8 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 # Schedule
 
 :::info
-- Slides: [GitHub](https://github.com/TdP-2023/materiale)
-- Exercises: [GitHub](https://github.com/TdP-2023)
+- Slides: [GitHub](https://github.com/polito-WA1-AW1-2023/materials)
+- Exercises: [GitHub](https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks)
 - Video Lectures: [YouTube playlist](https://youtube.com/playlist?list=PLqRTLlwsxDL8WgeiSZVJzjEr1f9aHy2gz)
 :::
 
@@ -17,31 +17,21 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 
 <LectureDivider topic='Week 01'/>{/*-------------------------------------------*/}
 
-
 <LectureRow
     date="28/02/2023" time="10:00-11:30"
->
-    Introduction to the course
-</LectureRow>
+    topic='Introduction to the course' />
 
 <LectureRow 
     date="28/02/2023" time="11:30-13:00"
->
-    Introduction to JavaScript
-</LectureRow>
+    topic='Introduction to JavaScript' />
 
 <LectureRow
     date="02/03/2023" time="08:30-10:00"
->
-    JavaScript Exercises on Arrays and Strings. JavaScript Objects
-</LectureRow>
-
+    topic='JavaScript Exercises on Arrays and Strings. JavaScript Objects' />
 
 <LectureRow
     date="02/03/2023" time="10:00-11:30"
->
-    JavaScript Functions
-</LectureRow>
+    topic='JavaScript Functions' />
 
 </LectureTable>
 
