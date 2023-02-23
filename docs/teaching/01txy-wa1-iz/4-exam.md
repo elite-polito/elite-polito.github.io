@@ -7,6 +7,9 @@ description: "Exam"
 
 ## Exam assignments
 
+### Year 2022/23
+In progress...
+
 ### Year 2021/22
 
 - Exam 1: [Study Plan](https://docs.google.com/document/d/1Yfjkr3Jwn8W3riLMU6F2CDTSmkdJNs90qsYqnMPolZw/)

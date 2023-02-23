@@ -6,14 +6,14 @@ description: "General information"
 # Information
 
 :::info How to get here
-Short link to this page: https://bit.ly/polito-wa1-kz
+Short link to this page: https://bit.ly/polito-wa1-iz
 :::
 
 ## Basic Information
 
 Course material (lectures and labs) is available in the [Schedule](schedule). Exam rules are in the dedicated section.
 
-| Title:             | Web Applications I - Course 2 (K-Z)                       |
+| Title:             | Web Applications I - Course 2 (I-Z)                       |
 |--------------------|-----------------------------------------------------------|
 | Credits:           | 6 credits                                                     |
 | Year:              | 1st year M.S. Computer Engineering                             |
