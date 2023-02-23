@@ -11,7 +11,7 @@ Short link to this page: https://bit.ly/polito-wa1-aj
 
 ## Basic Information
 
-| Title:             | Web Applications I - Course 1 (A-J)                       |
+| Title:             | Web Applications I - Course 1 (A-H)                       |
 |--------------------|-----------------------------------------------------------|
 | Credits:           | 6 CFU                                                     |
 | Year:              | 1st year Computer Engineering                             |
