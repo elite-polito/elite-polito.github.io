@@ -6,7 +6,7 @@ description: "General information"
 # Information
 
 :::info
-Short link to this page: https://bit.ly/polito-wa1-aj
+Short link to this page: https://bit.ly/polito-wa1-ah
 :::
 
 ## Basic Information
