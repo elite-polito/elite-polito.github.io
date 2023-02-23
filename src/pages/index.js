@@ -38,8 +38,8 @@ function HomepageHeader() {
                     </div>
                     <div className="col col--3">
                         <Admonition type="info" title={'Quick links'}>
-                            <a href='/teaching/01txy-wa1-aj'>Web Applications I (A-L)</a><br/>
-                            <a href='/teaching/01txy-wa1-mz'>Web Applications I (M-Z)</a><br/>
+                            <a href='/teaching/01txy-wa1-aj'>Web Applications I (A-J)</a><br/>
+                            <a href='/teaching/01txy-wa1-iz'>Web Applications I (I-Z)</a><br/>
                             <a href='/teaching/03fyz-tdp'>Tecniche di Programmazione</a><br/>
                             <br/>
                             <a href='/thesis-offers'>Thesis offers</a>

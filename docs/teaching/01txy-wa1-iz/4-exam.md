@@ -7,6 +7,9 @@ description: "Exam"
 
 ## Exam assignments
 
+### Year 2022/23
+In progress...
+
 ### Year 2021/22
 
 - Exam 1: [Study Plan](https://docs.google.com/document/d/1Yfjkr3Jwn8W3riLMU6F2CDTSmkdJNs90qsYqnMPolZw/)
@@ -38,14 +41,14 @@ A few days after publishing the assignment, the teachers will be available to di
 The submission deadline for the project is 23:59 of the day before the official exam date.
 For submitting the exam, it is mandatory to enroll in the exam booking ("prenotazione esami"). The students admitted to the exam will be those that are correctly enrolled AND have turned in the project before the deadline. There will be no penalty for students who enroll but do not submit the project (they will be marked as "absent").
 
-The submitted projects will eveluated during the oral discussion.
+The submitted projects will evaluated during the oral discussion.
 The evaluation criteria for the submitted project will be functional completeness, absence of unhandled errors, client-server organization, component architecture according to the React guidelines, and clarity and organization of the code.
 
-Each student will be allocated a time slot for the discussion, that will take place in person. Some form of identification (ID card or passport, etc.) is required. The oral exam aims to ensure that each student has developed the web application by themselves and to evaluate how much the student can explain the exact behavior of the code. The source code will be opened on the teacher's computer.
+Each student will be allocated a time slot for the discussion, that will take place in person starting from the official exam date. Some form of identification (ID card or passport, etc.) is required. The oral exam aims to ensure that each student has developed the web application by themselves and to evaluate how much the student can explain the exact behavior of the code. The source code will be opened on the teacher's computer.
 Therefore, during the oral exam, the student must be able to explain every aspect of the project. This includes, but is not limited to, the reasons behind the architectural choices for their application, how any specific fragment of code works, why it was implemented in that way, what alternatives could have been used, etc.
 The evaluation criteria for the oral will be theoretical and practical knowledge of the project design, theoretical and practical knowledge of the project codebase, readiness, and clarity in the replies.
 
-There will be 26 marks assigned to the project and 6 to the oral discussion. The minimum project score to be admitted to the oral discussion is 12.
+There will be 26 marks assigned to the project and 6 to the oral discussion.
 
 Since the exam is essentially the design of an application with rather generic specifications, it is not acceptable that the submitted solutions are excessively similar among them, which would indicate that the solution has not been developed autonomously. Similarity checks will be run after the deadline. In this case, the exam will be considered failed, and the students will be notified about the situation.
 

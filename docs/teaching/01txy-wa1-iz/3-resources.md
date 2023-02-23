@@ -8,7 +8,7 @@ This section lists the software applications and the libraries used in the cours
 
 ## Software In Use
 
-- [Node.js](https://nodejs.org/en/) 16.14 (LTS) and npm
+- [Node.js](https://nodejs.org/en/) 18.14 (LTS) and npm
 - [Visual Studio Code](https://code.visualstudio.com/)
 - Google Chrome or Mozilla Firefox (at least Chrome 88+ or Firefox 85+)
 - React Developer Tools ([Chrome extension](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en) or [Firefox extension](https://addons.mozilla.org/en-US/firefox/addon/react-devtools/))
@@ -21,7 +21,7 @@ Additional libraries (e.g., React, Express, sqlite, ...) will be installed via n
 
 - Essential documentation around web technologies and development: [Mozilla Developer Network](https://developer.mozilla.org/) (MDN)
 - React [official website](https://reactjs.org/) and (beta) [documentation](https://beta.reactjs.org/)
-- [Bootstrap 5.1](https://getbootstrap.com/) and [React Bootstrap](https://react-bootstrap.github.io/)
+- [Bootstrap 5.2](https://getbootstrap.com/docs/5.2/getting-started/introduction/) and [React Bootstrap](https://react-bootstrap.github.io/)
 - To dive deep into JavaScript's secrets: [You Don't Know JS Yet](https://github.com/getify/You-Dont-Know-JS) (2nd edition)
 - [The Modern JavaScript Tutorial](https://javascript.info/)
 

@@ -9,7 +9,7 @@ const config = {
   title: 'e-Lite Research Group',
   tagline: 'e-Lite: Intelligent and Interactive Systems',
 
-  url: 'https://elite-polito.github.io/',
+  url: 'https://elite.polito.it/',
 
   // GitHub
   projectName: 'elite-polito.github.io',
