@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://elite-polito.github.io/news</id>
+    <id>https://elite.polito.it/news</id>
     <title>e-Lite Research Group Blog</title>
-    <updated>2023-02-22T15:14:47.000Z</updated>
+    <updated>2023-02-23T10:52:22.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://elite-polito.github.io/news"/>
+    <link rel="alternate" href="https://elite.polito.it/news"/>
     <subtitle>e-Lite Research Group Blog</subtitle>
-    <icon>https://elite-polito.github.io/img/favicon.ico</icon>
+    <icon>https://elite.polito.it/img/favicon.ico</icon>
     <rights>Copyright © 2023 Politecnico di Torino</rights>
     <entry>
         <title type="html"><![CDATA[Call for Papers: Special Session on Cybersecurity and IoT @ SpliTech 2023]]></title>
-        <id>https://elite-polito.github.io/news/2023-01-cfp-splitech2023-cybersecurity</id>
-        <link href="https://elite-polito.github.io/news/2023-01-cfp-splitech2023-cybersecurity"/>
-        <updated>2023-02-22T15:14:47.000Z</updated>
+        <id>https://elite.polito.it/news/2023-01-cfp-splitech2023-cybersecurity</id>
+        <link href="https://elite.polito.it/news/2023-01-cfp-splitech2023-cybersecurity"/>
+        <updated>2023-02-23T10:52:22.000Z</updated>
         <summary type="html"><![CDATA[The e-Lite research group is organizing a special session focused on Cybersecurity and the Internet of Things]]></summary>
         <content type="html"><![CDATA[<p>The e-Lite research group is organizing a <strong>special session</strong> focused on <strong>Cybersecurity</strong> and the <strong>Internet of Things
 </strong> (IoT).</p><p>The poster of the special session, with all the relevant information, is available at the following
@@ -40,8 +40,8 @@ dot)surname(at)polito(dot)it</em></p><p>More information:</p><ul><li><a href="ht
     </entry>
     <entry>
         <title type="html"><![CDATA[Participation at SPLITECH 2022]]></title>
-        <id>https://elite-polito.github.io/news/2022/07/11/splitech</id>
-        <link href="https://elite-polito.github.io/news/2022/07/11/splitech"/>
+        <id>https://elite.polito.it/news/2022/07/11/splitech</id>
+        <link href="https://elite.polito.it/news/2022/07/11/splitech"/>
         <updated>2022-07-11T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Last week, from the 5th to the 8th of July, the e-Lite research group participated in the 7th International Conference on Smart and Sustainable Technologies (SpliTech 2022). The conference was held in Croatia, in Split, and in Bol (Brač island). According to the current COVID-19 pandemic, the conference was held in a hybrid form.]]></summary>
         <content type="html"><![CDATA[<p>Last week, from the 5th to the 8th of July, the e-Lite research group participated in the 7th International Conference on Smart and Sustainable Technologies (SpliTech 2022). The conference was held in Croatia, in Split, and in Bol (Brač island). According to the current COVID-19 pandemic, the conference was held in a hybrid form.</p><p>During this event, Luca Mannella presented a paper entitled: "A Threat Model for Extensible Smart Home Gateways".</p><p>This paper proposes a threat model for a specific class of components of IoT infrastructures: smart home gateways extensible through plug-ins. The purpose of the proposed model is twofold.
@@ -62,8 +62,8 @@ To provide a first validation of the model, the paper presents a use case based 
     </entry>
     <entry>
         <title type="html"><![CDATA[Special Issue: Understanding Digital Wellbeing within Complex Technological Contexts]]></title>
-        <id>https://elite-polito.github.io/news/2021/12/01/ijhcs-wellbeing</id>
-        <link href="https://elite-polito.github.io/news/2021/12/01/ijhcs-wellbeing"/>
+        <id>https://elite.polito.it/news/2021/12/01/ijhcs-wellbeing</id>
+        <link href="https://elite.polito.it/news/2021/12/01/ijhcs-wellbeing"/>
         <updated>2021-12-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[IJHCS cover]]></summary>
         <content type="html"><![CDATA[<p><img loading="lazy" alt="IJHCS cover" src="/assets/images/2021-ijhcs-cover-0189203317291ebe510f5a2e276e60fc.jpg" width="250" height="333" class="img_ev3q"></p><p>The International Journal of Human Computer Studies (IJHCS) issued a special issue on the topic "Understanding Digital Wellbeing within Complex Technological Contexts".</p><p>Nowadays, there is a growing — yet debated — discussion around the negative aspects of overusing technology, with many people that feel conflicted about the amount of time they spend on their devices. In this context, researchers and practitioners have started to consider a new kind of psychological digital wellbeing, giving rise to the flourishing of digital self-control tools (DSCTs), i.e., external applications that support users in self-regulating their technology use through interventions like timers and lock-out mechanisms.
