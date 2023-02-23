@@ -14,14 +14,14 @@ description: "Lucidi, videolezioni, esercizi, ..."
 
 Il materiale didattico è anche disponibile nel repository https://github.com/TdP-2023/materiale. Si consiglia di "clonare" tale repository, in modo da ricevere automaticamente (tramite "pull") tutti gli aggiornamenti sul materiale didattico.
 
-- [Introduzione al corso](https://github.com/TdP-2023/materiale/blob/master/slide/01-01-introduzione_2023.pdf?raw=true)
+- [Introduzione al corso](https://tdp-2023.github.io/materiale/slide/01-01-introduzione_2023.pdf)
 - Introduzione a Git e GitHub
 - Java Collections
   - Set and Hash
   - Map
   - Code prioritarie
 - JavaFX
-  - JavaFX Crash Course
+  - [JavaFX Crash Course](https://tdp-2023.github.io/materiale/slide/02-01-javafx-crashcourse.pdf)
   - Pattern Model-View-Controller
   - JavaFX Tables
 - Database access and JDBC
@@ -39,8 +39,8 @@ Il materiale didattico è anche disponibile nel repository https://github.com/Td
 
 ## Software richiesto
 
-- [Istruzioni per l'installazione del software (Windows)](https://github.com/TdP-2023/materiale/blob/master/info/Istruzioni%20di%20installazione%20software%20(Win).pdf?raw=True)
-- [Istruzioni per l'installazione del software (Mac)](https://github.com/TdP-2023/materiale/blob/master/info/Istruzioni%20di%20installazione%20software_MAC.pdf?raw=True)
+- [Istruzioni per l'installazione del software (Windows)](https://tdp-2023.github.io/materiale/info/Istruzioni%20di%20installazione%20software%20(Win).pdf)
+- [Istruzioni per l'installazione del software (Mac)](https://tdp-2023.github.io/materiale/info/Istruzioni%20di%20installazione%20software_MAC.pdf)
 - Istruzioni per la creazione di un Personal Access Token per accedere da Eclipse ai progetti su GitHub
     (importante e obbligatorio, necessario al fine di poter accedere ai progetti in sede di esame)
 
