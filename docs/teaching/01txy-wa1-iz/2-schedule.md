@@ -25,26 +25,26 @@ All slides, examples, exercises, and any other material used in the classroom an
 <LectureRow
     date="28/02/2023" time="08:30-10:00"
 >
-    Introduction to the course
+    <a href="https://polito-wa1-aw1-2023.github.io/materials/slide/00-intro-2023-WA1-iz.pdf" title="Course introduction">Introduction to the course</a>
 </LectureRow>
 
 <LectureRow 
     date="28/02/2023" time="10:00-11:30"
 >
-    JavaScript: introduction
+    <a href="https://polito-wa1-aw1-2023.github.io/materials/slide/1-01-javascript-basics.pdf" title="JavaScript Basics">JavaScript: introduction</a>
 </LectureRow>
 
 <LectureRow
     date="02/03/2023" time="08:30-10:00" type="Exercise"
 >
-    Exercises on Javascript (on GitHub)
+    <a href="https://github.com/polito-WA1-AW1-2023/wa1-iz-weeks/tree/main/week01/exercises" title="Week 1 exercises">Exercises on Javascript</a> (on GitHub)
 </LectureRow>
 
 
 <LectureRow
     date="02/03/2023" time="10:00-11:30"
 >
-    JavaScript: objects and functions
+    <a href="https://polito-wa1-aw1-2023.github.io/materials/slide/1-02-javascript-objects-functions.pdf" title="Objects and Functions in JS">JavaScript: objects and functions</a>
 </LectureRow>
 
 </LectureTable>
