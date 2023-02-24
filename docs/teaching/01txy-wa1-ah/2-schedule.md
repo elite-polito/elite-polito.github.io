@@ -24,17 +24,26 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 
 <LectureRow 
     date="28/02/2023" time="11:30-13:00"
-    topic='Introduction to JavaScript' />
+    topic='Introduction to JavaScript'
+    pdf='https://github.com/polito-WA1-AW1-2023/materials/blob/master/slide/1-01-javascript-basics.pdf' />
 
 <LectureRow
     date="02/03/2023" time="08:30-10:00"
-    topic='JavaScript Exercises on Arrays and Strings. JavaScript Objects' />
+    topic='JavaScript Exercises on Arrays and Strings. JavaScript Objects'
+    pdf='https://github.com/polito-WA1-AW1-2023/materials/blob/master/slide/1-02-javascript-objects-functions.pdf' />
 
 <LectureRow
     date="02/03/2023" time="10:00-11:30"
     topic='JavaScript Functions' />
 
+<LectureRow
+    topic='Week 01 exercises'
+    teacher='' type=''
+    github='https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/week01' />
+
+
 </LectureTable>
 
 ## Video lectures
 
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLqRTLlwsxDL8WgeiSZVJzjEr1f9aHy2gz" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>

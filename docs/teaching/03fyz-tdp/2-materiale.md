@@ -37,6 +37,8 @@ Il materiale didattico è anche disponibile nel repository https://github.com/Td
 
 ## Video lezioni
 
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLqRTLlwsxDL9ClNsiXVXH3vpgcpBSWK7U" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullsSreen></iframe>
+
 ## Software richiesto
 
 - [Istruzioni per l'installazione del software (Windows)](https://tdp-2023.github.io/materiale/info/Istruzioni%20di%20installazione%20software%20(Win).pdf)
