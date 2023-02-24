@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknew_elite=self.webpackChunknew_elite||[]).push([[278],{62732:e=>{e.exports=JSON.parse('{"title":"Teaching Resources","description":"Currently Active Courses","keywords":["teaching"],"slug":"/teaching","permalink":"/teaching","navigation":{"next":{"title":"Introduzione alle Applicazioni Web (01DXU)","permalink":"/teaching/01dxu-iaw"}}}')}}]);

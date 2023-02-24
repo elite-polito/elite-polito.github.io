@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknew_elite=self.webpackChunknew_elite||[]).push([[2437],{38059:e=>{e.exports=JSON.parse('{"title":"Research Resources","description":"Research topics and resources","keywords":["research"],"slug":"/research","permalink":"/research","navigation":{"next":{"title":"Projects","permalink":"/research/Projects"}}}')}}]);
