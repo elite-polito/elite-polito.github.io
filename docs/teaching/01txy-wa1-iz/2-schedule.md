@@ -8,7 +8,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 # Schedule
 
 :::tip Quick Links
-* [Code developed](https://github.com/polito-WA1-AW1-2023/wa1-kz-weeks) during the lectures (on GitHub)
+* [Code developed](https://github.com/polito-WA1-AW1-2023/wa1-iz-weeks) during the lectures (on GitHub)
 * [Videolectures' playlist](https://www.youtube.com/playlist?list=PLs7DWGc_wmwTGEyUzKpqQDaa5TSnhshmp) (on YouTube)
 * [Course material](https://github.com/polito-WA1-AW1-2023/materials) (on GitHub)
 :::
