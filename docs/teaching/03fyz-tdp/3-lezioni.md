@@ -39,7 +39,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     date="28/02/2023" time="13:00-16:00"
     type="Lab"
     teacher='Giuseppe Averta'
-    topic="Lab 0: JavaFX (Squadra 1: AA-LI)"
+    topic="Lab 0: JavaFX (Squadra 1)"
 />
 
 <LectureRow
@@ -52,7 +52,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     date="01/03/2023" time="16:00-19:00"
     type="Lab"
     teacher='Carlo Masone'
-    topic="Lab 0: JavaFX (Squadra 2: LO-ZZ)"
+    topic="Lab 0: JavaFX (Squadra 2)"
 />
 
 
