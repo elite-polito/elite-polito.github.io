@@ -214,6 +214,11 @@ const config = {
             to: '/teaching/14bhd-informatica',
             from: '/teaching/current-courses/527-14bhd-info'
           },
+          { // Basi Dati (Laura)
+            to: '/teaching/old-courses',  // per ora, poi migreremo le pagine
+            from: '/teaching/current-courses/526-04afqpc'
+          },
+
         ]
       }
       ],
