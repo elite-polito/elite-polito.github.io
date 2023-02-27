@@ -47,6 +47,34 @@ All slides, examples, exercises, and any other material used in the classroom an
     <a href="https://polito-wa1-aw1-2023.github.io/materials/slide/1-02-javascript-objects-functions.pdf" title="Objects and Functions in JS">JavaScript: objects and functions</a>
 </LectureRow>
 
+<LectureDivider topic='Week 02'/>{/*-------------------------------------------*/}
+
+
+<LectureRow
+    date="07/03/2023" time="08:30-10:00"
+>
+    JavaScript: async programming
+</LectureRow>
+
+<LectureRow 
+    date="07/03/2023" time="10:00-11:30" type="Exercise"
+>
+    Exercise with functional methods
+</LectureRow>
+
+<LectureRow
+    date="09/03/2023" time="08:30-10:00" type="Lab" type="Lab" teacher="Luca Mannella"
+>
+    Getting started with Node (group 1, IA-OU)
+</LectureRow>
+
+
+<LectureRow
+    date="09/03/2023" time="10:00-11:30" type="Lab" teacher="Luca Mannella"
+>
+    Getting started with Node (group 2, PA-ZZ)
+</LectureRow>
+
 </LectureTable>
 
 ## Video lectures

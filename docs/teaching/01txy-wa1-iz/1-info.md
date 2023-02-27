@@ -34,7 +34,7 @@ See the _Schedule_ for detailed information and variations.
 |----------|-------------|----------|---------------|-------------------|
 | Tuesday  | 08:30-10:00 | Room 1P  | Class         |                   |
 | Tuesday  | 10:00-11:30 | Room 1P  | Class         |                   |
-| Thursday | 08:30-10:00 | Room 5I  | Class         | only March 2      |
-| Thursday | 10:00-11:30 | Room 5I  | Class         | only March 2      |
+| Thursday | 08:30-10:00 | Room 5I  | Class         | March 2, April 13 |
+| Thursday | 10:00-11:30 | Room 5I  | Class         | March 2, April 13 |
 | Thursday | 08:30-10:00 | Room 5I  | Lab - Group 1 | starts on March 9 |
 | Thursday | 10:00-11:30 | Room 5I  | Lab - Group 2 | starts on March 9 |
