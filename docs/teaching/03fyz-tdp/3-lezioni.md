@@ -26,13 +26,19 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 
 <LectureRow
     date="27/02/2023" time="08:30-10:00"
-    topic="L01 Introduzione al corso"
     pdf="https://tdp-2023.github.io/materiale/slide/01-01-introduzione_2023.pdf"
-/>
+    video={["https://youtu.be/s5KHDBx4cvc", "https://youtu.be/EFh496p2898"]}
+>
+L01a Introduzione al corso<br/>
+L01b Introduzione a JavaFX (prima parte)
+</LectureRow>
+
 <LectureRow
     date="27/02/2023" time="10:00-11:30"
-    topic="L02 Introduzione a JavaFX"
+    topic="L02 Introduzione a JavaFX (seconda parte)"
     pdf='https://tdp-2023.github.io/materiale/slide/02-01-javafx-crashcourse.pdf'
+    video='https://youtu.be/B1UqFRcdtKQ'
+    github='https://github.com/TdP-2023/Primo'
 />
 
 <LectureRow
