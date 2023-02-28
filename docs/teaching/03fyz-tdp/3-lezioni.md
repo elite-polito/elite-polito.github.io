@@ -53,6 +53,7 @@ L01b Introduzione a JavaFX (prima parte)
     date="01/03/2023" time="13:00-14:30"
     topic="L03 Esercizio Programmazione JavFX"
     teacher='Carlo Masone'
+    github='https://github.com/TdP-2023/IndovinaNumero'
 />
 
 <LectureRow
