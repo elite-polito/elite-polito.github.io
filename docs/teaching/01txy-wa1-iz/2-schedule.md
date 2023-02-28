@@ -30,6 +30,7 @@ All slides, examples, exercises, and any other material used in the classroom an
 
 <LectureRow 
     date="28/02/2023" time="10:00-11:30"
+    video={["https://youtu.be/uU6nzRjdRKs","https://youtu.be/U1fd3nM28Ac"]}
 >
     <a href="https://polito-wa1-aw1-2023.github.io/materials/slide/1-01-javascript-basics.pdf" title="JavaScript Basics">JavaScript: introduction</a>
 </LectureRow>
