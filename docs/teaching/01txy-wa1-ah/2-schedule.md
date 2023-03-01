@@ -19,29 +19,29 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 
 <LectureRow
     date="28/02/2023" time="10:00-11:30"
-    topic='Introduction to the course'
     pdf='https://polito-wa1-aw1-2023.github.io/materials/slide/00-intro-2023-WA1-AH.pdf' 
     video={['https://youtu.be/envFBChQo_I', 'https://youtu.be/-fwCwGPbZrI']}
     >
-    Introduction to the course<br/>
-    Introduction to JavaScript (first part)
+    L01a Introduction to the course<br/>
+    L01b Introduction to JavaScript (first part)
 </LectureRow>
 
 <LectureRow 
     date="28/02/2023" time="11:30-13:00"
-    topic='Introduction to JavaScript (second part)'
+    topic='L02 Introduction to JavaScript (second part)'
     pdf='https://polito-wa1-aw1-2023.github.io/materials/slide/1-01-javascript-basics.pdf' 
     video='https://youtu.be/DiRpJz7zYTs' 
     github='https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/tree/main/week01' />
 
 <LectureRow
     date="02/03/2023" time="08:30-10:00"
-    topic='JavaScript Exercises on Arrays and Strings'
+    topic='L03 JavaScript Exercises on Arrays and Strings'
+    github='https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/blob/main/week01/exercise.md'
  />
 
 <LectureRow
     date="02/03/2023" time="10:00-11:30"
-    topic='JavaScript Objects and Functions'
+    topic='L04 JavaScript Objects and Functions'
     pdf='https://polito-wa1-aw1-2023.github.io/materials/slide/1-02-javascript-objects-functions.pdf' />
 
 <LectureRow
