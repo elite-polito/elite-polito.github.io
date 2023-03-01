@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://elite.polito.it/news</id>
     <title>e-Lite Research Group Blog</title>
-    <updated>2023-03-01T09:03:43.000Z</updated>
+    <updated>2023-03-01T16:03:45.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://elite.polito.it/news"/>
     <subtitle>e-Lite Research Group Blog</subtitle>
@@ -12,7 +12,7 @@
         <title type="html"><![CDATA[Call for Papers: Special Session on Cybersecurity and IoT @ SpliTech 2023]]></title>
         <id>https://elite.polito.it/news/2023-01-cfp-splitech2023-cybersecurity</id>
         <link href="https://elite.polito.it/news/2023-01-cfp-splitech2023-cybersecurity"/>
-        <updated>2023-03-01T09:03:43.000Z</updated>
+        <updated>2023-03-01T16:03:45.000Z</updated>
         <summary type="html"><![CDATA[The e-Lite research group is organizing a special session focused on Cybersecurity and the Internet of Things]]></summary>
         <content type="html"><![CDATA[<p>The e-Lite research group is organizing a <strong>special session</strong> focused on <strong>Cybersecurity</strong> and the <strong>Internet of Things
 </strong> (IoT).</p><p>The poster of the special session, with all the relevant information, is available at the following
