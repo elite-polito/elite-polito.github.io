@@ -104,7 +104,7 @@ All slides, examples, exercises, and any other material used in the classroom an
 <LectureDivider topic='Week 04'/>{/*-------------------------------------------*/}
 
 <LectureRow
-    type="Reading" date="20/03/2023"
+    type="Reading" date="20/03/2023" teacher=""
 >
     Introduction to Web Architectures, HTML, and CSS
 </LectureRow>
@@ -164,7 +164,7 @@ All slides, examples, exercises, and any other material used in the classroom an
 <LectureDivider topic='Week 06'/>{/*-------------------------------------------*/}
 
 <LectureRow
-    type="Reading" date="03/04/2023"
+    type="Reading" date="03/04/2023" teacher=""
 >
     The 'this' keyword in JavaScript
 </LectureRow>
@@ -182,7 +182,7 @@ All slides, examples, exercises, and any other material used in the classroom an
 </LectureRow>
 
 <LectureRow 
-    variant="info" type=""
+    variant="info" type="" teacher=""
 >
     Easter vacation
 </LectureRow>
@@ -230,7 +230,7 @@ All slides, examples, exercises, and any other material used in the classroom an
 <LectureDivider topic='Week 08'/>{/*-------------------------------------------*/}
 
 <LectureRow
-    date="25/04/2023" type="-"
+    date="25/04/2023" type="-" teacher=""
 >
     No class (<em>holiday</em>)
 </LectureRow>
@@ -251,7 +251,7 @@ All slides, examples, exercises, and any other material used in the classroom an
 <LectureDivider topic='Week 09'/>{/*-------------------------------------------*/}
 
 <LectureRow
-    type="Reading" date="01/05/2023"
+    type="Reading" date="01/05/2023" teacher=""
 >
     Modules in JavaScript
 </LectureRow>
@@ -311,7 +311,7 @@ All slides, examples, exercises, and any other material used in the classroom an
 <LectureDivider topic='Week 11'/>{/*-------------------------------------------*/}
 
 <LectureRow
-    type="Reading" date="15/05/2023"
+    type="Reading" date="15/05/2023" teacher=""
 >
     Client-server interaction in React
 </LectureRow>
@@ -397,7 +397,7 @@ All slides, examples, exercises, and any other material used in the classroom an
 <LectureDivider topic='Week 14'/>{/*-------------------------------------------*/}
 
 <LectureRow
-    date="06/06/2023" type="-"
+    date="06/06/2023" type="-" teacher=""
 >
     No class
 </LectureRow>
