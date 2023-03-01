@@ -64,6 +64,38 @@ L01b Introduzione a JavaFX (prima parte)
     github='https://github.com/TdP-2023/Lab0'
 />
 
+<LectureDivider topic="Settimana 02"/>
+
+<LectureRow
+    date="06/03/2023" time="08:30-10:00"
+    topic='L04 Introduzione a Git e GitHub' 
+/>
+
+<LectureRow
+    date="06/03/2023" time="10:00-11:30"
+    topic="L05 Oggetti e Collection (esercizio 'Libretto Voti')"
+/>
+
+<LectureRow
+    date="07/03/2023" time="13:00-16:00"
+    type="Lab"
+    teacher='Carlo Masone'
+    topic="Lab 1: JavaFX (Squadra 2)"
+/>
+
+<LectureRow
+    date="08/03/2023" time="13:00-14:30"
+    topic="L06 Hash, Map, Set"
+    teacher='Giuseppe Averta'
+/>
+
+<LectureRow
+    date="08/03/2023" time="16:00-19:00"
+    type="Lab"
+    teacher='Giuseppe Averta'
+    topic="Lab 1: JavaFX (Squadra 1)"
+/>
+
 
 </LectureTable>
 
