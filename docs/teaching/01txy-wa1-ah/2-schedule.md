@@ -50,7 +50,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 <LectureRow
     topic='Week 01 exercises'
     teacher='' type=''
-    github='https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/week01' />
+    github='https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/tree/main/week01' />
 
 
 </LectureTable>
