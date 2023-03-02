@@ -19,9 +19,9 @@ Il materiale del corso (lezioni, esercizi e laboratori) è disponibile nella sez
 | Anno:                   | Secondo/terzo anno delle lauree                           |
 | Semestre:               | Secondo semestre (Marzo-Giugno)                           |
 | Lingua:                 | Italiano                                                  |
-| Docente titolare:       | Alberto Monge Roffarello                                  |
-| Docenti collaboratori:  | Monica Molino                                             |
-| Pagina ufficiale:       | [Portale della Didattica](https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=01DELMQ&p_a_acc=2024&p_header=S&p_lang=&multi=N)          |
+| Docente titolare:       | Alberto Monge Roffarello (alberto.monge@polito.it)        |
+| Docenti collaboratori:  | Monica Molino (monica.molino@unito.it)                    |
+| Pagina ufficiale:       | [Portale della Didattica](https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=01DELMQ&p_a_acc=2024&p_header=S&p_lang=&multi=N)                            |
 | Telegram group:         | https://t.me/+wz2h20VQAiRlMDlk                            |
 
 ## Orario delle lezioni
