@@ -28,7 +28,7 @@ IEEE [Communication Society](https://www.comsoc.org/conferences-events/internati
 ComSoc).
 The conference will be held in **Bol** and **Split**, **Croatia**, June 20-23, 2023.
 
-Submissions are open until February 24, 2023, at the following link, by selecting the symposium ("SYM_IOT") and our
+Submissions are open until March 13, 2023 (extended deadline), at the following link, by selecting the symposium ("SYM_IOT") and our
 special issue ("**`SS_CYBER`**"):
 https://www.edas.info/newPaper.php?c=30289&track=114859
 
