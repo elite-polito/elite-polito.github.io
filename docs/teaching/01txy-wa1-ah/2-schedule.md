@@ -37,12 +37,15 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     date="02/03/2023" time="08:30-10:00"
     topic='L03 JavaScript Exercises on Arrays and Strings'
     github='https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/blob/main/week01/exercise.md'
- />
+    video='https://youtu.be/KB2pBvPmcUA'
+/>
 
 <LectureRow
     date="02/03/2023" time="10:00-11:30"
     topic='L04 JavaScript Objects and Functions'
-    pdf='https://polito-wa1-aw1-2023.github.io/materials/slide/1-02-javascript-objects-functions.pdf' />
+    pdf='https://polito-wa1-aw1-2023.github.io/materials/slide/1-02-javascript-objects-functions.pdf'
+    video='https://youtu.be/z91wQzDXxtY'
+ />
 
 <LectureRow
     topic='Week 01 exercises'
