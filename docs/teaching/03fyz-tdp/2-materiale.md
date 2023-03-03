@@ -15,7 +15,7 @@ description: "Lucidi, videolezioni, esercizi, ..."
 Il materiale didattico è anche disponibile nel repository https://github.com/TdP-2023/materiale. Si consiglia di "clonare" tale repository, in modo da ricevere automaticamente (tramite "pull") tutti gli aggiornamenti sul materiale didattico.
 
 - [Introduzione al corso](https://tdp-2023.github.io/materiale/slide/01-01-introduzione_2023.pdf)
-- Introduzione a Git e GitHub
+- [Introduzione a Git e GitHub](https://tdp-2023.github.io/materiale/slide/01-02-Git-quickintro.pdf)
 - Java Collections
   - Set and Hash
   - Map
@@ -49,7 +49,7 @@ Il materiale didattico è anche disponibile nel repository https://github.com/Td
 
 ## Laboratorio
 
-- Laboratorio 0
+- [Laboratorio 0](https://github.com/TdP-2023/Lab0)
 - Laboratorio 1
 - Laboratorio 2
 - Laboratorio 3

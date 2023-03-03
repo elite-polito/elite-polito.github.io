@@ -51,7 +51,7 @@ L01b Introduzione a JavaFX (prima parte)
 
 <LectureRow
     date="01/03/2023" time="13:00-14:30"
-    topic="L03 Esercizio Programmazione JavFX"
+    topic="L03 Esercizio Programmazione JavFX (Indovina Numero)"
     teacher='Carlo Masone'
     video='https://youtu.be/JJb5wVWBhJg'
     github='https://github.com/TdP-2023/IndovinaNumero'
@@ -70,11 +70,13 @@ L01b Introduzione a JavaFX (prima parte)
 <LectureRow
     date="06/03/2023" time="08:30-10:00"
     topic='L04 Introduzione a Git e GitHub' 
+    pdf='https://tdp-2023.github.io/materiale/slide/01-02-Git-quickintro.pdf'
 />
 
 <LectureRow
     date="06/03/2023" time="10:00-11:30"
     topic="L05 Oggetti e Collection (esercizio 'Libretto Voti')"
+    github='https://github.com/TdP-2023/LibrettoVoti'
 />
 
 <LectureRow
@@ -96,6 +98,41 @@ L01b Introduzione a JavaFX (prima parte)
     teacher='Giuseppe Averta'
     topic="Lab 1: JavaFX (Squadra 1)"
 />
+
+<LectureDivider topic="Settimana 03"/>
+
+<LectureRow
+    date="13/03/2023" time="08:30-10:00"
+    topic='L07 Pattern MVC. (Esercizio Indovina Numero)'
+    teacher='Carlo Masone'
+/>
+
+<LectureRow
+    date="13/03/2023" time="10:00-11:30"
+    topic="L08 Oggetti e Collection (esercizio 'Libretto Voti') - segue"
+    github='https://github.com/TdP-2023/LibrettoVoti'
+/>
+
+<LectureRow
+    date="14/03/2023" time="13:00-16:00"
+    type="Lab"
+    teacher='Giuseppe Averta'
+    topic="Lab 2 - Squadra 1"
+/>
+
+<LectureRow
+    date="15/03/2023" time="13:00-14:30"
+    topic="L09 Pattern MVC applicato all'esercizio Libretto Voti"
+    teacher='Fulvio Corno'
+/>
+
+<LectureRow
+    date="15/03/2023" time="16:00-19:00"
+    type="Lab"
+    teacher='Giuseppe Averta'
+    topic="Lab 2 - Squadra 2"
+/>
+
 
 
 </LectureTable>
