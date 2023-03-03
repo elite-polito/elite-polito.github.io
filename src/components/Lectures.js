@@ -26,7 +26,7 @@ function IconicLinks({ links, label, icon }) {
     return (
         links ?
             ensureArray(links).map(item =>
-                <a key={i++} href={item} title={label}><FontAwesomeIcon icon={icon} size="2x" /></a>)
+                <a key={i++} href={item} title={label}><FontAwesomeIcon icon={icon} size="2x" style={{paddingRight: '0.3rem'}} /></a>)
             : null
     )
 }
