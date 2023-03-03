@@ -73,3 +73,18 @@ table tr.warning {
 table tr.danger {
 	background-color: var(--ifm-color-danger-contrast-background) 
 }
+
+/* Alignments and paddings */
+.icon-padding {
+    padding-left: 0.3rem;
+}
+
+/* The following classes are copied from the theme stylesheet. Since the documentation says to "generally avoid targeting them", they are copied here. */
+.text--center {
+    text-align: center;
+}
+
+.text--left {
+    text-align: left;
+}
+

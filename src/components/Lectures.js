@@ -26,7 +26,7 @@ function IconicLinks({ links, label, icon }) {
     return (
         links ?
             ensureArray(links).map(item =>
-                <a key={i++} href={item} title={label}><FontAwesomeIcon icon={icon} size="2x" style={{paddingRight: '0.3rem'}} /></a>)
+                <a key={i++} href={item} title={label}><FontAwesomeIcon icon={icon} size="2x" className="icon-padding" /></a>)
             : null
     )
 }
@@ -62,14 +62,14 @@ function LectureRow(props) {
         <td>{type}</td>
         <td>{props.topic}{props.children}</td>
         {tableContext.showMaterial &&
-            <td style={{ textAlign: 'center' }}>
+            <td className="text--center">
                 <IconicLinks links={props.pdf} icon={faFilePdf} label={"PDF"} />
                 <IconicLinks links={props.github} icon={faGithub} label={"GitHub"} />
                 <IconicLinks links={props.python} icon={faPython} label={"Python"} />
                 <IconicLinks links={props.zip} icon={faFileZipper} label={"Zip"} />
             </td>
         }
-        <td style={{ textAlign: 'center' }}><IconicLinks links={props.video} icon={faYoutube} label={"Video"} /></td>
+        <td className="text--center"><IconicLinks links={props.video} icon={faYoutube} label={"Video"} /></td>
         <td>{teacher}</td>
     </tr>)
 }
@@ -79,7 +79,7 @@ function LectureDivider(props) {
     const spanSize = tableContext.showMaterial ? 7 : 6
 
     return <tr className={props.variant}>
-        <th colSpan={spanSize} style={{ textAlign: 'left' }}>{props.topic}{props.children}</th>
+        <th colSpan={spanSize} className="text--left">{props.topic}{props.children}</th>
     </tr>
 }
 
