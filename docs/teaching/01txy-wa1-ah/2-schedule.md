@@ -36,6 +36,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 <LectureRow
     date="02/03/2023" time="08:30-10:00"
     topic='L03 JavaScript Exercises on Arrays and Strings'
+    type='Exercise'
     github='https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/blob/main/week01/exercise.md'
     video='https://youtu.be/KB2pBvPmcUA'
 />
@@ -52,6 +53,37 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     teacher='' type=''
     github='https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/tree/main/week01' />
 
+<LectureDivider topic='Week 02'/>{/*-------------------------------------------*/}
+
+<LectureRow 
+    date="07/03/2023" time="10:00-11:30"
+    topic='L05 Callbacks. Exercises. Functional programming.'
+    pdf='https://polito-wa1-aw1-2023.github.io/materials/slide/1-03-javascript-async-programming.pdf'
+/>
+
+<LectureRow 
+    date="07/03/2023" time="11:30-13:00"
+    topic='L06 Asynchronous programming'
+/>
+
+<LectureRow 
+    date="09/03/2023" time="08:30-10:00"
+    type='Lab'
+    topic='Lab 01 - Group 1'
+    teacher='Juan Pablo Sáenz'
+/>
+
+<LectureRow 
+    date="09/03/2023" time="10:00-11:30"
+    type='Lab'
+    topic='Lab 01 - Group 2'
+    teacher='Juan Pablo Sáenz'
+/>
+
+<LectureRow
+    topic='Week 02 exercises'
+    teacher='' type=''
+    nogithub='https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/tree/main/week02' />
 
 </LectureTable>
 
