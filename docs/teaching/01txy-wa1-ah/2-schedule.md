@@ -85,6 +85,80 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     teacher='' type=''
     nogithub='https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/tree/main/week02' />
 
+<LectureDivider topic='Week 03'/>{/*-------------------------------------------*/}
+
+<LectureRow 
+    date="14/03/2023" time="10:00-11:30"
+    topic='L07 Asynchronous programming. SQLite.'
+/>
+
+<LectureRow 
+    date="14/03/2023" time="11:30-13:00"
+    topic='L08 Promises. Async, await.'
+/>
+
+<LectureRow 
+    date="16/03/2023" time="08:30-10:00"
+    type='Lab'
+    topic='Lab 02 - Group 1'
+    teacher='Juan Pablo Sáenz'
+/>
+
+<LectureRow 
+    date="16/03/2023" time="10:00-11:30"
+    type='Lab'
+    topic='Lab 02 - Group 2'
+    teacher='Juan Pablo Sáenz'
+/>
+
+<LectureRow
+    topic='Week 03 exercises'
+    teacher='' type=''
+    nogithub='https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/tree/main/week03' />
+
+<LectureDivider topic='Week 04'/>{/*-------------------------------------------*/}
+
+<LectureRow 
+    date="" time="" teacher=''
+    topic='Reading 1'
+/>
+
+<LectureRow
+    variant='danger'
+    teacher='' type='WARNING'
+    topic='The class on 21/03 will be from 08:30 to 11:30 and is moved in Room 3S'
+/>
+
+<LectureRow 
+    date="21/03/2023" time="08:30-10:00"
+    topic='L09 HTML and CSS (review of Reading 1).'
+/>
+
+<LectureRow 
+    date="21/03/2023" time="10:00-11:30"
+    topic='L10 CSS, Bootstrap.'
+/>
+
+<LectureRow 
+    date="23/03/2023" time="08:30-10:00"
+    type='Lab'
+    topic='Lab 03 - Group 1'
+    teacher='Juan Pablo Sáenz'
+/>
+
+<LectureRow 
+    date="23/03/2023" time="10:00-11:30"
+    type='Lab'
+    topic='Lab 03 - Group 2'
+    teacher='Juan Pablo Sáenz'
+/>
+
+<LectureRow
+    topic='Week 04 exercises'
+    teacher='' type=''
+    nogithub='https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/tree/main/week04' />
+
+
 </LectureTable>
 
 ## Video lectures
