@@ -89,12 +89,7 @@ const config = {
         items: [
           {to: '/news', label: 'News', position: 'left'},
 
-          {
-            type: 'docSidebar',
-            position: 'left',
-            sidebarId: 'teachingSidebar',
-            label: 'Teaching',
-          },
+          {to: '/people', label: 'People', position: 'left'},
 
           {
             type: 'docSidebar',
@@ -103,7 +98,12 @@ const config = {
             label: 'Research',
           },
 
-          {to: '/people', label: 'People', position: 'left'},
+          {
+            type: 'docSidebar',
+            position: 'left',
+            sidebarId: 'teachingSidebar',
+            label: 'Teaching',
+          },
 
           {
             type: 'dropdown',
