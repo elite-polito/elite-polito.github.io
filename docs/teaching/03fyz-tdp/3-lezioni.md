@@ -71,12 +71,14 @@ L01b Introduzione a JavaFX (prima parte)
     date="06/03/2023" time="08:30-10:00"
     topic='L04 Introduzione a Git e GitHub' 
     pdf='https://tdp-2023.github.io/materiale/slide/01-02-Git-quickintro.pdf'
+    video='https://youtu.be/QkvwO-iC4OM'
 />
 
 <LectureRow
     date="06/03/2023" time="10:00-11:30"
     topic="L05 Oggetti e Collection (esercizio 'Libretto Voti')"
     github='https://github.com/TdP-2023/LibrettoVoti'
+    video='https://youtu.be/hYl6jJeWR30'
 />
 
 <LectureRow
