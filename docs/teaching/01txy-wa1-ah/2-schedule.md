@@ -63,27 +63,28 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 
 <LectureRow 
     date="07/03/2023" time="11:30-13:00"
-    topic='L06 Asynchronous programming'
+    topic='L06 Exercises. Asynchronous programming.'
+    github='https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/blob/main/week02/exercise.md'
 />
 
 <LectureRow 
     date="09/03/2023" time="08:30-10:00"
     type='Lab'
-    topic='Lab 01 - Group 1'
+    topic='Lab 01 - Group 1 (AA-DE)'
     teacher='Juan Pablo Sáenz'
 />
 
 <LectureRow 
     date="09/03/2023" time="10:00-11:30"
     type='Lab'
-    topic='Lab 01 - Group 2'
+    topic='Lab 01 - Group 2 (DI-HZ)'
     teacher='Juan Pablo Sáenz'
 />
 
 <LectureRow
     topic='Week 02 exercises'
     teacher='' type=''
-    nogithub='https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/tree/main/week02' />
+    github='https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/tree/main/week02' />
 
 <LectureDivider topic='Week 03'/>{/*-------------------------------------------*/}
 
