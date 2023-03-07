@@ -53,12 +53,14 @@ All slides, examples, exercises, and any other material used in the classroom an
 
 <LectureRow
     date="07/03/2023" time="08:30-10:00"
+    video="https://youtu.be/wcM4vwOUEAQ"
 >
     <a href="https://polito-wa1-aw1-2023.github.io/materials/slide/1-03-javascript-async-programming.pdf" title="Async programming in JS">JavaScript: async programming</a>
 </LectureRow>
 
 <LectureRow 
     date="07/03/2023" time="10:00-11:30" type="Exercise"
+    video="https://youtu.be/4TqQXHpwRYc"
 >
     <a href="https://github.com/polito-WA1-AW1-2023/wa1-iz-weeks/tree/main/week02" title="Week 2 examples">Exercise with functional methods</a>
 </LectureRow>
