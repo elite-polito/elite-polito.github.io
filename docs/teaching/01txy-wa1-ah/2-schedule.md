@@ -57,14 +57,16 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 
 <LectureRow 
     date="07/03/2023" time="10:00-11:30"
-    topic='L05 Callbacks. Exercises. Functional programming.'
+    topic='L05 Constructor Functions. Callbacks. Functional programming.'
     pdf='https://polito-wa1-aw1-2023.github.io/materials/slide/1-03-javascript-async-programming.pdf'
+    video='https://youtu.be/POb9VAqnEHs'
 />
 
 <LectureRow 
     date="07/03/2023" time="11:30-13:00"
-    topic='L06 Exercises. Asynchronous programming.'
+    topic='L06 Exercises. Asynchronous callbacks.'
     github='https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/blob/main/week02/exercise.md'
+    video='https://youtu.be/1_mbF0vayOs'
 />
 
 <LectureRow 
