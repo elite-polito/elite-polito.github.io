@@ -73,7 +73,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     date="09/03/2023" time="08:30-10:00"
     type='Lab'
     topic='Lab 01 - Group 1 (AA-DE)'
-    github='https://polito-wa1-aw1-2023.github.io/materials/labs/lab1-getting-started-node.pdf'
+    pdf='https://polito-wa1-aw1-2023.github.io/materials/labs/lab1-getting-started-node.pdf'
     teacher='Juan Pablo Sáenz'
 />
 
@@ -81,7 +81,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     date="09/03/2023" time="10:00-11:30"
     type='Lab'
     topic='Lab 01 - Group 2 (DI-HZ)'
-    github='https://polito-wa1-aw1-2023.github.io/materials/labs/lab1-getting-started-node.pdf'
+    pdf='https://polito-wa1-aw1-2023.github.io/materials/labs/lab1-getting-started-node.pdf'
     teacher='Juan Pablo Sáenz'
 />
 
