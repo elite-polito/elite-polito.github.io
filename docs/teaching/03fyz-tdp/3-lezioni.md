@@ -93,6 +93,7 @@ L01b Introduzione a JavaFX (prima parte)
     date="08/03/2023" time="13:00-14:30"
     topic="L06 Hash, Map, Set"
     teacher='Giuseppe Averta'
+    pdf={["https://tdp-2023.github.io/materiale/slide/03-03-Sets%26Hash.pdf", "https://tdp-2023.github.io/materiale/slide/03-04-Map.pdf"]}
 />
 
 <LectureRow
