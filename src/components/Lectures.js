@@ -95,7 +95,7 @@ function LectureDivider(props) {
  * @returns {JSX.Element}
  */
 function LectureTable(props) {
-    const tableOptions = useMemo(()=>({ ...defaultTableContext, ...props })) ;
+    const tableOptions = useMemo(()=>({ ...defaultTableContext, ...props }), [defaultTableContext, props]) ;
     return (
         <TableContext.Provider value={tableOptions}>
             <LectureTableContent {...props} />
