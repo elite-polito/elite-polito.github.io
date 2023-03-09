@@ -138,6 +138,113 @@ L01b Introduzione a JavaFX (prima parte)
     topic="Lab 2 - Squadra 2"
 />
 
+<LectureDivider topic="Settimana 04"/>
+
+<LectureRow
+    date="20/03/2023" time="08:30-10:00"
+    topic='L10 Accesso a Database e Libreria JDBC'
+    teacher='Fulvio Corno'
+/>
+
+<LectureRow
+    date="20/03/2023" time="10:00-11:30"
+    topic="L11 Pattern 'DAO'. Esercizio."
+    teacher='Fulvio Corno'
+/>
+
+<LectureRow
+    date="21/03/2023" time="13:00-16:00"
+    type="Lab"
+    teacher='Carlo Masone'
+    topic="Lab 3 - Squadra 2"
+/>
+
+<LectureRow
+    date="22/03/2023" time="13:00-14:30"
+    topic="L12 Esercizio 'Gestione Corsi'"
+    teacher='Giuseppe Averta'
+/>
+
+<LectureRow
+    date="22/03/2023" time="16:00-19:00"
+    type="Lab"
+    teacher='Giuseppe Averta'
+    topic="Lab 3 - Squadra 1"
+/>
+
+<LectureDivider topic="Settimana 05"/>
+
+<LectureRow
+    date="27/03/2023" time="08:30-10:00"
+    topic="L13 Esercizio 'Gestione Corsi'"
+    teacher='Carlo Masone'
+/>
+
+<LectureRow
+    date="27/03/2023" time="10:00-11:30"
+    topic="L14 Introduzione alla ricorsione"
+    teacher='Fulvio Corno'
+/>
+
+<LectureRow
+    date="28/03/2023" time="13:00-16:00"
+    type="Lab"
+    teacher='Giuseppe Averta'
+    topic="Lab 4 - Squadra 1"
+/>
+
+<LectureRow
+    date="29/03/2023" time="13:00-14:30"
+    topic="L15 Esempi sulla ricorsione"
+    teacher='Fulvio Corno'
+/>
+
+<LectureRow
+    date="29/03/2023" time="16:00-19:00"
+    type="Lab"
+    teacher='Carlo Masone'
+    topic="Lab 4 - Squadra 2"
+/>
+
+<LectureDivider topic="Settimana 06"/>
+
+<LectureRow
+    date="03/04/2023" time="08:30-10:00"
+    topic="L16 Esempi sulla ricorsione"
+    teacher='Giuseppe Averta'
+/>
+
+<LectureRow
+    date="03/04/2023" time="10:00-11:30"
+    topic="L17 Esempi sulla ricorsione"
+    teacher='Fulvio Corno'
+/>
+
+<LectureRow
+    date="04/04/2023" time="13:00-16:00"
+    type="Lab"
+    teacher='Carlo Masone'
+    topic="Lab 5 - Squadra 2"
+/>
+
+<LectureRow
+    date="05/04/2023" time="13:00-14:30"
+    topic="L18 Gestione delle date in Java e SQL"
+    teacher='Fulvio Corno'
+/>
+
+<LectureRow
+    date="05/04/2023" time="16:00-19:00"
+    type="Lab"
+    teacher='Carlo Masone'
+    topic="Lab 5 - Squadra 1"
+/>
+
+<LectureRow variant='info'
+    teacher=''
+    type=''
+    topic='Sospensione didattica (Vacanze di Pasqua)'
+ />
 
 
 </LectureTable>
