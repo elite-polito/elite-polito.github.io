@@ -10,7 +10,7 @@
             "url": "https://elite.polito.it/news/2023-01-cfp-splitech2023-cybersecurity",
             "title": "Call for Papers: Special Session on Cybersecurity and IoT @ SpliTech 2023",
             "summary": "The e-Lite research group is organizing a special session focused on Cybersecurity and the Internet of Things",
-            "date_modified": "2023-03-10T17:55:11.000Z",
+            "date_modified": "2023-03-10T22:20:39.000Z",
             "author": {
                 "name": "Luca Mannella",
                 "url": "https://github.com/Sarcares"
@@ -19,6 +19,22 @@
                 "journal",
                 "paper",
                 "special issue"
+            ]
+        },
+        {
+            "id": "https://elite.polito.it/news/2023/03/10/poli-zerosei",
+            "content_html": "<p>La Città di Torino partecipa al sistema integrato a livello nazionale dei Poli ZeroSei sui servizi educativi nella fascia prescolare.</p><p>Nell'ambito di una serie di workshop che anticipano il Forum Nazionale Poli ZeroSei, lunedì 13/03 Fulvio Corno terrà un intervento sul tema delle tecnologie in campo educativo.</p><p><img loading=\"lazy\" alt=\"ZeroSei banner\" src=\"/assets/images/poli06-c9d06d7e62cc60900a2491d658b3fa92.png\" width=\"6912\" height=\"3456\" class=\"img_ev3q\"></p><p>Per maggiori informazioni:</p><ul><li><a href=\"http://www.comune.torino.it/iter/attivita/workshop-e-forum-nazionale-polizerosei/\" target=\"_blank\" rel=\"noopener noreferrer\">Presentazione del Forum ZeroSei</a></li><li><a href=\"http://www.comune.torino.it/iter/wp-content/uploads/2023/01/POLI-ZEROSEI-FLYER.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Brochure dell'evento</a></li><li><a href=\"http://www.comune.torino.it/servizieducativi/evidenza/ws06.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Programma del workshop del 13 marzo</a></li></ul>",
+            "url": "https://elite.polito.it/news/2023/03/10/poli-zerosei",
+            "title": "Partecipazione al Workshop sui \"Poli ZeroSei\"",
+            "summary": "La Città di Torino partecipa al sistema integrato a livello nazionale dei Poli ZeroSei sui servizi educativi nella fascia prescolare.",
+            "date_modified": "2023-03-10T00:00:00.000Z",
+            "author": {
+                "name": "Fulvio Corno",
+                "url": "https://github.com/fulcorno"
+            },
+            "tags": [
+                "seminar",
+                "event"
             ]
         },
         {
