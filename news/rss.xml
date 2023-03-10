@@ -4,16 +4,26 @@
         <title>e-Lite Research Group Blog</title>
         <link>https://elite.polito.it/news</link>
         <description>e-Lite Research Group Blog</description>
-        <lastBuildDate>Fri, 10 Mar 2023 22:20:39 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 10 Mar 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <copyright>Copyright © 2023 Politecnico di Torino</copyright>
         <item>
+            <title><![CDATA[Partecipazione al Workshop sui "Poli ZeroSei"]]></title>
+            <link>https://elite.polito.it/news/2023/03/10/poli-zerosei</link>
+            <guid>https://elite.polito.it/news/2023/03/10/poli-zerosei</guid>
+            <pubDate>Fri, 10 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[La Città di Torino partecipa al sistema integrato a livello nazionale dei Poli ZeroSei sui servizi educativi nella fascia prescolare.]]></description>
+            <content:encoded><![CDATA[<p>La Città di Torino partecipa al sistema integrato a livello nazionale dei Poli ZeroSei sui servizi educativi nella fascia prescolare.</p><p>Nell'ambito di una serie di workshop che anticipano il Forum Nazionale Poli ZeroSei, lunedì 13/03 Fulvio Corno terrà un intervento sul tema delle tecnologie in campo educativo.</p><p><img loading="lazy" alt="ZeroSei banner" src="/assets/images/poli06-bfddba7638d7cc066ea234f051e7143d.png" width="640" height="320" class="img_ev3q"></p><p>Per maggiori informazioni:</p><ul><li><a href="http://www.comune.torino.it/iter/attivita/workshop-e-forum-nazionale-polizerosei/" target="_blank" rel="noopener noreferrer">Presentazione del Forum ZeroSei</a></li><li><a href="http://www.comune.torino.it/iter/wp-content/uploads/2023/01/POLI-ZEROSEI-FLYER.pdf" target="_blank" rel="noopener noreferrer">Brochure dell'evento</a></li><li><a href="http://www.comune.torino.it/servizieducativi/evidenza/ws06.pdf" target="_blank" rel="noopener noreferrer">Programma del workshop del 13 marzo</a></li></ul>]]></content:encoded>
+            <category>seminar</category>
+            <category>event</category>
+        </item>
+        <item>
             <title><![CDATA[Call for Papers: Special Session on Cybersecurity and IoT @ SpliTech 2023]]></title>
-            <link>https://elite.polito.it/news/2023-01-cfp-splitech2023-cybersecurity</link>
-            <guid>https://elite.polito.it/news/2023-01-cfp-splitech2023-cybersecurity</guid>
-            <pubDate>Fri, 10 Mar 2023 22:20:39 GMT</pubDate>
+            <link>https://elite.polito.it/news/2023/02/07/cfp-splitech2023-cybersecurity</link>
+            <guid>https://elite.polito.it/news/2023/02/07/cfp-splitech2023-cybersecurity</guid>
+            <pubDate>Tue, 07 Feb 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[The e-Lite research group is organizing a special session focused on Cybersecurity and the Internet of Things]]></description>
             <content:encoded><![CDATA[<p>The e-Lite research group is organizing a <strong>special session</strong> focused on <strong>Cybersecurity</strong> and the <strong>Internet of Things
 </strong> (IoT).</p><p>The poster of the special session, with all the relevant information, is available at the following
@@ -34,16 +44,6 @@ dot)surname(at)polito(dot)it</em></p><p>More information:</p><ul><li><a href="ht
             <category>journal</category>
             <category>paper</category>
             <category>special issue</category>
-        </item>
-        <item>
-            <title><![CDATA[Partecipazione al Workshop sui "Poli ZeroSei"]]></title>
-            <link>https://elite.polito.it/news/2023/03/10/poli-zerosei</link>
-            <guid>https://elite.polito.it/news/2023/03/10/poli-zerosei</guid>
-            <pubDate>Fri, 10 Mar 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[La Città di Torino partecipa al sistema integrato a livello nazionale dei Poli ZeroSei sui servizi educativi nella fascia prescolare.]]></description>
-            <content:encoded><![CDATA[<p>La Città di Torino partecipa al sistema integrato a livello nazionale dei Poli ZeroSei sui servizi educativi nella fascia prescolare.</p><p>Nell'ambito di una serie di workshop che anticipano il Forum Nazionale Poli ZeroSei, lunedì 13/03 Fulvio Corno terrà un intervento sul tema delle tecnologie in campo educativo.</p><p><img loading="lazy" alt="ZeroSei banner" src="/assets/images/poli06-c9d06d7e62cc60900a2491d658b3fa92.png" width="6912" height="3456" class="img_ev3q"></p><p>Per maggiori informazioni:</p><ul><li><a href="http://www.comune.torino.it/iter/attivita/workshop-e-forum-nazionale-polizerosei/" target="_blank" rel="noopener noreferrer">Presentazione del Forum ZeroSei</a></li><li><a href="http://www.comune.torino.it/iter/wp-content/uploads/2023/01/POLI-ZEROSEI-FLYER.pdf" target="_blank" rel="noopener noreferrer">Brochure dell'evento</a></li><li><a href="http://www.comune.torino.it/servizieducativi/evidenza/ws06.pdf" target="_blank" rel="noopener noreferrer">Programma del workshop del 13 marzo</a></li></ul>]]></content:encoded>
-            <category>seminar</category>
-            <category>event</category>
         </item>
         <item>
             <title><![CDATA[Participation at SPLITECH 2022]]></title>
