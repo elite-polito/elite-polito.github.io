@@ -110,6 +110,8 @@ L01b Introduzione a JavaFX (prima parte)
     date="13/03/2023" time="08:30-10:00"
     topic='L07 Pattern MVC. (Esercizio Indovina Numero)'
     teacher='Carlo Masone'
+    pdf='https://tdp-2023.github.io/materiale/slide/02-02-javafx-mvc-pattern.pdf'
+    github='https://github.com/TdP-2023/IndovinaNumero'
 />
 
 <LectureRow
