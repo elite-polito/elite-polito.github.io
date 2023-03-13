@@ -113,6 +113,7 @@ L01b Introduzione a JavaFX (prima parte)
     teacher='Carlo Masone'
     pdf='https://tdp-2023.github.io/materiale/slide/02-02-javafx-mvc-pattern.pdf'
     github='https://github.com/TdP-2023/IndovinaNumero'
+    video='https://youtu.be/FY5zcpr9UWo'
 />
 
 <LectureRow
