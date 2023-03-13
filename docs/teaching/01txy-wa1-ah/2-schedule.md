@@ -95,6 +95,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 <LectureRow 
     date="14/03/2023" time="10:00-11:30"
     topic='L07 Asynchronous programming. SQLite.'
+    github='https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/blob/main/week03/exercise.md'
 />
 
 <LectureRow 
@@ -119,7 +120,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 <LectureRow
     topic='Week 03 exercises'
     teacher='' type=''
-    nogithub='https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/tree/main/week03' />
+    github='https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/tree/main/week03' />
 
 <LectureDivider topic='Week 04'/>{/*-------------------------------------------*/}
 

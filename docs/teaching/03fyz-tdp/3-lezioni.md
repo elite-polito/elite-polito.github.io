@@ -120,6 +120,7 @@ L01b Introduzione a JavaFX (prima parte)
     date="13/03/2023" time="10:00-11:30"
     topic="L08 Oggetti e Collection (esercizio 'Libretto Voti') - segue"
     github='https://github.com/TdP-2023/LibrettoVoti'
+    video='https://youtu.be/RiU9H6Bj0K0'
 />
 
 <LectureRow
