@@ -96,11 +96,13 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     date="14/03/2023" time="10:00-11:30"
     topic='L07 Asynchronous programming. SQLite.'
     github='https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/blob/main/week03/exercise.md'
+    video='https://youtu.be/_xmvE7L3fIw'
 />
 
 <LectureRow 
     date="14/03/2023" time="11:30-13:00"
-    topic='L08 Promises. Async, await.'
+    topic='L08 Promises. Exercise with SQLite and Promises.'
+    video='https://youtu.be/0-f8uSUBs9s'
 />
 
 <LectureRow 
