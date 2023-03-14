@@ -81,15 +81,17 @@ All slides, examples, exercises, and any other material used in the classroom an
 <LectureDivider topic='Week 03'/>{/*-------------------------------------------*/}
 
 <LectureRow
-    date="14/03/2023" time="08:30-10:00"
+    date="14/03/2023" time="08:30-10:00" teacher="Luca Mannella"
+    video="https://youtu.be/I7ouKm2morM"
 >
-    JavaScript: async programming (cont'd)
+    <a href="https://polito-wa1-aw1-2023.github.io/materials/slide/1-03-javascript-async-programming.pdf" title="Async programming in JS">JavaScript: async programming (cont'd)</a>
 </LectureRow>
 
 <LectureRow 
-    date="14/03/2023" time="10:00-11:30" type="Exercise"
+    date="14/03/2023" time="10:00-11:30" type="Exercise" teacher="Luca Mannella"
+    video="https://youtu.be/rudqonIo9ew"
 >
-    Exercise on async programming
+    <a href="https://github.com/polito-WA1-AW1-2023/wa1-iz-weeks/tree/main/week03">Exercise on async programming</a>
 </LectureRow>
 
 <LectureRow
