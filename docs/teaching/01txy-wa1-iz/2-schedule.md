@@ -112,19 +112,24 @@ All slides, examples, exercises, and any other material used in the classroom an
 <LectureRow
     type="Reading" date="20/03/2023" teacher=""
 >
-    Introduction to Web Architectures, HTML, and CSS
+    <a href="https://polito-wa1-aw1-2023.github.io/materials/readings/2-0-reading-web-architecture-html-css.pdf" title="Reading on Web Architectures, HTML, and CSS">Introduction to Web Architectures, HTML, and CSS</a>
 </LectureRow>
 
 <LectureRow
     date="21/03/2023" time="08:30-10:00" type="Exercise"
 >
     Review of Reading 1 through examples
+    <ul>
+        <li><a href="https://polito-wa1-aw1-2023.github.io/materials/slide/2-01-web-architecture.pdf" title="Overview on Web Architectures">Web Architecture</a></li>
+        <li><a href="https://polito-wa1-aw1-2023.github.io/materials/slide/2-02-html.pdf" title="HTML">Introduction to HTML</a></li>
+        <li><a href="https://polito-wa1-aw1-2023.github.io/materials/slide/2-03-css.pdf" title="CSS">Introduction to CSS</a></li>
+    </ul>
 </LectureRow>
 
 <LectureRow 
     date="21/03/2023" time="10:00-11:30"
 >
-    Modern CSS and Bootstrap
+    Modern CSS and Bootstrap (cont'd)
 </LectureRow>
 
 <LectureRow
