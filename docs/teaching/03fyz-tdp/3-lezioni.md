@@ -133,8 +133,10 @@ L01b Introduzione a JavaFX (prima parte)
 
 <LectureRow
     date="15/03/2023" time="13:00-14:30"
-    topic="L09 Pattern MVC applicato all'esercizio Libretto Voti"
+    topic="L09 Conclusione esercizio Libretto Voti e applicazione Pattern MVC"
     teacher='Fulvio Corno'
+    video='https://youtu.be/y_demw4dQEE'
+    github='https://github.com/TdP-2023/LibrettoVoti'
 />
 
 <LectureRow
