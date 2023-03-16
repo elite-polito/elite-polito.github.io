@@ -32,6 +32,14 @@ import {ProjectCard} from '@site/src/components/Projects'
 
 <ProjectCard
     icon={undefined}
+    title='AccessCoVE'
+    url={undefined}
+    period='2023 - 2027'>
+AccessCoVE aims to structure excellence in Vocational Education and Training in the field of Accessibility. Twenty-five partners from four different countries (Greece, Sweden, Spain, and Italy) joined their forces to establish a European multi-level innovative and constantly growing Centre of Vocational Excellence - the AccessCoVE - in the field of accessibility for individuals with disabilities (i.e. individuals with impairments and elders).
+</ProjectCard>
+
+<ProjectCard
+    icon={undefined}
     title='SIFIS - HOME'
     url='https://www.sifis-home.eu/'
     period='2020 - today'>
