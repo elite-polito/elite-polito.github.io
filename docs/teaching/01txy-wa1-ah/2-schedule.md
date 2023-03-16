@@ -135,7 +135,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     type='Reading 1'
     topic='Introduction to Web Architectures, HTML, and CSS'
     pdf='https://polito-wa1-aw1-2023.github.io/materials/readings/2-0-reading-web-architecture-html-css.pdf'
-    variant='info'
+    variant='success'
 />
 
 <LectureRow
@@ -174,6 +174,147 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     topic='Week 04 exercises'
     teacher='' type=''
     nogithub='https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/tree/main/week04' />
+
+
+<LectureDivider topic='Week 05'/>{/*-------------------------------------------*/}
+
+
+<LectureRow 
+    date="28/03/2023" time="10:00-11:30"
+    topic='L11 JavaScript in the Browser - DOM'
+/>
+
+<LectureRow 
+    date="28/03/2023" time="11:30-13:00"
+    topic='L12 JavaScript in the Browser - Events'
+/>
+
+<LectureRow 
+    date="30/03/2023" time="08:30-10:00"
+    type='Lab'
+    topic='Lab 04 - Group 1'
+    teacher='Juan Pablo Sáenz'
+/>
+
+<LectureRow 
+    date="30/03/2023" time="10:00-11:30"
+    type='Lab'
+    topic='Lab 04 - Group 2'
+    teacher='Juan Pablo Sáenz'
+/>
+
+<LectureRow
+    topic='Week 05 exercises'
+    teacher='' type=''
+    nogithub='https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/tree/main/week05' />
+
+<LectureDivider topic='Week 06'/>{/*-------------------------------------------*/}
+
+<LectureRow 
+    date="20/03/2023" time="" teacher=''
+    type='Reading 2'
+    topic="The 'this' keyword in JavaScript"
+    variant='success'
+/>
+
+
+<LectureRow 
+    date="04/04/2023" time="10:00-11:30"
+    topic='L13 Introduction to React'
+/>
+
+<LectureRow 
+    date="04/04/2023" time="11:30-13:00"
+    topic='L14 JSX, Components, props'
+/>
+
+<LectureRow
+    variant='warning'
+    teacher='' type='🐰'
+    topic='Easter vacations'
+/>
+
+<LectureRow
+    variant='danger'
+    teacher='' type='WARNING'
+    topic='On 13/04 we will have 3 hours of lectures, instead of Labs'
+/>
+
+<LectureRow 
+    date="13/04/2023" time="08:30-10:00"
+    topic='L15 Components and State'
+/>
+
+<LectureRow 
+    date="13/04/2023" time="10:00-11:30"
+    topic='L16 Controlled Components and Forms (part 1)'
+/>
+
+<LectureRow
+    topic='Week 06 exercises'
+    teacher='' type=''
+    nogithub='https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/tree/main/week06' />
+
+
+<LectureDivider topic='Week 07'/>{/*-------------------------------------------*/}
+
+
+<LectureRow 
+    date="18/04/2023" time="10:00-11:30"
+    topic='L17 Controlled Components and Forms (part 2)'
+/>
+
+<LectureRow 
+    date="18/04/2023" time="11:30-13:00"
+    topic='L18 Controlled Components and Forms (part 3)'
+/>
+
+<LectureRow 
+    date="20/04/2023" time="08:30-10:00"
+    type='Lab'
+    topic='Lab 05 - Group 1'
+    teacher='Juan Pablo Sáenz'
+/>
+
+<LectureRow 
+    date="20/04/2023" time="10:00-11:30"
+    type='Lab'
+    topic='Lab 05 - Group 2'
+    teacher='Juan Pablo Sáenz'
+/>
+
+<LectureRow
+    topic='Week 07 exercises'
+    teacher='' type=''
+    nogithub='https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/tree/main/week07' />
+
+<LectureDivider topic='Week 08'/>{/*-------------------------------------------*/}
+
+<LectureRow
+    date='25/04/2023'
+    variant='warning'
+    teacher='' type=''
+    topic='Holiday -- No lectures'
+/>
+
+<LectureRow 
+    date="27/04/2023" time="08:30-10:00"
+    type='Lab'
+    topic='Lab 06 - Group 1'
+    teacher='Luca Pezzolla'
+/>
+
+<LectureRow 
+    date="27/04/2023" time="10:00-11:30"
+    type='Lab'
+    topic='Lab 06 - Group 2'
+    teacher='Luca Pezzolla'
+/>
+
+<LectureRow
+    topic='Week 08 exercises'
+    teacher='' type=''
+    nogithub='https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/tree/main/week08' />
 
 
 </LectureTable>
