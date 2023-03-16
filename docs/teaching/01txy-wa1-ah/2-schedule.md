@@ -131,8 +131,11 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 <LectureDivider topic='Week 04'/>{/*-------------------------------------------*/}
 
 <LectureRow 
-    date="" time="" teacher=''
-    topic='Reading 1'
+    date="20/03/2023" time="" teacher=''
+    type='Reading 1'
+    topic='Introduction to Web Architectures, HTML, and CSS'
+    pdf='https://polito-wa1-aw1-2023.github.io/materials/readings/2-0-reading-web-architecture-html-css.pdf'
+    variant='info'
 />
 
 <LectureRow
@@ -143,12 +146,14 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 
 <LectureRow 
     date="21/03/2023" time="08:30-10:00"
-    topic='L09 HTML and CSS (review of Reading 1).'
+    type='Exercise'
+    topic='L09 HTML and CSS: Example-driven review of Reading 1'
+    pdf={['https://polito-wa1-aw1-2023.github.io/materials/slide/2-01-web-architecture.pdf', 'https://polito-wa1-aw1-2023.github.io/materials/slide/2-02-html.pdf', 'https://polito-wa1-aw1-2023.github.io/materials/slide/2-03-css.pdf']}
 />
 
 <LectureRow 
     date="21/03/2023" time="10:00-11:30"
-    topic='L10 CSS, Bootstrap.'
+    topic='L10 Modern CSS, Bootstrap.'
 />
 
 <LectureRow 
