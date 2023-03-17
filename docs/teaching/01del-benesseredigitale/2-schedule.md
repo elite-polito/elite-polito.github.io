@@ -17,7 +17,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 <LectureRow
     date="17/03/2023" time="13:00-14:30"
     pdf={['https://elite.polito.it/materiale-benesseredigitale-2023/slide/00a-intro-corso.pdf','https://elite.polito.it/materiale-benesseredigitale-2023/slide/00b-intro-benesseredigitale.pdf']}
-    video={[]}
+    video={['https://www.polito.it/didattica']}
     >
     Introduzione al corso e al Benessere Digitale
 </LectureRow>
