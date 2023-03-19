@@ -165,8 +165,9 @@ L01b Introduzione a JavaFX (prima parte)
 <LectureRow
     date="21/03/2023" time="13:00-16:00"
     type="Lab"
-    teacher='Carlo Masone'
+    teacher='Giuseppe Averta'
     topic="Lab 3 - Squadra 2"
+    github='https://github.com/TdP-2023/Lab03.git'
 />
 
 <LectureRow
@@ -179,8 +180,10 @@ L01b Introduzione a JavaFX (prima parte)
 <LectureRow
     date="22/03/2023" time="16:00-19:00"
     type="Lab"
-    teacher='Giuseppe Averta'
+    teacher='Carlo Masone'
     topic="Lab 3 - Squadra 1"
+    github='https://github.com/TdP-2023/Lab03.git'
+
 />
 
 <LectureDivider topic="Settimana 05"/>
