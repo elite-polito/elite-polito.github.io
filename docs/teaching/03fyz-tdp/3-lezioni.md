@@ -183,7 +183,6 @@ L01b Introduzione a JavaFX (prima parte)
     teacher='Carlo Masone'
     topic="Lab 3 - Squadra 1"
     github='https://github.com/TdP-2023/Lab03.git'
-
 />
 
 <LectureDivider topic="Settimana 05"/>
