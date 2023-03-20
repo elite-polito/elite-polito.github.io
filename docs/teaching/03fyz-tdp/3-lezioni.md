@@ -153,12 +153,14 @@ L01b Introduzione a JavaFX (prima parte)
     date="20/03/2023" time="08:30-10:00"
     topic='L10 Accesso a Database e Libreria JDBC'
     pdf='https://tdp-2023.github.io/materiale/slide/04-01-jdbc-dao.pdf'
+    video='https://youtu.be/0rE932vQwGE'
     teacher='Fulvio Corno'
 />
 
 <LectureRow
     date="20/03/2023" time="10:00-11:30"
     topic="L11 Pattern 'DAO'. Esercizio."
+    video='https://youtu.be/WB4YKTCfVjY'
     teacher='Fulvio Corno'
 />
 
