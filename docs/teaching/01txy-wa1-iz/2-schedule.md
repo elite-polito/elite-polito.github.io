@@ -118,7 +118,7 @@ All slides, examples, exercises, and any other material used in the classroom an
 <LectureRow
     date="21/03/2023" time="08:30-10:00" type="Exercise"
 >
-    Review of Reading 1 through examples
+    Review of Reading 1 <a href="https://github.com/polito-WA1-AW1-2023/wa1-iz-weeks/tree/main/week04">through examples</a>
     <ul>
         <li><a href="https://polito-wa1-aw1-2023.github.io/materials/slide/2-01-web-architecture.pdf" title="Overview on Web Architectures">Web Architecture</a></li>
         <li><a href="https://polito-wa1-aw1-2023.github.io/materials/slide/2-02-html.pdf" title="HTML">Introduction to HTML</a></li>
