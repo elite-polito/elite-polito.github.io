@@ -161,6 +161,7 @@ L01b Introduzione a JavaFX (prima parte)
     date="20/03/2023" time="10:00-11:30"
     topic="L11 Pattern 'DAO'. Esercizio."
     video='https://youtu.be/WB4YKTCfVjY'
+    github='https://github.com/TdP-2023/LibrettoVoti/tree/database'
     teacher='Fulvio Corno'
 />
 
