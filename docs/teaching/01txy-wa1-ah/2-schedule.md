@@ -149,6 +149,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     type='Exercise'
     topic='L09 HTML and CSS: Example-driven review of Reading 1'
     pdf={['https://polito-wa1-aw1-2023.github.io/materials/slide/2-01-web-architecture.pdf', 'https://polito-wa1-aw1-2023.github.io/materials/slide/2-02-html.pdf', 'https://polito-wa1-aw1-2023.github.io/materials/slide/2-03-css.pdf']}
+    github='https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/blob/main/week04/exercise.md'
 />
 
 <LectureRow 
@@ -173,7 +174,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 <LectureRow
     topic='Week 04 exercises'
     teacher='' type=''
-    nogithub='https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/tree/main/week04' />
+    github='https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/tree/main/week04' />
 
 
 <LectureDivider topic='Week 05'/>{/*-------------------------------------------*/}
