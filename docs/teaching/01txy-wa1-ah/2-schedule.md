@@ -145,16 +145,25 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 />
 
 <LectureRow 
-    date="21/03/2023" time="08:30-10:00"
-    type='Exercise'
-    topic='L09 HTML and CSS: Example-driven review of Reading 1'
+    date="21/03/2023" time="08:30-09:00"
+    topic='L09a Async and Await'
+    video='https://youtu.be/Gnlqpj-n3b8'
+/>
+
+
+<LectureRow 
+    date="21/03/2023" time="09:00-10:00"
+    topic='L09b HTML and CSS: Example-driven review of Reading 1'
     pdf={['https://polito-wa1-aw1-2023.github.io/materials/slide/2-01-web-architecture.pdf', 'https://polito-wa1-aw1-2023.github.io/materials/slide/2-02-html.pdf', 'https://polito-wa1-aw1-2023.github.io/materials/slide/2-03-css.pdf']}
-    github='https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/blob/main/week04/exercise.md'
+    video='https://youtu.be/wKFN8lvWlsw'
 />
 
 <LectureRow 
     date="21/03/2023" time="10:00-11:30"
+    type='Exercise'
     topic='L10 Modern CSS, Bootstrap.'
+    github='https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/blob/main/week04/exercise.md'
+    video='https://youtu.be/ZoDJ1Kn9jog'
 />
 
 <LectureRow 
