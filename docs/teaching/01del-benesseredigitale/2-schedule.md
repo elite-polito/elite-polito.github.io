@@ -28,18 +28,16 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
     date="21/03/2023" time="16:00-17:30"
     pdf='' 
     video={[]}
-    teacher= 'Monica Molino'
     >
-    Benessere digitale: prospettiva psicologica
+    Metodi di needfinding (parte I)
 </LectureRow>
 
 <LectureRow
     date="21/03/2023" time="17:30-19:00"
     pdf='' 
     video={[]}
-    teacher= 'Monica Molino'
     >
-    Ostacoli e opportunità per il benessere digitale (parte I)
+    Metodi di needfinding (parte II)
 </LectureRow>
 
 <LectureRow
@@ -47,7 +45,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
     pdf='' 
     video={[]}
     >
-    Metodi di needfinding (parte I)
+    Attention Economy
 </LectureRow>
 
 <LectureDivider/>
@@ -56,9 +54,9 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
     date="28/03/2023" time="16:00-17:30"
     pdf='' 
     video={[]}
-    type='Esercitazione'
+    teacher='Monica Molino'
     >
-    Journey Map sul Benessere Digitale
+    Benessere digitale: prospettiva psicologica (parte I)
 </LectureRow>
 
 <LectureRow
@@ -74,8 +72,9 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
     date="31/03/2023" time="13:00-14:30"
     pdf='' 
     video={[]}
+    type='Esercitazione'
     >
-    Metodi di needfinding (parte II)
+    Journey Map sul Benessere Digitale
 </LectureRow>
 
 <LectureDivider/>
@@ -113,7 +112,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
     video={[]}
     teacher= 'Monica Molino'
     >
-    Metodi di needfinding (parte III)
+    Benessere digitale: prospettiva psicologica (parte II)
 </LectureRow>
 
 <LectureDivider/>
@@ -122,10 +121,9 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
     date="18/04/2023" time="16:00-17:30"
     pdf='' 
     video={[]}
-    type='Esercitazione'
     teacher= 'Monica Molino'
     >
-    Needfinding
+    Metodi di needfinding (parte III)
 </LectureRow>
 
 <LectureRow
@@ -133,6 +131,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
     pdf='' 
     video={[]}
     type='Esercitazione'
+    teacher= 'Monica Molino'
     >
     Needfinding
 </LectureRow>
@@ -142,7 +141,6 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
     pdf='' 
     video={[]}
     type='Esercitazione'
-    teacher= 'Monica Molino'
     >
     Needfinding
 </LectureRow>
@@ -155,7 +153,8 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
     video={[]}
     teacher= 'Monica Molino'
     >
-    Ostacoli e opportunità per il benessere digitale (parte II)
+    Ostacoli e opportunità per il benessere digitale (parte I)
+
 </LectureRow>
 
 <LectureDivider/>
@@ -164,25 +163,26 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
     date="02/05/2023" time="16:00-17:30"
     pdf='' 
     video={[]}
+    teacher='Monica Molino'
     >
-    Attention Economy
+    Ostacoli e opportunità per il benessere digitale (parte II)
 </LectureRow>
 
 <LectureRow
     date="02/05/2023" time="17:30-19:00"
     pdf='' 
     video={[]}
+    teacher='Monica Molino'
     >
-    Strategie informatiche per il Benessere Digitale (parte I)
+    Strategie psicologiche per il Benessere Digitale (parte I)
 </LectureRow>
 
 <LectureRow
     date="05/05/2023" time="13:00-14:30"
     pdf='' 
     video={[]}
-    teacher= 'Monica Molino'
     >
-    Strategie psicologiche per il Benessere Digitale (parte I)
+    Strategie informatiche per il Benessere Digitale (parte I)
 </LectureRow>
 
 <LectureDivider/>
@@ -326,6 +326,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
     pdf='' 
     video={[]}
     type='Esercitazione'
+    teacher = 'Monica Molino'
     >
     Progettazione prototipo a bassa fedeltà
 </LectureRow>
