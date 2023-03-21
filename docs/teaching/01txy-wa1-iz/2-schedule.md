@@ -117,6 +117,7 @@ All slides, examples, exercises, and any other material used in the classroom an
 
 <LectureRow
     date="21/03/2023" time="08:30-10:00" type="Exercise"
+    video="https://youtu.be/cCP3K-7s3_s"
 >
     Review of Reading 1 <a href="https://github.com/polito-WA1-AW1-2023/wa1-iz-weeks/tree/main/week04">through examples</a>
     <ul>
@@ -128,6 +129,7 @@ All slides, examples, exercises, and any other material used in the classroom an
 
 <LectureRow 
     date="21/03/2023" time="10:00-11:30"
+    video="https://youtu.be/puBYXkAAel8"
 >
     Modern CSS and Bootstrap (cont'd)
 </LectureRow>
