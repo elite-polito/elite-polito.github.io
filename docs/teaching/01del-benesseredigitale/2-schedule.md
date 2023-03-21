@@ -27,7 +27,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 <LectureRow
     date="21/03/2023" time="16:00-17:30"
     pdf='https://elite.polito.it/materiale-benesseredigitale-2023/slide/P01-needfinding.pdf' 
-    video={[]}
+    video={['https://www.polito.it/didattica']}
     >
     Metodi di needfinding (parte I)
 </LectureRow>
@@ -35,7 +35,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 <LectureRow
     date="21/03/2023" time="17:30-19:00"
     pdf='' 
-    video={[]}
+    video={['https://www.polito.it/didattica']}
     >
     Metodi di needfinding (parte II)
 </LectureRow>
