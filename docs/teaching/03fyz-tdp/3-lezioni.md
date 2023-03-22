@@ -177,8 +177,8 @@ L01b Introduzione a JavaFX (prima parte)
     date="22/03/2023" time="13:00-14:30"
     topic="L12 Esercizio 'Gestione Corsi'"
     teacher='Giuseppe Averta'
+    video='https://youtu.be/nwnYTiQHqIw'
     github='https://github.com/TdP-2023/GestoreCorsi.git'
-    youtube='https://youtu.be/nwnYTiQHqIw'
 />
 
 <LectureRow
