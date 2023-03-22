@@ -178,6 +178,7 @@ L01b Introduzione a JavaFX (prima parte)
     topic="L12 Esercizio 'Gestione Corsi'"
     teacher='Giuseppe Averta'
     github='https://github.com/TdP-2023/GestoreCorsi.git'
+    youtube='https://youtu.be/nwnYTiQHqIw'
 />
 
 <LectureRow
