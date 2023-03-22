@@ -53,6 +53,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     teacher='' type=''
     github='https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/tree/main/week01' />
 
+
 <LectureDivider topic='Week 02'/>{/*-------------------------------------------*/}
 
 <LectureRow 
@@ -92,6 +93,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     teacher='' type=''
     github='https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/tree/main/week02' />
 
+
 <LectureDivider topic='Week 03'/>{/*-------------------------------------------*/}
 
 <LectureRow 
@@ -112,6 +114,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     type='Lab'
     topic='Lab 02 - Group 1 (AA-DE)'
     pdf='https://polito-wa1-aw1-2023.github.io/materials/labs/lab02-node-database.pdf'
+    github='https://github.com/polito-WA1-AW1-2023/lab02-node-database'
     teacher='Juan Pablo Sáenz'
 />
 
@@ -120,6 +123,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     type='Lab'
     topic='Lab 02 - Group 2 (DI-HZ)'
     pdf='https://polito-wa1-aw1-2023.github.io/materials/labs/lab02-node-database.pdf'
+    github='https://github.com/polito-WA1-AW1-2023/lab02-node-database'
     teacher='Juan Pablo Sáenz'
 />
 
@@ -127,6 +131,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     topic='Week 03 exercises'
     teacher='' type=''
     github='https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/tree/main/week03' />
+
 
 <LectureDivider topic='Week 04'/>{/*-------------------------------------------*/}
 
@@ -144,21 +149,20 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     topic='The class on 21/03 will be from 08:30 to 11:30 and is moved in Room 3S'
 />
 
-<LectureRow 
+<LectureRow
     date="21/03/2023" time="08:30-09:00"
     topic='L09a Async and Await'
     video='https://youtu.be/Gnlqpj-n3b8'
 />
 
-
-<LectureRow 
+<LectureRow
     date="21/03/2023" time="09:00-10:00"
     topic='L09b HTML and CSS: Example-driven review of Reading 1'
     pdf={['https://polito-wa1-aw1-2023.github.io/materials/slide/2-01-web-architecture.pdf', 'https://polito-wa1-aw1-2023.github.io/materials/slide/2-02-html.pdf', 'https://polito-wa1-aw1-2023.github.io/materials/slide/2-03-css.pdf']}
     video='https://youtu.be/wKFN8lvWlsw'
 />
 
-<LectureRow 
+<LectureRow
     date="21/03/2023" time="10:00-11:30"
     type='Exercise'
     topic='L10 Modern CSS, Bootstrap.'
@@ -166,17 +170,19 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     video='https://youtu.be/ZoDJ1Kn9jog'
 />
 
-<LectureRow 
+<LectureRow
     date="23/03/2023" time="08:30-10:00"
     type='Lab'
-    topic='Lab 03 - Group 1'
+    topic='Lab 03 - Group 1 (AA-DE)'
+    pdf='https://polito-wa1-aw1-2023.github.io/materials/labs/lab03-html-css.pdf'
     teacher='Juan Pablo Sáenz'
 />
 
 <LectureRow 
     date="23/03/2023" time="10:00-11:30"
     type='Lab'
-    topic='Lab 03 - Group 2'
+    topic='Lab 03 - Group 2 (DI-HZ)'
+    pdf='https://polito-wa1-aw1-2023.github.io/materials/labs/lab03-html-css.pdf'
     teacher='Juan Pablo Sáenz'
 />
 
@@ -202,14 +208,14 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 <LectureRow 
     date="30/03/2023" time="08:30-10:00"
     type='Lab'
-    topic='Lab 04 - Group 1'
+    topic='Lab 04 - Group 1 (AA-DE)'
     teacher='Juan Pablo Sáenz'
 />
 
 <LectureRow 
     date="30/03/2023" time="10:00-11:30"
     type='Lab'
-    topic='Lab 04 - Group 2'
+    topic='Lab 04 - Group 2 (DI-HZ)'
     teacher='Juan Pablo Sáenz'
 />
 
@@ -217,6 +223,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     topic='Week 05 exercises'
     teacher='' type=''
     nogithub='https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/tree/main/week05' />
+
 
 <LectureDivider topic='Week 06'/>{/*-------------------------------------------*/}
 
@@ -282,14 +289,14 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 <LectureRow 
     date="20/04/2023" time="08:30-10:00"
     type='Lab'
-    topic='Lab 05 - Group 1'
+    topic='Lab 05 - Group 1 (AA-DE)'
     teacher='Juan Pablo Sáenz'
 />
 
 <LectureRow 
     date="20/04/2023" time="10:00-11:30"
     type='Lab'
-    topic='Lab 05 - Group 2'
+    topic='Lab 05 - Group 2 (DI-HZ)'
     teacher='Juan Pablo Sáenz'
 />
 
@@ -297,6 +304,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     topic='Week 07 exercises'
     teacher='' type=''
     nogithub='https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/tree/main/week07' />
+
 
 <LectureDivider topic='Week 08'/>{/*-------------------------------------------*/}
 
@@ -310,14 +318,14 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 <LectureRow 
     date="27/04/2023" time="08:30-10:00"
     type='Lab'
-    topic='Lab 06 - Group 1'
+    topic='Lab 06 - Group 1 (AA-DE)'
     teacher='Luca Pezzolla'
 />
 
 <LectureRow 
     date="27/04/2023" time="10:00-11:30"
     type='Lab'
-    topic='Lab 06 - Group 2'
+    topic='Lab 06 - Group 2 (DI-HZ)'
     teacher='Luca Pezzolla'
 />
 
