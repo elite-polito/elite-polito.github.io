@@ -42,8 +42,8 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 
 <LectureRow
     date="24/03/2023" time="13:00-14:30"
-    pdf='' 
-    video={[https://elite.polito.it/materiale-benesseredigitale-2023/slide/P02-minacce.pdf]}
+    pdf='https://elite.polito.it/materiale-benesseredigitale-2023/slide/P02-minacce.pdf' 
+    video={[]}
     >
     Attention Economy
 </LectureRow>
