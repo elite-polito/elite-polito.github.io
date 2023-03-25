@@ -41,6 +41,7 @@ function HomepageHeader() {
                             <a href='/teaching/01txy-wa1-ah'>Web Applications I (A-H)</a><br/>
                             <a href='/teaching/01txy-wa1-iz'>Web Applications I (I-Z)</a><br/>
                             <a href='/teaching/03fyz-tdp'>Tecniche di Programmazione</a><br/>
+                            <a href='/teaching/01del-benesseredigitale'>Benessere Digitale</a><br/>
                             <br/>
                             <a href='/thesis-offers'>Thesis offers</a>
                         </Admonition>
