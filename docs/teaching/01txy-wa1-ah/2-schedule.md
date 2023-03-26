@@ -198,11 +198,13 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 <LectureRow 
     date="28/03/2023" time="10:00-11:30"
     topic='L11 JavaScript in the Browser - DOM'
+    pdf='https://polito-wa1-aw1-2023.github.io/materials/slide/2-04-JS-browser.pdf'
 />
 
 <LectureRow 
     date="28/03/2023" time="11:30-13:00"
     topic='L12 JavaScript in the Browser - Events'
+    github='https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/blob/main/week05/exercise.md'
 />
 
 <LectureRow 
@@ -222,7 +224,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 <LectureRow
     topic='Week 05 exercises'
     teacher='' type=''
-    nogithub='https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/tree/main/week05' />
+    github='https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/tree/main/week05' />
 
 
 <LectureDivider topic='Week 06'/>{/*-------------------------------------------*/}
