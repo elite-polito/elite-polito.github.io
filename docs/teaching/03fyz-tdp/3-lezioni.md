@@ -202,6 +202,7 @@ L01b Introduzione a JavaFX (prima parte)
     date="27/03/2023" time="10:00-11:30"
     topic="L14 Introduzione alla ricorsione"
     teacher='Fulvio Corno'
+    pdf='https://tdp-2023.github.io/materiale/slide/05-01-recursion.pdf'
 />
 
 <LectureRow
