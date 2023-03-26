@@ -195,6 +195,7 @@ L01b Introduzione a JavaFX (prima parte)
     date="27/03/2023" time="08:30-10:00"
     topic="L13 Esercizio 'Gestione Corsi'"
     teacher='Carlo Masone'
+    github='https://github.com/TdP-2023/GestoreCorsi.git'
 />
 
 <LectureRow
