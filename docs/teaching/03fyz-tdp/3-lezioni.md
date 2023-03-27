@@ -196,6 +196,7 @@ L01b Introduzione a JavaFX (prima parte)
     topic="L13 Esercizio 'Gestione Corsi'"
     teacher='Carlo Masone'
     github='https://github.com/TdP-2023/GestoreCorsi.git'
+    video='https://youtu.be/GCROyF8Fhqc'
 />
 
 <LectureRow
