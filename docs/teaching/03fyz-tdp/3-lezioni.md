@@ -203,6 +203,8 @@ L01b Introduzione a JavaFX (prima parte)
     topic="L14 Introduzione alla ricorsione"
     teacher='Fulvio Corno'
     pdf='https://tdp-2023.github.io/materiale/slide/05-01-recursion.pdf'
+    github='https://github.com/TdP-2023/Anagrammi'
+    video='https://youtu.be/L3C6PhDyZXM'
 />
 
 <LectureRow
