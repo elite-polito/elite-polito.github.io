@@ -163,14 +163,16 @@ All slides, examples, exercises, and any other material used in the classroom an
 
 <LectureRow
     date="28/03/2023" time="08:30-10:00" teacher="Luca Mannella"
+    video="https://youtu.be/Kq1O3bmzn8o"
 >
     <a href="https://polito-wa1-aw1-2023.github.io/materials/slide/2-04-JS-browser.pdf">JavaScript in the browser</a>
 </LectureRow>
 
-<LectureRow 
+<LectureRow
     date="28/03/2023" time="10:00-11:30" type="Exercise" teacher="Luca Mannella"
+    video="https://youtu.be/T9iTxLVUBUA"
 >
-    <a href="https://github.com/polito-WA1-AW1-2023/wa1-iz-weeks/blob/main/week05/exercise.md" title="Exercise 6">Exercise on JavaScript in the browser</a>
+    <a href="https://github.com/polito-WA1-AW1-2023/wa1-iz-weeks/blob/main/week05" title="Exercise 6">Exercise on JavaScript in the browser</a>
 </LectureRow>
 
 <LectureRow
