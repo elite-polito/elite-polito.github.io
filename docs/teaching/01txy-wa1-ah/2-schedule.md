@@ -197,14 +197,16 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 
 <LectureRow 
     date="28/03/2023" time="10:00-11:30"
-    topic='L11 JavaScript in the Browser - DOM'
+    topic='L11 JavaScript in the Browser - DOM, Events'
     pdf='https://polito-wa1-aw1-2023.github.io/materials/slide/2-04-JS-browser.pdf'
+    video='https://youtu.be/bR5-i6CKMYE'
 />
 
 <LectureRow 
     date="28/03/2023" time="11:30-13:00"
-    topic='L12 JavaScript in the Browser - Events'
+    topic='L12 JavaScript in the Browser - Exercise'
     github='https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/blob/main/week05/exercise.md'
+    video='https://youtu.be/SvpXehlJ600'
 />
 
 <LectureRow 
