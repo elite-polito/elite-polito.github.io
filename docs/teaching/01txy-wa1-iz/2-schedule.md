@@ -93,7 +93,7 @@ All slides, examples, exercises, and any other material used in the classroom an
     <a href="https://polito-wa1-aw1-2023.github.io/materials/slide/1-03-javascript-async-programming.pdf" title="Async programming in JS">JavaScript: async programming (cont'd)</a>
 </LectureRow>
 
-<LectureRow 
+<LectureRow
     date="14/03/2023" time="10:00-11:30" type="Exercise" teacher="Luca Mannella"
     video="https://youtu.be/rudqonIo9ew"
 >
@@ -156,6 +156,12 @@ All slides, examples, exercises, and any other material used in the classroom an
     date="23/03/2023" time="10:00-11:30" type="Lab" teacher="Luca Mannella"
 >
     <a href="https://polito-wa1-aw1-2023.github.io/materials/labs/lab03-html-css.pdf">Getting started with HMTL and CSS</a> (group 2, PA-ZZ)
+</LectureRow>
+
+<LectureRow
+    type="Lab Solution" teacher=""
+>
+    <a href="https://github.com/polito-WA1-AW1-2023/lab03-html-css">Possible solution</a> (on GitHub)
 </LectureRow>
 
 
