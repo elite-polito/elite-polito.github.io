@@ -61,7 +61,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 
 <LectureRow
     date="28/03/2023" time="17:30-19:00"
-    pdf='' 
+    pdf='https://elite.polito.it/materiale-benesseredigitale-2023/slide/E01-journeymap.pdf' 
     video={[]}
     type='Esercitazione'
     >
