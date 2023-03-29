@@ -53,7 +53,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 <LectureRow
     date="28/03/2023" time="16:00-17:30"
     pdf='https://elite.polito.it/materiale-benesseredigitale-2023/slide/U01-intro.pdf' 
-    video={[https://www.polito.it/didattica]}
+    video={['https://www.polito.it/didattica']}
     teacher='Monica Molino'
     >
     Benessere digitale: prospettiva psicologica (parte I)
