@@ -218,7 +218,9 @@ L01b Introduzione a JavaFX (prima parte)
 
 <LectureRow
     date="29/03/2023" time="13:00-14:30"
-    topic="L15 Esempi sulla ricorsione"
+    topic="L15 Esempi sulla ricorsione (le N Regine)"
+    github='https://github.com/TdP-2023/Regine'
+    video='https://youtu.be/FtwP96CJxpU'
     teacher='Fulvio Corno'
 />
 
