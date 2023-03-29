@@ -175,6 +175,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     type='Lab'
     topic='Lab 03 - Group 1 (AA-DE)'
     pdf='https://polito-wa1-aw1-2023.github.io/materials/labs/lab03-html-css.pdf'
+    github='https://github.com/polito-WA1-AW1-2023/lab03-html-css'
     teacher='Juan Pablo Sáenz'
 />
 
@@ -183,6 +184,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     type='Lab'
     topic='Lab 03 - Group 2 (DI-HZ)'
     pdf='https://polito-wa1-aw1-2023.github.io/materials/labs/lab03-html-css.pdf'
+    github='https://github.com/polito-WA1-AW1-2023/lab03-html-css'
     teacher='Juan Pablo Sáenz'
 />
 
@@ -213,6 +215,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     date="30/03/2023" time="08:30-10:00"
     type='Lab'
     topic='Lab 04 - Group 1 (AA-DE)'
+    pdf='https://polito-wa1-aw1-2023.github.io/materials/labs/lab04-js-browser.pdf'
     teacher='Juan Pablo Sáenz'
 />
 
@@ -220,6 +223,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     date="30/03/2023" time="10:00-11:30"
     type='Lab'
     topic='Lab 04 - Group 2 (DI-HZ)'
+    pdf='https://polito-wa1-aw1-2023.github.io/materials/labs/lab04-js-browser.pdf'
     teacher='Juan Pablo Sáenz'
 />
 
