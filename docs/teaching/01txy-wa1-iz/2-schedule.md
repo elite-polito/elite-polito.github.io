@@ -184,13 +184,13 @@ All slides, examples, exercises, and any other material used in the classroom an
 <LectureRow
     date="30/03/2023" time="08:30-10:00" type="Lab" teacher="Luca Mannella"
 >
-    JavaScript in the browser (group 1, IA-OU)
+    <a href="https://polito-wa1-aw1-2023.github.io/materials/labs/lab04-js-browser.pdf">JavaScript in the browser</a> (group 1, IA-OU)
 </LectureRow>
 
 <LectureRow
     date="30/03/2023" time="10:00-11:30" type="Lab" teacher="Luca Mannella"
 >
-    JavaScript in the browser (group 2, PA-ZZ)
+    <a href="https://polito-wa1-aw1-2023.github.io/materials/labs/lab04-js-browser.pdf">JavaScript in the browser</a> (group 2, PA-ZZ)
 </LectureRow>
 
 
