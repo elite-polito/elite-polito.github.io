@@ -238,6 +238,7 @@ L01b Introduzione a JavaFX (prima parte)
     date="03/04/2023" time="08:30-10:00"
     topic="L16 Esempi sulla ricorsione"
     teacher='Giuseppe Averta'
+    github="https://github.com/TdP-2023/VotiNobel.git"
 />
 
 <LectureRow
