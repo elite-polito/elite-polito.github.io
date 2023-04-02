@@ -236,14 +236,15 @@ L01b Introduzione a JavaFX (prima parte)
 
 <LectureRow
     date="03/04/2023" time="08:30-10:00"
-    topic="L16 Esempi sulla ricorsione"
+    topic="L16 Esempi sulla ricorsione (Voti Nobel)"
     teacher='Giuseppe Averta'
     github="https://github.com/TdP-2023/VotiNobel.git"
 />
 
 <LectureRow
     date="03/04/2023" time="10:00-11:30"
-    topic="L17 Esempi sulla ricorsione"
+    topic="L17 Esempi sulla ricorsione (Quadrato Magico)"
+    pdf='https://tdp-2023.github.io/materiale/slide/05-02-magic_square.pdf'
     teacher='Fulvio Corno'
 />
 
