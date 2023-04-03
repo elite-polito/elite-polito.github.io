@@ -239,6 +239,7 @@ L01b Introduzione a JavaFX (prima parte)
     topic="L16 Esempi sulla ricorsione (Voti Nobel)"
     teacher='Giuseppe Averta'
     github="https://github.com/TdP-2023/VotiNobel.git"
+    video="https://youtu.be/tJ3x3zs-UKk"
 />
 
 <LectureRow
