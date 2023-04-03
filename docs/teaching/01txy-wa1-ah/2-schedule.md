@@ -253,6 +253,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     date="04/04/2023" time="11:30-13:00"
     topic='L14 JSX, Components, props'
     pdf='https://polito-wa1-aw1-2023.github.io/materials/slide/3-02-Elements-and-JSX.pdf'
+    github='https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/blob/main/week06/exercise.md'
 />
 
 <LectureRow
@@ -280,7 +281,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 <LectureRow
     topic='Week 06 exercises'
     teacher='' type=''
-    nogithub='https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/tree/main/week06' />
+    github='https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/tree/main/week06' />
 
 
 <LectureDivider topic='Week 07'/>{/*-------------------------------------------*/}
