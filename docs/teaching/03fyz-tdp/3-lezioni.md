@@ -246,6 +246,7 @@ L01b Introduzione a JavaFX (prima parte)
     date="03/04/2023" time="10:00-11:30"
     topic="L17 Esempi sulla ricorsione (Quadrato Magico)"
     pdf='https://tdp-2023.github.io/materiale/slide/05-02-magic_square.pdf'
+    video='https://youtu.be/PxFCgbCzbCk'
     teacher='Fulvio Corno'
 />
 
