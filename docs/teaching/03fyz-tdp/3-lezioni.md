@@ -247,6 +247,7 @@ L01b Introduzione a JavaFX (prima parte)
     topic="L17 Esempi sulla ricorsione (Quadrato Magico)"
     pdf='https://tdp-2023.github.io/materiale/slide/05-02-magic_square.pdf'
     video='https://youtu.be/PxFCgbCzbCk'
+    github='https://github.com/TdP-2023/QuadratoMagico'
     teacher='Fulvio Corno'
 />
 
