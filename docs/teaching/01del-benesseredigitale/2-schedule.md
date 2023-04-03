@@ -92,6 +92,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
     type='Esercitazione'
     >
     Presentazione delle journey map realizzate. Feedback.
+    <ul><li><a href="https://docs.google.com/spreadsheets/d/1pHqrJLpQctYr0fVXJvkxuJ4LVYY2N_qTRWTDYhOY7rw/edit?usp=sharing">Calendario presentazioni</a></li></ul>
 </LectureRow>
 
 <LectureRow
@@ -101,6 +102,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
     type='Esercitazione'
     >
     Presentazione delle journey map realizzate. Feedback.
+    <ul><li><a href="https://docs.google.com/spreadsheets/d/1pHqrJLpQctYr0fVXJvkxuJ4LVYY2N_qTRWTDYhOY7rw/edit?usp=sharing">Calendario presentazioni</a></li></ul>
 </LectureRow>
 
 <LectureDivider topic='VACANZE DI PASQUA'/>
