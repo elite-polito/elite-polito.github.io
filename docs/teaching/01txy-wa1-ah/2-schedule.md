@@ -246,11 +246,13 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 <LectureRow 
     date="04/04/2023" time="10:00-11:30"
     topic='L13 Introduction to React'
+    pdf='https://polito-wa1-aw1-2023.github.io/materials/slide/3-01-React-intro.pdf'
 />
 
 <LectureRow 
     date="04/04/2023" time="11:30-13:00"
     topic='L14 JSX, Components, props'
+    pdf='https://polito-wa1-aw1-2023.github.io/materials/slide/3-02-Elements-and-JSX.pdf'
 />
 
 <LectureRow
