@@ -205,17 +205,17 @@ All slides, examples, exercises, and any other material used in the classroom an
 <LectureRow
     date="04/04/2023" time="08:30-10:00"
 >
-    Introduction to React
+    <a href="https://polito-wa1-aw1-2023.github.io/materials/slide/3-01-React-intro.pdf" title="React">Introduction to React</a>
 </LectureRow>
 
 <LectureRow 
     date="04/04/2023" time="10:00-11:30"
 >
-    React: elements and JSX
+    <a href="https://polito-wa1-aw1-2023.github.io/materials/slide/3-02-Elements-and-JSX.pdf">React: elements and JSX</a>
 </LectureRow>
 
 <LectureRow 
-    variant="info" type="" teacher=""
+    variant="info" type="🐰" teacher=""
 >
     Easter vacation
 </LectureRow>
@@ -436,13 +436,13 @@ All slides, examples, exercises, and any other material used in the classroom an
 </LectureRow>
 
 <LectureRow
-    date="08/06/2023" time="08:30-10:00" type="Lab" teacher="Luca Mannella"
+    date="08/06/2023" time="08:30-10:00" type="Lab" teacher="Luigi De Russis"
 >
     Exam simulation (both groups)
 </LectureRow>
 
 <LectureRow
-    date="08/06/2023" time="10:00-11:30" type="Lab" teacher="Luca Mannella"
+    date="08/06/2023" time="10:00-11:30" type="Lab" teacher="Luigi De Russis"
 >
     Exam simulation (both groups)
 </LectureRow>
