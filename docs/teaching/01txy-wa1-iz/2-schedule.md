@@ -197,19 +197,15 @@ All slides, examples, exercises, and any other material used in the classroom an
 <LectureDivider topic='Week 06'/>{/*-------------------------------------------*/}
 
 <LectureRow
-    type="Reading" date="03/04/2023" teacher=""
->
-    The 'this' keyword in JavaScript
-</LectureRow>
-
-<LectureRow
     date="04/04/2023" time="08:30-10:00"
+    video="https://youtu.be/zVG1DnWePMc"
 >
-    <a href="https://polito-wa1-aw1-2023.github.io/materials/slide/3-01-React-intro.pdf" title="React">Introduction to React</a>
+    <a href="https://polito-wa1-aw1-2023.github.io/materials/slide/3-01-React-intro.pdf" title="React">Introduction to React</a>. <a href="https://github.com/polito-WA1-AW1-2023/wa1-iz-weeks/tree/main/week06">Exercise</a> (on GitHub).
 </LectureRow>
 
 <LectureRow 
     date="04/04/2023" time="10:00-11:30"
+    video="https://youtu.be/ZL3mcs9wCRE"
 >
     <a href="https://polito-wa1-aw1-2023.github.io/materials/slide/3-02-Elements-and-JSX.pdf">React: elements and JSX</a>
 </LectureRow>
@@ -262,6 +258,12 @@ All slides, examples, exercises, and any other material used in the classroom an
 
 <LectureDivider topic='Week 08'/>{/*-------------------------------------------*/}
 
+<LectureRow
+    type="Reading" date="24/04/2023" teacher=""
+>
+    The 'this' keyword in JavaScript
+</LectureRow>
+    
 <LectureRow
     date="25/04/2023" type="-" teacher=""
 >
