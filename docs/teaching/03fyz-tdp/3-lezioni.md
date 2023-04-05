@@ -263,6 +263,7 @@ L01b Introduzione a JavaFX (prima parte)
     date="05/04/2023" time="13:00-14:30"
     topic="L18 Gestione delle date in Java e SQL"
     pdf='https://tdp-2023.github.io/materiale/slide/03-05-JavaDatesTimes.pdf'
+    video='https://youtu.be/ZRXqVda8fM4'
     teacher='Fulvio Corno'
 />
 
