@@ -282,6 +282,269 @@ L01b Introduzione a JavaFX (prima parte)
  />
 
 
+<LectureDivider topic="Settimana 07"/>
+
+<LectureRow
+    date="17/04/2023" time="08:30-10:00"
+    topic="L19 Esempi sulla ricorsione"
+    teacher='Carlo Masone'
+/>
+
+<LectureRow
+    date="17/04/2023" time="10:00-11:30"
+    topic="L20 Object-Relational Mapping - Esempi"
+    teacher='Fulvio Corno'
+/>
+
+<LectureRow
+    date="18/04/2023" time="13:00-16:00"
+    type="Lab"
+    teacher='Giuseppe Averta'
+    topic="Lab 6 - Squadra 1"
+/>
+
+<LectureRow
+    date="19/04/2023" time="13:00-14:30"
+    topic="L21 Connection Pooling. Tabelle in JavaFX."
+    teacher='Fulvio Corno'
+/>
+
+<LectureRow
+    date="19/04/2023" time="16:00-19:00"
+    type="Lab"
+    teacher='Carlo Masone'
+    topic="Lab 6 - Squadra 2"
+/>
+
+<LectureDivider topic="Settimana 08"/>
+
+<LectureRow
+    date="24/04/2023" time="08:30-10:00"
+    topic="L22 Introduzione ai grafi ed alla libreria JGraphT"
+    teacher='Fulvio Corno'
+/>
+
+<LectureRow
+    date="24/04/2023" time="10:00-11:30"
+    topic="L23 Costruzione di Grafi (Metro Paris)"
+    teacher='Fulvio Corno'
+/>
+
+<LectureRow variant='info'
+    date="25/04/2023" time="13:00-16:00"
+    type=""
+    teacher=''
+    topic="NO LABORATORIO - Festa della Liberazione"
+/>
+
+<LectureRow
+    date="26/04/2023" time="13:00-14:30"
+    topic="L24 Esercizi Costruzione di Grafi"
+    teacher='Giuseppe Averta'
+/>
+
+<LectureRow
+    date="26/04/2023" time="16:00-19:00"
+    type="Lab"
+    teacher='Carlo Masone'
+    topic="Lab 7 - Squadra 1 + Squadra 2"
+/>
+
+
+<LectureDivider topic="Settimana 09"/>
+
+<LectureRow variant='info'
+    date="01/05/2023" time="08:30-10:00"
+    topic="NO LEZIONE - Festa del Lavoro"
+    type=''
+    teacher=''
+/>
+
+<LectureRow variant='info'
+    date="01/05/2023" time="10:00-11:30"
+    topic="NO LEZIONE - Festa del Lavoro"
+    type=''
+    teacher=''
+/>
+
+<LectureRow
+    date="02/05/2023" time="13:00-16:00"
+    type="Lab"
+    teacher='Giuseppe Averta'
+    topic="Lab 8 - Squadra 1"
+/>
+
+<LectureRow
+    date="03/05/2023" time="13:00-14:30"
+    topic="L25 Visite nei grafi. Algoritmi di Visita in jGraphT."
+    teacher='Fulvio Corno'
+/>
+
+<LectureRow
+    date="03/05/2023" time="16:00-19:00"
+    type="Lab"
+    teacher='Carlo Masone'
+    topic="Lab 8 - Squadra 2"
+/>
+
+<LectureDivider topic="Settimana 10"/>
+
+<LectureRow
+    date="08/05/2023" time="08:30-10:00"
+    topic="L26 Esercizio sui grafi"
+    teacher='Carlo Masone'
+/>
+
+<LectureRow
+    date="08/05/2023" time="10:00-11:30"
+    topic="L27 Code prioritarie. Simulatori ad eventi discreti."
+    teacher='Fulvio Corno'
+/>
+
+<LectureRow
+    date="09/05/2023" time="13:00-16:00"
+    type="Lab"
+    teacher='Carlo Masone'
+    topic="Lab 9 - Squadra 2"
+/>
+
+<LectureRow
+    date="10/05/2023" time="13:00-14:30"
+    topic="L28 Simulatori ad eventi discreti - Esercizio."
+    teacher='Fulvio Corno'
+/>
+
+<LectureRow
+    date="10/05/2023" time="16:00-19:00"
+    type="Lab"
+    teacher='Giuseppe Averta'
+    topic="Lab 9 - Squadra 1"
+/>
+
+<LectureDivider topic="Settimana 11"/>
+
+<LectureRow
+    date="15/05/2023" time="08:30-10:00"
+    topic="L29 Esercizio sui grafi"
+    teacher='Giuseppe Averta'
+/>
+
+<LectureRow
+    date="15/05/2023" time="10:00-11:30"
+    topic="L30 Esercizio sulle simulazioni"
+    teacher='Fulvio Corno'
+/>
+
+<LectureRow
+    date="16/05/2023" time="13:00-16:00"
+    type="Lab"
+    teacher='Giuseppe Averta'
+    topic="Lab 10 - Squadra 1"
+/>
+
+<LectureRow
+    date="17/05/2023" time="13:00-14:30"
+    topic="L31 Esercizio sulle simulazioni"
+    teacher='Fulvio Corno'
+/>
+
+<LectureRow
+    date="17/05/2023" time="16:00-19:00"
+    type="Lab"
+    teacher='Carlo Masone'
+    topic="Lab 10 - Squadra 2"
+/>
+
+<LectureDivider topic="Settimana 12"/>
+
+<LectureRow
+    date="22/05/2023" time="08:30-10:00"
+    topic="L32 Risoluzione tema d'esame"
+    teacher='Carlo Masone'
+/>
+
+<LectureRow
+    date="22/05/2023" time="10:00-11:30"
+    topic="L33 Cammini minimi e cicli nei grafi"
+    teacher='Fulvio Corno'
+/>
+
+<LectureRow
+    date="23/05/2023" time="13:00-16:00"
+    type="Lab"
+    teacher='Carlo Masone'
+    topic="Simulazione d'esame n. 1 - Squadra 2"
+/>
+
+<LectureRow
+    date="24/05/2023" time="13:00-14:30"
+    topic="L34 Risoluzione tema d'esame"
+    teacher='Fulvio Corno'
+/>
+
+<LectureRow
+    date="24/05/2023" time="16:00-19:00"
+    type="Lab"
+    teacher='Giuseppe Averta'
+    topic="Simulazione d'esame n. 1 - Squadra 1"
+/>
+
+
+<LectureDivider topic="Settimana 13"/>
+
+<LectureRow
+    date="29/05/2023" time="08:30-10:00"
+    topic="L35 Risoluzione tema d'esame (Simulazione 1)"
+    teacher='Carlo Masone'
+/>
+
+<LectureRow
+    date="29/05/2023" time="10:00-11:30"
+    topic="L36 Risoluzione tema d'esame"
+    teacher='Fulvio Corno'
+/>
+
+<LectureRow
+    date="30/05/2023" time="13:00-16:00"
+    type="Lab"
+    teacher='Carlo Masone'
+    topic="Simulazione d'esame n. 2 - Squadra 1"
+/>
+
+<LectureRow
+    date="31/05/2023" time="13:00-14:30"
+    topic="L37 Risoluzione tema d'esame"
+    teacher='Fulvio Corno'
+/>
+
+<LectureRow
+    date="31/05/2023" time="16:00-19:00"
+    type="Lab"
+    teacher='Giuseppe Averta'
+    topic="Simulazione d'esame n. 2 - Squadra 2"
+/>
+
+<LectureDivider topic="Settimana 14"/>
+
+<LectureRow
+    date="29/05/2023" time="08:30-10:00"
+    topic="L38 Risoluzione tema d'esame (Simulazione 2)"
+    teacher=''
+/>
+
+<LectureRow
+    date="29/05/2023" time="10:00-11:30"
+    topic="L39 Risoluzione tema d'esame"
+    teacher='Fulvio Corno'
+/>
+
+<LectureRow
+    date="31/05/2023" time="13:00-14:30"
+    topic="L40 Risoluzione tema d'esame"
+    teacher='Fulvio Corno'
+/>
+
+
 </LectureTable>
 
 

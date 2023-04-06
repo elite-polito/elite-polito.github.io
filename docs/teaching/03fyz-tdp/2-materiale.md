@@ -17,17 +17,17 @@ Il materiale didattico è anche disponibile nel repository https://github.com/Td
 - [Introduzione al corso](https://tdp-2023.github.io/materiale/slide/01-01-introduzione_2023.pdf)
 - [Introduzione a Git e GitHub](https://tdp-2023.github.io/materiale/slide/01-02-Git-quickintro.pdf)
 - Java Collections
-  - [Set and Hash](https://tdp-2023.github.io/materiale/blob/master/slide/03-03-Sets%26Hash.pdf)
-  - [Map](https://tdp-2023.github.io/materiale/blob/master/slide/03-04-Map.pdf)
+  - [Set and Hash](https://tdp-2023.github.io/materiale/slide/03-03-Sets%26Hash.pdf)
+  - [Map](https://tdp-2023.github.io/materiale/slide/03-04-Map.pdf)
   - Code prioritarie
 - JavaFX
   - [JavaFX Crash Course](https://tdp-2023.github.io/materiale/slide/02-01-javafx-crashcourse.pdf)
-  - [Pattern Model-View-Controller](https://tdp-2023.github.io/materiale/blob/master/slide/02-02-javafx-mvc-pattern.pdf)
+  - [Pattern Model-View-Controller](https://tdp-2023.github.io/materiale/slide/02-02-javafx-mvc-pattern.pdf)
   - JavaFX Tables
 - [Database access and JDBC](https://tdp-2023.github.io/materiale/blob/master/slide/04-01-jdbc-dao.pdf)
-- Date/Time in Java7, Java8, SQL, Jdbc
-- [Ricorsione](https://tdp-2023.github.io/materiale/blob/master/slide/05-01-recursion.pdf)
-  - [Quadrato Magico](https://tdp-2023.github.io/materiale/blob/master/slide/05-02-magic_square.pdf)
+- [Date/Time in Java7, Java8, SQL, Jdbc](https://tdp-2023.github.io/materiale/slide/03-05-JavaDatesTimes.pdf)
+- [Ricorsione](https://tdp-2023.github.io/materiale/slide/05-01-recursion.pdf)
+  - [Quadrato Magico](https://tdp-2023.github.io/materiale/slide/05-02-magic_square.pdf)
 - Grafi
   - Introduzione ai grafi
   - Introduzione alla libreria JGraphT
