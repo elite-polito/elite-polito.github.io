@@ -139,7 +139,7 @@ All slides, examples, exercises, and any other material used in the classroom an
     </ul>
 </LectureRow>
 
-<LectureRow 
+<LectureRow
     date="21/03/2023" time="10:00-11:30"
     video="https://youtu.be/puBYXkAAel8"
 >
@@ -191,6 +191,12 @@ All slides, examples, exercises, and any other material used in the classroom an
     date="30/03/2023" time="10:00-11:30" type="Lab" teacher="Luca Mannella"
 >
     <a href="https://polito-wa1-aw1-2023.github.io/materials/labs/lab04-js-browser.pdf">JavaScript in the browser</a> (group 2, PA-ZZ)
+</LectureRow>
+
+<LectureRow
+    type="Lab Solution" teacher=""
+>
+    <a href="https://github.com/polito-WA1-AW1-2023/lab04-javascript-browser">Possible solution</a> (on GitHub)
 </LectureRow>
 
 

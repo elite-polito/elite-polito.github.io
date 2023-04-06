@@ -26,7 +26,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     L01b Introduction to JavaScript (first part)
 </LectureRow>
 
-<LectureRow 
+<LectureRow
     date="28/02/2023" time="11:30-13:00"
     topic='L02 Introduction to JavaScript (second part)'
     pdf='https://polito-wa1-aw1-2023.github.io/materials/slide/1-01-javascript-basics.pdf' 
@@ -56,21 +56,21 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 
 <LectureDivider topic='Week 02'/>{/*-------------------------------------------*/}
 
-<LectureRow 
+<LectureRow
     date="07/03/2023" time="10:00-11:30"
     topic='L05 Constructor Functions. Callbacks. Functional programming.'
     pdf='https://polito-wa1-aw1-2023.github.io/materials/slide/1-03-javascript-async-programming.pdf'
     video='https://youtu.be/POb9VAqnEHs'
 />
 
-<LectureRow 
+<LectureRow
     date="07/03/2023" time="11:30-13:00"
     topic='L06 Exercises. Asynchronous callbacks.'
     github='https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/blob/main/week02/exercise.md'
     video='https://youtu.be/1_mbF0vayOs'
 />
 
-<LectureRow 
+<LectureRow
     date="09/03/2023" time="08:30-10:00"
     type='Lab'
     topic='Lab 01 - Group 1 (AA-DE)'
@@ -79,7 +79,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     teacher='Juan Pablo Sáenz'
 />
 
-<LectureRow 
+<LectureRow
     date="09/03/2023" time="10:00-11:30"
     type='Lab'
     topic='Lab 01 - Group 2 (DI-HZ)'
@@ -103,7 +103,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     video='https://youtu.be/_xmvE7L3fIw'
 />
 
-<LectureRow 
+<LectureRow
     date="14/03/2023" time="11:30-13:00"
     topic='L08 Promises. Exercise with SQLite and Promises.'
     video='https://youtu.be/0-f8uSUBs9s'
@@ -118,7 +118,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     teacher='Juan Pablo Sáenz'
 />
 
-<LectureRow 
+<LectureRow
     date="16/03/2023" time="10:00-11:30"
     type='Lab'
     topic='Lab 02 - Group 2 (DI-HZ)'
@@ -135,7 +135,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 
 <LectureDivider topic='Week 04'/>{/*-------------------------------------------*/}
 
-<LectureRow 
+<LectureRow
     date="20/03/2023" time="" teacher=''
     type='Reading 1'
     topic='Introduction to Web Architectures, HTML, and CSS'
@@ -179,7 +179,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     teacher='Juan Pablo Sáenz'
 />
 
-<LectureRow 
+<LectureRow
     date="23/03/2023" time="10:00-11:30"
     type='Lab'
     topic='Lab 03 - Group 2 (DI-HZ)'
@@ -196,8 +196,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 
 <LectureDivider topic='Week 05'/>{/*-------------------------------------------*/}
 
-
-<LectureRow 
+<LectureRow
     date="28/03/2023" time="10:00-11:30"
     topic='L11 JavaScript in the Browser - DOM, Events'
     pdf='https://polito-wa1-aw1-2023.github.io/materials/slide/2-04-JS-browser.pdf'
@@ -211,19 +210,21 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     video='https://youtu.be/SvpXehlJ600'
 />
 
-<LectureRow 
+<LectureRow
     date="30/03/2023" time="08:30-10:00"
     type='Lab'
     topic='Lab 04 - Group 1 (AA-DE)'
     pdf='https://polito-wa1-aw1-2023.github.io/materials/labs/lab04-js-browser.pdf'
+    github='https://github.com/polito-WA1-AW1-2023/lab04-javascript-browser'
     teacher='Juan Pablo Sáenz'
 />
 
-<LectureRow 
+<LectureRow
     date="30/03/2023" time="10:00-11:30"
     type='Lab'
     topic='Lab 04 - Group 2 (DI-HZ)'
     pdf='https://polito-wa1-aw1-2023.github.io/materials/labs/lab04-js-browser.pdf'
+    github='https://github.com/polito-WA1-AW1-2023/lab04-javascript-browser'
     teacher='Juan Pablo Sáenz'
 />
 
@@ -235,7 +236,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 
 <LectureDivider topic='Week 06'/>{/*-------------------------------------------*/}
 
-<LectureRow 
+<LectureRow
     date="20/03/2023" time="" teacher=''
     type='Reading 2'
     topic="The 'this' keyword in JavaScript"
@@ -243,12 +244,12 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 />
 
 
-<LectureRow 
+<LectureRow
     date="04/04/2023" time="10:00-11:30"
     topic='L13 Introduction to React'
 />
 
-<LectureRow 
+<LectureRow
     date="04/04/2023" time="11:30-13:00"
     topic='L14 JSX, Components, props'
 />
@@ -265,12 +266,12 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     topic='On 13/04 we will have 3 hours of lectures, instead of Labs'
 />
 
-<LectureRow 
+<LectureRow
     date="13/04/2023" time="08:30-10:00"
     topic='L15 Components and State'
 />
 
-<LectureRow 
+<LectureRow
     date="13/04/2023" time="10:00-11:30"
     topic='L16 Controlled Components and Forms (part 1)'
 />
@@ -284,24 +285,24 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 <LectureDivider topic='Week 07'/>{/*-------------------------------------------*/}
 
 
-<LectureRow 
+<LectureRow
     date="18/04/2023" time="10:00-11:30"
     topic='L17 Controlled Components and Forms (part 2)'
 />
 
-<LectureRow 
+<LectureRow
     date="18/04/2023" time="11:30-13:00"
     topic='L18 Controlled Components and Forms (part 3)'
 />
 
-<LectureRow 
+<LectureRow
     date="20/04/2023" time="08:30-10:00"
     type='Lab'
     topic='Lab 05 - Group 1 (AA-DE)'
     teacher='Juan Pablo Sáenz'
 />
 
-<LectureRow 
+<LectureRow
     date="20/04/2023" time="10:00-11:30"
     type='Lab'
     topic='Lab 05 - Group 2 (DI-HZ)'
@@ -323,14 +324,14 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     topic='Holiday -- No lectures'
 />
 
-<LectureRow 
+<LectureRow
     date="27/04/2023" time="08:30-10:00"
     type='Lab'
     topic='Lab 06 - Group 1 (AA-DE)'
     teacher='Luca Pezzolla'
 />
 
-<LectureRow 
+<LectureRow
     date="27/04/2023" time="10:00-11:30"
     type='Lab'
     topic='Lab 06 - Group 2 (DI-HZ)'
