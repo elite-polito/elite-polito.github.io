@@ -218,7 +218,9 @@ L01b Introduzione a JavaFX (prima parte)
 
 <LectureRow
     date="29/03/2023" time="13:00-14:30"
-    topic="L15 Esempi sulla ricorsione"
+    topic="L15 Esempi sulla ricorsione (le N Regine)"
+    github='https://github.com/TdP-2023/Regine'
+    video='https://youtu.be/FtwP96CJxpU'
     teacher='Fulvio Corno'
 />
 
@@ -234,13 +236,18 @@ L01b Introduzione a JavaFX (prima parte)
 
 <LectureRow
     date="03/04/2023" time="08:30-10:00"
-    topic="L16 Esempi sulla ricorsione"
+    topic="L16 Esempi sulla ricorsione (Voti Nobel)"
     teacher='Giuseppe Averta'
+    github="https://github.com/TdP-2023/VotiNobel.git"
+    video="https://youtu.be/tJ3x3zs-UKk"
 />
 
 <LectureRow
     date="03/04/2023" time="10:00-11:30"
-    topic="L17 Esempi sulla ricorsione"
+    topic="L17 Esempi sulla ricorsione (Quadrato Magico)"
+    pdf='https://tdp-2023.github.io/materiale/slide/05-02-magic_square.pdf'
+    video='https://youtu.be/PxFCgbCzbCk'
+    github='https://github.com/TdP-2023/QuadratoMagico'
     teacher='Fulvio Corno'
 />
 
@@ -249,11 +256,14 @@ L01b Introduzione a JavaFX (prima parte)
     type="Lab"
     teacher='Carlo Masone'
     topic="Lab 5 - Squadra 2"
+    github="https://github.com/TdP-2023/Lab05.git"
 />
 
 <LectureRow
     date="05/04/2023" time="13:00-14:30"
     topic="L18 Gestione delle date in Java e SQL"
+    pdf='https://tdp-2023.github.io/materiale/slide/03-05-JavaDatesTimes.pdf'
+    video='https://youtu.be/ZRXqVda8fM4'
     teacher='Fulvio Corno'
 />
 
@@ -262,6 +272,7 @@ L01b Introduzione a JavaFX (prima parte)
     type="Lab"
     teacher='Carlo Masone'
     topic="Lab 5 - Squadra 1"
+    github="https://github.com/TdP-2023/Lab05.git"
 />
 
 <LectureRow variant='info'

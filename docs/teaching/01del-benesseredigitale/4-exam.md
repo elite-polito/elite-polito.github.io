@@ -14,3 +14,9 @@ Il progetto di gruppo sarà valutato tramite la correzione delle consegne interm
 - impegno e capacità dimostrate durante lo svolgimento del lavoro di gruppo.
 
 Le regole specifiche per superare l'esame (modalità di consegna, deadlines, ...) verranno comunicate durante il corso.
+
+
+## Esercitazioni intermedie
+
+* [Esercitazione 1](https://elite.polito.it/materiale-benesseredigitale-2023/slide/E01-journeymap.pdf):
+    * [Calendario](https://docs.google.com/spreadsheets/d/1pHqrJLpQctYr0fVXJvkxuJ4LVYY2N_qTRWTDYhOY7rw/edit?usp=sharing) 

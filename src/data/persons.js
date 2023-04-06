@@ -30,7 +30,7 @@ const people = [
     },
     {
         name: 'Juan Pablo Sáenz',
-        role: 'Postdoc Research Assistant',
+        role: 'Assistant Professor (RTDa)',
         email: 'juan.saenz@polito.it',
         img: '/img/people/JuanSaenz.png',
         github: 'jpsaenzmo',
