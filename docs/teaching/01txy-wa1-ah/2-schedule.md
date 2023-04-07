@@ -237,14 +237,6 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 <LectureDivider topic='Week 06'/>{/*-------------------------------------------*/}
 
 <LectureRow
-    date="20/03/2023" time="" teacher=''
-    type='Reading 2'
-    topic="The 'this' keyword in JavaScript"
-    variant='success'
-/>
-
-
-<LectureRow
     date="04/04/2023" time="10:00-11:30"
     topic='L13 Introduction to React'
     pdf='https://polito-wa1-aw1-2023.github.io/materials/slide/3-01-React-intro.pdf'
@@ -323,6 +315,13 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 <LectureDivider topic='Week 08'/>{/*-------------------------------------------*/}
 
 <LectureRow
+    date="24/04/2023" time="" teacher=''
+    type='Reading 2'
+    topic="The 'this' keyword in JavaScript"
+    variant='success'
+/>
+
+<LectureRow
     date='25/04/2023'
     variant='warning'
     teacher='' type=''
@@ -347,6 +346,186 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     topic='Week 08 exercises'
     teacher='' type=''
     nogithub='https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/tree/main/week08' />
+
+<LectureDivider topic='Week 09'/>{/*-------------------------------------------*/}
+
+<LectureRow
+    date="02/05/2023" time="10:00-11:30"
+    topic='L19 React Context. React Router.'
+/>
+
+<LectureRow
+    date="02/05/2023" time="11:30-13:00"
+    topic='L20 React Router'
+/>
+
+<LectureRow
+    date="04/05/2023" time="08:30-10:00"
+    type='Lab'
+    topic='Lab 07 - Group 1 (AA-DE)'
+    teacher='Juan Pablo Sáenz'
+/>
+
+<LectureRow
+    date="04/05/2023" time="10:00-11:30"
+    type='Lab'
+    topic='Lab 07 - Group 2 (DI-HZ)'
+    teacher='Juan Pablo Sáenz'
+/>
+
+<LectureRow
+    topic='Week 09 exercises'
+    teacher='' type=''
+    nogithub='https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/tree/main/week09' />
+
+<LectureDivider topic='Week 10'/>{/*-------------------------------------------*/}
+
+<LectureRow
+    date="09/05/2023" time="10:00-11:30"
+    topic='L21 HTTP server and ExpressJS'
+/>
+
+<LectureRow
+    date="09/05/2023" time="11:30-13:00"
+    topic='L22 Building an HTTP API server'
+/>
+
+<LectureRow
+    date="11/05/2023" time="08:30-10:00"
+    type='Lab'
+    topic='Lab 08 - Group 1 (AA-DE)'
+    teacher='Juan Pablo Sáenz'
+/>
+
+<LectureRow
+    date="11/05/2023" time="10:00-11:30"
+    type='Lab'
+    topic='Lab 08 - Group 2 (DI-HZ)'
+    teacher='Juan Pablo Sáenz'
+/>
+
+<LectureRow
+    topic='Week 10 exercises'
+    teacher='' type=''
+    nogithub='https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/tree/main/week10' />
+
+<LectureDivider topic='Week 11'/>{/*-------------------------------------------*/}
+
+<LectureRow
+    date="16/05/2023" time="10:00-11:30"
+    topic='L21 Fetch API. CORS.'
+/>
+
+<LectureRow
+    date="16/05/2023" time="11:30-13:00"
+    topic='L22 Component lifecycle and useEffect'
+/>
+
+<LectureRow
+    date="18/05/2023" time="08:30-10:00"
+    type='Lab'
+    topic='Lab 09 - Group 1 (AA-DE)'
+    teacher='Juan Pablo Sáenz'
+/>
+
+<LectureRow
+    date="18/05/2023" time="10:00-11:30"
+    type='Lab'
+    topic='Lab 09 - Group 2 (DI-HZ)'
+    teacher='Juan Pablo Sáenz'
+/>
+
+<LectureRow
+    topic='Week 11 exercises'
+    teacher='' type=''
+    nogithub='https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/tree/main/week11' />
+
+<LectureDivider topic='Week 12'/>{/*-------------------------------------------*/}
+
+<LectureRow
+    date="23/05/2023" time="10:00-11:30"
+    topic='L23 useEffect advanced usage'
+/>
+
+<LectureRow
+    date="23/05/2023" time="11:30-13:00"
+    topic='L24 useEffect advanced usage'
+/>
+
+<LectureRow
+    date="25/05/2023" time="08:30-10:00"
+    type='Lab'
+    topic='Lab 10 - Group 1 (AA-DE)'
+    teacher='Juan Pablo Sáenz'
+/>
+
+<LectureRow
+    date="25/05/2023" time="10:00-11:30"
+    type='Lab'
+    topic='Lab 10 - Group 2 (DI-HZ)'
+    teacher='Juan Pablo Sáenz'
+/>
+
+<LectureRow
+    topic='Week 12 exercises'
+    teacher='' type=''
+    nogithub='https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/tree/main/week12' />
+
+<LectureDivider topic='Week 13'/>{/*-------------------------------------------*/}
+
+<LectureRow
+    date="30/05/2023" time="10:00-11:30"
+    topic='L25 Authentication with Passport.js'
+/>
+
+<LectureRow
+    date="30/05/2023" time="11:30-13:00"
+    topic='L26 Authentication with Passport.js'
+/>
+
+<LectureRow
+    date="25/05/2023" time="08:30-10:00"
+    type='Lab'
+    topic='Lab 11 - Group 1 (AA-DE)'
+    teacher='Juan Pablo Sáenz'
+/>
+
+<LectureRow
+    date="25/05/2023" time="10:00-11:30"
+    type='Lab'
+    topic='Lab 11 - Group 2 (DI-HZ)'
+    teacher='Juan Pablo Sáenz'
+/>
+
+<LectureRow
+    topic='Week 13 exercises'
+    teacher='' type=''
+    nogithub='https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/tree/main/week13' />
+
+<LectureDivider topic='Week 13'/>{/*-------------------------------------------*/}
+
+<LectureRow
+    date='06/06/2023'
+    variant='warning'
+    teacher='' type=''
+    topic='No lectures'
+/>
+
+
+<LectureRow
+    date="08/06/2023" time="08:30-10:00"
+    type='Lab'
+    topic='Exam simulation (guided)'
+    teacher='Juan Pablo Sáenz'
+/>
+
+<LectureRow
+    date="08/06/2023" time="10:00-11:30"
+    type='Lab'
+    topic='Exam simulation (guided)'
+    teacher='Juan Pablo Sáenz'
+/>
+
 
 
 </LectureTable>
