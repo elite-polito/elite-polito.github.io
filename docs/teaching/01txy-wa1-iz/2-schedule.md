@@ -225,13 +225,13 @@ All slides, examples, exercises, and any other material used in the classroom an
 <LectureRow
     date="13/04/2023" time="08:30-10:00"
 >
-    React: props and state
+    <a href="https://polito-wa1-aw1-2023.github.io/materials/slide/3-03-Components-and-state.pdf" title="React's state">React: components and state</a>. <a href="https://github.com/polito-WA1-AW1-2023/wa1-iz-weeks/tree/main/week07">Exercise</a> (on GitHub).
 </LectureRow>
 
 <LectureRow
     date="13/04/2023" time="10:00-11:30"
 >
-    Forms in React
+    <a href="https://polito-wa1-aw1-2023.github.io/materials/slide/3-04-Forms.pdf" title="React's forms">Forms in React</a>. Exercise (cont'd, on GitHub).
 </LectureRow>
 
 
