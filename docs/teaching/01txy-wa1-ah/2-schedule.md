@@ -247,7 +247,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     date="04/04/2023" time="11:30-13:00"
     topic='L14 JSX, Components, props - Exercise'
     pdf='https://polito-wa1-aw1-2023.github.io/materials/slide/3-02-Elements-and-JSX.pdf'
-    github='https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/blob/main/week06/exercise.md'
+    github='https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/blob/main/week06/exercise-7.md'
     video='https://youtu.be/HRdFrpT48bo'
 />
 
@@ -266,11 +266,14 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 <LectureRow
     date="13/04/2023" time="08:30-10:00"
     topic='L15 Components and State'
+    pdf='https://polito-wa1-aw1-2023.github.io/materials/slide/3-03-Components-and-state.pdf'
+    github='https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/blob/main/week06/exercise-8.md'
 />
 
 <LectureRow
     date="13/04/2023" time="10:00-11:30"
-    topic='L16 Controlled Components and Forms (part 1)'
+    topic='L16 Forms in React'
+    pdf='https://polito-wa1-aw1-2023.github.io/materials/slide/3-04-Forms.pdf'
 />
 
 <LectureRow
