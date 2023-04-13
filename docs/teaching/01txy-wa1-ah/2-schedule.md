@@ -267,13 +267,14 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     date="13/04/2023" time="08:30-10:00"
     topic='L15 Components and State'
     pdf='https://polito-wa1-aw1-2023.github.io/materials/slide/3-03-Components-and-state.pdf'
-    github='https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/blob/main/week06/exercise-8.md'
+    video='https://youtu.be/lGd3_eYAZKA'
 />
 
 <LectureRow
     date="13/04/2023" time="10:00-11:30"
-    topic='L16 Forms in React'
-    pdf='https://polito-wa1-aw1-2023.github.io/materials/slide/3-04-Forms.pdf'
+    topic='L16 Components and State - Exercise'
+    github='https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/blob/main/week06/exercise-8.md'
+    video='https://youtu.be/EHa4xiZMgCI'
 />
 
 <LectureRow
@@ -287,12 +288,13 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 
 <LectureRow
     date="18/04/2023" time="10:00-11:30"
-    topic='L17 Controlled Components and Forms (part 2)'
+    topic='L17 Controlled Form Components'
+    pdf='https://polito-wa1-aw1-2023.github.io/materials/slide/3-04-Forms.pdf'
 />
 
 <LectureRow
     date="18/04/2023" time="11:30-13:00"
-    topic='L18 Controlled Components and Forms (part 3)'
+    topic='L18 Controlled Form Components - Exercise'
 />
 
 <LectureRow
