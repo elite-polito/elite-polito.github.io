@@ -263,11 +263,7 @@ All slides, examples, exercises, and any other material used in the classroom an
     <a href="https://polito-wa1-aw1-2023.github.io/materials/labs/lab05-getting-started-react.pdf">Getting started with React</a> (group 2, PA-ZZ)
 </LectureRow>
 
-<LectureRow
-    type="Lab Solution" teacher=""
->
-    <a href=""></a>
-</LectureRow>
+<!-- <LectureRow type="Lab Solution" teacher=""> <a href="https://github.com/polito-WA1-AW1-2023/lab05-react">Possible solution</a> (on GitHub)</LectureRow> -->
 
 
 <LectureDivider topic='Week 08'/>{/*-------------------------------------------*/}
@@ -287,14 +283,18 @@ All slides, examples, exercises, and any other material used in the classroom an
 <LectureRow
     date="27/04/2023" time="08:30-10:00" type="Lab" teacher="Luca Mannella"
 >
+    {/* <a href="https://polito-wa1-aw1-2023.github.io/materials/labs/lab06-forms.pdf">Forms in React</a> (group 1, IA-OU) */}
     Forms in React (group 1, IA-OU)
 </LectureRow>
 
 <LectureRow
     date="27/04/2023" time="10:00-11:30" type="Lab" teacher="Luca Mannella"
 >
+    {/* <a href="https://polito-wa1-aw1-2023.github.io/materials/labs/lab06-forms.pdf">Forms in React</a> (group 2, PA-ZZ) */}
     Forms in React (group 2, PA-ZZ)
 </LectureRow>
+
+<!-- <LectureRow type="Lab Solution" teacher=""> <a href="https://github.com/polito-WA1-AW1-2023/lab06-forms">Possible solution</a> (on GitHub)</LectureRow> -->
 
 
 <LectureDivider topic='Week 09'/>{/*-------------------------------------------*/}
@@ -311,7 +311,7 @@ All slides, examples, exercises, and any other material used in the classroom an
     React Context. React Router.
 </LectureRow>
 
-<LectureRow 
+<LectureRow
     date="02/05/2023" time="10:00-11:30" type="Exercise"
 >
     Exercise on React Router
@@ -320,14 +320,18 @@ All slides, examples, exercises, and any other material used in the classroom an
 <LectureRow
     date="04/05/2023" time="08:30-10:00" type="Lab" teacher="Luca Mannella"
 >
+    {/* <a href="https://polito-wa1-aw1-2023.github.io/materials/labs/lab07-routes.pdf">React Routes</a> (group 1, IA-OU) */}
     React Routes (group 1, IA-OU)
 </LectureRow>
 
 <LectureRow
     date="04/05/2023" time="10:00-11:30" type="Lab" teacher="Luca Mannella"
 >
+    {/* <a href="https://polito-wa1-aw1-2023.github.io/materials/labs/lab07-routes.pdf">React Routes</a> (group 2, PA-ZZ) */}
     React Routes (group 2, PA-ZZ)
 </LectureRow>
+
+<!-- <LectureRow type="Lab Solution" teacher=""> <a href="https://github.com/polito-WA1-AW1-2023/lab07-routes">Possible solution</a> (on GitHub)</LectureRow> -->
 
 
 <LectureDivider topic='Week 10'/>{/*-------------------------------------------*/}
@@ -338,7 +342,7 @@ All slides, examples, exercises, and any other material used in the classroom an
     Express. HTTP APIs.
 </LectureRow>
 
-<LectureRow 
+<LectureRow
     date="09/05/2023" time="10:00-11:30" type="Exercise"
 >
     Exercise on Express
@@ -347,14 +351,18 @@ All slides, examples, exercises, and any other material used in the classroom an
 <LectureRow
     date="11/05/2023" time="08:30-10:00" type="Lab" teacher="Luca Mannella"
 >
+    {/* <a href="https://polito-wa1-aw1-2023.github.io/materials/labs/lab08-express.pdf">APIs with Express</a> (group 1, IA-OU) */}
     APIs with Express (group 1, IA-OU)
 </LectureRow>
 
 <LectureRow
     date="11/05/2023" time="10:00-11:30" type="Lab" teacher="Luca Mannella"
 >
+    {/* <a href="https://polito-wa1-aw1-2023.github.io/materials/labs/lab08-express.pdf">APIs with Express</a> (group 2, PA-ZZ) */}
     APIs with Express (group 2, PA-ZZ)
 </LectureRow>
+
+<!-- <LectureRow type="Lab Solution" teacher=""> <a href="https://github.com/polito-WA1-AW1-2023/lab08-express">Possible solution</a> (on GitHub)</LectureRow> -->
 
 
 <LectureDivider topic='Week 11'/>{/*-------------------------------------------*/}
@@ -371,7 +379,7 @@ All slides, examples, exercises, and any other material used in the classroom an
     Fetch. Review of the reading.
 </LectureRow>
 
-<LectureRow 
+<LectureRow
     date="16/05/2023" time="10:00-11:30"
 >
     useEffect and LifeCycle
@@ -380,14 +388,18 @@ All slides, examples, exercises, and any other material used in the classroom an
 <LectureRow
     date="18/05/2023" time="08:30-10:00" type="Lab" teacher="Luca Mannella"
 >
+    {/* <a href="https://polito-wa1-aw1-2023.github.io/materials/labs/lab09-client-server-I.pdf">Client-server interaction</a> (group 1, IA-OU) */}
     Client-server interaction (group 1, IA-OU)
 </LectureRow>
 
 <LectureRow
     date="18/05/2023" time="10:00-11:30" type="Lab" teacher="Luca Mannella"
 >
+    {/* <a href="https://polito-wa1-aw1-2023.github.io/materials/labs/lab09-client-server-I.pdf">Client-server interaction</a> (group 2, PA-ZZ) */}
     Client-server interaction (group 2, PA-ZZ)
 </LectureRow>
+
+<!-- <LectureRow type="Lab Solution" teacher=""> <a href="https://github.com/polito-WA1-AW1-2023/lab09-client-server-I">Possible solution</a> (on GitHub)</LectureRow> -->
 
 
 <LectureDivider topic='Week 12'/>{/*-------------------------------------------*/}
@@ -398,7 +410,7 @@ All slides, examples, exercises, and any other material used in the classroom an
     About the exam. LifeCycle: advanced aspects.
 </LectureRow>
 
-<LectureRow 
+<LectureRow
     date="23/05/2023" time="10:00-11:30" type="Exercise"
 >
     Exercise on useEffect and fetch
@@ -407,14 +419,18 @@ All slides, examples, exercises, and any other material used in the classroom an
 <LectureRow
     date="25/05/2023" time="08:30-10:00" type="Lab" teacher="Luca Mannella"
 >
+    {/* <a href="https://polito-wa1-aw1-2023.github.io/materials/labs/lab10-client-server-II.pdf">Client-server interaction</a> (group 1, IA-OU) */}
     Client-server interaction (group 1, IA-OU)
 </LectureRow>
 
 <LectureRow
     date="25/05/2023" time="10:00-11:30" type="Lab" teacher="Luca Mannella"
 >
+    {/* <a href="https://polito-wa1-aw1-2023.github.io/materials/labs/lab10-client-server-II.pdf">Client-server interaction</a> (group 2, PA-ZZ) */}
     Client-server interaction (group 2, PA-ZZ)
 </LectureRow>
+
+<!-- <LectureRow type="Lab Solution" teacher=""> <a href="https://github.com/polito-WA1-AW1-2023/lab10-client-server-II">Possible solution</a> (on GitHub)</LectureRow> -->
 
 
 <LectureDivider topic='Week 13'/>{/*-------------------------------------------*/}
@@ -425,7 +441,7 @@ All slides, examples, exercises, and any other material used in the classroom an
     Authentication with Passport.js
 </LectureRow>
 
-<LectureRow 
+<LectureRow
     date="30/05/2023" time="10:00-11:30" type="Exercise"
 >
     Exercise on authentication
@@ -434,14 +450,19 @@ All slides, examples, exercises, and any other material used in the classroom an
 <LectureRow
     date="01/06/2023" time="08:30-10:00" type="Lab" teacher="Luca Mannella"
 >
+    {/* <a href="https://polito-wa1-aw1-2023.github.io/materials/labs/lab11-authentication.pdf">Authentication</a> (group 1, IA-OU) */}
     Authentication (group 1, IA-OU)
 </LectureRow>
 
 <LectureRow
     date="01/06/2023" time="10:00-11:30" type="Lab" teacher="Luca Mannella"
 >
+    {/* <a href="https://polito-wa1-aw1-2023.github.io/materials/labs/lab11-authentication.pdf">Authentication</a> (group 2, PA-ZZ) */}
     Authentication (group 2, PA-ZZ)
 </LectureRow>
+
+<!-- <LectureRow type="Lab Solution" teacher=""> <a href="https://github.com/polito-WA1-AW1-2023/lab11-authentication">Possible solution</a> (on GitHub)</LectureRow> -->
+
 
 <LectureDivider topic='Week 14'/>{/*-------------------------------------------*/}
 
