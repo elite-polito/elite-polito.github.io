@@ -56,7 +56,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
     video={['https://www.polito.it/didattica']}
     teacher='Monica Molino'
     >
-    Benessere digitale: prospettiva psicologica (parte I)
+    Benessere digitale: prospettiva psicologica
 </LectureRow>
 
 <LectureRow
