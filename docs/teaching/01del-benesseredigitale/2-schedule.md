@@ -108,7 +108,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 <LectureDivider topic='VACANZE DI PASQUA'/>
 
 <LectureRow
-    date="14/04/2023" time="16:00-17:30"
+    date="14/04/2023" time="13:00-14:30"
     pdf='https://elite.polito.it/materiale-benesseredigitale-2023/slide/U02-stress-digitale.pdf' 
     video={['https://www.polito.it/didattica']}
     teacher= 'Monica Molino'
