@@ -248,7 +248,8 @@ All slides, examples, exercises, and any other material used in the classroom an
 <LectureRow 
     date="18/04/2023" time="10:00-11:30" type="Exercise"
 >
-    Exercise on Forms and State (cont'd)
+    <p>Exercise on Forms and State (cont'd).<br/>
+       <a href="https://polito-wa1-aw1-2023.github.io/materials/slide/3-05-Context.pdf" title="React's context">Context</a>.</p>
 </LectureRow>
 
 <LectureRow
@@ -271,7 +272,7 @@ All slides, examples, exercises, and any other material used in the classroom an
 <LectureRow
     type="Reading" date="24/04/2023" teacher=""
 >
-    The 'this' keyword in JavaScript
+    <a href="https://polito-wa1-aw1-2023.github.io/materials/readings/1-4-reading-this.pdf" title="JS' this">The 'this' keyword in JavaScript</a>
 </LectureRow>
     
 <LectureRow
@@ -302,7 +303,7 @@ All slides, examples, exercises, and any other material used in the classroom an
 <LectureRow
     type="Reading" date="01/05/2023" teacher=""
 >
-    Modules in JavaScript
+    <a href="https://polito-wa1-aw1-2023.github.io/materials/readings/1-5-reading-modules.pdf" title="JS' modules">Modules in JavaScript</a>
 </LectureRow>
 
 <LectureRow
