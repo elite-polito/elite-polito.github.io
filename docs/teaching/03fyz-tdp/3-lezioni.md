@@ -294,6 +294,7 @@ L01b Introduzione a JavaFX (prima parte)
     date="17/04/2023" time="10:00-11:30"
     topic="L20 Object-Relational Mapping - Esempi"
     teacher='Fulvio Corno'
+    github='https://github.com/TdP-datasets/Yelp'
 />
 
 <LectureRow
@@ -306,6 +307,7 @@ L01b Introduzione a JavaFX (prima parte)
 <LectureRow
     date="19/04/2023" time="13:00-14:30"
     topic="L21 Connection Pooling. Tabelle in JavaFX."
+    pdf='https://tdp-2023.github.io/materiale/slide/02-03-javafx-tables.pdf'
     teacher='Fulvio Corno'
 />
 
