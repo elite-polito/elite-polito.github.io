@@ -288,6 +288,7 @@ L01b Introduzione a JavaFX (prima parte)
     date="17/04/2023" time="08:30-10:00"
     topic="L19 Esempi sulla ricorsione"
     teacher='Carlo Masone'
+    github='https://github.com/TdP-2023/Ruzzle'
 />
 
 <LectureRow
