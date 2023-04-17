@@ -242,7 +242,7 @@ All slides, examples, exercises, and any other material used in the classroom an
 <LectureRow
     date="18/04/2023" time="08:30-10:00" type="Exercise"
 >
-    Exercise on Forms and State
+    <a href="https://github.com/polito-WA1-AW1-2023/wa1-iz-weeks/tree/main/week08">Exercise on Forms and State</a> (on GitHub).
 </LectureRow>
 
 <LectureRow 
