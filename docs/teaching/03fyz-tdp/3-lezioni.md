@@ -289,6 +289,7 @@ L01b Introduzione a JavaFX (prima parte)
     topic="L19 Esempi sulla ricorsione"
     teacher='Carlo Masone'
     github='https://github.com/TdP-2023/Ruzzle'
+    video='https://youtu.be/IWTqcCOmpKQ'
 />
 
 <LectureRow
