@@ -296,6 +296,7 @@ L01b Introduzione a JavaFX (prima parte)
     topic="L20 Object-Relational Mapping - Esempi"
     teacher='Fulvio Corno'
     github='https://github.com/TdP-datasets/Yelp'
+    video='https://youtu.be/pCeFYf-OBcM'
 />
 
 <LectureRow
