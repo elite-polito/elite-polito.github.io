@@ -294,7 +294,8 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 
 <LectureRow
     date="18/04/2023" time="11:30-13:00"
-    topic='L18 Controlled Form Components - Exercise'
+    topic='L18 Controlled Form Components - Exercise. Context.'
+    pdf='https://polito-wa1-aw1-2023.github.io/materials/slide/3-05-Context.pdf'
 />
 
 <LectureRow
@@ -326,6 +327,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     type='Reading 2'
     topic="The 'this' keyword in JavaScript"
     variant='success'
+    pdf='https://polito-wa1-aw1-2023.github.io/materials/readings/1-4-reading-this.pdf'
 />
 
 <LectureRow
@@ -355,6 +357,14 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     nogithub='https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/tree/main/week08' />
 
 <LectureDivider topic='Week 09'/>{/*-------------------------------------------*/}
+
+<LectureRow
+    date="01/05/2023" time="" teacher=''
+    type='Reading 3'
+    topic="Modules in JavaScript"
+    variant='success'
+    pdf='https://polito-wa1-aw1-2023.github.io/materials/readings/1-5-reading-modules.pdf'
+/>
 
 <LectureRow
     date="02/05/2023" time="10:00-11:30"
