@@ -241,15 +241,16 @@ All slides, examples, exercises, and any other material used in the classroom an
 
 <LectureRow
     date="18/04/2023" time="08:30-10:00" type="Exercise"
+    video="https://youtu.be/iRqXHqlQsW0"
 >
-    <a href="https://github.com/polito-WA1-AW1-2023/wa1-iz-weeks/tree/main/week08">Exercise on Forms and State</a> (on GitHub).
+    <a href="https://github.com/polito-WA1-AW1-2023/wa1-iz-weeks/tree/main/week08">Exercise on Forms and State</a> (on GitHub)
 </LectureRow>
 
 <LectureRow 
     date="18/04/2023" time="10:00-11:30" type="Exercise"
+    video="https://youtu.be/1GIep6bN8Rw"
 >
-    <p>Exercise on Forms and State (cont'd).<br/>
-       <a href="https://polito-wa1-aw1-2023.github.io/materials/slide/3-05-Context.pdf" title="React's context">Context</a>.</p>
+    Exercise on Forms and State (cont'd)
 </LectureRow>
 
 <LectureRow
@@ -309,7 +310,7 @@ All slides, examples, exercises, and any other material used in the classroom an
 <LectureRow
     date="02/05/2023" time="08:30-10:00"
 >
-    React Context. React Router.
+    <a href="https://polito-wa1-aw1-2023.github.io/materials/slide/3-05-Context.pdf" title="React's context">React Context</a>. React Router.
 </LectureRow>
 
 <LectureRow
