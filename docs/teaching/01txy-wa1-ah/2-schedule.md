@@ -288,14 +288,15 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 
 <LectureRow
     date="18/04/2023" time="10:00-11:30"
-    topic='L17 Controlled Form Components'
+    topic='L17 Derived State and View State'
     pdf='https://polito-wa1-aw1-2023.github.io/materials/slide/3-04-Forms.pdf'
+    video='https://youtu.be/LxEJqWI_NLc'
 />
 
 <LectureRow
     date="18/04/2023" time="11:30-13:00"
-    topic='L18 Controlled Form Components - Exercise. Context.'
-    pdf='https://polito-wa1-aw1-2023.github.io/materials/slide/3-05-Context.pdf'
+    topic='L18 Controlled Form Components'
+    video='https://youtu.be/Nw0uXxS_u8I'
 />
 
 <LectureRow
@@ -317,7 +318,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 <LectureRow
     topic='Week 07 exercises'
     teacher='' type=''
-    nogithub='https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/tree/main/week07' />
+    github='https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/tree/main/week07' />
 
 
 <LectureDivider topic='Week 08'/>{/*-------------------------------------------*/}
@@ -369,6 +370,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 <LectureRow
     date="02/05/2023" time="10:00-11:30"
     topic='L19 React Context. React Router.'
+    pdf='https://polito-wa1-aw1-2023.github.io/materials/slide/3-05-Context.pdf'
 />
 
 <LectureRow
