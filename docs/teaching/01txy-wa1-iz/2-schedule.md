@@ -475,13 +475,13 @@ All slides, examples, exercises, and any other material used in the classroom an
 </LectureRow>
 
 <LectureRow
-    date="08/06/2023" time="08:30-10:00" type="Lab" teacher="Luigi De Russis"
+    date="08/06/2023" time="08:30-10:00" type="Lab" teacher="Luca Mannella"
 >
     Exam simulation (both groups)
 </LectureRow>
 
 <LectureRow
-    date="08/06/2023" time="10:00-11:30" type="Lab" teacher="Luigi De Russis"
+    date="08/06/2023" time="10:00-11:30" type="Lab" teacher="Luca Mannella"
 >
     Exam simulation (both groups)
 </LectureRow>
