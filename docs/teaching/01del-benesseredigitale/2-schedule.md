@@ -120,7 +120,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 
 <LectureRow
     date="18/04/2023" time="16:00-17:30"
-    pdf='' 
+    pdf='https://elite.polito.it/materiale-benesseredigitale-2023/slide/U03-needfinding-analisi.pdf' 
     video={[]}
     teacher= 'Monica Molino'
     >
@@ -129,7 +129,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 
 <LectureRow
     date="18/04/2023" time="17:30-19:00"
-    pdf='' 
+    pdf='https://elite.polito.it/materiale-benesseredigitale-2023/slide/E02-needfinding.pdf' 
     video={[]}
     type='Esercitazione'
     teacher= 'Monica Molino'
