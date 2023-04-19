@@ -536,7 +536,7 @@ L01b Introduzione a JavaFX (prima parte)
 <LectureRow
     date="29/05/2023" time="08:30-10:00"
     topic="L38 Risoluzione tema d'esame (Simulazione 2)"
-    teacher=''
+    teacher='Carlo Masone'
 />
 
 <LectureRow
