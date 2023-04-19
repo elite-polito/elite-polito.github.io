@@ -399,7 +399,7 @@ L01b Introduzione a JavaFX (prima parte)
 <LectureRow
     date="08/05/2023" time="08:30-10:00"
     topic="L26 Esercizio sui grafi"
-    teacher='Carlo Masone'
+    teacher='Giuseppe Averta'
 />
 
 <LectureRow
@@ -433,7 +433,7 @@ L01b Introduzione a JavaFX (prima parte)
 <LectureRow
     date="15/05/2023" time="08:30-10:00"
     topic="L29 Esercizio sui grafi"
-    teacher='Giuseppe Averta'
+    teacher='Carlo Masone'
 />
 
 <LectureRow
@@ -467,7 +467,7 @@ L01b Introduzione a JavaFX (prima parte)
 <LectureRow
     date="22/05/2023" time="08:30-10:00"
     topic="L32 Risoluzione tema d'esame"
-    teacher='Carlo Masone'
+    teacher='Giuseppe Averta'
 />
 
 <LectureRow
@@ -514,7 +514,7 @@ L01b Introduzione a JavaFX (prima parte)
 <LectureRow
     date="30/05/2023" time="13:00-16:00"
     type="Lab"
-    teacher='Carlo Masone'
+    teacher='Giuseppe Averta'
     topic="Simulazione d'esame n. 2 - Squadra 1"
 />
 
@@ -527,7 +527,7 @@ L01b Introduzione a JavaFX (prima parte)
 <LectureRow
     date="31/05/2023" time="16:00-19:00"
     type="Lab"
-    teacher='Giuseppe Averta'
+    teacher='Carlo Masone'
     topic="Simulazione d'esame n. 2 - Squadra 2"
 />
 
