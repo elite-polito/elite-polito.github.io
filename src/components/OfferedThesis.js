@@ -52,7 +52,7 @@ function OfferedThesis({
             <div><small>Valid until: {exp_date}</small></div>
             {where == 'A' && <div><small>Thesis with an external company. Advisor: {external_advisors}</small></div>}
         </summary>
-        <div>{description}</div>
+        <div style={{whiteSpace: "pre-wrap"}}>{description}</div>
         <hr/>
         {keywords.length > 0 && <div><strong>Keywords: </strong>{keywords.join(', ')}</div>}
         <div><a href={`https://didattica.polito.it/pls/portal30/sviluppo.tesiv.elenchi?idt=${ID}&lang=EN`}>View the
