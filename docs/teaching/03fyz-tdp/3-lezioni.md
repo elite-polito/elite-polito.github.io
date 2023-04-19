@@ -310,8 +310,9 @@ L01b Introduzione a JavaFX (prima parte)
 
 <LectureRow
     date="19/04/2023" time="13:00-14:30"
-    topic="L21 Connection Pooling. Tabelle in JavaFX."
-    pdf='https://tdp-2023.github.io/materiale/slide/02-03-javafx-tables.pdf'
+    topic="L21 Connection Pooling. Identity Map."
+    github='https://github.com/TdP-2023/YelpDB'
+    video='https://youtu.be/jXBdjYzXKYw'
     teacher='Fulvio Corno'
 />
 
