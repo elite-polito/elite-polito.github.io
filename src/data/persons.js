@@ -39,14 +39,15 @@ const people = [
         name: 'Luca Mannella',
         role: 'Ph.D. Student',
         email: 'luca.mannella@polito.it',
-        img: "/img/people/LucaMannella.jpg",
+        img: '/img/people/LucaMannella.jpg',
         github: 'Sarcares'
     },
     {
         name: 'Tommaso Calò',
         role: 'Ph.D. Student',
         email: 'tommaso.calo@polito.it',
-        img: "/img/people/TommasoCalo.jpeg"
+        img: '/img/people/TommasoCalo.jpeg',
+        github: 'tommasocalo'
     }
 ]
 

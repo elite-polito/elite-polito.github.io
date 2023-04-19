@@ -24,6 +24,12 @@ monge:
 
 saenz:
   name: Juan Pablo Sáenz Moreno
-  title: Postdoc Research Assistant
+  title: Assistant Professor
   url: https://github.com/jpsaenzmo
   image_url: /img/people/JuanSaenz.png
+
+calo:
+  name: Tommaso Calò
+  title: Ph.D. Student
+  url: https://github.com/tommasocalo
+  image_url: /img/people/TommasoCalo.jpg
