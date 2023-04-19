@@ -101,7 +101,7 @@ AccessCoVE aims to structure excellence in Vocational Education and Training in 
     period='2004-2007'>
     <p><a href="http://eswes.lfi.rwth-aachen.de/www/version.main.php?jump=project_main">eSWES</a>:
     eLearning System for Water and Environmental Studies.</p><p>
-    EU Project under the TEMPUS-Program. Three universities are participated in the project (<a href="http://www.rwth-aachen.de/" class="reallink">RWTH Aachen</a> University/German, <a href="http://www.zu.edu.eg/" class="reallink">Zagazig University</a>/ Egypt and <a href="http://www.polito.it/" class="reallink">Politecnico di Torino</a>/Italy).</p>
+    EU Project under the TEMPUS-Program. Three universities are participated in the project (<a href="http://www.rwth-aachen.de/">RWTH Aachen</a> University/German, <a href="http://www.zu.edu.eg/">Zagazig University</a>/ Egypt and <a href="http://www.polito.it/">Politecnico di Torino</a>/Italy).</p>
 </ProjectCard>
 
 <ProjectCard
