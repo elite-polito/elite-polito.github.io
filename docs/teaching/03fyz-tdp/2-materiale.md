@@ -17,16 +17,17 @@ Il materiale didattico è anche disponibile nel repository https://github.com/Td
 - [Introduzione al corso](https://tdp-2023.github.io/materiale/slide/01-01-introduzione_2023.pdf)
 - [Introduzione a Git e GitHub](https://tdp-2023.github.io/materiale/slide/01-02-Git-quickintro.pdf)
 - Java Collections
-  - Set and Hash
-  - Map
+  - [Set and Hash](https://tdp-2023.github.io/materiale/slide/03-03-Sets%26Hash.pdf)
+  - [Map](https://tdp-2023.github.io/materiale/slide/03-04-Map.pdf)
   - Code prioritarie
 - JavaFX
   - [JavaFX Crash Course](https://tdp-2023.github.io/materiale/slide/02-01-javafx-crashcourse.pdf)
-  - Pattern Model-View-Controller
+  - [Pattern Model-View-Controller](https://tdp-2023.github.io/materiale/slide/02-02-javafx-mvc-pattern.pdf)
   - JavaFX Tables
-- Database access and JDBC
-- Date/Time in Java7, Java8, SQL, Jdbc
-- Ricorsione
+- [Database access and JDBC](https://tdp-2023.github.io/materiale/blob/master/slide/04-01-jdbc-dao.pdf)
+- [Date/Time in Java7, Java8, SQL, Jdbc](https://tdp-2023.github.io/materiale/slide/03-05-JavaDatesTimes.pdf)
+- [Ricorsione](https://tdp-2023.github.io/materiale/slide/05-01-recursion.pdf)
+  - [Quadrato Magico](https://tdp-2023.github.io/materiale/slide/05-02-magic_square.pdf)
 - Grafi
   - Introduzione ai grafi
   - Introduzione alla libreria JGraphT
@@ -50,11 +51,11 @@ Il materiale didattico è anche disponibile nel repository https://github.com/Td
 ## Laboratorio
 
 - [Laboratorio 0](https://github.com/TdP-2023/Lab0)
-- Laboratorio 1
-- Laboratorio 2
-- Laboratorio 3
-- Laboratorio 4 
-- Laboratorio 5 
+- [Laboratorio 1](https://github.com/TdP-2023/Lab01)
+- [Laboratorio 2](https://github.com/TdP-2023/Lab02)
+- [Laboratorio 3](https://github.com/TdP-2023/Lab03)
+- [Laboratorio 4](https://github.com/TdP-2023/Lab04)
+- [Laboratorio 5](https://github.com/TdP-2023/Lab05)
 - Laboratorio 6 
 - Laboratorio 7
 - Laboratorio 8 

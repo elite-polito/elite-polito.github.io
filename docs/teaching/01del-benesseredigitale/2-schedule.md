@@ -16,8 +16,8 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 
 <LectureRow
     date="17/03/2023" time="13:00-14:30"
-    pdf='' 
-    video={[]}
+    pdf={['https://elite.polito.it/materiale-benesseredigitale-2023/slide/00a-intro-corso.pdf','https://elite.polito.it/materiale-benesseredigitale-2023/slide/00b-intro-benesseredigitale.pdf']}
+    video={['https://www.polito.it/didattica']}
     >
     Introduzione al corso e al Benessere Digitale
 </LectureRow>
@@ -26,45 +26,42 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 
 <LectureRow
     date="21/03/2023" time="16:00-17:30"
-    pdf='' 
-    video={[]}
-    teacher= 'Monica Molino'
+    pdf='https://elite.polito.it/materiale-benesseredigitale-2023/slide/P01-needfinding.pdf' 
+    video={['https://www.polito.it/didattica']}
     >
-    Benessere digitale: prospettiva psicologica
+    Metodi di needfinding (parte I)
 </LectureRow>
 
 <LectureRow
     date="21/03/2023" time="17:30-19:00"
     pdf='' 
-    video={[]}
-    teacher= 'Monica Molino'
+    video={['https://www.polito.it/didattica']}
     >
-    Ostacoli e opportunità per il benessere digitale (parte I)
+    Metodi di needfinding (parte II)
 </LectureRow>
 
 <LectureRow
     date="24/03/2023" time="13:00-14:30"
-    pdf='' 
-    video={[]}
+    pdf='https://elite.polito.it/materiale-benesseredigitale-2023/slide/P02-minacce.pdf' 
+    video={['https://www.polito.it/didattica']}
     >
-    Metodi di needfinding (parte I)
+    Attention Economy
 </LectureRow>
 
 <LectureDivider/>
 
 <LectureRow
     date="28/03/2023" time="16:00-17:30"
-    pdf='' 
-    video={[]}
-    type='Esercitazione'
+    pdf='https://elite.polito.it/materiale-benesseredigitale-2023/slide/U01-intro.pdf' 
+    video={['https://www.polito.it/didattica']}
+    teacher='Monica Molino'
     >
-    Journey Map sul Benessere Digitale
+    Benessere digitale: prospettiva psicologica
 </LectureRow>
 
 <LectureRow
     date="28/03/2023" time="17:30-19:00"
-    pdf='' 
-    video={[]}
+    pdf='https://elite.polito.it/materiale-benesseredigitale-2023/slide/E01-journeymap.pdf' 
     type='Esercitazione'
     >
     Journey Map sul Benessere Digitale
@@ -74,8 +71,9 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
     date="31/03/2023" time="13:00-14:30"
     pdf='' 
     video={[]}
+    type='Esercitazione'
     >
-    Metodi di needfinding (parte II)
+    Journey Map sul Benessere Digitale
 </LectureRow>
 
 <LectureDivider/>
@@ -94,6 +92,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
     type='Esercitazione'
     >
     Presentazione delle journey map realizzate. Feedback.
+    <ul><li><a href="https://docs.google.com/spreadsheets/d/1pHqrJLpQctYr0fVXJvkxuJ4LVYY2N_qTRWTDYhOY7rw/edit?usp=sharing">Calendario presentazioni</a></li></ul>
 </LectureRow>
 
 <LectureRow
@@ -103,36 +102,37 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
     type='Esercitazione'
     >
     Presentazione delle journey map realizzate. Feedback.
+    <ul><li><a href="https://docs.google.com/spreadsheets/d/1pHqrJLpQctYr0fVXJvkxuJ4LVYY2N_qTRWTDYhOY7rw/edit?usp=sharing">Calendario presentazioni</a></li></ul>
 </LectureRow>
 
 <LectureDivider topic='VACANZE DI PASQUA'/>
 
 <LectureRow
-    date="14/04/2023" time="16:00-17:30"
-    pdf='' 
-    video={[]}
+    date="14/04/2023" time="13:00-14:30"
+    pdf='https://elite.polito.it/materiale-benesseredigitale-2023/slide/U02-stress-digitale.pdf' 
+    video={['https://www.polito.it/didattica']}
     teacher= 'Monica Molino'
     >
-    Metodi di needfinding (parte III)
+    Stress Digitale
 </LectureRow>
 
 <LectureDivider/>
 
 <LectureRow
     date="18/04/2023" time="16:00-17:30"
-    pdf='' 
+    pdf='https://elite.polito.it/materiale-benesseredigitale-2023/slide/U03-needfinding-analisi.pdf' 
     video={[]}
-    type='Esercitazione'
     teacher= 'Monica Molino'
     >
-    Needfinding
+    Metodi di needfinding (parte III)
 </LectureRow>
 
 <LectureRow
     date="18/04/2023" time="17:30-19:00"
-    pdf='' 
+    pdf='https://elite.polito.it/materiale-benesseredigitale-2023/slide/E02-needfinding.pdf' 
     video={[]}
     type='Esercitazione'
+    teacher= 'Monica Molino'
     >
     Needfinding
 </LectureRow>
@@ -142,7 +142,6 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
     pdf='' 
     video={[]}
     type='Esercitazione'
-    teacher= 'Monica Molino'
     >
     Needfinding
 </LectureRow>
@@ -155,7 +154,8 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
     video={[]}
     teacher= 'Monica Molino'
     >
-    Ostacoli e opportunità per il benessere digitale (parte II)
+    Ostacoli e opportunità per il benessere digitale (parte I)
+
 </LectureRow>
 
 <LectureDivider/>
@@ -164,25 +164,26 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
     date="02/05/2023" time="16:00-17:30"
     pdf='' 
     video={[]}
+    teacher='Monica Molino'
     >
-    Attention Economy
+    Ostacoli e opportunità per il benessere digitale (parte II)
 </LectureRow>
 
 <LectureRow
     date="02/05/2023" time="17:30-19:00"
     pdf='' 
     video={[]}
+    teacher='Monica Molino'
     >
-    Strategie informatiche per il Benessere Digitale (parte I)
+    Strategie psicologiche per il Benessere Digitale (parte I)
 </LectureRow>
 
 <LectureRow
     date="05/05/2023" time="13:00-14:30"
     pdf='' 
     video={[]}
-    teacher= 'Monica Molino'
     >
-    Strategie psicologiche per il Benessere Digitale (parte I)
+    Strategie informatiche per il Benessere Digitale (parte I)
 </LectureRow>
 
 <LectureDivider/>
@@ -326,6 +327,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
     pdf='' 
     video={[]}
     type='Esercitazione'
+    teacher = 'Monica Molino'
     >
     Progettazione prototipo a bassa fedeltà
 </LectureRow>

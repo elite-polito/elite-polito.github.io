@@ -1,5 +1,4 @@
-import React from "react";
-import { createContext, useContext } from 'react';
+import React, { createContext, useContext, useMemo } from "react";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faYoutube, faGithub, faPython } from '@fortawesome/free-brands-svg-icons'
@@ -96,8 +95,9 @@ function LectureDivider(props) {
  * @returns {JSX.Element}
  */
 function LectureTable(props) {
+    const tableOptions = useMemo(()=>({ ...defaultTableContext, ...props }), [defaultTableContext, props]) ;
     return (
-        <TableContext.Provider value={{ ...defaultTableContext, ...props }}>
+        <TableContext.Provider value={tableOptions}>
             <LectureTableContent {...props} />
         </TableContext.Provider>
     )

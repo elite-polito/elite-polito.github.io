@@ -32,5 +32,5 @@ Short link to this page: https://bit.ly/polito-wa1-ah
 | Tuesday  | 11:30-13:00 | Room 4P  | Class         |                   |
 | Thursday | 08:30-10:00 | Room 8I  | Class         | only March 2      |
 | Thursday | 10:00-11:30 | Room 8I  | Class         | only March 2      |
-| Thursday | 08:30-10:00 | Room 8I  | Lab - Group 1 | starts on March 9 |
-| Thursday | 10:00-11:30 | Room 8I  | Lab - Group 2 | starts on March 9 |
+| Thursday | 08:30-10:00 | Room 8I  | Lab - Group 1 (AA-DE) | starts on March 9 |
+| Thursday | 10:00-11:30 | Room 8I  | Lab - Group 2 (DI-HZ) | starts on March 9 |

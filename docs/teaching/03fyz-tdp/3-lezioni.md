@@ -71,12 +71,14 @@ L01b Introduzione a JavaFX (prima parte)
     date="06/03/2023" time="08:30-10:00"
     topic='L04 Introduzione a Git e GitHub' 
     pdf='https://tdp-2023.github.io/materiale/slide/01-02-Git-quickintro.pdf'
+    video='https://youtu.be/QkvwO-iC4OM'
 />
 
 <LectureRow
     date="06/03/2023" time="10:00-11:30"
     topic="L05 Oggetti e Collection (esercizio 'Libretto Voti')"
     github='https://github.com/TdP-2023/LibrettoVoti'
+    video='https://youtu.be/hYl6jJeWR30'
 />
 
 <LectureRow
@@ -91,6 +93,8 @@ L01b Introduzione a JavaFX (prima parte)
     date="08/03/2023" time="13:00-14:30"
     topic="L06 Hash, Map, Set"
     teacher='Giuseppe Averta'
+    pdf={["https://tdp-2023.github.io/materiale/slide/03-03-Sets%26Hash.pdf", "https://tdp-2023.github.io/materiale/slide/03-04-Map.pdf"]}
+    video='https://youtu.be/3vDgzwtQMwE' 
 />
 
 <LectureRow
@@ -107,12 +111,16 @@ L01b Introduzione a JavaFX (prima parte)
     date="13/03/2023" time="08:30-10:00"
     topic='L07 Pattern MVC. (Esercizio Indovina Numero)'
     teacher='Carlo Masone'
+    pdf='https://tdp-2023.github.io/materiale/slide/02-02-javafx-mvc-pattern.pdf'
+    github='https://github.com/TdP-2023/IndovinaNumero'
+    video='https://youtu.be/FY5zcpr9UWo'
 />
 
 <LectureRow
     date="13/03/2023" time="10:00-11:30"
     topic="L08 Oggetti e Collection (esercizio 'Libretto Voti') - segue"
     github='https://github.com/TdP-2023/LibrettoVoti'
+    video='https://youtu.be/RiU9H6Bj0K0'
 />
 
 <LectureRow
@@ -120,12 +128,15 @@ L01b Introduzione a JavaFX (prima parte)
     type="Lab"
     teacher='Giuseppe Averta'
     topic="Lab 2 - Squadra 1"
+    github='https://github.com/TdP-2023/Lab02.git'
 />
 
 <LectureRow
     date="15/03/2023" time="13:00-14:30"
-    topic="L09 Pattern MVC applicato all'esercizio Libretto Voti"
+    topic="L09 Conclusione esercizio Libretto Voti e applicazione Pattern MVC"
     teacher='Fulvio Corno'
+    video='https://youtu.be/y_demw4dQEE'
+    github='https://github.com/TdP-2023/LibrettoVoti'
 />
 
 <LectureRow
@@ -133,8 +144,412 @@ L01b Introduzione a JavaFX (prima parte)
     type="Lab"
     teacher='Giuseppe Averta'
     topic="Lab 2 - Squadra 2"
+    github='https://github.com/TdP-2023/Lab02.git'
 />
 
+<LectureDivider topic="Settimana 04"/>
+
+<LectureRow
+    date="20/03/2023" time="08:30-10:00"
+    topic='L10 Accesso a Database e Libreria JDBC'
+    pdf='https://tdp-2023.github.io/materiale/slide/04-01-jdbc-dao.pdf'
+    video='https://youtu.be/0rE932vQwGE'
+    teacher='Fulvio Corno'
+/>
+
+<LectureRow
+    date="20/03/2023" time="10:00-11:30"
+    topic="L11 Pattern 'DAO'. Esercizio."
+    video='https://youtu.be/WB4YKTCfVjY'
+    github='https://github.com/TdP-2023/LibrettoVoti/tree/database'
+    teacher='Fulvio Corno'
+/>
+
+<LectureRow
+    date="21/03/2023" time="13:00-16:00"
+    type="Lab"
+    teacher='Giuseppe Averta'
+    topic="Lab 3 - Squadra 2"
+    github='https://github.com/TdP-2023/Lab03.git'
+/>
+
+<LectureRow
+    date="22/03/2023" time="13:00-14:30"
+    topic="L12 Esercizio 'Gestione Corsi'"
+    teacher='Giuseppe Averta'
+    video='https://youtu.be/nwnYTiQHqIw'
+    github='https://github.com/TdP-2023/GestoreCorsi.git'
+/>
+
+<LectureRow
+    date="22/03/2023" time="16:00-19:00"
+    type="Lab"
+    teacher='Carlo Masone'
+    topic="Lab 3 - Squadra 1"
+    github='https://github.com/TdP-2023/Lab03.git'
+/>
+
+<LectureDivider topic="Settimana 05"/>
+
+<LectureRow
+    date="27/03/2023" time="08:30-10:00"
+    topic="L13 Esercizio 'Gestione Corsi'"
+    teacher='Carlo Masone'
+    github='https://github.com/TdP-2023/GestoreCorsi.git'
+    video='https://youtu.be/GCROyF8Fhqc'
+/>
+
+<LectureRow
+    date="27/03/2023" time="10:00-11:30"
+    topic="L14 Introduzione alla ricorsione"
+    teacher='Fulvio Corno'
+    pdf='https://tdp-2023.github.io/materiale/slide/05-01-recursion.pdf'
+    github='https://github.com/TdP-2023/Anagrammi'
+    video='https://youtu.be/L3C6PhDyZXM'
+/>
+
+<LectureRow
+    date="28/03/2023" time="13:00-16:00"
+    type="Lab"
+    teacher='Giuseppe Averta'
+    topic="Lab 4 - Squadra 1"
+    github="https://github.com/TdP-2023/Lab04.git"
+/>
+
+<LectureRow
+    date="29/03/2023" time="13:00-14:30"
+    topic="L15 Esempi sulla ricorsione (le N Regine)"
+    github='https://github.com/TdP-2023/Regine'
+    video='https://youtu.be/FtwP96CJxpU'
+    teacher='Fulvio Corno'
+/>
+
+<LectureRow
+    date="29/03/2023" time="16:00-19:00"
+    type="Lab"
+    teacher='Carlo Masone'
+    topic="Lab 4 - Squadra 2"
+    github="https://github.com/TdP-2023/Lab04.git"
+/>
+
+<LectureDivider topic="Settimana 06"/>
+
+<LectureRow
+    date="03/04/2023" time="08:30-10:00"
+    topic="L16 Esempi sulla ricorsione (Voti Nobel)"
+    teacher='Giuseppe Averta'
+    github="https://github.com/TdP-2023/VotiNobel.git"
+    video="https://youtu.be/tJ3x3zs-UKk"
+/>
+
+<LectureRow
+    date="03/04/2023" time="10:00-11:30"
+    topic="L17 Esempi sulla ricorsione (Quadrato Magico)"
+    pdf='https://tdp-2023.github.io/materiale/slide/05-02-magic_square.pdf'
+    video='https://youtu.be/PxFCgbCzbCk'
+    github='https://github.com/TdP-2023/QuadratoMagico'
+    teacher='Fulvio Corno'
+/>
+
+<LectureRow
+    date="04/04/2023" time="13:00-16:00"
+    type="Lab"
+    teacher='Carlo Masone'
+    topic="Lab 5 - Squadra 2"
+    github="https://github.com/TdP-2023/Lab05.git"
+/>
+
+<LectureRow
+    date="05/04/2023" time="13:00-14:30"
+    topic="L18 Gestione delle date in Java e SQL"
+    pdf='https://tdp-2023.github.io/materiale/slide/03-05-JavaDatesTimes.pdf'
+    video='https://youtu.be/ZRXqVda8fM4'
+    teacher='Fulvio Corno'
+/>
+
+<LectureRow
+    date="05/04/2023" time="16:00-19:00"
+    type="Lab"
+    teacher='Carlo Masone'
+    topic="Lab 5 - Squadra 1"
+    github="https://github.com/TdP-2023/Lab05.git"
+/>
+
+<LectureRow variant='info'
+    teacher=''
+    type=''
+    topic='Sospensione didattica (Vacanze di Pasqua)'
+ />
+
+
+<LectureDivider topic="Settimana 07"/>
+
+<LectureRow
+    date="17/04/2023" time="08:30-10:00"
+    topic="L19 Esempi sulla ricorsione"
+    teacher='Carlo Masone'
+    github='https://github.com/TdP-2023/Ruzzle'
+    video='https://youtu.be/IWTqcCOmpKQ'
+/>
+
+<LectureRow
+    date="17/04/2023" time="10:00-11:30"
+    topic="L20 Object-Relational Mapping - Esempi"
+    teacher='Fulvio Corno'
+    github='https://github.com/TdP-datasets/Yelp'
+    video='https://youtu.be/pCeFYf-OBcM'
+/>
+
+<LectureRow
+    date="18/04/2023" time="13:00-16:00"
+    type="Lab"
+    teacher='Carlo Masone'
+    topic="Lab 6 - Squadra 1"
+    github='https://github.com/TdP-2023/Lab06.git'
+/>
+
+<LectureRow
+    date="19/04/2023" time="13:00-14:30"
+    topic="L21 Connection Pooling. Tabelle in JavaFX."
+    pdf='https://tdp-2023.github.io/materiale/slide/02-03-javafx-tables.pdf'
+    teacher='Fulvio Corno'
+/>
+
+<LectureRow
+    date="19/04/2023" time="16:00-19:00"
+    type="Lab"
+    teacher='Giuseppe Averta'
+    topic="Lab 6 - Squadra 2"
+    github='https://github.com/TdP-2023/Lab06.git'
+/>
+
+<LectureDivider topic="Settimana 08"/>
+
+<LectureRow
+    date="24/04/2023" time="08:30-10:00"
+    topic="L22 Introduzione ai grafi ed alla libreria JGraphT"
+    teacher='Fulvio Corno'
+/>
+
+<LectureRow
+    date="24/04/2023" time="10:00-11:30"
+    topic="L23 Costruzione di Grafi (Metro Paris)"
+    teacher='Fulvio Corno'
+/>
+
+<LectureRow variant='info'
+    date="25/04/2023" time="13:00-16:00"
+    type=""
+    teacher=''
+    topic="NO LABORATORIO - Festa della Liberazione"
+/>
+
+<LectureRow
+    date="26/04/2023" time="13:00-14:30"
+    topic="L24 Esercizi Costruzione di Grafi"
+    teacher='Giuseppe Averta'
+/>
+
+<LectureRow
+    date="26/04/2023" time="16:00-19:00"
+    type="Lab"
+    teacher='Carlo Masone'
+    topic="Lab 7 - Squadra 1 + Squadra 2"
+/>
+
+
+<LectureDivider topic="Settimana 09"/>
+
+<LectureRow variant='info'
+    date="01/05/2023" time="08:30-10:00"
+    topic="NO LEZIONE - Festa del Lavoro"
+    type=''
+    teacher=''
+/>
+
+<LectureRow variant='info'
+    date="01/05/2023" time="10:00-11:30"
+    topic="NO LEZIONE - Festa del Lavoro"
+    type=''
+    teacher=''
+/>
+
+<LectureRow
+    date="02/05/2023" time="13:00-16:00"
+    type="Lab"
+    teacher='Giuseppe Averta'
+    topic="Lab 8 - Squadra 1"
+/>
+
+<LectureRow
+    date="03/05/2023" time="13:00-14:30"
+    topic="L25 Visite nei grafi. Algoritmi di Visita in jGraphT."
+    teacher='Fulvio Corno'
+/>
+
+<LectureRow
+    date="03/05/2023" time="16:00-19:00"
+    type="Lab"
+    teacher='Carlo Masone'
+    topic="Lab 8 - Squadra 2"
+/>
+
+<LectureDivider topic="Settimana 10"/>
+
+<LectureRow
+    date="08/05/2023" time="08:30-10:00"
+    topic="L26 Esercizio sui grafi"
+    teacher='Giuseppe Averta'
+/>
+
+<LectureRow
+    date="08/05/2023" time="10:00-11:30"
+    topic="L27 Code prioritarie. Simulatori ad eventi discreti."
+    teacher='Fulvio Corno'
+/>
+
+<LectureRow
+    date="09/05/2023" time="13:00-16:00"
+    type="Lab"
+    teacher='Carlo Masone'
+    topic="Lab 9 - Squadra 2"
+/>
+
+<LectureRow
+    date="10/05/2023" time="13:00-14:30"
+    topic="L28 Simulatori ad eventi discreti - Esercizio."
+    teacher='Fulvio Corno'
+/>
+
+<LectureRow
+    date="10/05/2023" time="16:00-19:00"
+    type="Lab"
+    teacher='Giuseppe Averta'
+    topic="Lab 9 - Squadra 1"
+/>
+
+<LectureDivider topic="Settimana 11"/>
+
+<LectureRow
+    date="15/05/2023" time="08:30-10:00"
+    topic="L29 Esercizio sui grafi"
+    teacher='Carlo Masone'
+/>
+
+<LectureRow
+    date="15/05/2023" time="10:00-11:30"
+    topic="L30 Esercizio sulle simulazioni"
+    teacher='Fulvio Corno'
+/>
+
+<LectureRow
+    date="16/05/2023" time="13:00-16:00"
+    type="Lab"
+    teacher='Giuseppe Averta'
+    topic="Lab 10 - Squadra 1"
+/>
+
+<LectureRow
+    date="17/05/2023" time="13:00-14:30"
+    topic="L31 Esercizio sulle simulazioni"
+    teacher='Fulvio Corno'
+/>
+
+<LectureRow
+    date="17/05/2023" time="16:00-19:00"
+    type="Lab"
+    teacher='Carlo Masone'
+    topic="Lab 10 - Squadra 2"
+/>
+
+<LectureDivider topic="Settimana 12"/>
+
+<LectureRow
+    date="22/05/2023" time="08:30-10:00"
+    topic="L32 Risoluzione tema d'esame"
+    teacher='Giuseppe Averta'
+/>
+
+<LectureRow
+    date="22/05/2023" time="10:00-11:30"
+    topic="L33 Cammini minimi e cicli nei grafi"
+    teacher='Fulvio Corno'
+/>
+
+<LectureRow
+    date="23/05/2023" time="13:00-16:00"
+    type="Lab"
+    teacher='Carlo Masone'
+    topic="Simulazione d'esame n. 1 - Squadra 2"
+/>
+
+<LectureRow
+    date="24/05/2023" time="13:00-14:30"
+    topic="L34 Risoluzione tema d'esame"
+    teacher='Fulvio Corno'
+/>
+
+<LectureRow
+    date="24/05/2023" time="16:00-19:00"
+    type="Lab"
+    teacher='Giuseppe Averta'
+    topic="Simulazione d'esame n. 1 - Squadra 1"
+/>
+
+
+<LectureDivider topic="Settimana 13"/>
+
+<LectureRow
+    date="29/05/2023" time="08:30-10:00"
+    topic="L35 Risoluzione tema d'esame (Simulazione 1)"
+    teacher='Carlo Masone'
+/>
+
+<LectureRow
+    date="29/05/2023" time="10:00-11:30"
+    topic="L36 Risoluzione tema d'esame"
+    teacher='Fulvio Corno'
+/>
+
+<LectureRow
+    date="30/05/2023" time="13:00-16:00"
+    type="Lab"
+    teacher='Giuseppe Averta'
+    topic="Simulazione d'esame n. 2 - Squadra 1"
+/>
+
+<LectureRow
+    date="31/05/2023" time="13:00-14:30"
+    topic="L37 Risoluzione tema d'esame"
+    teacher='Fulvio Corno'
+/>
+
+<LectureRow
+    date="31/05/2023" time="16:00-19:00"
+    type="Lab"
+    teacher='Carlo Masone'
+    topic="Simulazione d'esame n. 2 - Squadra 2"
+/>
+
+<LectureDivider topic="Settimana 14"/>
+
+<LectureRow
+    date="29/05/2023" time="08:30-10:00"
+    topic="L38 Risoluzione tema d'esame (Simulazione 2)"
+    teacher='Carlo Masone'
+/>
+
+<LectureRow
+    date="29/05/2023" time="10:00-11:30"
+    topic="L39 Risoluzione tema d'esame"
+    teacher='Fulvio Corno'
+/>
+
+<LectureRow
+    date="31/05/2023" time="13:00-14:30"
+    topic="L40 Risoluzione tema d'esame"
+    teacher='Fulvio Corno'
+/>
 
 
 </LectureTable>
