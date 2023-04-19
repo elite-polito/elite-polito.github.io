@@ -9,9 +9,9 @@ import {ProjectCard} from '@site/src/components/Projects'
 <ProjectCard
     icon='acm-fca.png'
     title='ACM-FCA'
-    url='https://acm-fca.org/'
-    period='2017-today'>
-    <p>ACM <a href="https://acm-fca.org">Future of Computing Academy</a>&nbsp;(ACM-FCA)</p>
+    url={undefined}
+    period='2017-2021'>
+    <p>ACM Future of Computing Academy (ACM-FCA)</p>
 </ProjectCard>
 <ProjectCard
     icon='cogain.png'
