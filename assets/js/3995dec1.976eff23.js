@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunknew_elite=self.webpackChunknew_elite||[]).push([[6080],{26410:e=>{e.exports=JSON.parse('{"label":"seminar","permalink":"/news/tags/seminar","allTagsPath":"/news/tags","count":1}')}}]);
