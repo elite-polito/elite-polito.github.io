@@ -39,33 +39,9 @@ const config = {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
         },
-        
-        blog: {
-          showReadingTime: true,
-          path: 'news',
-          routeBasePath: 'news',
-          blogTitle: 'News',
-          blogDescription: 'Latest News from the e-Lite research group',
-          blogSidebarTitle: 'Latest News',
-          feedOptions: {
-            type: 'all',
-            copyright: `Copyright © ${new Date().getFullYear()} Politecnico di Torino`,
-            createFeedItems: async (params) => {
-              const {blogPosts, defaultCreateFeedItems, ...rest} = params;
-              return defaultCreateFeedItems({
-                // keep only the 10 most recent news posts in the feed
-                blogPosts: blogPosts.filter((item, index) => index < 10),
-                ...rest,
-              });
-            },
-          },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          // editUrl:
-          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
+        blog: false,
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: [require.resolve('./src/css/custom.css')],
         },
       }),
     ],
@@ -221,6 +197,30 @@ const config = {
 
         ]
       }
+      ],
+      [
+        "./plugins/extended-blog-plugin",
+        {
+          id: "news",
+          showReadingTime: true,
+          path: 'news',
+          routeBasePath: 'news',
+          blogTitle: 'News',
+          blogDescription: 'Latest News from the e-Lite research group',
+          blogSidebarTitle: 'Latest News',
+          feedOptions: {
+            type: 'all',
+            copyright: `Copyright © ${new Date().getFullYear()} Politecnico di Torino`,
+            createFeedItems: async (params) => {
+              const {blogPosts, defaultCreateFeedItems, ...rest} = params;
+              return defaultCreateFeedItems({
+                // keep only the 10 most recent news posts in the feed
+                blogPosts: blogPosts.filter((item, index) => index < 10),
+                ...rest,
+              });
+            },
+          },
+        },
       ],
     ],
     markdown: {

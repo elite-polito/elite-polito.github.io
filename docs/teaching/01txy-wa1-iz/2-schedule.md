@@ -490,4 +490,4 @@ All slides, examples, exercises, and any other material used in the classroom an
 
 ## Video lectures
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLs7DWGc_wmwTGEyUzKpqQDaa5TSnhshmp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLs7DWGc_wmwTGEyUzKpqQDaa5TSnhshmp" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>

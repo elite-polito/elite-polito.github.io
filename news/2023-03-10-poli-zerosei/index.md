@@ -1,6 +1,9 @@
 ---
 authors: [corno]
 tags: [seminar, event]
+description: La Città di Torino partecipa al sistema integrato a livello nazionale dei Poli ZeroSei sui servizi educativi nella fascia prescolare. Nell'ambito di una serie di workshop che anticipano il Forum Nazionale Poli ZeroSei, lunedì 13/03 Fulvio Corno terrà un intervento sul tema delle tecnologie in campo educativo.
+image: ./poli06.png
+image_alt: Banner dei Poli ZeroSei 
 ---
 
 # Partecipazione al Workshop sui "Poli ZeroSei"
@@ -11,9 +14,7 @@ Nell'ambito di una serie di workshop che anticipano il Forum Nazionale Poli Zero
 
 ![ZeroSei banner](poli06.png)
 
-
 <!-- truncate -->
-
 
 
 Per maggiori informazioni:

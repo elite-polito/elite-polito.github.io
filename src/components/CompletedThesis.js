@@ -40,7 +40,7 @@ function CompletedThesis({date, relators, annoacc, creators, title, abstract, ur
             <div><small>{annoacc} &ndash; {cdl[0].replaceAll('+', ' ').toUpperCase()}</small></div>
             <div><small>Advisors: {relators.map(a => a.name.family + ' ' + a.name.given).join(', ')}</small></div>
         </summary>
-        <div>{abstract}</div>
+        <div className='fix-new-lines'>{abstract}</div>
         <hr/>
         <div><a href={uri}>See all details and download the thesis</a></div>
     </Details>

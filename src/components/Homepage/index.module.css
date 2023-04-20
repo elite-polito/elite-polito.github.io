@@ -1,0 +1,18 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  background-color: var(--ifm-color-emphasis-100);
+}
+
+.newsItem {
+  background-color: var(--ifm-background-surface-color);
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+      display: none;
+  }
+}

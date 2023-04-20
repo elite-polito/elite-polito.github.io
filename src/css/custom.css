@@ -24,13 +24,11 @@
     --ifm-color-primary-lighter: #c8472c;
     --ifm-color-primary-lightest: #d5593f;
 
-
-    --ifm-card-background-color: #F8F7F7;;
+    --ifm-card-background-color: #F8F7F7;
 
     --ifm-heading-font-family: "Open Sans", Helvetica, Arial, sans-serif;
     --ifm-heading-font-weight:500;
     --ifm-heading-color:var(--ifm-color-primary-dark);
-    /*--ifm-hero-background-color: red;*/
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -42,11 +40,16 @@
     /*--ifm-color-primary-light: #d3d3d3;*/
     /*--ifm-color-primary-lighter: #dddddd;*/
     /*--ifm-color-primary-lightest: #fafafa;*/
+    --ifm-color-primary: #f85935;
+    --ifm-color-primary-dark: #f74118;
+    --ifm-color-primary-darker: #f63509;
+    --ifm-color-primary-darkest: #cc2b07;
+    --ifm-color-primary-light: #f97152;
+    --ifm-color-primary-lighter: #fa7d61;
+    --ifm-color-primary-lightest: #fba18c;
 
     --ifm-card-background-color: #434343;
     --ifm-heading-color:var(--ifm-color-primary-lightest);
-
-    /*shaded-background:var(--ifm-color-secondary-darkest);*/
 
 }
 
@@ -74,11 +77,6 @@ table tr.danger {
 	background-color: var(--ifm-color-danger-contrast-background) 
 }
 
-/* Alignments and paddings */
-.icon-padding {
-    padding-left: 0.3rem;
-}
-
 /* The following classes are copied from the theme stylesheet. Since the documentation says to "generally avoid targeting them", they are copied here. */
 .text--center {
     text-align: center;
@@ -88,3 +86,17 @@ table tr.danger {
     text-align: left;
 }
 
+/* Alignments and fixes */
+.icon-padding {
+    padding-left: 0.3rem;
+}
+
+.fix-new-lines {
+    white-space:pre-line;
+}
+
+@media screen and (max-width: 996px) {
+    .card {
+        margin-bottom: 1rem;
+    }
+}

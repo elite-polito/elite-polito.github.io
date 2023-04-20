@@ -2,9 +2,8 @@ import React from "react";
 import {useState, useEffect} from "react";
 import fetchJsonp from "fetch-jsonp";
 import Details from '@theme/MDXComponents/Details';
-import MDXContent from '@theme/MDXContent';
 
-export function OfferedThesisList(props) {
+export function OfferedThesisList() {
 
     const [allThesis, setAllThesis] = useState([]);
     useEffect(() => {
@@ -17,10 +16,10 @@ export function OfferedThesisList(props) {
 
     if (allThesis.length) {
         const today = (new Date()).toISOString().substring(0,10);
-    
+        
         return <>
             {allThesis.filter(t => t.exp_date >= today).map(t => (
-                <OfferedThesis key={t.id} {...t} />))}
+                <OfferedThesis key={t.ID} {...t} />))}
         </>;
     } else
         return <p>Loading...</p>
@@ -50,15 +49,13 @@ function OfferedThesis({
             <div><b>{topic}</b></div>
             <div><small>Advisors: {display_advisors.map(a => a.name).join(', ')}</small></div>
             <div><small>Valid until: {exp_date}</small></div>
-            {where == 'A' && <div><small>Thesis with an external company. Advisor: {external_advisors}</small></div>}
+            {where == 'A' && <div><small>Thesis with an external company. {external_advisors ? `Advisor: ${external_advisors}` : ''}</small></div>}
         </summary>
-        <div style={{whiteSpace: "pre-wrap"}}>{description}</div>
+        <div className='fix-new-lines'>{description}</div>
         <hr/>
         {keywords.length > 0 && <div><strong>Keywords: </strong>{keywords.join(', ')}</div>}
-        <div><a href={`https://didattica.polito.it/pls/portal30/sviluppo.tesiv.elenchi?idt=${ID}&lang=EN`}>View the
-            proposal on Portale della Didattica</a></div>
-        <div><a href={`https://didattica.polito.it/pls/portal30/sviluppo.tesiv.candidati?id=${ID}`}>Submit your
-            application</a></div>
+        <div><a href={`https://didattica.polito.it/pls/portal30/sviluppo.tesiv.elenchi?idt=${ID}&lang=EN`}>View the proposal on Portale della Didattica</a></div>
+        <div><a href={`https://didattica.polito.it/pls/portal30/sviluppo.tesiv.candidati?id=${ID}`}>Submit your application</a></div>
     </Details>
 }
 
