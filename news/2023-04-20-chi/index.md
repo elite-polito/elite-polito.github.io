@@ -6,7 +6,7 @@ image: ./chi2023-logo.png
 image_alt: CHI 2023 Logo
 ---
 
-# Partecipation at ACM CHI 2023
+# Participation at ACM CHI 2023
 
 We are happy to announce that we have one full paper and a Late-Breaking Work (LBW) accepted at [ACM CHI 2023](https://chi2023.acm.org), the premier international conference of Human-Computer Interaction. CHI 2023 will be held next week (April 23-28) in Hamburg (Germany) and online. 
 
