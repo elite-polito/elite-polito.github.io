@@ -329,12 +329,14 @@ L01b Introduzione a JavaFX (prima parte)
 <LectureRow
     date="24/04/2023" time="08:30-10:00"
     topic="L22 Introduzione ai grafi ed alla libreria JGraphT"
+    pdf={['https://tdp-2023.github.io/materiale/slide/06-01-intro-graphs.pdf', 'https://tdp-2023.github.io/materiale/slide/06-02-jGraphT-library.pdf']}
     teacher='Fulvio Corno'
 />
 
 <LectureRow
     date="24/04/2023" time="10:00-11:30"
     topic="L23 Costruzione di Grafi (Metro Paris)"
+    github='https://github.com/TdP-2023/Metro-Paris'
     teacher='Fulvio Corno'
 />
 
