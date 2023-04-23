@@ -356,6 +356,7 @@ L01b Introduzione a JavaFX (prima parte)
     type="Lab"
     teacher='Carlo Masone'
     topic="Lab 7 - Squadra 1 + Squadra 2"
+    github='https://github.com/TdP-2023/Lab07'
 />
 
 
