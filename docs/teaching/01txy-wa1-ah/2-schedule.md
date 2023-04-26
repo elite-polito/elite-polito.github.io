@@ -342,6 +342,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     date="27/04/2023" time="08:30-10:00"
     type='Lab'
     topic='Lab 06 - Group 1 (AA-DE)'
+    pdf='https://polito-wa1-aw1-2023.github.io/materials/labs/lab06-forms.pdf'
     teacher='Luca Pezzolla'
 />
 
@@ -349,6 +350,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     date="27/04/2023" time="10:00-11:30"
     type='Lab'
     topic='Lab 06 - Group 2 (DI-HZ)'
+    pdf='https://polito-wa1-aw1-2023.github.io/materials/labs/lab06-forms.pdf'
     teacher='Luca Pezzolla'
 />
 
