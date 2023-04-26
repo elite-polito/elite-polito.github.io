@@ -353,6 +353,7 @@ L01b Introduzione a JavaFX (prima parte)
     date="26/04/2023" time="13:00-14:30"
     topic="L24 Costruzione di Grafi (Metro Paris) - segue"
     github='https://github.com/TdP-2023/Metro-Paris'
+    video='https://youtu.be/4_vfB-jPllU'
     teacher='Giuseppe Averta'
 />
 
