@@ -150,11 +150,11 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 
 <LectureRow
     date="28/04/2023" time="13:00-14:30"
-    pdf='' 
+    pdf='https://elite.polito.it/materiale-benesseredigitale-2023/slide/U04-benessere-digitale-e-lavoro.pdf' 
     video={[]}
     teacher= 'Monica Molino'
     >
-    Ostacoli e opportunità per il benessere digitale (parte I)
+    Benessere Digitale e lavoro (parte I)
 
 </LectureRow>
 
@@ -166,7 +166,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
     video={[]}
     teacher='Monica Molino'
     >
-    Ostacoli e opportunità per il benessere digitale (parte II)
+   Benessere Digitale e lavoro (parte II)
 </LectureRow>
 
 <LectureRow
