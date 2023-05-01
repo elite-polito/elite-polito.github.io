@@ -356,11 +356,6 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     teacher='Luca Pezzolla'
 />
 
-<LectureRow
-    topic='Week 08 exercises'
-    teacher='' type=''
-    nogithub='https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/tree/main/week08' />
-
 <LectureDivider topic='Week 09'/>{/*-------------------------------------------*/}
 
 <LectureRow
@@ -380,6 +375,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 <LectureRow
     date="02/05/2023" time="11:30-13:00"
     topic='L20 React Router'
+    github='https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/blob/main/week09/exercise10.md'
 />
 
 <LectureRow
@@ -399,7 +395,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 <LectureRow
     topic='Week 09 exercises'
     teacher='' type=''
-    nogithub='https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/tree/main/week09' />
+    github='https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/tree/main/week09' />
 
 <LectureDivider topic='Week 10'/>{/*-------------------------------------------*/}
 
