@@ -312,13 +312,16 @@ All slides, examples, exercises, and any other material used in the classroom an
 <LectureRow
     date="02/05/2023" time="08:30-10:00"
 >
-    <a href="https://polito-wa1-aw1-2023.github.io/materials/slide/3-05-Context.pdf" title="React's context">React Context</a>. React Router.
+    <p>
+        <a href="https://polito-wa1-aw1-2023.github.io/materials/slide/3-05-Context.pdf" title="React's context">React Context</a>.
+        <a href="https://polito-wa1-aw1-2023.github.io/materials/slide/3-06-React-Router.pdf" title="React Router">React Router</a>.
+    </p>
 </LectureRow>
 
 <LectureRow
     date="02/05/2023" time="10:00-11:30" type="Exercise"
 >
-    Exercise on React Router
+    <a href="https://github.com/polito-WA1-AW1-2023/wa1-iz-weeks/tree/main/week09">Exercise on React Router</a> (on GitHub)
 </LectureRow>
 
 <LectureRow
