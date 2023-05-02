@@ -311,6 +311,7 @@ All slides, examples, exercises, and any other material used in the classroom an
 
 <LectureRow
     date="02/05/2023" time="08:30-10:00"
+    video={["https://youtu.be/DDDfkmz6CFc","https://youtu.be/qdUyzNBGgbg"]}
 >
     <p>
         <a href="https://polito-wa1-aw1-2023.github.io/materials/slide/3-05-Context.pdf" title="React's context">React Context</a>.<br/>
@@ -320,6 +321,7 @@ All slides, examples, exercises, and any other material used in the classroom an
 
 <LectureRow
     date="02/05/2023" time="10:00-11:30" type="Exercise"
+    video="https://youtu.be/yaBD2WuNExA"
 >
     <a href="https://github.com/polito-WA1-AW1-2023/wa1-iz-weeks/tree/main/week09">Exercise on React Router</a> (on GitHub)
 </LectureRow>
