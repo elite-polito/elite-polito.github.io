@@ -394,6 +394,8 @@ L01b Introduzione a JavaFX (prima parte)
     date="03/05/2023" time="13:00-14:30"
     topic="L25 Visite nei grafi. Algoritmi di Visita in jGraphT."
     teacher='Fulvio Corno'
+    pdf='https://tdp-2023.github.io/materiale/slide/06-03-graphs-visits.pdf'
+    github='https://github.com/TdP-2023/Metro-Paris'
 />
 
 <LectureRow

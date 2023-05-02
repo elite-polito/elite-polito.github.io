@@ -29,9 +29,9 @@ Il materiale didattico è anche disponibile nel repository https://github.com/Td
 - [Ricorsione](https://tdp-2023.github.io/materiale/slide/05-01-recursion.pdf)
   - [Quadrato Magico](https://tdp-2023.github.io/materiale/slide/05-02-magic_square.pdf)
 - Grafi
-  - Introduzione ai grafi
-  - Introduzione alla libreria JGraphT
-  - Visite nei grafi
+  - [Introduzione ai grafi](https://tdp-2023.github.io/materiale/slide/06-01-intro-graphs.pdf)
+  - [Introduzione alla libreria JGraphT](https://tdp-2023.github.io/materiale/slide/06-02-jGraphT-library.pdf)
+  - [Visite nei grafi](https://tdp-2023.github.io/materiale/slide/06-03-graphs-visits.pdf)
   - Cammini minimi
 - Simulazioni ad eventi
 
