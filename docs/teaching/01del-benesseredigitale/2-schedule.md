@@ -121,7 +121,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 <LectureRow
     date="18/04/2023" time="16:00-17:30"
     pdf='https://elite.polito.it/materiale-benesseredigitale-2023/slide/U03-needfinding-analisi.pdf' 
-    video={[]}
+    video={['https://www.polito.it/didattica']}
     teacher= 'Monica Molino'
     >
     Metodi di needfinding (parte III)
@@ -151,7 +151,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 <LectureRow
     date="28/04/2023" time="13:00-14:30"
     pdf='https://elite.polito.it/materiale-benesseredigitale-2023/slide/U04-benessere-digitale-e-lavoro.pdf' 
-    video={[]}
+    video={['https://www.polito.it/didattica']}
     teacher= 'Monica Molino'
     >
     Benessere Digitale e lavoro (parte I)
@@ -171,11 +171,11 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 
 <LectureRow
     date="02/05/2023" time="17:30-19:00"
-    pdf='' 
+    pdf='https://elite.polito.it/materiale-benesseredigitale-2023/slide/U05-differenze-individuali.pdf' 
     video={[]}
     teacher='Monica Molino'
     >
-    Strategie psicologiche per il Benessere Digitale (parte I)
+    Differenze Individuali
 </LectureRow>
 
 <LectureRow
@@ -221,7 +221,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
     video={[]}
     teacher= 'Monica Molino'
     >
-    Strategie psicologiche per il Benessere Digitale (parte II)
+    Strategie psicologiche per il Benessere Digitale
 </LectureRow>
 
 <LectureDivider/>
