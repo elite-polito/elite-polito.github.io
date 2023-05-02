@@ -370,12 +370,14 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     date="02/05/2023" time="10:00-11:30"
     topic='L19 React Context. React Router.'
     pdf={['https://polito-wa1-aw1-2023.github.io/materials/slide/3-05-Context.pdf', 'https://github.com/polito-WA1-AW1-2023/materials/blob/master/slide/3-06-React-Router.pdf']}
+    video='https://youtu.be/buDCSEJ_3fs'
 />
 
 <LectureRow
     date="02/05/2023" time="11:30-13:00"
-    topic='L20 React Router'
+    topic='L20 React Router exercise'
     github='https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/blob/main/week09/exercise10.md'
+    video='https://youtu.be/CyqllQhSKyA'
 />
 
 <LectureRow
