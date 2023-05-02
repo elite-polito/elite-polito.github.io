@@ -23,7 +23,7 @@ $ yarn start
 or
 
 ```
-$ npm run docusaurus start 
+$ npm run docusaurus start
 ```
 
 This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.

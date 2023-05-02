@@ -345,6 +345,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     type='Lab'
     topic='Lab 06 - Group 1 (AA-DE)'
     pdf='https://polito-wa1-aw1-2023.github.io/materials/labs/lab06-forms.pdf'
+    github='https://github.com/polito-WA1-AW1-2023/lab06-forms'
     teacher='Luca Pezzolla'
 />
 
@@ -353,6 +354,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     type='Lab'
     topic='Lab 06 - Group 2 (DI-HZ)'
     pdf='https://polito-wa1-aw1-2023.github.io/materials/labs/lab06-forms.pdf'
+    github='https://github.com/polito-WA1-AW1-2023/lab06-forms'
     teacher='Luca Pezzolla'
 />
 
@@ -385,6 +387,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     type='Lab'
     topic='Lab 07 - Group 1 (AA-DE)'
     teacher='Juan Pablo Sáenz'
+    pdf='https://polito-wa1-aw1-2023.github.io/materials/labs/lab07-routes.pdf'
 />
 
 <LectureRow
@@ -392,6 +395,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     type='Lab'
     topic='Lab 07 - Group 2 (DI-HZ)'
     teacher='Juan Pablo Sáenz'
+    pdf='https://polito-wa1-aw1-2023.github.io/materials/labs/lab07-routes.pdf'
 />
 
 <LectureRow
