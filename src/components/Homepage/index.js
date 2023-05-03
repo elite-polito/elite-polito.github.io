@@ -13,17 +13,17 @@ function NewsCard({postInfo}) {
         <div className="col col--4">
             <div className={clsx('card', styles.newsItem)}>
             {postInfo.assets.image && <div className="card__image">
-                <img
+            <Link to={postInfo.metadata.permalink}><img
                 src={postInfo.assets.image}
                 alt={postInfo.metadata.frontMatter.image_alt}
-                />
+                /></Link>
             </div>}
             <div className="card__body">
                 <h4><Link to={postInfo.metadata.permalink}>{postInfo.metadata.title}</Link></h4>
                 <small>{postInfo.metadata.description}</small>
             </div>
             <div className="card__footer">
-                <Link className="button button--primary button--block" to={postInfo.metadata.permalink}>Read more</Link>
+                <Link className="button button--primary button--outline button--block" to={postInfo.metadata.permalink}>Read more</Link>
             </div>
             </div>
         </div>
