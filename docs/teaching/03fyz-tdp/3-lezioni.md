@@ -396,6 +396,7 @@ L01b Introduzione a JavaFX (prima parte)
     teacher='Fulvio Corno'
     pdf='https://tdp-2023.github.io/materiale/slide/06-03-graphs-visits.pdf'
     github='https://github.com/TdP-2023/Metro-Paris'
+    video='https://youtu.be/P3OBLKE3I_I'
 />
 
 <LectureRow
