@@ -162,17 +162,17 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 
 <LectureRow
     date="02/05/2023" time="16:00-17:30"
-    pdf='' 
-    video={[]}
+    pdf={['https://elite.polito.it/materiale-benesseredigitale-2023/slide/U04b-ancore-di-carriera.pdf', 'https://elite.polito.it/materiale-benesseredigitale-2023/slide/U04c-benessere-digitale-e-industria-4.0.pdf']}
+    video={['https://www.polito.it/didattica']}
     teacher='Monica Molino'
     >
-   Benessere Digitale e lavoro (parte II)
+   Ancore di carriera. Benessere Digitale e industria 4.0 (<a href="https://elite.polito.it/materiale-benesseredigitale-2023/audio/BD-2023-L09b 2023-05-02 16-00-00.m4a">Registrazione audio</a>)
 </LectureRow>
 
 <LectureRow
     date="02/05/2023" time="17:30-19:00"
     pdf='https://elite.polito.it/materiale-benesseredigitale-2023/slide/U05-differenze-individuali.pdf' 
-    video={[]}
+    video={['https://www.polito.it/didattica']}
     teacher='Monica Molino'
     >
     Differenze Individuali
