@@ -180,7 +180,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 
 <LectureRow
     date="05/05/2023" time="13:00-14:30"
-    pdf='' 
+    pdf='https://elite.polito.it/materiale-benesseredigitale-2023/slide/P03-strategie.pdf' 
     video={[]}
     >
     Strategie informatiche per il Benessere Digitale (parte I)
