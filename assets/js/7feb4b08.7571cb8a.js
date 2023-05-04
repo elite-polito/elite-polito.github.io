@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknew_elite=self.webpackChunknew_elite||[]).push([[8218],{6094:e=>{e.exports=JSON.parse('{"label":"paper","permalink":"/news/tags/paper","allTagsPath":"/news/tags","count":5}')}}]);
