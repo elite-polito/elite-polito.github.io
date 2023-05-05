@@ -413,6 +413,7 @@ L01b Introduzione a JavaFX (prima parte)
     date="08/05/2023" time="08:30-10:00"
     topic="L26 Esercizio sui grafi"
     teacher='Giuseppe Averta'
+    github='https://github.com/TdP-2023/ArtsMia'
 />
 
 <LectureRow
