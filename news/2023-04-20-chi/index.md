@@ -5,6 +5,7 @@ description: We are happy to announce that we have one full paper and a Late-Bre
 image: ./chi2023-logo.png
 image_alt: CHI 2023 Logo
 ---
+import chi23Logo from './chi2023-logo.png';
 
 # Participation at ACM CHI 2023
 
@@ -14,7 +15,7 @@ Luigi, Alberto, Juan, and Tommaso will attend the conference in person. If you m
 
 The paper is about **digital wellbeing** and [attention-capture damaging patterns](http://attentioncapture.com), while the LBW presents a first step towards better understanding **creative coders'** needs.
 
-![CHI 2023 Logo](chi2023-logo.png)
+<p className="text--center"><img src={chi23Logo} alt="CHI 2023 Logo"></img></p>
 
 <!-- truncate -->
 
@@ -25,7 +26,7 @@ In the paper, we conducted a systematic literature review for what we call 'atte
 
 Read the paper by following the links at the end of this news, and watch the [10-mins video presentation](https://youtu.be/Bw9m8j3_jJ0) on YouTube (also, below)!
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Bw9m8j3_jJ0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+<p className="text--center"><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Bw9m8j3_jJ0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe></p>
 
 ### The Art of Creating Code-Based Artworks
 The Late-Breaking Work, instead, "_The Art of Creating Code-Based Artworks_" will be discussed on Wednesday, **26 April** at 10:30. This work stems from a collaboration with the [Vrije Universiteit Amsterdam](https://maveme.github.io), and will be presented by all the authors.

@@ -5,6 +5,7 @@ description: The University of Salerno invited Luigi De Russis to have a seminar
 image: ./first-slide.png
 image_alt: Intro slide for the "Development + IoT = ?" talk
 ---
+import flyer from './small-flyer.jpg';
 
 # Seminar at University of Salerno
 
@@ -12,7 +13,8 @@ The University of Salerno invited Luigi De Russis to have a seminar on _developm
 
 The talk, entitled "**Development + IoT = ?**", took place on May 3, 2023, from 14:00 to 16:00 in room F8 in the Computer Science building of the university.
 
-![Seminar flyer](small-flyer.jpg)
+<p className="text--center"><img src={flyer} alt="Seminar flyer"></img></p>
+
 <!-- truncate -->
 
 Around 60 students and professors attended the seminar, which was held interactively. The seminar covered some of the research conducted by the e-Lite group on both _developers' support_ and _end-user development for the IoT_.
