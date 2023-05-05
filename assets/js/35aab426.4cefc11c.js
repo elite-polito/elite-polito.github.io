@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknew_elite=self.webpackChunknew_elite||[]).push([[841],{88160:e=>{e.exports=JSON.parse('{"label":"digital wellbeing","permalink":"/news/tags/digital-wellbeing","allTagsPath":"/news/tags","count":1}')}}]);
