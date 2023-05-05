@@ -15,7 +15,7 @@ On April 26, 2023, Alberto presented the paper "_Defining and Identifying Attent
 
 Our work is motivated by the growing public discussion and research attention on the negative aspects of overusing technology. We all know that digital services like social media and video games often capture us, even against our will. In the paper, we investigated how these digital services can capture our attention so much and, in particular, if this attention-capture can be created by design.
 
-Specifically, we conducted a systematic literature review to shed light on the definition, impacts, and strategies of what we called **Attention-Capture Damaging Patterns (ACDPs)**. Our work resulted in a typology of eleven patterns leading to attentional harm. We also created a website with the typology – [attetentioncapture.com](http://attentioncapture.com/) - to increase the reach of our work among the public and design professionals.
+Specifically, we conducted a systematic literature review to shed light on the definition, impacts, and strategies of what we called **Attention-Capture Damaging Patterns (ACDPs)**. Our work resulted in a typology of eleven patterns leading to attentional harm. We also created a website with the typology – [attentioncapture.com](http://attentioncapture.com/) - to increase the reach of our work among the public and design professionals.
 
 
 Overall, designers use ACDPs in digital interfaces to capture the user's attention and maximize metrics like time spent and interactions. To this end, they exploit users' psychological vulnerabilities and cognitive biases. Unfortunately, using these patterns can result in the user becoming distracted from their intended goals, losing the sense of time and control, and experiencing regret. 
