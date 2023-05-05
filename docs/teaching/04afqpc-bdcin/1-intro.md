@@ -9,16 +9,19 @@ description: "Avvisi e informazioni di base"
 -   Regole d'esame
 -   Pagina ufficiale del corso sul Portale della Didattica
 
-Il corso aderisce al progetto OCSE dal titolo «Fostering and assessing creativity and critical thinking in higher education and teacher education»
+Il corso aderisce al progetto .
 
 ## Docenti
 
 - prof. Laura Farinetti (laura.farinetti@polito.it)
 - ing. Lorenzo Canale (lorenzo.canale@polito.it)
 
+## Orario
+
+
 ## Materiale di studio
 
-Materiale fornito dai docenti: slide, videolezioni, laboratori, esercitazioni e temi d'esame
+Materiale fornito dai docenti: slide, videolezioni, laboratori, esercitazioni e temi d'esame.
 
 ## Testo di riferimento
 
