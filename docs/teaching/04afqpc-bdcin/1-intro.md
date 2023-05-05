@@ -15,3 +15,15 @@ Il corso aderisce al progetto OCSE dal titolo «Fostering and assessing creativi
 
 - prof. Laura Farinetti (laura.farinetti@polito.it)
 - ing. Lorenzo Canale (lorenzo.canale@polito.it)
+
+## Materiale di studio
+
+Materiale fornito dai docenti: slide, videolezioni, laboratori, esercitazioni e temi d'esame
+
+## Testo di riferimento
+
+Atzeni, Ceri, Paraboschi, Torlone, “Basi di dati - Modelli e linguaggi di interrogazione”, 4 ed., McGraw Hill, 2013.
+
+## Modalità di comunicazione con i docenti
+
+Gruppo Telegram:
