@@ -9,7 +9,7 @@ description: "Avvisi e informazioni di base"
 -   Regole d'esame
 -   Pagina ufficiale del corso sul Portale della Didattica
 
-Il corso aderisce al progetto .
+Il corso aderisce al progetto OCSE dal titolo «Fostering and assessing creativity and critical thinking in higher education and teacher education».
 
 ## Docenti
 
