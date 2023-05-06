@@ -23,6 +23,11 @@ $ yarn start
 or
 
 ```
+$ npm start
+```
+
+or
+```
 $ npm run docusaurus start
 ```
 
@@ -32,6 +37,12 @@ This command starts a local development server and opens up a browser window. Mo
 
 ```
 $ yarn build
+```
+
+or
+
+```
+$ npm build
 ```
 
 or
