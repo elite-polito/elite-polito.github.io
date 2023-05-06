@@ -1,0 +1,306 @@
+<?xml version="1.0"?>
+<!--
+Copyright [2009] [Dario Bonino (dario.bonino@polito.it), Politecnico di Torino] 
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0 Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License. 
+-->
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+    xmlns:dogont="http://elite.polito.it/ontologies/dogont.owl#"
+    xmlns="http://elite.polito.it/ontologies/zigbee_sample.owl#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:zigbee="http://elite.polito.it/ontologies/ZigBee_HA.owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xml:base="http://elite.polito.it/ontologies/zigbee_sample.owl">
+  <owl:Ontology rdf:about="">
+    <owl:imports rdf:resource="http://elite.polito.it/ontologies/ZigBee_HA.owl"/>
+  </owl:Ontology>
+  <dogont:LeaveGroupNotification rdf:ID="LeaveGroupNotification_15">
+    <dogont:notificationOf>
+      <dogont:GroupNotificationFunctionality rdf:ID="GroupNotificationFunctionality_13">
+        <dogont:hasNotification>
+          <dogont:JoinGroupNotification rdf:ID="JoinGroupNotification_14">
+            <dogont:continuousNotificationParamName rdf:datatype=
+            "http://www.w3.org/2001/XMLSchema#string">groupID</dogont:continuousNotificationParamName>
+            <dogont:nParams rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >1</dogont:nParams>
+            <dogont:generateCommand>
+              <dogont:StoreGroupCommand rdf:ID="StoreGroupCommand_3">
+                <dogont:commandOf>
+                  <dogont:GroupFunctionality rdf:ID="GroupFunctionality_1">
+                    <dogont:hasCommand rdf:resource="#StoreGroupCommand_3"/>
+                    <dogont:hasCommand>
+                      <dogont:DeleteGroupCommand rdf:ID="DeleteGroupCommand_2">
+                        <dogont:nParams rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+                        >1</dogont:nParams>
+                        <dogont:commandOf rdf:resource="#GroupFunctionality_1"/>
+                      </dogont:DeleteGroupCommand>
+                    </dogont:hasCommand>
+                  </dogont:GroupFunctionality>
+                </dogont:commandOf>
+                <dogont:nParams rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+                >1</dogont:nParams>
+              </dogont:StoreGroupCommand>
+            </dogont:generateCommand>
+            <dogont:notificationOf rdf:resource="#GroupNotificationFunctionality_13"/>
+          </dogont:JoinGroupNotification>
+        </dogont:hasNotification>
+        <dogont:hasNotification rdf:resource="#LeaveGroupNotification_15"/>
+        <dogont:hasNotification>
+          <dogont:GroupNotification rdf:ID="GroupNotification_16">
+            <dogont:notificationOf rdf:resource="#GroupNotificationFunctionality_13"/>
+          </dogont:GroupNotification>
+        </dogont:hasNotification>
+      </dogont:GroupNotificationFunctionality>
+    </dogont:notificationOf>
+    <dogont:generateCommand rdf:resource="#DeleteGroupCommand_2"/>
+    <dogont:nParams rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >1</dogont:nParams>
+    <dogont:continuousNotificationParamName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >groupID</dogont:continuousNotificationParamName>
+  </dogont:LeaveGroupNotification>
+  <dogont:LightIntensityState rdf:ID="LightIntensityState_10">
+    <dogont:hasStateValue>
+      <dogont:LightIntensityStateValue rdf:ID="LightIntensityStateValue_11">
+        <dogont:statevalueOf rdf:resource="#LightIntensityState_10"/>
+        <dogont:realStateValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >100</dogont:realStateValue>
+      </dogont:LightIntensityStateValue>
+    </dogont:hasStateValue>
+  </dogont:LightIntensityState>
+  <dogont:SetCommand rdf:ID="SetCommand_7">
+    <dogont:nParams rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >1</dogont:nParams>
+    <dogont:commandOf>
+      <dogont:LightRegulationFunctionality rdf:ID="LightRegulationFunctionality_6">
+        <dogont:hasCommand>
+          <dogont:StepUpCommand rdf:ID="StepUpCommand_9">
+            <dogont:commandOf rdf:resource="#LightRegulationFunctionality_6"/>
+          </dogont:StepUpCommand>
+        </dogont:hasCommand>
+        <dogont:hasCommand>
+          <dogont:StepDownCommand rdf:ID="StepDownCommand_8">
+            <dogont:commandOf rdf:resource="#LightRegulationFunctionality_6"/>
+          </dogont:StepDownCommand>
+        </dogont:hasCommand>
+        <dogont:hasCommand rdf:resource="#SetCommand_7"/>
+      </dogont:LightRegulationFunctionality>
+    </dogont:commandOf>
+    <dogont:commandParamName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >level</dogont:commandParamName>
+  </dogont:SetCommand>
+  <dogont:SceneNotificationFunctionality rdf:ID="SceneNotificationFunctionality_17">
+    <dogont:hasNotification>
+      <dogont:StoreSceneNotification rdf:ID="StoreSceneNotification_18">
+        <dogont:continuousNotificationParamName rdf:datatype=
+        "http://www.w3.org/2001/XMLSchema#string">sceneID</dogont:continuousNotificationParamName>
+        <dogont:nParams rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</dogont:nParams>
+        <dogont:generateCommand>
+          <dogont:StoreSceneCommand rdf:ID="StoreSceneCommand_2">
+            <dogont:nParams rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >1</dogont:nParams>
+            <dogont:commandOf>
+              <dogont:SceneFunctionality rdf:ID="SceneFunctionality_1">
+                <dogont:hasCommand rdf:resource="#StoreSceneCommand_2"/>
+                <dogont:hasCommand>
+                  <dogont:DeleteSceneCommand rdf:ID="DeleteSceneCommand_3">
+                    <dogont:nParams rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+                    >1</dogont:nParams>
+                    <dogont:commandOf rdf:resource="#SceneFunctionality_1"/>
+                  </dogont:DeleteSceneCommand>
+                </dogont:hasCommand>
+              </dogont:SceneFunctionality>
+            </dogont:commandOf>
+          </dogont:StoreSceneCommand>
+        </dogont:generateCommand>
+        <dogont:notificationOf rdf:resource="#SceneNotificationFunctionality_17"/>
+      </dogont:StoreSceneNotification>
+    </dogont:hasNotification>
+    <dogont:hasNotification>
+      <dogont:DeleteSceneNotification rdf:ID="DeleteSceneNotification_19">
+        <dogont:nParams rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</dogont:nParams>
+        <dogont:continuousNotificationParamName rdf:datatype=
+        "http://www.w3.org/2001/XMLSchema#string">sceneID</dogont:continuousNotificationParamName>
+        <dogont:generateCommand rdf:resource="#DeleteSceneCommand_3"/>
+        <dogont:notificationOf rdf:resource="#SceneNotificationFunctionality_17"/>
+      </dogont:DeleteSceneNotification>
+    </dogont:hasNotification>
+  </dogont:SceneNotificationFunctionality>
+  <dogont:StateChangeNotification rdf:ID="StateChangeNotification_5">
+    <dogont:notificationOf>
+      <dogont:StateChangeNotificationFunctionality rdf:ID="StateChangeNotificationFunctionality_4">
+        <dogont:hasNotification rdf:resource="#StateChangeNotification_5"/>
+      </dogont:StateChangeNotificationFunctionality>
+    </dogont:notificationOf>
+    <dogont:nParams rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >1</dogont:nParams>
+  </dogont:StateChangeNotification>
+  <dogont:LivingRoom rdf:ID="LivingRoom_12">
+    <dogont:contains>
+      <zigbee:ZigBeeDimmableLight rdf:ID="ZigBeeDimmableLight_15">
+        <dogont:hasFunctionality rdf:resource="#LightRegulationFunctionality_6"/>
+        <dogont:hasState rdf:resource="#LightIntensityState_10"/>
+        <dogont:hasFunctionality rdf:resource="#GroupFunctionality_1"/>
+        <zigbee:hasMandatoryClusterServer>
+          <zigbee:Groups rdf:ID="Groups_7">
+            <zigbee:includeFunctionality rdf:resource="#GroupFunctionality_1"/>
+          </zigbee:Groups>
+        </zigbee:hasMandatoryClusterServer>
+        <dogont:hasFunctionality>
+          <dogont:StateChangeNotificationFunctionality rdf:ID="StateChangeNotificationFunctionality_1">
+            <dogont:hasNotification>
+              <dogont:StateChangeNotification rdf:ID="StateChangeNotification_2">
+                <dogont:notificationOf rdf:resource="#StateChangeNotificationFunctionality_1"/>
+                <dogont:nParams rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+                >0</dogont:nParams>
+              </dogont:StateChangeNotification>
+            </dogont:hasNotification>
+          </dogont:StateChangeNotificationFunctionality>
+        </dogont:hasFunctionality>
+        <zigbee:hasMandatoryClusterServer>
+          <zigbee:Scenes rdf:ID="Scenes_6">
+            <zigbee:includeFunctionality rdf:resource="#SceneFunctionality_1"/>
+          </zigbee:Scenes>
+        </zigbee:hasMandatoryClusterServer>
+        <dogont:isIn rdf:resource="#LivingRoom_12"/>
+        <dogont:hasFunctionality rdf:resource="#SceneFunctionality_1"/>
+        <zigbee:hasOptionalClusterClient>
+          <zigbee:OccupancySensing rdf:ID="OccupancySensing_8">
+            <zigbee:includeFunctionality>
+              <dogont:OccupancySensingFunctionality rdf:ID="OccupancySensingFunctionality_9">
+                <dogont:hasCommand>
+                  <dogont:GetOccupancyCommand rdf:ID="GetOccupancyCommand_10">
+                    <dogont:commandOf rdf:resource="#OccupancySensingFunctionality_9"/>
+                  </dogont:GetOccupancyCommand>
+                </dogont:hasCommand>
+              </dogont:OccupancySensingFunctionality>
+            </zigbee:includeFunctionality>
+          </zigbee:OccupancySensing>
+        </zigbee:hasOptionalClusterClient>
+        <zigbee:hasMandatoryClusterServer>
+          <zigbee:LevelControl rdf:ID="LevelControl_5">
+            <zigbee:includeFunctionality rdf:resource="#LightRegulationFunctionality_6"/>
+          </zigbee:LevelControl>
+        </zigbee:hasMandatoryClusterServer>
+        <dogont:hasControl>
+          <zigbee:ZigBeeDimmerSwitch rdf:ID="ZigBeeDimmerSwitch_1">
+            <dogont:hasFunctionality>
+              <dogont:OnOffNotificationFunctionality rdf:ID="OnOffNotificationFunctionality_6">
+                <dogont:hasNotification>
+                  <dogont:OnNotification rdf:ID="OnNotification_7">
+                    <dogont:notificationOf rdf:resource="#OnOffNotificationFunctionality_6"/>
+                    <dogont:generateCommand>
+                      <dogont:OnCommand rdf:ID="OnCommand_4">
+                        <dogont:commandOf>
+                          <dogont:OnOffFunctionality rdf:ID="OnOffFunctionality_3">
+                            <dogont:hasCommand>
+                              <dogont:OffCommand rdf:ID="OffCommand_5">
+                                <dogont:commandOf rdf:resource="#OnOffFunctionality_3"/>
+                              </dogont:OffCommand>
+                            </dogont:hasCommand>
+                            <dogont:hasCommand rdf:resource="#OnCommand_4"/>
+                          </dogont:OnOffFunctionality>
+                        </dogont:commandOf>
+                      </dogont:OnCommand>
+                    </dogont:generateCommand>
+                  </dogont:OnNotification>
+                </dogont:hasNotification>
+                <dogont:hasNotification>
+                  <dogont:OffNotification rdf:ID="OffNotification_8">
+                    <dogont:generateCommand rdf:resource="#OffCommand_5"/>
+                    <dogont:notificationOf rdf:resource="#OnOffNotificationFunctionality_6"/>
+                  </dogont:OffNotification>
+                </dogont:hasNotification>
+              </dogont:OnOffNotificationFunctionality>
+            </dogont:hasFunctionality>
+            <dogont:controlledObject rdf:resource="#ZigBeeDimmableLight_15"/>
+            <dogont:isIn rdf:resource="#LivingRoom_12"/>
+            <zigbee:hasMandatoryClusterClient>
+              <zigbee:Scenes rdf:ID="Scenes_13">
+                <zigbee:includeFunctionality rdf:resource="#SceneNotificationFunctionality_17"/>
+              </zigbee:Scenes>
+            </zigbee:hasMandatoryClusterClient>
+            <zigbee:hasMandatoryClusterClient>
+              <zigbee:Groups rdf:ID="Groups_14">
+                <zigbee:includeFunctionality rdf:resource="#GroupNotificationFunctionality_13"/>
+              </zigbee:Groups>
+            </zigbee:hasMandatoryClusterClient>
+            <zigbee:hasMandatoryClusterClient>
+              <zigbee:OnOff rdf:ID="OnOff_11">
+                <zigbee:includeFunctionality rdf:resource="#OnOffNotificationFunctionality_6"/>
+              </zigbee:OnOff>
+            </zigbee:hasMandatoryClusterClient>
+            <dogont:hasFunctionality rdf:resource="#SceneNotificationFunctionality_17"/>
+            <dogont:hasFunctionality rdf:resource="#GroupNotificationFunctionality_13"/>
+            <zigbee:hasMandatoryClusterClient>
+              <zigbee:LevelControl rdf:ID="LevelControl_12">
+                <zigbee:includeFunctionality>
+                  <dogont:LevelNotificationFunctionality rdf:ID="LevelNotificationFunctionality_9">
+                    <dogont:hasNotification>
+                      <dogont:LevelControlNotification rdf:ID="LevelControlNotification_10">
+                        <dogont:nParams rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+                        >1</dogont:nParams>
+                        <dogont:continuousNotificationParamName
+                         rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >level</dogont:continuousNotificationParamName>
+                        <dogont:notificationOf rdf:resource="#LevelNotificationFunctionality_9"/>
+                        <dogont:generateCommand rdf:resource="#SetCommand_7"/>
+                      </dogont:LevelControlNotification>
+                    </dogont:hasNotification>
+                    <dogont:hasNotification>
+                      <dogont:LevelStepUpNotification rdf:ID="LevelStepUpNotification_11">
+                        <dogont:notificationOf rdf:resource="#LevelNotificationFunctionality_9"/>
+                        <dogont:generateCommand rdf:resource="#StepUpCommand_9"/>
+                      </dogont:LevelStepUpNotification>
+                    </dogont:hasNotification>
+                    <dogont:hasNotification>
+                      <dogont:LevelStepDownNotification rdf:ID="LevelStepDownNotification_12">
+                        <dogont:generateCommand rdf:resource="#StepDownCommand_8"/>
+                        <dogont:notificationOf rdf:resource="#LevelNotificationFunctionality_9"/>
+                      </dogont:LevelStepDownNotification>
+                    </dogont:hasNotification>
+                  </dogont:LevelNotificationFunctionality>
+                </zigbee:includeFunctionality>
+              </zigbee:LevelControl>
+            </zigbee:hasMandatoryClusterClient>
+            <dogont:hasFunctionality rdf:resource="#StateChangeNotificationFunctionality_4"/>
+            <dogont:hasFunctionality rdf:resource="#LevelNotificationFunctionality_9"/>
+            <dogont:hasState>
+              <dogont:LightIntensityState rdf:ID="LightIntensityState_2">
+                <dogont:hasStateValue>
+                  <dogont:LightIntensityStateValue rdf:ID="LightIntensityStateValue_3">
+                    <dogont:realStateValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                    >50</dogont:realStateValue>
+                    <dogont:statevalueOf rdf:resource="#LightIntensityState_2"/>
+                  </dogont:LightIntensityStateValue>
+                </dogont:hasStateValue>
+              </dogont:LightIntensityState>
+            </dogont:hasState>
+          </zigbee:ZigBeeDimmerSwitch>
+        </dogont:hasControl>
+        <dogont:hasFunctionality rdf:resource="#OnOffFunctionality_3"/>
+        <zigbee:hasMandatoryClusterServer>
+          <zigbee:OnOff rdf:ID="OnOff_4">
+            <zigbee:includeFunctionality rdf:resource="#OnOffFunctionality_3"/>
+          </zigbee:OnOff>
+        </zigbee:hasMandatoryClusterServer>
+      </zigbee:ZigBeeDimmableLight>
+    </dogont:contains>
+    <dogont:contains rdf:resource="#ZigBeeDimmerSwitch_1"/>
+    <dogont:hasCeiling>
+      <dogont:Ceiling rdf:ID="Ceiling_13">
+        <dogont:ceilingOf rdf:resource="#LivingRoom_12"/>
+      </dogont:Ceiling>
+    </dogont:hasCeiling>
+    <dogont:hasFloor>
+      <dogont:Floor rdf:ID="Floor_14">
+        <dogont:floorOf rdf:resource="#LivingRoom_12"/>
+      </dogont:Floor>
+    </dogont:hasFloor>
+  </dogont:LivingRoom>
+</rdf:RDF>
+
+<!-- Created with Protege (with OWL Plugin 3.4, Build 130)  http://protege.stanford.edu -->

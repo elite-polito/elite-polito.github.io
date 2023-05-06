@@ -1,0 +1,355 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY dogont "http://elite.polito.it/ontologies/dogont.owl#" >
+    <!ENTITY effects "http://elite.polito.it/ontologies/effects.owl#" >
+]>
+
+
+<rdf:RDF xmlns="http://elite.polito.it/ontologies/effects.owl#"
+     xml:base="http://elite.polito.it/ontologies/effects.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:effects="http://elite.polito.it/ontologies/effects.owl#"
+     xmlns:dogont="http://elite.polito.it/ontologies/dogont.owl#">
+    <owl:Ontology rdf:about="http://elite.polito.it/ontologies/effects.owl">
+        <owl:imports rdf:resource="http://elite.polito.it/ontologies/dogont.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://elite.polito.it/ontologies/effects.owl#effectOf -->
+
+    <owl:ObjectProperty rdf:about="&effects;effectOf">
+        <rdfs:range rdf:resource="&dogont;Controllable"/>
+        <rdfs:domain rdf:resource="&effects;SingleDeviceEffect"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/effects.owl#hasOperand -->
+
+    <owl:ObjectProperty rdf:about="&effects;hasOperand">
+        <rdfs:domain rdf:resource="&effects;EffectOperator"/>
+        <rdfs:range rdf:resource="&effects;Operand"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/effects.owl#hasResult -->
+
+    <owl:ObjectProperty rdf:about="&effects;hasResult">
+        <rdfs:range rdf:resource="&effects;ComplexEffect"/>
+        <rdfs:domain rdf:resource="&effects;EffectOperator"/>
+        <owl:inverseOf rdf:resource="&effects;resultOf"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/effects.owl#operandEffect -->
+
+    <owl:ObjectProperty rdf:about="&effects;operandEffect">
+        <rdfs:range rdf:resource="&effects;Effect"/>
+        <rdfs:domain rdf:resource="&effects;Operand"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/effects.owl#resultOf -->
+
+    <owl:ObjectProperty rdf:about="&effects;resultOf">
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/effects.owl#whenIn -->
+
+    <owl:ObjectProperty rdf:about="&effects;whenIn">
+        <rdfs:range rdf:resource="&dogont;StateValue"/>
+        <rdfs:domain rdf:resource="&effects;SingleDeviceEffect"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topObjectProperty -->
+
+    <owl:ObjectProperty rdf:about="&owl;topObjectProperty"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://elite.polito.it/ontologies/effects.owl#hasOrderedPosition -->
+
+    <owl:DatatypeProperty rdf:about="&effects;hasOrderedPosition">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:domain rdf:resource="&effects;OrderedOperand"/>
+        <rdfs:range rdf:resource="&xsd;int"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/effects.owl#operatorName -->
+
+    <owl:DatatypeProperty rdf:about="&effects;operatorName">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:domain rdf:resource="&effects;EffectOperator"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topDataProperty -->
+
+    <owl:DatatypeProperty rdf:about="&owl;topDataProperty"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://elite.polito.it/ontologies/dogont.owl#Controllable -->
+
+    <owl:Class rdf:about="&dogont;Controllable"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/dogont.owl#StateValue -->
+
+    <owl:Class rdf:about="&dogont;StateValue"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/effects.owl#AlternateOperator -->
+
+    <owl:Class rdf:about="&effects;AlternateOperator">
+        <rdfs:subClassOf rdf:resource="&effects;CommutativeOperator"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&effects;operatorName"/>
+                <owl:hasValue rdf:datatype="&xsd;string">alt</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/effects.owl#AndOperator -->
+
+    <owl:Class rdf:about="&effects;AndOperator">
+        <rdfs:subClassOf rdf:resource="&effects;CommutativeOperator"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&effects;operatorName"/>
+                <owl:hasValue rdf:datatype="&xsd;string">and</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/effects.owl#CommutativeOperator -->
+
+    <owl:Class rdf:about="&effects;CommutativeOperator">
+        <rdfs:subClassOf rdf:resource="&effects;NonUnaryOperator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/effects.owl#ComplementOperator -->
+
+    <owl:Class rdf:about="&effects;ComplementOperator">
+        <rdfs:subClassOf rdf:resource="&effects;UnaryOperator"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&effects;operatorName"/>
+                <owl:hasValue rdf:datatype="&xsd;string">not</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/effects.owl#ComplexEffect -->
+
+    <owl:Class rdf:about="&effects;ComplexEffect">
+        <rdfs:subClassOf rdf:resource="&effects;Effect"/>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/effects.owl#Effect -->
+
+    <owl:Class rdf:about="&effects;Effect"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/effects.owl#EffectOperator -->
+
+    <owl:Class rdf:about="&effects;EffectOperator">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&effects;hasResult"/>
+                <owl:onClass rdf:resource="&effects;ComplexEffect"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&effects;hasOperand"/>
+                <owl:onClass rdf:resource="&effects;Operand"/>
+                <owl:minQualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minQualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/effects.owl#NonUnaryOperator -->
+
+    <owl:Class rdf:about="&effects;NonUnaryOperator">
+        <rdfs:subClassOf rdf:resource="&effects;EffectOperator"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&effects;hasOperand"/>
+                <owl:onClass rdf:resource="&effects;Operand"/>
+                <owl:minQualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">2</owl:minQualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/effects.owl#NotCommutativeOperator -->
+
+    <owl:Class rdf:about="&effects;NotCommutativeOperator">
+        <rdfs:subClassOf rdf:resource="&effects;NonUnaryOperator"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&effects;hasOperand"/>
+                <owl:allValuesFrom rdf:resource="&effects;OrderedOperand"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/effects.owl#Operand -->
+
+    <owl:Class rdf:about="&effects;Operand">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&effects;operandEffect"/>
+                <owl:onClass rdf:resource="&effects;Effect"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/effects.owl#OrOperator -->
+
+    <owl:Class rdf:about="&effects;OrOperator">
+        <rdfs:subClassOf rdf:resource="&effects;CommutativeOperator"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&effects;operatorName"/>
+                <owl:hasValue rdf:datatype="&xsd;string">or</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/effects.owl#OrderedOperand -->
+
+    <owl:Class rdf:about="&effects;OrderedOperand">
+        <rdfs:subClassOf rdf:resource="&effects;Operand"/>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/effects.owl#SingleDeviceEffect -->
+
+    <owl:Class rdf:about="&effects;SingleDeviceEffect">
+        <rdfs:subClassOf rdf:resource="&effects;Effect"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&effects;whenIn"/>
+                <owl:onClass rdf:resource="&dogont;StateValue"/>
+                <owl:minQualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minQualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&effects;effectOf"/>
+                <owl:onClass rdf:resource="&dogont;Controllable"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/effects.owl#UnaryOperator -->
+
+    <owl:Class rdf:about="&effects;UnaryOperator">
+        <rdfs:subClassOf rdf:resource="&effects;EffectOperator"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&effects;hasOperand"/>
+                <owl:onClass rdf:resource="&effects;Operand"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.0.0.1469) http://owlapi.sourceforge.net -->
+

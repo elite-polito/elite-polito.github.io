@@ -1,0 +1,2694 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY swrl "http://www.w3.org/2003/11/swrl#" >
+    <!ENTITY swrlb "http://www.w3.org/2003/11/swrlb#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY dogont "http://elite.polito.it/ontologies/dogont.owl#" >
+    <!ENTITY zigbee "http://elite.polito.it/ontologies/zigbee.owl#" >
+    <!ENTITY protege "http://protege.stanford.edu/plugins/owl/protege#" >
+    <!ENTITY xsp "http://www.owl-ontologies.com/2005/08/07/xsp.owl#" >
+]>
+
+
+<rdf:RDF xmlns="http://elite.polito.it/ontologies/zigbee.owl#"
+     xml:base="http://elite.polito.it/ontologies/zigbee.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:dogont="http://elite.polito.it/ontologies/dogont.owl#"
+     xmlns:zigbee="http://elite.polito.it/ontologies/zigbee.owl#">
+    <owl:Ontology rdf:about="http://elite.polito.it/ontologies/zigbee.owl">
+        <owl:imports rdf:resource="http://elite.polito.it/ontologies/dogont.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#hasMandatoryCluster -->
+
+    <owl:ObjectProperty rdf:about="&zigbee;hasMandatoryCluster">
+        <rdfs:domain rdf:resource="&dogont;ZigBeeComponent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#hasMandatoryClusterClient -->
+
+    <owl:ObjectProperty rdf:about="&zigbee;hasMandatoryClusterClient">
+        <rdfs:subPropertyOf rdf:resource="&zigbee;hasMandatoryCluster"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#hasMandatoryClusterServer -->
+
+    <owl:ObjectProperty rdf:about="&zigbee;hasMandatoryClusterServer">
+        <rdfs:subPropertyOf rdf:resource="&zigbee;hasMandatoryCluster"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#hasOptionalCluster -->
+
+    <owl:ObjectProperty rdf:about="&zigbee;hasOptionalCluster">
+        <rdfs:domain rdf:resource="&dogont;ZigBeeComponent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#hasOptionalClusterClient -->
+
+    <owl:ObjectProperty rdf:about="&zigbee;hasOptionalClusterClient">
+        <rdfs:subPropertyOf rdf:resource="&zigbee;hasOptionalCluster"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#hasOptionalClusterServer -->
+
+    <owl:ObjectProperty rdf:about="&zigbee;hasOptionalClusterServer">
+        <rdfs:subPropertyOf rdf:resource="&zigbee;hasOptionalCluster"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#includeFunctionality -->
+
+    <owl:ObjectProperty rdf:about="&zigbee;includeFunctionality">
+        <rdfs:range rdf:resource="&dogont;Functionality"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#usedByProfile -->
+
+    <owl:ObjectProperty rdf:about="&zigbee;usedByProfile">
+        <rdfs:domain rdf:resource="&zigbee;Cluster"/>
+        <rdfs:range rdf:resource="&zigbee;Profile"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#usesCluster -->
+
+    <owl:ObjectProperty rdf:about="&zigbee;usesCluster">
+        <rdfs:range rdf:resource="&zigbee;Cluster"/>
+        <rdfs:domain rdf:resource="&zigbee;Profile"/>
+        <owl:inverseOf rdf:resource="&zigbee;usedByProfile"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#clusterID -->
+
+    <owl:DatatypeProperty rdf:about="&zigbee;clusterID">
+        <rdfs:domain rdf:resource="&zigbee;Cluster"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://elite.polito.it/ontologies/dogont.owl#ColorDimmableLight -->
+
+    <rdf:Description rdf:about="&dogont;ColorDimmableLight">
+        <owl:equivalentClass rdf:resource="&zigbee;ZigBeeColorDimmableLight"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/dogont.owl#ColorDimmerSwitch -->
+
+    <rdf:Description rdf:about="&dogont;ColorDimmerSwitch">
+        <owl:equivalentClass rdf:resource="&zigbee;ZigBeeColorDimmerSwitch"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/dogont.owl#DimmableLight -->
+
+    <rdf:Description rdf:about="&dogont;DimmableLight">
+        <owl:equivalentClass rdf:resource="&zigbee;ZigBeeDimmableLight"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/dogont.owl#DimmerSwitch -->
+
+    <rdf:Description rdf:about="&dogont;DimmerSwitch">
+        <owl:equivalentClass rdf:resource="&zigbee;ZigBeeDimmerSwitch"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/dogont.owl#FlowSensor -->
+
+    <rdf:Description rdf:about="&dogont;FlowSensor">
+        <owl:equivalentClass rdf:resource="&zigbee;ZigBeeFlowSensor"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/dogont.owl#HeatingAndCoolingUnit -->
+
+    <rdf:Description rdf:about="&dogont;HeatingAndCoolingUnit">
+        <owl:equivalentClass rdf:resource="&zigbee;ZigBeeHeatingAndCoolingUnit"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/dogont.owl#LevelControlSwitch -->
+
+    <rdf:Description rdf:about="&dogont;LevelControlSwitch">
+        <owl:equivalentClass rdf:resource="&zigbee;ZigBeeLevelControlSwitch"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/dogont.owl#LevelControllableOutput -->
+
+    <rdf:Description rdf:about="&dogont;LevelControllableOutput">
+        <owl:equivalentClass rdf:resource="&zigbee;ZigBeeLevelControllableOutput"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/dogont.owl#LightSensor -->
+
+    <rdf:Description rdf:about="&dogont;LightSensor">
+        <owl:equivalentClass rdf:resource="&zigbee;ZigBeeLightSensor"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/dogont.owl#MainsPowerOutlet -->
+
+    <rdf:Description rdf:about="&dogont;MainsPowerOutlet">
+        <owl:equivalentClass rdf:resource="&zigbee;ZigBeeMainsPowerOutlet"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/dogont.owl#MeteringPowerOutlet -->
+
+    <rdf:Description rdf:about="&dogont;MeteringPowerOutlet">
+        <owl:equivalentClass rdf:resource="&zigbee;ZigBeeSmartPlug"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/dogont.owl#OccupancySensor -->
+
+    <rdf:Description rdf:about="&dogont;OccupancySensor">
+        <owl:equivalentClass rdf:resource="&zigbee;ZigBeeOccupancySensor"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/dogont.owl#OnOffLight -->
+
+    <rdf:Description rdf:about="&dogont;OnOffLight">
+        <owl:equivalentClass rdf:resource="&zigbee;ZigBeeOnOffLight"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/dogont.owl#OnOffLightSwitch -->
+
+    <rdf:Description rdf:about="&dogont;OnOffLightSwitch">
+        <owl:equivalentClass rdf:resource="&zigbee;ZigBeeOnOffLightSwitch"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/dogont.owl#OnOffOutput -->
+
+    <rdf:Description rdf:about="&dogont;OnOffOutput">
+        <owl:equivalentClass rdf:resource="&zigbee;ZigBeeOnOffOutput"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/dogont.owl#OnOffSwitch -->
+
+    <rdf:Description rdf:about="&dogont;OnOffSwitch">
+        <owl:equivalentClass rdf:resource="&zigbee;ZigBeeOnOffSwitch"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/dogont.owl#PressureSensor -->
+
+    <rdf:Description rdf:about="&dogont;PressureSensor">
+        <owl:equivalentClass rdf:resource="&zigbee;ZigBeePressureSensor"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/dogont.owl#Pump -->
+
+    <rdf:Description rdf:about="&dogont;Pump">
+        <owl:equivalentClass rdf:resource="&zigbee;ZigBeePump"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/dogont.owl#PumpController -->
+
+    <rdf:Description rdf:about="&dogont;PumpController">
+        <owl:equivalentClass rdf:resource="&zigbee;ZigBeePumpController"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/dogont.owl#RemoteControl -->
+
+    <rdf:Description rdf:about="&dogont;RemoteControl">
+        <owl:equivalentClass rdf:resource="&zigbee;ZigBeeRemoteControl"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/dogont.owl#SceneSelector -->
+
+    <rdf:Description rdf:about="&dogont;SceneSelector">
+        <owl:equivalentClass rdf:resource="&zigbee;ZigBeeSceneSelector"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/dogont.owl#ShadeActuator -->
+
+    <rdf:Description rdf:about="&dogont;ShadeActuator">
+        <owl:equivalentClass rdf:resource="&zigbee;ZigBeeShade"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/dogont.owl#ShadeController -->
+
+    <rdf:Description rdf:about="&dogont;ShadeController">
+        <owl:equivalentClass rdf:resource="&zigbee;ZigBeeShadeController"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/dogont.owl#TemperatureSensor -->
+
+    <rdf:Description rdf:about="&dogont;TemperatureSensor">
+        <owl:equivalentClass rdf:resource="&zigbee;ZigBeeTemperatureSensor"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/dogont.owl#Thermostat -->
+
+    <rdf:Description rdf:about="&dogont;Thermostat">
+        <owl:equivalentClass rdf:resource="&zigbee;ZigBeeThermostat"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#Alarms -->
+
+    <owl:Class rdf:about="&zigbee;Alarms">
+        <rdfs:subClassOf rdf:resource="&zigbee;General_Cluster"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;clusterID"/>
+                <owl:hasValue>0009</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="&xsd;string">Attributes and commands for sending notifications and
+configuring alarm functionality.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#AnalogInput_Basic -->
+
+    <owl:Class rdf:about="&zigbee;AnalogInput_Basic">
+        <rdfs:subClassOf rdf:resource="&zigbee;General_Cluster"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;clusterID"/>
+                <owl:hasValue>000c</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="&xsd;string">An interface for reading the value of an analog
+measurement and accessing various characteristics of
+that measurement.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#AnalogOutput_Basic -->
+
+    <owl:Class rdf:about="&zigbee;AnalogOutput_Basic">
+        <rdfs:subClassOf rdf:resource="&zigbee;General_Cluster"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;clusterID"/>
+                <owl:hasValue>000d</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="&xsd;string">An interface for setting the value of an analog output
+(typically to the environment) and accessing various
+characteristics of that value.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#AnalogValue_Basic -->
+
+    <owl:Class rdf:about="&zigbee;AnalogValue_Basic">
+        <rdfs:subClassOf rdf:resource="&zigbee;General_Cluster"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;clusterID"/>
+                <owl:hasValue>000e</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="&xsd;string">An interface for setting an analog value, typically used
+as a control system parameter, and accessing various
+characteristics of that value.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#ApplianceStatistics -->
+
+    <owl:Class rdf:about="&zigbee;ApplianceStatistics">
+        <rdfs:subClassOf rdf:resource="&zigbee;EnergyAtHome_Cluster"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;clusterID"/>
+                <owl:hasValue>0b03</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#BallastConfiguration -->
+
+    <owl:Class rdf:about="&zigbee;BallastConfiguration">
+        <rdfs:subClassOf rdf:resource="&zigbee;Lighting_Cluster"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;clusterID"/>
+                <owl:hasValue>0301</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="&xsd;string">Attributes and commands for configuring a lighting
+ballast</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#Basic -->
+
+    <owl:Class rdf:about="&zigbee;Basic">
+        <rdfs:subClassOf rdf:resource="&zigbee;General_Cluster"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;clusterID"/>
+                <owl:hasValue>0000</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="&xsd;string">Attributes for determining basic information about a
+device, setting user device information such as location,
+and enabling a device.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#BinaryInput_Basic -->
+
+    <owl:Class rdf:about="&zigbee;BinaryInput_Basic">
+        <rdfs:subClassOf rdf:resource="&zigbee;General_Cluster"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;clusterID"/>
+                <owl:hasValue>000f</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="&xsd;string">An interface for reading the value of a binary
+measurement and accessing various characteristics of
+that measurement.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#BinaryOutput_Basic -->
+
+    <owl:Class rdf:about="&zigbee;BinaryOutput_Basic">
+        <rdfs:subClassOf rdf:resource="&zigbee;General_Cluster"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;clusterID"/>
+                <owl:hasValue>0010</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="&xsd;string">An interface for setting the value of a binary output
+(typically to the environment) and accessing various
+characteristics of that value.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#BinaryValue_Basic -->
+
+    <owl:Class rdf:about="&zigbee;BinaryValue_Basic">
+        <rdfs:subClassOf rdf:resource="&zigbee;General_Cluster"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;clusterID"/>
+                <owl:hasValue>0011</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="&xsd;string">An interface for setting a binary value, typically used as
+a control system parameter, and accessing various
+characteristics of that value.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#Closures_Cluster -->
+
+    <owl:Class rdf:about="&zigbee;Closures_Cluster">
+        <rdfs:subClassOf rdf:resource="&zigbee;Cluster"/>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#Cluster -->
+
+    <owl:Class rdf:about="&zigbee;Cluster"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#ColorControl -->
+
+    <owl:Class rdf:about="&zigbee;ColorControl">
+        <rdfs:subClassOf rdf:resource="&zigbee;Lighting_Cluster"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;clusterID"/>
+                <owl:hasValue>0300</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;includeFunctionality"/>
+                <owl:someValuesFrom rdf:resource="&dogont;ColorControlFunctionality"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="&xsd;string">Attributes and commands for controlling the color
+properties of a color-capable light</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#Commissioning -->
+
+    <owl:Class rdf:about="&zigbee;Commissioning">
+        <rdfs:subClassOf rdf:resource="&zigbee;General_Cluster"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;clusterID"/>
+                <owl:hasValue>0015</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="&xsd;string">Attributes and commands for commissioning and
+managing a ZigBee device.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#DehumidificationControl -->
+
+    <owl:Class rdf:about="&zigbee;DehumidificationControl">
+        <rdfs:subClassOf rdf:resource="&zigbee;HVAC_Cluster"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;clusterID"/>
+                <owl:hasValue>0203</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="&xsd;string">An interface for controlling dehumidification.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#DemandResponseAndLoadControl -->
+
+    <owl:Class rdf:about="&zigbee;DemandResponseAndLoadControl">
+        <rdfs:subClassOf rdf:resource="&zigbee;SmartEnergy_Cluster"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;clusterID"/>
+                <owl:hasValue>0701</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#DeviceTemperatureConfiguration -->
+
+    <owl:Class rdf:about="&zigbee;DeviceTemperatureConfiguration">
+        <rdfs:subClassOf rdf:resource="&zigbee;General_Cluster"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;clusterID"/>
+                <owl:hasValue>0002</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="&xsd;string">Attributes for determining information about a device’s
+internal temperature, and for configuring under/over
+temperature alarms.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#DoorLock -->
+
+    <owl:Class rdf:about="&zigbee;DoorLock">
+        <rdfs:subClassOf rdf:resource="&zigbee;Closures_Cluster"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;clusterID"/>
+                <owl:hasValue>0101</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="&xsd;string">An interface for controlling a door lock.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#EN50523ApplianceControl -->
+
+    <owl:Class rdf:about="&zigbee;EN50523ApplianceControl">
+        <rdfs:subClassOf rdf:resource="&zigbee;EnergyAtHome_Cluster"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;includeFunctionality"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&dogont;CycleTimingControlFunctionality"/>
+                            <rdf:Description rdf:about="&dogont;CycleTimingQueryFunctionality"/>
+                            <rdf:Description rdf:about="&dogont;EnableDisableGasFunctionality"/>
+                            <rdf:Description rdf:about="&dogont;StartStopPauseFunctionality"/>
+                            <rdf:Description rdf:about="&dogont;SuperCoolingFunctionality"/>
+                            <rdf:Description rdf:about="&dogont;SuperFreezingFunctionality"/>
+                            <rdf:Description rdf:about="&dogont;SuperHeatingFunctionality"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;clusterID"/>
+                <owl:hasValue>001b</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#EN50523ApplianceEventsAndAlerts -->
+
+    <owl:Class rdf:about="&zigbee;EN50523ApplianceEventsAndAlerts">
+        <rdfs:subClassOf rdf:resource="&zigbee;EnergyAtHome_Cluster"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;clusterID"/>
+                <owl:hasValue>0b02</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;includeFunctionality"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&dogont;AlertNotificationFunctionality"/>
+                            <rdf:Description rdf:about="&dogont;EventNotificationFunctionality"/>
+                            <rdf:Description rdf:about="&dogont;EventsAndAlertsNotificationFunctionality"/>
+                            <rdf:Description rdf:about="&dogont;EventsAndAlertsQueryFunctionality"/>
+                            <rdf:Description rdf:about="&dogont;MultipleAlertNotificationFunctionality"/>
+                            <rdf:Description rdf:about="&dogont;MultipleEventNotificationFunctionality"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#EN50523ApplianceIdentification -->
+
+    <owl:Class rdf:about="&zigbee;EN50523ApplianceIdentification">
+        <rdfs:subClassOf rdf:resource="&zigbee;EnergyAtHome_Cluster"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;clusterID"/>
+                <owl:hasValue>0b00</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#EnergyAtHome_Cluster -->
+
+    <owl:Class rdf:about="&zigbee;EnergyAtHome_Cluster">
+        <rdfs:subClassOf rdf:resource="&zigbee;Cluster"/>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#EnergyAtHome_Profile -->
+
+    <owl:Class rdf:about="&zigbee;EnergyAtHome_Profile">
+        <rdfs:subClassOf rdf:resource="&zigbee;Profile"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;usesCluster"/>
+                <owl:someValuesFrom rdf:resource="&zigbee;EN50523ApplianceControl"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;usesCluster"/>
+                <owl:someValuesFrom rdf:resource="&zigbee;EN50523ApplianceIdentification"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;usesCluster"/>
+                <owl:someValuesFrom rdf:resource="&zigbee;Identify"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;usesCluster"/>
+                <owl:someValuesFrom rdf:resource="&zigbee;Partition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;usesCluster"/>
+                <owl:someValuesFrom rdf:resource="&zigbee;EN50523ApplianceEventsAndAlerts"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;usesCluster"/>
+                <owl:someValuesFrom rdf:resource="&zigbee;SimpleMetering"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;usesCluster"/>
+                <owl:someValuesFrom rdf:resource="&zigbee;Groups"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;usesCluster"/>
+                <owl:someValuesFrom rdf:resource="&zigbee;TemperatureMeasurement"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;usesCluster"/>
+                <owl:someValuesFrom rdf:resource="&zigbee;OnOff"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;usesCluster"/>
+                <owl:someValuesFrom rdf:resource="&zigbee;PowerProfile"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;usesCluster"/>
+                <owl:someValuesFrom rdf:resource="&zigbee;Price"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;usesCluster"/>
+                <owl:someValuesFrom rdf:resource="&zigbee;Time"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;usesCluster"/>
+                <owl:someValuesFrom rdf:resource="&zigbee;ApplianceStatistics"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;usesCluster"/>
+                <owl:someValuesFrom rdf:resource="&zigbee;Scenes"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;usesCluster"/>
+                <owl:someValuesFrom rdf:resource="&zigbee;MeterIdentification"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;usesCluster"/>
+                <owl:someValuesFrom rdf:resource="&zigbee;Messaging"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;usesCluster"/>
+                <owl:someValuesFrom rdf:resource="&zigbee;Basic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;usesCluster"/>
+                <owl:someValuesFrom rdf:resource="&zigbee;DemandResponseAndLoadControl"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#FanControl -->
+
+    <owl:Class rdf:about="&zigbee;FanControl">
+        <rdfs:subClassOf rdf:resource="&zigbee;HVAC_Cluster"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;clusterID"/>
+                <owl:hasValue>0202</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;includeFunctionality"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&dogont;FanControlFunctionality"/>
+                            <rdf:Description rdf:about="&dogont;FanControlNotificationFunctionality"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="&xsd;string">An interface for controlling a fan in a heating /
+cooling system.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#FlowMeasurement -->
+
+    <owl:Class rdf:about="&zigbee;FlowMeasurement">
+        <rdfs:subClassOf rdf:resource="&zigbee;MeasurementAndSensing_Cluster"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;includeFunctionality"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&dogont;FlowMeasurementNotificationFunctionality"/>
+                            <rdf:Description rdf:about="&dogont;FlowMeasurmentFunctionality"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;clusterID"/>
+                <owl:hasValue>0404</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="&xsd;string">Attributes and commands for configuring the
+measurement of flow, and reporting flow rates.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#General_Cluster -->
+
+    <owl:Class rdf:about="&zigbee;General_Cluster">
+        <rdfs:subClassOf rdf:resource="&zigbee;Cluster"/>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#Groups -->
+
+    <owl:Class rdf:about="&zigbee;Groups">
+        <rdfs:subClassOf rdf:resource="&zigbee;General_Cluster"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;clusterID"/>
+                <owl:hasValue>0004</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;includeFunctionality"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&dogont;GroupFunctionality"/>
+                            <rdf:Description rdf:about="&dogont;GroupNotificationFunctionality"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="&xsd;string">Attributes and commands for group configuration and
+manipulation.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#HVAC_Cluster -->
+
+    <owl:Class rdf:about="&zigbee;HVAC_Cluster">
+        <rdfs:subClassOf rdf:resource="&zigbee;Cluster"/>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#HomeAutomation_Profile -->
+
+    <owl:Class rdf:about="&zigbee;HomeAutomation_Profile">
+        <rdfs:subClassOf rdf:resource="&zigbee;Profile"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;usesCluster"/>
+                <owl:someValuesFrom rdf:resource="&zigbee;Alarms"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;usesCluster"/>
+                <owl:someValuesFrom rdf:resource="&zigbee;FanControl"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;usesCluster"/>
+                <owl:someValuesFrom rdf:resource="&zigbee;Thermostat"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;usesCluster"/>
+                <owl:someValuesFrom rdf:resource="&zigbee;ThermostatUserInterfaceConfiguration"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;usesCluster"/>
+                <owl:someValuesFrom rdf:resource="&zigbee;ColorControl"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;usesCluster"/>
+                <owl:someValuesFrom rdf:resource="&zigbee;FlowMeasurement"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;usesCluster"/>
+                <owl:someValuesFrom rdf:resource="&zigbee;LevelControl"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;usesCluster"/>
+                <owl:someValuesFrom rdf:resource="&zigbee;RelativeHumidityMeasurement"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;usesCluster"/>
+                <owl:someValuesFrom rdf:resource="&zigbee;OnOff"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;usesCluster"/>
+                <owl:someValuesFrom rdf:resource="&zigbee;ShadeConfiguration"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;usesCluster"/>
+                <owl:someValuesFrom rdf:resource="&zigbee;Groups"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;usesCluster"/>
+                <owl:someValuesFrom rdf:resource="&zigbee;TemperatureMeasurement"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;usesCluster"/>
+                <owl:someValuesFrom rdf:resource="&zigbee;DeviceTemperatureConfiguration"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;usesCluster"/>
+                <owl:someValuesFrom rdf:resource="&zigbee;PumpConfigurationAndControl"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;usesCluster"/>
+                <owl:someValuesFrom rdf:resource="&zigbee;OnOffSwitchConfiguration"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;usesCluster"/>
+                <owl:someValuesFrom rdf:resource="&zigbee;OccupancySensing"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;usesCluster"/>
+                <owl:someValuesFrom rdf:resource="&zigbee;PressureMeasurement"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;usesCluster"/>
+                <owl:someValuesFrom rdf:resource="&zigbee;Identify"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;usesCluster"/>
+                <owl:someValuesFrom rdf:resource="&zigbee;IlluminanceLevelSensing"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;usesCluster"/>
+                <owl:someValuesFrom rdf:resource="&zigbee;IAS_Zone"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;usesCluster"/>
+                <owl:someValuesFrom rdf:resource="&zigbee;IAS_ACE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;usesCluster"/>
+                <owl:someValuesFrom rdf:resource="&zigbee;Scenes"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;usesCluster"/>
+                <owl:someValuesFrom rdf:resource="&zigbee;IAS_WD"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;usesCluster"/>
+                <owl:someValuesFrom rdf:resource="&zigbee;Basic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;usesCluster"/>
+                <owl:someValuesFrom rdf:resource="&zigbee;Messaging"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;usesCluster"/>
+                <owl:someValuesFrom rdf:resource="&zigbee;PowerConfiguration"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;usesCluster"/>
+                <owl:someValuesFrom rdf:resource="&zigbee;IlluminanceMeasurement"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#IAS_ACE -->
+
+    <owl:Class rdf:about="&zigbee;IAS_ACE">
+        <rdfs:subClassOf rdf:resource="&zigbee;SecurityAndSafety_Cluster"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;clusterID"/>
+                <owl:hasValue>0501</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="&xsd;string">Attributes and commands for IAS Ancillary Control
+Equipment.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#IAS_WD -->
+
+    <owl:Class rdf:about="&zigbee;IAS_WD">
+        <rdfs:subClassOf rdf:resource="&zigbee;SecurityAndSafety_Cluster"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;clusterID"/>
+                <owl:hasValue>0502</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="&xsd;string">Attributes and commands for IAS Warning Devices.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#IAS_Zone -->
+
+    <owl:Class rdf:about="&zigbee;IAS_Zone">
+        <rdfs:subClassOf rdf:resource="&zigbee;SecurityAndSafety_Cluster"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;clusterID"/>
+                <owl:hasValue>0500</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="&xsd;string">Attributes and commands for IAS security zone devices.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#Identify -->
+
+    <owl:Class rdf:about="&zigbee;Identify">
+        <rdfs:subClassOf rdf:resource="&zigbee;General_Cluster"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;clusterID"/>
+                <owl:hasValue>0003</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;includeFunctionality"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&dogont;IdentificationFunctionality"/>
+                            <rdf:Description rdf:about="&dogont;IdentificationNotificationFunctionality"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="&xsd;string">Attributes and commands for putting a device into
+Identification mode (e.g. flashing a light)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#IlluminanceLevelSensing -->
+
+    <owl:Class rdf:about="&zigbee;IlluminanceLevelSensing">
+        <rdfs:subClassOf rdf:resource="&zigbee;MeasurementAndSensing_Cluster"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;includeFunctionality"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&dogont;ColorControlFunctionality"/>
+                            <rdf:Description rdf:about="&dogont;LevelNotificationFunctionality"/>
+                            <rdf:Description rdf:about="&dogont;LightRegulationFunctionality"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;clusterID"/>
+                <owl:hasValue>0401</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="&xsd;string">Attributes and commands for configuring the
+sensing of illuminance levels, and reporting whether
+illuminance is above, below, or on target.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#IlluminanceMeasurement -->
+
+    <owl:Class rdf:about="&zigbee;IlluminanceMeasurement">
+        <rdfs:subClassOf rdf:resource="&zigbee;MeasurementAndSensing_Cluster"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;clusterID"/>
+                <owl:hasValue>0400</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;includeFunctionality"/>
+                <owl:someValuesFrom rdf:resource="&dogont;LightSensingFunctionality"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="&xsd;string">Attributes and commands for configuring the
+measurement of illuminance, and reporting
+illuminance measurements.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#LevelControl -->
+
+    <owl:Class rdf:about="&zigbee;LevelControl">
+        <rdfs:subClassOf rdf:resource="&zigbee;General_Cluster"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;includeFunctionality"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&dogont;LevelControlFunctionality"/>
+                            <rdf:Description rdf:about="&dogont;LevelNotificationFunctionality"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;clusterID"/>
+                <owl:hasValue>0008</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="&xsd;string">Attributes and commands for controlling devices that
+can be set to a level between fully ‘On’ and fully ‘Off’.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#Lighting_Cluster -->
+
+    <owl:Class rdf:about="&zigbee;Lighting_Cluster">
+        <rdfs:subClassOf rdf:resource="&zigbee;Cluster"/>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#MeasurementAndSensing_Cluster -->
+
+    <owl:Class rdf:about="&zigbee;MeasurementAndSensing_Cluster">
+        <rdfs:subClassOf rdf:resource="&zigbee;Cluster"/>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#Messaging -->
+
+    <owl:Class rdf:about="&zigbee;Messaging">
+        <rdfs:subClassOf rdf:resource="&zigbee;SmartEnergy_Cluster"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;clusterID"/>
+                <owl:hasValue>0703</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#MeterIdentification -->
+
+    <owl:Class rdf:about="&zigbee;MeterIdentification">
+        <rdfs:subClassOf rdf:resource="&zigbee;EnergyAtHome_Cluster"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;clusterID"/>
+                <owl:hasValue>0b01</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#Metering -->
+
+    <owl:Class rdf:about="&zigbee;Metering">
+        <owl:equivalentClass rdf:resource="&zigbee;SimpleMetering"/>
+        <rdfs:subClassOf rdf:resource="&zigbee;SmartEnergy_Cluster"/>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#MultistateInput_Basic -->
+
+    <owl:Class rdf:about="&zigbee;MultistateInput_Basic">
+        <rdfs:subClassOf rdf:resource="&zigbee;General_Cluster"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;clusterID"/>
+                <owl:hasValue>0012</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="&xsd;string">An interface for reading the value of a multistate
+measurement and accessing various characteristics of
+that measurement.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#MultistateOutput_Basic -->
+
+    <owl:Class rdf:about="&zigbee;MultistateOutput_Basic">
+        <rdfs:subClassOf rdf:resource="&zigbee;General_Cluster"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;clusterID"/>
+                <owl:hasValue>0013</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="&xsd;string">An interface for setting the value of a multistate output
+(typically to the environment) and accessing various
+characteristics of that value.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#MultistateValue_Basic -->
+
+    <owl:Class rdf:about="&zigbee;MultistateValue_Basic">
+        <rdfs:subClassOf rdf:resource="&zigbee;General_Cluster"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;clusterID"/>
+                <owl:hasValue>0014</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="&xsd;string">An interface for setting a multistate value, typically used
+as a control system parameter, and accessing various
+characteristics of that value.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#OccupancySensing -->
+
+    <owl:Class rdf:about="&zigbee;OccupancySensing">
+        <rdfs:subClassOf rdf:resource="&zigbee;MeasurementAndSensing_Cluster"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;clusterID"/>
+                <owl:hasValue>0406</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="&xsd;string">Attributes and commands for configuring occupancy
+sensing, and reporting occupancy status.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#OnOff -->
+
+    <owl:Class rdf:about="&zigbee;OnOff">
+        <rdfs:subClassOf rdf:resource="&zigbee;General_Cluster"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;includeFunctionality"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&dogont;OnOffFunctionality"/>
+                            <rdf:Description rdf:about="&dogont;OnOffNotificationFunctionality"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;clusterID"/>
+                <owl:hasValue>0006</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="&xsd;string">Attributes and commands for switching devices between
+‘On’ and ‘Off’ states.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#OnOffSwitchConfiguration -->
+
+    <owl:Class rdf:about="&zigbee;OnOffSwitchConfiguration">
+        <rdfs:subClassOf rdf:resource="&zigbee;General_Cluster"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;clusterID"/>
+                <owl:hasValue>0007</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="&xsd;string">Attributes and commands for configuring On/Off
+switching devices</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#Partition -->
+
+    <owl:Class rdf:about="&zigbee;Partition">
+        <rdfs:subClassOf rdf:resource="&zigbee;General_Cluster"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;clusterID"/>
+                <owl:hasValue>0016</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#PowerConfiguration -->
+
+    <owl:Class rdf:about="&zigbee;PowerConfiguration">
+        <rdfs:subClassOf rdf:resource="&zigbee;General_Cluster"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;clusterID"/>
+                <owl:hasValue>0001</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="&xsd;string">Attributes for determining more detailed information
+about a device’s power source(s), and for configuring
+under/over voltage alarms.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#PowerProfile -->
+
+    <owl:Class rdf:about="&zigbee;PowerProfile">
+        <rdfs:subClassOf rdf:resource="&zigbee;EnergyAtHome_Cluster"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;clusterID"/>
+                <owl:hasValue>001a</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#Prepayment -->
+
+    <owl:Class rdf:about="&zigbee;Prepayment">
+        <rdfs:subClassOf rdf:resource="&zigbee;SmartEnergy_Cluster"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;clusterID"/>
+                <owl:hasValue>0705</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#PressureMeasurement -->
+
+    <owl:Class rdf:about="&zigbee;PressureMeasurement">
+        <rdfs:subClassOf rdf:resource="&zigbee;MeasurementAndSensing_Cluster"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;includeFunctionality"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&dogont;PressureMeasurementFunctionality"/>
+                            <rdf:Description rdf:about="&dogont;PressureMeasurementNotificationFunctionality"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;clusterID"/>
+                <owl:hasValue>0403</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="&xsd;string">Attributes and commands for configuring the
+measurement of pressure, and reporting pressure
+measurements.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#Price -->
+
+    <owl:Class rdf:about="&zigbee;Price">
+        <rdfs:subClassOf rdf:resource="&zigbee;SmartEnergy_Cluster"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;clusterID"/>
+                <owl:hasValue>0700</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#Profile -->
+
+    <owl:Class rdf:about="&zigbee;Profile"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#PumpConfigurationAndControl -->
+
+    <owl:Class rdf:about="&zigbee;PumpConfigurationAndControl">
+        <rdfs:subClassOf rdf:resource="&zigbee;HVAC_Cluster"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;clusterID"/>
+                <owl:hasValue>0200</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="&xsd;string">An interface for configuring and controlling pumps.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#RSSI_Location -->
+
+    <owl:Class rdf:about="&zigbee;RSSI_Location">
+        <rdfs:subClassOf rdf:resource="&zigbee;General_Cluster"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;clusterID"/>
+                <owl:hasValue>000b</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="&xsd;string">Attributes and commands that provide a means for
+exchanging location information and channel parameters
+among devices.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#RelativeHumidityMeasurement -->
+
+    <owl:Class rdf:about="&zigbee;RelativeHumidityMeasurement">
+        <rdfs:subClassOf rdf:resource="&zigbee;MeasurementAndSensing_Cluster"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;includeFunctionality"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&dogont;HumidityMeasurementFunctionality"/>
+                            <rdf:Description rdf:about="&dogont;HumidityMeasurementNotificationFunctionality"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;clusterID"/>
+                <owl:hasValue>0405</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="&xsd;string">Attributes and commands for configuring the
+measurement of relative humidity, and reporting
+relative humidity measurements.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#Scenes -->
+
+    <owl:Class rdf:about="&zigbee;Scenes">
+        <rdfs:subClassOf rdf:resource="&zigbee;General_Cluster"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;includeFunctionality"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&dogont;SceneFunctionality"/>
+                            <rdf:Description rdf:about="&dogont;SceneNotificationFunctionality"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;clusterID"/>
+                <owl:hasValue>0005</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="&xsd;string">Attributes and commands for scene configuration and
+manipulation.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#SecurityAndSafety_Cluster -->
+
+    <owl:Class rdf:about="&zigbee;SecurityAndSafety_Cluster">
+        <rdfs:subClassOf rdf:resource="&zigbee;Cluster"/>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#ShadeConfiguration -->
+
+    <owl:Class rdf:about="&zigbee;ShadeConfiguration">
+        <rdfs:subClassOf rdf:resource="&zigbee;Closures_Cluster"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;clusterID"/>
+                <owl:hasValue>0100</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="&xsd;string">Attributes and commands for configuring a shade.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#SimpleMetering -->
+
+    <owl:Class rdf:about="&zigbee;SimpleMetering">
+        <rdfs:subClassOf rdf:resource="&zigbee;SmartEnergy_Cluster"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;clusterID"/>
+                <owl:hasValue>0702</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#SmartEnergyTunneling_Complex_Metering -->
+
+    <owl:Class rdf:about="&zigbee;SmartEnergyTunneling_Complex_Metering">
+        <rdfs:subClassOf rdf:resource="&zigbee;SmartEnergy_Cluster"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;clusterID"/>
+                <owl:hasValue>0704</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#SmartEnergy_Cluster -->
+
+    <owl:Class rdf:about="&zigbee;SmartEnergy_Cluster">
+        <rdfs:subClassOf rdf:resource="&zigbee;Cluster"/>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#TemperatureMeasurement -->
+
+    <owl:Class rdf:about="&zigbee;TemperatureMeasurement">
+        <rdfs:subClassOf rdf:resource="&zigbee;MeasurementAndSensing_Cluster"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;includeFunctionality"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&dogont;TemperatureMeasurementFunctionality"/>
+                            <rdf:Description rdf:about="&dogont;TemperatureMeasurementNotificationFunctionality"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;clusterID"/>
+                <owl:hasValue>0402</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="&xsd;string">Attributes and commands for configuring the
+measurement of temperature, and reporting
+temperature measurements.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#Thermostat -->
+
+    <owl:Class rdf:about="&zigbee;Thermostat">
+        <rdfs:subClassOf rdf:resource="&zigbee;HVAC_Cluster"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;includeFunctionality"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&dogont;ThermostatControlFunctionality"/>
+                            <rdf:Description rdf:about="&dogont;ThermostatNotificationFunctionality"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;clusterID"/>
+                <owl:hasValue>0201</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="&xsd;string">An interface for configuring and controlling the
+functionality of a thermostat.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#ThermostatUserInterfaceConfiguration -->
+
+    <owl:Class rdf:about="&zigbee;ThermostatUserInterfaceConfiguration">
+        <rdfs:subClassOf rdf:resource="&zigbee;HVAC_Cluster"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;clusterID"/>
+                <owl:hasValue>0204</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="&xsd;string">An interface for configuring the user interface of a
+thermostat (which may be remote from the
+thermostat).</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#Time -->
+
+    <owl:Class rdf:about="&zigbee;Time">
+        <rdfs:subClassOf rdf:resource="&zigbee;General_Cluster"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;clusterID"/>
+                <owl:hasValue>000A</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="&xsd;string">Attributes and commands that provide a basic interface
+to a real-time clock.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#ZigBeeColorDimmableLight -->
+
+    <owl:Class rdf:about="&zigbee;ZigBeeColorDimmableLight">
+        <rdfs:subClassOf rdf:resource="&dogont;ZigBeeComponent"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;hasOptionalClusterClient"/>
+                <owl:allValuesFrom rdf:resource="&zigbee;OccupancySensing"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;hasMandatoryClusterServer"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&zigbee;ColorControl"/>
+                            <rdf:Description rdf:about="&zigbee;Groups"/>
+                            <rdf:Description rdf:about="&zigbee;LevelControl"/>
+                            <rdf:Description rdf:about="&zigbee;OnOff"/>
+                            <rdf:Description rdf:about="&zigbee;Scenes"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#ZigBeeColorDimmerSwitch -->
+
+    <owl:Class rdf:about="&zigbee;ZigBeeColorDimmerSwitch">
+        <rdfs:subClassOf rdf:resource="&dogont;ZigBeeComponent"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;hasMandatoryClusterClient"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&zigbee;Groups"/>
+                            <rdf:Description rdf:about="&zigbee;Identify"/>
+                            <rdf:Description rdf:about="&zigbee;LevelControl"/>
+                            <rdf:Description rdf:about="&zigbee;OnOff"/>
+                            <rdf:Description rdf:about="&zigbee;Scenes"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;hasMandatoryClusterServer"/>
+                <owl:allValuesFrom rdf:resource="&zigbee;OnOffSwitchConfiguration"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#ZigBeeDimmableLight -->
+
+    <owl:Class rdf:about="&zigbee;ZigBeeDimmableLight">
+        <rdfs:subClassOf rdf:resource="&dogont;ZigBeeComponent"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;hasMandatoryClusterServer"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&zigbee;Groups"/>
+                            <rdf:Description rdf:about="&zigbee;LevelControl"/>
+                            <rdf:Description rdf:about="&zigbee;OnOff"/>
+                            <rdf:Description rdf:about="&zigbee;Scenes"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;hasOptionalClusterClient"/>
+                <owl:allValuesFrom rdf:resource="&zigbee;OccupancySensing"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#ZigBeeDimmerSwitch -->
+
+    <owl:Class rdf:about="&zigbee;ZigBeeDimmerSwitch">
+        <rdfs:subClassOf rdf:resource="&dogont;ZigBeeComponent"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;hasMandatoryClusterClient"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&zigbee;Groups"/>
+                            <rdf:Description rdf:about="&zigbee;LevelControl"/>
+                            <rdf:Description rdf:about="&zigbee;OnOff"/>
+                            <rdf:Description rdf:about="&zigbee;Scenes"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;hasMandatoryClusterServer"/>
+                <owl:allValuesFrom rdf:resource="&zigbee;OnOffSwitchConfiguration"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#ZigBeeEnergyManagementSystem -->
+
+    <owl:Class rdf:about="&zigbee;ZigBeeEnergyManagementSystem">
+        <rdfs:subClassOf rdf:resource="&dogont;ZigBeeComponent"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;hasMandatoryClusterClient"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&zigbee;ApplianceStatistics"/>
+                            <rdf:Description rdf:about="&zigbee;EN50523ApplianceControl"/>
+                            <rdf:Description rdf:about="&zigbee;EN50523ApplianceEventsAndAlerts"/>
+                            <rdf:Description rdf:about="&zigbee;EN50523ApplianceIdentification"/>
+                            <rdf:Description rdf:about="&zigbee;MeterIdentification"/>
+                            <rdf:Description rdf:about="&zigbee;Metering"/>
+                            <rdf:Description rdf:about="&zigbee;PowerProfile"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;hasMandatoryClusterServer"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&zigbee;Basic"/>
+                            <rdf:Description rdf:about="&zigbee;Identify"/>
+                            <rdf:Description rdf:about="&zigbee;Time"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;hasOptionalClusterClient"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&zigbee;Messaging"/>
+                            <rdf:Description rdf:about="&zigbee;MeterIdentification"/>
+                            <rdf:Description rdf:about="&zigbee;Prepayment"/>
+                            <rdf:Description rdf:about="&zigbee;Price"/>
+                            <rdf:Description rdf:about="&zigbee;Time"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;hasOptionalClusterServer"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&zigbee;Metering"/>
+                            <rdf:Description rdf:about="&zigbee;Price"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#ZigBeeFlowSensor -->
+
+    <owl:Class rdf:about="&zigbee;ZigBeeFlowSensor">
+        <rdfs:subClassOf rdf:resource="&dogont;ZigBeeComponent"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;hasMandatoryClusterServer"/>
+                <owl:allValuesFrom rdf:resource="&zigbee;FlowMeasurement"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;hasOptionalClusterClient"/>
+                <owl:allValuesFrom rdf:resource="&zigbee;Groups"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#ZigBeeHeatingAndCoolingUnit -->
+
+    <owl:Class rdf:about="&zigbee;ZigBeeHeatingAndCoolingUnit">
+        <rdfs:subClassOf rdf:resource="&dogont;ZigBeeComponent"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;hasMandatoryClusterServer"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&zigbee;Groups"/>
+                            <rdf:Description rdf:about="&zigbee;OnOff"/>
+                            <rdf:Description rdf:about="&zigbee;Scenes"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;hasOptionalClusterServer"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&zigbee;FanControl"/>
+                            <rdf:Description rdf:about="&zigbee;LevelControl"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;hasMandatoryClusterClient"/>
+                <owl:allValuesFrom rdf:resource="&zigbee;Thermostat"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#ZigBeeLevelControlSwitch -->
+
+    <owl:Class rdf:about="&zigbee;ZigBeeLevelControlSwitch">
+        <rdfs:subClassOf rdf:resource="&dogont;ZigBeeComponent"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;hasMandatoryClusterClient"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&zigbee;Groups"/>
+                            <rdf:Description rdf:about="&zigbee;Identify"/>
+                            <rdf:Description rdf:about="&zigbee;LevelControl"/>
+                            <rdf:Description rdf:about="&zigbee;OnOff"/>
+                            <rdf:Description rdf:about="&zigbee;Scenes"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;hasMandatoryClusterServer"/>
+                <owl:allValuesFrom rdf:resource="&zigbee;OnOffSwitchConfiguration"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#ZigBeeLevelControllableOutput -->
+
+    <owl:Class rdf:about="&zigbee;ZigBeeLevelControllableOutput">
+        <rdfs:subClassOf rdf:resource="&dogont;ZigBeeComponent"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;hasMandatoryClusterServer"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&zigbee;Groups"/>
+                            <rdf:Description rdf:about="&zigbee;LevelControl"/>
+                            <rdf:Description rdf:about="&zigbee;OnOff"/>
+                            <rdf:Description rdf:about="&zigbee;Scenes"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#ZigBeeLightSensor -->
+
+    <owl:Class rdf:about="&zigbee;ZigBeeLightSensor">
+        <rdfs:subClassOf rdf:resource="&dogont;ZigBeeComponent"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;hasOptionalClusterClient"/>
+                <owl:allValuesFrom rdf:resource="&zigbee;Groups"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;hasMandatoryClusterServer"/>
+                <owl:allValuesFrom rdf:resource="&zigbee;IlluminanceMeasurement"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#ZigBeeMainsPowerOutlet -->
+
+    <owl:Class rdf:about="&zigbee;ZigBeeMainsPowerOutlet">
+        <rdfs:subClassOf rdf:resource="&dogont;ZigBeeComponent"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;hasMandatoryClusterServer"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&zigbee;Groups"/>
+                            <rdf:Description rdf:about="&zigbee;OnOff"/>
+                            <rdf:Description rdf:about="&zigbee;Scenes"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#ZigBeeMeteringInterface -->
+
+    <owl:Class rdf:about="&zigbee;ZigBeeMeteringInterface">
+        <owl:equivalentClass rdf:resource="&zigbee;ZigBeeSmartInfo"/>
+        <rdfs:subClassOf rdf:resource="&dogont;ZigBeeComponent"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;hasOptionalClusterServer"/>
+                <owl:allValuesFrom rdf:resource="&zigbee;Price"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;hasOptionalClusterClient"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&zigbee;Messaging"/>
+                            <rdf:Description rdf:about="&zigbee;Prepayment"/>
+                            <rdf:Description rdf:about="&zigbee;Price"/>
+                            <rdf:Description rdf:about="&zigbee;Time"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;hasMandatoryClusterServer"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&zigbee;Basic"/>
+                            <rdf:Description rdf:about="&zigbee;Identify"/>
+                            <rdf:Description rdf:about="&zigbee;MeterIdentification"/>
+                            <rdf:Description rdf:about="&zigbee;Metering"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#ZigBeeOccupancySensor -->
+
+    <owl:Class rdf:about="&zigbee;ZigBeeOccupancySensor">
+        <rdfs:subClassOf rdf:resource="&dogont;ZigBeeComponent"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;hasMandatoryClusterServer"/>
+                <owl:allValuesFrom rdf:resource="&zigbee;OccupancySensing"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;hasOptionalClusterClient"/>
+                <owl:allValuesFrom rdf:resource="&zigbee;Groups"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#ZigBeeOnOffLight -->
+
+    <owl:Class rdf:about="&zigbee;ZigBeeOnOffLight">
+        <rdfs:subClassOf rdf:resource="&dogont;ZigBeeComponent"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;hasMandatoryClusterServer"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&zigbee;Groups"/>
+                            <rdf:Description rdf:about="&zigbee;OnOff"/>
+                            <rdf:Description rdf:about="&zigbee;Scenes"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#ZigBeeOnOffLightSwitch -->
+
+    <owl:Class rdf:about="&zigbee;ZigBeeOnOffLightSwitch">
+        <rdfs:subClassOf rdf:resource="&dogont;ZigBeeComponent"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;hasMandatoryClusterClient"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&zigbee;Groups"/>
+                            <rdf:Description rdf:about="&zigbee;Identify"/>
+                            <rdf:Description rdf:about="&zigbee;OnOff"/>
+                            <rdf:Description rdf:about="&zigbee;Scenes"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;hasMandatoryClusterServer"/>
+                <owl:allValuesFrom rdf:resource="&zigbee;OnOffSwitchConfiguration"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#ZigBeeOnOffOutput -->
+
+    <owl:Class rdf:about="&zigbee;ZigBeeOnOffOutput">
+        <rdfs:subClassOf rdf:resource="&dogont;ZigBeeComponent"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;hasMandatoryClusterServer"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&zigbee;Groups"/>
+                            <rdf:Description rdf:about="&zigbee;OnOff"/>
+                            <rdf:Description rdf:about="&zigbee;Scenes"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#ZigBeeOnOffSwitch -->
+
+    <owl:Class rdf:about="&zigbee;ZigBeeOnOffSwitch">
+        <rdfs:subClassOf rdf:resource="&dogont;ZigBeeComponent"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;hasMandatoryClusterServer"/>
+                <owl:allValuesFrom rdf:resource="&zigbee;OnOffSwitchConfiguration"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;hasMandatoryClusterClient"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&zigbee;Groups"/>
+                            <rdf:Description rdf:about="&zigbee;Identify"/>
+                            <rdf:Description rdf:about="&zigbee;OnOff"/>
+                            <rdf:Description rdf:about="&zigbee;Scenes"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#ZigBeePressureSensor -->
+
+    <owl:Class rdf:about="&zigbee;ZigBeePressureSensor">
+        <rdfs:subClassOf rdf:resource="&dogont;ZigBeeComponent"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;hasMandatoryClusterServer"/>
+                <owl:allValuesFrom rdf:resource="&zigbee;PressureMeasurement"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;hasOptionalClusterClient"/>
+                <owl:allValuesFrom rdf:resource="&zigbee;Groups"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#ZigBeePump -->
+
+    <owl:Class rdf:about="&zigbee;ZigBeePump">
+        <rdfs:subClassOf rdf:resource="&dogont;ZigBeeComponent"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;hasOptionalClusterClient"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&zigbee;FlowMeasurement"/>
+                            <rdf:Description rdf:about="&zigbee;PressureMeasurement"/>
+                            <rdf:Description rdf:about="&zigbee;TemperatureMeasurement"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;hasMandatoryClusterServer"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&zigbee;Groups"/>
+                            <rdf:Description rdf:about="&zigbee;OnOff"/>
+                            <rdf:Description rdf:about="&zigbee;PumpConfigurationAndControl"/>
+                            <rdf:Description rdf:about="&zigbee;Scenes"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;hasOptionalClusterServer"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&zigbee;Alarms"/>
+                            <rdf:Description rdf:about="&zigbee;FlowMeasurement"/>
+                            <rdf:Description rdf:about="&zigbee;LevelControl"/>
+                            <rdf:Description rdf:about="&zigbee;PressureMeasurement"/>
+                            <rdf:Description rdf:about="&zigbee;TemperatureMeasurement"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#ZigBeePumpController -->
+
+    <owl:Class rdf:about="&zigbee;ZigBeePumpController">
+        <rdfs:subClassOf rdf:resource="&dogont;ZigBeeComponent"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;hasOptionalClusterClient"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&zigbee;FlowMeasurement"/>
+                            <rdf:Description rdf:about="&zigbee;LevelControl"/>
+                            <rdf:Description rdf:about="&zigbee;PressureMeasurement"/>
+                            <rdf:Description rdf:about="&zigbee;TemperatureMeasurement"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;hasMandatoryClusterClient"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&zigbee;Groups"/>
+                            <rdf:Description rdf:about="&zigbee;Identify"/>
+                            <rdf:Description rdf:about="&zigbee;OnOff"/>
+                            <rdf:Description rdf:about="&zigbee;PumpConfigurationAndControl"/>
+                            <rdf:Description rdf:about="&zigbee;Scenes"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#ZigBeeRemoteControl -->
+
+    <owl:Class rdf:about="&zigbee;ZigBeeRemoteControl">
+        <rdfs:subClassOf rdf:resource="&dogont;ZigBeeComponent"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;hasOptionalClusterClient"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&zigbee;ColorControl"/>
+                            <rdf:Description rdf:about="&zigbee;IlluminanceLevelSensing"/>
+                            <rdf:Description rdf:about="&zigbee;IlluminanceMeasurement"/>
+                            <rdf:Description rdf:about="&zigbee;OnOffSwitchConfiguration"/>
+                            <rdf:Description rdf:about="&zigbee;PumpConfigurationAndControl"/>
+                            <rdf:Description rdf:about="&zigbee;ShadeConfiguration"/>
+                            <rdf:Description rdf:about="&zigbee;TemperatureMeasurement"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;hasMandatoryClusterClient"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&zigbee;Basic"/>
+                            <rdf:Description rdf:about="&zigbee;Groups"/>
+                            <rdf:Description rdf:about="&zigbee;Identify"/>
+                            <rdf:Description rdf:about="&zigbee;LevelControl"/>
+                            <rdf:Description rdf:about="&zigbee;OnOff"/>
+                            <rdf:Description rdf:about="&zigbee;Scenes"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#ZigBeeSceneSelector -->
+
+    <owl:Class rdf:about="&zigbee;ZigBeeSceneSelector">
+        <rdfs:subClassOf rdf:resource="&dogont;ZigBeeComponent"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;hasMandatoryClusterClient"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&zigbee;Groups"/>
+                            <rdf:Description rdf:about="&zigbee;Identify"/>
+                            <rdf:Description rdf:about="&zigbee;Scenes"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#ZigBeeShade -->
+
+    <owl:Class rdf:about="&zigbee;ZigBeeShade">
+        <rdfs:subClassOf rdf:resource="&dogont;ZigBeeComponent"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;hasMandatoryClusterServer"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&zigbee;Groups"/>
+                            <rdf:Description rdf:about="&zigbee;LevelControl"/>
+                            <rdf:Description rdf:about="&zigbee;OnOff"/>
+                            <rdf:Description rdf:about="&zigbee;Scenes"/>
+                            <rdf:Description rdf:about="&zigbee;ShadeConfiguration"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#ZigBeeShadeController -->
+
+    <owl:Class rdf:about="&zigbee;ZigBeeShadeController">
+        <rdfs:subClassOf rdf:resource="&dogont;ZigBeeComponent"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;hasMandatoryClusterClient"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&zigbee;Groups"/>
+                            <rdf:Description rdf:about="&zigbee;Identify"/>
+                            <rdf:Description rdf:about="&zigbee;LevelControl"/>
+                            <rdf:Description rdf:about="&zigbee;OnOff"/>
+                            <rdf:Description rdf:about="&zigbee;Scenes"/>
+                            <rdf:Description rdf:about="&zigbee;ShadeConfiguration"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#ZigBeeSmartInfo -->
+
+    <owl:Class rdf:about="&zigbee;ZigBeeSmartInfo">
+        <rdfs:subClassOf rdf:resource="&dogont;ZigBeeComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#ZigBeeSmartPlug -->
+
+    <owl:Class rdf:about="&zigbee;ZigBeeSmartPlug">
+        <rdfs:subClassOf rdf:resource="&dogont;ZigBeeComponent"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;hasMandatoryClusterServer"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&zigbee;Basic"/>
+                            <rdf:Description rdf:about="&zigbee;Identify"/>
+                            <rdf:Description rdf:about="&zigbee;Metering"/>
+                            <rdf:Description rdf:about="&zigbee;OnOff"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;hasOptionalClusterClient"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&zigbee;DemandResponseAndLoadControl"/>
+                            <rdf:Description rdf:about="&zigbee;Price"/>
+                            <rdf:Description rdf:about="&zigbee;Time"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="&xsd;string">Smart plugs can participate in home monitoring and control activities. Smart Plugs could provide information about instantaneous power and energy consumption. </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#ZigBeeTemperatureSensor -->
+
+    <owl:Class rdf:about="&zigbee;ZigBeeTemperatureSensor">
+        <rdfs:subClassOf rdf:resource="&dogont;ZigBeeComponent"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;hasMandatoryClusterServer"/>
+                <owl:allValuesFrom rdf:resource="&zigbee;TemperatureMeasurement"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;hasOptionalClusterClient"/>
+                <owl:allValuesFrom rdf:resource="&zigbee;Groups"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#ZigBeeThermostat -->
+
+    <owl:Class rdf:about="&zigbee;ZigBeeThermostat">
+        <rdfs:subClassOf rdf:resource="&dogont;ZigBeeComponent"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;hasOptionalClusterClient"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&zigbee;FanControl"/>
+                            <rdf:Description rdf:about="&zigbee;OccupancySensing"/>
+                            <rdf:Description rdf:about="&zigbee;RelativeHumidityMeasurement"/>
+                            <rdf:Description rdf:about="&zigbee;TemperatureMeasurement"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;hasMandatoryClusterServer"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&zigbee;Groups"/>
+                            <rdf:Description rdf:about="&zigbee;Scenes"/>
+                            <rdf:Description rdf:about="&zigbee;Thermostat"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;hasOptionalClusterServer"/>
+                <owl:allValuesFrom rdf:resource="&zigbee;ThermostatUserInterfaceConfiguration"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/zigbee.owl#ZigBeeWhiteGood -->
+
+    <owl:Class rdf:about="&zigbee;ZigBeeWhiteGood">
+        <rdfs:subClassOf rdf:resource="&dogont;ZigBeeComponent"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;hasOptionalClusterClient"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&zigbee;MeterIdentification"/>
+                            <rdf:Description rdf:about="&zigbee;Price"/>
+                            <rdf:Description rdf:about="&zigbee;Time"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;hasMandatoryClusterServer"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&zigbee;ApplianceStatistics"/>
+                            <rdf:Description rdf:about="&zigbee;Basic"/>
+                            <rdf:Description rdf:about="&zigbee;EN50523ApplianceControl"/>
+                            <rdf:Description rdf:about="&zigbee;EN50523ApplianceEventsAndAlerts"/>
+                            <rdf:Description rdf:about="&zigbee;EN50523ApplianceIdentification"/>
+                            <rdf:Description rdf:about="&zigbee;Identify"/>
+                            <rdf:Description rdf:about="&zigbee;PowerProfile"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&zigbee;hasOptionalClusterServer"/>
+                <owl:allValuesFrom rdf:resource="&zigbee;Metering"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.3.1957) http://owlapi.sourceforge.net -->
+
