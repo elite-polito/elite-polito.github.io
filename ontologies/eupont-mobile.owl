@@ -1,0 +1,3438 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://elite.polito.it/ontologies/eupont-mobile.owl#"
+     xml:base="http://elite.polito.it/ontologies/eupont-mobile.owl"
+     xmlns:ns="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:eupont="http://elite.polito.it/ontologies/eupont.owl#"
+     xmlns:ns1="http://creativecommons.org/ns#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:wot="http://xmlns.com/wot/0.1/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl">
+        <owl:imports rdf:resource="http://elite.polito.it/ontologies/eupont.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#name -->
+
+    <owl:DatatypeProperty rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#name">
+        <owl:equivalentProperty rdf:resource="http://xmlns.com/foaf/0.1/name"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/name -->
+
+    <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/name"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#Android -->
+
+    <owl:Class rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#Android">
+        <rdfs:subClassOf rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Channel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#Dropbox -->
+
+    <owl:Class rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#Dropbox">
+        <rdfs:subClassOf rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Channel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#Facebook -->
+
+    <owl:Class rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#Facebook">
+        <rdfs:subClassOf rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Channel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#Google -->
+
+    <owl:Class rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#Google">
+        <rdfs:subClassOf rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Channel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#Instagram -->
+
+    <owl:Class rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#Instagram">
+        <rdfs:subClassOf rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Channel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#Telegram -->
+
+    <owl:Class rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#Telegram">
+        <rdfs:subClassOf rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Channel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#Twitter -->
+
+    <owl:Class rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#Twitter">
+        <rdfs:subClassOf rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Channel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#WhatsApp -->
+
+    <owl:Class rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#WhatsApp">
+        <rdfs:subClassOf rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Channel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont.owl#SensedTemperatureDecreasedTrigge -->
+
+    <owl:Class rdf:about="http://elite.polito.it/ontologies/eupont.owl#SensedTemperatureDecreasedTrigge"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_airplane_disable -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_airplane_disable">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#DisableAirplaneModeAction"/>
+        <name xml:lang="it">Disattiva Modalità Aereo</name>
+        <eupont:description xml:lang="it">Con questa Azione disattivi la modalità aereo</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_airplane_enable -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_airplane_enable">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#EnableAirplaneModeAction"/>
+        <name xml:lang="it">Attiva Modalità Aereo</name>
+        <eupont:description xml:lang="it">Con questa Azione attivi la modalità aereo</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_alarm_disable -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_alarm_disable">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#DeleteAlarmAction"/>
+        <name xml:lang="it">Disattiva Sveglia</name>
+        <eupont:description xml:lang="it">Con questa Azione disattivi la sveglia</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_alarm_enable -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_alarm_enable">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#AddAlarmAction"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_day_of_week"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_hour"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_minute"/>
+        <name xml:lang="it">Imposta Sveglia</name>
+        <eupont:description xml:lang="it">Con questa Azione impsoti la sveglia</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_app_kill -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_app_kill">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#StopAppAction"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_app_name"/>
+        <name xml:lang="it">Chiudi App</name>
+        <eupont:description xml:lang="it">Con questa Azione chiudi una applicazione</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_app_launch -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_app_launch">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#StartAppAction"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_app_name"/>
+        <name xml:lang="it">Lancia App</name>
+        <eupont:description xml:lang="it">Con questa Azione lanci una applicazione</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_audio_next_song -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_audio_next_song">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#StartListeningMusicAction"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_audio_play_song -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_audio_play_song">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#StartListeningMusicAction"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_song_name"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_audio_previous_song -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_audio_previous_song">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#StartListeningMusicAction"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_audio_record -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_audio_record">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#TakeAudioAction"/>
+        <name xml:lang="it">Registra Audio</name>
+        <eupont:description xml:lang="it">Con questa Azione inzi a registrare l&apos;audio</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_audio_start_music -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_audio_start_music">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#StartListeningMusicAction"/>
+        <name xml:lang="it">Ascolta Musica</name>
+        <eupont:description xml:lang="it">Con questa Azione fai partire la musica</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_audio_stop_music -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_audio_stop_music">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#StopListeningMusicAction"/>
+        <name xml:lang="it">Ferma Musica</name>
+        <eupont:description xml:lang="it">Con questa Azione stoppi la musica</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_battery_saving_mode_off -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_battery_saving_mode_off">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#DisableDeviceSavingModeAction"/>
+        <name xml:lang="it">Disabilita Risparmio Batteria</name>
+        <eupont:description xml:lang="it">Con questa Azione disabiliti la modalità risparmio energetico</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_battery_saving_mode_on -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_battery_saving_mode_on">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#EnableDeviceSavingModeAction"/>
+        <name xml:lang="it">Abilita Risparmio Batteria</name>
+        <eupont:description xml:lang="it">Con questa Azione abiliti la modalità risparmio energetico</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_bluetooth_connect_to -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_bluetooth_connect_to">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#ConnectToDeviceAction"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_device_name"/>
+        <name xml:lang="it">Connetti Bluetooth A</name>
+        <eupont:description xml:lang="it">Con questa Azione connetti il BLuetooth a un dispositivo</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_bluetooth_disable -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_bluetooth_disable">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#DisableBluetoothConnectivityAction"/>
+        <name xml:lang="it">Disabilita Bluetooth</name>
+        <eupont:description xml:lang="it">Con questa Azione disabiliti il Bluetooth</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_bluetooth_disconnect_from -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_bluetooth_disconnect_from">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#DisconnectFromDeviceAction"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_device_name"/>
+        <name xml:lang="it">Disconnetti Bluetooth Da</name>
+        <eupont:description xml:lang="it">Con questa Azione disconnetti il Bluetooth da un dispositivo</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_bluetooth_enable -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_bluetooth_enable">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#EnableBluetoothConnectivityAction"/>
+        <name xml:lang="it">Abilita Bluetooth</name>
+        <eupont:description xml:lang="it">Con questa Azione abiliti il Bluetooth</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_data_disable -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_data_disable">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#DisableInternetConnectivityAction"/>
+        <name xml:lang="it">Disattiva Connessione Dati</name>
+        <eupont:description xml:lang="it">Con questa Azione disattivi la connessione dati</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_data_enable -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_data_enable">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#EnableInternetConnectivityAction"/>
+        <name xml:lang="it">Attiva Connessione Dati</name>
+        <eupont:description xml:lang="it">Con questa Azione attivi la connessione dati</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_device_reboot -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_device_reboot">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#TurnDeviceOnAction"/>
+        <name xml:lang="it">Reboot</name>
+        <eupont:description xml:lang="it">Con questa Azione fail il reboot del dispositivo</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_device_restart -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_device_restart">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#TurnDeviceOnAction"/>
+        <name xml:lang="it">Riavvia</name>
+        <eupont:description xml:lang="it">Con questa Azione riavvii il dispositivo</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_device_shutdown -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_device_shutdown">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#TurnDeviceOffAction"/>
+        <name xml:lang="it">Spegni</name>
+        <eupont:description xml:lang="it">Con questa Azione spegni il dispositivo</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_gps_disable -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_gps_disable">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#DisableGPSAction"/>
+        <name xml:lang="it">Disattiva Posizione</name>
+        <eupont:description xml:lang="it">Con questa Azione disattivi la posizione GPS</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_gps_enable -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_gps_enable">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#EnableGPSAction"/>
+        <name xml:lang="it">Attiva Posizione</name>
+        <eupont:description xml:lang="it">Con questa Azione attivi la posizione GPS</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_media_register_video -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_media_register_video">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#TakeVideoAction"/>
+        <name xml:lang="it">Registra Video</name>
+        <eupont:description xml:lang="it">Con questa Azione registri un video</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_media_take_photo -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_media_take_photo">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#TakePhotoAction"/>
+        <name xml:lang="it">Scatta una Foto</name>
+        <eupont:description xml:lang="it">Con questa Azione scatti una foto</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_media_take_screenshot -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_media_take_screenshot">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#TakePhotoAction"/>
+        <name xml:lang="it">Acquisisci Screenshot</name>
+        <eupont:description xml:lang="it">Con questa Azione acquisisci uno screenshot</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_notifications_disable -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_notifications_disable">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#DisableNotificationsAction"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_notifications_enable -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_notifications_enable">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#EnableNotificationsAction"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_notifications_send -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_notifications_send">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#SendToDisplayAction"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_notifications_text"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_phone_call_answer -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_phone_call_answer">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#AnswerCallAction"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_contact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_phone_call_block -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_phone_call_block">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#BlockCallAction"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_contact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_phone_call_end -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_phone_call_end">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#EndCallAction"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_contact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_phone_call_mute -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_phone_call_mute">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#MuteCallAction"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_contact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_phone_call_reject -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_phone_call_reject">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#RejectCallAction"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_contact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_phone_call_start -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_phone_call_start">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#SendCallAction"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_contact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_phone_speakerphone_enable -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_phone_speakerphone_enable">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#EnableSpeakerphoneAction"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_screen_disable_rotation -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_screen_disable_rotation">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#DisableScreenRotationAction"/>
+        <name xml:lang="it">Disabilita Rotazione</name>
+        <eupont:description xml:lang="it">Con questa Azione disabiliti la rotazione dello schermo</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_screen_enable_rotation -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_screen_enable_rotation">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#EnableScreenRotationAction"/>
+        <name xml:lang="it">Abilita Rotazione</name>
+        <eupont:description xml:lang="it">Con questa Azione abiliti la rotazione dello schermo</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_screen_lock -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_screen_lock">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#StopUsingSmartphoneAction"/>
+        <name xml:lang="it">Blocca Telefono</name>
+        <eupont:description xml:lang="it">Con questa Azione blocchi lo schermo del telefono</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_screen_night_mode_disable -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_screen_night_mode_disable">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#DisableNightModeAction"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_screen_night_mode_enable -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_screen_night_mode_enable">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#EnableNightModeAction"/>
+        <name xml:lang="it">Modalità Notte</name>
+        <eupont:description xml:lang="it">Con questa Azione attivi la modalità notte</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_screen_set_brightness -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_screen_set_brightness">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#SetBrightnessAction"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_brightness_level"/>
+        <name xml:lang="it">Imposta Luminosità</name>
+        <eupont:description xml:lang="it">Con questa Azione imposti la luminosità dello schermo a un certo valore</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_screen_unlock -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_screen_unlock">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#StartUsingSmartphoneAction"/>
+        <name xml:lang="it">Sblocca Telefono</name>
+        <eupont:description xml:lang="it">Con questa Azione sblocchi lo schermo del telefono</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_screen_update_wallpaper -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_screen_update_wallpaper">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#SendToDisplayAction"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_image"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_sms_send -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_sms_send">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#SendMessageAction"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_contact"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_sms_text"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_storage_clear_download -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_storage_clear_download">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#DeleteFileAction"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_storage_delete_file -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_storage_delete_file">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#DeleteFileAction"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_file"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_storage_move_app -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_storage_move_app">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#MoveAppAction"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_app_name"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_storage_save_file -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_storage_save_file">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#SaveFileAction"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_file"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_file_content"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_file_name"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_storage_share_file -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_storage_share_file">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#ShareFileAction"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_app_name"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_file"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_timer_disable -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_timer_disable">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#DeleteTimerAction"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_timer_enable -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_timer_enable">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#AddTimerAction"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_volume_mute_phone -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_volume_mute_phone">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#DecreaseVolumeAction"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_volume_set_alarm -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_volume_set_alarm">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#DecreaseVolumeAction"/>
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#IncreaseVolumeAction"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_volume_level"/>
+        <name xml:lang="it">Impsota Volume Allarme</name>
+        <eupont:description xml:lang="it">Con questa Azione imposti il volume della sveglia</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_volume_set_call -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_volume_set_call">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#DecreaseVolumeAction"/>
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#IncreaseVolumeAction"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_volume_level"/>
+        <name xml:lang="it">Imposta Volume Chiamate</name>
+        <eupont:description xml:lang="it">Con questa Azione imposti il volume delle chiamate</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_volume_set_media -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_volume_set_media">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#DecreaseVolumeAction"/>
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#IncreaseVolumeAction"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_volume_level"/>
+        <name xml:lang="it">Imposta Volume Media</name>
+        <eupont:description xml:lang="it">Con questa Azione imposti il volume per i file multimediali</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_volume_set_profile -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_volume_set_profile">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#DecreaseVolumeAction"/>
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#IncreaseVolumeAction"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_notification_profile"/>
+        <name xml:lang="it">Imposta Modalità Telefono</name>
+        <eupont:description xml:lang="it">Con questa Azione la modalità del telefono (silenzioso, vibrazione, o normale)</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_volume_set_ringtone -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_volume_set_ringtone">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#DecreaseVolumeAction"/>
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#IncreaseVolumeAction"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_volume_level"/>
+        <name xml:lang="it">Imposta Volume Suoneria</name>
+        <eupont:description xml:lang="it">Con questa Azione impsoti il volume della suoneria</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_wifi_connect_to -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_wifi_connect_to">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#ConnectToNetworkAction"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_wifi_network_name"/>
+        <name xml:lang="it">Connetti WiFi A</name>
+        <eupont:description xml:lang="it">Con questa Azione connetti il WiFi a una rete</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_wifi_disable -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_wifi_disable">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#DisableInternetConnectivityAction"/>
+        <name xml:lang="it">Disabilita WIFI</name>
+        <eupont:description xml:lang="it">Con questa Azione disabiliti il WiFi</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_wifi_disconnect_from -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_wifi_disconnect_from">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#DisconnectFromNetworkAction"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_wifi_network_name"/>
+        <name xml:lang="it">Disconnetti WiFi Da</name>
+        <eupont:description xml:lang="it">Con questa Azione disconnetti il WiFi da una rete</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_wifi_enable -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_wifi_enable">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#EnableInternetConnectivityAction"/>
+        <name xml:lang="it">Abilita WiFi</name>
+        <eupont:description xml:lang="it">Con questa Azione abiliti il WiFi</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_dropbox_append_to -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_dropbox_append_to">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#SaveFileAction"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_dropbox_file_name"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_dropbox_text"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_dropbox_delete_file -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_dropbox_delete_file">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#DeleteFileAction"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_dropbox_file_name"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_dropbox_save_file -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_dropbox_save_file">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#SaveFileAction"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_dropbox_file_content"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_dropbox_file_name"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_facebook_new_staus -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_facebook_new_staus">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#SharePostAction"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_facebook_status"/>
+        <name xml:lang="it">Pubblica Stato</name>
+        <eupont:description xml:lang="it">Con questa Azione pubblichi un nuovo stato su Facebook</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_facebook_photo_post -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_facebook_photo_post">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#SharePostAction"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_facebook_message"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_facebook_photo"/>
+        <name xml:lang="it">Pubblica Foto</name>
+        <eupont:description xml:lang="it">Con questa Azione pubblichi un post su Facebook con una Foto</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_facebook_send_private_message -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_facebook_send_private_message">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#SendMessageAction"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_facebook_contact"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_facebook_message"/>
+        <name xml:lang="it">Invia Messaggio Privato</name>
+        <eupont:description xml:lang="it">Con questa Azione mandi un messaggio privato su Facebook</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_facebook_video_post -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_facebook_video_post">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#SharePostAction"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_facebook_message"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_facebook_video"/>
+        <name xml:lang="it">Pubblica Video</name>
+        <eupont:description xml:lang="it">Con questa Azione pubblichi un post su Facebook con un Video</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_gmail_send -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_gmail_send">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#SendMessageAction"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_gmail_attachment"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_gmail_contact"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_gmail_message"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_gmail_subject"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_google_calendar_add -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_google_calendar_add">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#AddCalendarItemAction"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_google_calendar_description"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_google_calendar_time"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_google_calendar_title"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_google_calendar_delete -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_google_calendar_delete">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#DeleteCalendarItemAction"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_google_calendar_title"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_google_contact_delete -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_google_contact_delete">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#DeleteContactAction"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_google_contact"/>
+        <name xml:lang="it">Elimina Contatto</name>
+        <eupont:description xml:lang="it">Con questa Azione elimini un contatto dalla rubrica</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_google_contacts_add -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_google_contacts_add">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#SaveContactAction"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_google_contact"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_google_number"/>
+        <name xml:lang="it">Salva Contatto</name>
+        <eupont:description xml:lang="it">Con questa Azione salvi un contatto nella rubrica</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_google_drive_append_to -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_google_drive_append_to">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#SaveFileAction"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_gdrive_file_name"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_gdrive_text"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_google_drive_delete_file -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_google_drive_delete_file">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#DeleteFileAction"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_gdrive_file_name"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_google_drive_save_file -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_google_drive_save_file">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#SaveFileAction"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_gdrive_file_content"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_gdrive_file_name"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_instagram_photo_post -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_instagram_photo_post">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#SharePostAction"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_instagram_photo"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_instagram_post_message"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_instagram_video_post -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_instagram_video_post">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#SharePostAction"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_instagram_post_message"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_instagram_video"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_telegram_send_audio -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_telegram_send_audio">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#SendMessageAction"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_telegram_audio"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_telegram_contact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_telegram_send_message -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_telegram_send_message">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#SendMessageAction"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_telegram_contact"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_telegram_message"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_telegram_send_photo -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_telegram_send_photo">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#SendMessageAction"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_telegram_contact"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_telegram_photo"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_telegram_send_video -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_telegram_send_video">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#SendMessageAction"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_telegram_contact"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_telegram_video"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_twitter_photo_post -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_twitter_photo_post">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#SharePostAction"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_twitter_photo"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_twitter_post_message"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_twitter_tweet -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_twitter_tweet">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#SharePostAction"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_twitter_post_message"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_whatsapp_send_audio -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_whatsapp_send_audio">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#SendMessageAction"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_whatsapp_audio"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_whatsapp_contact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_whatsapp_send_message -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_whatsapp_send_message">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#SendMessageAction"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_whatsapp_contact"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_whatsapp_message"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_whatsapp_send_photo -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_whatsapp_send_photo">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#SendMessageAction"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_whatsapp_contact"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_whatsapp_photo"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#action_whatsapp_send_video -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#action_whatsapp_send_video">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#SendMessageAction"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_whatsapp_contact"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_whatsapp_video"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_app_name -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_app_name">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+        <name xml:lang="it">Applicazione</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_battery_consumption_level -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_battery_consumption_level">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_battery_level -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_battery_level">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+        <name xml:lang="it">Livello Batteria</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_brightness_level -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_brightness_level">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+        <name xml:lang="it">Livello Luminosità</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_contact -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_contact">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_data_consumption_level -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_data_consumption_level">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_day_of_month -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_day_of_month">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+        <name xml:lang="it">Giorno del Mese</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_day_of_week -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_day_of_week">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+        <name xml:lang="it">Giorno della Settimana</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_device_name -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_device_name">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+        <name xml:lang="it">Nome del dispositivo</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_file -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_file">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_file_content -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_file_content">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_file_name -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_file_name">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_geographical_area -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_geographical_area">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+        <name xml:lang="it">Area Geografica</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_hour -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_hour">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+        <name xml:lang="it">Ora</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_image -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_image">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_lighting_level -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_lighting_level">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_minute -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_minute">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_month -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_month">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+        <name xml:lang="it">Mese</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_notification_profile -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_notification_profile">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+        <name xml:lang="it">Modalità</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_notifications_text -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_notifications_text">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_sms_text -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_sms_text">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_song_name -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_song_name">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_string -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_string">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_temperature_level -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_temperature_level">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_text -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_text">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_volume_level -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_volume_level">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+        <name xml:lang="it">Livello Volume</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_wifi_network_name -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_wifi_network_name">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+        <name xml:lang="it">Nome rete WiFi</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_dropbox_file_content -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_dropbox_file_content">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_dropbox_file_name -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_dropbox_file_name">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_dropbox_text -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_dropbox_text">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_facebook_contact -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_facebook_contact">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+        <name xml:lang="it">Amico di Facebook</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_facebook_hashtag -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_facebook_hashtag">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+        <name xml:lang="it">Hashtag</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_facebook_message -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_facebook_message">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+        <name xml:lang="it">Messaggio</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_facebook_photo -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_facebook_photo">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+        <name xml:lang="it">Foto</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_facebook_post_message -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_facebook_post_message">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_facebook_status -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_facebook_status">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+        <name xml:lang="it">Stato</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_facebook_string -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_facebook_string">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+        <name xml:lang="it">Stringa da Ricercare</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_facebook_video -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_facebook_video">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+        <name xml:lang="it">Video</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_gdrive_file_content -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_gdrive_file_content">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_gdrive_file_name -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_gdrive_file_name">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_gdrive_text -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_gdrive_text">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_gmail_attachment -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_gmail_attachment">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_gmail_contact -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_gmail_contact">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_gmail_message -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_gmail_message">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_gmail_string -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_gmail_string">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_gmail_subject -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_gmail_subject">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_google_calendar_description -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_google_calendar_description">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_google_calendar_time -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_google_calendar_time">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_google_calendar_title -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_google_calendar_title">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_google_contact -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_google_contact">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+        <name xml:lang="it">Nome Contatto</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_google_number -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_google_number">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+        <name xml:lang="it">Numero Telefonico</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_google_search_string -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_google_search_string">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_hashtag -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_hashtag">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_instagram_contact -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_instagram_contact">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_instagram_hashtag -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_instagram_hashtag">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_instagram_message -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_instagram_message">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_instagram_photo -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_instagram_photo">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_instagram_post_message -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_instagram_post_message">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_instagram_string -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_instagram_string">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_instagram_video -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_instagram_video">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_mail_address -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_mail_address">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_social_contact_name -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_social_contact_name">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_telegram_audio -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_telegram_audio">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_telegram_contact -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_telegram_contact">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_telegram_message -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_telegram_message">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_telegram_photo -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_telegram_photo">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_telegram_string -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_telegram_string">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_telegram_video -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_telegram_video">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_twitter_contact -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_twitter_contact">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_twitter_hashtag -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_twitter_hashtag">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_twitter_photo -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_twitter_photo">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_twitter_post_message -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_twitter_post_message">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_twitter_string -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_twitter_string">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_whatsapp_audio -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_whatsapp_audio">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_whatsapp_contact -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_whatsapp_contact">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_whatsapp_message -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_whatsapp_message">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_whatsapp_photo -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_whatsapp_photo">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_whatsapp_string -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_whatsapp_string">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_whatsapp_video -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_whatsapp_video">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#detail_year -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_year">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#Detail"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#technology_android_activity -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#technology_android_activity">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#Android"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_cycling"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_running"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_vehicle"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_walking"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#technology_android_actuation -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#technology_android_actuation">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#Android"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_device_reboot"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_device_restart"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_device_shutdown"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_device_on"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#technology_android_airplane -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#technology_android_airplane">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#Android"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_airplane_disable"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_airplane_enable"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_airplane_disabled"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_airplane_enabled"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#technology_android_app -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#technology_android_app">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#Android"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_app_kill"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_app_launch"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_app_installed"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_app_killed"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_app_launched"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_app_uninstalled"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#technology_android_audio -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#technology_android_audio">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#Android"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_audio_next_song"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_audio_play_song"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_audio_previous_song"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_audio_record"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_audio_start_music"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_audio_stop_music"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_audio_jack_off"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_audio_jack_on"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_audio_music_off"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_audio_music_on"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_audio_recorded"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#technology_android_battery -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#technology_android_battery">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#Android"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_battery_saving_mode_off"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_battery_saving_mode_on"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_battery_high_consumption"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_battery_low"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_battery_plugged"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_battery_power_mode_disabled"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_battery_power_mode_enabled"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_battery_unplugged"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#technology_android_bluetooth -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#technology_android_bluetooth">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#Android"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_bluetooth_connect_to"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_bluetooth_disable"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_bluetooth_disconnect_from"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_bluetooth_enable"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_bluetooth_connected_to"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_bluetooth_disabled"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_bluetooth_disconnected_from"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_bluetooth_enabled"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_bluetooth_scan"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#technology_android_data -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#technology_android_data">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#Android"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_data_disable"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_data_enable"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_data_disabled"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_data_enabled"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_data_high_consumption"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#technology_android_lighting -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#technology_android_lighting">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#Android"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_lighting_drops"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_lighting_rises"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#technology_android_media -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#technology_android_media">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#Android"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_media_register_video"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_media_take_photo"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_media_take_screenshot"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_media_photo_taken"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_media_screenshot_taken"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_media_video_taken"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#technology_android_notification -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#technology_android_notification">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#Android"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_notifications_disable"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_notifications_enable"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_notifications_send"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_notifications_disabled"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_notifications_enabled"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_notifications_received_from_app"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_notifications_received_from_contact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#technology_android_organizer -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#technology_android_organizer">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#Android"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_alarm_disable"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_alarm_enable"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_timer_disable"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_timer_enable"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_alarm_added"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_alarm_deleted"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_timer_added"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_timer_deleted"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#technology_android_phone -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#technology_android_phone">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#Android"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_phone_call_answer"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_phone_call_block"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_phone_call_end"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_phone_call_mute"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_phone_call_reject"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_phone_call_start"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_phone_speakerphone_enable"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_phone_call_answered"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_phone_call_ended"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_phone_call_missed"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_phone_call_muted"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_phone_call_rejected"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_phone_call_started"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_phone_speakerphone_enabled"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#technology_android_position -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#technology_android_position">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#Android"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_gps_disable"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_gps_enable"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_gps_disabled"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_gps_enabled"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_gps_enter"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_gps_exit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#technology_android_screen -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#technology_android_screen">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#Android"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_screen_disable_rotation"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_screen_enable_rotation"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_screen_lock"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_screen_night_mode_disable"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_screen_night_mode_enable"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_screen_set_brightness"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_screen_unlock"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_screen_update_wallpaper"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_screen_brightness_decreased"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_screen_brightness_increased"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_screen_locked"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_screen_new_wallpaper"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_screen_night_mode_disabled"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_screen_night_mode_enabled"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_screen_rotation_disabled"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_screen_rotation_enabled"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_screen_unlocked"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#technology_android_sms -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#technology_android_sms">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#Android"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_sms_send"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_sms_received"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_sms_sent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#technology_android_storage -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#technology_android_storage">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#Android"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_storage_clear_download"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_storage_delete_file"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_storage_move_app"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_storage_save_file"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_storage_share_file"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_storage_file_saved"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_storage_high_consumption"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_storage_image_saved"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#technology_android_temperature -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#technology_android_temperature">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#Android"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_temperature_drops"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_temperature_rises"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#technology_android_time -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#technology_android_time">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#Android"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_time_every_day_at"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_time_every_month_at"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_time_every_week_at"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_time_every_year_at"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#technology_android_volume -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#technology_android_volume">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#Android"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_volume_mute_phone"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_volume_set_alarm"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_volume_set_call"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_volume_set_media"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_volume_set_profile"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_volume_set_ringtone"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_notifications_profile_set"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#technology_android_wifi -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#technology_android_wifi">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#Android"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_wifi_connect_to"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_wifi_disable"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_wifi_disconnect_from"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_android_wifi_enable"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_wifi_connected_to"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_wifi_disabled"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_wifi_disconnected_from"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_wifi_enabled"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_wifi_scan"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#technology_dropbox_storage -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#technology_dropbox_storage">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#Dropbox"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_dropbox_append_to"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_dropbox_delete_file"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_dropbox_save_file"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_dropbox_document_added"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_dropbox_document_updated"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_dropbox_photo_added"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#technology_facebook_messaging -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#technology_facebook_messaging">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#Facebook"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_facebook_send_private_message"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_facebook_private_message_received"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_facebook_private_message_sent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#technology_facebook_post -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#technology_facebook_post">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#Facebook"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_facebook_new_staus"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_facebook_photo_post"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_facebook_video_post"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_facebook_new_link_post"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_facebook_new_photo_post"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_facebook_new_post"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_facebook_new_video_post"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#technology_google_activity -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#technology_google_activity">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#Google"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_google_detected_activity_stop_cycling"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_google_detected_activity_stop_running"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_google_detected_activity_stop_walking"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#technology_google_calendar -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#technology_google_calendar">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#Google"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_google_calendar_add"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_google_calendar_delete"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_google_caledar_event_added"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_google_calendar_event_deleted"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_google_calendar_event_updated"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#technology_google_contacts -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#technology_google_contacts">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#Google"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_google_contact_delete"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_google_contacts_add"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_google_contacts_added"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_google_contacts_deleted"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#technology_google_mail -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#technology_google_mail">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#Google"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_gmail_send"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_gmail_received"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_gmail_received_attachment"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_gmail_sent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#technology_google_storage -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#technology_google_storage">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#Google"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_google_drive_append_to"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_google_drive_delete_file"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_google_drive_save_file"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_google_drive_document_added"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_google_drive_document_updated"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_google_drive_photo_added"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#technology_instagram_messaging -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#technology_instagram_messaging">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#Instagram"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_instagram_private_message_received"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_instagram_private_message_sent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#technology_instagram_post -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#technology_instagram_post">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#Instagram"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_instagram_photo_post"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_instagram_video_post"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_instagram_new_link_post"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_instagram_new_photo_post"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_instagram_new_post"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_instagram_new_video_post"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#technology_news -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#technology_news">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#Google"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_google_news_available"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_google_news_available_from_search"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#technology_telegram_messaging -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#technology_telegram_messaging">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#Telegram"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_telegram_send_audio"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_telegram_send_message"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_telegram_send_photo"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_telegram_send_video"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_telegram_received"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_telegram_received_audio"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_telegram_received_photo"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_telegram_received_video"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_telegram_sent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#technology_twitter_messaging -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#technology_twitter_messaging">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#Twitter"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_twitter_private_message_received"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_twitter_private_message_sent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#technology_twitter_post -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#technology_twitter_post">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#Twitter"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_twitter_photo_post"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_twitter_tweet"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_twitter_new_link_post"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_twitter_new_photo_post"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_twitter_new_post"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_twitter_new_video_post"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#technology_whatsapp_messaging -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#technology_whatsapp_messaging">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#WhatsApp"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_whatsapp_send_audio"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_whatsapp_send_message"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_whatsapp_send_photo"/>
+        <eupont:offerAction rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#action_whatsapp_send_video"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_whatsapp_received"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_whatsapp_received_audio"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_whatsapp_received_photo"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_whatsapp_received_video"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_whatsapp_sent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_airplane_disabled -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_airplane_disabled">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#DisabledAirplaneModeTrigger"/>
+        <name xml:lang="it">Disabilita Aereo</name>
+        <eupont:description xml:lang="it">Questo Evento scatta ogni volta che disabiliti la modalità aereo</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_airplane_enabled -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_airplane_enabled">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#EnabledAirplaneModeTrigger"/>
+        <name xml:lang="it">Abilita Aereo</name>
+        <eupont:description xml:lang="it">Questo Evento scatta ogni volta che abiliti la modalità aereo</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_alarm_added -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_alarm_added">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#AddedAlarmTrigger"/>
+        <name xml:lang="it">Sveglia Abilitata</name>
+        <eupont:description xml:lang="it">Questo Evento scatta ogni volta che abiliti la sveglia</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_alarm_deleted -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_alarm_deleted">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#DeletedAlarmTrigger"/>
+        <name xml:lang="it">Sveglia Disabilitata</name>
+        <eupont:description xml:lang="it">Questo Evento scatta ogni volta che disabiliti la sveglia</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_app_installed -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_app_installed">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#StoredAppTrigger"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_app_name"/>
+        <name xml:lang="it">Applicazione Installata</name>
+        <eupont:description xml:lang="it">Questo Evento scatta ogni volta che installi una certa applicazione sul telefono</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_app_killed -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_app_killed">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#StoppedAppTrigger"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_app_name"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_app_launched -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_app_launched">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#StartedAppTrigger"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_app_name"/>
+        <name xml:lang="it">Applicazione Lanciata</name>
+        <eupont:description xml:lang="it">Questo Evento scatta ogni volta che lanci una applicazione</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_app_uninstalled -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_app_uninstalled">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#DeletedAppTrigger"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_app_name"/>
+        <name xml:lang="it">Applicazione Disinstallata</name>
+        <eupont:description xml:lang="it">Questo Evento scatta ogni volta che disinstalli una certa applicazione dal telefono</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_audio_jack_off -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_audio_jack_off">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#StoppedListeningMusicTrigger"/>
+        <name xml:lang="it">Cuffie Disinserite</name>
+        <eupont:description xml:lang="it">Questo Evento scatta ogni volta che rimuovi il jack delle cuffie</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_audio_jack_on -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_audio_jack_on">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#StartedListeningMusicTrigger"/>
+        <name xml:lang="it">Cuffie Inserite</name>
+        <eupont:description xml:lang="it">Questo Evento scatta ogni volta che inserisci il jack delle cuffie</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_audio_music_off -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_audio_music_off">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#StoppedListeningMusicTrigger"/>
+        <name xml:lang="it">Musica Off</name>
+        <eupont:description xml:lang="it">Questo Evento scatta ogni volta che smetti di ascoltare la musica</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_audio_music_on -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_audio_music_on">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#StartedListeningMusicTrigger"/>
+        <name xml:lang="it">Musica On</name>
+        <eupont:description xml:lang="it">Questo Evento scatta ogni volta che inizi ad ascoltare la musica</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_audio_recorded -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_audio_recorded">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#TakenAudioTrigger"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_battery_high_consumption -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_battery_high_consumption">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#HighSensedDeviceConsumptionTrigger"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_battery_consumption_level"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_battery_low -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_battery_low">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#LowPowerTrigger"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_battery_level"/>
+        <name xml:lang="it">Livello Batteria Basso</name>
+        <eupont:description xml:lang="it">Questo Evento scatta ogni volta che il livello della batteria scende sotto a un certo livello</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_battery_plugged -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_battery_plugged">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#DevicePluggedTrigger"/>
+        <name xml:lang="it">Smartphone in Carica</name>
+        <eupont:description xml:lang="it">Questo Evento scatta ogni volta che attacchi il tuo Smartphone al caricabatterie</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_battery_power_mode_disabled -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_battery_power_mode_disabled">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#DeviceSavingModeDisabledTrigger"/>
+        <name xml:lang="it">Modalità Risparmio Batteria Disabilitato</name>
+        <eupont:description xml:lang="it">Questo Evento scatta ogni volta che la modalità risparmio batteria viene disabilitata</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_battery_power_mode_enabled -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_battery_power_mode_enabled">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#DeviceSavingModeEnabledTrigger"/>
+        <name xml:lang="it">Modalità Risparmio Batteria Attivata</name>
+        <eupont:description xml:lang="it">Questo Evento scatta ogni volta che la modalità risparmio batteria viene abilitata</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_battery_unplugged -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_battery_unplugged">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#DeviceUnpluggedTrigger"/>
+        <name xml:lang="it">Smartphone Ricaricato</name>
+        <eupont:description xml:lang="it">Questo Evento scatta ogni volta che stacchi il tuo smartphone dal caricabatterie</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_bluetooth_connected_to -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_bluetooth_connected_to">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#ConnectionToDeviceTrigger"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_device_name"/>
+        <name xml:lang="it">Bluetooth Connesso</name>
+        <eupont:description xml:lang="it">Questo Evento scatta ogni volta che il Bluetooth si connette a un dispositivo</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_bluetooth_disabled -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_bluetooth_disabled">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#DisabledBluetoothConnectivityTrigger"/>
+        <name xml:lang="it">Bluetooth Disabilitato</name>
+        <eupont:description xml:lang="it">Questo Evento scatta ogni volta che disabiliti il Bluetooth</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_bluetooth_disconnected_from -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_bluetooth_disconnected_from">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#DisconnectedFromDeviceTrigger"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_device_name"/>
+        <name xml:lang="it">Bluetooth DIsconnesso</name>
+        <eupont:description xml:lang="it">Questo Evento scatta ogni volta che il Bluetooth si disconnette da un dispositivo</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_bluetooth_enabled -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_bluetooth_enabled">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#EnabledBluetoothConnectivityTrigger"/>
+        <name xml:lang="it">Bluetooth Abilitato</name>
+        <eupont:description xml:lang="it">Questo Evento scatta ogni volta che abiliti il Bluetooth</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_bluetooth_scan -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_bluetooth_scan">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#ScanBluetoothTrigger"/>
+        <name xml:lang="it">Bluetooth Scan</name>
+        <eupont:description xml:lang="it">Questo Evento scatta ogni volta che inzi una ricerca Bluetooth</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_cycling -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_cycling">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#StartedBikeSessionTrigger"/>
+        <name xml:lang="it">Sto andando in bici</name>
+        <eupont:description xml:lang="it">Questo Evento scatta ogni volta che inizi ad andare in bici</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_data_disabled -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_data_disabled">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#DisabledInternetConnectivityTrigger"/>
+        <name xml:lang="it">Dati Disabilitati</name>
+        <eupont:description xml:lang="it">Questo Evento scatta ogni volta che disabiliti la connessione dati</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_data_enabled -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_data_enabled">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#EnabledInternetConnectivityTrigger"/>
+        <name xml:lang="it">Dati Abilitati</name>
+        <eupont:description xml:lang="it">Questo Evento scatta ogni volta che abiliti la connessioni dati</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_data_high_consumption -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_data_high_consumption">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#HighSensedDeviceConsumptionTrigger"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_data_consumption_level"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_device_on -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_device_on">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#DeviceTurnedOnTrigger"/>
+        <name xml:lang="it">Dispositivo Acceso</name>
+        <eupont:description xml:lang="it">Questo Evento scatta ogni volta che il dispositivo viene acceso</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_gps_disabled -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_gps_disabled">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#DisabledGPSTrigger"/>
+        <name xml:lang="it">Posizione Disabilitata</name>
+        <eupont:description xml:lang="it">Questo Evento scatta ogni volta che disabiliti la posizione</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_gps_enabled -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_gps_enabled">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#EnabledGPSTrigger"/>
+        <name xml:lang="it">Posizione Abilitata</name>
+        <eupont:description xml:lang="it">Questo Evento scatta ogni volta che abiliti la posizione</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_gps_enter -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_gps_enter">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#GPSEnterAreaTrigger"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_geographical_area"/>
+        <name xml:lang="it">Arrivo in un Luogo</name>
+        <eupont:description xml:lang="it">Questo Evento scatta ogni volta che entro in un&apos;area geografica</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_gps_exit -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_gps_exit">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#GPSExitAreaTrigger"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_geographical_area"/>
+        <name xml:lang="it">Esco da un Luogo</name>
+        <eupont:description xml:lang="it">Questo Evento scatta ogni volta che esco da un&apos;area geografica</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_lighting_drops -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_lighting_drops">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#SensedLightingDecreasedTrigger"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_lighting_level"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_lighting_rises -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_lighting_rises">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#SensedLightingIncreasedTrigger"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_lighting_level"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_media_photo_taken -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_media_photo_taken">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#TakenImageTrigger"/>
+        <name xml:lang="it">Foto Scattata</name>
+        <eupont:description xml:lang="it">Questo Evento scatta ogni volta che scatti una foto</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_media_screenshot_taken -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_media_screenshot_taken">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#TakenImageTrigger"/>
+        <name xml:lang="it">Screenshot Acquisito</name>
+        <eupont:description xml:lang="it">Questo Evento scatta ogni volta che fai uno screenshot</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_media_video_taken -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_media_video_taken">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#TakenVideoTrigger"/>
+        <name xml:lang="it">Registrato Video</name>
+        <eupont:description xml:lang="it">Questo Evento scatta ogni volta che registri un video</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_notifications_disabled -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_notifications_disabled">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#NotificationsDisabledTrigger"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_notifications_enabled -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_notifications_enabled">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#NotificationsEnabledTrigger"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_notifications_profile_set -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_notifications_profile_set">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#NotificationProfileSetToTrigger"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_notification_profile"/>
+        <name xml:lang="it">Modalità Telefono Impostata</name>
+        <eupont:description xml:lang="it">Questo Evento scatta ogni volta che la modalità del telefono (silenzioso, vibrazione, normale) cambia</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_notifications_received_from_app -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_notifications_received_from_app">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#ReceivedAppNotificationTrigger"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_app_name"/>
+        <name xml:lang="it">Notifica da App</name>
+        <eupont:description xml:lang="it">Questo Evento scatta ogni volta che ricevi una notifica da una determinata applicazione</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_notifications_received_from_contact -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_notifications_received_from_contact">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#ReceivedContactNotificationTrigger"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_contact"/>
+        <name xml:lang="it">Notifica da Contatto</name>
+        <eupont:description xml:lang="it">Questo Evento scatta ogni volta che ricevi una notifica da un determinato contatto</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_phone_call_answered -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_phone_call_answered">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#ReceivedIncomingCallTrigger"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_phone_call_ended -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_phone_call_ended">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#ReceivedIncomingCallTrigger"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_phone_call_missed -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_phone_call_missed">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#ReceivedMissedCallNotificationTrigger"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_contact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_phone_call_muted -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_phone_call_muted">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#PhoneCallMutedTrigger"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_contact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_phone_call_rejected -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_phone_call_rejected">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#PhoneCallRejectedTrigger"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_contact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_phone_call_started -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_phone_call_started">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#SentOutcomingCallTrigger"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_phone_speakerphone_enabled -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_phone_speakerphone_enabled">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#SpeakerPhoneActivatedTrigger"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_running -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_running">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#StartedRunSessionTrigger"/>
+        <name xml:lang="it">Sto correndo</name>
+        <eupont:description xml:lang="it">Questo Evento scatta ogni volta che inizi a correre</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_screen_brightness_decreased -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_screen_brightness_decreased">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#BrightnessDecreasedTrigger"/>
+        <name xml:lang="it">Luminosità Schermo Diminuita</name>
+        <eupont:description xml:lang="it">Questo Evento scatta ogni volta che la luminosità dello schermo diminuisce</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_screen_brightness_increased -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_screen_brightness_increased">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#BrightnessIncreasedTrigger"/>
+        <name xml:lang="it">Luminosità Schermo Aumentata</name>
+        <eupont:description xml:lang="it">Questo Evento scatta ogni volta che la luminosità dello schermo aumenta</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_screen_locked -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_screen_locked">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#StoppedUsingSmartphoneTrigger"/>
+        <name xml:lang="it">Telefono Bloccato</name>
+        <eupont:description xml:lang="it">Questo Evento scatta ogni volta che blocchi il telefono</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_screen_new_wallpaper -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_screen_new_wallpaper">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#UpdatedWallpaperTrigger"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_screen_night_mode_disabled -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_screen_night_mode_disabled">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#NightModeDisabledTrigger"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_screen_night_mode_enabled -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_screen_night_mode_enabled">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#NightModeEnabledTrigger"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_screen_rotation_disabled -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_screen_rotation_disabled">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#ScreenRotationDisabledTrigger"/>
+        <name xml:lang="it">Rotazione Disabilitata</name>
+        <eupont:description xml:lang="it">Questo Evento scatta ogni volta che disabiliti la rotazione dello schermo</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_screen_rotation_enabled -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_screen_rotation_enabled">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#ScreenRotationEnabledTrigger"/>
+        <name xml:lang="it">Rotazione Abilitata</name>
+        <eupont:description xml:lang="it">Questo Evento scatta ogni volta che abiliti la rotazione dello schermo</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_screen_unlocked -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_screen_unlocked">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#StartedUsingSmartphoneTrigger"/>
+        <name xml:lang="it">Telefono Sbloccato</name>
+        <eupont:description xml:lang="it">Questo Evento scatta ogni volta che sblocchi il telefono</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_sms_received -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_sms_received">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#ReceivedMessageTrigger"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_contact"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_string"/>
+        <name xml:lang="it">SMS Ricevuto</name>
+        <eupont:description xml:lang="it">Questo Evento scatta ogni volta che ricevi un SMS</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_sms_sent -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_sms_sent">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#SentMessageTrigger"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_contact"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_string"/>
+        <name xml:lang="it">SMS Inviato</name>
+        <eupont:description xml:lang="it">Questo Evento scatta ogni volta che invii un SMS</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_storage_file_saved -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_storage_file_saved">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#StoredFileTrigger"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_storage_high_consumption -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_storage_high_consumption">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#HighSensedDeviceConsumptionTrigger"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_storage_image_saved -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_storage_image_saved">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#StoredFileTrigger"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_temperature_drops -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_temperature_drops">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#SensedTemperatureDecreasedTrigge"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_temperature_level"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_temperature_rises -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_temperature_rises">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#SensedTemperatureIncreasedTrigger"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_temperature_level"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_time_every_day_at -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_time_every_day_at">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#EveryDayTrigger"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_hour"/>
+        <name xml:lang="it">Ogni Giorno Alle</name>
+        <eupont:description xml:lang="it">Questo Evento scatta ogni giorno all&apos;ora specificata</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_time_every_month_at -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_time_every_month_at">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#EveryMonthTrigger"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_day_of_month"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_hour"/>
+        <name xml:lang="it">Ogni Mese Il</name>
+        <eupont:description xml:lang="it">Questo Evento scatta ogni mese al giorno e all&apos;ora specificata</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_time_every_week_at -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_time_every_week_at">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#EveryWeekTrigger"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_day_of_week"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_hour"/>
+        <name xml:lang="it">Ogni Settimana Al</name>
+        <eupont:description xml:lang="it">Questo Evento scatta ogni settimana al giorno e all&apos;ora specificata</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_time_every_year_at -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_time_every_year_at">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#EveryYearTrigger"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_day_of_month"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_hour"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_month"/>
+        <name xml:lang="it">Ogni Anno Il</name>
+        <eupont:description xml:lang="it">Questo Evento scatta ogni anno al mese, giorno, e ora specificata</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_timer_added -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_timer_added">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#AddedTimerTrigger"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_timer_deleted -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_timer_deleted">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#DeletedTimerTrigger"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_vehicle -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_vehicle">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#MoveOnVehicleTrigger"/>
+        <name xml:lang="it">Sono in macchina</name>
+        <eupont:description xml:lang="it">Questo Evento scatta ogni volta che mi muovo in macchina</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_walking -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_walking">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#StartedWalkingSessionTrigger"/>
+        <name xml:lang="it">Sto camminando</name>
+        <eupont:description xml:lang="it">Questo Evento scatta ogni volta che inizi a camminare</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_wifi_connected_to -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_wifi_connected_to">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#ConnectionToNetworkTrigger"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_wifi_network_name"/>
+        <name xml:lang="it">Wifi Connesso</name>
+        <eupont:description xml:lang="it">Questo Evento scatta ogni volta che il WiFi si connette a una rete</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_wifi_disabled -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_wifi_disabled">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#DisabledInternetConnectivityTrigger"/>
+        <name xml:lang="it">WiFi Disabilitato</name>
+        <eupont:description xml:lang="it">Questo Evento scatta ogni volta che disabiliti il WiFi</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_wifi_disconnected_from -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_wifi_disconnected_from">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#DisconnectedFromNetworkTrigger"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_wifi_network_name"/>
+        <name xml:lang="it">WiFi Disconnesso</name>
+        <eupont:description xml:lang="it">Questo Evento scatta ogni volta che il WiFi si disconnette da una rete WiFi</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_wifi_enabled -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_wifi_enabled">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#EnabledInternetConnectivityTrigger"/>
+        <name xml:lang="it">WiFi Abilitato</name>
+        <eupont:description xml:lang="it">Questo Evento scatta ogni volta che abiliti il WiFi</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_wifi_scan -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_android_wifi_scan">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#ScanWifiTrigger"/>
+        <name xml:lang="it">WiFi Scan</name>
+        <eupont:description xml:lang="it">Questo Evento scatta ogni volta che inizi una ricerca delle reti WiFi</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_dropbox_document_added -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_dropbox_document_added">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#StoredFileTrigger"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_dropbox_document_updated -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_dropbox_document_updated">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#StoredFileTrigger"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_dropbox_photo_added -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_dropbox_photo_added">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#StoredFileTrigger"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_facebook_new_link_post -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_facebook_new_link_post">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#SharedPostTrigger"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_facebook_hashtag"/>
+        <name xml:lang="it">Nuovo Post con Link</name>
+        <eupont:description xml:lang="it">Questo Evento scatta ogni volta che pubblichi un post su Facebook con un link</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_facebook_new_photo_post -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_facebook_new_photo_post">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#SharedPostTrigger"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_facebook_hashtag"/>
+        <name xml:lang="it">Nuovo Post con Foto</name>
+        <eupont:description xml:lang="it">Questo Evento scatta ogni volta che pubblichi un post su Facebook con una foto</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_facebook_new_post -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_facebook_new_post">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#SharedPostTrigger"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_facebook_hashtag"/>
+        <name xml:lang="it">Nuovo Post</name>
+        <eupont:description xml:lang="it">Questo Evento scatta ogni volta che pubblichi un post su Facebook</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_facebook_new_video_post -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_facebook_new_video_post">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#SharedPostTrigger"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_facebook_hashtag"/>
+        <name xml:lang="it">Nuovo Post con Video</name>
+        <eupont:description xml:lang="it">Questo Evento scatta ogni volta che pubblichi un post su Facebook con un video</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_facebook_private_message_received -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_facebook_private_message_received">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#ReceivedMessageTrigger"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_facebook_contact"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_facebook_string"/>
+        <name xml:lang="it">Nuovo Messaggio Privato</name>
+        <eupont:description xml:lang="it">Questo Evento scatta ogni volta che ricevi un messaggio privato su Facebook</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_facebook_private_message_sent -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_facebook_private_message_sent">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#SentMessageTrigger"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_facebook_contact"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_facebook_string"/>
+        <name xml:lang="it">Messaggio Privato Inviato</name>
+        <eupont:description xml:lang="it">Questo Evento scatta ogni volta che invii un messaggio privato su Facebook</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_gmail_received -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_gmail_received">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#ReceivedMessageTrigger"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_gmail_contact"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_gmail_string"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_gmail_received_attachment -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_gmail_received_attachment">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#ReceivedAttachmentTrigger"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_gmail_contact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_gmail_sent -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_gmail_sent">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#SentMessageTrigger"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_gmail_contact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_google_caledar_event_added -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_google_caledar_event_added">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#AddedCalendarItemTrigger"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_google_calendar_event_deleted -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_google_calendar_event_deleted">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#DeletedCalendarItemTrigger"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_google_calendar_event_updated -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_google_calendar_event_updated">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#AddedCalendarItemTrigger"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_google_contacts_added -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_google_contacts_added">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#StoredContactTrigger"/>
+        <name xml:lang="it">Contatto Aggiunto</name>
+        <eupont:description xml:lang="it">Questo Evento scatta ogni volta che aggiungi un numero in rubrica</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_google_contacts_deleted -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_google_contacts_deleted">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#DeletedContactTrigger"/>
+        <name xml:lang="it">Contatto Eliminato</name>
+        <eupont:description xml:lang="it">Questo Evento scatta ogni volta che elimini un contatto dalla rubrica</eupont:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_google_detected_activity_stop_cycling -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_google_detected_activity_stop_cycling">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#StoppedBikeSessionTrigger"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_google_detected_activity_stop_running -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_google_detected_activity_stop_running">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#StoppedRunSessionTrigger"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_google_detected_activity_stop_walking -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_google_detected_activity_stop_walking">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#StoppedWalkingSessionTrigger"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_google_drive_document_added -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_google_drive_document_added">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#StoredFileTrigger"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_google_drive_document_updated -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_google_drive_document_updated">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#StoredFileTrigger"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_google_drive_photo_added -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_google_drive_photo_added">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#StoredFileTrigger"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_google_news_available -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_google_news_available">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#ReceivedBreakingNewsTrigger"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_google_news_available_from_search -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_google_news_available_from_search">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#ReceivedBreakingNewsTrigger"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_google_search_string"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_instagram_new_link_post -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_instagram_new_link_post">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#SharedPostTrigger"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_instagram_hashtag"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_instagram_new_photo_post -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_instagram_new_photo_post">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#SharedPostTrigger"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_instagram_hashtag"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_instagram_new_post -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_instagram_new_post">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#SharedPostTrigger"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_instagram_hashtag"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_instagram_new_video_post -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_instagram_new_video_post">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#SharedPostTrigger"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_instagram_hashtag"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_instagram_private_message_received -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_instagram_private_message_received">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#ReceivedMessageTrigger"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_instagram_contact"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_instagram_string"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_instagram_private_message_sent -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_instagram_private_message_sent">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#SentMessageTrigger"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_instagram_contact"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_instagram_string"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_telegram_received -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_telegram_received">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#ReceivedMessageTrigger"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_telegram_contact"/>
+        <eupont:offerTrigger rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_telegram_string"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_telegram_received_audio -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_telegram_received_audio">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#ReceivedAttachmentTrigger"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_telegram_contact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_telegram_received_photo -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_telegram_received_photo">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#ReceivedAttachmentTrigger"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_telegram_contact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_telegram_received_video -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_telegram_received_video">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#ReceivedAttachmentTrigger"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_telegram_contact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_telegram_sent -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_telegram_sent">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#SentMessageTrigger"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_android_string"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_social_contact_name"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_twitter_new_link_post -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_twitter_new_link_post">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#SharedPostTrigger"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_twitter_hashtag"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_twitter_new_photo_post -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_twitter_new_photo_post">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#SharedPostTrigger"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_twitter_hashtag"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_twitter_new_post -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_twitter_new_post">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#SharedPostTrigger"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_twitter_hashtag"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_twitter_new_video_post -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_twitter_new_video_post">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#SharedPostTrigger"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_twitter_hashtag"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_twitter_private_message_received -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_twitter_private_message_received">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#ReceivedMessageTrigger"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_twitter_contact"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_twitter_string"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_twitter_private_message_sent -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_twitter_private_message_sent">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#SentMessageTrigger"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_twitter_contact"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_twitter_string"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_whatsapp_received -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_whatsapp_received">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#ReceivedMessageTrigger"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_whatsapp_contact"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_whatsapp_string"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_whatsapp_received_audio -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_whatsapp_received_audio">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#ReceivedAttachmentTrigger"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_whatsapp_contact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_whatsapp_received_photo -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_whatsapp_received_photo">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#ReceivedAttachmentTrigger"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_whatsapp_contact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_whatsapp_received_video -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_whatsapp_received_video">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#ReceivedAttachmentTrigger"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_whatsapp_contact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_whatsapp_sent -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/eupont-mobile.owl#trigger_whatsapp_sent">
+        <rdf:type rdf:resource="http://elite.polito.it/ontologies/eupont.owl#SentMessageTrigger"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_whatsapp_contact"/>
+        <eupont:offerDetail rdf:resource="http://elite.polito.it/ontologies/eupont-mobile.owl#detail_whatsapp_string"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
+

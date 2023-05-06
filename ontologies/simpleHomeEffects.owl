@@ -1,0 +1,331 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY effects "http://elite.polito.it/ontologies/effects.owl#" >
+    <!ENTITY simpleHome "http://elite.polito.it/ontologies/simpleHome.owl#" >
+    <!ENTITY simpleHomeEffects "http://elite.polito.it/ontologies/simpleHomeEffects.owl#" >
+]>
+
+
+<rdf:RDF xmlns="http://elite.polito.it/ontologies/simpleHomeEffects.owl#"
+     xml:base="http://elite.polito.it/ontologies/simpleHomeEffects.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:simpleHomeEffects="http://elite.polito.it/ontologies/simpleHomeEffects.owl#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:simpleHome="http://elite.polito.it/ontologies/simpleHome.owl#"
+     xmlns:effects="http://elite.polito.it/ontologies/effects.owl#">
+    <owl:Ontology rdf:about="http://elite.polito.it/ontologies/simpleHomeEffects.owl">
+        <owl:imports rdf:resource="http://elite.polito.it/ontologies/effects.owl"/>
+        <owl:imports rdf:resource="http://elite.polito.it/ontologies/simpleHome.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://elite.polito.it/ontologies/effects.owl#effectOf -->
+
+    <owl:ObjectProperty rdf:about="&effects;effectOf"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/effects.owl#hasOperand -->
+
+    <owl:ObjectProperty rdf:about="&effects;hasOperand"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/effects.owl#hasResult -->
+
+    <owl:ObjectProperty rdf:about="&effects;hasResult"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/effects.owl#operandEffect -->
+
+    <owl:ObjectProperty rdf:about="&effects;operandEffect"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/effects.owl#whenIn -->
+
+    <owl:ObjectProperty rdf:about="&effects;whenIn"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://elite.polito.it/ontologies/effects.owl#AlternateOperator -->
+
+    <owl:Class rdf:about="&effects;AlternateOperator"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/effects.owl#AndOperator -->
+
+    <owl:Class rdf:about="&effects;AndOperator"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/effects.owl#ComplexEffect -->
+
+    <owl:Class rdf:about="&effects;ComplexEffect"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/effects.owl#Operand -->
+
+    <owl:Class rdf:about="&effects;Operand"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/effects.owl#OrOperator -->
+
+    <owl:Class rdf:about="&effects;OrOperator"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/effects.owl#SingleDeviceEffect -->
+
+    <owl:Class rdf:about="&effects;SingleDeviceEffect"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#OnStateValue_lamp2_bath -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;OnStateValue_lamp2_bath"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#OnStateValue_lamp8_bath -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;OnStateValue_lamp8_bath"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#OnStateValue_lamp9_bath -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;OnStateValue_lamp9_bath"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#ShutterActuator_bath -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;ShutterActuator_bath"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#SimpleLamp_lamp2_bath -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;SimpleLamp_lamp2_bath"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#SimpleLamp_lamp8_bath -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;SimpleLamp_lamp8_bath"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#SimpleLamp_lamp9_bath -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;SimpleLamp_lamp9_bath"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#UpTripleStateValue_bathroom -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;UpTripleStateValue_bathroom"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomeEffects.owl#artificiallyIlluminatedBath -->
+
+    <owl:NamedIndividual rdf:about="&simpleHomeEffects;artificiallyIlluminatedBath">
+        <rdf:type rdf:resource="&effects;ComplexEffect"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomeEffects.owl#artificiallyIlluminatedBathOperand -->
+
+    <owl:NamedIndividual rdf:about="&simpleHomeEffects;artificiallyIlluminatedBathOperand">
+        <rdf:type rdf:resource="&effects;Operand"/>
+        <effects:operandEffect rdf:resource="&simpleHomeEffects;artificiallyIlluminatedBath"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomeEffects.owl#artificiallyIlluminatedBathOperator -->
+
+    <owl:NamedIndividual rdf:about="&simpleHomeEffects;artificiallyIlluminatedBathOperator">
+        <rdf:type rdf:resource="&effects;AlternateOperator"/>
+        <effects:hasResult rdf:resource="&simpleHomeEffects;artificiallyIlluminatedBath"/>
+        <effects:hasOperand rdf:resource="&simpleHomeEffects;ceilingLamp2BathOperand"/>
+        <effects:hasOperand rdf:resource="&simpleHomeEffects;mirrorLampsBathOnOperand"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomeEffects.owl#ceilingLamp2BathOn -->
+
+    <owl:NamedIndividual rdf:about="&simpleHomeEffects;ceilingLamp2BathOn">
+        <rdf:type rdf:resource="&effects;SingleDeviceEffect"/>
+        <effects:whenIn rdf:resource="&simpleHome;OnStateValue_lamp2_bath"/>
+        <effects:effectOf rdf:resource="&simpleHome;SimpleLamp_lamp2_bath"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomeEffects.owl#ceilingLamp2BathOperand -->
+
+    <owl:NamedIndividual rdf:about="&simpleHomeEffects;ceilingLamp2BathOperand">
+        <rdf:type rdf:resource="&effects;Operand"/>
+        <effects:operandEffect rdf:resource="&simpleHomeEffects;ceilingLamp2BathOn"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomeEffects.owl#illuminatedBath -->
+
+    <owl:NamedIndividual rdf:about="&simpleHomeEffects;illuminatedBath">
+        <rdf:type rdf:resource="&effects;ComplexEffect"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomeEffects.owl#illuminatedBathOperator -->
+
+    <owl:NamedIndividual rdf:about="&simpleHomeEffects;illuminatedBathOperator">
+        <rdf:type rdf:resource="&effects;OrOperator"/>
+        <effects:hasOperand rdf:resource="&simpleHomeEffects;artificiallyIlluminatedBathOperand"/>
+        <effects:hasResult rdf:resource="&simpleHomeEffects;illuminatedBath"/>
+        <effects:hasOperand rdf:resource="&simpleHomeEffects;shutterBathUpOperand"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomeEffects.owl#mirroLamp8BathOperand -->
+
+    <owl:NamedIndividual rdf:about="&simpleHomeEffects;mirroLamp8BathOperand">
+        <rdf:type rdf:resource="&effects;Operand"/>
+        <effects:operandEffect rdf:resource="&simpleHomeEffects;mirrorLamp8BathOn"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomeEffects.owl#mirrorLamp8BathOn -->
+
+    <owl:NamedIndividual rdf:about="&simpleHomeEffects;mirrorLamp8BathOn">
+        <rdf:type rdf:resource="&effects;SingleDeviceEffect"/>
+        <effects:whenIn rdf:resource="&simpleHome;OnStateValue_lamp8_bath"/>
+        <effects:effectOf rdf:resource="&simpleHome;SimpleLamp_lamp8_bath"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomeEffects.owl#mirrorLamp9BathOn -->
+
+    <owl:NamedIndividual rdf:about="&simpleHomeEffects;mirrorLamp9BathOn">
+        <rdf:type rdf:resource="&effects;SingleDeviceEffect"/>
+        <effects:whenIn rdf:resource="&simpleHome;OnStateValue_lamp9_bath"/>
+        <effects:effectOf rdf:resource="&simpleHome;SimpleLamp_lamp9_bath"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomeEffects.owl#mirrorLamp9BathOperand -->
+
+    <owl:NamedIndividual rdf:about="&simpleHomeEffects;mirrorLamp9BathOperand">
+        <rdf:type rdf:resource="&effects;Operand"/>
+        <effects:operandEffect rdf:resource="&simpleHomeEffects;mirrorLamp9BathOn"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomeEffects.owl#mirrorLampBathAndOperator -->
+
+    <owl:NamedIndividual rdf:about="&simpleHomeEffects;mirrorLampBathAndOperator">
+        <rdf:type rdf:resource="&effects;AndOperator"/>
+        <effects:hasOperand rdf:resource="&simpleHomeEffects;mirroLamp8BathOperand"/>
+        <effects:hasOperand rdf:resource="&simpleHomeEffects;mirrorLamp9BathOperand"/>
+        <effects:hasResult rdf:resource="&simpleHomeEffects;mirrorLampBathOn"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomeEffects.owl#mirrorLampBathOn -->
+
+    <owl:NamedIndividual rdf:about="&simpleHomeEffects;mirrorLampBathOn">
+        <rdf:type rdf:resource="&effects;ComplexEffect"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomeEffects.owl#mirrorLampsBathOnOperand -->
+
+    <owl:NamedIndividual rdf:about="&simpleHomeEffects;mirrorLampsBathOnOperand">
+        <rdf:type rdf:resource="&effects;Operand"/>
+        <effects:operandEffect rdf:resource="&simpleHomeEffects;mirrorLampBathOn"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomeEffects.owl#shutterBathUp -->
+
+    <owl:NamedIndividual rdf:about="&simpleHomeEffects;shutterBathUp">
+        <rdf:type rdf:resource="&effects;SingleDeviceEffect"/>
+        <effects:effectOf rdf:resource="&simpleHome;ShutterActuator_bath"/>
+        <effects:whenIn rdf:resource="&simpleHome;UpTripleStateValue_bathroom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomeEffects.owl#shutterBathUpOperand -->
+
+    <owl:NamedIndividual rdf:about="&simpleHomeEffects;shutterBathUpOperand">
+        <rdf:type rdf:resource="&effects;Operand"/>
+        <effects:operandEffect rdf:resource="&simpleHomeEffects;shutterBathUp"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.0.0.1469) http://owlapi.sourceforge.net -->
+

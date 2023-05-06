@@ -1,0 +1,1641 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY poweront "http://elite.polito.it/ontologies/poweront.owl#" >
+    <!ENTITY simpleHome "http://elite.polito.it/ontologies/simpleHome.owl#" >
+]>
+
+
+<rdf:RDF xmlns="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#"
+     xml:base="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl"
+     xmlns:poweront="http://elite.polito.it/ontologies/poweront.owl#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:simpleHome="http://elite.polito.it/ontologies/simpleHome.owl#">
+    <owl:Ontology rdf:about="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl">
+        <owl:imports rdf:resource="http://elite.polito.it/ontologies/poweront.owl"/>
+        <owl:imports rdf:resource="http://elite.polito.it/ontologies/simpleHome.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://elite.polito.it/ontologies/poweront.owl#consumptionOf -->
+
+    <owl:ObjectProperty rdf:about="&poweront;consumptionOf"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/poweront.owl#nominalConsumptionValue -->
+
+    <owl:ObjectProperty rdf:about="&poweront;nominalConsumptionValue"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/poweront.owl#whenIn -->
+
+    <owl:ObjectProperty rdf:about="&poweront;whenIn"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://elite.polito.it/ontologies/poweront.owl#powerValue -->
+
+    <owl:DatatypeProperty rdf:about="&poweront;powerValue"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://elite.polito.it/ontologies/poweront.owl#PowerConsumptionValue -->
+
+    <owl:Class rdf:about="&poweront;PowerConsumptionValue"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#DoorActuator_d1_bed -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;DoorActuator_d1_bed"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#DoorActuator_d2_bath -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;DoorActuator_d2_bath"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#DoorActuator_d3_lobby_stor -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;DoorActuator_d3_lobby_stor"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#DoorActuator_d4_lobby_ext -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;DoorActuator_d4_lobby_ext"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#DoorActuator_d5_kitchen -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;DoorActuator_d5_kitchen"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#DoorActuator_d6_living -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;DoorActuator_d6_living"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#DoorActuator_d7_kitchen -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;DoorActuator_d7_kitchen"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#DownTripleStateValue_bathroom -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;DownTripleStateValue_bathroom"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#DownTripleStateValue_kitchen -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;DownTripleStateValue_kitchen"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#DownTripleStateValue_sh1 -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;DownTripleStateValue_sh1"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#DownTripleStateValue_sh1_living -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;DownTripleStateValue_sh1_living"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#DownTripleStateValue_sh2 -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;DownTripleStateValue_sh2"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#DownTripleStateValue_sh2_living -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;DownTripleStateValue_sh2_living"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#Lamp_1 -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;Lamp_1"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#Lamp_l1_bedroom -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;Lamp_l1_bedroom"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#OffStateValue_exhaustfan1 -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;OffStateValue_exhaustfan1"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#OffStateValue_fridge1 -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;OffStateValue_fridge1"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#OffStateValue_l1 -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;OffStateValue_l1"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#OffStateValue_lamp2_bath -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;OffStateValue_lamp2_bath"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#OffStateValue_lamp3_storage -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;OffStateValue_lamp3_storage"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#OffStateValue_lamp4_lobby -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;OffStateValue_lamp4_lobby"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#OffStateValue_lamp5_lobby -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;OffStateValue_lamp5_lobby"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#OffStateValue_lamp6_kitchen -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;OffStateValue_lamp6_kitchen"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#OffStateValue_lamp7_livingroom -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;OffStateValue_lamp7_livingroom"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#OffStateValue_lamp8_bath -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;OffStateValue_lamp8_bath"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#OffStateValue_lamp9_bath -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;OffStateValue_lamp9_bath"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#OffStateValue_microwave1 -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;OffStateValue_microwave1"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#OffStateValue_oven1 -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;OffStateValue_oven1"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#OnStateValue_exhaustfan1 -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;OnStateValue_exhaustfan1"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#OnStateValue_fridge1 -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;OnStateValue_fridge1"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#OnStateValue_l1 -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;OnStateValue_l1"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#OnStateValue_lamp2_bath -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;OnStateValue_lamp2_bath"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#OnStateValue_lamp3_storage -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;OnStateValue_lamp3_storage"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#OnStateValue_lamp4_lobby -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;OnStateValue_lamp4_lobby"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#OnStateValue_lamp5_lobby -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;OnStateValue_lamp5_lobby"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#OnStateValue_lamp6_kitchen -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;OnStateValue_lamp6_kitchen"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#OnStateValue_lamp7_livingroom -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;OnStateValue_lamp7_livingroom"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#OnStateValue_lamp8_bath -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;OnStateValue_lamp8_bath"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#OnStateValue_lamp9_bath -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;OnStateValue_lamp9_bath"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#OnStateValue_microwave1 -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;OnStateValue_microwave1"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#OnStateValue_oven1 -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;OnStateValue_oven1"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#RestTripleStateValue_bathroom -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;RestTripleStateValue_bathroom"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#RestTripleStateValue_kitchen -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;RestTripleStateValue_kitchen"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#RestTripleStateValue_sh1 -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;RestTripleStateValue_sh1"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#RestTripleStateValue_sh1_living -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;RestTripleStateValue_sh1_living"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#RestTripleStateValue_sh2 -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;RestTripleStateValue_sh2"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#RestTripleStateValue_sh2_living -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;RestTripleStateValue_sh2_living"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#ShutterActuator_bath -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;ShutterActuator_bath"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#ShutterActuator_kitchen -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;ShutterActuator_kitchen"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#ShutterActuator_sh1_bedroom -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;ShutterActuator_sh1_bedroom"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#ShutterActuator_sh1_living -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;ShutterActuator_sh1_living"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#ShutterActuator_sh2_bedroom -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;ShutterActuator_sh2_bedroom"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#ShutterActuator_sh2_living -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;ShutterActuator_sh2_living"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#Shutter_sh1_bedroom -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;Shutter_sh1_bedroom"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#Shutter_sh2_bedroom -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;Shutter_sh2_bedroom"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#SimpleLamp_lamp2_bath -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;SimpleLamp_lamp2_bath"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#SimpleLamp_lamp3_storage -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;SimpleLamp_lamp3_storage"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#SimpleLamp_lamp4_lobby -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;SimpleLamp_lamp4_lobby"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#SimpleLamp_lamp5_lobby -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;SimpleLamp_lamp5_lobby"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#SimpleLamp_lamp6_kitchen -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;SimpleLamp_lamp6_kitchen"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#SimpleLamp_lamp7_livingroom -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;SimpleLamp_lamp7_livingroom"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#SimpleLamp_lamp8_bath -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;SimpleLamp_lamp8_bath"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#SimpleLamp_lamp9_bath -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;SimpleLamp_lamp9_bath"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#UpTripleStateValue_bathroom -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;UpTripleStateValue_bathroom"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#UpTripleStateValue_kitchen -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;UpTripleStateValue_kitchen"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#UpTripleStateValue_sh1 -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;UpTripleStateValue_sh1"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#UpTripleStateValue_sh1_living -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;UpTripleStateValue_sh1_living"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#UpTripleStateValue_sh2 -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;UpTripleStateValue_sh2"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#UpTripleStateValue_sh2_living -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;UpTripleStateValue_sh2_living"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#WindowActuator_w1_bedroom -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;WindowActuator_w1_bedroom"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#WindowActuator_w2_bedroom -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;WindowActuator_w2_bedroom"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#WindowActuator_w3_bath -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;WindowActuator_w3_bath"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#WindowActuator_w4_kitchen -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;WindowActuator_w4_kitchen"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#WindowActuator_w5_living -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;WindowActuator_w5_living"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#WindowActuator_w6_living -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;WindowActuator_w6_living"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#door1_movingStateValue -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;door1_movingStateValue"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#door1_notMovingStateValue -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;door1_notMovingStateValue"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#door2_movingStateValue -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;door2_movingStateValue"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#door2_notMovingStateValue -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;door2_notMovingStateValue"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#door3_movingStateValue -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;door3_movingStateValue"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#door3_notMovingStateValue -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;door3_notMovingStateValue"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#door4_movingStateValue -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;door4_movingStateValue"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#door4_notMovingStateValue -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;door4_notMovingStateValue"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#door5_movingStateValue -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;door5_movingStateValue"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#door5_notMovingStateValue -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;door5_notMovingStateValue"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#door6_movingStateValue -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;door6_movingStateValue"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#door6_notMovingStateValue -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;door6_notMovingStateValue"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#door7_movingStateValue -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;door7_movingStateValue"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#door7_notMovingStateValue -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;door7_notMovingStateValue"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#exhaustfan1 -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;exhaustfan1"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#fridge1 -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;fridge1"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#microwave1 -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;microwave1"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#oven1 -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;oven1"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#shutter1_loweringStateValue -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;shutter1_loweringStateValue"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#shutter1_movingStateValue -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;shutter1_movingStateValue"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#shutter1_raisingStateValue -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;shutter1_raisingStateValue"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#shutter2_loweringStateValue -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;shutter2_loweringStateValue"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#shutter2_movingStateValue -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;shutter2_movingStateValue"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#shutter2_raisingStateValue -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;shutter2_raisingStateValue"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#shutter3_loweringStateValue -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;shutter3_loweringStateValue"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#shutter3_movingStateValue -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;shutter3_movingStateValue"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#shutter3_raisingStateValue -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;shutter3_raisingStateValue"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#shutter4_loweringStateValue -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;shutter4_loweringStateValue"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#shutter4_movingStateValue -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;shutter4_movingStateValue"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#shutter4_raisingStateValue -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;shutter4_raisingStateValue"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#shutter5_loweringStateValue -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;shutter5_loweringStateValue"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#shutter5_movingStateValue -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;shutter5_movingStateValue"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#shutter5_raisingStateValue -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;shutter5_raisingStateValue"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#shutter6_loweringStateValue -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;shutter6_loweringStateValue"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#shutter6_movingStateValue -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;shutter6_movingStateValue"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#shutter6_raisingStateValue -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;shutter6_raisingStateValue"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#window1_movingStateValue -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;window1_movingStateValue"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#window1_notMovingStateValue -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;window1_notMovingStateValue"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#window2_movingStateValue -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;window2_movingStateValue"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#window2_notMovingStateValue -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;window2_notMovingStateValue"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#window3_movingStateValue -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;window3_movingStateValue"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#window3_notMovingStateValue -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;window3_notMovingStateValue"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#window4_movingStateValue -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;window4_movingStateValue"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#window4_notMovingStateValue -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;window4_notMovingStateValue"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#window5_movingStateValue -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;window5_movingStateValue"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#window5_notMovingStateValue -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;window5_notMovingStateValue"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#window6_movingStateValue -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;window6_movingStateValue"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHome.owl#window6_notMovingStateValue -->
+
+    <owl:NamedIndividual rdf:about="&simpleHome;window6_notMovingStateValue"/>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#dooractuator1_bedroom_movingconsumption -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#dooractuator1_bedroom_movingconsumption">
+        <rdf:type rdf:resource="&poweront;ElectricPowerConsumption"/>
+        <poweront:typicalConsumptionValue rdf:resource="&poweront;doorActuatorTypicalConsumptionValue"/>
+        <poweront:consumptionOf rdf:resource="&simpleHome;DoorActuator_d1_bed"/>
+        <poweront:whenIn rdf:resource="&simpleHome;door1_movingStateValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#dooractuator1_bedroom_notmovingconsumption -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#dooractuator1_bedroom_notmovingconsumption">
+        <rdf:type rdf:resource="&poweront;ElectricPowerConsumption"/>
+        <poweront:typicalConsumptionValue rdf:resource="&poweront;zeroValue"/>
+        <poweront:consumptionOf rdf:resource="&simpleHome;DoorActuator_d1_bed"/>
+        <poweront:whenIn rdf:resource="&simpleHome;door1_notMovingStateValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#dooractuator2_bath_notmovingconsumption -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#dooractuator2_bath_notmovingconsumption">
+        <rdf:type rdf:resource="&poweront;ElectricPowerConsumption"/>
+        <poweront:typicalConsumptionValue rdf:resource="&poweront;zeroValue"/>
+        <poweront:consumptionOf rdf:resource="&simpleHome;DoorActuator_d2_bath"/>
+        <poweront:whenIn rdf:resource="&simpleHome;door2_notMovingStateValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#dooractuator2_bathroom_movingconsumption -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#dooractuator2_bathroom_movingconsumption">
+        <rdf:type rdf:resource="&poweront;ElectricPowerConsumption"/>
+        <poweront:typicalConsumptionValue rdf:resource="&poweront;doorActuatorTypicalConsumptionValue"/>
+        <poweront:consumptionOf rdf:resource="&simpleHome;DoorActuator_d2_bath"/>
+        <poweront:whenIn rdf:resource="&simpleHome;door2_movingStateValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#dooractuator3_lobby_stor_notmovingconsumption -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#dooractuator3_lobby_stor_notmovingconsumption">
+        <rdf:type rdf:resource="&poweront;ElectricPowerConsumption"/>
+        <poweront:typicalConsumptionValue rdf:resource="&poweront;zeroValue"/>
+        <poweront:consumptionOf rdf:resource="&simpleHome;DoorActuator_d3_lobby_stor"/>
+        <poweront:whenIn rdf:resource="&simpleHome;door3_notMovingStateValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#dooractuator3_storageroom_movingconsumption -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#dooractuator3_storageroom_movingconsumption">
+        <rdf:type rdf:resource="&poweront;ElectricPowerConsumption"/>
+        <poweront:typicalConsumptionValue rdf:resource="&poweront;doorActuatorTypicalConsumptionValue"/>
+        <poweront:consumptionOf rdf:resource="&simpleHome;DoorActuator_d3_lobby_stor"/>
+        <poweront:whenIn rdf:resource="&simpleHome;door3_movingStateValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#dooractuator4_lobby_ext_notmovingconsumption -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#dooractuator4_lobby_ext_notmovingconsumption">
+        <rdf:type rdf:resource="&poweront;ElectricPowerConsumption"/>
+        <poweront:typicalConsumptionValue rdf:resource="&poweront;zeroValue"/>
+        <poweront:consumptionOf rdf:resource="&simpleHome;DoorActuator_d4_lobby_ext"/>
+        <poweront:whenIn rdf:resource="&simpleHome;door4_notMovingStateValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#dooractuator4_lobby_movingconsumption -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#dooractuator4_lobby_movingconsumption">
+        <rdf:type rdf:resource="&poweront;ElectricPowerConsumption"/>
+        <poweront:typicalConsumptionValue rdf:resource="&poweront;doorActuatorTypicalConsumptionValue"/>
+        <poweront:consumptionOf rdf:resource="&simpleHome;DoorActuator_d4_lobby_ext"/>
+        <poweront:whenIn rdf:resource="&simpleHome;door4_movingStateValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#dooractuator5_kitchen_movingconsumption -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#dooractuator5_kitchen_movingconsumption">
+        <rdf:type rdf:resource="&poweront;ElectricPowerConsumption"/>
+        <poweront:typicalConsumptionValue rdf:resource="&poweront;doorActuatorTypicalConsumptionValue"/>
+        <poweront:consumptionOf rdf:resource="&simpleHome;DoorActuator_d5_kitchen"/>
+        <poweront:whenIn rdf:resource="&simpleHome;door5_movingStateValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#dooractuator5_kitchen_notmovingconsumption -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#dooractuator5_kitchen_notmovingconsumption">
+        <rdf:type rdf:resource="&poweront;ElectricPowerConsumption"/>
+        <poweront:typicalConsumptionValue rdf:resource="&poweront;zeroValue"/>
+        <poweront:consumptionOf rdf:resource="&simpleHome;DoorActuator_d5_kitchen"/>
+        <poweront:whenIn rdf:resource="&simpleHome;door5_notMovingStateValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#dooractuator6_living_notmovingconsumption -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#dooractuator6_living_notmovingconsumption">
+        <rdf:type rdf:resource="&poweront;ElectricPowerConsumption"/>
+        <poweront:typicalConsumptionValue rdf:resource="&poweront;zeroValue"/>
+        <poweront:consumptionOf rdf:resource="&simpleHome;DoorActuator_d6_living"/>
+        <poweront:whenIn rdf:resource="&simpleHome;door6_notMovingStateValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#dooractuator6_livingroom_movingconsumption -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#dooractuator6_livingroom_movingconsumption">
+        <rdf:type rdf:resource="&poweront;ElectricPowerConsumption"/>
+        <poweront:typicalConsumptionValue rdf:resource="&poweront;doorActuatorTypicalConsumptionValue"/>
+        <poweront:consumptionOf rdf:resource="&simpleHome;DoorActuator_d6_living"/>
+        <poweront:whenIn rdf:resource="&simpleHome;door6_movingStateValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#dooractuator7_kitchen_notmovingconsumption -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#dooractuator7_kitchen_notmovingconsumption">
+        <rdf:type rdf:resource="&poweront;ElectricPowerConsumption"/>
+        <poweront:typicalConsumptionValue rdf:resource="&poweront;zeroValue"/>
+        <poweront:consumptionOf rdf:resource="&simpleHome;DoorActuator_d7_kitchen"/>
+        <poweront:whenIn rdf:resource="&simpleHome;door7_notMovingStateValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#dooractuator7_livingroom_movingconsumption -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#dooractuator7_livingroom_movingconsumption">
+        <rdf:type rdf:resource="&poweront;ElectricPowerConsumption"/>
+        <poweront:typicalConsumptionValue rdf:resource="&poweront;doorActuatorTypicalConsumptionValue"/>
+        <poweront:consumptionOf rdf:resource="&simpleHome;DoorActuator_d7_kitchen"/>
+        <poweront:whenIn rdf:resource="&simpleHome;door7_movingStateValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#exhaustfan1_kitchen_offconsumption -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#exhaustfan1_kitchen_offconsumption">
+        <rdf:type rdf:resource="&poweront;ElectricPowerConsumption"/>
+        <poweront:typicalConsumptionValue rdf:resource="&poweront;zeroValue"/>
+        <poweront:whenIn rdf:resource="&simpleHome;OffStateValue_exhaustfan1"/>
+        <poweront:consumptionOf rdf:resource="&simpleHome;exhaustfan1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#exhaustfan1_kitchen_onconsumption -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#exhaustfan1_kitchen_onconsumption">
+        <rdf:type rdf:resource="&poweront;ElectricPowerConsumption"/>
+        <poweront:typicalConsumptionValue rdf:resource="&poweront;fanCeilingTypicalConsumptionValue"/>
+        <poweront:whenIn rdf:resource="&simpleHome;OnStateValue_exhaustfan1"/>
+        <poweront:consumptionOf rdf:resource="&simpleHome;exhaustfan1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#fridge1_kitchen_offconsumption -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#fridge1_kitchen_offconsumption">
+        <rdf:type rdf:resource="&poweront;ElectricPowerConsumption"/>
+        <poweront:typicalConsumptionValue rdf:resource="&poweront;zeroValue"/>
+        <poweront:whenIn rdf:resource="&simpleHome;OffStateValue_fridge1"/>
+        <poweront:consumptionOf rdf:resource="&simpleHome;fridge1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#fridge1_kitchen_onconsumption -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#fridge1_kitchen_onconsumption">
+        <rdf:type rdf:resource="&poweront;ElectricPowerConsumption"/>
+        <poweront:typicalConsumptionValue rdf:resource="&poweront;refrigerator12ftTypicalConsumptionValue"/>
+        <poweront:whenIn rdf:resource="&simpleHome;OnStateValue_fridge1"/>
+        <poweront:consumptionOf rdf:resource="&simpleHome;fridge1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#lamp1_bedroom_offconsumption -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#lamp1_bedroom_offconsumption">
+        <rdf:type rdf:resource="&poweront;ElectricPowerConsumption"/>
+        <poweront:typicalConsumptionValue rdf:resource="&poweront;zeroValue"/>
+        <poweront:consumptionOf rdf:resource="&simpleHome;Lamp_l1_bedroom"/>
+        <poweront:whenIn rdf:resource="&simpleHome;OffStateValue_l1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#lamp1_bedroom_onconsumption -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#lamp1_bedroom_onconsumption">
+        <rdf:type rdf:resource="&poweront;ElectricPowerConsumption"/>
+        <poweront:typicalConsumptionValue rdf:resource="&poweront;lampOnTypicalConsumptionValue"/>
+        <poweront:consumptionOf rdf:resource="&simpleHome;Lamp_l1_bedroom"/>
+        <poweront:whenIn rdf:resource="&simpleHome;OnStateValue_l1"/>
+        <poweront:nominalConsumptionValue rdf:resource="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#wLampConsumptionValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#lamp2_bathroom_offconsumption -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#lamp2_bathroom_offconsumption">
+        <rdf:type rdf:resource="&poweront;ElectricPowerConsumption"/>
+        <poweront:typicalConsumptionValue rdf:resource="&poweront;zeroValue"/>
+        <poweront:whenIn rdf:resource="&simpleHome;OffStateValue_lamp2_bath"/>
+        <poweront:consumptionOf rdf:resource="&simpleHome;SimpleLamp_lamp2_bath"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#lamp2_bathroom_onconsumption -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#lamp2_bathroom_onconsumption">
+        <rdf:type rdf:resource="&poweront;ElectricPowerConsumption"/>
+        <poweront:typicalConsumptionValue rdf:resource="&poweront;lampOnTypicalConsumptionValue"/>
+        <poweront:whenIn rdf:resource="&simpleHome;OnStateValue_lamp2_bath"/>
+        <poweront:consumptionOf rdf:resource="&simpleHome;SimpleLamp_lamp2_bath"/>
+        <poweront:nominalConsumptionValue rdf:resource="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#wLampConsumptionValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#lamp3_storageroom_offconsumption -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#lamp3_storageroom_offconsumption">
+        <rdf:type rdf:resource="&poweront;ElectricPowerConsumption"/>
+        <poweront:typicalConsumptionValue rdf:resource="&poweront;zeroValue"/>
+        <poweront:whenIn rdf:resource="&simpleHome;OffStateValue_lamp3_storage"/>
+        <poweront:consumptionOf rdf:resource="&simpleHome;SimpleLamp_lamp3_storage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#lamp3_storageroom_onconsumption -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#lamp3_storageroom_onconsumption">
+        <rdf:type rdf:resource="&poweront;ElectricPowerConsumption"/>
+        <poweront:typicalConsumptionValue rdf:resource="&poweront;lampOnTypicalConsumptionValue"/>
+        <poweront:whenIn rdf:resource="&simpleHome;OnStateValue_lamp3_storage"/>
+        <poweront:consumptionOf rdf:resource="&simpleHome;SimpleLamp_lamp3_storage"/>
+        <poweront:nominalConsumptionValue rdf:resource="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#wLampConsumptionValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#lamp4_lobby_offconsumption -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#lamp4_lobby_offconsumption">
+        <rdf:type rdf:resource="&poweront;ElectricPowerConsumption"/>
+        <poweront:typicalConsumptionValue rdf:resource="&poweront;zeroValue"/>
+        <poweront:whenIn rdf:resource="&simpleHome;OffStateValue_lamp4_lobby"/>
+        <poweront:consumptionOf rdf:resource="&simpleHome;SimpleLamp_lamp4_lobby"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#lamp4_lobby_onconsumption -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#lamp4_lobby_onconsumption">
+        <rdf:type rdf:resource="&poweront;ElectricPowerConsumption"/>
+        <poweront:typicalConsumptionValue rdf:resource="&poweront;lampOnTypicalConsumptionValue"/>
+        <poweront:whenIn rdf:resource="&simpleHome;OnStateValue_lamp4_lobby"/>
+        <poweront:consumptionOf rdf:resource="&simpleHome;SimpleLamp_lamp4_lobby"/>
+        <poweront:nominalConsumptionValue rdf:resource="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#wLampConsumptionValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#lamp5_lobby_offconsumption -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#lamp5_lobby_offconsumption">
+        <rdf:type rdf:resource="&poweront;ElectricPowerConsumption"/>
+        <poweront:typicalConsumptionValue rdf:resource="&poweront;zeroValue"/>
+        <poweront:whenIn rdf:resource="&simpleHome;OffStateValue_lamp5_lobby"/>
+        <poweront:consumptionOf rdf:resource="&simpleHome;SimpleLamp_lamp5_lobby"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#lamp5_lobby_onconsumption -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#lamp5_lobby_onconsumption">
+        <rdf:type rdf:resource="&poweront;ElectricPowerConsumption"/>
+        <poweront:typicalConsumptionValue rdf:resource="&poweront;lampOnTypicalConsumptionValue"/>
+        <poweront:whenIn rdf:resource="&simpleHome;OnStateValue_lamp5_lobby"/>
+        <poweront:consumptionOf rdf:resource="&simpleHome;SimpleLamp_lamp5_lobby"/>
+        <poweront:nominalConsumptionValue rdf:resource="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#wLampConsumptionValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#lamp6_kitchen_offconsumption -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#lamp6_kitchen_offconsumption">
+        <rdf:type rdf:resource="&poweront;ElectricPowerConsumption"/>
+        <poweront:typicalConsumptionValue rdf:resource="&poweront;zeroValue"/>
+        <poweront:whenIn rdf:resource="&simpleHome;OffStateValue_lamp6_kitchen"/>
+        <poweront:consumptionOf rdf:resource="&simpleHome;SimpleLamp_lamp6_kitchen"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#lamp6_kitchen_onconsumption -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#lamp6_kitchen_onconsumption">
+        <rdf:type rdf:resource="&poweront;ElectricPowerConsumption"/>
+        <poweront:typicalConsumptionValue rdf:resource="&poweront;lampOnTypicalConsumptionValue"/>
+        <poweront:whenIn rdf:resource="&simpleHome;OnStateValue_lamp6_kitchen"/>
+        <poweront:consumptionOf rdf:resource="&simpleHome;SimpleLamp_lamp6_kitchen"/>
+        <poweront:nominalConsumptionValue rdf:resource="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#wLampConsumptionValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#lamp7_living_room_onconsumption -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#lamp7_living_room_onconsumption">
+        <rdf:type rdf:resource="&poweront;ElectricPowerConsumption"/>
+        <poweront:typicalConsumptionValue rdf:resource="&poweront;lampOnTypicalConsumptionValue"/>
+        <poweront:whenIn rdf:resource="&simpleHome;OnStateValue_lamp7_livingroom"/>
+        <poweront:consumptionOf rdf:resource="&simpleHome;SimpleLamp_lamp7_livingroom"/>
+        <poweront:nominalConsumptionValue rdf:resource="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#wLampConsumptionValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#lamp7_livingroom_offconsumption -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#lamp7_livingroom_offconsumption">
+        <rdf:type rdf:resource="&poweront;ElectricPowerConsumption"/>
+        <poweront:typicalConsumptionValue rdf:resource="&poweront;zeroValue"/>
+        <poweront:whenIn rdf:resource="&simpleHome;OffStateValue_lamp7_livingroom"/>
+        <poweront:consumptionOf rdf:resource="&simpleHome;SimpleLamp_lamp7_livingroom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#lamp8_mirror_bathroom_offconsumption -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#lamp8_mirror_bathroom_offconsumption">
+        <rdf:type rdf:resource="&poweront;ElectricPowerConsumption"/>
+        <poweront:typicalConsumptionValue rdf:resource="&poweront;zeroValue"/>
+        <poweront:whenIn rdf:resource="&simpleHome;OffStateValue_lamp8_bath"/>
+        <poweront:consumptionOf rdf:resource="&simpleHome;SimpleLamp_lamp8_bath"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#lamp8_mirror_bathroom_onconsumption -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#lamp8_mirror_bathroom_onconsumption">
+        <rdf:type rdf:resource="&poweront;ElectricPowerConsumption"/>
+        <poweront:typicalConsumptionValue rdf:resource="&poweront;lampOnTypicalConsumptionValue"/>
+        <poweront:whenIn rdf:resource="&simpleHome;OnStateValue_lamp8_bath"/>
+        <poweront:consumptionOf rdf:resource="&simpleHome;SimpleLamp_lamp8_bath"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#lamp9_mirror_bathroom_offconsumption -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#lamp9_mirror_bathroom_offconsumption">
+        <rdf:type rdf:resource="&poweront;ElectricPowerConsumption"/>
+        <poweront:typicalConsumptionValue rdf:resource="&poweront;zeroValue"/>
+        <poweront:whenIn rdf:resource="&simpleHome;OffStateValue_lamp9_bath"/>
+        <poweront:consumptionOf rdf:resource="&simpleHome;SimpleLamp_lamp9_bath"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#lamp9_mirror_bathroom_onconsumption -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#lamp9_mirror_bathroom_onconsumption">
+        <rdf:type rdf:resource="&poweront;ElectricPowerConsumption"/>
+        <poweront:typicalConsumptionValue rdf:resource="&poweront;lampOnTypicalConsumptionValue"/>
+        <poweront:whenIn rdf:resource="&simpleHome;OnStateValue_lamp9_bath"/>
+        <poweront:consumptionOf rdf:resource="&simpleHome;SimpleLamp_lamp9_bath"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#microwave1_kitchen_offconsumption -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#microwave1_kitchen_offconsumption">
+        <rdf:type rdf:resource="&poweront;ElectricPowerConsumption"/>
+        <poweront:typicalConsumptionValue rdf:resource="&poweront;zeroValue"/>
+        <poweront:whenIn rdf:resource="&simpleHome;OffStateValue_microwave1"/>
+        <poweront:consumptionOf rdf:resource="&simpleHome;microwave1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#microwave1_kitchen_onconsumption -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#microwave1_kitchen_onconsumption">
+        <rdf:type rdf:resource="&poweront;ElectricPowerConsumption"/>
+        <poweront:typicalConsumptionValue rdf:resource="&poweront;ovenMicrowaveTypicalConsumptionValue"/>
+        <poweront:whenIn rdf:resource="&simpleHome;OnStateValue_microwave1"/>
+        <poweront:consumptionOf rdf:resource="&simpleHome;microwave1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#oven1_kitchen_offconsumption -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#oven1_kitchen_offconsumption">
+        <rdf:type rdf:resource="&poweront;ElectricPowerConsumption"/>
+        <poweront:typicalConsumptionValue rdf:resource="&poweront;zeroValue"/>
+        <poweront:whenIn rdf:resource="&simpleHome;OffStateValue_oven1"/>
+        <poweront:consumptionOf rdf:resource="&simpleHome;oven1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#oven1_kitchen_onconsumption -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#oven1_kitchen_onconsumption">
+        <rdf:type rdf:resource="&poweront;ElectricPowerConsumption"/>
+        <poweront:typicalConsumptionValue rdf:resource="&poweront;ovenConvectionTypicalConsumptionValue"/>
+        <poweront:whenIn rdf:resource="&simpleHome;OnStateValue_oven1"/>
+        <poweront:consumptionOf rdf:resource="&simpleHome;oven1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#shutteractuator1_bedroom_lowering_consumption -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#shutteractuator1_bedroom_lowering_consumption">
+        <rdf:type rdf:resource="&poweront;ElectricPowerConsumption"/>
+        <poweront:typicalConsumptionValue rdf:resource="&poweront;shutterMotorTypicalConsumptionValue"/>
+        <poweront:consumptionOf rdf:resource="&simpleHome;ShutterActuator_sh1_bedroom"/>
+        <poweront:whenIn rdf:resource="&simpleHome;shutter1_loweringStateValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#shutteractuator1_bedroom_raising_consumption -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#shutteractuator1_bedroom_raising_consumption">
+        <rdf:type rdf:resource="&poweront;ElectricPowerConsumption"/>
+        <poweront:typicalConsumptionValue rdf:resource="&poweront;shutterMotorTypicalConsumptionValue"/>
+        <poweront:consumptionOf rdf:resource="&simpleHome;ShutterActuator_sh1_bedroom"/>
+        <poweront:whenIn rdf:resource="&simpleHome;shutter1_raisingStateValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#shutteractuator1_bedroom_updownrest_consumption -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#shutteractuator1_bedroom_updownrest_consumption">
+        <rdf:type rdf:resource="&poweront;ElectricPowerConsumption"/>
+        <poweront:typicalConsumptionValue rdf:resource="&poweront;zeroValue"/>
+        <poweront:whenIn rdf:resource="&simpleHome;DownTripleStateValue_sh1"/>
+        <poweront:whenIn rdf:resource="&simpleHome;RestTripleStateValue_sh1"/>
+        <poweront:consumptionOf rdf:resource="&simpleHome;ShutterActuator_sh1_bedroom"/>
+        <poweront:whenIn rdf:resource="&simpleHome;UpTripleStateValue_sh1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#shutteractuator2_bedroom_lowering_consumption -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#shutteractuator2_bedroom_lowering_consumption">
+        <rdf:type rdf:resource="&poweront;ElectricPowerConsumption"/>
+        <poweront:typicalConsumptionValue rdf:resource="&poweront;shutterMotorTypicalConsumptionValue"/>
+        <poweront:consumptionOf rdf:resource="&simpleHome;ShutterActuator_sh2_bedroom"/>
+        <poweront:whenIn rdf:resource="&simpleHome;shutter2_loweringStateValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#shutteractuator2_bedroom_raising_consumption -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#shutteractuator2_bedroom_raising_consumption">
+        <rdf:type rdf:resource="&poweront;ElectricPowerConsumption"/>
+        <poweront:typicalConsumptionValue rdf:resource="&poweront;shutterMotorTypicalConsumptionValue"/>
+        <poweront:consumptionOf rdf:resource="&simpleHome;ShutterActuator_sh2_bedroom"/>
+        <poweront:whenIn rdf:resource="&simpleHome;shutter2_raisingStateValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#shutteractuator2_bedroom_updownrest_consumption -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#shutteractuator2_bedroom_updownrest_consumption">
+        <rdf:type rdf:resource="&poweront;ElectricPowerConsumption"/>
+        <poweront:typicalConsumptionValue rdf:resource="&poweront;zeroValue"/>
+        <poweront:whenIn rdf:resource="&simpleHome;DownTripleStateValue_sh2"/>
+        <poweront:whenIn rdf:resource="&simpleHome;RestTripleStateValue_sh2"/>
+        <poweront:consumptionOf rdf:resource="&simpleHome;ShutterActuator_sh2_bedroom"/>
+        <poweront:whenIn rdf:resource="&simpleHome;UpTripleStateValue_sh2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#shutteractuator3_bath_updownrest_consumption -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#shutteractuator3_bath_updownrest_consumption">
+        <rdf:type rdf:resource="&poweront;ElectricPowerConsumption"/>
+        <poweront:typicalConsumptionValue rdf:resource="&poweront;zeroValue"/>
+        <poweront:whenIn rdf:resource="&simpleHome;DownTripleStateValue_bathroom"/>
+        <poweront:whenIn rdf:resource="&simpleHome;RestTripleStateValue_bathroom"/>
+        <poweront:consumptionOf rdf:resource="&simpleHome;ShutterActuator_bath"/>
+        <poweront:whenIn rdf:resource="&simpleHome;UpTripleStateValue_bathroom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#shutteractuator3_bathroom_lowering_consumption -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#shutteractuator3_bathroom_lowering_consumption">
+        <rdf:type rdf:resource="&poweront;ElectricPowerConsumption"/>
+        <poweront:typicalConsumptionValue rdf:resource="&poweront;shutterMotorTypicalConsumptionValue"/>
+        <poweront:consumptionOf rdf:resource="&simpleHome;ShutterActuator_bath"/>
+        <poweront:whenIn rdf:resource="&simpleHome;shutter3_loweringStateValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#shutteractuator3_bathroom_raising_consumption -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#shutteractuator3_bathroom_raising_consumption">
+        <rdf:type rdf:resource="&poweront;ElectricPowerConsumption"/>
+        <poweront:typicalConsumptionValue rdf:resource="&poweront;shutterMotorTypicalConsumptionValue"/>
+        <poweront:consumptionOf rdf:resource="&simpleHome;ShutterActuator_bath"/>
+        <poweront:whenIn rdf:resource="&simpleHome;shutter3_raisingStateValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#shutteractuator4_kitchen_lowering_consumption -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#shutteractuator4_kitchen_lowering_consumption">
+        <rdf:type rdf:resource="&poweront;ElectricPowerConsumption"/>
+        <poweront:typicalConsumptionValue rdf:resource="&poweront;shutterMotorTypicalConsumptionValue"/>
+        <poweront:consumptionOf rdf:resource="&simpleHome;ShutterActuator_kitchen"/>
+        <poweront:whenIn rdf:resource="&simpleHome;shutter4_loweringStateValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#shutteractuator4_kitchen_raising_consumption -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#shutteractuator4_kitchen_raising_consumption">
+        <rdf:type rdf:resource="&poweront;ElectricPowerConsumption"/>
+        <poweront:typicalConsumptionValue rdf:resource="&poweront;shutterMotorTypicalConsumptionValue"/>
+        <poweront:consumptionOf rdf:resource="&simpleHome;ShutterActuator_kitchen"/>
+        <poweront:whenIn rdf:resource="&simpleHome;shutter4_raisingStateValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#shutteractuator4_kitchen_updownrest_consumption -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#shutteractuator4_kitchen_updownrest_consumption">
+        <rdf:type rdf:resource="&poweront;ElectricPowerConsumption"/>
+        <poweront:typicalConsumptionValue rdf:resource="&poweront;zeroValue"/>
+        <poweront:whenIn rdf:resource="&simpleHome;DownTripleStateValue_kitchen"/>
+        <poweront:whenIn rdf:resource="&simpleHome;RestTripleStateValue_kitchen"/>
+        <poweront:consumptionOf rdf:resource="&simpleHome;ShutterActuator_kitchen"/>
+        <poweront:whenIn rdf:resource="&simpleHome;UpTripleStateValue_kitchen"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#shutteractuator5_living_updownrest_consumption -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#shutteractuator5_living_updownrest_consumption">
+        <rdf:type rdf:resource="&poweront;ElectricPowerConsumption"/>
+        <poweront:typicalConsumptionValue rdf:resource="&poweront;zeroValue"/>
+        <poweront:whenIn rdf:resource="&simpleHome;DownTripleStateValue_sh1_living"/>
+        <poweront:whenIn rdf:resource="&simpleHome;RestTripleStateValue_sh1_living"/>
+        <poweront:consumptionOf rdf:resource="&simpleHome;ShutterActuator_sh1_living"/>
+        <poweront:whenIn rdf:resource="&simpleHome;UpTripleStateValue_sh1_living"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#shutteractuator5_livingroom_lowering_consumption -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#shutteractuator5_livingroom_lowering_consumption">
+        <rdf:type rdf:resource="&poweront;ElectricPowerConsumption"/>
+        <poweront:typicalConsumptionValue rdf:resource="&poweront;shutterMotorTypicalConsumptionValue"/>
+        <poweront:consumptionOf rdf:resource="&simpleHome;ShutterActuator_sh1_living"/>
+        <poweront:whenIn rdf:resource="&simpleHome;shutter5_loweringStateValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#shutteractuator5_livingroom_raising_consumption -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#shutteractuator5_livingroom_raising_consumption">
+        <rdf:type rdf:resource="&poweront;ElectricPowerConsumption"/>
+        <poweront:typicalConsumptionValue rdf:resource="&poweront;shutterMotorTypicalConsumptionValue"/>
+        <poweront:consumptionOf rdf:resource="&simpleHome;ShutterActuator_sh1_living"/>
+        <poweront:whenIn rdf:resource="&simpleHome;shutter5_raisingStateValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#shutteractuator6_living_updownrest_consumption -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#shutteractuator6_living_updownrest_consumption">
+        <rdf:type rdf:resource="&poweront;ElectricPowerConsumption"/>
+        <poweront:typicalConsumptionValue rdf:resource="&poweront;zeroValue"/>
+        <poweront:whenIn rdf:resource="&simpleHome;DownTripleStateValue_sh2_living"/>
+        <poweront:whenIn rdf:resource="&simpleHome;RestTripleStateValue_sh2_living"/>
+        <poweront:consumptionOf rdf:resource="&simpleHome;ShutterActuator_sh2_living"/>
+        <poweront:whenIn rdf:resource="&simpleHome;UpTripleStateValue_sh2_living"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#shutteractuator6_livingroom_lowering_consumption -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#shutteractuator6_livingroom_lowering_consumption">
+        <rdf:type rdf:resource="&poweront;ElectricPowerConsumption"/>
+        <poweront:typicalConsumptionValue rdf:resource="&poweront;shutterMotorTypicalConsumptionValue"/>
+        <poweront:consumptionOf rdf:resource="&simpleHome;ShutterActuator_sh2_living"/>
+        <poweront:whenIn rdf:resource="&simpleHome;shutter6_loweringStateValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#shutteractuator6_livingroom_raising_consumption -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#shutteractuator6_livingroom_raising_consumption">
+        <rdf:type rdf:resource="&poweront;ElectricPowerConsumption"/>
+        <poweront:typicalConsumptionValue rdf:resource="&poweront;shutterMotorTypicalConsumptionValue"/>
+        <poweront:consumptionOf rdf:resource="&simpleHome;ShutterActuator_sh2_living"/>
+        <poweront:whenIn rdf:resource="&simpleHome;shutter6_raisingStateValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#wLampConsumptionValue -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#wLampConsumptionValue">
+        <rdf:type rdf:resource="&poweront;PowerConsumptionValue"/>
+        <poweront:powerValue rdf:datatype="&xsd;double">18.0</poweront:powerValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#windowactuator1_bedroom_movingconsumption -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#windowactuator1_bedroom_movingconsumption">
+        <rdf:type rdf:resource="&poweront;ElectricPowerConsumption"/>
+        <poweront:typicalConsumptionValue rdf:resource="&poweront;windowActuatorTypicalConsumptionValue"/>
+        <poweront:consumptionOf rdf:resource="&simpleHome;WindowActuator_w1_bedroom"/>
+        <poweront:whenIn rdf:resource="&simpleHome;window1_movingStateValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#windowactuator1_bedroom_notmoving_consumption -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#windowactuator1_bedroom_notmoving_consumption">
+        <rdf:type rdf:resource="&poweront;ElectricPowerConsumption"/>
+        <poweront:typicalConsumptionValue rdf:resource="&poweront;zeroValue"/>
+        <poweront:consumptionOf rdf:resource="&simpleHome;WindowActuator_w1_bedroom"/>
+        <poweront:whenIn rdf:resource="&simpleHome;window1_notMovingStateValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#windowactuator2_bedroom_movingconsumption -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#windowactuator2_bedroom_movingconsumption">
+        <rdf:type rdf:resource="&poweront;ElectricPowerConsumption"/>
+        <poweront:typicalConsumptionValue rdf:resource="&poweront;windowActuatorTypicalConsumptionValue"/>
+        <poweront:consumptionOf rdf:resource="&simpleHome;WindowActuator_w2_bedroom"/>
+        <poweront:whenIn rdf:resource="&simpleHome;window2_movingStateValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#windowactuator2_bedroom_notmoving_consumption -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#windowactuator2_bedroom_notmoving_consumption">
+        <rdf:type rdf:resource="&poweront;ElectricPowerConsumption"/>
+        <poweront:typicalConsumptionValue rdf:resource="&poweront;zeroValue"/>
+        <poweront:consumptionOf rdf:resource="&simpleHome;WindowActuator_w2_bedroom"/>
+        <poweront:whenIn rdf:resource="&simpleHome;window2_notMovingStateValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#windowactuator3_bath_notmoving_consumption -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#windowactuator3_bath_notmoving_consumption">
+        <rdf:type rdf:resource="&poweront;ElectricPowerConsumption"/>
+        <poweront:typicalConsumptionValue rdf:resource="&poweront;zeroValue"/>
+        <poweront:consumptionOf rdf:resource="&simpleHome;WindowActuator_w3_bath"/>
+        <poweront:whenIn rdf:resource="&simpleHome;window3_notMovingStateValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#windowactuator3_bathroom_movingconsumption -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#windowactuator3_bathroom_movingconsumption">
+        <rdf:type rdf:resource="&poweront;ElectricPowerConsumption"/>
+        <poweront:typicalConsumptionValue rdf:resource="&poweront;windowActuatorTypicalConsumptionValue"/>
+        <poweront:consumptionOf rdf:resource="&simpleHome;WindowActuator_w3_bath"/>
+        <poweront:whenIn rdf:resource="&simpleHome;window3_movingStateValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#windowactuator4_kitchen_movingconsumption -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#windowactuator4_kitchen_movingconsumption">
+        <rdf:type rdf:resource="&poweront;ElectricPowerConsumption"/>
+        <poweront:typicalConsumptionValue rdf:resource="&poweront;windowActuatorTypicalConsumptionValue"/>
+        <poweront:consumptionOf rdf:resource="&simpleHome;WindowActuator_w4_kitchen"/>
+        <poweront:whenIn rdf:resource="&simpleHome;window4_movingStateValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#windowactuator4_kitchen_notmoving_consumption -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#windowactuator4_kitchen_notmoving_consumption">
+        <rdf:type rdf:resource="&poweront;ElectricPowerConsumption"/>
+        <poweront:typicalConsumptionValue rdf:resource="&poweront;zeroValue"/>
+        <poweront:consumptionOf rdf:resource="&simpleHome;WindowActuator_w4_kitchen"/>
+        <poweront:whenIn rdf:resource="&simpleHome;window4_notMovingStateValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#windowactuator5_living_notmoving_consumption -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#windowactuator5_living_notmoving_consumption">
+        <rdf:type rdf:resource="&poweront;ElectricPowerConsumption"/>
+        <poweront:typicalConsumptionValue rdf:resource="&poweront;zeroValue"/>
+        <poweront:consumptionOf rdf:resource="&simpleHome;WindowActuator_w5_living"/>
+        <poweront:whenIn rdf:resource="&simpleHome;window5_notMovingStateValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#windowactuator5_livingroom_movingconsumption -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#windowactuator5_livingroom_movingconsumption">
+        <rdf:type rdf:resource="&poweront;ElectricPowerConsumption"/>
+        <poweront:typicalConsumptionValue rdf:resource="&poweront;windowActuatorTypicalConsumptionValue"/>
+        <poweront:consumptionOf rdf:resource="&simpleHome;WindowActuator_w5_living"/>
+        <poweront:whenIn rdf:resource="&simpleHome;window5_movingStateValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#windowactuator6_living_notmoving_consumption -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#windowactuator6_living_notmoving_consumption">
+        <rdf:type rdf:resource="&poweront;ElectricPowerConsumption"/>
+        <poweront:typicalConsumptionValue rdf:resource="&poweront;zeroValue"/>
+        <poweront:consumptionOf rdf:resource="&simpleHome;WindowActuator_w6_living"/>
+        <poweront:whenIn rdf:resource="&simpleHome;window6_notMovingStateValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#windowactuator6_livingroom_movingconsumption -->
+
+    <owl:NamedIndividual rdf:about="http://elite.polito.it/ontologies/simpleHomePowerConsumption.owl#windowactuator6_livingroom_movingconsumption">
+        <rdf:type rdf:resource="&poweront;ElectricPowerConsumption"/>
+        <poweront:typicalConsumptionValue rdf:resource="&poweront;windowActuatorTypicalConsumptionValue"/>
+        <poweront:consumptionOf rdf:resource="&simpleHome;WindowActuator_w6_living"/>
+        <poweront:whenIn rdf:resource="&simpleHome;window6_movingStateValue"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+

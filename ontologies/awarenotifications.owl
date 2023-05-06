@@ -1,0 +1,3788 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.elite.polito.it/awarenotifications#"
+     xml:base="http://www.elite.polito.it/awarenotifications"
+     xmlns:ontologies1="http://www.elite.polito.it/alberto/ontologies#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:ontologies="http://www.elite.polito.it/alberto/ontologies/">
+    <owl:Ontology rdf:about="http://www.elite.polito.it/awarenotifications">
+        <owl:versionIRI rdf:resource="http://www.elite.polito.it/awarenotifications"/>
+        <title>AwareNotifications</title>
+        <ontologies1:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Monge Roffarello Alberto (alberto.monge@polito.it)</ontologies1:creator>
+        <owl:versionInfo>1.0.0</owl:versionInfo>
+        <ontologies1:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AwereNotificationsONT is an ontology to model the notification ecosystem, i.e., devices, people, notifications, and context. Its primarty focus is to allow the customization of the notification delivery through user preferences.</ontologies1:description>
+        <rights>Copyright(c) 2016 Monge Roffarello Alberto</rights>
+        <ontologies1:license rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Copyright (c) 2016 Monge Roffarello Alberto
+
+Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an &quot;AS IS&quot; BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License</ontologies1:license>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.elite.polito.it/alberto/ontologies#creator -->
+
+    <owl:AnnotationProperty rdf:about="http://www.elite.polito.it/alberto/ontologies#creator">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.elite.polito.it/alberto/ontologies#description -->
+
+    <owl:AnnotationProperty rdf:about="http://www.elite.polito.it/alberto/ontologies#description">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.elite.polito.it/alberto/ontologies#license -->
+
+    <owl:AnnotationProperty rdf:about="http://www.elite.polito.it/alberto/ontologies#license">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#annotationName -->
+
+    <owl:AnnotationProperty rdf:about="http://www.elite.polito.it/awarenotifications#annotationName"/>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#annotationType -->
+
+    <owl:AnnotationProperty rdf:about="http://www.elite.polito.it/awarenotifications#annotationType"/>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#annotationUser -->
+
+    <owl:AnnotationProperty rdf:about="http://www.elite.polito.it/awarenotifications#annotationUser"/>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#description -->
+
+    <owl:AnnotationProperty rdf:about="http://www.elite.polito.it/awarenotifications#description">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#descriptionEN -->
+
+    <owl:AnnotationProperty rdf:about="http://www.elite.polito.it/awarenotifications#descriptionEN">
+        <rdfs:subPropertyOf rdf:resource="http://www.elite.polito.it/awarenotifications#description"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#descriptionIT -->
+
+    <owl:AnnotationProperty rdf:about="http://www.elite.polito.it/awarenotifications#descriptionIT">
+        <rdfs:subPropertyOf rdf:resource="http://www.elite.polito.it/awarenotifications#description"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#descriptionNameEN -->
+
+    <owl:AnnotationProperty rdf:about="http://www.elite.polito.it/awarenotifications#descriptionNameEN">
+        <rdfs:subPropertyOf rdf:resource="http://www.elite.polito.it/awarenotifications#description"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#descriptionNameIT -->
+
+    <owl:AnnotationProperty rdf:about="http://www.elite.polito.it/awarenotifications#descriptionNameIT">
+        <rdfs:subPropertyOf rdf:resource="http://www.elite.polito.it/awarenotifications#description"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#images -->
+
+    <owl:AnnotationProperty rdf:about="http://www.elite.polito.it/awarenotifications#images">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#rights -->
+
+    <owl:AnnotationProperty rdf:about="http://www.elite.polito.it/awarenotifications#rights">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#test -->
+
+    <owl:AnnotationProperty rdf:about="http://www.elite.polito.it/awarenotifications#test"/>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#title -->
+
+    <owl:AnnotationProperty rdf:about="http://www.elite.polito.it/awarenotifications#title">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#activityHasAccessibilityLevel -->
+
+    <owl:ObjectProperty rdf:about="http://www.elite.polito.it/awarenotifications#activityHasAccessibilityLevel">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.elite.polito.it/awarenotifications#Activity"/>
+        <rdfs:range rdf:resource="http://www.elite.polito.it/awarenotifications#AccessibilityLevel"/>
+        <rdfs:label xml:lang="en">activityHasAccessibilityLevel</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#activityInvolvesNotificationSystem -->
+
+    <owl:ObjectProperty rdf:about="http://www.elite.polito.it/awarenotifications#activityInvolvesNotificationSystem">
+        <owl:inverseOf rdf:resource="http://www.elite.polito.it/awarenotifications#notificationSystemIsInvolvedInActivity"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.elite.polito.it/awarenotifications#Activity"/>
+        <rdfs:range rdf:resource="http://www.elite.polito.it/awarenotifications#NotificationSystem"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#activityInvolvesPerson -->
+
+    <owl:ObjectProperty rdf:about="http://www.elite.polito.it/awarenotifications#activityInvolvesPerson">
+        <owl:inverseOf rdf:resource="http://www.elite.polito.it/awarenotifications#personIsInvolvedInActivity"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.elite.polito.it/awarenotifications#Activity"/>
+        <rdfs:range rdf:resource="http://www.elite.polito.it/awarenotifications#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#activityPerformedByPerson -->
+
+    <owl:ObjectProperty rdf:about="http://www.elite.polito.it/awarenotifications#activityPerformedByPerson">
+        <owl:inverseOf rdf:resource="http://www.elite.polito.it/awarenotifications#personPerformsActivity"/>
+        <descriptionNameEN>The Activity is performed by</descriptionNameEN>
+        <descriptionNameIT>L&apos;Attività è compiuta da</descriptionNameIT>
+        <rdfs:label xml:lang="en">activityPerformedByPerson</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#deliverAlarmOnNotificationSystem -->
+
+    <owl:ObjectProperty rdf:about="http://www.elite.polito.it/awarenotifications#deliverAlarmOnNotificationSystem">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.elite.polito.it/awarenotifications#NotificationAlarm"/>
+        <rdfs:range rdf:resource="http://www.elite.polito.it/awarenotifications#OutputSystem"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#deliverAudioOnNotificationSystem -->
+
+    <owl:ObjectProperty rdf:about="http://www.elite.polito.it/awarenotifications#deliverAudioOnNotificationSystem">
+        <rdfs:subPropertyOf rdf:resource="http://www.elite.polito.it/awarenotifications#deliverOnNotificationSystem"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#OutputSystem"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#notificationSystemHasFeature"/>
+                        <owl:someValuesFrom rdf:resource="http://www.elite.polito.it/awarenotifications#Speaker"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#deliverLightingAlarmOnNotificationSystem -->
+
+    <owl:ObjectProperty rdf:about="http://www.elite.polito.it/awarenotifications#deliverLightingAlarmOnNotificationSystem">
+        <rdfs:subPropertyOf rdf:resource="http://www.elite.polito.it/awarenotifications#deliverAlarmOnNotificationSystem"/>
+        <rdfs:domain rdf:resource="http://www.elite.polito.it/awarenotifications#LightingAlarm"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#OutputSystem"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#notificationSystemHasFeature"/>
+                        <owl:someValuesFrom rdf:resource="http://www.elite.polito.it/awarenotifications#NotificationLed"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#deliverOnNotificationSystem -->
+
+    <owl:ObjectProperty rdf:about="http://www.elite.polito.it/awarenotifications#deliverOnNotificationSystem">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.elite.polito.it/awarenotifications#Notification"/>
+        <rdfs:range rdf:resource="http://www.elite.polito.it/awarenotifications#OutputSystem"/>
+        <rdfs:label xml:lang="en">deliverOnNotificationSystem</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#deliverSoundAlarmOnNotificationSystem -->
+
+    <owl:ObjectProperty rdf:about="http://www.elite.polito.it/awarenotifications#deliverSoundAlarmOnNotificationSystem">
+        <rdfs:subPropertyOf rdf:resource="http://www.elite.polito.it/awarenotifications#deliverAlarmOnNotificationSystem"/>
+        <rdfs:domain rdf:resource="http://www.elite.polito.it/awarenotifications#SoundAlarm"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#OutputSystem"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#notificationSystemHasFeature"/>
+                        <owl:someValuesFrom rdf:resource="http://www.elite.polito.it/awarenotifications#Speaker"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#deliverTextOnNotificationSystem -->
+
+    <owl:ObjectProperty rdf:about="http://www.elite.polito.it/awarenotifications#deliverTextOnNotificationSystem">
+        <rdfs:subPropertyOf rdf:resource="http://www.elite.polito.it/awarenotifications#deliverOnNotificationSystem"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#OutputSystem"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#notificationSystemHasFeature"/>
+                        <owl:someValuesFrom rdf:resource="http://www.elite.polito.it/awarenotifications#Display"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#deliverVibrationAlarmOnNotificationSystem -->
+
+    <owl:ObjectProperty rdf:about="http://www.elite.polito.it/awarenotifications#deliverVibrationAlarmOnNotificationSystem">
+        <rdfs:subPropertyOf rdf:resource="http://www.elite.polito.it/awarenotifications#deliverAlarmOnNotificationSystem"/>
+        <rdfs:domain rdf:resource="http://www.elite.polito.it/awarenotifications#VibrationAlarm"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#OutputSystem"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#notificationSystemHasFeature"/>
+                        <owl:someValuesFrom rdf:resource="http://www.elite.polito.it/awarenotifications#VibrationMotor"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#deviceIsOfPerson -->
+
+    <owl:ObjectProperty rdf:about="http://www.elite.polito.it/awarenotifications#deviceIsOfPerson">
+        <owl:inverseOf rdf:resource="http://www.elite.polito.it/awarenotifications#personHasDevice"/>
+        <rdfs:label xml:lang="en">deviceIsOfPerson</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#featureIsOfNotificationSystem -->
+
+    <owl:ObjectProperty rdf:about="http://www.elite.polito.it/awarenotifications#featureIsOfNotificationSystem">
+        <owl:inverseOf rdf:resource="http://www.elite.polito.it/awarenotifications#notificationSystemHasFeature"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#isAfamiliarOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.elite.polito.it/awarenotifications#isAfamiliarOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.elite.polito.it/awarenotifications#personKnowsPerson"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#isFriendOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.elite.polito.it/awarenotifications#isFriendOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.elite.polito.it/awarenotifications#personKnowsPerson"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#locationContainsLocation -->
+
+    <owl:ObjectProperty rdf:about="http://www.elite.polito.it/awarenotifications#locationContainsLocation">
+        <owl:inverseOf rdf:resource="http://www.elite.polito.it/awarenotifications#locationIsInLocation"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.elite.polito.it/awarenotifications#Location"/>
+        <rdfs:range rdf:resource="http://www.elite.polito.it/awarenotifications#Location"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#locationContainsNotificationSystem -->
+
+    <owl:ObjectProperty rdf:about="http://www.elite.polito.it/awarenotifications#locationContainsNotificationSystem">
+        <owl:inverseOf rdf:resource="http://www.elite.polito.it/awarenotifications#notificationSystemIsInLocation"/>
+        <rdfs:label xml:lang="en">locationContainsNotificationSystem</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#locationContainsPerson -->
+
+    <owl:ObjectProperty rdf:about="http://www.elite.polito.it/awarenotifications#locationContainsPerson">
+        <owl:inverseOf rdf:resource="http://www.elite.polito.it/awarenotifications#personIsInLocation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#locationIsInLocation -->
+
+    <owl:ObjectProperty rdf:about="http://www.elite.polito.it/awarenotifications#locationIsInLocation"/>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#notificationHasAlarm -->
+
+    <owl:ObjectProperty rdf:about="http://www.elite.polito.it/awarenotifications#notificationHasAlarm">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.elite.polito.it/awarenotifications#Notification"/>
+        <rdfs:range rdf:resource="http://www.elite.polito.it/awarenotifications#NotificationAlarm"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#notificationHasPriority -->
+
+    <owl:ObjectProperty rdf:about="http://www.elite.polito.it/awarenotifications#notificationHasPriority">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.elite.polito.it/awarenotifications#Notification"/>
+        <rdfs:range rdf:resource="http://www.elite.polito.it/awarenotifications#NotificationPriority"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#notificationHasReceipient -->
+
+    <owl:ObjectProperty rdf:about="http://www.elite.polito.it/awarenotifications#notificationHasReceipient">
+        <owl:inverseOf rdf:resource="http://www.elite.polito.it/awarenotifications#personIsReceipientofNotification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.elite.polito.it/awarenotifications#Notification"/>
+        <rdfs:range rdf:resource="http://www.elite.polito.it/awarenotifications#Person"/>
+        <descriptionNameEN>The Receipient of the Notification is</descriptionNameEN>
+        <descriptionNameIT>La Notifica ha come Destinatario</descriptionNameIT>
+        <rdfs:label xml:lang="en">notificationHasReceipient</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#notificationHasSender -->
+
+    <owl:ObjectProperty rdf:about="http://www.elite.polito.it/awarenotifications#notificationHasSender">
+        <owl:inverseOf rdf:resource="http://www.elite.polito.it/awarenotifications#personIsSenderOfNotification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.elite.polito.it/awarenotifications#Notification"/>
+        <rdfs:range rdf:resource="http://www.elite.polito.it/awarenotifications#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#notificationHasSocialPriority -->
+
+    <owl:ObjectProperty rdf:about="http://www.elite.polito.it/awarenotifications#notificationHasSocialPriority">
+        <rdfs:range rdf:resource="http://www.elite.polito.it/awarenotifications#SocialPriority"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#notificationHasTypePriority -->
+
+    <owl:ObjectProperty rdf:about="http://www.elite.polito.it/awarenotifications#notificationHasTypePriority">
+        <rdfs:range rdf:resource="http://www.elite.polito.it/awarenotifications#TypePriority"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#notificationIsGeneratedByNotificationSystem -->
+
+    <owl:ObjectProperty rdf:about="http://www.elite.polito.it/awarenotifications#notificationIsGeneratedByNotificationSystem">
+        <owl:inverseOf rdf:resource="http://www.elite.polito.it/awarenotifications#notificationSystemGeneratesNotification"/>
+        <rdfs:label xml:lang="en">notificationIsGeneratedByNotificationSystem</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#notificationSystemGeneratesNotification -->
+
+    <owl:ObjectProperty rdf:about="http://www.elite.polito.it/awarenotifications#notificationSystemGeneratesNotification">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.elite.polito.it/awarenotifications#InputSystem"/>
+        <rdfs:range rdf:resource="http://www.elite.polito.it/awarenotifications#Notification"/>
+        <rdfs:label xml:lang="en">notificationSystemGeneratesNotification</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#notificationSystemHasCommunicationState -->
+
+    <owl:ObjectProperty rdf:about="http://www.elite.polito.it/awarenotifications#notificationSystemHasCommunicationState">
+        <rdfs:subPropertyOf rdf:resource="http://www.elite.polito.it/awarenotifications#notificationSystemHasState"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.elite.polito.it/awarenotifications#NotificationSystem"/>
+        <rdfs:range rdf:resource="http://www.elite.polito.it/awarenotifications#CommunicationState"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#notificationSystemHasDisplayState -->
+
+    <owl:ObjectProperty rdf:about="http://www.elite.polito.it/awarenotifications#notificationSystemHasDisplayState">
+        <rdfs:subPropertyOf rdf:resource="http://www.elite.polito.it/awarenotifications#notificationSystemHasState"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.elite.polito.it/awarenotifications#NotificationSystem"/>
+        <rdfs:range rdf:resource="http://www.elite.polito.it/awarenotifications#DisplayState"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#notificationSystemHasFeature -->
+
+    <owl:ObjectProperty rdf:about="http://www.elite.polito.it/awarenotifications#notificationSystemHasFeature">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.elite.polito.it/awarenotifications#NotificationSystem"/>
+        <rdfs:range rdf:resource="http://www.elite.polito.it/awarenotifications#Featrue"/>
+        <rdfs:label xml:lang="en">notificationSystemHasFeature</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#notificationSystemHasPowerState -->
+
+    <owl:ObjectProperty rdf:about="http://www.elite.polito.it/awarenotifications#notificationSystemHasPowerState">
+        <rdfs:subPropertyOf rdf:resource="http://www.elite.polito.it/awarenotifications#notificationSystemHasState"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.elite.polito.it/awarenotifications#NotificationSystem"/>
+        <rdfs:range rdf:resource="http://www.elite.polito.it/awarenotifications#PowerState"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#notificationSystemHasSoundState -->
+
+    <owl:ObjectProperty rdf:about="http://www.elite.polito.it/awarenotifications#notificationSystemHasSoundState">
+        <rdfs:subPropertyOf rdf:resource="http://www.elite.polito.it/awarenotifications#notificationSystemHasState"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.elite.polito.it/awarenotifications#NotificationSystem"/>
+        <rdfs:range rdf:resource="http://www.elite.polito.it/awarenotifications#SoundState"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#notificationSystemHasState -->
+
+    <owl:ObjectProperty rdf:about="http://www.elite.polito.it/awarenotifications#notificationSystemHasState">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.elite.polito.it/awarenotifications#NotificationSystem"/>
+        <rdfs:range rdf:resource="http://www.elite.polito.it/awarenotifications#NotificationSystemState"/>
+        <rdfs:label xml:lang="en">notificationSystemHasState</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#notificationSystemIsInLocation -->
+
+    <owl:ObjectProperty rdf:about="http://www.elite.polito.it/awarenotifications#notificationSystemIsInLocation">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.elite.polito.it/awarenotifications#NotificationSystem"/>
+        <rdfs:range rdf:resource="http://www.elite.polito.it/awarenotifications#Location"/>
+        <rdfs:label xml:lang="en">notificationSystemIsInLocation</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#notificationSystemIsInvolvedInActivity -->
+
+    <owl:ObjectProperty rdf:about="http://www.elite.polito.it/awarenotifications#notificationSystemIsInvolvedInActivity">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#personHasDevice -->
+
+    <owl:ObjectProperty rdf:about="http://www.elite.polito.it/awarenotifications#personHasDevice">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.elite.polito.it/awarenotifications#Person"/>
+        <rdfs:range rdf:resource="http://www.elite.polito.it/awarenotifications#UserDevice"/>
+        <rdfs:label xml:lang="en">personHasDevice</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#personHasObtrusivenessLevel -->
+
+    <owl:ObjectProperty rdf:about="http://www.elite.polito.it/awarenotifications#personHasObtrusivenessLevel">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.elite.polito.it/awarenotifications#Person"/>
+        <rdfs:range rdf:resource="http://www.elite.polito.it/awarenotifications#ObtrusivenessLevel"/>
+        <rdfs:label xml:lang="en">personHasObtrusivenessLevel</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#personIsInLocation -->
+
+    <owl:ObjectProperty rdf:about="http://www.elite.polito.it/awarenotifications#personIsInLocation">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.elite.polito.it/awarenotifications#Person"/>
+        <rdfs:range rdf:resource="http://www.elite.polito.it/awarenotifications#Location"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#personIsInvolvedInActivity -->
+
+    <owl:ObjectProperty rdf:about="http://www.elite.polito.it/awarenotifications#personIsInvolvedInActivity"/>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#personIsReceipientofNotification -->
+
+    <owl:ObjectProperty rdf:about="http://www.elite.polito.it/awarenotifications#personIsReceipientofNotification">
+        <rdfs:label xml:lang="en">personIsReceipientofNotification</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#personIsSenderOfNotification -->
+
+    <owl:ObjectProperty rdf:about="http://www.elite.polito.it/awarenotifications#personIsSenderOfNotification">
+        <rdfs:label xml:lang="en">personIsSenderOfNotification
+</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#personKnowsPerson -->
+
+    <owl:ObjectProperty rdf:about="http://www.elite.polito.it/awarenotifications#personKnowsPerson">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.elite.polito.it/awarenotifications#Person"/>
+        <rdfs:range rdf:resource="http://www.elite.polito.it/awarenotifications#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#personPerformsActivity -->
+
+    <owl:ObjectProperty rdf:about="http://www.elite.polito.it/awarenotifications#personPerformsActivity">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.elite.polito.it/awarenotifications#Person"/>
+        <rdfs:range rdf:resource="http://www.elite.polito.it/awarenotifications#Activity"/>
+        <rdfs:label xml:lang="en">personPerformsActivity</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#worksWith -->
+
+    <owl:ObjectProperty rdf:about="http://www.elite.polito.it/awarenotifications#worksWith">
+        <rdfs:subPropertyOf rdf:resource="http://www.elite.polito.it/awarenotifications#personKnowsPerson"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#accessibilityPreferenceIsOfActivity -->
+
+    <owl:DatatypeProperty rdf:about="http://www.elite.polito.it/awarenotifications#accessibilityPreferenceIsOfActivity">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#activityHasStartTime -->
+
+    <owl:DatatypeProperty rdf:about="http://www.elite.polito.it/awarenotifications#activityHasStartTime">
+        <rdfs:domain rdf:resource="http://www.elite.polito.it/awarenotifications#Activity"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#deviceHasGCMId -->
+
+    <owl:DatatypeProperty rdf:about="http://www.elite.polito.it/awarenotifications#deviceHasGCMId">
+        <rdfs:domain rdf:resource="http://www.elite.polito.it/awarenotifications#NotificationSystem"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#deviceHasKodeId -->
+
+    <owl:DatatypeProperty rdf:about="http://www.elite.polito.it/awarenotifications#deviceHasKodeId"/>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#displayHasHeight -->
+
+    <owl:DatatypeProperty rdf:about="http://www.elite.polito.it/awarenotifications#displayHasHeight">
+        <rdfs:domain rdf:resource="http://www.elite.polito.it/awarenotifications#Display"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#displayHasWidth -->
+
+    <owl:DatatypeProperty rdf:about="http://www.elite.polito.it/awarenotifications#displayHasWidth">
+        <rdfs:domain rdf:resource="http://www.elite.polito.it/awarenotifications#Display"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#ethernetHasType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.elite.polito.it/awarenotifications#ethernetHasType">
+        <rdfs:domain rdf:resource="http://www.elite.polito.it/awarenotifications#EthernetConnection"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#hasActivityName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.elite.polito.it/awarenotifications#hasActivityName">
+        <rdfs:domain rdf:resource="http://www.elite.polito.it/awarenotifications#InstantMessaging"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#notificationHasAndroidPriority -->
+
+    <owl:DatatypeProperty rdf:about="http://www.elite.polito.it/awarenotifications#notificationHasAndroidPriority"/>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#notificationHasBigText -->
+
+    <owl:DatatypeProperty rdf:about="http://www.elite.polito.it/awarenotifications#notificationHasBigText">
+        <rdfs:subPropertyOf rdf:resource="http://www.elite.polito.it/awarenotifications#notificationHasFeature"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#notificationHasCategory -->
+
+    <owl:DatatypeProperty rdf:about="http://www.elite.polito.it/awarenotifications#notificationHasCategory">
+        <rdfs:subPropertyOf rdf:resource="http://www.elite.polito.it/awarenotifications#notificationHasFeature"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#notificationHasColor -->
+
+    <owl:DatatypeProperty rdf:about="http://www.elite.polito.it/awarenotifications#notificationHasColor">
+        <rdfs:subPropertyOf rdf:resource="http://www.elite.polito.it/awarenotifications#notificationHasFeature"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#notificationHasContentIntent -->
+
+    <owl:DatatypeProperty rdf:about="http://www.elite.polito.it/awarenotifications#notificationHasContentIntent">
+        <rdfs:subPropertyOf rdf:resource="http://www.elite.polito.it/awarenotifications#notificationHasFeature"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#notificationHasDefaults -->
+
+    <owl:DatatypeProperty rdf:about="http://www.elite.polito.it/awarenotifications#notificationHasDefaults">
+        <rdfs:subPropertyOf rdf:resource="http://www.elite.polito.it/awarenotifications#notificationHasFeature"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#notificationHasDeleteIntent -->
+
+    <owl:DatatypeProperty rdf:about="http://www.elite.polito.it/awarenotifications#notificationHasDeleteIntent">
+        <rdfs:subPropertyOf rdf:resource="http://www.elite.polito.it/awarenotifications#notificationHasFeature"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#notificationHasFeature -->
+
+    <owl:DatatypeProperty rdf:about="http://www.elite.polito.it/awarenotifications#notificationHasFeature">
+        <rdfs:domain rdf:resource="http://www.elite.polito.it/awarenotifications#Notification"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#notificationHasFullScreenIntent -->
+
+    <owl:DatatypeProperty rdf:about="http://www.elite.polito.it/awarenotifications#notificationHasFullScreenIntent">
+        <rdfs:subPropertyOf rdf:resource="http://www.elite.polito.it/awarenotifications#notificationHasFeature"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#notificationHasGroup -->
+
+    <owl:DatatypeProperty rdf:about="http://www.elite.polito.it/awarenotifications#notificationHasGroup">
+        <rdfs:subPropertyOf rdf:resource="http://www.elite.polito.it/awarenotifications#notificationHasFeature"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#notificationHasInfoText -->
+
+    <owl:DatatypeProperty rdf:about="http://www.elite.polito.it/awarenotifications#notificationHasInfoText">
+        <rdfs:subPropertyOf rdf:resource="http://www.elite.polito.it/awarenotifications#notificationHasFeature"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#notificationHasLargeIcon -->
+
+    <owl:DatatypeProperty rdf:about="http://www.elite.polito.it/awarenotifications#notificationHasLargeIcon">
+        <rdfs:subPropertyOf rdf:resource="http://www.elite.polito.it/awarenotifications#notificationHasFeature"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#notificationHasPackageName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.elite.polito.it/awarenotifications#notificationHasPackageName">
+        <rdfs:subPropertyOf rdf:resource="http://www.elite.polito.it/awarenotifications#notificationHasFeature"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#notificationHasSubText -->
+
+    <owl:DatatypeProperty rdf:about="http://www.elite.polito.it/awarenotifications#notificationHasSubText">
+        <rdfs:subPropertyOf rdf:resource="http://www.elite.polito.it/awarenotifications#notificationHasFeature"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#notificationHasText -->
+
+    <owl:DatatypeProperty rdf:about="http://www.elite.polito.it/awarenotifications#notificationHasText">
+        <rdfs:subPropertyOf rdf:resource="http://www.elite.polito.it/awarenotifications#notificationHasFeature"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#notificationHasTickerText -->
+
+    <owl:DatatypeProperty rdf:about="http://www.elite.polito.it/awarenotifications#notificationHasTickerText">
+        <rdfs:subPropertyOf rdf:resource="http://www.elite.polito.it/awarenotifications#notificationHasFeature"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#notificationHasTitle -->
+
+    <owl:DatatypeProperty rdf:about="http://www.elite.polito.it/awarenotifications#notificationHasTitle">
+        <rdfs:subPropertyOf rdf:resource="http://www.elite.polito.it/awarenotifications#notificationHasFeature"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#notificationHasVisibility -->
+
+    <owl:DatatypeProperty rdf:about="http://www.elite.polito.it/awarenotifications#notificationHasVisibility">
+        <rdfs:subPropertyOf rdf:resource="http://www.elite.polito.it/awarenotifications#notificationHasFeature"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#notificationIsOfApplication -->
+
+    <owl:DatatypeProperty rdf:about="http://www.elite.polito.it/awarenotifications#notificationIsOfApplication">
+        <rdfs:subPropertyOf rdf:resource="http://www.elite.polito.it/awarenotifications#notificationHasFeature"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#wifiHasType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.elite.polito.it/awarenotifications#wifiHasType">
+        <rdfs:domain rdf:resource="http://www.elite.polito.it/awarenotifications#WiFi"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#Accelerometer -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#Accelerometer">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#SensorFeature"/>
+        <rdfs:label xml:lang="en">Accelerometer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#AccessibilityLevel -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#AccessibilityLevel">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#HandsFree"/>
+                    <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#HearingFree"/>
+                    <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#NoAccessible"/>
+                    <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#SightFree"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label xml:lang="en">AccessibilityLevel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#Activity -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#Activity">
+        <rdfs:label xml:lang="en">Activity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#AlarmNotification -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#AlarmNotification">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#SmartHomeNotification"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#notificationIsGeneratedByNotificationSystem"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.elite.polito.it/awarenotifications#SecuritySystem"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <descriptionEN>Notification generated by an alarm system, such as your smart antitheft system.</descriptionEN>
+        <descriptionIT>Notifica di un sistema di allarme, come il tuo antifurto intelligente.</descriptionIT>
+        <descriptionNameEN>Alarm notification</descriptionNameEN>
+        <descriptionNameIT>Allarmi</descriptionNameIT>
+        <images>resources/images/alarmnotifications.jpg</images>
+        <rdfs:label xml:lang="en">AlarmNotification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#AlarmUserNotification -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#AlarmUserNotification">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#UserNotification"/>
+        <descriptionEN>Alarm Notification (e.g., alarm clock).</descriptionEN>
+        <descriptionIT>Notifica di Allarme (es: sveglia).</descriptionIT>
+        <descriptionNameEN>Alarm Notification</descriptionNameEN>
+        <descriptionNameIT>Notifica di Allarme</descriptionNameIT>
+        <images>resources/images/alarmusernotifications.jpg</images>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#AmbientNotification -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#AmbientNotification">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#SmartHomeNotification"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#notificationIsGeneratedByNotificationSystem"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.elite.polito.it/awarenotifications#AmbientSystem"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <descriptionEN>Notification generated by an ambient system, such as your smart lighting system.</descriptionEN>
+        <descriptionIT>Allarme generato da un sistema ambientale, come il tuo impianto intelligente di illuminazione.</descriptionIT>
+        <descriptionNameEN>Ambient notification</descriptionNameEN>
+        <descriptionNameIT>Notifiche ambientali</descriptionNameIT>
+        <images>resources/images/ambientnotifications.jpg</images>
+        <rdfs:label xml:lang="en">AmbientNotification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#AmbientSystem -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#AmbientSystem">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#SmartHomeElement"/>
+        <rdfs:label xml:lang="en">AmbientSystem</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#AntifireSystem -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#AntifireSystem">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#SecuritySystem"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#notificationSystemHasFeature"/>
+                        <owl:someValuesFrom rdf:resource="http://www.elite.polito.it/awarenotifications#SmokeSensor"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">AntifireSystem</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#AntithefSystem -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#AntithefSystem">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#SecuritySystem"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#notificationSystemHasFeature"/>
+                        <owl:someValuesFrom rdf:resource="http://www.elite.polito.it/awarenotifications#Camera"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#notificationSystemHasFeature"/>
+                        <owl:someValuesFrom rdf:resource="http://www.elite.polito.it/awarenotifications#DoorSensor"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#notificationSystemHasFeature"/>
+                        <owl:someValuesFrom rdf:resource="http://www.elite.polito.it/awarenotifications#InfraredSensor"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#notificationSystemHasFeature"/>
+                        <owl:someValuesFrom rdf:resource="http://www.elite.polito.it/awarenotifications#WindowSensor"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">AntithefSystem</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#ApplianceNotification -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#ApplianceNotification">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#SmartHomeNotification"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#notificationIsGeneratedByNotificationSystem"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.elite.polito.it/awarenotifications#SmartAppliance"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <descriptionEN>Notification generated by an IoT appliance, such as a smart fridge, a smart washing machine, etc.</descriptionEN>
+        <descriptionIT>Notifica generata da un elettrodomestico IoT, come il frigo intelligente, la lavatrice intelligente, etc.</descriptionIT>
+        <descriptionNameEN>Appliance notification</descriptionNameEN>
+        <descriptionNameIT>Elettrodomestico IoT</descriptionNameIT>
+        <images>resources/images/appliancenotifications.jpg</images>
+        <rdfs:label xml:lang="en">ApplianceNotification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#Bathroom -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#Bathroom">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#Room"/>
+        <rdfs:label xml:lang="en">Bathroom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#Bedroom -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#Bedroom">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#Room"/>
+        <rdfs:label xml:lang="en">Bedroom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#BlindPerson -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#BlindPerson">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#PersonWithSensoryDisabilities"/>
+        <rdfs:label xml:lang="en">BlindPerson</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#Bluetooth -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#Bluetooth">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#NetworkFeature"/>
+        <rdfs:label xml:lang="en">Bluetooth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#CO2Sensor -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#CO2Sensor">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#SensorFeature"/>
+        <rdfs:label xml:lang="en">C02Sensor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#Camera -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#Camera">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#InputFeature"/>
+        <rdfs:label xml:lang="en">Camera</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#Clock -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#Clock">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#SmartAppliance"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#notificationSystemHasFeature"/>
+                        <owl:someValuesFrom rdf:resource="http://www.elite.polito.it/awarenotifications#Speaker"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#notificationSystemHasFeature"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.elite.polito.it/awarenotifications#Display"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Clock</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#CoffeeMaker -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#CoffeeMaker">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#SmartAppliance"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#notificationSystemHasFeature"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.elite.polito.it/awarenotifications#Display"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">CoffeeMaker</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#CommunicationActivity -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#CommunicationActivity">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#Activity"/>
+        <descriptionEN>Communication Activities include when you are making a phone call, when you are chatting with a friend, etc.
+Define your accessibility level for all the Communication Activities (DEFINE FOR ALL), or go into detail of all specific Activity (VIEW MORE).</descriptionEN>
+        <descriptionIT>Le Attività di Comunicazione includono tutte le tue attività di comunicazione, come una chiamata telefonica, una chat con un amico, etc.
+Definisci il tuo Livello di Accessibilità per tutte le Attività di Comunicazione (DEFINIZIONE GLOBALE), oppure scendi nei dettagli di ogni specifica Attività (DETTAGLI).</descriptionIT>
+        <descriptionNameEN>Communication activity</descriptionNameEN>
+        <descriptionNameIT>Comunicazione</descriptionNameIT>
+        <images>resources/images/comunication.jpg</images>
+        <rdfs:label xml:lang="en">CommunicationActivity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#CommunicationDevice -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#CommunicationDevice">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#SmartAppliance"/>
+        <rdfs:label xml:lang="en">CommunicationDevice</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#CommunicationState -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#CommunicationState">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#OffHook"/>
+                    <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#OnHook"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#NotificationSystemState"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#Cooking -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#Cooking">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#FreeTimeActivity"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#activityPerformedByPerson"/>
+                        <owl:allValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#Person"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#personIsInLocation"/>
+                                        <owl:someValuesFrom rdf:resource="http://www.elite.polito.it/awarenotifications#Kitchen"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:allValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <descriptionIT>I am in my kitchen and I am cooking.</descriptionIT>
+        <descriptionIT>Sono in cucina e sto cucinando qualcosa.</descriptionIT>
+        <descriptionNameEN>Cooking</descriptionNameEN>
+        <descriptionNameIT>Cucinare</descriptionNameIT>
+        <images>resources/images/cooking.jpg</images>
+        <rdfs:label xml:lang="en">Cooking</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#DVD -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#DVD">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#EnterteinementDevice"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#notificationSystemHasFeature"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.elite.polito.it/awarenotifications#Display"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">DVD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#DeafPerson -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#DeafPerson">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#PersonWithSensoryDisabilities"/>
+        <rdfs:label xml:lang="en">DeafPerson</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#Diningroom -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#Diningroom">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#Room"/>
+        <rdfs:label xml:lang="en">Diningroom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#Display -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#Display">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#OutputFeature"/>
+        <rdfs:label xml:lang="en">Display</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#DisplayState -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#DisplayState">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#DisplayOff"/>
+                    <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#DisplayOn"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#NotificationSystemState"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#DoorSensor -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#DoorSensor">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#SensorFeature"/>
+        <rdfs:label xml:lang="en">DoorSensor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#Eating -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#Eating">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#FreeTimeActivity"/>
+        <descriptionEN>I am eating (e.g., lunch, dinner, etc).</descriptionEN>
+        <descriptionIT>Sto pranzando.</descriptionIT>
+        <descriptionNameEN>Eating</descriptionNameEN>
+        <descriptionNameIT>Pranzare</descriptionNameIT>
+        <images>resources/images/eating.jpg</images>
+        <rdfs:label xml:lang="en">Eating</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#EmailNotification -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#EmailNotification">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#UserNotification"/>
+        <descriptionEN>New email Notification.</descriptionEN>
+        <descriptionIT>Notifica di una nuova email.</descriptionIT>
+        <descriptionNameEN>Email notification</descriptionNameEN>
+        <descriptionNameIT>Email</descriptionNameIT>
+        <images>resources/images/emailnotifications.jpg</images>
+        <rdfs:label xml:lang="en">EmailNotification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#EnterteinementDevice -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#EnterteinementDevice">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#SmartAppliance"/>
+        <rdfs:label xml:lang="en">EntertainementDevice</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#EthernetConnection -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#EthernetConnection">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#NetworkFeature"/>
+        <rdfs:label xml:lang="en">EthernetConnection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#EventNotification -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#EventNotification">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#UserNotification"/>
+        <descriptionEN>New Event Notification (e.g., calendar event).</descriptionEN>
+        <descriptionIT>Notifica relativa a un evento (es: appuntamento da calendario).</descriptionIT>
+        <descriptionNameEN>Event Notification</descriptionNameEN>
+        <descriptionNameIT>Notifica di Evento</descriptionNameIT>
+        <images>resources/images/eventnotifications.jpg</images>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#Exam -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#Exam">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#WorkActivity"/>
+        <descriptionEN>I am doing an exam.</descriptionEN>
+        <descriptionIT>Sto facendo un esame.</descriptionIT>
+        <descriptionNameEN>Exam</descriptionNameEN>
+        <descriptionNameIT>Esame</descriptionNameIT>
+        <images>resources/images/exam.jpg</images>
+        <rdfs:label xml:lang="en">Exam</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#ExternalEnviroment -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#ExternalEnviroment">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#Location"/>
+        <owl:disjointWith rdf:resource="http://www.elite.polito.it/awarenotifications#InternalEnviroment"/>
+        <rdfs:label xml:lang="en">ExternalEnviroment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#Fax -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#Fax">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#CommunicationDevice"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#notificationSystemHasFeature"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.elite.polito.it/awarenotifications#Display"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://www.elite.polito.it/awarenotifications#Phone"/>
+        <rdfs:label xml:lang="en">Fax</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#Featrue -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#Featrue">
+        <rdfs:label xml:lang="en">Feature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#FloodSensor -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#FloodSensor">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#SensorFeature"/>
+        <rdfs:label xml:lang="en">FloodSensor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#FloodSystem -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#FloodSystem">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#AmbientSystem"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#notificationSystemHasFeature"/>
+                        <owl:someValuesFrom rdf:resource="http://www.elite.polito.it/awarenotifications#FloodSensor"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">FloodSystem</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#FourG -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#FourG">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#NetworkFeature"/>
+        <rdfs:label xml:lang="en">FourG</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#FreeTimeActivity -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#FreeTimeActivity">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#Activity"/>
+        <descriptionEN>Free Time Activities represent your personal activities, such as having a shower, cooking, using mobile devices, etc. 
+Define your accessibility level for all the Free Time Activities (DEFINE FOR ALL), or go into detail of all specific Activity (VIEW MORE).</descriptionEN>
+        <descriptionIT>Le Attività di Tempo Libero includono tutte le tue attività personali, come cucinare, guardare la TV, giocare con il tablet, etc.
+Definisci il tuo Livello di Accessibilità per tutte le Attività di Tempo Libero (DEFINIZIONE GLOBALE), oppure scendi nei dettagli di ogni specifica Attività (DETTAGLI).</descriptionIT>
+        <descriptionNameEN>Free time activity</descriptionNameEN>
+        <descriptionNameIT>Tempo Libero</descriptionNameIT>
+        <images>resources/images/freetime.jpg</images>
+        <rdfs:label xml:lang="en">FreeTimeActivity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#Garage -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#Garage">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#InternalEnviroment"/>
+        <rdfs:label xml:lang="en">Garage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#Garden -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#Garden">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#InternalEnviroment"/>
+        <rdfs:label xml:lang="en">Garden</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#GasSensor -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#GasSensor">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#SensorFeature"/>
+        <rdfs:label xml:lang="en">GasSensor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#GasSystem -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#GasSystem">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#SecuritySystem"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#notificationSystemHasFeature"/>
+                        <owl:someValuesFrom rdf:resource="http://www.elite.polito.it/awarenotifications#GasSensor"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">GasSystem</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#Gps -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#Gps">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#SensorFeature"/>
+        <rdfs:label xml:lang="en">Gps</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#HandsUsableNotificationSystem -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#HandsUsableNotificationSystem">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#OnOutputSystem"/>
+                    <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#UserDevice"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#notificationSystemHasCommunicationState"/>
+                        <owl:hasValue rdf:resource="http://www.elite.polito.it/awarenotifications#OnHook"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#HavingAShower -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#HavingAShower">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#FreeTimeActivity"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#activityPerformedByPerson"/>
+                        <owl:allValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#Person"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#personIsInLocation"/>
+                                        <owl:someValuesFrom rdf:resource="http://www.elite.polito.it/awarenotifications#Bathroom"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:allValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <descriptionEN>I am having a shower.</descriptionEN>
+        <descriptionIT>Mi sto facendo una doccia.</descriptionIT>
+        <descriptionNameEN>Having a shower</descriptionNameEN>
+        <descriptionNameIT>Fare una doccia</descriptionNameIT>
+        <images>resources/images/shower.jpg</images>
+        <rdfs:label xml:lang="en">HavingAShower</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#HearingUsableNotificationSystem -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#HearingUsableNotificationSystem">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#OnOutputSystem"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#notificationSystemHasFeature"/>
+                        <owl:someValuesFrom rdf:resource="http://www.elite.polito.it/awarenotifications#Speaker"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#notificationSystemHasCommunicationState"/>
+                        <owl:hasValue rdf:resource="http://www.elite.polito.it/awarenotifications#OnHook"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#notificationSystemHasSoundState"/>
+                        <owl:hasValue rdf:resource="http://www.elite.polito.it/awarenotifications#NormalMode"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#HeatingSystem -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#HeatingSystem">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#AmbientSystem"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#notificationSystemHasFeature"/>
+                        <owl:someValuesFrom rdf:resource="http://www.elite.polito.it/awarenotifications#Thermomenter"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">HeatingSystem</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#HiFi -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#HiFi">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#EnterteinementDevice"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#notificationSystemHasFeature"/>
+                <owl:someValuesFrom rdf:resource="http://www.elite.polito.it/awarenotifications#Speaker"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">HiFi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#HighPriorityNotification -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#HighPriorityNotification">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#Notification"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#notificationHasTypePriority"/>
+                        <owl:hasValue rdf:resource="http://www.elite.polito.it/awarenotifications#High"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#Notification"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#HomeOffice -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#HomeOffice">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#Room"/>
+        <rdfs:label xml:lang="en">HomeOffice</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#HumiditySensor -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#HumiditySensor">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#SensorFeature"/>
+        <rdfs:label xml:lang="en">HumiditySensor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#HumiditySystem -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#HumiditySystem">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#AmbientSystem"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#notificationSystemHasFeature"/>
+                        <owl:someValuesFrom rdf:resource="http://www.elite.polito.it/awarenotifications#HumiditySensor"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">HumiditySystem</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#InfraredSensor -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#InfraredSensor">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#SensorFeature"/>
+        <rdfs:label xml:lang="en">InfraredSensor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#InputFeature -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#InputFeature">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#Featrue"/>
+        <owl:disjointWith rdf:resource="http://www.elite.polito.it/awarenotifications#OutputFeature"/>
+        <rdfs:label xml:lang="en">InputFeature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#InputSystem -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#InputSystem">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#NotificationSystem"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#notificationSystemHasFeature"/>
+                        <owl:someValuesFrom rdf:resource="http://www.elite.polito.it/awarenotifications#InputFeature"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#InstantMessaging -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#InstantMessaging">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#CommunicationActivity"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#hasActivityName"/>
+                <owl:hasValue>Instant Messaging</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <descriptionEN rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I am chatting with a friend.</descriptionEN>
+        <descriptionIT>Sto messaggiando con una persona.</descriptionIT>
+        <descriptionNameEN>Instant messaging</descriptionNameEN>
+        <descriptionNameIT>Messaggiare</descriptionNameIT>
+        <images>resources/images/messaging.jpg</images>
+        <rdfs:label xml:lang="en">InstantMessaging</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#InstantMessagingNotification -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#InstantMessagingNotification">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#UserNotification"/>
+        <descriptionEN>Notification of an instant messaging service, such as WhatsApp, Telegram, etc.</descriptionEN>
+        <descriptionIT>Notifica di una chat, come WhatsApp, Telegram, ecc.</descriptionIT>
+        <descriptionNameEN>Instant messaging notification</descriptionNameEN>
+        <descriptionNameIT>Notifica da una chat</descriptionNameIT>
+        <images>resources/images/messagingnotifications.jpg</images>
+        <rdfs:label xml:lang="en">InstantMessagingNotification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#InternalEnviroment -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#InternalEnviroment">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#Location"/>
+        <rdfs:label xml:lang="en">InternalEnviroment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#Keyboard -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#Keyboard">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#InputFeature"/>
+        <rdfs:label xml:lang="en">Keyboard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#Kitchen -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#Kitchen">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#Room"/>
+        <rdfs:label xml:lang="en">Kitchen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#Laptop -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#Laptop">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#MobileDevice"/>
+        <rdfs:label xml:lang="en">Laptop</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#Lesson -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#Lesson">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#WorkActivity"/>
+        <descriptionEN>I am at lesson.</descriptionEN>
+        <descriptionIT>Sono a lezione.</descriptionIT>
+        <descriptionNameEN>Lesson</descriptionNameEN>
+        <descriptionNameIT>Lezione</descriptionNameIT>
+        <images>resources/images/lesson.jpg</images>
+        <rdfs:label xml:lang="en">Lesson</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#LightingAlarm -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#LightingAlarm">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#NotificationAlarm"/>
+        <rdfs:label xml:lang="en">LightingAlarm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#LightingSensor -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#LightingSensor">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#SensorFeature"/>
+        <rdfs:label xml:lang="en">LightingSensor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#LightingSystem -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#LightingSystem">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#AmbientSystem"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#notificationSystemHasFeature"/>
+                        <owl:someValuesFrom rdf:resource="http://www.elite.polito.it/awarenotifications#LightingSensor"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">LightingSystem</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#ListeningMusic -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#ListeningMusic">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#FreeTimeActivity"/>
+        <descriptionEN>I am listening music.
+</descriptionEN>
+        <descriptionIT>Sto ascoltando musica.</descriptionIT>
+        <descriptionNameEN>Listening music</descriptionNameEN>
+        <descriptionNameIT>Ascoltare musica</descriptionNameIT>
+        <images>resources/images/music.jpg</images>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#LivingRoom -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#LivingRoom">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#Room"/>
+        <rdfs:label xml:lang="en">Livingroom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#Location -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#Location">
+        <rdfs:label xml:lang="en">Location</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#LowPriorityNotification -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#LowPriorityNotification">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#Notification"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#notificationHasTypePriority"/>
+                        <owl:hasValue rdf:resource="http://www.elite.polito.it/awarenotifications#Low"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#Notification"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#ManualActivity -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#ManualActivity">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#WorkActivity"/>
+        <owl:disjointWith rdf:resource="http://www.elite.polito.it/awarenotifications#WorkOnPc"/>
+        <descriptionEN>I am doing a manual work.</descriptionEN>
+        <descriptionIT>Sto svolgendo un lavoro manuale.</descriptionIT>
+        <descriptionNameEN>Manual activity</descriptionNameEN>
+        <descriptionNameIT>Lavoro manuale</descriptionNameIT>
+        <images>resources/images/manual.jpg</images>
+        <rdfs:label xml:lang="en">ManualActivity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#MediumPriorityNotification -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#MediumPriorityNotification">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#Notification"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#notificationHasTypePriority"/>
+                        <owl:hasValue rdf:resource="http://www.elite.polito.it/awarenotifications#Medium"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#Notification"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#Meeting -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#Meeting">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#WorkActivity"/>
+        <descriptionEN>I am in a meeting.</descriptionEN>
+        <descriptionIT>Sono in riunione.</descriptionIT>
+        <descriptionNameEN>Meeting</descriptionNameEN>
+        <descriptionNameIT>Riunione</descriptionNameIT>
+        <images>resources/images/meeting.jpg</images>
+        <rdfs:label xml:lang="en">Meeting</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#Microphone -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#Microphone">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#InputFeature"/>
+        <rdfs:label xml:lang="en">Microphone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#MobileDevice -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#MobileDevice">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#UserDevice"/>
+        <rdfs:label xml:lang="en">MobileDevice</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#Mouse -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#Mouse">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#InputFeature"/>
+        <rdfs:label xml:lang="en">Mouse</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#NFC -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#NFC">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#NetworkFeature"/>
+        <rdfs:label xml:lang="en">NFC</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#NetworkFeature -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#NetworkFeature">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#Featrue"/>
+        <rdfs:label xml:lang="en">NetworkFeature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#NoiseSensor -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#NoiseSensor">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#SensorFeature"/>
+        <rdfs:label xml:lang="en">NoiseSensor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#NoiseSystem -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#NoiseSystem">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#AmbientSystem"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#notificationSystemHasFeature"/>
+                        <owl:someValuesFrom rdf:resource="http://www.elite.polito.it/awarenotifications#NoiseSensor"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">NoiseSystem</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#Notification -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#Notification">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#notificationHasTypePriority"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.elite.polito.it/awarenotifications#TypePriority"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#notificationHasSocialPriority"/>
+                        <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.elite.polito.it/awarenotifications#SocialPriority"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Notification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#NotificationAlarm -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#NotificationAlarm">
+        <rdfs:label xml:lang="en">NotificationAlarm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#NotificationLed -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#NotificationLed">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#OutputFeature"/>
+        <rdfs:label xml:lang="en">NotificationLed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#NotificationPriority -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#NotificationPriority">
+        <rdfs:label xml:lang="en">NotificationPriority</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#NotificationSystem -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#NotificationSystem">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#notificationSystemHasFeature"/>
+                <owl:someValuesFrom rdf:resource="http://www.elite.polito.it/awarenotifications#NetworkFeature"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">NotificationSystem</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#NotificationSystemState -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#NotificationSystemState">
+        <rdfs:label xml:lang="en">NotificationSystemState</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#ObtrusivenessLevel -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#ObtrusivenessLevel">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#Available"/>
+                    <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#NotAvailable"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label xml:lang="en">ObtrusivenessLevel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#Office -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#Office">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#ExternalEnviroment"/>
+        <rdfs:label xml:lang="en">Office</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#OfficeActivity -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#OfficeActivity">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#WorkActivity"/>
+        <descriptionEN>I am working on my office.</descriptionEN>
+        <descriptionIT>Sto lavorando nel mio ufficio.</descriptionIT>
+        <descriptionNameEN>Office activity</descriptionNameEN>
+        <descriptionNameIT>Attività da ufficio</descriptionNameIT>
+        <images>resources/images/office.jpg</images>
+        <rdfs:label xml:lang="en">OfficeActivity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#OnOutputSystem -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#OnOutputSystem">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#OutputSystem"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#notificationSystemHasPowerState"/>
+                        <owl:hasValue rdf:resource="http://www.elite.polito.it/awarenotifications#On"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#OutputFeature -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#OutputFeature">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#Featrue"/>
+        <rdfs:label xml:lang="en">OutputFeature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#OutputSystem -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#OutputSystem">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#NotificationSystem"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#notificationSystemHasFeature"/>
+                        <owl:someValuesFrom rdf:resource="http://www.elite.polito.it/awarenotifications#OutputFeature"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#Pc -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#Pc">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#SmartAppliance"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#notificationSystemHasFeature"/>
+                        <owl:someValuesFrom rdf:resource="http://www.elite.polito.it/awarenotifications#Display"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#notificationSystemHasFeature"/>
+                        <owl:someValuesFrom rdf:resource="http://www.elite.polito.it/awarenotifications#Keyboard"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#notificationSystemHasFeature"/>
+                        <owl:someValuesFrom rdf:resource="http://www.elite.polito.it/awarenotifications#Mouse"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#notificationSystemHasFeature"/>
+                        <owl:someValuesFrom rdf:resource="http://www.elite.polito.it/awarenotifications#NetworkFeature"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Pc</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#Person -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#Person">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#personHasObtrusivenessLevel"/>
+                <owl:someValuesFrom rdf:resource="http://www.elite.polito.it/awarenotifications#ObtrusivenessLevel"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Person</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#PersonWIthCognitiveDisabilities -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#PersonWIthCognitiveDisabilities">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#PersonWithDisabilities"/>
+        <rdfs:label xml:lang="en">PersonWithCognitiveDisabilities</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#PersonWithDisabilities -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#PersonWithDisabilities">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#Person"/>
+        <rdfs:label xml:lang="en">PersonWithDisabilities</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#PersonWithMotorDisabilities -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#PersonWithMotorDisabilities">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#PersonWithDisabilities"/>
+        <rdfs:label xml:lang="en">PersonWithMotorDisabilities</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#PersonWithSensoryDisabilities -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#PersonWithSensoryDisabilities">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#PersonWithDisabilities"/>
+        <rdfs:label xml:lang="en">PersonWithSensoryDisabilities</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#PersonWithUpperBodyMotorDisabilities -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#PersonWithUpperBodyMotorDisabilities">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#PersonWithMotorDisabilities"/>
+        <rdfs:label xml:lang="en">PersonWithUpperBodyMotorDisabilities</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#Phone -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#Phone">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#CommunicationDevice"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#notificationSystemHasFeature"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.elite.polito.it/awarenotifications#Display"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Phone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#PhoneCall -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#PhoneCall">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#CommunicationActivity"/>
+        <descriptionEN>I am doing a phone call.</descriptionEN>
+        <descriptionIT>Sto telefonando.</descriptionIT>
+        <descriptionNameEN>Phone call</descriptionNameEN>
+        <descriptionNameIT>Chiamata Telefonica</descriptionNameIT>
+        <images>resources/images/call.jpg</images>
+        <rdfs:label xml:lang="en">PhoneCall</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#PhoneCallNotification -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#PhoneCallNotification">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#UserNotification"/>
+        <descriptionEN>Notification of a new ingoing call.</descriptionEN>
+        <descriptionIT>Notifica di una nuova chiamata ricevuta in corso.</descriptionIT>
+        <descriptionNameEN>Phone call notification</descriptionNameEN>
+        <descriptionNameIT>Chiamata in arrivo</descriptionNameIT>
+        <images>resources/images/phonenotifications.jpg</images>
+        <rdfs:label xml:lang="en">PhoneCallNotification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#PhysicalActivity -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#PhysicalActivity">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#Activity"/>
+        <descriptionEN>Physical Activities include when you are walking, running, etc.
+Define your accessibility level for all the Physical Activities (DEFINE FOR ALL), or go into detail of all specific Activity (VIEW MORE).</descriptionEN>
+        <descriptionIT>Le Attività Fisiche indentificano quando stai camminando, ad esempio per una passeggiata, quando stai correndo, etc.
+Definisci il tuo Livello di Accessibilità per tutte le Attività Fisiche (DEFINIZIONE GLOBALE), oppure scendi nei dettagli di ogni specifica Attività (DETTAGLI).</descriptionIT>
+        <descriptionNameEN>Physical activity</descriptionNameEN>
+        <descriptionNameIT>Attività fisica (es. Passeggiata)</descriptionNameIT>
+        <images>resources/images/physical.jpg</images>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#PowerState -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#PowerState">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#Off"/>
+                    <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#On"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#NotificationSystemState"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#Printer -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#Printer">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#SmartAppliance"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#notificationSystemHasFeature"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.elite.polito.it/awarenotifications#Display"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Printer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#PromoNotification -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#PromoNotification">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#UserNotification"/>
+        <descriptionEN>New promotional notification.</descriptionEN>
+        <descriptionIT>Nuova notifica pubblicitaria.</descriptionIT>
+        <descriptionNameEN>Promotion</descriptionNameEN>
+        <descriptionNameIT>Pubblicità</descriptionNameIT>
+        <images>resources/images/promonotifications.jpg</images>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#Radio -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#Radio">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#EnterteinementDevice"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#notificationSystemHasFeature"/>
+                        <owl:someValuesFrom rdf:resource="http://www.elite.polito.it/awarenotifications#Speaker"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#notificationSystemHasFeature"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.elite.polito.it/awarenotifications#Display"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Radio</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#Reading -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#Reading">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#FreeTimeActivity"/>
+        <descriptionEN>I am reading (e.g., a book, a journal, etc.).</descriptionEN>
+        <descriptionIT>Sto leggendo un giornale, un libro, ecc.</descriptionIT>
+        <descriptionNameEN>Reading</descriptionNameEN>
+        <descriptionNameIT>Leggere</descriptionNameIT>
+        <images>resources/images/reading.jpg</images>
+        <rdfs:label xml:lang="en">Reading</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#Room -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#Room">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#InternalEnviroment"/>
+        <rdfs:label xml:lang="en">Room</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#Running -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#Running">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#PhysicalActivity"/>
+        <descriptionEN>I&apos;m running.</descriptionEN>
+        <descriptionIT>Sto correndo.</descriptionIT>
+        <descriptionNameEN>Running</descriptionNameEN>
+        <descriptionNameIT>Correre</descriptionNameIT>
+        <images>resources/images/running.jpg</images>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#SecuritySystem -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#SecuritySystem">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#SmartHomeElement"/>
+        <rdfs:label xml:lang="en">SecuritySystem</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#SensorFeature -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#SensorFeature">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#InputFeature"/>
+        <rdfs:label xml:lang="en">SensorFeature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#SightUsableNotificationSystem -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#SightUsableNotificationSystem">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#OnOutputSystem"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#notificationSystemHasFeature"/>
+                        <owl:someValuesFrom rdf:resource="http://www.elite.polito.it/awarenotifications#Display"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#notificationSystemHasCommunicationState"/>
+                        <owl:hasValue rdf:resource="http://www.elite.polito.it/awarenotifications#OnHook"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#notificationSystemHasDisplayState"/>
+                        <owl:hasValue rdf:resource="http://www.elite.polito.it/awarenotifications#DisplayOn"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#Sleeping -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#Sleeping">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#FreeTimeActivity"/>
+        <descriptionEN>I am sleeping</descriptionEN>
+        <descriptionIT>Sto dormendo.</descriptionIT>
+        <descriptionNameEN>Sleeping</descriptionNameEN>
+        <descriptionNameIT>Dormire</descriptionNameIT>
+        <images>resources/images/sleeping.jpg</images>
+        <rdfs:label xml:lang="en">Sleeping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#SmartAppliance -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#SmartAppliance">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#SmartHomeElement"/>
+        <rdfs:label xml:lang="en">SmartAppliance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#SmartDiswasher -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#SmartDiswasher">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#SmartAppliance"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#notificationSystemHasFeature"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.elite.polito.it/awarenotifications#Display"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#SmartFridge -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#SmartFridge">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#SmartAppliance"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#notificationSystemHasFeature"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.elite.polito.it/awarenotifications#Display"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">SmartFridge</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#SmartHomeElement -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#SmartHomeElement">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#NotificationSystem"/>
+        <owl:disjointWith rdf:resource="http://www.elite.polito.it/awarenotifications#UserDevice"/>
+        <rdfs:label xml:lang="en">SmartHomeElement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#SmartHomeNotification -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#SmartHomeNotification">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#Notification"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#notificationIsGeneratedByNotificationSystem"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.elite.polito.it/awarenotifications#SmartHomeElement"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://www.elite.polito.it/awarenotifications#UserNotification"/>
+        <descriptionEN>Smart Home Notifications include all the notifications deriving from IoT devices/systems of your home, such as alarm systems, lighting sistems, IoT appliances, etc. 
+Define the priority for all the Smart Home Notifications (DEFINE FOR ALL), or go into detail of all specific Notification type (VIEW MORE).</descriptionEN>
+        <descriptionIT>Le Notifiche Smart Home includono tutte le notifiche che derivano dai tuoi dispositivi/servizi IoT della casa, come l&apos;antifurto, l&apos;impianto di illuminazione, gli elettrodomestici IoT, ecc.
+Definisci la priorità per tutte le Notifiche Smart Home (DEFINIZIONE GLOBALE), oppure scendi nei dettagli di ogni tiplogia di Notifica (DETTAGLI).</descriptionIT>
+        <descriptionNameEN>Smart home notification</descriptionNameEN>
+        <descriptionNameIT>Notifiche smart home</descriptionNameIT>
+        <images>resources/images/smarthome.jpg</images>
+        <rdfs:label xml:lang="en">SmartHomeNotification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#SmartTv -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#SmartTv">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#EnterteinementDevice"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#notificationSystemHasFeature"/>
+                        <owl:someValuesFrom rdf:resource="http://www.elite.polito.it/awarenotifications#Speaker"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#notificationSystemHasFeature"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.elite.polito.it/awarenotifications#Display"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">SmartTv</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#SmartWashing -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#SmartWashing">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#SmartAppliance"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#notificationSystemHasFeature"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.elite.polito.it/awarenotifications#Display"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">SmartWashing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#Smartphone -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#Smartphone">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#MobileDevice"/>
+                    <owl:Class>
+                        <owl:complementOf>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#notificationSystemHasFeature"/>
+                                <owl:someValuesFrom rdf:resource="http://www.elite.polito.it/awarenotifications#EthernetConnection"/>
+                            </owl:Restriction>
+                        </owl:complementOf>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#notificationSystemHasFeature"/>
+                        <owl:someValuesFrom rdf:resource="http://www.elite.polito.it/awarenotifications#Keyboard"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#notificationSystemHasFeature"/>
+                        <owl:someValuesFrom rdf:resource="http://www.elite.polito.it/awarenotifications#Microphone"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#notificationSystemHasFeature"/>
+                        <owl:someValuesFrom rdf:resource="http://www.elite.polito.it/awarenotifications#NetworkFeature"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#notificationSystemHasFeature"/>
+                        <owl:someValuesFrom rdf:resource="http://www.elite.polito.it/awarenotifications#NotificationLed"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#notificationSystemHasFeature"/>
+                        <owl:someValuesFrom rdf:resource="http://www.elite.polito.it/awarenotifications#Speaker"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#notificationSystemHasFeature"/>
+                        <owl:someValuesFrom rdf:resource="http://www.elite.polito.it/awarenotifications#VibrationMotor"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#notificationSystemHasFeature"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.elite.polito.it/awarenotifications#Display"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Smartphone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#Smartwatch -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#Smartwatch">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#WearableDevice"/>
+                    <owl:Class>
+                        <owl:complementOf>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#notificationSystemHasFeature"/>
+                                <owl:someValuesFrom rdf:resource="http://www.elite.polito.it/awarenotifications#EthernetConnection"/>
+                            </owl:Restriction>
+                        </owl:complementOf>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#notificationSystemHasFeature"/>
+                        <owl:someValuesFrom rdf:resource="http://www.elite.polito.it/awarenotifications#NetworkFeature"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#notificationSystemHasFeature"/>
+                        <owl:someValuesFrom rdf:resource="http://www.elite.polito.it/awarenotifications#VibrationMotor"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#notificationSystemHasFeature"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.elite.polito.it/awarenotifications#Display"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Smartwatch</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#SmokeSensor -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#SmokeSensor">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#SensorFeature"/>
+        <rdfs:label xml:lang="en">SmokeSensor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#SocialImportantNotification -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#SocialImportantNotification">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#Notification"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#notificationHasSocialPriority"/>
+                        <owl:hasValue rdf:resource="http://www.elite.polito.it/awarenotifications#Important"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#Notification"/>
+        <owl:disjointWith rdf:resource="http://www.elite.polito.it/awarenotifications#SocialNotImportantNotification"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#SocialNetworkNotification -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#SocialNetworkNotification">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#UserNotification"/>
+        <descriptionEN>Notification deriving from a social network, such as a Facebook friend&apos;s new post.</descriptionEN>
+        <descriptionIT>Notifica di un social network, come un nuovo post su Facebook di un amico.</descriptionIT>
+        <descriptionNameEN>Social network notification</descriptionNameEN>
+        <descriptionNameIT>Notifica social network</descriptionNameIT>
+        <images>resources/images/socialnotifications.jpg</images>
+        <rdfs:label xml:lang="en">SocialNetworkNotification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#SocialNotImportantNotification -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#SocialNotImportantNotification">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#Notification"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#notificationHasSocialPriority"/>
+                        <owl:hasValue rdf:resource="http://www.elite.polito.it/awarenotifications#NotImportant"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#Notification"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#SocialPriority -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#SocialPriority">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#NotificationPriority"/>
+        <owl:disjointWith rdf:resource="http://www.elite.polito.it/awarenotifications#TypePriority"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#SoundAlarm -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#SoundAlarm">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#NotificationAlarm"/>
+        <rdfs:label xml:lang="en">SoundAlarm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#SoundState -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#SoundState">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#NormalMode"/>
+                    <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#SilentMode"/>
+                    <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#VibrateMode"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#NotificationSystemState"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#Speaker -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#Speaker">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#OutputFeature"/>
+        <rdfs:label xml:lang="en">Speaker</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#Storageroom -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#Storageroom">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#Room"/>
+        <rdfs:label xml:lang="en">Storageroom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#Tablet -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#Tablet">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#MobileDevice"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#notificationSystemHasFeature"/>
+                        <owl:someValuesFrom rdf:resource="http://www.elite.polito.it/awarenotifications#Keyboard"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#notificationSystemHasFeature"/>
+                        <owl:someValuesFrom rdf:resource="http://www.elite.polito.it/awarenotifications#Microphone"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#notificationSystemHasFeature"/>
+                        <owl:someValuesFrom rdf:resource="http://www.elite.polito.it/awarenotifications#NetworkFeature"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#notificationSystemHasFeature"/>
+                        <owl:someValuesFrom rdf:resource="http://www.elite.polito.it/awarenotifications#NotificationLed"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#notificationSystemHasFeature"/>
+                        <owl:someValuesFrom rdf:resource="http://www.elite.polito.it/awarenotifications#Speaker"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#notificationSystemHasFeature"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.elite.polito.it/awarenotifications#Display"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Tablet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#Thermomenter -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#Thermomenter">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#SensorFeature"/>
+        <rdfs:label xml:lang="en">Thermometer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#ThreeG -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#ThreeG">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#NetworkFeature"/>
+        <rdfs:label xml:lang="en">ThreeG</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#TouchScreen -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#TouchScreen">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#Display"/>
+        <rdfs:label xml:lang="en">TouchScreen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#Traveling -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#Traveling">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#Activity"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#activityPerformedByPerson"/>
+                        <owl:allValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#Person"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#personIsInLocation"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#Location"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#locationContainsNotificationSystem"/>
+                                                        <owl:someValuesFrom rdf:resource="http://www.elite.polito.it/awarenotifications#Pc"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:allValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <descriptionEN>Traveling Activities include when you are driving your car, when you are on a bus, when you take a train, etc.
+Define your accessibility level for all the Traveling Activities (DEFINE FOR ALL), or go into detail of all specific Activity (VIEW MORE).</descriptionEN>
+        <descriptionIT>Le Attività Viaggiare includono  guidare la macchina, prendere un bus, un treno, etc.
+Definisci il tuo Livello di Accessibilità per tutte le Attività Viaggiare (DEFINIZIONE GLOBALE), oppure scendi nei dettagli di ogni specifica Attività (DETTAGLI).</descriptionIT>
+        <descriptionNameEN>Traveling</descriptionNameEN>
+        <descriptionNameIT>Viaggiare</descriptionNameIT>
+        <images>resources/images/traveling.jpg</images>
+        <rdfs:label xml:lang="en">Traveling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#TravelingByBike -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#TravelingByBike">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#Traveling"/>
+        <descriptionEN>I am going by bike.</descriptionEN>
+        <descriptionIT>Sto andando in bicicletta.</descriptionIT>
+        <descriptionNameEN>Traveling by bike</descriptionNameEN>
+        <descriptionNameIT>Andare in bici</descriptionNameIT>
+        <images>resources/images/bike.jpg</images>
+        <rdfs:label xml:lang="en">TravelingByBike</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#TravelingByBus -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#TravelingByBus">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#Traveling"/>
+        <descriptionIT>Sono sul bus.</descriptionIT>
+        <descriptionNameEN>I am traveling on a bus.</descriptionNameEN>
+        <descriptionNameEN>Traveling by bus</descriptionNameEN>
+        <descriptionNameIT>Prendere il bus</descriptionNameIT>
+        <images>resources/images/bus.jpg</images>
+        <rdfs:label xml:lang="en">TravelingByBus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#TravelingByCar -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#TravelingByCar">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#Traveling"/>
+        <descriptionEN>I am driving my car.</descriptionEN>
+        <descriptionIT>Sto guidando la mia macchina.</descriptionIT>
+        <descriptionNameEN>Traveling by car</descriptionNameEN>
+        <descriptionNameIT>Guidare</descriptionNameIT>
+        <images>resources/images/driving.jpg</images>
+        <rdfs:label xml:lang="en">TravelingByCar</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#TravelingByPlane -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#TravelingByPlane">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#Traveling"/>
+        <descriptionEN>I am traveling on a plane.</descriptionEN>
+        <descriptionIT>Sto viaggiando su un aereo.</descriptionIT>
+        <descriptionNameEN>Traveling by plane</descriptionNameEN>
+        <descriptionNameIT>Prendere l&apos;aereo</descriptionNameIT>
+        <images>resources/images/airplane.jpg</images>
+        <rdfs:label xml:lang="en">TravelingByPlane</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#TravelingByTrain -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#TravelingByTrain">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#Traveling"/>
+        <descriptionEN>I am traveling on a train.</descriptionEN>
+        <descriptionIT>Sto viaggiando su un treno.</descriptionIT>
+        <descriptionNameEN>Traveling by train</descriptionNameEN>
+        <descriptionNameIT>Prendere il treno</descriptionNameIT>
+        <images>resources/images/train.jpg</images>
+        <rdfs:label xml:lang="en">TravelingByTrain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#TwoG -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#TwoG">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#NetworkFeature"/>
+        <rdfs:label xml:lang="en">TwoG</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#TypePriority -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#TypePriority">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#NotificationPriority"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#UserDevice -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#UserDevice">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#NotificationSystem"/>
+        <rdfs:label xml:lang="en">UserDevice</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#UserNotification -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#UserNotification">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#Notification"/>
+        <descriptionEN>User Notifications include all your personal notification, such as an email, a chat message, a social network mention, ecc.
+Define the priority for all the User Notifications (DEFINE FOR ALL), or go into detail of all specific Notification type (VIEW MORE).</descriptionEN>
+        <descriptionIT>Le Notifiche Personali includono tutte le tue notifiche personali, come una email, un nuovo messaggio privato, una nuova notifica sui social network, ecc.
+Definisci la priorità per tutte le Notifiche Personali (DEFINIZIONE GLOBALE), oppure scendi nei dettagli di ogni tiplogia di Notifica (DETTAGLI).</descriptionIT>
+        <descriptionNameEN>User notification</descriptionNameEN>
+        <descriptionNameIT>Notifiche personali</descriptionNameIT>
+        <images>resources/images/personal.jpg</images>
+        <rdfs:label xml:lang="en">UserNotification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#UsingMobileDevice -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#UsingMobileDevice">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#FreeTimeActivity"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#activityPerformedByPerson"/>
+                        <owl:allValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#personHasDevice"/>
+                                <owl:someValuesFrom rdf:resource="http://www.elite.polito.it/awarenotifications#MobileDevice"/>
+                            </owl:Restriction>
+                        </owl:allValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <descriptionEN>I am using my personal mobile devices (e.d., my smartphone, my tablet, etc.).</descriptionEN>
+        <descriptionIT>Sto usando i miei dispositvi mobile personali (es il mio smartphone, il mio tablet, ecc.).</descriptionIT>
+        <descriptionNameEN>Using mobile device</descriptionNameEN>
+        <descriptionNameIT>Usare dispositivi mobile</descriptionNameIT>
+        <images>resources/images/mobile.jpg</images>
+        <rdfs:label xml:lang="en">UsingMobileDevice</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#UsingPc -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#UsingPc">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#FreeTimeActivity"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#activityPerformedByPerson"/>
+                        <owl:allValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#Person"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#personIsInLocation"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#Location"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#locationContainsNotificationSystem"/>
+                                                        <owl:someValuesFrom rdf:resource="http://www.elite.polito.it/awarenotifications#Pc"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:allValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <descriptionEN>I am using my PC to surf the Internet, to view a film, etc.</descriptionEN>
+        <descriptionIT>Sto usando il mio PC nel tempo libero (es per giocare a un videogioco o navigare).</descriptionIT>
+        <descriptionNameEN>Using PC</descriptionNameEN>
+        <descriptionNameIT>Usare il PC</descriptionNameIT>
+        <images>resources/images/pc.jpg</images>
+        <rdfs:label xml:lang="en">UsingPc</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#UsingWearableDevice -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#UsingWearableDevice">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#FreeTimeActivity"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#activityPerformedByPerson"/>
+                        <owl:allValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#personHasDevice"/>
+                                <owl:someValuesFrom rdf:resource="http://www.elite.polito.it/awarenotifications#WearableDevice"/>
+                            </owl:Restriction>
+                        </owl:allValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <descriptionEN>I am using my wearable devices (e.g., my smartwatch).</descriptionEN>
+        <descriptionIT>Sto usando i miei dispositivi indossabili (es il mio smartwatch).</descriptionIT>
+        <descriptionNameEN>Using wearable device</descriptionNameEN>
+        <descriptionNameIT>Usare wearable devices</descriptionNameIT>
+        <images>resources/images/wearable.jpg</images>
+        <rdfs:label xml:lang="en">UsingWearableDevice</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#VibrationAlarm -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#VibrationAlarm">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#NotificationAlarm"/>
+        <rdfs:label xml:lang="en">VibrationAlarm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#VibrationMotor -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#VibrationMotor">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#OutputFeature"/>
+        <rdfs:label xml:lang="en">VibrationMotor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#VideoCallNotification -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#VideoCallNotification">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#UserNotification"/>
+        <descriptionIT>Notifica di una nuova videochiamata ricevuta in corso.</descriptionIT>
+        <descriptionIT>Notification of a new ingoing video call.</descriptionIT>
+        <descriptionNameEN>Video call notification</descriptionNameEN>
+        <descriptionNameIT>Videochiamata in arrivo</descriptionNameIT>
+        <images>resources/images/videonotifications.jpg</images>
+        <rdfs:label xml:lang="en">VideoCallNotification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#VideoConference -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#VideoConference">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#CommunicationActivity"/>
+        <descriptionEN>I am doing a video conference with someone.</descriptionEN>
+        <descriptionIT>Sono in video conferenza con qualcuno.</descriptionIT>
+        <descriptionNameEN>Video conference</descriptionNameEN>
+        <descriptionNameIT>Video Conferenza</descriptionNameIT>
+        <images>resources/images/videocall.jpg</images>
+        <rdfs:label xml:lang="en">VideoConference</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#Walking -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#Walking">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#PhysicalActivity"/>
+        <descriptionEN>I&apos;m walking.</descriptionEN>
+        <descriptionIT>Sto camminando.</descriptionIT>
+        <descriptionNameEN>Walking</descriptionNameEN>
+        <descriptionNameIT>Camminare</descriptionNameIT>
+        <images>resources/images/walking.jpg</images>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#WatchingTv -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#WatchingTv">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#FreeTimeActivity"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#activityPerformedByPerson"/>
+                        <owl:allValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#Person"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#personIsInLocation"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#Location"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="http://www.elite.polito.it/awarenotifications#locationContainsNotificationSystem"/>
+                                                        <owl:someValuesFrom rdf:resource="http://www.elite.polito.it/awarenotifications#Pc"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:allValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <descriptionEN>I am watching the TV.</descriptionEN>
+        <descriptionIT>Sto guardando la TV.</descriptionIT>
+        <descriptionNameEN>Watching TV</descriptionNameEN>
+        <descriptionNameIT>Guardare la TV</descriptionNameIT>
+        <images>resources/images/tv.jpg</images>
+        <rdfs:label xml:lang="en">WatchingTv</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#WearableDevice -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#WearableDevice">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#UserDevice"/>
+        <rdfs:label xml:lang="en">WearableDevice</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#WiFi -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#WiFi">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#NetworkFeature"/>
+        <rdfs:label xml:lang="en">WiFi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#WindowSensor -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#WindowSensor">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#SensorFeature"/>
+        <rdfs:label xml:lang="en">WindowSensor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#WorkActivity -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#WorkActivity">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#Activity"/>
+        <descriptionEN>Work Activities include when you are doing a meeting in your office, when you are doing a manual activity, etc.
+Define your accessibility level for all the Work Activities (DEFINE FOR ALL), or go into detail of all specific Activity (VIEW MORE).</descriptionEN>
+        <descriptionIT>Le Attività Lavoro includono un meeting nel tuo ufficio, lavorare al PC, una attività manuale, etc.
+Definisci il tuo Livello di Accessibilità per tutte le Attività Lavoro (DEFINIZIONE GLOBALE), oppure scendi nei dettagli di ogni specifica Attività (DETTAGLI).</descriptionIT>
+        <descriptionNameEN>Work Activity</descriptionNameEN>
+        <descriptionNameIT>Lavoro</descriptionNameIT>
+        <images>resources/images/working.jpg</images>
+        <rdfs:label xml:lang="en">WorkActivity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#WorkOnPc -->
+
+    <owl:Class rdf:about="http://www.elite.polito.it/awarenotifications#WorkOnPc">
+        <rdfs:subClassOf rdf:resource="http://www.elite.polito.it/awarenotifications#WorkActivity"/>
+        <descriptionEN>I am working on my PC.</descriptionEN>
+        <descriptionIT>Sto lavorando al PC.</descriptionIT>
+        <descriptionNameEN>Work on PC</descriptionNameEN>
+        <descriptionNameIT>Lavoro al PC</descriptionNameIT>
+        <images>resources/images/workpc.jpg</images>
+        <rdfs:label xml:lang="en">WorkOnPc</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#Available -->
+
+    <owl:NamedIndividual rdf:about="http://www.elite.polito.it/awarenotifications#Available">
+        <rdf:type rdf:resource="http://www.elite.polito.it/awarenotifications#ObtrusivenessLevel"/>
+        <descriptionEN>I&apos;m Available to receive Notificaitons.</descriptionEN>
+        <descriptionIT>Sono Disponibile a ricevere notifiche.</descriptionIT>
+        <descriptionNameEN>Available</descriptionNameEN>
+        <descriptionNameIT>Disponibile</descriptionNameIT>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#DisplayOff -->
+
+    <owl:NamedIndividual rdf:about="http://www.elite.polito.it/awarenotifications#DisplayOff">
+        <rdf:type rdf:resource="http://www.elite.polito.it/awarenotifications#DisplayState"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#DisplayOn -->
+
+    <owl:NamedIndividual rdf:about="http://www.elite.polito.it/awarenotifications#DisplayOn">
+        <rdf:type rdf:resource="http://www.elite.polito.it/awarenotifications#DisplayState"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#HandsFree -->
+
+    <owl:NamedIndividual rdf:about="http://www.elite.polito.it/awarenotifications#HandsFree">
+        <rdf:type rdf:resource="http://www.elite.polito.it/awarenotifications#AccessibilityLevel"/>
+        <descriptionEN>I am available to iteract with my mobile devices (e.g., take the smartphone out of my pocket) to receive notifications.</descriptionEN>
+        <descriptionIT>Sono disponibile a interagire con i miei dispositivi mobile (es. prendere lo smartphone dalla tasca) per ricevere notifiche.</descriptionIT>
+        <descriptionNameEN>B - Hands</descriptionNameEN>
+        <descriptionNameIT>B - Mani</descriptionNameIT>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#HearingFree -->
+
+    <owl:NamedIndividual rdf:about="http://www.elite.polito.it/awarenotifications#HearingFree">
+        <rdf:type rdf:resource="http://www.elite.polito.it/awarenotifications#AccessibilityLevel"/>
+        <descriptionEN>I am available to receive audio notifications.</descriptionEN>
+        <descriptionIT>Sono disponibile a ricevere notifiche audio.</descriptionIT>
+        <descriptionNameEN>D - Hearing</descriptionNameEN>
+        <descriptionNameIT>D - Udito</descriptionNameIT>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#High -->
+
+    <owl:NamedIndividual rdf:about="http://www.elite.polito.it/awarenotifications#High">
+        <rdf:type rdf:resource="http://www.elite.polito.it/awarenotifications#TypePriority"/>
+        <descriptionEN>A Notification with high priority is very important for you and does not follow your normal preferences. AwareNotifications force the deliver of an High Priority Notification to all your nearby devices.</descriptionEN>
+        <descriptionIT>Una Notifica con alta priorità è davvero imoportante per te e non segue le tue normali preferenze. AwareNotifications forza la consegna di questo tipo di notifiche a tutti i dispositivi vicino a te.</descriptionIT>
+        <descriptionNameEN>3 - High Priority</descriptionNameEN>
+        <descriptionNameIT>3 - Alta Priorità</descriptionNameIT>
+        <rdfs:label xml:lang="en">High</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#Important -->
+
+    <owl:NamedIndividual rdf:about="http://www.elite.polito.it/awarenotifications#Important">
+        <rdf:type rdf:resource="http://www.elite.polito.it/awarenotifications#SocialPriority"/>
+        <descriptionEN>If there are available devices, AwareNotifications shows you an important notifications immediatly.</descriptionEN>
+        <descriptionIT>Se esistono dispositivi disponibili secondo le tue preferenze, AwareNotifications ti mostra immediatamente una notifica importante.</descriptionIT>
+        <descriptionNameEN>Important</descriptionNameEN>
+        <descriptionNameIT>Importante</descriptionNameIT>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#Low -->
+
+    <owl:NamedIndividual rdf:about="http://www.elite.polito.it/awarenotifications#Low">
+        <rdf:type rdf:resource="http://www.elite.polito.it/awarenotifications#TypePriority"/>
+        <descriptionEN>According to your preferences, your devices status, etc. a notification with a low priority can be reroute to specific devices, delayed, or dismiss by AwareNotifications.</descriptionEN>
+        <descriptionIT>Una notifica con bassa priorità può essere ritardata, inviata a specifici dispositivi, o scartata da AwareNotifications in accordo con le tue preferenze, lo stato dei tuoi dispositivi, ecc.</descriptionIT>
+        <descriptionNameEN>1 - Low Priority</descriptionNameEN>
+        <descriptionNameIT>1 - Bassa Priorità</descriptionNameIT>
+        <rdfs:label xml:lang="en">Low</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#Medium -->
+
+    <owl:NamedIndividual rdf:about="http://www.elite.polito.it/awarenotifications#Medium">
+        <rdf:type rdf:resource="http://www.elite.polito.it/awarenotifications#TypePriority"/>
+        <descriptionIT>A Notification with medium priority can not wait too long. If there are available devices (considering your preferences, your activities, etc.), AwareNotifications sends it immediatly.</descriptionIT>
+        <descriptionIT>Una Notifica di media priorità non può attendere troppo...Se ci sono dispostivi disponibili in base al loro stato, a cose stai facendo, alle tue preferenze, ecc. la notifica è inviata immediatamente da AwareNotifications. </descriptionIT>
+        <descriptionNameEN>2- Medium Priority</descriptionNameEN>
+        <descriptionNameIT>2- Media Priorità</descriptionNameIT>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#NoAccessible -->
+
+    <owl:NamedIndividual rdf:about="http://www.elite.polito.it/awarenotifications#NoAccessible">
+        <rdf:type rdf:resource="http://www.elite.polito.it/awarenotifications#AccessibilityLevel"/>
+        <descriptionEN>I&apos;m not accessible during this activity, i can&apos;t receive notifications.</descriptionEN>
+        <descriptionIT>Non sono accessibile durante questo tipo di attività, non posso ricevere notifiche in alcun modo.</descriptionIT>
+        <descriptionNameEN>A - No Accessibility</descriptionNameEN>
+        <descriptionNameIT>A - Nessuno</descriptionNameIT>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#NormalMode -->
+
+    <owl:NamedIndividual rdf:about="http://www.elite.polito.it/awarenotifications#NormalMode">
+        <rdf:type rdf:resource="http://www.elite.polito.it/awarenotifications#SoundState"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#NotAvailable -->
+
+    <owl:NamedIndividual rdf:about="http://www.elite.polito.it/awarenotifications#NotAvailable">
+        <rdf:type rdf:resource="http://www.elite.polito.it/awarenotifications#ObtrusivenessLevel"/>
+        <descriptionEN>I don&apos;t want to be disturbed. Alert me only if there are norifications with high priority.</descriptionEN>
+        <descriptionIT>Non voglio essere disturbato. Avvertimi solo se ci sono notifiche ad alta priorità.</descriptionIT>
+        <descriptionNameEN>Not Available</descriptionNameEN>
+        <descriptionNameIT>Non Disponibile</descriptionNameIT>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#NotImportant -->
+
+    <owl:NamedIndividual rdf:about="http://www.elite.polito.it/awarenotifications#NotImportant">
+        <rdf:type rdf:resource="http://www.elite.polito.it/awarenotifications#SocialPriority"/>
+        <descriptionEN>AwareNotifications tries to send you a non important notification only at appropriate moments.</descriptionEN>
+        <descriptionIT>AwareNotifications cerca di inviarti le notifiche non importanti solo nei momenti più adatti.</descriptionIT>
+        <descriptionNameEN>Not Important</descriptionNameEN>
+        <descriptionNameIT>Non Importante</descriptionNameIT>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#Off -->
+
+    <owl:NamedIndividual rdf:about="http://www.elite.polito.it/awarenotifications#Off">
+        <rdf:type rdf:resource="http://www.elite.polito.it/awarenotifications#PowerState"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#OffHook -->
+
+    <owl:NamedIndividual rdf:about="http://www.elite.polito.it/awarenotifications#OffHook">
+        <rdf:type rdf:resource="http://www.elite.polito.it/awarenotifications#CommunicationState"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#On -->
+
+    <owl:NamedIndividual rdf:about="http://www.elite.polito.it/awarenotifications#On">
+        <rdf:type rdf:resource="http://www.elite.polito.it/awarenotifications#PowerState"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#OnHook -->
+
+    <owl:NamedIndividual rdf:about="http://www.elite.polito.it/awarenotifications#OnHook">
+        <rdf:type rdf:resource="http://www.elite.polito.it/awarenotifications#CommunicationState"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#SightFree -->
+
+    <owl:NamedIndividual rdf:about="http://www.elite.polito.it/awarenotifications#SightFree">
+        <rdf:type rdf:resource="http://www.elite.polito.it/awarenotifications#AccessibilityLevel"/>
+        <descriptionEN>I am available to receive visual notifications such as a textual message on my smart TV.</descriptionEN>
+        <descriptionIT>Sono disponibile a ricevere notifiche testuali, come un messaggio sulla mia smart TV.</descriptionIT>
+        <descriptionNameEN>C - Sight</descriptionNameEN>
+        <descriptionNameIT>C - Vista</descriptionNameIT>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#SilentMode -->
+
+    <owl:NamedIndividual rdf:about="http://www.elite.polito.it/awarenotifications#SilentMode">
+        <rdf:type rdf:resource="http://www.elite.polito.it/awarenotifications#SoundState"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.elite.polito.it/awarenotifications#VibrateMode -->
+
+    <owl:NamedIndividual rdf:about="http://www.elite.polito.it/awarenotifications#VibrateMode">
+        <rdf:type rdf:resource="http://www.elite.polito.it/awarenotifications#SoundState"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#Accelerometer"/>
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#CO2Sensor"/>
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#DoorSensor"/>
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#FloodSensor"/>
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#GasSensor"/>
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#Gps"/>
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#HumiditySensor"/>
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#InfraredSensor"/>
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#LightingSensor"/>
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#NoiseSensor"/>
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#SmokeSensor"/>
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#Thermomenter"/>
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#WindowSensor"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#AlarmNotification"/>
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#AmbientNotification"/>
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#ApplianceNotification"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#AmbientSystem"/>
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#SecuritySystem"/>
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#SmartAppliance"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#AntifireSystem"/>
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#AntithefSystem"/>
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#GasSystem"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#Bathroom"/>
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#Bedroom"/>
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#Diningroom"/>
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#HomeOffice"/>
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#Kitchen"/>
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#LivingRoom"/>
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#Storageroom"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#Bathroom"/>
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#Bedroom"/>
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#Diningroom"/>
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#Kitchen"/>
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#LivingRoom"/>
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#Storageroom"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#Camera"/>
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#Keyboard"/>
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#Microphone"/>
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#Mouse"/>
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#SensorFeature"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#Clock"/>
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#CoffeeMaker"/>
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#CommunicationDevice"/>
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#EnterteinementDevice"/>
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#Printer"/>
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#SmartDiswasher"/>
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#SmartFridge"/>
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#SmartWashing"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#CommunicationState"/>
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#DisplayState"/>
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#PowerState"/>
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#SoundState"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#DVD"/>
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#HiFi"/>
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#Radio"/>
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#SmartTv"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#Display"/>
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#NotificationLed"/>
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#Speaker"/>
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#VibrationMotor"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#EmailNotification"/>
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#InstantMessagingNotification"/>
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#PhoneCallNotification"/>
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#SocialNetworkNotification"/>
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#VideoCallNotification"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#FloodSystem"/>
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#HeatingSystem"/>
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#HumiditySystem"/>
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#LightingSystem"/>
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#NoiseSystem"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#FourG"/>
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#ThreeG"/>
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#TwoG"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#Garage"/>
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#Garden"/>
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#Room"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#HighPriorityNotification"/>
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#LowPriorityNotification"/>
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#MediumPriorityNotification"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#InstantMessaging"/>
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#PhoneCall"/>
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#VideoConference"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#Laptop"/>
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#Smartphone"/>
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#Tablet"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#LightingAlarm"/>
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#SoundAlarm"/>
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#VibrationAlarm"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#ManualActivity"/>
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#Meeting"/>
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#OfficeActivity"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#TravelingByBike"/>
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#TravelingByBus"/>
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#TravelingByCar"/>
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#TravelingByPlane"/>
+            <rdf:Description rdf:about="http://www.elite.polito.it/awarenotifications#TravelingByTrain"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
+
