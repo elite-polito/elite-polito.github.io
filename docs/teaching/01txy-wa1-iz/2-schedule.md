@@ -350,13 +350,16 @@ All slides, examples, exercises, and any other material used in the classroom an
 <LectureRow
     date="09/05/2023" time="08:30-10:00"
 >
-    Express. HTTP APIs.
+    <p>
+        <a href="https://polito-wa1-aw1-2023.github.io/materials/slide/4-01-Express.pdf" title="Express">Express</a>.<br/>
+        <a href="https://polito-wa1-aw1-2023.github.io/materials/slide/4-02-API.pdf" title="HTTP APIs">HTTP APIs</a>.
+    </p>
 </LectureRow>
 
 <LectureRow
     date="09/05/2023" time="10:00-11:30" type="Exercise"
 >
-    Exercise on Express
+    <a href="https://github.com/polito-WA1-AW1-2023/wa1-iz-weeks/tree/main/week10">Exercise on Express</a> (on GitHub)
 </LectureRow>
 
 <LectureRow
