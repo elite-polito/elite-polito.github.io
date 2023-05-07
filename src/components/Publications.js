@@ -72,7 +72,7 @@ function PublicationListYear({allPublications, year, types}) {
 }
 
 function PublicationListYearType({yearPublications, type}) {
-    const yearTypePublications = yearPublications.filter(p => p.collection.name === type);
+    const yearTypePublications = yearPublications.filter(p => p.collection?.name === type);
 
     if (yearTypePublications.length)
         return <>
@@ -136,7 +136,8 @@ function getTypes(publications) {
     // TODO: collapse publication types into a smaller number, and translate to English
     let typeSet = new Set();
     for (const item of publications) {
-        const type = item.collection.name
+        // Articles not yet validated by the university have a "null" collection, even if all the other info are ok
+        const type = item.collection?.name ?? 'Non validato';
         typeSet.add(type)
     }
     let types = [...typeSet];
