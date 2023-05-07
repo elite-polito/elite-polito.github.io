@@ -408,11 +408,13 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 <LectureRow
     date="09/05/2023" time="10:00-11:30"
     topic='L21 HTTP server and ExpressJS'
+    pdf={['https://polito-wa1-aw1-2023.github.io/materials/slide/4-01-Express.pdf', 'https://polito-wa1-aw1-2023.github.io/materials/slide/4-02-API.pdf']}
 />
 
 <LectureRow
     date="09/05/2023" time="11:30-13:00"
     topic='L22 Building an HTTP API server'
+    github='https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/blob/main/week10/exercise11.md'
 />
 
 <LectureRow
@@ -432,18 +434,18 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 <LectureRow
     topic='Week 10 exercises'
     teacher='' type=''
-    nogithub='https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/tree/main/week10' />
+    github='https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/tree/main/week10' />
 
 <LectureDivider topic='Week 11'/>{/*-------------------------------------------*/}
 
 <LectureRow
     date="16/05/2023" time="10:00-11:30"
-    topic='L21 Fetch API. CORS.'
+    topic='L23 Fetch API. CORS.'
 />
 
 <LectureRow
     date="16/05/2023" time="11:30-13:00"
-    topic='L22 Component lifecycle and useEffect'
+    topic='L24 Component lifecycle and useEffect'
 />
 
 <LectureRow
@@ -469,12 +471,12 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 
 <LectureRow
     date="23/05/2023" time="10:00-11:30"
-    topic='L23 useEffect advanced usage'
+    topic='L25 useEffect advanced usage'
 />
 
 <LectureRow
     date="23/05/2023" time="11:30-13:00"
-    topic='L24 useEffect advanced usage'
+    topic='L26 useEffect advanced usage'
 />
 
 <LectureRow
@@ -500,12 +502,12 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 
 <LectureRow
     date="30/05/2023" time="10:00-11:30"
-    topic='L25 Authentication with Passport.js'
+    topic='L27 Authentication with Passport.js'
 />
 
 <LectureRow
     date="30/05/2023" time="11:30-13:00"
-    topic='L26 Authentication with Passport.js'
+    topic='L28 Authentication with Passport.js'
 />
 
 <LectureRow
