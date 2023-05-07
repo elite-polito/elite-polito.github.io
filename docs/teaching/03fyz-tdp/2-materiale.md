@@ -19,7 +19,7 @@ Il materiale didattico è anche disponibile nel repository https://github.com/Td
 - Java Collections
   - [Set and Hash](https://tdp-2023.github.io/materiale/slide/03-03-Sets%26Hash.pdf)
   - [Map](https://tdp-2023.github.io/materiale/slide/03-04-Map.pdf)
-  - Code prioritarie
+  - [Code prioritarie](https://github.com/TdP-2023/materiale/blob/master/slide/03-06-Queue.pdf)
 - JavaFX
   - [JavaFX Crash Course](https://tdp-2023.github.io/materiale/slide/02-01-javafx-crashcourse.pdf)
   - [Pattern Model-View-Controller](https://tdp-2023.github.io/materiale/slide/02-02-javafx-mvc-pattern.pdf)
@@ -33,7 +33,7 @@ Il materiale didattico è anche disponibile nel repository https://github.com/Td
   - [Introduzione alla libreria JGraphT](https://tdp-2023.github.io/materiale/slide/06-02-jGraphT-library.pdf)
   - [Visite nei grafi](https://tdp-2023.github.io/materiale/slide/06-03-graphs-visits.pdf)
   - Cammini minimi
-- Simulazioni ad eventi
+- [Simulazioni ad eventi](https://github.com/TdP-2023/materiale/blob/master/slide/07-01-simulation.pdf)
 
 
 ## Video lezioni
@@ -56,9 +56,9 @@ Il materiale didattico è anche disponibile nel repository https://github.com/Td
 - [Laboratorio 3](https://github.com/TdP-2023/Lab03)
 - [Laboratorio 4](https://github.com/TdP-2023/Lab04)
 - [Laboratorio 5](https://github.com/TdP-2023/Lab05)
-- Laboratorio 6 
-- Laboratorio 7
-- Laboratorio 8 
+- [Laboratorio 6](https://github.com/TdP-2023/Lab06)
+- [Laboratorio 7](https://github.com/TdP-2023/Lab07)
+- [Laboratorio 8](https://github.com/TdP-2023/Lab08)
 - Laboratorio 9
 - Laboratorio 10 
 

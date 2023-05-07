@@ -419,6 +419,7 @@ L01b Introduzione a JavaFX (prima parte)
 <LectureRow
     date="08/05/2023" time="10:00-11:30"
     topic="L27 Code prioritarie. Simulatori ad eventi discreti."
+    pdf={['https://github.com/TdP-2023/materiale/blob/master/slide/03-06-Queue.pdf', 'https://github.com/TdP-2023/materiale/blob/master/slide/07-01-simulation.pdf']}
     teacher='Fulvio Corno'
 />
 
