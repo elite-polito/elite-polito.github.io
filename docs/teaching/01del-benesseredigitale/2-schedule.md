@@ -202,7 +202,8 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
     type='Esercitazione'
     teacher= 'Monica Molino'
     >
-    Presentazione del metodo di needfinding condotto. Feedback. 
+    Presentazione del metodo di needfinding condotto. Feedback.
+    <ul><li><a href="https://docs.google.com/spreadsheets/d/1-VTPNVk-r3X3yk_44kUpuRZVXUfXhM-fBx9Z4RqEz0g/edit?usp=sharing">Calendario presentazioni</a></li></ul>
 </LectureRow>
 
 <LectureRow
@@ -213,6 +214,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
     teacher= 'Monica Molino'
     >
     Presentazione del metodo di needfinding condotto. Feedback. 
+    <ul><li><a href="https://docs.google.com/spreadsheets/d/1-VTPNVk-r3X3yk_44kUpuRZVXUfXhM-fBx9Z4RqEz0g/edit?usp=sharing">Calendario presentazioni</a></li></ul>
 </LectureRow>
 
 <LectureRow
