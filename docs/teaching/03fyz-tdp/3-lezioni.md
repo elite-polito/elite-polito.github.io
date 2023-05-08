@@ -414,6 +414,7 @@ L01b Introduzione a JavaFX (prima parte)
     topic="L26 Esercizio sui grafi"
     teacher='Giuseppe Averta'
     github='https://github.com/TdP-2023/ArtsMia'
+    video='https://youtu.be/PsJtqZoL5lI'
 />
 
 <LectureRow
