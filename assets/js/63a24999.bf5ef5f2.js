@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknew_elite=self.webpackChunknew_elite||[]).push([[9458],{58891:e=>{e.exports=JSON.parse('{"label":"creative coding","permalink":"/news/tags/creative-coding","allTagsPath":"/news/tags","count":1}')}}]);
