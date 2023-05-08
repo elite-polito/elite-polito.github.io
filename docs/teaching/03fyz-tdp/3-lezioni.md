@@ -421,6 +421,8 @@ L01b Introduzione a JavaFX (prima parte)
     date="08/05/2023" time="10:00-11:30"
     topic="L27 Code prioritarie. Simulatori ad eventi discreti."
     pdf={['https://github.com/TdP-2023/materiale/blob/master/slide/03-06-Queue.pdf', 'https://github.com/TdP-2023/materiale/blob/master/slide/07-01-simulation.pdf']}
+    github='https://github.com/TdP-2023/NoleggioAuto'
+    video='https://youtu.be/1sA0c8fVlXM'
     teacher='Fulvio Corno'
 />
 
@@ -435,6 +437,7 @@ L01b Introduzione a JavaFX (prima parte)
 <LectureRow
     date="10/05/2023" time="13:00-14:30"
     topic="L28 Simulatori ad eventi discreti - Esercizio."
+    github='https://github.com/TdP-2023/NoleggioAuto'
     teacher='Fulvio Corno'
 />
 
@@ -490,7 +493,7 @@ L01b Introduzione a JavaFX (prima parte)
 
 <LectureRow
     date="22/05/2023" time="10:00-11:30"
-    topic="L33 Cammini minimi e cicli nei grafi"
+    topic="L33 Cammini minimi nei grafi"
     teacher='Fulvio Corno'
 />
 
