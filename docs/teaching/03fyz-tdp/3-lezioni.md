@@ -429,7 +429,7 @@ L01b Introduzione a JavaFX (prima parte)
     type="Lab"
     teacher='Carlo Masone'
     topic="Lab 9 - Squadra 2"
-    github=`https://github.com/TdP-2023/Lab09`
+    github='https://github.com/TdP-2023/Lab09'
 />
 
 <LectureRow
@@ -443,7 +443,7 @@ L01b Introduzione a JavaFX (prima parte)
     type="Lab"
     teacher='Giuseppe Averta'
     topic="Lab 9 - Squadra 1"
-    github=`https://github.com/TdP-2023/Lab09`
+    github='https://github.com/TdP-2023/Lab09'
 />
 
 <LectureDivider topic="Settimana 11"/>
