@@ -353,6 +353,7 @@ All slides, examples, exercises, and any other material used in the classroom an
 
 <LectureRow
     date="09/05/2023" time="08:30-10:00"
+    video="https://youtu.be/KuSlJLXUXMs"
 >
     <p>
         <a href="https://polito-wa1-aw1-2023.github.io/materials/slide/4-01-Express.pdf" title="Express">Express</a>.<br/>
@@ -362,6 +363,7 @@ All slides, examples, exercises, and any other material used in the classroom an
 
 <LectureRow
     date="09/05/2023" time="10:00-11:30" type="Exercise"
+    video="https://youtu.be/J1GhPSemS1M"
 >
     <a href="https://github.com/polito-WA1-AW1-2023/wa1-iz-weeks/tree/main/week10">Exercise on Express</a> (on GitHub)
 </LectureRow>
