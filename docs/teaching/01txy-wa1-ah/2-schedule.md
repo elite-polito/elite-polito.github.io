@@ -424,6 +424,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     type='Lab'
     topic='Lab 08 - Group 1 (AA-DE)'
     teacher='Juan Pablo Sáenz'
+    pdf='https://polito-wa1-aw1-2023.github.io/materials/labs/lab08-express.pdf'
 />
 
 <LectureRow
@@ -431,6 +432,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     type='Lab'
     topic='Lab 08 - Group 2 (DI-HZ)'
     teacher='Juan Pablo Sáenz'
+    pdf='https://polito-wa1-aw1-2023.github.io/materials/labs/lab08-express.pdf'
 />
 
 <LectureRow

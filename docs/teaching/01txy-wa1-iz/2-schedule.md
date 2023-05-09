@@ -371,15 +371,13 @@ All slides, examples, exercises, and any other material used in the classroom an
 <LectureRow
     date="11/05/2023" time="08:30-10:00" type="Lab" teacher="Luca Mannella"
 >
-    {/* <a href="https://polito-wa1-aw1-2023.github.io/materials/labs/lab08-express.pdf">APIs with Express</a> (group 1, IA-OU) */}
-    APIs with Express (group 1, IA-OU)
+    <a href="https://polito-wa1-aw1-2023.github.io/materials/labs/lab08-express.pdf">APIs with Express</a> (group 1, IA-OU)
 </LectureRow>
 
 <LectureRow
     date="11/05/2023" time="10:00-11:30" type="Lab" teacher="Luca Mannella"
 >
-    {/* <a href="https://polito-wa1-aw1-2023.github.io/materials/labs/lab08-express.pdf">APIs with Express</a> (group 2, PA-ZZ) */}
-    APIs with Express (group 2, PA-ZZ)
+    <a href="https://polito-wa1-aw1-2023.github.io/materials/labs/lab08-express.pdf">APIs with Express</a> (group 2, PA-ZZ)
 </LectureRow>
 
 <!-- <LectureRow type="Lab Solution" teacher=""> <a href="https://github.com/polito-WA1-AW1-2023/lab08-express">Possible solution</a> (on GitHub)</LectureRow> -->
