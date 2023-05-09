@@ -331,7 +331,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
     type='Esercitazione'
     teacher = 'Monica Molino'
     >
-    Progettazione prototipo a bassa fedeltà
+    Progettazione prototipo ad alta fedeltà
 </LectureRow>
 
 <LectureRow
@@ -341,7 +341,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
     type='Esercitazione'
     teacher = 'Monica Molino'
     >
-    Progettazione prototipo a bassa fedeltà
+    Progettazione prototipo ad alta fedeltà
 </LectureRow>
 
 <LectureRow
@@ -350,7 +350,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
     video={[]}
     type='Esercitazione'
     >
-    Progettazione prototipo a bassa fedeltà
+    Progettazione prototipo ad alta fedeltà
 </LectureRow>
 
 </LectureTable>
