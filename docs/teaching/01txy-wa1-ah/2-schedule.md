@@ -411,12 +411,14 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     date="09/05/2023" time="10:00-11:30"
     topic='L21 HTTP server and ExpressJS'
     pdf={['https://polito-wa1-aw1-2023.github.io/materials/slide/4-01-Express.pdf', 'https://polito-wa1-aw1-2023.github.io/materials/slide/4-02-API.pdf']}
+    video='https://youtu.be/uVkJI3LrY0c'
 />
 
 <LectureRow
     date="09/05/2023" time="11:30-13:00"
     topic='L22 Building an HTTP API server'
     github='https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/blob/main/week10/exercise11.md'
+    video='https://youtu.be/XdF9E_3dq6E'
 />
 
 <LectureRow
