@@ -436,10 +436,13 @@ L01b Introduzione a JavaFX (prima parte)
 
 <LectureRow
     date="10/05/2023" time="13:00-14:30"
-    topic="L28 Simulatori ad eventi discreti - Esercizio."
-    github='https://github.com/TdP-2023/NoleggioAuto'
     teacher='Fulvio Corno'
-/>
+    github={['https://github.com/TdP-2023/NoleggioAuto', 'https://github.com/TdP-2023/Emergency']}
+    video={[ 'https://youtu.be/3f1TP8q5y_o', 'https://youtu.be/fOUo0roMSbs' ]}
+>
+L28a Simulatori ad eventi discreti (Noleggio Auto, segue)<br/>
+L28b Esercizio sulle simulazioni (Emergency, prima parte)
+</LectureRow>
 
 <LectureRow
     date="10/05/2023" time="16:00-19:00"
@@ -459,7 +462,7 @@ L01b Introduzione a JavaFX (prima parte)
 
 <LectureRow
     date="15/05/2023" time="10:00-11:30"
-    topic="L30 Esercizio sulle simulazioni"
+    topic="L30 Esercizio sulle simulazioni (Emergency, segue)"
     teacher='Fulvio Corno'
 />
 
@@ -472,7 +475,7 @@ L01b Introduzione a JavaFX (prima parte)
 
 <LectureRow
     date="17/05/2023" time="13:00-14:30"
-    topic="L31 Esercizio sulle simulazioni"
+    topic="L31 Esercizio sulle simulazioni (Migrazioni)"
     teacher='Fulvio Corno'
 />
 
