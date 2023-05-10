@@ -386,15 +386,9 @@ All slides, examples, exercises, and any other material used in the classroom an
 <LectureDivider topic='Week 11'/>{/*-------------------------------------------*/}
 
 <LectureRow
-    type="Reading" date="15/05/2023" teacher=""
->
-    Client-server interaction in React
-</LectureRow>
-
-<LectureRow
     date="16/05/2023" time="08:30-10:00"
 >
-    Fetch. Review of the reading.
+    Fetch. Client-server interaction in React.
 </LectureRow>
 
 <LectureRow
