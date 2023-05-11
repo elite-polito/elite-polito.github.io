@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunknew_elite=self.webpackChunknew_elite||[]).push([[9126],{41066:e=>{e.exports=JSON.parse('{"permalink":"/news/tags/journal","page":1,"postsPerPage":10,"totalPages":1,"totalCount":2,"blogDescription":"Latest News from the e-Lite research group","blogTitle":"News"}')}}]);
