@@ -36,7 +36,7 @@ function HomepageHeader({recentPosts}) {
             <div className="container">
                 <div className="row">
                     <div className="col col--9">
-                        <h1>Latest News</h1>
+                        <h1><a href='/news'>Latest News</a></h1>
                     </div>
                 </div>
                 <div className="row">
