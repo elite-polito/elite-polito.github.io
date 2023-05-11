@@ -31,10 +31,9 @@ function NewsCard({postInfo}) {
     );
 }
 
-function HomepageHeader({recentPosts}) {
-    return(
-        <header className={clsx('shadow--lw padding-vert--lg', styles.heroBanner, styles.newsCardContainer)}>
-        <div className="container">
+function NewsContainer({recentPosts}) {
+    return (
+        <div className={clsx(styles.cardContainer)}>
             <div className="row">
                 <div className="col col--9">
                     <h1><Link to='/news'>Latest News</Link></h1>
@@ -46,26 +45,40 @@ function HomepageHeader({recentPosts}) {
                 ))}
             </div>
         </div>
-    </header>
     );
 }
 
-function HomepageHeaderMobile({recentPosts}) {
+function NewsContainerMobile({recentPosts}) {
+    return(
+        <div className="row">
+            <div className="col col--9">
+                <Admonition type='note' icon='📰' title={'Latest News'}>
+                    <ul>
+                    {recentPosts.map(({ content: postInfo }) => (
+                        <li key={postInfo.metadata.permalink}><Link to={postInfo.metadata.permalink}>{postInfo.metadata.title}</Link></li>
+                    ))}
+                    </ul>
+                    <Link to='/news' className='text--right'>All the news...</Link>
+                </Admonition>
+            </div>
+        </div>
+    );
+}
+
+function HomepageHeader({recentPosts}) {
+    const windowSize = useWindowSize();
+
+    // Desktop news visible on hydration: need SSR rendering 
+    const isDesktop = windowSize === 'desktop' || windowSize === 'ssr'; 
+
+    // Mobile news not visible on hydration: can avoid SSR rendering 
+    const isMobile = windowSize === 'mobile';
+
     return(
         <header className={clsx('shadow--lw padding-vert--lg', styles.heroBanner)}>
         <div className="container">
-            <div className="row">
-                <div className="col col--9">
-                    <Admonition type='note' icon='📰' title={'Latest News'}>
-                        <ul>
-                        {recentPosts.map(({ content: postInfo }) => (
-                            <li key={postInfo.metadata.permalink}><Link to={postInfo.metadata.permalink}>{postInfo.metadata.title}</Link></li>
-                        ))}
-                        </ul>
-                        <Link to='/news' className='text--right'>All the news...</Link>
-                    </Admonition>
-                </div>
-            </div>
+            {isDesktop && <NewsContainer recentPosts={recentPosts} />}
+            {isMobile && <NewsContainerMobile recentPosts={recentPosts} />}
         </div>
     </header>
     );
@@ -74,20 +87,12 @@ function HomepageHeaderMobile({recentPosts}) {
 
 export default function Home({recentPosts}) {
     const {siteConfig} = useDocusaurusContext();
-    const windowSize = useWindowSize();
-
-    // Desktop news visible on hydration: need SSR rendering 
-    const isDesktop = windowSize === 'desktop' || windowSize === 'ssr'; 
-
-    // Mobile news not visible on hydration: can avoid SSR rendering 
-    const isMobile = windowSize === 'mobile';
    
     return (
         <Layout
             title='Home'
             description={siteConfig.tagline}>
-            {isDesktop && <HomepageHeader recentPosts={recentPosts}/>}
-            {isMobile && <HomepageHeaderMobile recentPosts={recentPosts}/>}
+            <HomepageHeader recentPosts={recentPosts}/>
             <main>
                 <div className="container">
                     <div className="row margin-top--lg padding-vert--lg">
