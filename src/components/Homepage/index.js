@@ -33,7 +33,7 @@ function NewsCard({postInfo}) {
 
 function NewsContainer({recentPosts}) {
     return (
-        <div className={clsx(styles.cardContainer)}>
+        <>
             <div className="row">
                 <div className="col col--9">
                     <h1><Link to='/news'>Latest News</Link></h1>
@@ -44,7 +44,7 @@ function NewsContainer({recentPosts}) {
                     <NewsCard postInfo={postInfo} key={postInfo.metadata.permalink}/>
                 ))}
             </div>
-        </div>
+        </>
     );
 }
 
@@ -68,10 +68,10 @@ function NewsContainerMobile({recentPosts}) {
 function HomepageHeader({recentPosts}) {
     const windowSize = useWindowSize();
 
-    // Desktop news visible on hydration: need SSR rendering 
-    const isDesktop = windowSize === 'desktop' || windowSize === 'ssr'; 
+    // desktop news after hydration
+    const isDesktop = windowSize === 'desktop';  
 
-    // Mobile news not visible on hydration: can avoid SSR rendering 
+    // mobile news after hydration 
     const isMobile = windowSize === 'mobile';
 
     return(

@@ -10,9 +10,3 @@
 .newsItem {
   background-color: var(--ifm-background-surface-color);
 }
-
-@media screen and (max-width: 996px) {
-  .cardContainer {
-      display: none;
-  }
-}
