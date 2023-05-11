@@ -36,10 +36,10 @@ function NewsContainer({recentPosts}) {
         <>
             <div className="row">
                 <div className="col col--9">
-                    <h1><Link to='/news'>Latest News</Link></h1>
+                    <h1 className={clsx(styles.newsCards)}><Link to='/news'>Latest News</Link></h1>
                 </div>
             </div>
-            <div className="row">
+            <div className={clsx('row', styles.newsCards)}>
                 {recentPosts.map(({ content: postInfo }) => (
                     <NewsCard postInfo={postInfo} key={postInfo.metadata.permalink}/>
                 ))}
