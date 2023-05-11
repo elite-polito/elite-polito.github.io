@@ -68,10 +68,10 @@ function NewsContainerMobile({recentPosts}) {
 function HomepageHeader({recentPosts}) {
     const windowSize = useWindowSize();
 
-    // desktop news after hydration
-    const isDesktop = windowSize === 'desktop';  
+    // Desktop news visible on hydration: need SSR rendering 
+    const isDesktop = windowSize === 'desktop' || windowSize === 'ssr'; 
 
-    // mobile news after hydration 
+    // Mobile news not visible on hydration: can avoid SSR rendering 
     const isMobile = windowSize === 'mobile';
 
     return(
