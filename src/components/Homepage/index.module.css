@@ -10,17 +10,3 @@
 .newsItem {
   background-color: var(--ifm-background-surface-color);
 }
-
-.mobileNews {
-  display: none;
-}
-
-@media screen and (max-width: 996px) {
-  .news {
-      display: none;
-  }
-
-  .mobileNews {
-    display: flex;
-  }
-}
