@@ -10,13 +10,10 @@ import JTWIA from './donne-libere-scelta-orizz-500.jpg';
 
 # Lezione-Spettacolo «Donne Libere di Vivere»
 
-“Just the Woman I’m”, un’iniziativa che coinvolge decine di migliaia di persone. 
 
+Quarta edizione della lezione‑spettacolo, realizzata grazie a *[Just the Woman I Am](https://jtwia.org/)*, un’iniziativa che coinvolge decine di migliaia di persone accentrando l’attenzione sulla salute della donna, in ambito di prevenzione oncologica ma non solo, promossa dal CUS Torino, assieme all’Università di Torino e al Politecnico di Torino. 
 
-
-Il suo obiettivo? Appuntare l’attenzione di tutti  e di tutte sulla salute della donna, in ambito di prevenzione oncologica, ma non solo. 
-
-La promuove il CUS Torino, assieme all’Università di Torino e al Politecnico di Torino. La donna al centro, dunque, ed è per questo che si parte ogni anno con una corsa/camminata in occasione della Festa della Donna; ma poi il percorso continua, con nuove tappe, con nuove occasioni di riflessione sul benessere al femminile. Ed eccoci dunque a maggio per il secondo appuntamento: la *lezione spettacolo*, un evento giunto oramai alla sua quarta edizione. *Lezione*, per ricordare il ruolo fondamentale della conoscenza. *Spettacolo*, per sottolineare che quella stessa conoscenza può coinvolgerci con leggerezza, persino con divertimento. 
+La lezione‑spettacolo 2023 "**Donne libere di vivere**" pone ancora e sempre la donna al centro, così come ogni anno si parte con una corsa/camminata in occasione della Festa della Donna, con l'obiettivo di ricordare il ruolo fondamentale della conoscenza e di sottolineare che quella stessa conoscenza può coinvolgerci con leggerezza, persino con divertimento. 
 
 <p className="text--center"><img src={JTWIA} alt="Just the Woman I Am"></img></p>
 
@@ -26,10 +23,15 @@ La promuove il CUS Torino, assieme all’Università di Torino e al Politecnico 
 
 Il titolo della lezione spettacolo 2023 è: “**Donne libere di vivere**”. Donne “libere”, sì, perché senza libertà non c’è benessere. Perché, nel mondo, miliardi di donne sono ancora in una condizione di spaventosa privazione dei diritti. Perché emarginando le donne, l’umanità si priva di risorse inimmaginabili. E allora, sul palco dell’Aula Magna del Politecnico, sei brevi interventi di docenti dei due atenei torinesi daranno corpo e consistenza all’idea di libertà, declinandola, non solo in ossequio alle regole grammaticali, al femminile. Donne libere di vivere in contesti politici ostili, donne libere di vivere e di affermarsi professionalmente, donne libere di affrontare e vincere la malattia, donne libere di muoversi senza lo spettro della violenza. A collegare tra loro queste micro-lezioni sarà la narrazione del giovane attore Riccardo Niceforo e il jazz di Silvia Carbotti con i Frubers in the Sky.
 
-I testi e la regia sono di Alessandro Perissinotto.
+
+E allora, sul palco dell’**Aula Magna** del Politecnico, sei brevi interventi di docenti dei due atenei torinesi daranno corpo e consistenza all’idea di libertà, declinandola, non solo in ossequio alle regole grammaticali, al femminile. Donne libere di vivere in contesti politici ostili, donne libere di vivere e di affermarsi professionalmente, donne libere di affrontare e vincere la malattia, donne libere di muoversi senza lo spettro della violenza. 
+
+A collegare tra loro queste micro-lezioni sarà la narrazione del giovane attore Riccardo Niceforo e il jazz di Silvia Carbotti con i Frubers in the Sky. I testi e la regia sono di Alessandro Perissinotto.
+
+Tra i diversi interventi, segnaliamo quello di **Fulvio Corno** sul tema *Donne libere dalla prigione domestica*, in cui si approfondirà la relazione tra la figura femminile e le tecnologie pensate per gli ambienti domestici, dagli elettrodomestici alla domotica all'Internet of Things, con qualche sguardo al futuro fantascientifico.
 
 ---
 
-- 31 maggio 2023, ore ore 18:00, Politecnico di Torino, Aula Magna “Giovanni Agnelli”, corso Duca degli Abruzzi 24
+- 31 maggio 2023, ore ore 18:00, Politecnico di Torino, Aula Magna “Giovanni Agnelli”, corso Duca degli Abruzzi 24, 10129 Torino
 - Ingresso gratuito, prenotazione obbligatoria all’indirizzo: https://bit.ly/donne-libere-vivere
 - [Poster dell'iniziativa](./donne-libere-vivere-poster.pdf) (PDF)
