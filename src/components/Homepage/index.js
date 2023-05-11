@@ -5,6 +5,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Admonition from '@theme/Admonition';
+import useMatchMedia from 'use-match-media';
 
 import styles from './index.module.css';
 
@@ -30,13 +31,13 @@ function NewsCard({postInfo}) {
     );
 }
 
-function HomepageHeader({recentPosts}) {
+function HomepageHeaderOld({recentPosts}) {
     return (
         <header className={clsx('shadow--lw padding-vert--lg', styles.heroBanner)}>
             <div className="container">
                 <div className="row">
                     <div className="col col--9">
-                        <h1><a href='/news'>Latest News</a></h1>
+                        <h1><Link to='/news'>Latest News</Link></h1>
                     </div>
                 </div>
                 <div className="row">
@@ -46,6 +47,36 @@ function HomepageHeader({recentPosts}) {
                 </div>
             </div>
         </header>
+    );
+}
+
+function HomepageHeader({recentPosts}) {
+    const isMobile = useMatchMedia("(max-width: 996px)");
+
+    return(
+        <header className={clsx('shadow--lw padding-vert--lg', styles.heroBanner)}>
+        <div className="container">
+            <div className="row">
+                <div className="col col--9">
+                    {isMobile ?
+                        <Admonition type='note' icon='📰' title={'Latest News'}>
+                            <ul>
+                            {recentPosts.map(({ content: postInfo }) => (
+                                <li key={postInfo.metadata.permalink}><Link to={postInfo.metadata.permalink}>{postInfo.metadata.title}</Link></li>
+                            ))}
+                            </ul>
+                            <Link to='/news' className='text--right'>All the news...</Link>
+                        </Admonition>
+                    : <h1><Link to='/news'>Latest News</Link></h1> }
+                </div>
+            </div>
+            {!isMobile && <div className='row'>
+                {recentPosts.map(({ content: postInfo }) => (
+                    <NewsCard postInfo={postInfo} key={postInfo.metadata.permalink}/>
+                ))}
+            </div> }
+        </div>
+    </header>
     );
 }
 
