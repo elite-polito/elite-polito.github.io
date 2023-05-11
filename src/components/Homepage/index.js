@@ -5,7 +5,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Admonition from '@theme/Admonition';
-import useMatchMedia from 'use-match-media';
+import { useWindowSize } from '@docusaurus/theme-common';
 
 import styles from './index.module.css';
 
@@ -32,26 +32,32 @@ function NewsCard({postInfo}) {
 }
 
 function HomepageHeader({recentPosts}) {
-    const isMobile = useMatchMedia("(max-width: 996px)");
+    const windowSize = useWindowSize();
+
+    // Desktop news visible on hydration: need SSR rendering 
+    const isDesktop = windowSize === 'desktop' || windowSize === 'ssr'; 
+
+    // Mobile news not visible on hydration: can avoid SSR rendering 
+    const isMobile = windowSize === 'mobile';
 
     return(
         <header className={clsx('shadow--lw padding-vert--lg', styles.heroBanner)}>
         <div className="container">
             <div className="row">
                 <div className="col col--9">
-                    {isMobile ?
-                        <Admonition type='note' icon='📰' title={'Latest News'}>
-                            <ul>
-                            {recentPosts.map(({ content: postInfo }) => (
-                                <li key={postInfo.metadata.permalink}><Link to={postInfo.metadata.permalink}>{postInfo.metadata.title}</Link></li>
-                            ))}
-                            </ul>
-                            <Link to='/news' className='text--right'>All the news...</Link>
-                        </Admonition>
-                    : <h1><Link to='/news'>Latest News</Link></h1> }
+                    { isMobile &&
+                    <Admonition type='note' icon='📰' title={'Latest News'}>
+                        <ul>
+                        {recentPosts.map(({ content: postInfo }) => (
+                            <li key={postInfo.metadata.permalink}><Link to={postInfo.metadata.permalink}>{postInfo.metadata.title}</Link></li>
+                        ))}
+                        </ul>
+                        <Link to='/news' className='text--right'>All the news...</Link>
+                    </Admonition> }
+                    { isDesktop && <h1><Link to='/news'>Latest News</Link></h1> }
                 </div>
             </div>
-            {!isMobile && <div className='row'>
+            { isDesktop && <div className='row'>
                 {recentPosts.map(({ content: postInfo }) => (
                     <NewsCard postInfo={postInfo} key={postInfo.metadata.permalink}/>
                 ))}
