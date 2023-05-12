@@ -219,7 +219,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 
 <LectureRow
     date="12/05/2023" time="13:00-14:30"
-    pdf='' 
+    pdf='https://elite.polito.it/materiale-benesseredigitale-2023/slide/U06-strategie-per-il-benessere.pdf' 
     video={[]}
     teacher= 'Monica Molino'
     >
