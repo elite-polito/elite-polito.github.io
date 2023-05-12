@@ -479,7 +479,6 @@ L28b Esercizio sulle simulazioni (Emergency, prima parte)
     topic="L31 Tema d'esame sulle simulazioni (Migrazioni)"
     teacher='Fulvio Corno'
     github='https://github.com/TdP-2023/Migrazioni'
-
 />
 
 <LectureRow
