@@ -458,6 +458,7 @@ L28b Esercizio sulle simulazioni (Emergency, prima parte)
     date="15/05/2023" time="08:30-10:00"
     topic="L29 Esercizio sui grafi"
     teacher='Carlo Masone'
+    github='https://github.com/TdP-2023/FlightDelays.git'
 />
 
 <LectureRow
