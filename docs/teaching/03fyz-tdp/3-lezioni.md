@@ -473,6 +473,7 @@ L28b Esercizio sulle simulazioni (Emergency, prima parte)
     type="Lab"
     teacher='Giuseppe Averta'
     topic="Lab 10 - Squadra 1"
+    github='https://github.com/TdP-2023/Lab10.git'
 />
 
 <LectureRow
@@ -487,6 +488,7 @@ L28b Esercizio sulle simulazioni (Emergency, prima parte)
     type="Lab"
     teacher='Carlo Masone'
     topic="Lab 10 - Squadra 2"
+    github='https://github.com/TdP-2023/Lab10.git'
 />
 
 <LectureDivider topic="Settimana 12"/>
