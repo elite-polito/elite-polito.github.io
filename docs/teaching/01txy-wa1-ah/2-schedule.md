@@ -450,7 +450,6 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     pdf={['https://polito-wa1-aw1-2023.github.io/materials/slide/2-05-fetch.pdf', 'https://polito-wa1-aw1-2023.github.io/materials/slide/3-07-Client-Server-React.pdf']}
     github={['https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/blob/main/week11/exercise12-13.md',
         'https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/tree/main/week11/simple-client']}
-
 />
 
 <LectureRow
