@@ -446,12 +446,14 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 
 <LectureRow
     date="16/05/2023" time="10:00-11:30"
-    topic='L23 Fetch API. CORS.'
+    topic='L23 Fetch API. Client-Server. CORS.'
+    pdf={['https://polito-wa1-aw1-2023.github.io/materials/slide/2-05-fetch.pdf', 'https://polito-wa1-aw1-2023.github.io/materials/slide/3-07-Client-Server-React.pdf']}
 />
 
 <LectureRow
     date="16/05/2023" time="11:30-13:00"
     topic='L24 Component lifecycle and useEffect'
+    pdf='https://polito-wa1-aw1-2023.github.io/materials/slide/3-08-LifeCycle.pdf'
 />
 
 <LectureRow
