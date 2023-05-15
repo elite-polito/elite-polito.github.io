@@ -448,12 +448,17 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     date="16/05/2023" time="10:00-11:30"
     topic='L23 Fetch API. Client-Server. CORS.'
     pdf={['https://polito-wa1-aw1-2023.github.io/materials/slide/2-05-fetch.pdf', 'https://polito-wa1-aw1-2023.github.io/materials/slide/3-07-Client-Server-React.pdf']}
+    github={['https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/blob/main/week11/exercise12-13.md',
+        'https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/tree/main/week11/simple-client']}
+
 />
 
 <LectureRow
     date="16/05/2023" time="11:30-13:00"
     topic='L24 Component lifecycle and useEffect'
     pdf='https://polito-wa1-aw1-2023.github.io/materials/slide/3-08-LifeCycle.pdf'
+    github={['https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/tree/main/week11/server',
+        'https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/tree/main/week11/client']}
 />
 
 <LectureRow
@@ -473,7 +478,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 <LectureRow
     topic='Week 11 exercises'
     teacher='' type=''
-    nogithub='https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/tree/main/week11' />
+    github='https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/tree/main/week11' />
 
 <LectureDivider topic='Week 12'/>{/*-------------------------------------------*/}
 
