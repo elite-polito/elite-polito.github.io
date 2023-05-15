@@ -238,7 +238,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 
 <LectureRow
     date="16/05/2023" time="17:30-19:00"
-    pdf='' 
+    pdf='https://elite.polito.it/materiale-benesseredigitale-2023/slide/P04-prototipazione.pdf'
     video={[]}
     >
     Prototipazione rapida di strumenti per il benessere digitale
