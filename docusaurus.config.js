@@ -227,6 +227,7 @@ const config = {
         mermaid: true,
     },
     themes: ['@docusaurus/theme-mermaid'],
+    stylesheets: ['https://use.fontawesome.com/releases/v6.4.0/css/svg-with-js.css'],
 };
 
 module.exports = config;
