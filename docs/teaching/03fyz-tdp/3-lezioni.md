@@ -466,6 +466,7 @@ L28b Esercizio sulle simulazioni (Emergency, prima parte)
     topic="L30 Esercizio sulle simulazioni (Emergency, segue)"
     teacher='Fulvio Corno'
     github='https://github.com/TdP-2023/Emergency'
+    video='https://youtu.be/pVPwV9ruy8E'
 />
 
 <LectureRow
