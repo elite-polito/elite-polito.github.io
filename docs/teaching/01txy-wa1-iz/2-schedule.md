@@ -387,20 +387,22 @@ All slides, examples, exercises, and any other material used in the classroom an
 
 <LectureRow
     date="16/05/2023" time="08:30-10:00"
+    video="https://youtu.be/HaS57SJkBZs"
 >
     <p>
         <a href="https://polito-wa1-aw1-2023.github.io/materials/slide/2-05-fetch.pdf" title="Fetch API">Fetch</a>.<br/>
         <a href="https://polito-wa1-aw1-2023.github.io/materials/slide/3-07-Client-Server-React.pdf" title="Client-server interaction in React">Client-server interaction in React</a>.<br/>
-        <a href="https://github.com/polito-WA1-AW1-2023/wa1-iz-weeks/tree/main/week11">Exercise on fetch and CORS</a> (on GitHub)
+        <a href="https://github.com/polito-WA1-AW1-2023/wa1-iz-weeks/tree/main/week11">Exercise on fetch and CORS</a> (on GitHub).
     </p>
 </LectureRow>
 
 <LectureRow
     date="16/05/2023" time="10:00-11:30"
+    video="https://youtu.be/1sRgb1KmYmM"
 >
     <p>
         <a href="https://polito-wa1-aw1-2023.github.io/materials/slide/3-08-LifeCycle.pdf" title="React Life Cycle">useEffect and LifeCycle</a>.<br/>
-        <a href="https://github.com/polito-WA1-AW1-2023/wa1-iz-weeks/tree/main/week11">Exercise on useEffect and fetch - part I</a> (on GitHub)
+        <a href="https://github.com/polito-WA1-AW1-2023/wa1-iz-weeks/tree/main/week11">Exercise on useEffect and fetch - part I</a> (on GitHub).
     </p>
 </LectureRow>
 
