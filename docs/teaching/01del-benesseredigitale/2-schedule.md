@@ -231,7 +231,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 <LectureRow
     date="16/05/2023" time="16:00-17:30"
     pdf='' 
-    video={[]}
+    video={['https://www.polito.it/didattica']}
     >
     Strategie informatiche per il Benessere Digitale (parte II)
 </LectureRow>
@@ -239,7 +239,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 <LectureRow
     date="16/05/2023" time="17:30-19:00"
     pdf='https://elite.polito.it/materiale-benesseredigitale-2023/slide/P04-prototipazione.pdf'
-    video={[]}
+    video={['https://www.polito.it/didattica']}
     >
     Prototipazione rapida di strumenti per il benessere digitale
 </LectureRow>
@@ -256,7 +256,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 <LectureRow
     date="ONLINE" time="ONLINE"
     pdf='' 
-    video={[]}
+    video={['https://www.polito.it/didattica']}
     type='Esercitazione'
     >
     Tutorial su Figma
