@@ -480,10 +480,12 @@ L28b Esercizio sulle simulazioni (Emergency, prima parte)
 
 <LectureRow
     date="17/05/2023" time="13:00-14:30"
-    topic="L31 Tema d'esame sulle simulazioni (Migrazioni)"
     teacher='Fulvio Corno'
     github='https://github.com/TdP-2023/Migrazioni'
-/>
+    video={['https://youtu.be/FRsE29DlWos','https://youtu.be/1SLHF8_zcBk']} >
+L31a Esercizio sulle simulazioni (Emergency, fine)<br/>
+L31b Esercizio sulle simulazioni (Migrazioni, inizio)
+</LectureRow>
 
 <LectureRow
     date="17/05/2023" time="16:00-19:00"
