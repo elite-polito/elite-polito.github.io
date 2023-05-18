@@ -90,7 +90,7 @@ All slides, examples, exercises, and any other material used in the classroom an
     date="14/03/2023" time="08:30-10:00" teacher="Luca Mannella"
     video="https://youtu.be/I7ouKm2morM"
 >
-    <a href="https://polito-wa1-aw1-2023.github.io/materials/slide/1-03-javascript-async-programming.pdf" title="Async programming in JS">JavaScript: async programming (cont'd)</a>
+    JavaScript: async programming (cont'd)
 </LectureRow>
 
 <LectureRow
@@ -430,13 +430,13 @@ All slides, examples, exercises, and any other material used in the classroom an
 <LectureRow
     date="23/05/2023" time="08:30-10:00"
 >
-    About the exam. LifeCycle: advanced aspects.
+    About the exam. LifeCycle: advanced aspects (cont'd).
 </LectureRow>
 
 <LectureRow
     date="23/05/2023" time="10:00-11:30" type="Exercise"
 >
-    Exercise on useEffect and fetch - part II (on GitHub)
+    <a href="https://github.com/polito-WA1-AW1-2023/wa1-iz-weeks/tree/main/week12">Exercise on useEffect and fetch - part II</a> (on GitHub)
 </LectureRow>
 
 <LectureRow
