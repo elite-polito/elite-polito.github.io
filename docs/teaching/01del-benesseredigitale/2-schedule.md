@@ -246,7 +246,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 
 <LectureRow
     date="19/05/2023" time="13:00-14:30"
-    pdf='' 
+    pdf='https://elite.polito.it/materiale-benesseredigitale-2023/slide/E03-prototipo-bassa-fedelta.pdf' 
     video={[]}
     type='Esercitazione'
     >

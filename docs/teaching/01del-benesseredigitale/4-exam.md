@@ -26,3 +26,4 @@ Le regole specifiche per superare l'esame (modalità di consegna, deadlines, ...
     * [Template consenso adulti](https://docs.google.com/document/d/16PhEKEeyu-0HlloUAvDmACATgraXu3KnGjv7BxPI8AM/edit?usp=sharing)
     * [Calendario](https://docs.google.com/spreadsheets/d/1-VTPNVk-r3X3yk_44kUpuRZVXUfXhM-fBx9Z4RqEz0g/edit?usp=sharing)
     * [Feedback](https://docs.google.com/document/d/1_y2y4w1aHPZHHM5NvAjeP1EBHcpG7zO7ok6HD_IqWCc/edit?usp=sharing)
+* [Esercitazione 3](https://elite.polito.it/materiale-benesseredigitale-2023/slide/E03-prototipo-bassa-fedelta.pdf)
