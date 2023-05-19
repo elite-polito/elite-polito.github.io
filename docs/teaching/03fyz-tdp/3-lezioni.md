@@ -501,6 +501,7 @@ L31b Esercizio sulle simulazioni (Migrazioni, inizio)
     date="22/05/2023" time="08:30-10:00"
     topic="L32 Risoluzione tema d'esame"
     teacher='Giuseppe Averta'
+    github='https://github.com/TdP-esami/2022-06-29-A.git'
 />
 
 <LectureRow
@@ -512,7 +513,7 @@ L31b Esercizio sulle simulazioni (Migrazioni, inizio)
 <LectureRow
     date="23/05/2023" time="13:00-16:00"
     type="Lab"
-    teacher='Carlo Masone'
+    teacher='Giuseppe Averta'
     topic="Simulazione d'esame n. 1 - Squadra 2"
 />
 
@@ -547,7 +548,7 @@ L31b Esercizio sulle simulazioni (Migrazioni, inizio)
 <LectureRow
     date="30/05/2023" time="13:00-16:00"
     type="Lab"
-    teacher='Giuseppe Averta'
+    teacher='Carlo Masone'
     topic="Simulazione d'esame n. 2 - Squadra 1"
 />
 
