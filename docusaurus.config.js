@@ -190,6 +190,10 @@ const config = {
             to: '/teaching/14bhd-informatica',
             from: '/teaching/current-courses/527-14bhd-info'
           },
+          { // http://bit.ly/informatica-corno
+            to: '/teaching/99old-courses/OldWebsite',
+            from: '/teaching-mainmenu-69/laurea-i-livello-mainmenu-82/94-12bhd'
+          },
           { // Basi Dati (Laura)
             to: '/teaching/99old-courses/OldWebsite',  // per ora, poi migreremo le pagine
             from: '/teaching/current-courses/526-04afqpc'
