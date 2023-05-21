@@ -191,7 +191,7 @@ const config = {
             from: '/teaching/current-courses/527-14bhd-info'
           },
           { // http://bit.ly/informatica-corno
-            to: '/teaching/99old-courses/OldWebsite',
+            to: '/teaching/99old-courses/12bhd-informatica-C',
             from: '/teaching-mainmenu-69/laurea-i-livello-mainmenu-82/94-12bhd'
           },
           { // Basi Dati (Laura)
