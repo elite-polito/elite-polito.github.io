@@ -32,7 +32,7 @@ Il materiale didattico è anche disponibile nel repository https://github.com/Td
   - [Introduzione ai grafi](https://tdp-2023.github.io/materiale/slide/06-01-intro-graphs.pdf)
   - [Introduzione alla libreria JGraphT](https://tdp-2023.github.io/materiale/slide/06-02-jGraphT-library.pdf)
   - [Visite nei grafi](https://tdp-2023.github.io/materiale/slide/06-03-graphs-visits.pdf)
-  - Cammini minimi
+  - [Cammini minimi](https://tdp-2023.github.io/materiale/slide/06-04-graphs-shortestpaths-cycles.pdf)
 - [Simulazioni ad eventi](https://github.com/TdP-2023/materiale/blob/master/slide/07-01-simulation.pdf)
 
 
