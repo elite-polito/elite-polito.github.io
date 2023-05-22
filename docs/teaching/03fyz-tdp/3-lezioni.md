@@ -510,7 +510,6 @@ L31b Esercizio sulle simulazioni (Migrazioni, inizio)
     github='https://github.com/TdP-2023/Migrazioni'
     teacher='Fulvio Corno'
     video={['https://youtu.be/YLLo2Yhkh84','https://youtu.be/hMRIUYjbBa0']} >
- >
 L33a Esercizio sulle simulazioni (Migrazioni, fine)<br/>
 L33b Svolgimento dell'esame e delle simulazioni d'esame
 </LectureRow>
