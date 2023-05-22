@@ -499,9 +499,10 @@ L31b Esercizio sulle simulazioni (Migrazioni, inizio)
 
 <LectureRow
     date="22/05/2023" time="08:30-10:00"
-    topic="L32 Risoluzione tema d'esame"
+    topic="L32 Risoluzione tema d'esame (iTunes)"
     teacher='Giuseppe Averta'
     github='https://github.com/TdP-esami/2022-06-29-A.git'
+    video='https://youtu.be/7sLHXCAmG9U'  
 />
 
 <LectureRow
