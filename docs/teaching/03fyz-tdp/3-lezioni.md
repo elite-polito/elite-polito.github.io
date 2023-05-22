@@ -507,11 +507,12 @@ L31b Esercizio sulle simulazioni (Migrazioni, inizio)
 
 <LectureRow
     date="22/05/2023" time="10:00-11:30"
-    pdf='https://tdp-2023.github.io/materiale/slide/06-04-graphs-shortestpaths-cycles.pdf'
-    teacher='Fulvio Corno' >
+    github='https://github.com/TdP-2023/Migrazioni'
+    teacher='Fulvio Corno'
+    video={['https://youtu.be/YLLo2Yhkh84','https://youtu.be/hMRIUYjbBa0']} >
+ >
 L33a Esercizio sulle simulazioni (Migrazioni, fine)<br/>
-L33b Svolgimento dell'esame e delle simulazioni d'esame<br/>
-L33c Cammini minimi nei grafi
+L33b Svolgimento dell'esame e delle simulazioni d'esame
 </LectureRow>
 
 <LectureRow
@@ -523,7 +524,8 @@ L33c Cammini minimi nei grafi
 
 <LectureRow
     date="24/05/2023" time="13:00-14:30"
-    topic="L34 Risoluzione tema d'esame"
+    topic="L34 Cammini minimi nei grafi"
+    pdf='https://tdp-2023.github.io/materiale/slide/06-04-graphs-shortestpaths-cycles.pdf'
     teacher='Fulvio Corno'
 />
 
