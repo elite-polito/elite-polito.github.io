@@ -491,13 +491,18 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 
 <LectureRow
     date="23/05/2023" time="10:00-11:30"
-    topic='L25 useEffect advanced usage'
+    topic='L25 useEffect advanced usage (part 1)'
+    video='https://youtu.be/F68wd6mMrYM'
+    github='https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/blob/main/week12/exercise14.md'
 />
 
 <LectureRow
     date="23/05/2023" time="11:30-13:00"
-    topic='L26 useEffect advanced usage'
-/>
+    video={['https://youtu.be/IGDoqcxok0I', 'https://youtu.be/RtuPXrVgXEQ']}
+>
+L26a useEffect advanced usage (part 2)<br/>
+L26b Exam rules and procedures
+</LectureRow>
 
 <LectureRow
     date="25/05/2023" time="08:30-10:00"
@@ -516,7 +521,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 <LectureRow
     topic='Week 12 exercises'
     teacher='' type=''
-    nogithub='https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/tree/main/week12' />
+    github='https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/tree/main/week12' />
 
 <LectureDivider topic='Week 13'/>{/*-------------------------------------------*/}
 
