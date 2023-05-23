@@ -429,14 +429,16 @@ All slides, examples, exercises, and any other material used in the classroom an
 
 <LectureRow
     date="23/05/2023" time="08:30-10:00"
+    video="https://youtu.be/FqAzhetBk_8"
 >
-    About the exam. LifeCycle: advanced aspects (cont'd).
+    LifeCycle: advanced aspects (cont'd).
 </LectureRow>
 
 <LectureRow
     date="23/05/2023" time="10:00-11:30" type="Exercise"
+    video="https://youtu.be/nrKKkYh21rQ"
 >
-    <a href="https://github.com/polito-WA1-AW1-2023/wa1-iz-weeks/tree/main/week12">Exercise on useEffect and fetch - part II</a> (on GitHub)
+    <a href="https://github.com/polito-WA1-AW1-2023/wa1-iz-weeks/tree/main/week12">Exercise on useEffect and fetch - part II</a> (on GitHub). About the exam.
 </LectureRow>
 
 <LectureRow
