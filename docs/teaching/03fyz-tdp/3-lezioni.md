@@ -523,9 +523,11 @@ L33b Svolgimento dell'esame e delle simulazioni d'esame
 
 <LectureRow
     date="24/05/2023" time="13:00-14:30"
-    topic="L34 Cammini minimi nei grafi"
+    topic="L34 Cammini minimi e cicli nei grafi"
     pdf='https://tdp-2023.github.io/materiale/slide/06-04-graphs-shortestpaths-cycles.pdf'
     teacher='Fulvio Corno'
+    video='https://youtu.be/bVj8PLGm4N4'
+    github='https://github.com/TdP-2023/Metro-Paris/tree/cammini_minimi'
 />
 
 <LectureRow
@@ -589,6 +591,14 @@ L33b Svolgimento dell'esame e delle simulazioni d'esame
     topic="L40 Risoluzione tema d'esame"
     teacher='Fulvio Corno'
 />
+
+<LectureRow variant='info'
+    date="" time=""
+    topic="In questa settimana non ci sarà laboratorio. Il laboratorio LEP rimane a disposizione per esercitazioni individuali."
+    type=''
+    teacher=''
+/>
+
 
 
 </LectureTable>
