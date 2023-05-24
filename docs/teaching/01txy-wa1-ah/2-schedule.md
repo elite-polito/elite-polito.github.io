@@ -509,6 +509,7 @@ L26b Exam rules and procedures
     type='Lab'
     topic='Lab 10 - Group 1 (AA-DE)'
     teacher='Juan Pablo Sáenz'
+    pdf='https://polito-wa1-aw1-2023.github.io/materials/labs/lab10-API-2.pdf'
 />
 
 <LectureRow
@@ -516,6 +517,7 @@ L26b Exam rules and procedures
     type='Lab'
     topic='Lab 10 - Group 2 (DI-HZ)'
     teacher='Juan Pablo Sáenz'
+    pdf='https://polito-wa1-aw1-2023.github.io/materials/labs/lab10-API-2.pdf'
 />
 
 <LectureRow
