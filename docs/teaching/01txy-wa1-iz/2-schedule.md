@@ -465,13 +465,13 @@ All slides, examples, exercises, and any other material used in the classroom an
 <LectureRow
     date="30/05/2023" time="08:30-10:00"
 >
-    Authentication with Passport.js
+    <a href="https://polito-wa1-aw1-2023.github.io/materials/slide/4-03-Authentication.pdf" title="Authentication">Authentication with Passport.js</a>
 </LectureRow>
 
 <LectureRow
     date="30/05/2023" time="10:00-11:30" type="Exercise"
 >
-    Exercise on authentication
+    <a href="https://github.com/polito-WA1-AW1-2023/wa1-iz-weeks/tree/main/week13">Exercise on authentication</a> (on GitHub)
 </LectureRow>
 
 <LectureRow
