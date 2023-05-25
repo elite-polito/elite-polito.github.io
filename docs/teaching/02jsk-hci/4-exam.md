@@ -11,14 +11,10 @@ It must be passed in the **current academic** year. Material for the projects ev
 
 Next exams, with deadlines:
 
-- **30/01/2023 Room 7N and 31/01/2023 ACSLAB, h. 09:30**
-    - remember to enroll at the exam, by *24/01/2023*, on the Portale della Didattica
-    - all the assignments (including the code) must be on the group's GitHub repositories by *25/01/2023 EOD*
+- **19/06/2023 h. 17:00, Room 8I**
+    - remember to enroll at the exam, by *13/06/2023*, on the Portale della Didattica
+    - all the assignments (including the code) must be on the group's GitHub repositories by *12/06/2023 EOD*
     - the schedule for the oral discussion shared with the students enrolled at the exam
-- **17/02/2023, h. 08:00, Room 2M**
-    - remember to enroll at the exam, by *13/02/2023*, on the Portale della Didattica
-    - all the assignments (including the code) must be on the group's GitHub repositories by *10/02/2023 EOD*
-    - the schedule for the oral discussion will be shared with the students enrolled at the exam
 
 ## Group Projects (with Assignments)
 
