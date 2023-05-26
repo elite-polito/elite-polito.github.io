@@ -326,12 +326,12 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 
 <LectureRow
     date="06/06/2023" time="16:00-17:30"
-    pdf='' 
+    pdf='https://elite.polito.it/materiale-benesseredigitale-2023/slide/esame.pdf' 
     video={[]}
     type='Esercitazione'
     teacher = 'Monica Molino'
     >
-    Progettazione prototipo ad alta fedeltà
+    Progettazione prototipo ad alta fedeltà (esame)
 </LectureRow>
 
 <LectureRow
@@ -341,7 +341,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
     type='Esercitazione'
     teacher = 'Monica Molino'
     >
-    Progettazione prototipo ad alta fedeltà
+    Progettazione prototipo ad alta fedeltà (esame)
 </LectureRow>
 
 <LectureRow
@@ -350,7 +350,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
     video={[]}
     type='Esercitazione'
     >
-    Progettazione prototipo ad alta fedeltà
+    Progettazione prototipo ad alta fedeltà (esame)
 </LectureRow>
 
 </LectureTable>

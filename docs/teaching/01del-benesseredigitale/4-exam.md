@@ -13,8 +13,7 @@ Il progetto di gruppo sarà valutato tramite la correzione delle consegne interm
 - presentazione e discussione orale; contributo individuale all’interno del gruppo; 
 - impegno e capacità dimostrate durante lo svolgimento del lavoro di gruppo.
 
-Le regole specifiche per superare l'esame (modalità di consegna, deadlines, ...) verranno comunicate durante il corso.
-
+[Istruzioni dettagliate per l'esame](https://elite.polito.it/materiale-benesseredigitale-2023/slide/esame.pdf)
 
 ## Esercitazioni intermedie
 
