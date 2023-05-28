@@ -92,7 +92,7 @@ table tr.danger {
 }
 
 .fix-new-lines {
-    white-space:pre-line;
+    white-space: pre-line;
 }
 
 @media screen and (max-width: 996px) {
