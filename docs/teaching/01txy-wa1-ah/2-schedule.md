@@ -530,6 +530,7 @@ L26b Exam rules and procedures
 <LectureRow
     date="30/05/2023" time="10:00-11:30"
     topic='L27 Authentication with Passport.js'
+    pdf='https://polito-wa1-aw1-2023.github.io/materials/slide/4-03-Authentication.pdf'
 />
 
 <LectureRow
