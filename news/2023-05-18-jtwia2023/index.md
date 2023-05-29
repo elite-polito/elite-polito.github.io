@@ -33,5 +33,7 @@ Tra i diversi interventi, segnaliamo quello di **Fulvio Corno** sul tema *Donne 
 ---
 
 - 31 maggio 2023, ore ore 18:00, Politecnico di Torino, Aula Magna “Giovanni Agnelli”, corso Duca degli Abruzzi 24, 10129 Torino
-- Ingresso gratuito, prenotazione obbligatoria all’indirizzo: https://bit.ly/donne-libere-vivere
+- Ingresso gratuito, **prenotazione obbligatoria** all’indirizzo: https://bit.ly/donne-libere-vivere
 - [Poster dell'iniziativa](./donne-libere-vivere-poster.pdf) (PDF)
+- [Articolo su PoliNews](https://www.polito.it/ateneo/comunicazione-e-ufficio-stampa/appuntamenti/news?idn=20835)
+- [Articolo su Uninversità di Torino](https://www.unito.it/eventi/donne-libere-di-vivere-lezione-spettacolo-2023)
