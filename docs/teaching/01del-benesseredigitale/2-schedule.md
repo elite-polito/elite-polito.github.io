@@ -310,6 +310,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
     teacher = 'Monica Molino'
     >
     Presentazione del prototipo a bassa fedeltà. Feedback.
+    <ul><li><a href="https://docs.google.com/spreadsheets/d/10dtZovSFGXzylCrMugo0ze1i-cAqVjQwmI-VXxNbZv4/edit?usp=sharing">Calendario presentazioni</a></li></ul>
 </LectureRow>
 
 <LectureRow
@@ -320,6 +321,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
     teacher = 'Monica Molino'
     >
     Presentazione del prototipo a bassa fedeltà. Feedback.
+    <ul><li><a href="https://docs.google.com/spreadsheets/d/10dtZovSFGXzylCrMugo0ze1i-cAqVjQwmI-VXxNbZv4/edit?usp=sharing">Calendario presentazioni</a></li></ul>
 </LectureRow>
 
 <LectureDivider/>
