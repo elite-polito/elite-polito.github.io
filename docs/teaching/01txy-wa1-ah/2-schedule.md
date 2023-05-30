@@ -531,11 +531,14 @@ L26b Exam rules and procedures
     date="30/05/2023" time="10:00-11:30"
     topic='L27 Authentication with Passport.js'
     pdf='https://polito-wa1-aw1-2023.github.io/materials/slide/4-03-Authentication.pdf'
+    video='https://youtu.be/XK-wj_pxL0c'
 />
 
 <LectureRow
     date="30/05/2023" time="11:30-13:00"
     topic='L28 Authentication with Passport.js'
+    github='https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/tree/main/week13/server'
+    video='https://youtu.be/WezoGIpn2y8'
 />
 
 <LectureRow
@@ -555,7 +558,7 @@ L26b Exam rules and procedures
 <LectureRow
     topic='Week 13 exercises'
     teacher='' type=''
-    nogithub='https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/tree/main/week13' />
+    github='https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/tree/main/week13' />
 
 <LectureDivider topic='Week 13'/>{/*-------------------------------------------*/}
 
