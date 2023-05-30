@@ -560,7 +560,7 @@ L26b Exam rules and procedures
     teacher='' type=''
     github='https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/tree/main/week13' />
 
-<LectureDivider topic='Week 13'/>{/*-------------------------------------------*/}
+<LectureDivider topic='Week 14'/>{/*-------------------------------------------*/}
 
 <LectureRow
     date='06/06/2023'

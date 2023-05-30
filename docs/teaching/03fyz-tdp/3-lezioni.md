@@ -546,9 +546,9 @@ L33b Svolgimento dell'esame e delle simulazioni d'esame
     teacher='Carlo Masone'
 />
 
-<LectureRow
+<LectureRow variant='info'
     date="29/05/2023" time="10:00-11:30"
-    topic="L36 Risoluzione tema d'esame"
+    topic="LEZIONE RIMANDATA"
     teacher='Fulvio Corno'
 />
 
@@ -561,8 +561,9 @@ L33b Svolgimento dell'esame e delle simulazioni d'esame
 
 <LectureRow
     date="31/05/2023" time="13:00-14:30"
-    topic="L37 Risoluzione tema d'esame"
+    topic="L36 Risoluzione tema d'esame (14/07/2022)"
     teacher='Fulvio Corno'
+    github='https://github.com/TdP-esami/2022-07-14-A'
 />
 
 <LectureRow
@@ -575,20 +576,26 @@ L33b Svolgimento dell'esame e delle simulazioni d'esame
 <LectureDivider topic="Settimana 14"/>
 
 <LectureRow
-    date="29/05/2023" time="08:30-10:00"
-    topic="L38 Risoluzione tema d'esame (Simulazione 2)"
+    date="05/06/2023" time="08:30-10:00"
+    topic="L37 Risoluzione tema d'esame (Simulazione 2)"
     teacher='Carlo Masone'
 />
 
 <LectureRow
-    date="29/05/2023" time="10:00-11:30"
-    topic="L39 Risoluzione tema d'esame"
+    date="05/06/2023" time="10:00-11:30"
+    topic="L38 Risoluzione tema d'esame"
     teacher='Fulvio Corno'
 />
 
 <LectureRow
-    date="31/05/2023" time="13:00-14:30"
-    topic="L40 Risoluzione tema d'esame"
+    date="07/06/2023" time="11:30-13:00"
+    topic="L39 Risoluzione tema d'esame - RECUPERO LEZIONE DEL 29/05 - IN AULA R3B"
+    teacher='Fulvio Corno'
+/>
+
+<LectureRow
+    date="07/06/2023" time="13:00-14:30"
+    topic="L40 Risoluzione tema d'esame - IN AULA R3B"
     teacher='Fulvio Corno'
 />
 
