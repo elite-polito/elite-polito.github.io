@@ -536,7 +536,7 @@ L26b Exam rules and procedures
 
 <LectureRow
     date="30/05/2023" time="11:30-13:00"
-    topic='L28 Authentication with Passport.js'
+    topic='L28 Authentication with Passport.js (example)'
     github='https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks/tree/main/week13/server'
     video='https://youtu.be/WezoGIpn2y8'
 />
