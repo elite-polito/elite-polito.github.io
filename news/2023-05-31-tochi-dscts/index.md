@@ -37,7 +37,7 @@ Unfortunately, our analysis also demonstrated that DSCTs are not effective in th
 * **Theoretical gap:** DSCTs and the digital wellbeing research area are not sufficiently grounded in HCI and behavioral theories. Grounding the design of behavior change technologies on well established behavioral theories, e.g., the dual-system theory, is fundamental to generate long-lasting results.
 
    
-Besides gaps in design and implementation, our analysis also revealed gapsrelated to how researchers evaluate their DSCTs:
+Besides gaps in design and implementation, our analysis also revealed gaps related to how researchers evaluate their DSCTs:
 * Experiments are typically short (e.g., 21 days) and cannot assess the long-term effects of using a DSCT.
 * Experiments rarely include a control group, with a prevalence of within-subject experiments.
 * Experiments rarely include a withdrawal phase, i.e., a phase during which the DSCT is (progressively) removed.
