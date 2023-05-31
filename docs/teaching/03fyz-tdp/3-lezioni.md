@@ -565,6 +565,7 @@ L33b Svolgimento dell'esame e delle simulazioni d'esame
     topic="L36 Risoluzione tema d'esame (14/07/2022)"
     teacher='Fulvio Corno'
     github='https://github.com/TdP-esami/2022-07-14-A'
+    video='https://youtu.be/Nd3T4gobMA8'
 />
 
 <LectureRow
