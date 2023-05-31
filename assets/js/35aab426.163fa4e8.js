@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkelite_website=self.webpackChunkelite_website||[]).push([[841],{88160:e=>{e.exports=JSON.parse('{"label":"digital wellbeing","permalink":"/news/tags/digital-wellbeing","allTagsPath":"/news/tags","count":2}')}}]);
