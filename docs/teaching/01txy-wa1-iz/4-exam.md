@@ -7,7 +7,10 @@ description: "Exam"
 
 ## Exam assignments
 
+- [GitHub Classroom instructions](https://polito-wa1-aw1-2023.github.io/materials/GH-Classroom-Instructions.pdf)
+
 ### Year 2022/23
+
 In progress...
 
 ### Year 2021/22
