@@ -457,7 +457,11 @@ All slides, examples, exercises, and any other material used in the classroom an
     <a href="https://polito-wa1-aw1-2023.github.io/materials/labs/lab10-API-2.pdf">Client-server interaction</a> (group 2, PA-ZZ)
 </LectureRow>
 
-<!-- <LectureRow type="Lab Solution" teacher=""> <a href="https://github.com/polito-WA1-AW1-2023/lab10-client-server-II">Possible solution</a> (on GitHub)</LectureRow> -->
+<LectureRow
+    type="Lab Solution" teacher=""
+>
+    <a href="https://github.com/polito-WA1-AW1-2023/lab10-client-server-II">Possible solution</a> (on GitHub)
+</LectureRow>
 
 
 <LectureDivider topic='Week 13'/>{/*-------------------------------------------*/}
@@ -479,15 +483,13 @@ All slides, examples, exercises, and any other material used in the classroom an
 <LectureRow
     date="01/06/2023" time="08:30-10:00" type="Lab" teacher="Luca Mannella"
 >
-    {/* <a href="https://polito-wa1-aw1-2023.github.io/materials/labs/lab11-authentication.pdf">Authentication</a> (group 1, IA-OU) */}
-    Authentication (group 1, IA-OU)
+    <a href="https://polito-wa1-aw1-2023.github.io/materials/labs/lab11-authentication.pdf">Authentication</a> (group 1, IA-OU)
 </LectureRow>
 
 <LectureRow
     date="01/06/2023" time="10:00-11:30" type="Lab" teacher="Luca Mannella"
 >
-    {/* <a href="https://polito-wa1-aw1-2023.github.io/materials/labs/lab11-authentication.pdf">Authentication</a> (group 2, PA-ZZ) */}
-    Authentication (group 2, PA-ZZ)
+    <a href="https://polito-wa1-aw1-2023.github.io/materials/labs/lab11-authentication.pdf">Authentication</a> (group 2, PA-ZZ)
 </LectureRow>
 
 <!-- <LectureRow type="Lab Solution" teacher=""> <a href="https://github.com/polito-WA1-AW1-2023/lab11-authentication">Possible solution</a> (on GitHub)</LectureRow> -->
@@ -510,7 +512,7 @@ All slides, examples, exercises, and any other material used in the classroom an
 <LectureRow
     date="08/06/2023" time="10:00-11:30" type="Lab" teacher="Luca Mannella"
 >
-    Exam simulation (both groups)
+    Exam simulation (cont'd, both groups)
 </LectureRow>
 
 </LectureTable>
