@@ -544,6 +544,7 @@ L33b Svolgimento dell'esame e delle simulazioni d'esame
     date="29/05/2023" time="08:30-10:00"
     topic="L35 Risoluzione tema d'esame (Simulazione 1)"
     teacher='Carlo Masone'
+    video='https://youtu.be/Ksc5c5RDEVg'
 />
 
 <LectureRow variant='info'
