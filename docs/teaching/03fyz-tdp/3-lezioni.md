@@ -545,6 +545,7 @@ L33b Svolgimento dell'esame e delle simulazioni d'esame
     topic="L35 Risoluzione tema d'esame (Simulazione 1)"
     teacher='Carlo Masone'
     video='https://youtu.be/Ksc5c5RDEVg'
+    github='https://github.com/TdP-esami/2023-05-23-simulazione/tree/master'
 />
 
 <LectureRow variant='info'
