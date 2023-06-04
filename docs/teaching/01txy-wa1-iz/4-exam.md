@@ -5,16 +5,16 @@ description: "Exam"
 
 # Exam
 
-### General documents
+## Exam Assignments
 
 - [GitHub Classroom instructions](https://polito-wa1-aw1-2023.github.io/materials/GH-Classroom-Instructions.pdf)
 
 ### Year 2022/23
 
 - [Exam 1: CMSmall](https://docs.google.com/document/d/1MaIpKyLjvUv3UwMztYrYYVie_nTu4ekMYRyYpMEwzbk/edit) (deadline: 2023-06-25 at 23:59)
-  - In case of doubts or questions, add a comment in the document linked above - the final version will be published on June 14.
-  - Further clarification in the dedicated topic on the course's Telegram group.
-  - [Project skeleton and exam submission](https://classroom.github.com/a/8AapHqUJ) (to accept via GitHub Classroom).
+  - For any doubts or questions, add a comment in the document linked above - the final version will be published on June 14.
+  - Ask for further clarification in the dedicated topic on the course's Telegram group.
+  - Complete the assignment on GitHub Classroom: [project skeleton and exam submission](https://classroom.github.com/a/8AapHqUJ).
 - Exam 2
 - Exam 3
 - Exam 4
