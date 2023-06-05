@@ -582,6 +582,7 @@ L33b Svolgimento dell'esame e delle simulazioni d'esame
     date="05/06/2023" time="08:30-10:00"
     topic="L37 Risoluzione tema d'esame (Simulazione 2)"
     teacher='Carlo Masone'
+    ithub='https://github.com/TdP-esami/2023-05-30-simulazione'
 />
 
 <LectureRow
