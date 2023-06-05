@@ -583,6 +583,7 @@ L33b Svolgimento dell'esame e delle simulazioni d'esame
     topic="L37 Risoluzione tema d'esame (Simulazione 2)"
     teacher='Carlo Masone'
     github='https://github.com/TdP-esami/2023-05-30-simulazione'
+    video='https://youtu.be/hrPty0IWjTg'
 />
 
 <LectureRow
