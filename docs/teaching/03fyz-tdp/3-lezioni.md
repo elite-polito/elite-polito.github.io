@@ -589,15 +589,15 @@ L33b Svolgimento dell'esame e delle simulazioni d'esame
 <LectureRow
     date="05/06/2023" time="10:00-11:30"
     teacher='Fulvio Corno'
-    github='https://github.com/TdP-esami/2022-09-14-A'
->
-L38a Risoluzione tema d'esame (14/07/2022, segue)<br/>
-L38b Risoluzione tema d'esame (14/09/2022, inizio)
-</LectureRow>
+    topic="L38 Risoluzione tema d'esame (14/07/2022, segue)"
+    github='https://github.com/TdP-esami/2022-07-14-A'
+    video='https://youtu.be/ME0RZ-0MxMo'
+/>
 
 <LectureRow
     date="07/06/2023" time="11:30-13:00"
-    topic="L39 Risoluzione tema d'esame (14/09/2022, segue) - RECUPERO LEZIONE DEL 29/05 - IN AULA R3B"
+    topic="L39 Risoluzione tema d'esame (14/09/2022) - RECUPERO LEZIONE DEL 29/05 - IN AULA R3B"
+    github='https://github.com/TdP-esami/2022-09-14-A'
     teacher='Fulvio Corno'
 />
 
