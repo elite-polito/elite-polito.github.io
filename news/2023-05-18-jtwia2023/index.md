@@ -30,10 +30,12 @@ A collegare tra loro queste micro-lezioni sarà la narrazione del giovane attore
 
 Tra i diversi interventi, segnaliamo quello di **Fulvio Corno** sul tema *Donne libere dalla prigione domestica*, in cui si approfondirà la relazione tra la figura femminile e le tecnologie pensate per gli ambienti domestici, dagli elettrodomestici alla domotica all'Internet of Things, con qualche sguardo al futuro fantascientifico.
 
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/j1kizAxeQGI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ---
 
 - 31 maggio 2023, ore ore 18:00, Politecnico di Torino, Aula Magna “Giovanni Agnelli”, corso Duca degli Abruzzi 24, 10129 Torino
-- Ingresso gratuito, **prenotazione obbligatoria** all’indirizzo: https://bit.ly/donne-libere-vivere
 - [Poster dell'iniziativa](./donne-libere-vivere-poster.pdf) (PDF)
 - [Articolo su PoliNews](https://www.polito.it/ateneo/comunicazione-e-ufficio-stampa/appuntamenti/news?idn=20835)
 - [Articolo su Uninversità di Torino](https://www.unito.it/eventi/donne-libere-di-vivere-lezione-spettacolo-2023)
+- [Video registrazione dell'evento](https://youtu.be/j1kizAxeQGI)
