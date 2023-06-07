@@ -596,15 +596,17 @@ L33b Svolgimento dell'esame e delle simulazioni d'esame
 
 <LectureRow
     date="07/06/2023" time="11:30-13:00"
-    topic="L39 Risoluzione tema d'esame (14/09/2022) - RECUPERO LEZIONE DEL 29/05 - IN AULA R3B"
+    topic="L39 Risoluzione tema d'esame (14/09/2022)"
     github='https://github.com/TdP-esami/2022-09-14-A'
     teacher='Fulvio Corno'
+    video='https://youtu.be/FBAQ_U-ti7g'
 />
 
 <LectureRow
     date="07/06/2023" time="13:00-14:30"
-    topic="L40 Risoluzione tema d'esame - IN AULA R3B"
+    topic="L40 Risoluzione tema d'esame (14/09/2022, segue)"
     teacher='Fulvio Corno'
+    video='https://youtu.be/72FE7Gh8h94'
 />
 
 <LectureRow variant='info'

@@ -59,8 +59,8 @@ Il materiale didattico è anche disponibile nel repository https://github.com/Td
 - [Laboratorio 6](https://github.com/TdP-2023/Lab06)
 - [Laboratorio 7](https://github.com/TdP-2023/Lab07)
 - [Laboratorio 8](https://github.com/TdP-2023/Lab08)
-- Laboratorio 9
-- Laboratorio 10 
+- [Laboratorio 9](https://github.com/TdP-2023/Lab09)
+- [Laboratorio 10](https://github.com/TdP-2023/Lab10)
 
 
 ## Link di approfondimento
