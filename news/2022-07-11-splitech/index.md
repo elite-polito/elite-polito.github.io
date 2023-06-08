@@ -12,7 +12,7 @@ image_alt: Banner of the SpliTech 2022 conference
 Last week, from the 5th to the 8th of July, the e-Lite research group participated in the 7th International Conference on Smart and Sustainable Technologies (**SpliTech 2022**). 
 The conference was held in Croatia, in Split, and in Bol (Brač island). According to the current COVID-19 pandemic, the conference was held in a hybrid form. 
 
-During this event, Luca Mannella presented a paper entitled: "_A Threat Model for Extensible Smart Home Gateways_".
+During this event, Luca Mannella presented a paper entitled: "[*A Threat Model for Extensible Smart Home Gateways*](https://www.researchgate.net/publication/360627814_A_Threat_Model_for_Extensible_Smart_Home_Gateways)".
 
 <!-- truncate -->
 
