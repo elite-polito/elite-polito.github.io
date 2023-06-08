@@ -549,6 +549,7 @@ L26b Exam rules and procedures
     topic='Lab 11 - Group 1 (AA-DE)'
     teacher='Juan Pablo Sáenz'
     pdf='https://polito-wa1-aw1-2023.github.io/materials/labs/lab11-authentication.pdf'
+    github='https://github.com/polito-WA1-AW1-2023/lab11-authentication'
 />
 
 <LectureRow
@@ -557,6 +558,7 @@ L26b Exam rules and procedures
     topic='Lab 11 - Group 2 (DI-HZ)'
     teacher='Juan Pablo Sáenz'
     pdf='https://polito-wa1-aw1-2023.github.io/materials/labs/lab11-authentication.pdf'
+    github='https://github.com/polito-WA1-AW1-2023/lab11-authentication'
 />
 
 <LectureRow
