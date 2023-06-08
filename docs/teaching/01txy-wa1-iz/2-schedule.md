@@ -505,12 +505,14 @@ All slides, examples, exercises, and any other material used in the classroom an
 
 <LectureRow
     date="08/06/2023" time="08:30-10:00" type="Lab" teacher="Luca Mannella"
+    video="https://youtu.be/Yc85SW2MRjg"
 >
     Exam simulation: <a href="https://docs.google.com/document/d/1Yfjkr3Jwn8W3riLMU6F2CDTSmkdJNs90qsYqnMPolZw/edit?usp=sharing">Study Plan</a> (both groups)
 </LectureRow>
 
 <LectureRow
     date="08/06/2023" time="10:00-11:30" type="Lab" teacher="Luca Mannella"
+    video="https://youtu.be/xpgnxxwbfIM"
 >
     Exam simulation: <a href="https://docs.google.com/document/d/1Yfjkr3Jwn8W3riLMU6F2CDTSmkdJNs90qsYqnMPolZw/edit?usp=sharing">Study Plan</a> (cont'd, both groups)
 </LectureRow>
