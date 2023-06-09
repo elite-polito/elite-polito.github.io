@@ -575,19 +575,20 @@ L26b Exam rules and procedures
     topic='No lectures'
 />
 
-
 <LectureRow
     date="08/06/2023" time="08:30-10:00"
     type='Lab'
     topic='Exam simulation (guided)'
     teacher='Juan Pablo Sáenz'
+    video='https://youtu.be/5aEsA3nZtpQ'
 />
 
 <LectureRow
     date="08/06/2023" time="10:00-11:30"
     type='Lab'
-    topic='Exam simulation (guided)'
+    topic='Exam simulation (guided - 2nd part)'
     teacher='Juan Pablo Sáenz'
+    video='https://youtu.be/LSlnXnf8TPI'
 />
 
 
