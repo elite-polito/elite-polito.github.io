@@ -1,6 +1,6 @@
 authors: [calo]
 tags: [conference, paper, doctoral consortium]
-description: From June 26-30, 2023, the e-Lite group will participate (in person) in the ACM SIGCHI Symposium on Engineering Interactive Computing Systems (EICS 2023) in Swansea, United Kingdom. Juan Pablo and Tommaso will each present a paper, while Tommaso will also take part in the Doctoral Consortium, discussing the impact of AI in the design and creative processes.
+description: From June 26-30, 2023, the e-Lite group will participate (in person) in the ACM SIGCHI Symposium on Engineering Interactive Computing Systems (EICS 2023) in Swansea, United Kingdom. Juan Pablo and Tommaso will each present a paper, while Tommaso will also take part in the Doctoral Consortium.
 image: ./eics2023-logo.png
 image_alt: EICS 2023 Logo
 import eics2023 from './eics2023-logo.png';
