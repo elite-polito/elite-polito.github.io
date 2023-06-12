@@ -1,7 +1,7 @@
 ---
 authors: [corno, mannella]
 tags: [conference, paper]
-description: From the 20th to the 23th of July, the e-Lite research group will participate to SpliTech 2023 (Split, Croatia). Luca Mannella will chair the Special Session on Cybersecurity and IoT within the The International Symposium on Internet of Things. He will also present a paper entitled "A Gateway-based MUD Architecture to Enhance Smart Home Security".
+description: From the 20th to the 23th of June, the e-Lite research group will participate to SpliTech 2023 (Split, Croatia). Luca Mannella will chair the Special Session on Cybersecurity and IoT within the The International Symposium on Internet of Things. He will also present a paper entitled "A Gateway-based MUD Architecture to Enhance Smart Home Security".
 image: ./Session-banner.png
 image_alt: Banner of the Special Session on CyberSecurity and IoT withing SpliTech 2023 conference
 ---
@@ -10,10 +10,10 @@ import SessionBanner from './Session-banner.png'
 
 # Participation at SpliTech 2023
 
-From the 20th to the 23th of July, the e-Lite research group will participate to the 8th International Conference on Smart and Sustainable Technologies (**SpliTech 2023**).
+From the 20th to the 23th of June, the e-Lite research group will participate to the 8th International Conference on Smart and Sustainable Technologies (**SpliTech 2023**).
 The conference will be held in Croatia, in Split, and in Bol (Brač island).
 
-On the 21st of July, **Luca Mannella will chair the [Special Session on Cybersecurity and IoT](https://elite.polito.it/news/2023/02/07/cfp-splitech2023-cybersecurity)** within the The International Symposium on Internet of Things.
+On the 21st of June, **Luca Mannella will chair the [Special Session on Cybersecurity and IoT](https://elite.polito.it/news/2023/02/07/cfp-splitech2023-cybersecurity)** within the The International Symposium on Internet of Things.
 
 <p className="text--center"><img src={SessionBanner} alt="Banner of the SpliTech 2023 conference"></img></p>
 
