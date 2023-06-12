@@ -14,6 +14,7 @@ Juan Pablo Saenz and Tommaso Calò will each present a paper, while Tommaso will
 The first paper introduces **an innovative conversational agent** that captures a developer's reasoning and motivations during the coding process. The second paper, on the other hand, presents **a visual programming tool** enabling the **design, training, and evaluation of deep learning models** without the need for specific programming languages. Tommaso Calò's Doctoral Consortium research discusses **how AI can bring changes to human experiences during design and creative processes**.
 
 <p className="text--center"><img src={eics2023} alt="EICS 2023 Logo"></img></p>
+
 <!-- truncate -->
 
 ### Listen Veronica! Can You Give me a Hand With This Bug?
@@ -31,7 +32,7 @@ The paper presents DeepBlocks, a visual programming tool that allows deep learni
 
 You can read the paper by following the link below!
 
-## Doctoral Consortium: Human-Centered AI for Creative Design
+### Doctoral Consortium: Human-Centered AI for Creative Design
 Tommaso Calò will also participate in the Doctoral Consortium with his research titled "_Human-Centered AI for Creative Design_" where he explores the opportunities for AI to bring radical changes in human experiences during the design and creative processes, assist designers' creative ability, and provide new approaches to augment design cognition. Tommaso will present his research on Monday, **30 June** at 12:00.
 
 ---
