@@ -20,8 +20,7 @@ The first paper introduces **an innovative conversational agent** that captures 
 <!-- truncate -->
 
 ### Listen Veronica! Can You Give me a Hand With This Bug?
-
-Juan Pablo will present the paper "_Listen Veronica! Can You Give me a Hand With This Bug?_" on on Wednesday, *28 June** at 11:30.
+Juan Pablo will present the paper "_Listen Veronica! Can You Give me a Hand With This Bug?_" on on Wednesday, **28 June** at 11:30.
 
 This paper introduces Veronica, a conversational agent integrated directly into Visual Studio Code. Veronica is designed to capture a developer's reasoning and motivations, recording memos and linking them with the code they are writing. Furthermore, Veronica can interact with the web browser to automatically gather the sources consulted by the developer and attach them to the code. A usability study with 8 participants validates this approach, with the participants positively assessing the tool's usefulness.
 
