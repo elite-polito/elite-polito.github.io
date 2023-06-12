@@ -4,24 +4,11 @@
         <title>e-Lite Research Group Blog</title>
         <link>https://elite.polito.it/news</link>
         <description>e-Lite Research Group Blog</description>
-        <lastBuildDate>Wed, 21 Jun 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 12 Jun 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <copyright>Copyright © 2023 Politecnico di Torino</copyright>
-        <item>
-            <title><![CDATA[Participation at SpliTech 2023]]></title>
-            <link>https://elite.polito.it/news/2023/06/21/splitech-2023</link>
-            <guid>https://elite.polito.it/news/2023/06/21/splitech-2023</guid>
-            <pubDate>Wed, 21 Jun 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[From the 20th to the 23th of July, the e-Lite research group will participate to SpliTech 2023 (Split, Croatia). Luca Mannella will chair the Special Session on Cybersecurity and IoT within the The International Symposium on Internet of Things. He will also present a paper entitled "A Gateway-based MUD Architecture to Enhance Smart Home Security".]]></description>
-            <content:encoded><![CDATA[<p>From the 20th to the 23th of July, the e-Lite research group will participate to the 8th International Conference on Smart and Sustainable Technologies (<strong>SpliTech 2023</strong>).
-The conference will be held in Croatia, in Split, and in Bol (Brač island).</p><p>On the 21st of July, <strong>Luca Mannella will chair the <a href="https://elite.polito.it/news/2023/02/07/cfp-splitech2023-cybersecurity" target="_blank" rel="noopener noreferrer">Special Session on Cybersecurity and IoT</a></strong> within the The International Symposium on Internet of Things.</p><p class="text--center"><img loading="lazy" src="/assets/images/Session-banner-326ba83f56a35f02d9a9367c661d8b2b.png" alt="Banner of the SpliTech 2023 conference" class="img_ev3q"></p><p>During the special session, Luca will also <strong>present his last paper</strong>, co-authored with Prof. Fulvio Corno, entitled: "<a href="https://www.researchgate.net/publication/370609562_A_Gateway-based_MUD_Architecture_to_Enhance_Smart_Home_Security" target="_blank" rel="noopener noreferrer"><em>A Gateway-based MUD Architecture to Enhance Smart Home Security</em></a>".</p><p>The presented paper proposes an expansion to a standard recently proposed by the Internet Engineering Task Force (IETF): the <a href="https://www.rfc-editor.org/rfc/rfc8520.html" target="_blank" rel="noopener noreferrer">Manufacturer Usage Description</a> (MUD).
-The research focuses on empowering an extensible smart home gateway allowing it to create an additional layer of protection for all the connected devices.
-Indeed, the proposed architecture allows developers to specify the endpoints their plug-ins need to access. These requirements are then processed to generate a consolidated gateway-level MUD file, ensuring protection for all the non-MUD-enabled devices integrated through appropriate plug-ins.</p><p>Two noteworthy aspects of the proposed approach are its transparency for the devices themselves and to being fully compatible with the traditional MUD. To demonstrate the feasibility of this approach, the research team implemented a proof-of-concept using the widely adopted open-source smart home gateway: <a href="https://www.home-assistant.io/" target="_blank" rel="noopener noreferrer">Home Assistant</a>.</p><p>After the special session, the slides of the presentation will be available on SlideShare.</p><p>Additional information about this work and the conference:</p><ul><li><a href="https://hdl.handle.net/11583/2978408" target="_blank" rel="noopener noreferrer">Paper on PORTO@IRIS</a></li><li><a href="https://2023.splitech.org" target="_blank" rel="noopener noreferrer">Conference website</a></li><li><a href="https://2023.splitech.org/assets/Preliminary%20Program.pdf" target="_blank" rel="noopener noreferrer">Conference temporary program</a></li></ul>]]></content:encoded>
-            <category>conference</category>
-            <category>paper</category>
-        </item>
         <item>
             <title><![CDATA[Participation at EICS 2023]]></title>
             <link>https://elite.polito.it/news/2023/06/12/eics</link>
@@ -32,6 +19,19 @@ Indeed, the proposed architecture allows developers to specify the endpoints the
             <category>conference</category>
             <category>paper</category>
             <category>doctoral consortium</category>
+        </item>
+        <item>
+            <title><![CDATA[Participation at SpliTech 2023]]></title>
+            <link>https://elite.polito.it/news/2023/06/08/splitech-2023</link>
+            <guid>https://elite.polito.it/news/2023/06/08/splitech-2023</guid>
+            <pubDate>Thu, 08 Jun 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[From the 20th to the 23th of June, the e-Lite research group will participate to SpliTech 2023 (Split, Croatia). Luca Mannella will chair the Special Session on Cybersecurity and IoT within the The International Symposium on Internet of Things. He will also present a paper entitled "A Gateway-based MUD Architecture to Enhance Smart Home Security".]]></description>
+            <content:encoded><![CDATA[<p>From the 20th to the 23th of June, the e-Lite research group will participate to the 8th International Conference on Smart and Sustainable Technologies (<strong>SpliTech 2023</strong>).
+The conference will be held in Croatia, in Split, and in Bol (Brač island).</p><p>On the 21st of June, <strong>Luca Mannella will chair the <a href="https://elite.polito.it/news/2023/02/07/cfp-splitech2023-cybersecurity" target="_blank" rel="noopener noreferrer">Special Session on Cybersecurity and IoT</a></strong> within the The International Symposium on Internet of Things.</p><p class="text--center"><img loading="lazy" src="/assets/images/Session-banner-326ba83f56a35f02d9a9367c661d8b2b.png" alt="Banner of the SpliTech 2023 conference" class="img_ev3q"></p><p>During the special session, Luca will also <strong>present his last paper</strong>, co-authored with Prof. Fulvio Corno, entitled: "<a href="https://www.researchgate.net/publication/370609562_A_Gateway-based_MUD_Architecture_to_Enhance_Smart_Home_Security" target="_blank" rel="noopener noreferrer"><em>A Gateway-based MUD Architecture to Enhance Smart Home Security</em></a>".</p><p>The presented paper proposes an expansion to a standard recently proposed by the Internet Engineering Task Force (IETF): the <a href="https://www.rfc-editor.org/rfc/rfc8520.html" target="_blank" rel="noopener noreferrer">Manufacturer Usage Description</a> (MUD).
+The research focuses on empowering an extensible smart home gateway allowing it to create an additional layer of protection for all the connected devices.
+Indeed, the proposed architecture allows developers to specify the endpoints their plug-ins need to access. These requirements are then processed to generate a consolidated gateway-level MUD file, ensuring protection for all the non-MUD-enabled devices integrated through appropriate plug-ins.</p><p>Two noteworthy aspects of the proposed approach are its transparency for the devices themselves and to being fully compatible with the traditional MUD. To demonstrate the feasibility of this approach, the research team implemented a proof-of-concept using the widely adopted open-source smart home gateway: <a href="https://www.home-assistant.io/" target="_blank" rel="noopener noreferrer">Home Assistant</a>.</p><p>After the special session, the slides of the presentation will be available on SlideShare.</p><p>Additional information about this work and the conference:</p><ul><li><a href="https://hdl.handle.net/11583/2978408" target="_blank" rel="noopener noreferrer">Paper on PORTO@IRIS</a></li><li><a href="https://2023.splitech.org" target="_blank" rel="noopener noreferrer">Conference website</a></li><li><a href="https://2023.splitech.org/assets/Preliminary%20Program.pdf" target="_blank" rel="noopener noreferrer">Conference temporary program</a></li></ul>]]></content:encoded>
+            <category>conference</category>
+            <category>paper</category>
         </item>
         <item>
             <title><![CDATA[Publication: "Achieving Digital Wellbeing Through Digital Self-Control Tools: A Systematic Review and Meta-Analysis"]]></title>
