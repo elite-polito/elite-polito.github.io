@@ -109,7 +109,7 @@ export default function Home({recentPosts}) {
                                 Interaction</b>, <b>Ubiquitous Computing</b>, and <b>Artificial Intelligence</b>.</p>
                         </div>
                         <div className="col col--3">
-                            <Admonition type="danger" icon="⚡️" title={'Quick links'}>
+                            <Admonition type="info" icon="⚡️" title={'Quick links'}>
                                 <a href='/teaching/01txy-wa1-ah'>Web Applications I (A-H)</a><br/>
                                 <a href='/teaching/01txy-wa1-iz'>Web Applications I (I-Z)</a><br/>
                                 <a href='/teaching/03fyz-tdp'>Tecniche di Programmazione</a><br/>
