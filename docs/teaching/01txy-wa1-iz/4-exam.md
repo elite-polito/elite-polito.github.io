@@ -11,11 +11,14 @@ description: "Exam"
 
 ### Year 2022/23
 
-- [Exam 1: CMSmall](https://docs.google.com/document/d/1MaIpKyLjvUv3UwMztYrYYVie_nTu4ekMYRyYpMEwzbk/edit) (deadline: 2023-06-25 at 23:59)
+- [Exam 1: CMSmall](https://docs.google.com/document/d/1MaIpKyLjvUv3UwMztYrYYVie_nTu4ekMYRyYpMEwzbk) (deadline: 2023-06-25 at 23:59)
   - For any doubts or questions, add a comment in the document linked above - the final version will be published on June 14.
   - Ask for further clarification in the dedicated topic on the course's Telegram group.
   - Complete the assignment on GitHub Classroom: [project skeleton and exam submission](https://classroom.github.com/a/8AapHqUJ).
-- Exam 2
+- [Exam 2: Airplane Seats](https://docs.google.com/document/d/1D0asOxWrcH8Kk44I7UkGmicEHdAxgLvB69KZ8Gj3fNE) (deadline: 2023-07-09 at 23:59)
+  - For any doubts or questions, add a comment in the document linked above - the final version will be published on June 30.
+  - Ask for further clarification in the dedicated topic on the course's Telegram group.
+  - Complete the assignment on GitHub Classroom: [project skeleton and exam submission](https://classroom.github.com/a/TsciYmrA).
 - Exam 3
 - Exam 4
 
