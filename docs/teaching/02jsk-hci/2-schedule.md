@@ -399,8 +399,7 @@ All slides, examples, exercises, and any other material used in the classroom an
     teacher='Alberto Monge Roffarello'
     type='Exercise'
     video='https://youtu.be/3RQgq3-KVD4' >
-    <a href="https://polito-hci-2022.github.io/materials/slides/09b-heuristic-evaluation-exercise.pdf">Heuristic evaluation</a><br/>
-    <ul><li><a href="https://docs.google.com/document/d/1iA3GriWsATbOhputcpApVJpsTEOs45kHF-w6Wt4ld1Y/edit?usp=sharing">(incomplete) list of usability problems</a></li></ul>
+    <a href="https://polito-hci-2022.github.io/materials/slides/09b-heuristic-evaluation-exercise.pdf">Heuristic evaluation</a>
 </LectureRow>
 
 <LectureRow variant='warning' type=''
