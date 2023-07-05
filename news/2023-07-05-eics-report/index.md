@@ -28,7 +28,7 @@ The first paper introduces **an innovative conversational agent** that captures 
 
 Juan Pablo presented the paper "_Listen Veronica! Can You Give me a Hand With This Bug?_" which introduces Veronica, a conversational agent integrated directly into Visual Studio Code. Veronica is designed to capture a developer's reasoning and motivations, recording memos and linking them with the code they are writing. Furthermore, Veronica can interact with the web browser to automatically gather the sources consulted by the developer and attach them to the code. A usability study with 8 participants validates this approach, with the participants positively assessing the tool's usefulness.
 
-<p className="text--center"><img src={juan} alt="Juan Pablo presenting 'Listen Veronica! Can You Give me a Hand With This Bug?' at EICS 2023"></img></p>
+<p className="text--center"><img src={juan} width="620" height="400"   alt="Juan Pablo presenting 'Listen Veronica! Can You Give me a Hand With This Bug?' at EICS 2023"></img></p>
 
 
 During Juan Pablo's presentation, questions were raised about conducting a more extensive evaluation of the Veronica tool and its additional capabilities. A broader, more comprehensive evaluation is planned to ascertain Veronica's effectiveness in different coding environments, with varying levels of complexity, and across a larger sample size.
@@ -47,7 +47,7 @@ You can read the full paper by following the link at the end of this news.
 
 The paper "_Towards A Visual Programming Tool to Create Deep Learning Models_" presents DeepBlocks, a visual programming tool that allows deep learning developers from various backgrounds to design, train, and evaluate models without having to use specific programming languages. DeepBlocks was created based on a series of formative interviews with 5 participants, and was validated through a typical use case. The results demonstrate that developers can use DeepBlocks to visually design complex deep learning architectures.
 
-<p className="text--center"><img src={tompres} alt="Tommaso presenting 'Towards A Visual Programming Tool to Create Deep Learning Models' at EICS 2023"></img></p>
+<p className="text--center"><img src={tompres} width="620" height="400"  alt="Tommaso presenting 'Towards A Visual Programming Tool to Create Deep Learning Models' at EICS 2023"></img></p>
 
 
 Tommaso's presentation on DeepBlocks sparked questions about the system's scalability. In response, we affirm that scalability is a critical design consideration, and we are working on enhancing the tool to accommodate larger, more complex deep learning models. This will include mechanisms to simplify the visual representation of large models.
@@ -55,15 +55,13 @@ Tommaso's presentation on DeepBlocks sparked questions about the system's scalab
 Have a look to [the presentation on SlideShare](https://www.slideshare.net/TommasoCal/presentazioneeicsdeepblockspdf)
 
 <p className="text--center">
-<iframe src="https://www.slideshare.net/slideshow/embed_code/key/LKYXPPSXc0KNx8?hostedIn=slideshare&page=upload" width="476" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+<iframe src="https://www.slideshare.net/slideshow/embed_code/key/LKYXPPSXc0KNx8?hostedIn=slideshare&page=upload" width="620" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
 </p>
 
 You can read the full paper by following the link below!
 
 ### Doctoral Consortium: Human-Centered AI for Creative Design
 Tommaso Calò participated in the Doctoral Consortium with his research titled "_Human-Centered AI for Creative Design_" where he explores the opportunities for AI to bring improvements in human experiences during the design and creative processes, assist designers' creative ability, and provide new approaches to augment design cognition, through the automatic translation from sketches to web user interfaces. 
-
-<p className="text--center"><img src={tomdoc} alt="Tommaso discussing his poster 'Human-Centered AI for Creative Design' at EICS 2023"></img></p>
 
 Tommaso’s doctoral research was well-received from both commercial and research perspectives during the Doctoral Consortium. Feedback from the session highlighted areas for enhancement, which include refining the proposal's scope to express a more specific vision rather than a broad perspective. Attendees also suggested elaborating the methods and evaluation procedures in detail, to make clear how success is measured and the research approach followed.
 
