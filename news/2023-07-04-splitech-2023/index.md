@@ -5,7 +5,7 @@ description: On June 21st, 2023, Luca Mannella presented the paper "A Gateway-ba
 image: ./LM-presentation.jpg
 image_alt: Luca Mannella during the presentation of the submitted paper
 ---
-import SpliTechBanner from './SpliTech2023-banner.png'
+import SpliTechBanner from './SpliTech2023-banner.PNG'
 import LMPresentation from './LM-presentation.jpg'
 
 # Presentation of "A Gateway-based MUD Architecture to Enhance Smart Home Security" at SpliTech 2023
