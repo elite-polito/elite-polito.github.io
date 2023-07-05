@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkelite_website=self.webpackChunkelite_website||[]).push([[1753],{71118:e=>{e.exports=JSON.parse('{"permalink":"/news/tags/doctoral-consortium","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Latest News from the e-Lite research group","blogTitle":"News"}')}}]);
