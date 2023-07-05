@@ -2,12 +2,26 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://elite.polito.it/news</id>
     <title>e-Lite Research Group Blog</title>
-    <updated>2023-06-12T00:00:00.000Z</updated>
+    <updated>2023-07-04T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://elite.polito.it/news"/>
     <subtitle>e-Lite Research Group Blog</subtitle>
     <icon>https://elite.polito.it/img/favicon.ico</icon>
     <rights>Copyright © 2023 Politecnico di Torino</rights>
+    <entry>
+        <title type="html"><![CDATA[Presentation of "A Gateway-based MUD Architecture to Enhance Smart Home Security" at SpliTech 2023]]></title>
+        <id>https://elite.polito.it/news/2023/07/04/splitech-2023</id>
+        <link href="https://elite.polito.it/news/2023/07/04/splitech-2023"/>
+        <updated>2023-07-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[On June 21st, 2023, Luca Mannella presented the paper "A Gateway-based MUD Architecture to Enhance Smart Home Security" at SpliTech 2023. The paper was presented during the Special Session on CyberSecurity and IoT, chaired by Luca.]]></summary>
+        <content type="html"><![CDATA[<p>On June 21st, 2023, Luca Mannella presented the paper "<a href="https://www.researchgate.net/publication/370609562_A_Gateway-based_MUD_Architecture_to_Enhance_Smart_Home_Security" target="_blank" rel="noopener noreferrer"><strong>A Gateway-based MUD Architecture to Enhance Smart Home Security</strong></a>" at SpliTech 2023 (<a href="https://2023.splitech.org" target="_blank" rel="noopener noreferrer">The 8th International Conference on Smart and Sustainable Technologies</a>).</p><p>The paper was presented during the <strong>Special Session on CyberSecurity and IoT</strong>, chaired by Luca. The special session was held within the <em>International Symposium on Internet of Things</em>.</p><p class="text--center"><img loading="lazy" src="/assets/images/SpliTech2023-banner-c76f28ffecd388f80a97c18e5fcb9817.PNG" alt="SpliTech 2023 banner" class="img_ev3q"></p><p>The presented paper, co-authored with Prof. Fulvio Corno, introduces an extended architecture compliant with the <a href="https://www.rfc-editor.org/rfc/rfc8520.html" target="_blank" rel="noopener noreferrer">Manufacturer Usage Description</a> (MUD) — a standard proposed by the Internet Engineering Task Force (IETF).</p><p>The research emphasizes the enhancement of an extensible smart home gateway to provide an additional layer of security for the connected devices. Indeed, by allowing developers to specify the endpoints their plug-ins need to access, the architecture generates a consolidated gateway-level MUD file, ensuring protection for non-MUD-enabled devices integrated through suitable plug-ins.</p><p class="text--center"><img loading="lazy" src="/assets/images/LM-presentation-a31f0652a722d173f0f5d43611b09425.jpg" alt="Luca Mannella during the presentation of the submitted paper" class="img_ev3q"></p><p>It is important to notice that our proposed approach is transparent for the devices themselves and it has full compatibility with traditional MUD. Moreover, this solution protect every kind of software plug-in; even those that do not integrate any physical device.</p><p>To demonstrate the feasibility of the proposed approach, a proof-of-concept was implemented using <a href="https://www.home-assistant.io/" target="_blank" rel="noopener noreferrer">Home Assistant</a>, a popular open-source smart home gateway.</p><p>Read the full paper by following the links at the end of this news, and have a look to <a href="https://www.slideshare.net/LucaMannella/a-gateway-based-mud-architecture-to-enhance-smart-home-security" target="_blank" rel="noopener noreferrer">the presented slides on SlideShare</a>!</p><p class="text--center"><iframe src="https://www.slideshare.net/slideshow/embed_code/key/nHB5HJ7FDmWbdJ?hostedIn=slideshare&amp;page=upload" width="620" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe></p><hr><p>Additional information:</p><ul><li><a href="https://hdl.handle.net/11583/2978408" target="_blank" rel="noopener noreferrer">Paper on PORTO@IRIS</a></li><li><a href="https://2023.splitech.org" target="_blank" rel="noopener noreferrer">Conference website</a></li><li><a href="https://2023.splitech.org/assets/SpliTech%20PROGRAM%20FINALNO%204.pdf" target="_blank" rel="noopener noreferrer">Full Conference program</a></li></ul>]]></content>
+        <author>
+            <name>Luca Mannella</name>
+            <uri>https://github.com/Sarcares</uri>
+        </author>
+        <category label="conference" term="conference"/>
+        <category label="paper" term="paper"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Participation at EICS 2023]]></title>
         <id>https://elite.polito.it/news/2023/06/12/eics</id>
@@ -149,32 +163,5 @@ Indeed, the proposed architecture allows developers to specify the endpoints the
         </author>
         <category label="seminar" term="seminar"/>
         <category label="event" term="event"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Participation at ACM CHI 2023]]></title>
-        <id>https://elite.polito.it/news/2023/04/20/chi</id>
-        <link href="https://elite.polito.it/news/2023/04/20/chi"/>
-        <updated>2023-04-20T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We are happy to announce that we have one full paper and a Late-Breaking Work (LBW) accepted at ACM CHI 2023, the premier international conference of Human-Computer Interaction. CHI 2023 will be held next week (April 23-28) in Hamburg (Germany) and online. Luigi, Alberto, Juan, and Tommaso will attend the conference in person.]]></summary>
-        <content type="html"><![CDATA[<p>We are happy to announce that we have one full paper and a Late-Breaking Work (LBW) accepted at <a href="https://chi2023.acm.org" target="_blank" rel="noopener noreferrer">ACM CHI 2023</a>, the premier international conference of Human-Computer Interaction. CHI 2023 will be held next week (April 23-28) in Hamburg (Germany) and online. </p><p>Luigi, Alberto, Juan, and Tommaso will attend the conference in person. If you meet any of us, say "hello": we're always happy to chat! 😊</p><p>The paper is about <strong>digital wellbeing</strong> and <a href="http://attentioncapture.com" target="_blank" rel="noopener noreferrer">attention-capture damaging patterns</a>, while the LBW presents a first step towards better understanding <strong>creative coders'</strong> needs.</p><p class="text--center"><img loading="lazy" src="/assets/images/chi2023-logo-c02312237f62f74f7255eb91e8661f64.png" alt="CHI 2023 Logo" class="img_ev3q"></p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="defining-and-identifying-attention-capture-deceptive-designs-in-digital-interfaces">Defining and Identifying Attention Capture Deceptive Designs in Digital Interfaces<a href="#defining-and-identifying-attention-capture-deceptive-designs-in-digital-interfaces" class="hash-link" aria-label="Direct link to Defining and Identifying Attention Capture Deceptive Designs in Digital Interfaces" title="Direct link to Defining and Identifying Attention Capture Deceptive Designs in Digital Interfaces">​</a></h3><p>The paper "<em>Defining and Identifying Attention Capture Deceptive Designs in Digital Interfaces</em>" will be presented on Wednesday, <strong>26 April</strong> at 11:10 (session: Digital Wellbeing). The work is a collaboration between the e-Lite group and the <a href="https://kailukoff.com" target="_blank" rel="noopener noreferrer">Human-Computer Interaction Lab</a> at Santa Clara University, CA (USA).</p><p>In the paper, we conducted a systematic literature review for what we call 'attention capture damaging patterns' (ACDPs). We analyzed 43 papers to identify their characteristics, the psychological vulnerabilities they exploit, and their impact on digital wellbeing. We propose a definition of ACDPs and identify eleven common types, from Time Fog to Infinite Scroll. Our typology offers technologists and policymakers a common reference to advocate, design, and regulate against attentional harms.</p><p>Read the paper by following the links at the end of this news, and watch the <a href="https://youtu.be/Bw9m8j3_jJ0" target="_blank" rel="noopener noreferrer">10-mins video presentation</a> on YouTube (also, below)!</p><p class="text--center"><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Bw9m8j3_jJ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe></p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="the-art-of-creating-code-based-artworks">The Art of Creating Code-Based Artworks<a href="#the-art-of-creating-code-based-artworks" class="hash-link" aria-label="Direct link to The Art of Creating Code-Based Artworks" title="Direct link to The Art of Creating Code-Based Artworks">​</a></h3><p>The Late-Breaking Work, instead, "<em>The Art of Creating Code-Based Artworks</em>" will be discussed on Wednesday, <strong>26 April</strong> at 10:30. This work stems from a collaboration with the <a href="https://maveme.github.io" target="_blank" rel="noopener noreferrer">Vrije Universiteit Amsterdam</a>, and will be presented by all the authors.</p><p>This paper reports on an in-depth interview with 5 code artists with diverse backgrounds, levels of experience, and working on different code-based artistic expressions. Through their experience, we identified characteristics and commonalities in their development process, the tools they use, their sources of inspiration, and their expectations. Accordingly, we reflect on the particularities of Creative Coding, indicate commonalities with other domains, and suggest opportunities and challenges for HCI researchers and practitioners in proposing tools to support it better.
-Read it by following the links below!</p><hr><p>Additional information:</p><ul><li><em>Defining and Identifying Attention Capture Deceptive Designs in Digital Interfaces</em> by Alberto Monge Roffarello, Kai Lukoff, and Luigi De Russis<ul><li><a href="https://hdl.handle.net/11583/2974641" target="_blank" rel="noopener noreferrer">Get it from PORTO@IRIS</a></li><li><a href="https://doi.org/10.1145/3544548.3580729" target="_blank" rel="noopener noreferrer">Read it on the ACM DL</a></li></ul></li><li><em>The Art of Creating Code-Based Artworks</em> by Mauricio Verano Merino, Juan Pablo Sáenz<ul><li><a href="https://hdl.handle.net/11583/2976495" target="_blank" rel="noopener noreferrer">Get it from PORTO@IRIS</a></li><li><a href="https://doi.org/10.1145/3544549.3585743" target="_blank" rel="noopener noreferrer">Read it on the ACM DL</a></li></ul></li><li><a href="https://programs.sigchi.org/chi/2023" target="_blank" rel="noopener noreferrer">Full conference program</a></li></ul>]]></content>
-        <author>
-            <name>Luigi De Russis</name>
-            <uri>https://github.com/luigidr</uri>
-        </author>
-        <author>
-            <name>Alberto Monge Roffarello</name>
-            <uri>https://github.com/alberto-mr</uri>
-        </author>
-        <author>
-            <name>Juan Pablo Sáenz Moreno</name>
-            <uri>https://github.com/jpsaenzmo</uri>
-        </author>
-        <author>
-            <name>Tommaso Calò</name>
-            <uri>https://github.com/tommasocalo</uri>
-        </author>
-        <category label="conference" term="conference"/>
-        <category label="paper" term="paper"/>
     </entry>
 </feed>
