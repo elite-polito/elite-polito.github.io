@@ -1,0 +1,86 @@
+---
+authors: [calo]
+tags: [conference, paper, doctoral consortium]
+description: From June 26-30, 2023, the e-Lite group will participate (in person) in the ACM SIGCHI Symposium on Engineering Interactive Computing Systems (EICS 2023) in Swansea, United Kingdom. Juan Pablo and Tommaso will each present a paper, while Tommaso will also take part in the Doctoral Consortium.
+image: ./eics2023-logo.png
+image_alt: EICS 2023 Logo
+---
+import eics2023 from './eics2023-logo.png';
+import juan from './juan.jpeg';
+import tomdoc from './tom_doc.jpeg';
+import tompres from './tom_pres.jpg'
+
+# Our Experience at EICS 2023
+
+On June 26-30, 2023, the e-Lite group participated (in person) in the [_15th ACM SIGCHI Symposium on Engineering Interactive Computing Systems_](https://eics.acm.org/2023/index.php) (EICS 2023) in Swansea, United Kingdom.
+
+Our participation proved to be a fruitful engagement, full of insightful discussions, critical feedback, and opportunities for growth. Here, we discuss the responses to our presentations and the constructive criticism we have garnered for future improvements.
+
+Juan Pablo Saenz and Tommaso Calò each presented a paper, while Tommaso also discussed his doctoral research during the Doctoral Consortium.
+
+The first paper introduces **an innovative conversational agent** that captures a developer's reasoning and motivations during the coding process. The second paper, on the other hand, presents **a visual programming tool** enabling the **design, training, and evaluation of deep learning models** without the need for specific programming languages. Tommaso Calò's Doctoral Consortium research discusses **how AI can bring changes to human experiences during design and creative processes**.
+
+<p className="text--center"><img src={eics2023} alt="EICS 2023 Logo"></img></p>
+
+<!-- truncate -->
+
+### Listen Veronica! Can You Give me a Hand With This Bug?
+
+Juan Pablo presented the paper "_Listen Veronica! Can You Give me a Hand With This Bug?_" which introduces Veronica, a conversational agent integrated directly into Visual Studio Code. Veronica is designed to capture a developer's reasoning and motivations, recording memos and linking them with the code they are writing. Furthermore, Veronica can interact with the web browser to automatically gather the sources consulted by the developer and attach them to the code. A usability study with 8 participants validates this approach, with the participants positively assessing the tool's usefulness.
+
+<p className="text--center"><img src={juan} alt="Juan Pablo presenting 'Listen Veronica! Can You Give me a Hand With This Bug?' at EICS 2023"></img></p>
+
+
+During Juan Pablo's presentation, questions were raised about conducting a more extensive evaluation of the Veronica tool and its additional capabilities. A broader, more comprehensive evaluation is planned to ascertain Veronica's effectiveness in different coding environments, with varying levels of complexity, and across a larger sample size.
+
+Furthermore, regarding additional browser interactions that Veronica could manage, we are considering features such as automatic documentation lookup and aiding with debugging processes. In future iterations, Veronica may be able to suggest possible solutions to bugs, based on the developer's previous actions and commonly accepted fixes.
+
+Have a look to [the presentation on SlideShare](https://www.slideshare.net/TommasoCal/2023eicsveronicapdf)
+
+<p className="text--center">
+<iframe src="https://www.slideshare.net/slideshow/embed_code/key/J0FnTtiShU6lfa?hostedIn=slideshare&page=upload" width="620" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+</p>
+
+You can read the full paper by following the link at the end of this news.
+
+### Towards A Visual Programming Tool to Create Deep Learning Models
+
+The paper "_Towards A Visual Programming Tool to Create Deep Learning Models_" presents DeepBlocks, a visual programming tool that allows deep learning developers from various backgrounds to design, train, and evaluate models without having to use specific programming languages. DeepBlocks was created based on a series of formative interviews with 5 participants, and was validated through a typical use case. The results demonstrate that developers can use DeepBlocks to visually design complex deep learning architectures.
+
+<p className="text--center"><img src={tompres} alt="Tommaso presenting 'Towards A Visual Programming Tool to Create Deep Learning Models' at EICS 2023"></img></p>
+
+
+Tommaso's presentation on DeepBlocks sparked questions about the system's scalability. In response, we affirm that scalability is a critical design consideration, and we are working on enhancing the tool to accommodate larger, more complex deep learning models. This will include mechanisms to simplify the visual representation of large models.
+
+Have a look to [the presentation on SlideShare](https://www.slideshare.net/TommasoCal/presentazioneeicsdeepblockspdf)
+
+<p className="text--center">
+<iframe src="https://www.slideshare.net/slideshow/embed_code/key/LKYXPPSXc0KNx8?hostedIn=slideshare&page=upload" width="476" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+</p>
+
+You can read the full paper by following the link below!
+
+### Doctoral Consortium: Human-Centered AI for Creative Design
+Tommaso Calò participated in the Doctoral Consortium with his research titled "_Human-Centered AI for Creative Design_" where he explores the opportunities for AI to bring improvements in human experiences during the design and creative processes, assist designers' creative ability, and provide new approaches to augment design cognition, through the automatic translation from sketches to web user interfaces. 
+
+<p className="text--center"><img src={tomdoc} alt="Tommaso discussing his poster 'Human-Centered AI for Creative Design' at EICS 2023"></img></p>
+
+Tommaso’s doctoral research was well-received from both commercial and research perspectives during the Doctoral Consortium. Feedback from the session highlighted areas for enhancement, which include refining the proposal's scope to express a more specific vision rather than a broad perspective. Attendees also suggested elaborating the methods and evaluation procedures in detail, to make clear how success is measured and the research approach followed.
+
+In terms of the proposal's technical aspects, it was suggested to further describe how the system manages behaviour and components. Attendees also encouraged clarification on how the user informs the system about possible tasks, and the degree of human involvement in the design process, emphasizing a "human-in-the-loop" approach.
+
+Furthermore, feedback suggested a clear distinction between AI-driven and human-driven creativity, the incorporation of designer feedback, and defining the proposal's intended audience, be it novices or experts. The constructive criticism from the poster session was invaluable and will inform the refinement of Tommaso's work. He is grateful for this feedback and anticipates presenting the advanced version of his research at future conferences.
+
+---
+
+Additional information:
+
+* _Listen Veronica! Can You Give me a Hand With This Bug?_ by Juan Pablo Saenz and Luigi De Russis
+  * [Get it from PORTO@IRIS](https://hdl.handle.net/11583/2978306)
+* _Towards A Visual Programming Tool to Create Deep Learning Models_ by Tommaso Calò and Luigi De Russis
+  * [Get it from PORTO@IRIS](https://hdl.handle.net/11583/2978363)
+  
+* [Full conference program](https://eics.acm.org/2023/programme.php)
+
+
+
