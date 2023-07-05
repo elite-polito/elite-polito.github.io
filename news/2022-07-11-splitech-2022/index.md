@@ -29,7 +29,7 @@ To provide a first validation of the model, the paper presents a use case based 
 
 The slides of the presentation are [available on SlideShare](https://www.slideshare.net/LucaMannella/a-threat-model-for-extensible-smart-home-gateways).
 
-You can also find the video recorder presentation on YouTube:
+You can also find the video recorded presentation on YouTube:
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Hczqbm3rWSE" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
 
