@@ -41,7 +41,6 @@ Have a look to [the presentation on SlideShare](https://www.slideshare.net/Tomma
 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/J0FnTtiShU6lfa?hostedIn=slideshare&page=upload" width="620" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
 </p>
 
-You can read the full paper by following the link at the end of this news.
 
 ### Towards A Visual Programming Tool to Create Deep Learning Models
 
@@ -58,7 +57,6 @@ Have a look to [the presentation on SlideShare](https://www.slideshare.net/Tomma
 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/LKYXPPSXc0KNx8?hostedIn=slideshare&page=upload" width="620" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
 </p>
 
-You can read the full paper by following the link below!
 
 ### Doctoral Consortium: Human-Centered AI for Creative Design
 Tommaso Calò participated in the Doctoral Consortium with his research titled "_Human-Centered AI for Creative Design_" where he explores the opportunities for AI to bring improvements in human experiences during the design and creative processes, assist designers' creative ability, and provide new approaches to augment design cognition, through the automatic translation from sketches to web user interfaces. 
