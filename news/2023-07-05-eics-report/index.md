@@ -6,7 +6,7 @@ image: ./eics2023-logo.png
 image_alt: EICS 2023 Logo
 ---
 import eics2023 from './eics2023-logo.png';
-import juan from './juan.jpeg';
+import juan from './juan.jpg';
 import tomdoc from './tom_doc.jpeg';
 import tompres from './tom_pres.jpg'
 
@@ -16,7 +16,7 @@ On June 26-30, 2023, the e-Lite group participated (in person) in the [_15th ACM
 
 Our participation proved to be a fruitful engagement, full of insightful discussions, critical feedback, and opportunities for growth. Here, we discuss the responses to our presentations and the constructive criticism we have garnered for future improvements.
 
-Juan Pablo Saenz and Tommaso Calò each presented a paper, while Tommaso also discussed his doctoral research during the Doctoral Consortium.
+Juan Pablo Sáenz and Tommaso Calò each presented a paper, while Tommaso also discussed his doctoral research during the Doctoral Consortium.
 
 The first paper introduces **an innovative conversational agent** that captures a developer's reasoning and motivations during the coding process. The second paper, on the other hand, presents **a visual programming tool** enabling the **design, training, and evaluation of deep learning models** without the need for specific programming languages. Tommaso Calò's Doctoral Consortium research discusses **how AI can bring changes to human experiences during design and creative processes**.
 
@@ -28,17 +28,17 @@ The first paper introduces **an innovative conversational agent** that captures 
 
 Juan Pablo presented the paper "_Listen Veronica! Can You Give me a Hand With This Bug?_" which introduces Veronica, a conversational agent integrated directly into Visual Studio Code. Veronica is designed to capture a developer's reasoning and motivations, recording memos and linking them with the code they are writing. Furthermore, Veronica can interact with the web browser to automatically gather the sources consulted by the developer and attach them to the code. A usability study with 8 participants validates this approach, with the participants positively assessing the tool's usefulness.
 
-<p className="text--center"><img src={juan} width="620" height="400"   alt="Juan Pablo presenting 'Listen Veronica! Can You Give me a Hand With This Bug?' at EICS 2023"></img></p>
+<p className="text--center"><img src={juan} width="620" height="465"   alt="Juan Pablo presenting 'Listen Veronica! Can You Give me a Hand With This Bug?' at EICS 2023"></img></p>
 
 
 During Juan Pablo's presentation, questions were raised about conducting a more extensive evaluation of the Veronica tool and its additional capabilities. A broader, more comprehensive evaluation is planned to ascertain Veronica's effectiveness in different coding environments, with varying levels of complexity, and across a larger sample size.
 
 Furthermore, regarding additional browser interactions that Veronica could manage, we are considering features such as automatic documentation lookup and aiding with debugging processes. In future iterations, Veronica may be able to suggest possible solutions to bugs, based on the developer's previous actions and commonly accepted fixes.
 
-Have a look to [the presentation on SlideShare](https://www.slideshare.net/TommasoCal/2023eicsveronicapdf) and [read the paper on the ACM Digital Library](https://dl.acm.org/doi/10.1145/3596454.3597179)
+Have a look to [the presentation on SlideShare](https://www.slideshare.net/JuanPabloSaenz2/listen-veronica-can-you-give-me-a-hand-with-this-bug) and [read the paper on the ACM Digital Library](https://dl.acm.org/doi/10.1145/3596454.3597179)
 
 <p className="text--center">
-<iframe src="https://www.slideshare.net/slideshow/embed_code/key/J0FnTtiShU6lfa?hostedIn=slideshare&page=upload" width="620" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+<iframe src="https://www.slideshare.net/slideshow/embed_code/key/pSkQ9PQI8Gt3z8?startSlide=1" width="620" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
 </p>
 
 
@@ -66,6 +66,3 @@ Tommaso’s doctoral research was well-received from both commercial and researc
 In terms of the proposal's technical aspects, it was suggested to further describe how the system manages behaviour and components. Attendees also encouraged clarification on how the user informs the system about possible tasks, and the degree of human involvement in the design process, emphasizing a "human-in-the-loop" approach.
 
 Furthermore, feedback suggested a clear distinction between AI-driven and human-driven creativity, the incorporation of designer feedback, and defining the proposal's intended audience, be it novices or experts. The constructive criticism from the poster session was invaluable and will inform the refinement of Tommaso's work. He is grateful for this feedback and anticipates presenting the advanced version of his research at future conferences.
-
-
-
