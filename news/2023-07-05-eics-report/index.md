@@ -2,8 +2,8 @@
 authors: [calo]
 tags: [conference, paper, doctoral consortium]
 description: From June 26-30, 2023, the e-Lite group participated (in person) in the ACM SIGCHI Symposium on Engineering Interactive Computing Systems (EICS 2023) in Swansea, United Kingdom. Juan Pablo and Tommaso each presented a paper, while Tommaso also took part in the Doctoral Consortium.
-image: ./eics2023-logo.png
-image_alt: EICS 2023 Logo
+image: ./tom_pres.jpg
+image_alt: A presentation during the single-track EICS 2023 conference
 ---
 import eics2023 from './eics2023-logo.png';
 import juan from './juan.jpg';
@@ -28,17 +28,17 @@ The first paper introduces **an innovative conversational agent** that captures 
 
 Juan Pablo presented the paper "_Listen Veronica! Can You Give me a Hand With This Bug?_" which introduces Veronica, a conversational agent integrated directly into Visual Studio Code. Veronica is designed to capture a developer's reasoning and motivations, recording memos and linking them with the code they are writing. Furthermore, Veronica can interact with the web browser to automatically gather the sources consulted by the developer and attach them to the code. A usability study with 8 participants validates this approach, with the participants positively assessing the tool's usefulness.
 
-<p className="text--center"><img src={juan} width="620" height="465"   alt="Juan Pablo presenting 'Listen Veronica! Can You Give me a Hand With This Bug?' at EICS 2023"></img></p>
+<p className="text--center"><img src={juan} width="620" height="465" alt="Juan Pablo presenting 'Listen Veronica! Can You Give me a Hand With This Bug?' at EICS 2023"></img></p>
 
 
 During Juan Pablo's presentation, questions were raised about conducting a more extensive evaluation of the Veronica tool and its additional capabilities. A broader, more comprehensive evaluation is planned to ascertain Veronica's effectiveness in different coding environments, with varying levels of complexity, and across a larger sample size.
 
 Furthermore, regarding additional browser interactions that Veronica could manage, we are considering features such as automatic documentation lookup and aiding with debugging processes. In future iterations, Veronica may be able to suggest possible solutions to bugs, based on the developer's previous actions and commonly accepted fixes.
 
-Have a look to [the presentation on SlideShare](https://www.slideshare.net/JuanPabloSaenz2/listen-veronica-can-you-give-me-a-hand-with-this-bug) and [read the paper on the ACM Digital Library](https://dl.acm.org/doi/10.1145/3596454.3597179)
+Have a look to [the presentation on SlideShare](https://www.slideshare.net/JuanPabloSaenz2/listen-veronica-can-you-give-me-a-hand-with-this-bug) and [read the paper on the ACM Digital Library](https://dl.acm.org/doi/10.1145/3596454.3597179).
 
 <p className="text--center">
-<iframe src="https://www.slideshare.net/slideshow/embed_code/key/pSkQ9PQI8Gt3z8?startSlide=1" width="620" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+<iframe src="https://www.slideshare.net/slideshow/embed_code/key/pSkQ9PQI8Gt3z8?startSlide=1" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
 </p>
 
 
@@ -51,10 +51,10 @@ The paper "_Towards A Visual Programming Tool to Create Deep Learning Models_" p
 
 Tommaso's presentation on DeepBlocks sparked questions about the system's scalability. In response, we affirm that scalability is a critical design consideration, and we are working on enhancing the tool to accommodate larger, more complex deep learning models. This will include mechanisms to simplify the visual representation of large models.
 
-Have a look to [the presentation on SlideShare](https://www.slideshare.net/TommasoCal/presentazioneeicsdeepblockspdf) and [read the paper on the ACM Digital Library](https://dl.acm.org/doi/abs/10.1145/3596454.3597181)
+Have a look to [the presentation on SlideShare](https://www.slideshare.net/TommasoCal/presentazioneeicsdeepblockspdf) and [read the paper on the ACM Digital Library](https://dl.acm.org/doi/abs/10.1145/3596454.3597181).
 
 <p className="text--center">
-<iframe src="https://www.slideshare.net/slideshow/embed_code/key/LKYXPPSXc0KNx8?hostedIn=slideshare&page=upload" width="620" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+<iframe src="https://www.slideshare.net/slideshow/embed_code/key/LKYXPPSXc0KNx8?hostedIn=slideshare&page=upload" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
 </p>
 
 
