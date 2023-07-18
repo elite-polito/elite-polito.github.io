@@ -27,4 +27,7 @@ L'esame consiste nella realizzazione di un progetto individuale, sulla base di s
   - In caso di dubbi o domande, aggiungere un commento al documento linkato sopra - la versione finale sarà pubblicata il *31/05/2023*.
   - L'esame si terrà il *12/06/2023 in aula 1T* dalle ore 8:30.
   - Iscrivetevi all'appello sul portale della didattica entro il *06/06/2023*.
-
+- Esame #5 (scadenza: 03/09/2023 alle 23:59)
+  - In caso di dubbi o domande, aggiungere un commento al documento linkato sopra - la versione finale sarà pubblicata il *dd/mm/2023*.
+  - L'esame si terrà il *04/09/2023 in aula 7N* dalle ore 9:00.
+  - Iscrivetevi all'appello sul portale della didattica entro il *29/08/2023*.
