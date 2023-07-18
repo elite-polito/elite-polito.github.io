@@ -11,10 +11,10 @@ It must be passed in the **current academic** year. Material for the projects ev
 
 Next exams, with deadlines:
 
-- **19/06/2023 h. 17:00, Room 8I**
-    - remember to enroll at the exam, by *13/06/2023*, on the Portale della Didattica
-    - all the assignments (including the code) must be on the group's GitHub repositories by *12/06/2023 EOD*
-    - the oral discussion will follow the [shared schedule](https://docs.google.com/spreadsheets/d/1ZH299yON4owr7VUjstLtxzTX1AfWd1wGKQPE7lsuJvo)
+- **04/09/2023 h. 17:00, Room 6N**
+    - remember to enroll at the exam, by *29/08/2023*, on the Portale della Didattica
+    - all the assignments (including the code) must be on the group's GitHub repositories by *28/08/2023 EOD*
+    - the oral discussion will follow the alphabetical order (by group name)
 
 ## Group Projects (with Assignments)
 
