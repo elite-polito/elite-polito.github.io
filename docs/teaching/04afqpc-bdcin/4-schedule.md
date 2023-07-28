@@ -25,4 +25,4 @@ La tabella riporta la sequenza delle videolezioni pre-registrate, con il relativ
 
 | Lezione |	Argomento |	Periodo visione consigliato | Quiz associato | Apertura quiz | Scadenza quiz | Slide |
 |----|-------------|--------|----|------|------|-----|
-| VL01 | Il modello relazionale. Definizioni. Vincoli di integrità. Chiave primaria. Vincoli di integrità referenziale. | 5/10 - 11/10 | VL01 | 5/10 | 11/10 | <img src='https://farinetti.github.io/materiale-bdcin/iconaPdf.png'> |
+| VL01 | Il modello relazionale. Definizioni. Vincoli di integrità. Chiave primaria. Vincoli di integrità referenziale. | 5/10 - 11/10 | VL01 | 5/10 | 11/10 |  |
