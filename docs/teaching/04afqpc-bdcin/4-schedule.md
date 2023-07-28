@@ -26,3 +26,5 @@ La tabella riporta la sequenza delle videolezioni pre-registrate, con il relativ
 | Lezione |	Argomento |	Periodo visione consigliato | Quiz associato | Apertura quiz | Scadenza quiz | Slide |
 |----|-------------|--------|----|------|------|-----|
 | VL01 | Il modello relazionale. Definizioni. Vincoli di integrità. Chiave primaria. Vincoli di integrità referenziale. | 5/10 - 11/10 | VL01 | 5/10 | 11/10 |  |
+| VL02 | Il linguaggio SQL. Introduzione. L'istruzione SELECT. Struttura base. La clausola WHERE.  Gli operatori LIKE e IS. Ordinamento del risultato. | 5/10 - 11/10 | VL02 | 5/10 | 11/10 |  |
+| VL03 | L'istruzione SELECT. Join fra tabelle. | 5/10 - 11/10 | VL03 | 5/10 | 11/10 |  |
