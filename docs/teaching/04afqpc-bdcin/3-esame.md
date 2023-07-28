@@ -1,5 +1,5 @@
 ---
-description: "Esame"
+description: "Informazioni sull'esame"
 ---
 
 # Esame
