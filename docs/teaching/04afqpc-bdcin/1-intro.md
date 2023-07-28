@@ -1,6 +1,6 @@
 ---
 pagination_prev: null
-description: "Avvisi e informazioni di base"
+description: "Informazioni di base"
 ---
 
 # Presentazione
@@ -16,14 +16,18 @@ Il corso aderisce al progetto OCSE dal titolo «Fostering and assessing creativi
 - prof. Laura Farinetti (laura.farinetti@polito.it)
 - ing. Lorenzo Canale (lorenzo.canale@polito.it)
 
-## Orario
+## Orario delle lezioni
 
-Orario del corso:
+| Giorno   |Ora |Tipo |Aula |
+|----------|----|-----|------|
+| Lunedì | 10:00-11:30 | Laboratorio (Squadra 1) |  |
+| Lunedì | 11:30-13:00 | Laboratorio (Squadra 2) |  |
+| Giovedì | 8:30-10:00 | Lezione/Esercitazione |  | 
+| Venerdì | 13:00-16:00 | Lezione/Esercitazione |  |
 
 ## Materiale di studio
 
 Materiale fornito dai docenti: slide, videolezioni, laboratori, esercitazioni e temi d'esame.
-[Modello relazionale](https://github.com/farinetti/materiale-bdcin/blob/main/VL01-ModelloRelazionale.pdf)
 
 ## Testo di riferimento
 
