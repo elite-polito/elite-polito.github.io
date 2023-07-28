@@ -25,6 +25,8 @@ Il corso aderisce al progetto OCSE dal titolo «Fostering and assessing creativi
 | Giovedì | 8:30-10:00 | Lezione/Esercitazione |  | 
 | Venerdì | 13:00-16:00 | Lezione/Esercitazione |  |
 
+IMPORTANTE: Non tutte le ore del calendario ufficiale saranno svolte, le attività potranno variare da settimana a settimana ed alcune attività seguiranno una suddivisione in squadre: consultate frequentemente la sezione "Piano del corso" per informazioni dettagliate, sempre aggiornate.
+
 ## Materiale di studio
 
 Materiale fornito dai docenti: slide, videolezioni, laboratori, esercitazioni e temi d'esame.
