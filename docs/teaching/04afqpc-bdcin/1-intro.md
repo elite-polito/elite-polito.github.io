@@ -18,6 +18,7 @@ Il corso aderisce al progetto OCSE dal titolo «Fostering and assessing creativi
 
 ## Orario
 
+Orario del corso:
 
 ## Materiale di studio
 
