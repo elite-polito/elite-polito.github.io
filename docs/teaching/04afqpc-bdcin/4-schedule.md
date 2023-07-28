@@ -16,13 +16,13 @@ La seguente tabella riporta la pianificazione delle lezioni del corso, per trasp
 
 IMPORTANTE: Si noti che non tutte le lezioni indicate nell'orario ufficiale verranno utilizzate.
 
-| Lezione |	Argomento |	Periodo visione consigliato | Quiz associato | Apertura quiz | Scadenza quiz | Slide |
-|----|-------------|--------|----|------|------|-----|
-| VL01 | Il modello relazionale. Definizioni. Vincoli di integrità. Chiave primaria. Vincoli di integrità referenziale. | 5/10 - 11/10 | 5/10 | 11/10 |  |
-
 
 ## Esercizi da svolgere prima delle esercitazioni in aula
 
 ## Elenco delle videolezioni
 
 La tabella riporta la sequenza delle videolezioni pre-registrate, con il relativo quiz. Per le video-lezioni è riportato il periodo consigliato per la visione. Per i quiz è riportato il periodo di pubblicazione (apertura-chiusura). I quiz devono essere sottomessi ENTRO la mezzanotte della data di chiusura, e possono essere sottomessi 1 SOLA VOLTA. Si noti che alcuni quiz sono aperti contemporaneamente.
+
+| Lezione |	Argomento |	Periodo visione consigliato | Quiz associato | Apertura quiz | Scadenza quiz | Slide |
+|----|-------------|--------|----|------|------|-----|
+| VL01 | Il modello relazionale. Definizioni. Vincoli di integrità. Chiave primaria. Vincoli di integrità referenziale. | 5/10 - 11/10 | VL01 | 5/10 | 11/10 | <img src='https://farinetti.github.io/materiale-bdcin/iconaPdf.png'> |
