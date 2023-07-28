@@ -16,6 +16,11 @@ La seguente tabella riporta la pianificazione delle lezioni del corso, per trasp
 
 IMPORTANTE: Si noti che non tutte le lezioni indicate nell'orario ufficiale verranno utilizzate.
 
+| Lezione |	Argomento |	Periodo visione consigliato | Quiz associato | Apertura quiz | Scadenza quiz | Slide |
+|----|-------------|--------|----|------|------|-----|
+| VL01 | Il modello relazionale. Definizioni. Vincoli di integrità. Chiave primaria. Vincoli di integrità referenziale. | 5/10 - 11/10 | 5/10 | 11/10 |  |
+
+
 ## Esercizi da svolgere prima delle esercitazioni in aula
 
 ## Elenco delle videolezioni
