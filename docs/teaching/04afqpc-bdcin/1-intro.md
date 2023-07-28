@@ -23,6 +23,7 @@ Orario del corso:
 ## Materiale di studio
 
 Materiale fornito dai docenti: slide, videolezioni, laboratori, esercitazioni e temi d'esame.
+[Modello relazionale](https://github.com/farinetti/materiale-bdcin/blob/main/VL01-ModelloRelazionale.pdf)
 
 ## Testo di riferimento
 
