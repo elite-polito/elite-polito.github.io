@@ -21,7 +21,11 @@ IMPORTANTE: Si noti che non tutte le lezioni indicate nell'orario ufficiale verr
 
 ## Elenco delle videolezioni
 
-La tabella riporta la sequenza delle videolezioni pre-registrate, con il relativo quiz. Per le video-lezioni è riportato il periodo consigliato per la visione. Per i quiz è riportato il periodo di pubblicazione (apertura-chiusura). I quiz devono essere sottomessi ENTRO la mezzanotte della data di chiusura, e possono essere sottomessi 1 SOLA VOLTA. Si noti che alcuni quiz sono aperti contemporaneamente.
+La tabella riporta la sequenza delle videolezioni pre-registrate, con i relativi quiz. Per le videolezioni è riportato il periodo consigliato per la visione. Per i quiz è riportato il periodo di pubblicazione (apertura-chiusura). I quiz devono essere sottomessi ENTRO la mezzanotte della data di chiusura, e possono essere sottomessi 1 SOLA VOLTA. Si noti che alcuni quiz sono aperti contemporaneamente.
+Note:
+- Le videolezioni sono sul Portale della Didattica, nella sezione "Virtual classroom";
+- I quiz sono sul Portale della Didattica, nella sezione "Moodle";
+- Le slide contenute in questa tabella sono le stesse contenute nel materiale didattico, semplicemente sono organizzate per videolezione.
 
 | Lezione |	Argomento |	Periodo visione consigliato | Quiz associato | Apertura quiz | Scadenza quiz | Slide |
 |----|-------------|--------|----|------|------|-----|
