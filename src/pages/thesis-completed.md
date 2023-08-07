@@ -1,4 +1,4 @@
-# Completed Thesis
+# Completed Theses
 
 import {CompletedThesisList} from "../components/CompletedThesis";
 

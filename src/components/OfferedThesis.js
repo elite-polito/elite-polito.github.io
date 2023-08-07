@@ -73,3 +73,6 @@ async function loadEliteThesis() {
     }
 };
 
+// https://didattica.polito.it/pls/portal30/sviluppo.tesiv.elenchi?idt=12453&lang=EN
+
+// https://didattica.polito.it/pls/portal30/sviluppo.tesiv.jsn?dgrp=DAUIN%20%2D%20GR%2D10%20%2D%20Intelligent%20and%20Interactive%20Systems%20%2D%20e%2DLITE&lang=EN
