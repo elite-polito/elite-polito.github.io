@@ -21,6 +21,30 @@ const allMembers = [
     {first: "Tommaso", last: "Calò", id: "058407"}
 ];
 
+// Decode the IDs of the publication types
+const allTypes = {
+    0: new Type("Pending validation...", 999),
+    1: new Type("Journal Paper", 1),
+    5: new Type("Journal Abstract", 4), // 1.5 Abstract in rivista
+    7: new Type("Book Chapter", 3), // 2.1 Contributo in volume (Capitolo o Saggio)
+    14: new Type("Book", 2),
+    21: new Type("Other", 99), // 3.8 Traduzione di libro
+    22: new Type("Conference Proceedings", 5), // 4.1 Contributo in Atti di convegno
+    23: new Type("Conference Proceedings", 5), // 4.2 Abstract in Atti di convegno
+    35: new Type("Other", 99), // 5.11 Software
+    36: new Type("Other", 99), // 5.12 Altro
+    38: new Type("Patent", 50), // 6.1 Brevetto
+    39: new Type("Editorial", 7), // 7.1 Curatela
+    40: new Type("Doctoral Thesis", 6), // 8.1 Doctoral thesis Polito
+    61: new Type("Editorial", 7), // 1.7 Editoriale in rivista
+}
+
+function Type(name, order) {
+    this.name = name ;
+    this.order = order ;
+}
+
+// Main component for generating the publication list
 export function PublicationList(props) {
 
     const [allPublications, setAllPublications] = useState([]);
@@ -50,7 +74,8 @@ export function PublicationList(props) {
                                                             types={types}/>)}
                 </TabItem>
                 <TabItem value="by_type" label="By Type">
-                    YYY
+                {types.map(type => <PublicationListType key={type.name} allPublications={allPublications} type={type}
+                                                            years={years}/>)}
                 </TabItem>
             </Tabs>
 
@@ -62,21 +87,33 @@ export function PublicationList(props) {
         return <p>Error loading publications</p>
 }
 
+// all -> Year
 function PublicationListYear({allPublications, year, types}) {
     const yearPublications = allPublications.filter(p => p.year === year);
 
     return <>
         <h3>{year === '9999' ? 'To Appear' : `Year ${year}`} <small><small>({yearPublications.length} papers)</small></small></h3>
-        {types.map(t => <PublicationListYearType key={t} yearPublications={yearPublications} type={t}/>)}
+        {types.map(t => <PublicationListYearType key={t.name} yearPublications={yearPublications} type={t}/>)}
     </>
 }
 
+// all -> Type
+function PublicationListType({allPublications, type, years}) {
+    const typePublications = allPublications.filter(p => p.type === type);
+
+    return <>
+        <h3>{type.name} <small><small>({typePublications.length} papers)</small></small></h3>
+        {years.map(y => <PublicationListTypeYear key={y} typePublications={typePublications} year={y}/>)}
+    </>
+}
+
+// all -> Year -> Type
 function PublicationListYearType({yearPublications, type}) {
-    const yearTypePublications = yearPublications.filter(p => p.collection?.name === type);
+    const yearTypePublications = yearPublications.filter(p => p.type.name === type.name);
 
     if (yearTypePublications.length)
         return <>
-            <h4>{type.substring(4)} <small>({yearTypePublications.length})</small></h4>
+            <h4>{type.name} <small>({yearTypePublications.length})</small></h4>
             <ul>
                 {yearTypePublications.map(p => <SinglePublication key={p.handle} publication={p}/>)}
             </ul>
@@ -84,6 +121,22 @@ function PublicationListYearType({yearPublications, type}) {
     else
         return null;
 }
+
+// all -> Type -> Year
+function PublicationListTypeYear({typePublications, year}) {
+    const typeYearPublications = typePublications.filter(p => p.year === year);
+
+    if (typeYearPublications.length)
+        return <>
+            <h4>{year === '9999' ? 'To Appear' : `Year ${year}`} <small><small>({typeYearPublications.length} papers)</small></small></h4>
+            <ul>
+                {typeYearPublications.map(p => <SinglePublication key={p.handle} publication={p}/>)}
+            </ul>
+        </>;
+    else
+        return null;
+}
+
 
 function SinglePublication({publication}) {
     const title = publication.name;
@@ -133,14 +186,21 @@ function getYears(publications) {
 }
 
 function getTypes(publications) {
-    // TODO: collapse publication types into a smaller number, and translate to English
-    let typeSet = new Set();
+    const setTypeNames = new Set() ;
+    const types = [] ;
     for (const item of publications) {
         // Articles not yet validated by the university have a "null" collection, even if all the other info are ok
-        const type = item.collection?.name ?? 'Non validato';
-        typeSet.add(type)
+        const typeId = item.collection?.id ?? 0
+
+        const type = allTypes[typeId] ;
+        item.type = type ;
+        
+        if(!setTypeNames.has(type.name)) {
+            setTypeNames.add(type.name) ;
+            types.push(item.type) ;
+        }
+
     }
-    let types = [...typeSet];
-    types.sort();
+    types.sort((a,b)=>a.order-b.order);
     return types;
 }
