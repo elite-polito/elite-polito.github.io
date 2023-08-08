@@ -79,7 +79,7 @@ export function PublicationList(props) {
 
             <Tabs queryString="publication_order">
                 <TabItem value="by_year" label="By Year">
-                    <div className="row row--no-gutters">
+                    <div className="row ">
                         <div className="col ">
                             {years.map(year => <PublicationListYear
                                 key={year}
@@ -93,7 +93,7 @@ export function PublicationList(props) {
                     </div>
                 </TabItem>
                 <TabItem value="by_type" label="By Type">
-                    <div className="row row--no-gutters">
+                    <div className="row ">
                         <div className="col">
                             {types.map(type => <PublicationListType
                                 key={type.name}
@@ -121,17 +121,17 @@ function PublicationListYear({ allPublications, year, types }) {
     const yearPublications = allPublications.filter(p => p.year === year);
 
     return <>
-        <h3 id={year}>{year === '9999' ? 'In press' : `Year ${year}`} <small><small>({yearPublications.length} papers)</small></small></h3>
+        <h3 id={year} style={{ borderBottom: "1px solid var(--ifm-toc-border-color)" }}>{year === '9999' ? 'In press' : `Year ${year}`} <small><small>({yearPublications.length} papers)</small></small></h3>
         {types.map(t => <PublicationListYearType key={t.name} yearPublications={yearPublications} type={t} />)}
     </>
 }
 
 // all -> Type
 function PublicationListType({ allPublications, type, years }) {
-    const typePublications = allPublications.filter(p => p.type === type);
+    const typePublications = allPublications.filter(p => p.type.name === type.name);
 
     return <>
-        <h3 id={type.order}>{type.name} <small><small>({typePublications.length} papers)</small></small></h3>
+        <h3 id={type.order} style={{ borderBottom: "1px solid var(--ifm-toc-border-color)" }}>{type.name} <small><small>({typePublications.length} papers)</small></small></h3>
         {years.map(y => <PublicationListTypeYear key={y} typePublications={typePublications} year={y} />)}
     </>
 }
@@ -142,7 +142,7 @@ function PublicationListYearType({ yearPublications, type }) {
 
     if (yearTypePublications.length)
         return <>
-            <h4>{type.name} <small>({yearTypePublications.length})</small></h4>
+            <h4 style={{ borderBottom: "1px dotted var(--ifm-toc-border-color)" }}>{type.name} <small>({yearTypePublications.length})</small></h4>
             <ul>
                 {yearTypePublications.map(p => <Publication key={p.handle} publication={p} />)}
             </ul>
@@ -157,28 +157,13 @@ function PublicationListTypeYear({ typePublications, year }) {
 
     if (typeYearPublications.length)
         return <>
-            <h4>{year === '9999' ? 'To Appear' : `Year ${year}`} <small><small>({typeYearPublications.length} papers)</small></small></h4>
+            <h4 style={{ borderBottom: "1px dotted var(--ifm-toc-border-color)" }}>{year === '9999' ? 'To Appear' : `Year ${year}`} <small><small>({typeYearPublications.length} papers)</small></small></h4>
             <ul>
                 {typeYearPublications.map(p => <Publication key={p.handle} publication={p} />)}
             </ul>
         </>;
     else
         return null;
-}
-
-
-function SinglePublication({ publication }) {
-    const title = publication.name;
-    const authors = publication.lookupValues.contributors;
-    const doi = publication.lookupValues.doi
-    const handle = publication.handle;
-
-    // TODO: don't use 'citation', but format correctly the citation using the correct fields
-    return <li>{publication.lookupValues.citation}
-        <br />
-        <a href={`http://hdl.handle.net/${handle}`}>IRIS Page</a>
-        {doi && <> &ndash; DOI: <a href={`http://dx.doi.org/${doi}`}>{publication.lookupValues.doi}</a></>}
-    </li>
 }
 
 async function loadAllPublications() {
