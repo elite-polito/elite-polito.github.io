@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCCollapsible from '@theme/TOCCollapsible';
+import { Publication } from "./Publication";
 
 const allMembers = [
     { first: "Fulvio", last: "Corno", id: "002154" },
@@ -120,7 +121,7 @@ function PublicationListYear({ allPublications, year, types }) {
     const yearPublications = allPublications.filter(p => p.year === year);
 
     return <>
-        <h3 id={year}>{year === '9999' ? 'To Appear' : `Year ${year}`} <small><small>({yearPublications.length} papers)</small></small></h3>
+        <h3 id={year}>{year === '9999' ? 'In press' : `Year ${year}`} <small><small>({yearPublications.length} papers)</small></small></h3>
         {types.map(t => <PublicationListYearType key={t.name} yearPublications={yearPublications} type={t} />)}
     </>
 }
@@ -143,7 +144,7 @@ function PublicationListYearType({ yearPublications, type }) {
         return <>
             <h4>{type.name} <small>({yearTypePublications.length})</small></h4>
             <ul>
-                {yearTypePublications.map(p => <SinglePublication key={p.handle} publication={p} />)}
+                {yearTypePublications.map(p => <Publication key={p.handle} publication={p} />)}
             </ul>
         </>;
     else
@@ -158,7 +159,7 @@ function PublicationListTypeYear({ typePublications, year }) {
         return <>
             <h4>{year === '9999' ? 'To Appear' : `Year ${year}`} <small><small>({typeYearPublications.length} papers)</small></small></h4>
             <ul>
-                {typeYearPublications.map(p => <SinglePublication key={p.handle} publication={p} />)}
+                {typeYearPublications.map(p => <Publication key={p.handle} publication={p} />)}
             </ul>
         </>;
     else
