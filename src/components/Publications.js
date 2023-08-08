@@ -1,24 +1,24 @@
-import React, {useEffect, useState} from "react";
+import React, { useEffect, useState } from "react";
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
-
+import TOCCollapsible from '@theme/TOCCollapsible';
 
 const allMembers = [
-    {first: "Fulvio", last: "Corno", id: "002154"},
-    {first: "Dario", last: "Bonino", id: "012325"},
-    {first: "Luigi", last: "De Russis", id: "025734"},
-    {first: "Sebastian", last: "Aced Lopez", id: "027070"},
-    {first: "Faisal", last: "Razzak", id: "023127"},
-    {first: "Muhammad", last: "Sanaullah", id: "024462"},
-    {first: "Laura", last: "Farinetti", id: "002236"},
-    {first: "Teodoro", last: "Montanaro", id: "036541"},
-    {first: "Alberto", last: "Monge Roffarello", id: "040637"},
-    {first: "Juan Pablo", last: "Saenz", id: "042870"},
-    {first: "Fabio", last: "Ballati", id: "037716"},
-    {first: "Lorenzo", last: "Canale", id: "041708"},
-    {first: "Luisa Fernanda", last: "Barrera Leon", id: "050419"},
-    {first: "Luca", last: "Mannella", id: "040887"},
-    {first: "Tommaso", last: "Calò", id: "058407"}
+    { first: "Fulvio", last: "Corno", id: "002154" },
+    { first: "Dario", last: "Bonino", id: "012325" },
+    { first: "Luigi", last: "De Russis", id: "025734" },
+    { first: "Sebastian", last: "Aced Lopez", id: "027070" },
+    { first: "Faisal", last: "Razzak", id: "023127" },
+    { first: "Muhammad", last: "Sanaullah", id: "024462" },
+    { first: "Laura", last: "Farinetti", id: "002236" },
+    { first: "Teodoro", last: "Montanaro", id: "036541" },
+    { first: "Alberto", last: "Monge Roffarello", id: "040637" },
+    { first: "Juan Pablo", last: "Saenz", id: "042870" },
+    { first: "Fabio", last: "Ballati", id: "037716" },
+    { first: "Lorenzo", last: "Canale", id: "041708" },
+    { first: "Luisa Fernanda", last: "Barrera Leon", id: "050419" },
+    { first: "Luca", last: "Mannella", id: "040887" },
+    { first: "Tommaso", last: "Calò", id: "058407" }
 ];
 
 // Decode the IDs of the publication types
@@ -40,8 +40,8 @@ const allTypes = {
 }
 
 function Type(name, order) {
-    this.name = name ;
-    this.order = order ;
+    this.name = name;
+    this.order = order;
 }
 
 // Main component for generating the publication list
@@ -65,20 +65,48 @@ export function PublicationList(props) {
         const years = getYears(allPublications);
         const types = getTypes(allPublications);
 
+        const tocYears = years.map(y => ({ value: (y == 9999 ? 'In press' : y), id: y, level: 2 }));
+        const tocTypes = types.map(t => ({ value: t.name, id: t.order, level: 2 }));
+
         return <>
-            <p>Total number of publications: {allPublications.length}</p>
+
+            <div className="row row--no-gutters">
+                <div className="col ">
+                    <p>Total number of publications: {allPublications.length}</p>
+                </div>
+            </div>
 
             <Tabs queryString="publication_order">
                 <TabItem value="by_year" label="By Year">
-                    {years.map(year => <PublicationListYear key={year} allPublications={allPublications} year={year}
-                                                            types={types}/>)}
+                    <div className="row row--no-gutters">
+                        <div className="col ">
+                            {years.map(year => <PublicationListYear
+                                key={year}
+                                allPublications={allPublications}
+                                year={year}
+                                types={types} />)}
+                        </div>
+                        <div className="col-1">
+                            <TOCCollapsible toc={tocYears} />
+                        </div>
+                    </div>
                 </TabItem>
                 <TabItem value="by_type" label="By Type">
-                {types.map(type => <PublicationListType key={type.name} allPublications={allPublications} type={type}
-                                                            years={years}/>)}
+                    <div className="row row--no-gutters">
+                        <div className="col">
+                            {types.map(type => <PublicationListType
+                                key={type.name}
+                                allPublications={allPublications}
+                                type={type}
+                                years={years} />)}
+                        </div>
+                        <div className="col-1">
+                            <TOCCollapsible toc={tocTypes} />
+                        </div>
+                    </div>
+
                 </TabItem>
             </Tabs>
-
 
         </>;
     } else if (allPublications)
@@ -88,34 +116,34 @@ export function PublicationList(props) {
 }
 
 // all -> Year
-function PublicationListYear({allPublications, year, types}) {
+function PublicationListYear({ allPublications, year, types }) {
     const yearPublications = allPublications.filter(p => p.year === year);
 
     return <>
-        <h3>{year === '9999' ? 'To Appear' : `Year ${year}`} <small><small>({yearPublications.length} papers)</small></small></h3>
-        {types.map(t => <PublicationListYearType key={t.name} yearPublications={yearPublications} type={t}/>)}
+        <h3 id={year}>{year === '9999' ? 'To Appear' : `Year ${year}`} <small><small>({yearPublications.length} papers)</small></small></h3>
+        {types.map(t => <PublicationListYearType key={t.name} yearPublications={yearPublications} type={t} />)}
     </>
 }
 
 // all -> Type
-function PublicationListType({allPublications, type, years}) {
+function PublicationListType({ allPublications, type, years }) {
     const typePublications = allPublications.filter(p => p.type === type);
 
     return <>
-        <h3>{type.name} <small><small>({typePublications.length} papers)</small></small></h3>
-        {years.map(y => <PublicationListTypeYear key={y} typePublications={typePublications} year={y}/>)}
+        <h3 id={type.order}>{type.name} <small><small>({typePublications.length} papers)</small></small></h3>
+        {years.map(y => <PublicationListTypeYear key={y} typePublications={typePublications} year={y} />)}
     </>
 }
 
 // all -> Year -> Type
-function PublicationListYearType({yearPublications, type}) {
+function PublicationListYearType({ yearPublications, type }) {
     const yearTypePublications = yearPublications.filter(p => p.type.name === type.name);
 
     if (yearTypePublications.length)
         return <>
             <h4>{type.name} <small>({yearTypePublications.length})</small></h4>
             <ul>
-                {yearTypePublications.map(p => <SinglePublication key={p.handle} publication={p}/>)}
+                {yearTypePublications.map(p => <SinglePublication key={p.handle} publication={p} />)}
             </ul>
         </>;
     else
@@ -123,14 +151,14 @@ function PublicationListYearType({yearPublications, type}) {
 }
 
 // all -> Type -> Year
-function PublicationListTypeYear({typePublications, year}) {
+function PublicationListTypeYear({ typePublications, year }) {
     const typeYearPublications = typePublications.filter(p => p.year === year);
 
     if (typeYearPublications.length)
         return <>
             <h4>{year === '9999' ? 'To Appear' : `Year ${year}`} <small><small>({typeYearPublications.length} papers)</small></small></h4>
             <ul>
-                {typeYearPublications.map(p => <SinglePublication key={p.handle} publication={p}/>)}
+                {typeYearPublications.map(p => <SinglePublication key={p.handle} publication={p} />)}
             </ul>
         </>;
     else
@@ -138,7 +166,7 @@ function PublicationListTypeYear({typePublications, year}) {
 }
 
 
-function SinglePublication({publication}) {
+function SinglePublication({ publication }) {
     const title = publication.name;
     const authors = publication.lookupValues.contributors;
     const doi = publication.lookupValues.doi
@@ -146,7 +174,7 @@ function SinglePublication({publication}) {
 
     // TODO: don't use 'citation', but format correctly the citation using the correct fields
     return <li>{publication.lookupValues.citation}
-        <br/>
+        <br />
         <a href={`http://hdl.handle.net/${handle}`}>IRIS Page</a>
         {doi && <> &ndash; DOI: <a href={`http://dx.doi.org/${doi}`}>{publication.lookupValues.doi}</a></>}
     </li>
@@ -186,21 +214,21 @@ function getYears(publications) {
 }
 
 function getTypes(publications) {
-    const setTypeNames = new Set() ;
-    const types = [] ;
+    const setTypeNames = new Set();
+    const types = [];
     for (const item of publications) {
         // Articles not yet validated by the university have a "null" collection, even if all the other info are ok
         const typeId = item.collection?.id ?? 0
 
-        const type = allTypes[typeId] ;
-        item.type = type ;
-        
-        if(!setTypeNames.has(type.name)) {
-            setTypeNames.add(type.name) ;
-            types.push(item.type) ;
+        const type = allTypes[typeId];
+        item.type = type;
+
+        if (!setTypeNames.has(type.name)) {
+            setTypeNames.add(type.name);
+            types.push(item.type);
         }
 
     }
-    types.sort((a,b)=>a.order-b.order);
+    types.sort((a, b) => a.order - b.order);
     return types;
 }
