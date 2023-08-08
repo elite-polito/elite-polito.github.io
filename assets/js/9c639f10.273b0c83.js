@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkelite_website=self.webpackChunkelite_website||[]).push([[2437],{38059:e=>{e.exports=JSON.parse('{"title":"Research Resources","description":"Research topics and resources","keywords":["research"],"slug":"/research","permalink":"/research","navigation":{"next":{"title":"Projects","permalink":"/research/Projects/"}}}')}}]);
