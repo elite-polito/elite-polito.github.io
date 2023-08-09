@@ -11,7 +11,7 @@ export function Publication({ publication }) {
     const year = p.year == 9999 ? 'In press' : p.year;
 
     // we must do ugly staff with the 'contributors' string, because 'external' authors are not listed in any other part.
-    let authors = lu.contributors.toLowerCase().replace(/\b[a-z]/g, (x) => x.toUpperCase());
+    let authors = lu.contributors.toLowerCase().replace(/(?<=^|[^\p{L}])\p{L}/gu, (x) => x.toUpperCase());
     authors = authors.split(';').map(s => s.trim().replace(',', ''))
     if (authors.length == 1)
         authors = authors[0]
