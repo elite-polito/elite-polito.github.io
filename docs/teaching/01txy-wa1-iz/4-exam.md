@@ -19,10 +19,10 @@ description: "Exam"
   - For any doubts or questions, add a comment in the document linked above - the final version will be published on June 27.
   - Ask for further clarification in the dedicated topic on the course's Telegram group.
   - Complete the assignment on GitHub Classroom: [project skeleton and exam submission](https://classroom.github.com/a/TsciYmrA).
-- Exam 3: TBD (deadline: 2023-09-07 at 23:59)
-  - For any doubts or questions, add a comment in the document linked above - the final version will be published on TBD.
+- [Exam 3: Guess Who?](https://docs.google.com/document/d/1RSYjF_COthJ6wEG5-RnVXWcD0LjeVDUyqPNs49OUbNM) (deadline: 2023-09-07 at 23:59)
+  - For any doubts or questions, add a comment in the document linked above - the final version will be published on August 23.
   - Ask for further clarification in the dedicated topic on the course's Telegram group.
-  - Complete the assignment on GitHub Classroom: project skeleton and exam submission.
+  - Complete the assignment on GitHub Classroom: [project skeleton and exam submission](https://classroom.github.com/a/O3iTxcG2).
 - Exam 4
 
 ### Year 2021/22
