@@ -214,7 +214,7 @@ AccessCoVE aims to structure excellence in Vocational Education and Training in 
 ## Industry Collaborations
 
 <ProjectCard
-    icon={undefined}
+    icon={prologic.png}
     title='Pro-Logic Informatica'
     url='https://www.pro-logic.it/'
     period='2021-2022' >
