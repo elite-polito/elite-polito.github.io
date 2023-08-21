@@ -132,6 +132,15 @@ AccessCoVE aims to structure excellence in Vocational Education and Training in 
 ## National or Regional projects
 
 <ProjectCard
+    icon='Serics.png'
+    title='SERICS - SEcurity and RIghts In the CyberSpace'
+    url='https://serics.eu/'
+    period='2023-2026'>
+    <p>Il progetto SERICS (Security and Rights In the CyberSpace) è un Partenariato Esteso nell'ambito del PNRR – Missione 4, componente 2 | Linea 7 "Cybersecurity, nuove tecnologie e tutela dei diritti"; le attività di SERICS si svilupperanno su 10 spoke. </p>
+    <p>Il gruppo e-Lite partecipa attivamente allo Spoke 8: Gestione del rischio e governance (UNIBO) (in particolare al progetto Risk management for future cyber-physical ecosystems (EcoCyber)), ed allo Spoke 7: Sicurezza delle infrastrutture (POLITO) (in particolare al progetto Secure AND Safe infrasTructures fOR cps in the compute continuuM (SANDSTORM))</p>
+</ProjectCard>
+
+<ProjectCard
     icon='Batti5.png'
     title='Batti il 5'
     url='https://percorsiconibambini.it/batti5/scheda-progetto/'
