@@ -16,11 +16,11 @@ description: "Exam"
   - Ask for further clarification in the Telegram group.
   - Complete the assignment on GitHub Classroom: [project skeleton and exam submission](https://classroom.github.com/a/_XpznRuT).
 - [Exam 2: AirplaneSeats](https://docs.google.com/document/d/1D0asOxWrcH8Kk44I7UkGmicEHdAxgLvB69KZ8Gj3fNE/edit?usp=sharing) (deadline: 2023-07-09 at 23:59)
-  - For any doubts or questions, add a comment in the document linked above - the final version will be published on June 27.
+  - The final version is on-line since June 27.
   - Ask for further clarification in the Telegram group.
   - Complete the assignment on GitHub Classroom: [project skeleton and exam submission](https://classroom.github.com/a/Ij4wZ9xX).
 - [Exam 3: Guess Who?](https://docs.google.com/document/d/1RSYjF_COthJ6wEG5-RnVXWcD0LjeVDUyqPNs49OUbNM/edit?usp=sharing) (deadline: 2023-09-07 at 23:59)
-  - For any doubts or questions, add a comment in the document linked above - the final version will be published on August 23.
+  - The final version is on-line since August 23. You may [check the comments](./WA1_exam3_GuessWho-with-comments.pdf) that were raised and answered.
   - Ask for further clarification in the Telegram group.
   - Complete the assignment on GitHub Classroom: [project skeleton and exam submission](https://classroom.github.com/a/-RTLSo1u).
 - Exam 4 (winter session)
