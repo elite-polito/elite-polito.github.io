@@ -23,39 +23,6 @@ IMPORTANTE: Si noti che non tutte le lezioni indicate nell'orario ufficiale verr
 | gio 19/10/23 | 8.30-10.00 | EsT | 1,5 | Esercitazione su SQL. | 3M | L. Farinetti |
 | ven 20/10/23 | 13.00-16.00 | EsCCT-sqA | 3 | Esercitazione su SQL (solo squadra A). | 9T | L. Farinetti |
 
-<table border="1" style="width: 100%;" cellspacing="1" cellpadding="1">
-<tbody>
-<tr><th>Data</th><th>Ore</th><th>Tipo</th><th>Ore</th><th>Argomento</th><th>Aula</th><th>Docente</th></tr>
-<tr>
-<td>&nbsp;mer 28/09/2022</td>
-<td>&nbsp;8.30-11.30</td>
-<td>&nbsp;Lez</td>
-<td>&nbsp;3</td>
-<td>&nbsp;Introduzione al corso. Introduzione alle BD. Metodologia di progettazione delle BD.</td>
-<td>&nbsp;9I</td>
-<td>&nbsp;Laura Farinetti</td>
-</tr>
-<tr>
-<td>&nbsp;ven 30/09/2022</td>
-<td>&nbsp;8.30-10.00</td>
-<td>&nbsp;Lez</td>
-<td>&nbsp;1,5</td>
-<td>&nbsp;Progettazione concettuale: il modello ER.</td>
-<td>&nbsp;4T</td>
-<td>&nbsp;Laura Farinetti</td>
-</tr>
-<tr>
-<td>&nbsp;mer 05/10/2022</td>
-<td>&nbsp;8.30-11.30</td>
-<td>&nbsp;Lez</td>
-<td>&nbsp;3</td>
-<td>&nbsp;Il modello relazionale. Definizioni. Vincoli di integrità.</td>
-<td>&nbsp;9I</td>
-<td>&nbsp;Laura Farinetti</td>
-</tr>
-</tbody>
-</table>
-
 
 ## Esercizi da svolgere prima delle esercitazioni in aula
 
