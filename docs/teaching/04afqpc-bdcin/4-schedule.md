@@ -14,14 +14,14 @@ In questa sezione trovate:
 
 <div>
 <table>
-<tr>
-<td>&nbsp;Lez</td>
-<td>Progettazione delle basi dati. Metodologia di progettazione. Il modello E-R: entità, relazioni, cardinalità, generalizzazione.</td>
-<td>in aula: 28/10 e 30/10</td>
-<td>&nbsp;VL11</td>
-<td>ven 30/09/2022</td>
-<td>ven 7/10/2022</td>
-<td><a href="files/courses/04AFQPC/2021-22/Slide/VL11-ModelloER.pdf">&nbsp;<img src="images/sampledata/Laura/iconaPdf.png" alt="iconaPdf" width="25" height="33" /></a></td>
+<tr style="background-color: #d5d8dc;">
+<td>&nbsp;<em>mer 21/12/2022</em></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td><em>&nbsp;Lezione cancellata</em></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
 </tr>
 </table>
 </div>
