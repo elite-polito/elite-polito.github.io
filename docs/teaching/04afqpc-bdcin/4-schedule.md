@@ -15,7 +15,12 @@ In questa sezione trovate:
 La seguente tabella riporta la pianificazione delle lezioni del corso, per trasparenza di informazione e per facilitare la vostra pianificazione. Ci riserviamo di modificare la pianificazione delle lezioni per esigenze didattiche.
 
 IMPORTANTE: Si noti che non tutte le lezioni indicate nell'orario ufficiale verranno utilizzate.
-
+ 
+| Data | Orario | Tipo | Ore | Argomento | Aula | Docente |
+|----|-------------|--------|----|------|------|-----|
+| gio 5/10/23 | 8.30-10.00 | Lez | 1,5 | Introduzione al corso. Introduzione alle BD. | 3M | L. Farinetti |
+| gio 12/10/23 | 8.30-10.00 | EsT | 1,5 | Esercitazione su SQL. | 3M | L. Farinetti |
+| gio 19/10/23 | 8.30-10.00 | EsT | 1,5 | Esercitazione su SQL. | 3M | L. Farinetti |
 
 ## Esercizi da svolgere prima delle esercitazioni in aula
 
