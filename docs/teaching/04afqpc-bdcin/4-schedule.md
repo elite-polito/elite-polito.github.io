@@ -12,19 +12,17 @@ In questa sezione trovate:
 
 ## Calendario delle lezioni
 
-<div>
-<table>
-<tr style="background-color: #d5d8dc;">
-<td>&nbsp;<em>mer 21/12/2022</em></td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td><em>&nbsp;Lezione cancellata</em></td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-</tr>
-</table>
-</div>
+La seguente tabella riporta la pianificazione delle lezioni del corso, per trasparenza di informazione e per facilitare la vostra pianificazione. Ci riserviamo di modificare la pianificazione delle lezioni per esigenze didattiche.
+
+IMPORTANTE: Si noti che non tutte le lezioni indicate nell'orario ufficiale verranno utilizzate.
+ 
+| Data | Orario | Tipo | Ore | Argomento | Aula | Docente |
+|----|-------------|--------|----|------|------|-----|
+| gio 5/10/23 | 8.30-10.00 | Lez | 1,5 | Introduzione al corso. Introduzione alle BD. | 3M | L. Farinetti |
+| gio 12/10/23 | 8.30-10.00 | EsT | 1,5 | Esercitazione su SQL. | 3M | L. Farinetti |
+| gio 19/10/23 | 8.30-10.00 | EsT | 1,5 | Esercitazione su SQL. | 3M | L. Farinetti |
+| ven 20/10/23 | 13.00-16.00 | EsCCT-sqA | 3 | Esercitazione su SQL (solo squadra A). | 9T | L. Farinetti |
+
 
 ## Esercizi da svolgere prima delle esercitazioni in aula
 
