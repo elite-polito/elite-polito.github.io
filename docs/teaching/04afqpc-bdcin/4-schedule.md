@@ -23,8 +23,6 @@ IMPORTANTE: Si noti che non tutte le lezioni indicate nell'orario ufficiale verr
 | gio 19/10/23 | 8.30-10.00 | EsT | 1,5 | Esercitazione su SQL. | 3M | L. Farinetti |
 | ven 20/10/23 | 13.00-16.00 | EsCCT-sqA | 3 | Esercitazione su SQL (solo squadra A). | 9T | L. Farinetti |
 
-```html
-<html>
 <table border="1" style="width: 100%;" cellspacing="1" cellpadding="1">
 <tbody>
 <tr><th>Data</th><th>Ore</th><th>Tipo</th><th>Ore</th><th>Argomento</th><th>Aula</th><th>Docente</th></tr>
@@ -57,8 +55,7 @@ IMPORTANTE: Si noti che non tutte le lezioni indicate nell'orario ufficiale verr
 </tr>
 </tbody>
 </table>
-</html>
-```
+
 
 ## Esercizi da svolgere prima delle esercitazioni in aula
 
