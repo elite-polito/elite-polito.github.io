@@ -12,17 +12,19 @@ In questa sezione trovate:
 
 ## Calendario delle lezioni
 
-La seguente tabella riporta la pianificazione delle lezioni del corso, per trasparenza di informazione e per facilitare la vostra pianificazione. Ci riserviamo di modificare la pianificazione delle lezioni per esigenze didattiche.
-
-IMPORTANTE: Si noti che non tutte le lezioni indicate nell'orario ufficiale verranno utilizzate.
- 
-| Data | Orario | Tipo | Ore | Argomento | Aula | Docente |
-|----|-------------|--------|----|------|------|-----|
-| gio 5/10/23 | 8.30-10.00 | Lez | 1,5 | Introduzione al corso. Introduzione alle BD. | 3M | L. Farinetti |
-| gio 12/10/23 | 8.30-10.00 | EsT | 1,5 | Esercitazione su SQL. | 3M | L. Farinetti |
-| gio 19/10/23 | 8.30-10.00 | EsT | 1,5 | Esercitazione su SQL. | 3M | L. Farinetti |
-| ven 20/10/23 | 13.00-16.00 | EsCCT-sqA | 3 | <span style="color:red"> Esercitazione su SQL (solo squadra A) </span>. | 9T | L. Farinetti |
-
+<div>
+<table>
+<tr>
+<td>&nbsp;Lez</td>
+<td>Progettazione delle basi dati. Metodologia di progettazione. Il modello E-R: entità, relazioni, cardinalità, generalizzazione.</td>
+<td>in aula: 28/10 e 30/10</td>
+<td>&nbsp;VL11</td>
+<td>ven 30/09/2022</td>
+<td>ven 7/10/2022</td>
+<td><a href="files/courses/04AFQPC/2021-22/Slide/VL11-ModelloER.pdf">&nbsp;<img src="images/sampledata/Laura/iconaPdf.png" alt="iconaPdf" width="25" height="33" /></a></td>
+</tr>
+</table>
+</div>
 
 ## Esercizi da svolgere prima delle esercitazioni in aula
 
