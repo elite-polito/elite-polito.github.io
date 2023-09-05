@@ -20,10 +20,10 @@ Il corso aderisce al progetto OCSE dal titolo «Fostering and assessing creativi
 
 | Giorno   |Ora |Tipo |Aula |
 |----------|----|-----|------|
-| Lunedì | 10:00-11:30 | Laboratorio (Squadra 1) |  |
-| Lunedì | 11:30-13:00 | Laboratorio (Squadra 2) |  |
-| Giovedì | 8:30-10:00 | Lezione/Esercitazione |  | 
-| Venerdì | 13:00-16:00 | Lezione/Esercitazione |  |
+| Lunedì | 10:00-11:30 | Laboratorio (Squadra 1) | LAIB 3B |
+| Lunedì | 11:30-13:00 | Laboratorio (Squadra 2) | LAIB 3B |
+| Giovedì | 8:30-10:00 | Lezione/Esercitazione | Aula 3M | 
+| Venerdì | 13:00-16:00 | Lezione/Esercitazione | Aula 9T |
 
 IMPORTANTE: Non tutte le ore del calendario ufficiale saranno svolte, le attività potranno variare da settimana a settimana ed alcune attività seguiranno una suddivisione in squadre: consultate frequentemente la sezione "Piano del corso" per informazioni dettagliate, sempre aggiornate.
 
