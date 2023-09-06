@@ -21,7 +21,7 @@ IMPORTANTE: Si noti che non tutte le lezioni indicate nell'orario ufficiale verr
 | gio 5/10/23 | 8.30-10.00 | Lez | 1,5 | Introduzione al corso. Introduzione alle BD. | 3M | L. Farinetti |
 | gio 12/10/23 | 8.30-10.00 | EsT | 1,5 | Esercitazione su SQL. | 3M | L. Farinetti |
 | gio 19/10/23 | 8.30-10.00 | EsT | 1,5 | Esercitazione su SQL. | 3M | L. Farinetti |
-| ven 20/10/23 | 13.00-16.00 | EsCCT-sqA | 3 | Esercitazione su SQL (solo squadra A). | 9T | L. Farinetti |
+| ven 20/10/23 | 13.00-16.00 | EsCCT-sqA | 3 | <font color="red">Esercitazione su SQL (solo squadra A).</font> | 9T | L. Farinetti |
 
 
 ## Esercizi da svolgere prima delle esercitazioni in aula
