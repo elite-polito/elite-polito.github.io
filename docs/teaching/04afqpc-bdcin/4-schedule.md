@@ -21,11 +21,23 @@ IMPORTANTE: Si noti che non tutte le lezioni indicate nell'orario ufficiale verr
 | gio 5/10/23 | 8.30-10.00 | Lez | 1,5 | Introduzione al corso. Introduzione alle BD. | 3M | L. Farinetti |
 | gio 12/10/23 | 8.30-10.00 | EsT | 1,5 | Esercitazione su SQL. | 3M | L. Farinetti |
 | gio 19/10/23 | 8.30-10.00 | EsT | 1,5 | Esercitazione su SQL. | 3M | L. Farinetti |
-| ven 20/10/23 | 13.00-16.00 | EsCCT-sqA | 3 | <font color="mediumvioletred">Esercitazione su SQL (solo squadra A).</font> | 9T | L. Farinetti |
+| ven 20/10/23 | 13.00-16.00 | EsCCT-sqA | 3 | <font color="mediumvioletred">Esercitazione CCT#1 su SQL (solo squadra A).</font> | 9T | L. Farinetti |
 | lun 23/10/23 | 10.00-11.30 | Lab-sqA | 1,5 | <font color="mediumvioletred">Laboratorio #1: SQL (squadra A).</font> | LAIB 3B | L. Farinetti |
-| lun 23/10/23 | 11.30-13.00 | Lab-sqA | 1,5 | <font color="cornflowerblue">Laboratorio #1: SQL (squadra B).</font> | LAIB 3B | L. Farinetti |
+| lun 23/10/23 | 11.30-13.00 | Lab-sqB | 1,5 | <font color="teal">Laboratorio #1: SQL (squadra B).</font> | LAIB 3B | L. Farinetti |
 | gio 26/10/23 | 8.30-10.00 | EsT | 1,5 | Esercitazione su SQL. | 3M | L. Farinetti |
-| ven 27/10/23 | 13.00-16.00 | EsCCT-sqA | 3 | <font color="cornflowerblue">Esercitazione su SQL (solo squadra B).</font> | 9T | L. Farinetti |
+| ven 27/10/23 | 13.00-16.00 | EsCCT-sqB | 3 | <font color="teal">Esercitazione CCT#1 su SQL (solo squadra B).</font> | 9T | L. Farinetti |
+| lun 30/10/23 | 10.00-11.30 | Lab-sqB | 1,5 | <font color="teal">Laboratorio #2: SQL (squadra B).</font> | LAIB 3B | L. Farinetti |
+| lun 30/10/23 | 11.30-13.00 | Lab-sqA | 1,5 | <font color="mediumvioletred">Laboratorio #2: SQL (squadra A).</font> | LAIB 3B | L. Farinetti |
+| gio 02/11/23 | 8.30-10.00 | EsT | 1,5 | Esercitazione su SQL. | 3M | L. Farinetti |
+| ven 03/11/23 | 13.00-16.00 | EsT | 3 | Presentazione attività prossimi laboratori. | 9T | L. Canale |
+| lun 06/11/23 | 10.00-11.30 | Lab-sqA | 1,5 | <font color="mediumvioletred">Laboratorio #3: SQL (squadra A).</font> | LAIB 3B | L. Farinetti |
+| lun 06/11/23 | 11.30-13.00 | Lab-sqB | 1,5 | <font color="teal">Laboratorio #3: SQL (squadra B).</font> | LAIB 3B | L. Farinetti |
+| gio 09/11/23 | 8.30-10.00 | EsT | 1,5 | Esercitazione su SQL. | 3M | L. Farinetti |
+| ven 10/11/23 | 13.00-16.00 | EsCCT-sqA | 3 | <font color="mediumvioletred">Esercitazione CCT#2 su SQL (solo squadra A).</font> | 9T | L. Farinetti |
+| lun 13/11/23 | 10.00-11.30 | Lab-sqB | 1,5 | <font color="teal">Laboratorio #4: Information retrieval (squadra B).</font> | LAIB 3B | L. Farinetti |
+| lun 13/11/23 | 11.30-13.00 | Lab-sqA | 1,5 | <font color="mediumvioletred">Laboratorio #4: Information retrieval (squadra A).</font> | LAIB 3B | L. Farinetti |
+| gio 09/11/23 | 8.30-10.00 | EsT | 1,5 | Esercitazione su SQL. | 3M | L. Farinetti |
+| ven 10/11/23 | 13.00-16.00 | EsCCT-sqB | 3 | <font color="teal">Esercitazione CCT#2 su SQL (solo squadra B).</font> | 9T | L. Farinetti |
 
 
 ## Esercizi da svolgere prima delle esercitazioni in aula
