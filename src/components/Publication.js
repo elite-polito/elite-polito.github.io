@@ -7,7 +7,7 @@ export function Publication({ publication }) {
 
     const p = publication; // shortname
     const lu = p.lookupValues; // short name
-    const title = lu.title;
+    const title = sanitizeText(lu.title);
     const year = p.year == 9999 ? 'In press' : p.year;
 
     // we must do ugly staff with the 'contributors' string, because 'external' authors are not listed in any other part.
@@ -70,4 +70,17 @@ export function Publication({ publication }) {
         {doi && <> &ndash; DOI: <a href={`http://dx.doi.org/${doi}`}>{publication.lookupValues.doi}</a></>}
     </li>
 
+}
+
+
+/**
+ * Sostitusce alcuni gruppi di caratteri o sequenze di escape nel titolo (o in altre stringhe), che erroneamente vengono proposte da IRIS.
+ * L'implementazione è molto cruda per il momento. Se le sostituzioni dovessero diventare molte, sarà opportuno ristrutturare meglio la funzione
+ * evitando la cascata di replace.
+ * 
+ * @param {string} title 
+ * @returns 
+ */
+function sanitizeText(title) {
+    return title.replace('&amp;', '&').replace('&nbsp;', ' ') ;
 }
