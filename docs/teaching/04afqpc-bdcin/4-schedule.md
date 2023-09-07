@@ -14,7 +14,7 @@ In questa sezione trovate:
 
 La seguente tabella riporta la pianificazione delle lezioni del corso, per trasparenza di informazione e per facilitare la vostra pianificazione. Ci riserviamo di modificare la pianificazione delle lezioni per esigenze didattiche.
 
-_Legenda:_ la colonna Tipo può essere Lez=Lezione, EsT=Esercitazione "tradizionale" in aula (per tutti), EsCCT=Eserci itazione in aula a squadre, Lab=Esercitazione di laboratorio. Le attività in nero sono per tutti, quelle in <font color="mediumvioletred">viola</font> o in <font color="teal">verde</font> sono attività a squadre (<font color="mediumvioletred">squadra A</font> e <font color="teal">squadra B</font> rispettivamente).
+_Legenda:_ la colonna Tipo può essere Lez=Lezione, EsT=Esercitazione "tradizionale" in aula (per tutti), EsCCT=Esercitazione in aula a squadre, Lab=Esercitazione di laboratorio. Le attività in nero sono per tutti, quelle in <font color="mediumvioletred">viola</font> o in <font color="teal">verde</font> sono attività a squadre (<font color="mediumvioletred">squadra A</font> e <font color="teal">squadra B</font> rispettivamente).
 
 IMPORTANTE: Si noti che non tutte le lezioni indicate nell'orario ufficiale verranno utilizzate.
  
@@ -44,6 +44,11 @@ IMPORTANTE: Si noti che non tutte le lezioni indicate nell'orario ufficiale verr
 
 
 ## Esercizi da svolgere prima delle esercitazioni in aula
+
+| Esercizi proposti | Da svolgere prima del ... | Soluzione |
+|----|-------------|--------|
+| SQL 1: join | 12/10/23 | |
+
 
 ## Elenco delle videolezioni
 
