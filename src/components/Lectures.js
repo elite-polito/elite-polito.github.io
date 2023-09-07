@@ -8,6 +8,7 @@ const defaultTableContext = {
     defaultTeacher: undefined,
     defaultType: undefined,
     showMaterial: true,
+    showRoom: false,
     language: 'IT'
 }
 const TableContext = createContext(defaultTableContext);
@@ -58,6 +59,9 @@ function LectureRow(props) {
     return (<tr className={props.variant}>
         <td>{props.date}</td>
         <td>{props.time}</td>
+        {tableContext.showRoom &&
+            <td>{props.room}</td>
+        }
         <td>{type}</td>
         <td>{props.topic}{props.children}</td>
         {tableContext.showMaterial &&
@@ -111,6 +115,7 @@ function LectureTableContent(props) {
                 <tr>
                     <th>Date</th>
                     <th>Time</th>
+                    {tableContext.showRoom && <th>Room</th>}
                     <th>Type</th>
                     <th>Topic</th>
                     {tableContext.showMaterial && <th>Resources</th>}
@@ -121,6 +126,7 @@ function LectureTableContent(props) {
                 <tr>
                     <th>Data</th>
                     <th>Ora</th>
+                    {tableContext.showRoom && <th>Aula</th>}
                     <th>Tipo</th>
                     <th>Argomento</th>
                     {tableContext.showMaterial && <th>Materiale</th>}
