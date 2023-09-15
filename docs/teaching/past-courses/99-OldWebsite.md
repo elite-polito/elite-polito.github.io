@@ -1,6 +1,6 @@
 ---
 description: 'Older courses on the previous website'
-sidebar_position: 99
+sidebar_position: 999
 ---
 
 # Courses still on older website

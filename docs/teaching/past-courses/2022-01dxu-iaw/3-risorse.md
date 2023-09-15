@@ -4,11 +4,15 @@ description: "Risorse per lo sviluppo"
 
 # Risorse per lo sviluppo
 
+:::caution
+Questa pagina contiene la versione __archiviata__ dell'edizione 2022/2023 del corso.
+::: 
+
 Questa sezione contiene la lista delle applicazioni software e delle librerie utilizzate durante il corso. Inoltre, presenta alcune risorse aggiuntive che possono essere utili per la creazione di applicazioni web.
 
 ## Software in uso
 
-- [Python](https://www.python.org/) 3.11 (e pip)
+- [Python](https://www.python.org/) 3.10 (e pip)
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [Google Chrome](https://www.google.com/chrome/) o [Mozilla Firefox](https://www.mozilla.org/firefox/new/) (versioni recenti: Chrome 88+ o Firefox 85+)
 - [DB Browser for SQLite](https://sqlitebrowser.org/)
@@ -20,7 +24,7 @@ Installeremo poi le altre librerie necessarie (per es., Flask) tramite pip.
 
 - Sito fondamentale per documentazione su tecnologie e sviluppo Web: [Mozilla Developer Network](https://developer.mozilla.org/) (MDN)
 - Flavio Copes, Handbook su HTML, CSS, e JavaScript, disponibili online: https://thevalleyofcode.com
-- Documentazione di [Bootstrap 5.3](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
+- Documentazione di [Bootstrap 5.2](https://getbootstrap.com/docs/5.2/getting-started/introduction/)
 
 ## Altre risorse utili
 

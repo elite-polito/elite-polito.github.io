@@ -31,7 +31,7 @@ The course, elective for the master's degree in Computer Engineering and held in
 Course materials are available on this same website, under [Teaching > Human Computer Interaction (01JSK)](/teaching/02jsk-hci), while the full [course description](https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=02JSKOV) is on the students' guide.
 
 ### Introduzione alle Applicazioni Web
-_Luigi De Russis_ and _Juan Pablo Sàenz Moreno_ teach the __Introduzione alle Applicazioni Web__ (Introduction to Web Applications) course.
+_Luigi De Russis_ and _Juan Pablo Sáenz Moreno_ teach the __Introduzione alle Applicazioni Web__ (Introduction to Web Applications) course.
 
 The course, among the 3rd year's "free credits" of the Engineering bachelor's degrees, covers the basic concepts and technologies of the Web. Using Python and the Flask framework, it also accompanies students in building a complete web application.
 
