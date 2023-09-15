@@ -28,7 +28,7 @@ __Human Computer Interaction__ see the participation of three members of the gro
 
 The course, elective for the master's degree in Computer Engineering and held in English, provides a solid foundation for the field. It gives students hands-on practice to design and develop innovative solutions by adopting a modern human-centered process while building a prototype application to serve target users. In the end, students will learn how to design and create usable, useful, and used technologies.
 
-Course materials are available on this same website, under [Teaching > Human Computer Interaction (01JSK)](/teaching/02jsk-hci), while the full [course description](https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=02JSKOV) is on the students' guide.
+Course materials are available on this same website, under [Teaching > Human Computer Interaction (02JSK)](/teaching/02jsk-hci), while the full [course description](https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=02JSKOV) is on the students' guide.
 
 ### Introduzione alle Applicazioni Web
 _Luigi De Russis_ and _Juan Pablo Sáenz Moreno_ teach the __Introduzione alle Applicazioni Web__ (Introduction to Web Applications) course.
