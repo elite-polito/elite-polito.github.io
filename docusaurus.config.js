@@ -195,7 +195,7 @@ const config = {
             from: '/teaching-mainmenu-69/laurea-i-livello-mainmenu-82/94-12bhd'
           },
           { // Basi Dati (Laura)
-            to: '/teaching/04afqpc-bdcin',  // per ora, poi migreremo le pagine
+            to: '/teaching/04afqpc-bdcin',
             from: '/teaching/current-courses/526-04afqpc'
           },
 
