@@ -35,7 +35,7 @@ _Luigi De Russis_ and _Juan Pablo Sáenz Moreno_ teach the __Introduzione alle A
 
 The course, among the 3rd year's "free credits" of the Engineering bachelor's degrees, covers the basic concepts and technologies of the Web. Using Python and the Flask framework, it also accompanies students in building a complete web application.
 
-Interested people can find the course materials under [Teaching > Introduzione alle Applicazioni Web (01DXU)](teaching/01dxu-iaw) and the [official course description](https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=01DXU) in the students' guide. The course is offered in Italian.
+Interested people can find the course materials under [Teaching > Introduzione alle Applicazioni Web (01DXU)](/teaching/01dxu-iaw) and the [official course description](https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=01DXU) in the students' guide. The course is offered in Italian.
 
 ### User Experience Design
 _Alberto Monge Roffarello_ is the main teacher of __User Experience Design__, a new elective course for the master's degree in Cinema and Media Engineering. 
@@ -52,9 +52,9 @@ Members of the e-Lite group are involved in two mandatory courses in the first s
 ### Informatica
 _Fulvio Corno_ is one of the main teachers of the __Informatica__ (Computer Science) course. The course, held in Italian, is _mandatory for all 1st-year students enrolled in bachelor's degrees in Engineering. 
 
-It covers the basis of Computer Science and introduces programming in Python. Course materials are available on this same website, under [Teaching > Informatica (14BHD)](teaching/14bhd-informatica). The course description, instead, is available in the [official students' guide](https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=14BHDNX).
+It covers the basis of Computer Science and introduces programming in Python. Course materials are available on this same website, under [Teaching > Informatica (14BHD)](/teaching/14bhd-informatica). The course description, instead, is available in the [official students' guide](https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=14BHDNX).
 
 ### Basi di Dati
 _Laura Farinetti_, finally, is the main teacher of the __Basi di dati__ (Databases) course, offered in Italian to bachelor's degree students in Cinema and Media Engineering. 
 
-The course introduces the main topics and concepts related to database technologies and languages. As before, course materials are available on this website under [Teaching > Basi di Dati (04AFQPC)](teaching/04afqpc-bdcin). The students' guide includes the official [course description](https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=04AFQPC).
+The course introduces the main topics and concepts related to database technologies and languages. As before, course materials are available on this website under [Teaching > Basi di Dati (04AFQPC)](/teaching/04afqpc-bdcin). The students' guide includes the official [course description](https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=04AFQPC).
