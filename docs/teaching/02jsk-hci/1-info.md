@@ -23,8 +23,8 @@ Course material (lectures and labs) is available in the [Schedule](schedule) sec
 | Other teachers:      | Alberto Monge Roffarello, Tommaso Calò       |
 | Official link:       | [Portale della Didattica](https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=02JSKOV)                     |
 | GitHub organization: | https://github.com/polito-hci-2023           |
-| Videolectures:       | YouTube Playlist and Portale della Didattica |
-| Telegram group:      | TBD                                          |
+| Videolectures:       | [YouTube Playlist](https://www.youtube.com/playlist?list=PLs7DWGc_wmwRwGT5u9W9TKenphrJKtDss) and Portale della Didattica |
+| Telegram group:      | https://t.me/+TWAORCjgOsswZDlk               |
 
 ## Class hours
 
