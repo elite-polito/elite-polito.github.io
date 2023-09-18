@@ -35,5 +35,5 @@ See the [Schedule](schedule) section for detailed information and variations.
 | Monday  | 14:30-16:00 | Room 2P | Class           |             |
 | Tuesday | 17:30-19:00 | Room 4  | Class           |             |
 | Wednesday  | 13:00-14:30 | Room 11I  | Lab (group I)   | From week 2 |
-| Wednesday  | 14:30-16:00 | Room 5T  | Lab (group II)  | From week 2 |
+| Wednesday  | 14:30-16:00 | Room 5I  | Lab (group II)  | From week 2 |
 | Wednesday  | 16:00-17:30 | Room 8N  | Lab (group III) | From week 2 |
