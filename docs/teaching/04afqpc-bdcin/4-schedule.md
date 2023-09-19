@@ -29,17 +29,13 @@ _Legenda:_ la colonna Tipo può essere Lez=Lezione, EsT=Esercitazione "tradizion
 | ven 27/10/23 | 13.00-16.00 | EsCCT | 3 | Esercitazione CCT#1 su SQL. | 9T | L. Farinetti |
 | lun 30/10/23 | 10.00-11.30 | Lab-sqB | 1,5 | <font color="teal">Laboratorio #2: SQL (squadra B).</font> | LAIB 3B | L. Canale |
 | lun 30/10/23 | 11.30-13.00 | Lab-sqA | 1,5 | <font color="mediumvioletred">Laboratorio #2: SQL (squadra A).</font> | LAIB 3B | L. Canale |
-| gio 02/11/23 | 8.30-10.00 | EsT | 1,5 | Esercitazione su SQL. | 3M | L. Farinetti |
-| ven 03/11/23 | 13.00-16.00 | EsT | 3 | Presentazione attività prossimi laboratori. | 9T | L. Canale |
+| ven 03/11/23 | 13.00-16.00 | EsT | 3 | Esercitazione SQL#4 | 9T | L. Farinetti |
 | lun 06/11/23 | 10.00-11.30 | Lab-sqA | 1,5 | <font color="mediumvioletred">Laboratorio #3: SQL (squadra A).</font> | LAIB 3B | L. Farinetti |
 | lun 06/11/23 | 11.30-13.00 | Lab-sqB | 1,5 | <font color="teal">Laboratorio #3: SQL (squadra B).</font> | LAIB 3B | L. Farinetti |
-| gio 09/11/23 | 8.30-10.00 | EsT | 1,5 | Esercitazione su SQL. | 3M | L. Farinetti |
-| ven 10/11/23 | 13.00-16.00 | EsCCT-sqA | 3 | <font color="mediumvioletred">Esercitazione CCT#2 su SQL (squadra A).</font> | 9T | L. Farinetti |
+| ven 10/11/23 | 13.00-16.00 | EsT | 3 | Presentazione attività prossimi laboratori. | 9T | L. Canale |
 | lun 13/11/23 | 10.00-11.30 | Lab-sqB | 1,5 | <font color="teal">Laboratorio #4: Information retrieval (squadra B).</font> | LAIB 3B | L. Farinetti |
 | lun 13/11/23 | 11.30-13.00 | Lab-sqA | 1,5 | <font color="mediumvioletred">Laboratorio #4: Information retrieval (squadra A).</font> | LAIB 3B | L. Farinetti |
-| gio 16/11/23 | 8.30-10.00 | EsT | 1,5 | Cluedo. | 3M | L. Canale |
-| ven 17/11/23 | 13.00-16.00 | EsCCT-sqB | 3 | <font color="teal">Esercitazione CCT#2 su SQL (squadra B).</font> | 9T | L. Farinetti |
-| gio 23/11/23 | 8.30-10.00 | EsT | 1,5 | Cluedo. | 3M | L. Canale |
+| ven 17/11/23 | 13.00-16.00 | EsCCT-sqB | 3 | Esercitazione CCT#2 su SQL. | 9T | L. Farinetti |
 
 
 ## Esercizi da svolgere prima delle esercitazioni in aula
