@@ -6,10 +6,17 @@ description: "Materiale per la preparazione all'esame"
 
 # Esame
 
+:::caution
+Questa pagina contiene la versione __archiviata__ dell'edizione 2022/2023 del corso.
+
+Vai alla [versione più recente](/teaching/14bhd-informatica)
+::: 
+
+
 ## Esercizi d'esame
 
 I temi d'esame (di teoria e di programmazione) degli anni accademici precedenti sono disponibili sul sito:
-- https://github.com/polito-informatica/Esempi-esame
+- https://github.com/polito-info-2022/Esempi-esame
 
 
 ## Prontuario (cheat-sheet)
