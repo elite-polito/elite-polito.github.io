@@ -25,3 +25,11 @@ description: "Materiale didattico (slide, documenti, link, ...)"
     - [Progettazione concettuale](https://farinetti.github.io/materiale-bdcin/5.2-ProgettzioneConcettuale.pdf)
     - [Progettazione logica relazionale](https://farinetti.github.io/materiale-bdcin/5.3-ProgettazioneLogica.pdf)
     - [Esempio di progettazione logica relazionale](https://farinetti.github.io/materiale-bdcin/5.4-EsempioProgLogica.pdf)
+
+## Esercitazioni
+
+- SQL
+    - Blocco 1: [Testo](https://farinetti.github.io/materiale-bdcin/EsSQL_1-Testo.pdf) e Soluzione
+    - Blocco 2: [Testo](https://farinetti.github.io/materiale-bdcin/EsSQL_2-Testo.pdf) e Soluzione
+    - Blocco 3: [Testo](https://farinetti.github.io/materiale-bdcin/EsSQL_3-Testo.pdf) e Soluzione
+    - Blocco 4: [Testo](https://farinetti.github.io/materiale-bdcin/EsSQL_4-Testo.pdf) e Soluzione
