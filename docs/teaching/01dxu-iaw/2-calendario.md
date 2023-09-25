@@ -33,6 +33,18 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
     Architetture web
 </LectureRow>
 
+<LectureRow
+    date="12/10/2023" time="16:00-17:30"
+    >
+    HTML5
+</LectureRow>
+
+<LectureRow
+    date="09/10/2023" time="17:30-19:00" type="Esercizio"
+    >
+    HTML5 (on GitHub)
+</LectureRow>
+
 <LectureDivider/>
 
 </LectureTable>

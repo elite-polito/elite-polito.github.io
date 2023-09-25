@@ -110,9 +110,11 @@ export default function Home({recentPosts}) {
                         </div>
                         <div className="col col--3">
                             <Admonition type="info" icon="⚡️" title={'Quick links'}>
-                                <a href='/teaching/01txy-wa1-ah'>Web Applications I (A-H)</a><br/>
-                                <a href='/teaching/01txy-wa1-iz'>Web Applications I (I-Z)</a><br/>
-                                <a href='/teaching/03fyz-tdp'>Tecniche di Programmazione</a><br/>
+                                <a href='/teaching/04afqpc-bdcin'>Basi di dati</a><br/>
+                                <a href='/teaching/02jsk-hci'>Human Computer Interaction</a><br/>
+                                <a href='/teaching/14bhd-informatica'>Informatica</a><br/>
+                                <a href='/teaching/01dxu-iaw'>Introduzione alle Applicazioni Web</a><br/>
+                                <a href='/teaching/01hfx-uxd'>User Experience Design</a><br/>
                                 <br/>
                                 <a href='/thesis-offers'>Thesis offers</a>
                             </Admonition>
