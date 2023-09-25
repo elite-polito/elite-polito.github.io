@@ -4,8 +4,7 @@ description: "Lucidi, videolezioni, esercizi, ..."
 
 # Materiale di studio
 
-Tutto il materiale è accessibile su GitHub alla pagina: https://github.com/polito-informatica
-
+**Tutto il materiale è accessibile su GitHub alla pagina: https://github.com/polito-informatica**
 ## Lucidi delle lezioni
 
 - [Introduzione al corso](https://polito-informatica.github.io/Materiale/Unita'%200%20-%20Introduzione%20al%20corso%20(Corno).pdf)
@@ -74,4 +73,3 @@ https://www.maggiolieditore.it/python-introduzione-alla-programmazione.html
 
 
 -    [Istruzioni per l'installazione in Windows](https://polito-informatica.github.io/Materiale/Istruzioni/istruzioni%20installazione%20ITA-Win%202022-23.pdf)
--    [Istruzioni per l'installazione in MacOS](https://polito-informatica.github.io/Materiale/Istruzioni/istruzioni%20installazione%20ITA-Mac%202020-21.pdf)
