@@ -36,4 +36,5 @@ Atzeni, Ceri, Paraboschi, Torlone, “Basi di dati - Modelli e linguaggi di inte
 
 ## Modalità di comunicazione con i docenti
 
-Gruppo Telegram:
+- Gruppo Telegram: https://t.me/+JpDO2MYzUQFhN2Jk
+- Portale della didattica ed email per le comunicazioni ufficiali
