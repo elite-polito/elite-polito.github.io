@@ -42,9 +42,9 @@ _Legenda:_ la colonna Tipo può essere Lez=Lezione, EsT=Esercitazione "tradizion
 
 | Esercizi proposti | Da svolgere prima del ... | Soluzione |
 |----|-------------|--------|
-| SQL #1: join | 9/10 | |
-| SQL #2: GROUP BY | 16/10 | |
-| SQL #3: IN e NOT IN | 20/10 | |
+| [SQL #1](https://farinetti.github.io/materiale-bdcin/Esercizi-SQL#1.pdf): join | 9/10 | |
+| [SQL #2](https://farinetti.github.io/materiale-bdcin/Esercizi-SQL#2.pdf): GROUP BY | 16/10 | |
+| [SQL #3](https://farinetti.github.io/materiale-bdcin/Esercizi-SQL#3.pdf): IN e NOT IN | 20/10 | |
 
 
 ## Elenco delle videolezioni
