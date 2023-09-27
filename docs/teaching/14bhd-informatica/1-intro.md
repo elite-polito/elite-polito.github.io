@@ -17,7 +17,7 @@ Link breve a questa pagina: http://bit.ly/polito-informatica
 | Titolo:                | Informatica                                                                                                                              |
 | Crediti:               | 8 CFU                                                                                                                                    |
 | Anno:                  | Primo anno comune di Ingegneria                                                                                                          |
-| Divisione alfabetica:  | DIQ-JZZ - Corso 3                                                                                                                        |
+| Divisione alfabetica:  | FAJ-KOR - Corso 3                                                                                                                        |
 | Corsi di Laurea        | ing. Informatica, Elettrica, Energetica, Matematica, Elettronica, Fisica, Cinema                                                         |
 | Anno Accademico:       | 2023/2024                                                                                                                                |
 | Semestre:              | Primo semestre (settembre-gennaio)                                                                                                       |
