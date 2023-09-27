@@ -39,6 +39,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     date="04/10/2023"  time='11:30-13:00'
     topic="L02 Programmazione, Algoritmi, Pseudo-Codice"
     type='Lezione'
+    pdf='https://polito-informatica.github.io/Materiale/P1-La_Programmazione.pdf'
 />
 
 <LectureRow
