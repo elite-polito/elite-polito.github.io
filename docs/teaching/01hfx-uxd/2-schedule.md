@@ -26,13 +26,13 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 </LectureRow>
 
 <LectureRow 
-    date="06/10/2023" time="11:30-13:00"
+    date="06/10/2023" time="11:30-13:00" teacher="Irene Ronga"
     >
-    What is HCI?
+    Introduzione all'HCI (prospettiva "psicologica")
 </LectureRow>
 
 <LectureRow
-    date="06/10/2023" time="13:00-14:30"
+    date="06/10/2023" time="13:00-14:30" teacher="Irene Ronga"
     >
     Needfinding
 </LectureRow>
