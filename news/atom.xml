@@ -2,12 +2,29 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://elite.polito.it/news</id>
     <title>e-Lite Research Group Blog</title>
-    <updated>2023-09-15T00:00:00.000Z</updated>
+    <updated>2023-09-28T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://elite.polito.it/news"/>
     <subtitle>e-Lite Research Group Blog</subtitle>
     <icon>https://elite.polito.it/img/favicon.ico</icon>
     <rights>Copyright © 2023 Politecnico di Torino</rights>
+    <entry>
+        <title type="html"><![CDATA[AccessCoVE kickoff meeting at University of Macedonia]]></title>
+        <id>https://elite.polito.it/news/2023/09/28/AccessCoVE-kickoff</id>
+        <link href="https://elite.polito.it/news/2023/09/28/AccessCoVE-kickoff"/>
+        <updated>2023-09-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The AccessCoVE project held its kick-off meeting in Thessaloniki (Greece) on Semptember 2023]]></summary>
+        <content type="html"><![CDATA[<p>AccessCoVE (European Centre of Vocational Excellence in Accessibility) is an Erasmus+ project that aims to structure excellence in Vocational Education and Training in the field of Accessibility. Twenty-five partners from four different countries (Greece, Sweden, Spain, and Italy) joined their forces to establish a European multi-level innovative and constantly growing Centre of Vocational Excellence -
+the <strong>AccessCoVE</strong> - in the field of accessibility for individuals with disabilities (i.e. individuals with impairments and elders). The project is coordinated by prof. Konstantinos Papadopoulos from University of Macedonia (Thessaloniki, Greece).</p><p><img loading="lazy" alt="UoM" src="/assets/images/UoM-bc18f2afdf2e942a979983a243b90469.jpg" width="2614" height="1568" class="img_ev3q"></p><p>On Semptember 28 and 29, 2023, the project held its first (<em>kickoff</em>) meeting at University of Macedonia. Fulvio and Laura participated to the meeting, well coordinated by prof. Eleni Koustriava (Ελένη Κουστριάβα), where all the project partners (in presence or remotely) shared their view about the project workpackages, and planned the activity for the first period of the project.</p><p>More information will be available soon on the project website (currently under construction). The next plenary meeting will be in June 2024, and will be hosted by Politecnico di Torino.</p>]]></content>
+        <author>
+            <name>Fulvio Corno</name>
+            <uri>https://github.com/fulcorno</uri>
+        </author>
+        <author>
+            <name>Laura Farinetti</name>
+        </author>
+        <category label="projects" term="projects"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Courses by the e-Lite group (I semester 2023/2024)]]></title>
         <id>https://elite.polito.it/news/2023/09/15/courses-first-semester</id>
@@ -145,23 +162,5 @@ Indeed, the proposed architecture allows developers to specify the endpoints the
         </author>
         <category label="conference" term="conference"/>
         <category label="paper" term="paper"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[PitchD: "Securing the Connected Home: Extending the MUD Architecture for Smart Home Gateways"]]></title>
-        <id>https://elite.polito.it/news/2023/05/24/PitchD-Mannella</id>
-        <link href="https://elite.polito.it/news/2023/05/24/PitchD-Mannella"/>
-        <updated>2023-05-24T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[On May 24, 2023, Luca Mannella had participated in the 2nd PitchD event organized by the IEEE Student Branch of Politecnico di Torino in 2023. Luca's presentation provided insights into the recent research activities conducted by the research group on the cybersecurity of IoT systems.]]></summary>
-        <content type="html"><![CDATA[<p>Luca Mannella had participated in the 2nd PitchD event organized by the IEEE Student Branch of Politecnico di Torino in 2023. The PitchD was scheduled for May 24, 2023, from 11:00 to 12:00, in the conference room Maxwell (fifth floor of the Department of Electronics and Telecommunications) at Politecnico di Torino.</p><p>Luca's 15-minute presentation, entitled "Securing the Connected Home: Extending the MUD Architecture for Smart Home Gateways", provided insights into the recent research activities conducted by the research group on the cybersecurity of IoT systems, with a specific focus on smart homes.</p><p class="text--center"><img loading="lazy" src="/assets/images/postSquaredLM-66af95645f09267986555c2ddfe70175.jpg" alt="Luca Mannella's PitchD presentation poster" class="img_ev3q"></p><p>For those unable to attend, <a target="_blank" href="/assets/files/slides-8437a33d30da7bae1ee665ab352a8960.pdf">the slides</a> are already available online while a video recording presentation will be made available on the <a href="https://www.youtube.com/@IEEEPoliTOStudentBranch" target="_blank" rel="noopener noreferrer">IEEE Student Branch YouTube channel</a> in the following weeks.</p><hr><p>Additional information:</p><ul><li><a target="_blank" href="/assets/files/flyer-f8f656c2b2028f03df56027368b2b641.pdf">PitchD Flyer</a> (in PDF)</li><li><a target="_blank" href="/assets/files/slides-8437a33d30da7bae1ee665ab352a8960.pdf">Presented Slides</a> (in PDF)</li></ul>]]></content>
-        <author>
-            <name>Luca Mannella</name>
-            <uri>https://github.com/Sarcares</uri>
-        </author>
-        <category label="seminar" term="seminar"/>
-        <category label="event" term="event"/>
-        <category label="PitchD" term="PitchD"/>
-        <category label="IEEE" term="IEEE"/>
-        <category label="IEEE-SB" term="IEEE-SB"/>
-        <category label="student branch" term="student branch"/>
     </entry>
 </feed>
