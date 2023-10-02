@@ -21,18 +21,21 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     date="02/10/2023" time="17:30-19:00"
     topic="L01a Introduzione al corso"
     pdf="https://polito-informatica.github.io/Materiale/Unita'%200%20-%20Introduzione%20al%20corso%20(Corno).pdf"
+    video='https://youtu.be/f3tehZZBNSA'
 />
 
 <LectureRow
     date="02/10/2023" 
     topic="L01b L'ecosistema Python"
     type='Video'
+    video='https://youtu.be/dNYvofNN98c'
 />
 
 <LectureRow
     date="02/10/2023" 
     topic="L01c Informazioni pratiche"
     type='Video'
+    video='https://youtu.be/2GMNC7sC_50'
 />
 
 <LectureRow

@@ -72,4 +72,4 @@ https://www.maggiolieditore.it/python-introduzione-alla-programmazione.html
 ## Strumenti Software
 
 
--    [Istruzioni per l'installazione in Windows](https://polito-informatica.github.io/Materiale/Istruzioni/istruzioni%20installazione%20ITA-Win%202022-23.pdf)
+-    [Istruzioni per l'installazione in Windows](https://polito-informatica.github.io/Materiale/Istruzioni/istruzioni%20installazione%20ITA-Win%202023-24.pdf)
