@@ -23,7 +23,7 @@ All slides, examples, exercises, and any other material used in the classroom an
 <LectureRow
     date="02/10/2023" time="14:30-16:00"
     >
-    Introduction to the course
+    <a href="https://polito-hci-2023.github.io/materials/slides/00-intro.pdf">Introduction to the course</a>
 </LectureRow>
 
 <LectureRow 
