@@ -13,6 +13,9 @@ the **AccessCoVE** - in the field of accessibility for individuals with disabili
 
 ![UoM](./UoM.jpg)
 
+<!-- truncate -->
+
+
 On Semptember 28 and 29, 2023, the project held its first (*kickoff*) meeting at University of Macedonia. Fulvio and Laura participated to the meeting, well coordinated by prof. Eleni Koustriava (Ελένη Κουστριάβα), where all the project partners (in presence or remotely) shared their view about the project workpackages, and planned the activity for the first period of the project.
 
 More information will be available soon on the project website (currently under construction). The next plenary meeting will be in June 2024, and will be hosted by Politecnico di Torino.
