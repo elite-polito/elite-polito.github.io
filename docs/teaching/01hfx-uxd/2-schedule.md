@@ -20,8 +20,8 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 <LectureDivider topic='Settimana 1'/>{/*-------------------------------------------*/}
 
 <LectureRow
-    date="03/10/2023" time="11:30-13:00"
-    >
+    date="03/10/2023" time="11:30-13:00" type ="Lezione"
+    video={['https://www.polito.it/didattica']}>
     <ul>
     <li><a href="https://polito-uxd-2023.github.io/materiale/slides/P00-intro.pdf">Introduction to the course</a></li>
     <li><a href="https://polito-uxd-2023.github.io/materiale/slides/P01-whatisHCI.pdf">What is HCI?</a></li>
@@ -29,13 +29,13 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 </LectureRow>
 
 <LectureRow 
-    date="06/10/2023" time="11:30-13:00" teacher="Irene Ronga"
+    date="06/10/2023" time="11:30-13:00" type ="Lezione" teacher="Irene Ronga"
     >
     Introduzione all'HCI (prospettiva "psicologica")
 </LectureRow>
 
 <LectureRow
-    date="06/10/2023" time="13:00-14:30" teacher="Irene Ronga"
+    date="06/10/2023" time="13:00-14:30" type ="Lezione" teacher="Irene Ronga"
     >
     Needfinding
 </LectureRow>
