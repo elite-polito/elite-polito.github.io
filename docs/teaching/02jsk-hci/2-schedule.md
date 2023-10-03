@@ -24,19 +24,19 @@ All slides, examples, exercises, and any other material used in the classroom an
     date="02/10/2023" time="14:30-16:00"
     video="https://youtu.be/S6_VuAk8taA"
     >
-    <a href="https://polito-hci-2023.github.io/materials/slides/00-intro.pdf">Introduction to the course</a>
+    <a href="https://polito-hci-2023.github.io/materials/slides/00-intro.pdf" title="Course introduction slides in PDF">Introduction to the course</a>
 </LectureRow>
 
 <LectureRow 
     date="03/10/2023" time="17:30-19:00"
     >
-    What is HCI?
+    <a href="https://polito-hci-2023.github.io/materials/slides/01-whatisHCI.pdf" title="Slides on introduction to HCI in PDF">What is HCI?</a>
 </LectureRow>
 
 <LectureRow
     date="04/10/2023" time="13:00-14:30"
     >
-    Needfinding
+    <a href="https://polito-hci-2023.github.io/materials/slides/02-needfinding.pdf" title="Needfinding slides in PDF">Needfinding</a>
 </LectureRow>
 
 <LectureDivider/>{/*-------------------------------------------*/}
