@@ -22,7 +22,10 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 <LectureRow
     date="03/10/2023" time="11:30-13:00"
     >
-    Introduzione al corso
+    <ul>
+    <li><a href="https://polito-uxd-2023.github.io/materiale/slides/P00-intro.pdf">Introduction to the course</a></li>
+    <li><a href="https://polito-uxd-2023.github.io/materiale/slides/P01-whatisHCI.pdf">What is HCI?</a></li>
+    </ul>
 </LectureRow>
 
 <LectureRow 
