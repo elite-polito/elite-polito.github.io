@@ -21,8 +21,8 @@ Next exams, with deadlines:
 *All the deadlines are EOD (End Of Day).*
 
 - Group composition
-  - Deadline: TBD
-  - Submit the form
+  - Deadline: October 10, 2023
+  - [Submit the form](https://forms.gle/R83Yd2LysdNWrXeT9)
   - Groups-themes association
 - Assignment 1: Needfinding
   - Deadline: TBD
