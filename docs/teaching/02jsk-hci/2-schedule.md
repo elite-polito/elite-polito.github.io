@@ -29,6 +29,7 @@ All slides, examples, exercises, and any other material used in the classroom an
 
 <LectureRow 
     date="03/10/2023" time="17:30-19:00"
+    video="https://youtu.be/wWwFxNahoTA"
     >
     <a href="https://polito-hci-2023.github.io/materials/slides/01-whatisHCI.pdf" title="Slides on introduction to HCI in PDF">What is HCI?</a>
 </LectureRow>
