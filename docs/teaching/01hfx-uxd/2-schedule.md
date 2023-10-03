@@ -24,14 +24,14 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
     video={['https://www.polito.it/didattica']}>
     <ul>
     <li><a href="https://polito-uxd-2023.github.io/materiale/slides/P00-intro.pdf">Introduction to the course</a></li>
-    <li><a href="https://polito-uxd-2023.github.io/materiale/slides/P01-whatisHCI.pdf">What is HCI?</a></li>
+    <li><a href="https://polito-uxd-2023.github.io/materiale/slides/P01-whatisUXD.pdf">What is UXD?</a></li>
     </ul>
 </LectureRow>
 
 <LectureRow 
     date="06/10/2023" time="11:30-13:00" type ="Lezione" teacher="Irene Ronga"
     >
-    Introduzione all'HCI (prospettiva "psicologica")
+    Introduzione all'UXD (prospettiva "psicologica")
 </LectureRow>
 
 <LectureRow
