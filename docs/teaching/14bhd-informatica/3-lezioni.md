@@ -43,25 +43,21 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     topic="L02 Programmazione, Algoritmi, Pseudo-Codice"
     type='Lezione'
     pdf='https://polito-informatica.github.io/Materiale/P1-La_Programmazione.pdf'
+    video='https://youtu.be/_mTIX5UXMFI'
 />
-
-<LectureRow
-    date="04/10/2023" 
-    topic="L03 Diagrammi di flusso"
-    type='Video'
-/>
-
 
 <LectureRow
     date="04/10/2023" time='13:00-14:30'
-    topic="L04 Algoritmi e Linguaggi. Introduzione a Python."
+    topic="L03 Diagrammi di flusso. Introduzione a Python."
     type='Lezione'
+    video='https://youtu.be/qGZOWUclzns'
 />
 
 <LectureRow 
     date='' time=''
     topic='Esercizi della settimana'
     teacher='' type=''
+    zip='https://github.com/polito-informatica/Settimane2023/raw/main/Settimana01.zip'
 />
 
 <LectureDivider topic="Settimana 02"/>
