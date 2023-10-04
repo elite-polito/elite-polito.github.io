@@ -36,6 +36,7 @@ All slides, examples, exercises, and any other material used in the classroom an
 
 <LectureRow
     date="04/10/2023" time="13:00-14:30"
+    video="https://youtu.be/9_OdwSfnElM"
     >
     <a href="https://polito-hci-2023.github.io/materials/slides/02-needfinding.pdf" title="Needfinding slides in PDF">Needfinding</a>
 </LectureRow>
