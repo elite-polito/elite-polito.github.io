@@ -9,11 +9,11 @@ description: "Testi e soluzioni delle esercitazioni di laboratorio"
 
 Gli studenti saranno **divisi in tre squadre**:
 
-| Squadra   | Cognomi   | Orario      | Luogo |
-|-----------|-----------|-------------|-------|
-| Squadra 1 |  ???-???? | Giovedì 11:30-13:00     | Aula 3D |
-| Squadra 2 |  ???-???? | Giovedì 13:00-14:30     | Aula 3D |
-| Squadra 3 |  ???-???? | Mercoledì 16:00-17:3030 | Aula 3D |
+| Squadra   | Cognomi | Orario      | Luogo |
+|-----------|---------|-------------|-------|
+| Squadra 1 | FAL-FOT | Giovedì 11:30-13:00   | Aula 3D |
+| Squadra 2 | FRA-GIN | Giovedì 13:00-14:30   | Aula 3D |
+| Squadra 3 | GIO-KOK | Mercoledì 16:00-17:30 | Aula 3D |
 
 Modalità di svolgimento dei laboratori:
 
