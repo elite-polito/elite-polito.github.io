@@ -62,7 +62,42 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 
 <LectureDivider topic="Settimana 02"/>
 
+<LectureRow
+    date="09/10/2023" time="17:30-19:00"
+    topic="L04 Variabili, valori, espressioni"
+    pdf="https://polito-informatica.github.io/Materiale/P2-Numeri_e_stringhe.pdf"
+/>
 
+<LectureRow
+    date="11/10/2023" time="11:30-13:00"
+    topic="L05 Stringhe"
+/>
+
+<LectureRow
+    date="11/10/2023" time="13:00-14:30"
+    topic="L06 Esercizi"
+/>
+
+<LectureRow
+    date="11/10/2023" time="16:00-17:30"
+    topic="Lab01 - Squadra 3 - Flow chart e primi programmi"
+    teacher='Roberta Bardini'
+    pdf='https://github.com/polito-informatica/Laboratori/blob/main/Lab01/Lab01_testo.pdf?raw=true'
+/>
+
+<LectureRow
+    date="12/10/2023" time="11:30-13:00"
+    topic="Lab01 - Squadra 1 - Flow chart e primi programmi"
+    teacher='Roberta Bardini'
+    pdf='https://github.com/polito-informatica/Laboratori/blob/main/Lab01/Lab01_testo.pdf?raw=true'
+/>
+
+<LectureRow
+    date="12/10/2023" time="13:00-14:30"
+    topic="Lab01 - Squadra 2 - Flow chart e primi programmi"
+    teacher='Roberta Bardini'
+    pdf='https://github.com/polito-informatica/Laboratori/blob/main/Lab01/Lab01_testo.pdf?raw=true'
+/>
 
 
 </LectureTable>
