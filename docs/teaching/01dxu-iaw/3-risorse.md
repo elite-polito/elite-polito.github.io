@@ -8,7 +8,7 @@ Questa sezione contiene la lista delle applicazioni software e delle librerie ut
 
 ## Software in uso
 
-- [Python](https://www.python.org/) 3.11 (e pip)
+- [Python](https://www.python.org/) 3.11+ (e pip)
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [Google Chrome](https://www.google.com/chrome/) o [Mozilla Firefox](https://www.mozilla.org/firefox/new/) (versioni recenti: Chrome 88+ o Firefox 85+)
 - [DB Browser for SQLite](https://sqlitebrowser.org/)
