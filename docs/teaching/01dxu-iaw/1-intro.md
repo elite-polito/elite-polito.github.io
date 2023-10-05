@@ -23,7 +23,7 @@ Il materiale del corso (lezioni, esercizi e laboratori) è disponibile nella sez
 | Lingua:                | 	Italiano                                           |
 | Docente titolare:      | 	Luigi De Russis                                    |
 | Altri docenti:         | 	Juan Pablo Sáenz Moreno                            |
-| Pagina ufficiale: 	   | [Portale della didattica](https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=01DXU) |
+| Pagina ufficiale: 	   | [Portale della didattica](https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=01DXUOA) |
 | Repository GitHub:     | https://github.com/polito-iaw-2023                  |
 | Video lezioni: 	       | [Playlist YouTube](https://www.youtube.com/playlist?list=PLs7DWGc_wmwT7lSFgUpuNX80Pc7wp5rah) e Portale della Didattica          |
 | Gruppo Telegram: 	     | https://t.me/+I9aGteFGY0Y0ZjU0                      |
