@@ -37,5 +37,5 @@ Consulta la sezione Calendario per informazioni dettagliate ed eventuali variazi
 | Giorno   | Ora | Tipo | Luogo | Note |
 |----------|----|-----|------|----|
 | Lunedì   | 16:00-19:00 |Lezione/Esercitazione |Aula 3I | |
-| Giovedì  | 16:00-17:30 |Laboratorio (gruppo I) | LABINF |  |
-| Giovedì  | 17:30-19:00 |Laboratorio (gruppo II) |LABINF |  |
+| Giovedì  | 16:00-17:30 |Laboratorio (gruppo I) | LABINF | Dal 19/10 |
+| Giovedì  | 17:30-19:00 |Laboratorio (gruppo II) |LABINF | Dal 19/10 |
