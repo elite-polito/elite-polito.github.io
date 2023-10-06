@@ -23,24 +23,30 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
     date="03/10/2023" time="11:30-13:00" type ="Lezione"
     video={['https://www.polito.it/didattica']}>
     <ul>
-    <li><a href="https://polito-uxd-2023.github.io/materiale/slides/P00-intro.pdf">Introduction to the course</a></li>
-    <li><a href="https://polito-uxd-2023.github.io/materiale/slides/P01-whatisUXD.pdf">What is UXD?</a></li>
+    <li><a href="https://polito-uxd-2023.github.io/materiale/slides/00-intro.pdf">Introduction to the course</a></li>
+    <li><a href="https://polito-uxd-2023.github.io/materiale/slides/01-whatisUXD.pdf">What is UXD?</a></li>
     </ul>
 </LectureRow>
 
 <LectureRow 
     date="06/10/2023" time="11:30-13:00" type ="Lezione" teacher="Irene Ronga"
     >
-    Introduzione all'UXD (prospettiva "psicologica")
+    <a href="https://polito-uxd-2023.github.io/materiale/slides/00-intro.pdf">Needfinding</a>
 </LectureRow>
 
 <LectureRow
     date="06/10/2023" time="13:00-14:30" type ="Lezione" teacher="Irene Ronga"
     >
-    Needfinding
+    Needfinding (continua)
 </LectureRow>
 
-<LectureDivider/>{/*-------------------------------------------*/}
+<LectureDivider topic='Settimana 2'/>{/*-------------------------------------------*/}
+
+<LectureRow 
+    date="10/10/2023" time="11:30-13:00" type ="Lezione" teacher="Irene Ronga"
+    >
+    Needfinding (continua)
+</LectureRow>
 
 
 </LectureTable>
