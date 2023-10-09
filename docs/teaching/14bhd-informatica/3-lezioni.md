@@ -64,8 +64,9 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 
 <LectureRow
     date="09/10/2023" time="17:30-19:00"
-    topic="L04 Variabili, valori, espressioni"
+    topic="L04 Variabili e valori. Numeri e espressioni"
     pdf="https://polito-informatica.github.io/Materiale/P2-Numeri_e_stringhe.pdf"
+    video='https://youtu.be/UBe14inzNU4'
 />
 
 <LectureRow
