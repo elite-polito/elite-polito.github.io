@@ -23,12 +23,14 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 
 <LectureRow
     date="09/10/2023" time="16:00-17:30"
+    video="https://youtu.be/K2Tp8YXECKk"
     >
     <a href="https://polito-iaw-2023.github.io/materiale/slide/00-intro.pdf" title="Slide introduttive in PDF">Introduzione al corso</a>
 </LectureRow>
 
 <LectureRow
     date="09/10/2023" time="17:30-19:00"
+    video="https://youtu.be/jKFGAZzhev4"
     >
      <a href="https://polito-iaw-2023.github.io/materiale/slide/01-web-architectures.pdf" title="Panoramica sulle architetture web">Architetture web</a>
 </LectureRow>
