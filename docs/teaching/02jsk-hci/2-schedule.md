@@ -41,8 +41,20 @@ All slides, examples, exercises, and any other material used in the classroom an
     <a href="https://polito-hci-2023.github.io/materials/slides/02-needfinding.pdf" title="Needfinding slides in PDF">Needfinding</a>
 </LectureRow>
 
-<LectureDivider/>{/*-------------------------------------------*/}
+<LectureDivider topic='Week 02'/>{/*-------------------------------------------*/}
 
+<LectureRow
+    date="09/10/2023" time="14:30-16:00"
+    video="https://youtu.be/wu4ASikBZZ8"
+    >
+    Needfinding (cont'd)
+</LectureRow>
+
+<LectureRow 
+    date="10/10/2023" time="17:30-19:00" type="Exercise"
+    >
+    Needfinding
+</LectureRow>
 
 </LectureTable>
 
