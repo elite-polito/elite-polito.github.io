@@ -24,8 +24,8 @@ Next exams, with deadlines:
   - Deadline: October 10, 2023
   - [Submit the form](https://forms.gle/R83Yd2LysdNWrXeT9)
   - Groups-themes association
-- Assignment 1: Needfinding
-  - Deadline: TBD
+- Assignment 1: [Needfinding](https://polito-hci-2023.github.io/materials/assignments/A1-needfinding.pdf)
+  - Deadline: October 24, 2023
 - Assignment 2
   - Deadline: TBD
 - Assignment 3
