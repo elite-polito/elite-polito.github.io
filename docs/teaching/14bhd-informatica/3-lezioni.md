@@ -100,6 +100,27 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     pdf='https://github.com/polito-informatica/Laboratori/blob/main/Lab01/Lab01_testo.pdf?raw=true'
 />
 
+<LectureDivider topic="Settimana 03"/>
+
+<LectureRow
+    date="16/10/2023" time="17:30-19:00"
+    topic="L07 Rappresentazione dell'informazione"
+    pdf="https://polito-informatica.github.io/Materiale/T1-Rappresentazione_dati.pdf"
+    type='Video Lezione'
+><br/><a href='https://polito-it.zoom.us/j/86175075461?pwd=dXd6RFVVSEVCYWRSUjkzckRGUmFTZz09'>Link Zoom</a>
+</LectureRow>
+
+<LectureRow
+    date="18/10/2023" time="11:30-13:00"
+    topic="L08"
+/>
+
+<LectureRow
+    date="18/10/2023" time="13:00-14:30"
+    topic="L09"
+/>
+
+
 
 </LectureTable>
 
