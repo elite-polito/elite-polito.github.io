@@ -57,7 +57,7 @@ All slides, examples, exercises, and any other material used in the classroom an
 </LectureRow>
 
 <LectureRow variant='success'
-    date="10/10/2023" time="EOD" type=""
+    date="10/10/2023" time="EOD" type="" teacher=""
     >
     <em>Assignment 0 (group composition) due - doc with results</em>
 </LectureRow>
