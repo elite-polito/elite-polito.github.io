@@ -106,7 +106,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     date="16/10/2023" time="17:30-19:00"
     topic="L07 Rappresentazione dell'informazione"
     pdf="https://polito-informatica.github.io/Materiale/T1-Rappresentazione_dati.pdf"
-    type='Video Lezione'
+    type='Lezione on-line'
 ><br/><a href='https://polito-it.zoom.us/j/86175075461?pwd=dXd6RFVVSEVCYWRSUjkzckRGUmFTZz09'>Link Zoom</a>
 </LectureRow>
 
