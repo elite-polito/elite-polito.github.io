@@ -45,7 +45,7 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 <LectureRow
     date="09/10/2023" time="17:30-19:00" type="Esercizio"
     >
-    <a href="https://github.com/polito-iaw-2023/materiale/tree/main/esercizi/02-html/esercizio/">HTML5 (su GitHub)</a>
+    <a href="https://github.com/polito-iaw-2023/materiale/tree/main/esercizi/02-html/esercizio/">HTML5</a> (su GitHub)
 </LectureRow>
 
 <LectureDivider topic='Settimana 2'/>{/*---------------------------------------*/}
