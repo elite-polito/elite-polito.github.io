@@ -18,7 +18,7 @@ _Legenda:_ la colonna Tipo può essere Lez=Lezione, EsT=Esercitazione "tradizion
 
 | Data | Orario | Tipo | Ore | Argomento | Aula | Docente |
 |----|-------------|--------|----|------|------|-----|
-| lun 2/10/23 | 10.00-13.00 | Lez | 3 | Introduzione al corso. Introduzione alle BD. | LAIB 3B | L. Farinetti |
+|<font color="lightgray"> lun 2/10/23 | 10.00-13.00 | Lez | 3 | Introduzione al corso. Introduzione alle BD. | LAIB 3B | L. Farinetti </font>|
 | lun 9/10/23 | 10.00-11.30 | EsT | 1,5 | Esercitazione SQL#1. | LAIB 3B | L. Farinetti |
 | lun 9/10/23 | 11.30-13.00 | Cons | 1,5 | Consulenza su videolezioni/esercizi. | LAIB 3B | L. Farinetti |
 | lun 16/10/23 | 10.00-11.30 | EsT | 1,5 | Esercitazione SQL#2. | LAIB 3B | L. Farinetti |
@@ -42,7 +42,7 @@ _Legenda:_ la colonna Tipo può essere Lez=Lezione, EsT=Esercitazione "tradizion
 
 | Esercizi proposti | Da svolgere prima del ... | Soluzione |
 |----|-------------|--------|
-| [SQL #1](https://farinetti.github.io/materiale-bdcin/Esercizi-SQL_1.pdf): join | 9/10 | |
+| [SQL #1](https://farinetti.github.io/materiale-bdcin/Esercizi-SQL_1.pdf): join | 9/10 |  [Soluzioni SQL #1](https://farinetti.github.io/materiale-bdcin/Soluzioni-SQL_1.pdf) - comprende le soluzioni degli altri esercizi proposti in aula |
 | [SQL #2](https://farinetti.github.io/materiale-bdcin/Esercizi-SQL_2.pdf): GROUP BY | 16/10 | |
 | [SQL #3](https://farinetti.github.io/materiale-bdcin/Esercizi-SQL_3.pdf): IN e NOT IN | 20/10 | |
 
