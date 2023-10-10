@@ -52,6 +52,7 @@ All slides, examples, exercises, and any other material used in the classroom an
 
 <LectureRow 
     date="10/10/2023" time="17:30-19:00" type="Exercise"
+    video="https://youtu.be/uynZynu7EKE"
     >
     <a href="https://polito-hci-2023.github.io/materials/slides/02b-needfinding-exercise.pdf" title="Exercise on needfinding">Needfinding</a>
 </LectureRow>
