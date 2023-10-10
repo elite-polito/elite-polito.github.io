@@ -53,8 +53,66 @@ All slides, examples, exercises, and any other material used in the classroom an
 <LectureRow 
     date="10/10/2023" time="17:30-19:00" type="Exercise"
     >
-    Needfinding
+    <a href="https://polito-hci-2023.github.io/materials/slides/02b-needfinding-exercise.pdf" title="Exercise on needfinding">Needfinding</a>
 </LectureRow>
+
+<LectureRow variant='success'
+    date="10/10/2023" time="EOD"
+    >
+    Assignment 0 (group composition) due - doc with results
+</LectureRow>
+
+<LectureRow 
+    date="11/10/2023" time="13:00-14:30" type="Lab" teacher="Alberto Monge Roffarello"
+    >
+    <a href="https://polito-hci-2023.github.io/materials/assignments/A1-needfinding.pdf" title="First assignment">Assignment 1: Needfinding</a> (group 1)
+</LectureRow>
+
+<LectureRow 
+    date="11/10/2023" time="14:30-16:00" type="Lab" 
+    >
+    <a href="https://polito-hci-2023.github.io/materials/assignments/A1-needfinding.pdf" title="First assignment">Assignment 1: Needfinding</a> (group 2)
+</LectureRow>
+
+<LectureRow 
+    date="11/10/2023" time="16:00-17:30" type="Lab" teacher="Tommaso Calò"
+    >
+    <a href="https://polito-hci-2023.github.io/materials/assignments/A1-needfinding.pdf" title="First assignment">Assignment 1: Needfinding</a> (group 3)
+</LectureRow>
+
+<LectureDivider topic='Week 03'/>{/*-------------------------------------------*/}
+
+<LectureRow
+    date="16/10/2023" time="14:30-16:00"
+    >
+    Tasks and Analysis
+</LectureRow>
+
+<LectureRow 
+    date="17/10/2023" time="17:30-19:00" type="Exercise"
+    >
+    Tasks and Analysis
+</LectureRow>
+
+<LectureRow 
+    date="18/10/2023" time="13:00-14:30" type="Lab" teacher="Alberto Monge Roffarello"
+    >
+    Assignment 1: Needfinding (cont'd, group 1)
+</LectureRow>
+
+<LectureRow 
+    date="18/10/2023" time="14:30-16:00" type="Lab" teacher="Alberto Monge Roffarello"
+    >
+    Assignment 1: Needfinding (cont'd, group 2)
+</LectureRow>
+
+<LectureRow 
+    date="18/10/2023" time="16:00-17:30" type="Lab" teacher="Tommaso Calò"
+    >
+    Assignment 1: Needfinding (cont'd, group 3)
+</LectureRow>
+
+<LectureDivider topic='Week 04'/>{/*-------------------------------------------*/}
 
 </LectureTable>
 
