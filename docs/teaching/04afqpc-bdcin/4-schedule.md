@@ -18,7 +18,7 @@ _Legenda:_ la colonna Tipo può essere Lez=Lezione, EsT=Esercitazione "tradizion
 
 | Data | Orario | Tipo | Ore | Argomento | Aula | Docente |
 |----|-------------|--------|----|------|------|-----|
-| lun 2/10/23 | 10.00-13.00 | Lez | 3 | Introduzione al corso. Introduzione alle BD. | LAIB 3B | L. Farinetti |
+| lun 2/10/23 | 10.00-13.00 | Lez | 3 | <font color="whitesmoke"> Introduzione al corso. Introduzione alle BD. </font>| LAIB 3B | L. Farinetti |
 | lun 9/10/23 | 10.00-11.30 | EsT | 1,5 | Esercitazione SQL#1. | LAIB 3B | L. Farinetti |
 | lun 9/10/23 | 11.30-13.00 | Cons | 1,5 | Consulenza su videolezioni/esercizi. | LAIB 3B | L. Farinetti |
 | lun 16/10/23 | 10.00-11.30 | EsT | 1,5 | Esercitazione SQL#2. | LAIB 3B | L. Farinetti |
