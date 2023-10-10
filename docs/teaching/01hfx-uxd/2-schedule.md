@@ -30,12 +30,14 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 
 <LectureRow 
     date="06/10/2023" time="11:30-13:00" type ="Lezione" teacher="Irene Ronga"
+    video={['https://www.polito.it/didattica']}
     >
     <a href="https://polito-uxd-2023.github.io/materiale/slides/00-intro.pdf">Needfinding</a>
 </LectureRow>
 
 <LectureRow
     date="06/10/2023" time="13:00-14:30" type ="Lezione" teacher="Irene Ronga"
+    video={['https://www.polito.it/didattica']}
     >
     Needfinding (continua)
 </LectureRow>
