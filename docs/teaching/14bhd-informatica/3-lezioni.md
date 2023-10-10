@@ -70,6 +70,14 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 />
 
 <LectureRow
+    date="10/10/2023" time=""
+    topic='Numeri Complessi'
+    type='Video Extra'
+    video='https://youtu.be/FR5ETBIYodQ'
+/>
+
+
+<LectureRow
     date="11/10/2023" time="11:30-13:00"
     topic="L05 Stringhe"
 />
