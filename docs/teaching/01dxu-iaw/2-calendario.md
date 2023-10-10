@@ -38,13 +38,40 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 <LectureRow
     date="12/10/2023" time="16:00-17:30"
     >
-    HTML5
+    <a href="https://polito-iaw-2023.github.io/materiale/slide/02-html.pdf" title="Materiale su HTML">HTML5</a>
+    <ul><li><a href="https://github.com/polito-iaw-2023/materiale/tree/main/esercizi/02-html/">Esempio</a> (su GitHub)</li></ul>
 </LectureRow>
 
 <LectureRow
     date="09/10/2023" time="17:30-19:00" type="Esercizio"
     >
-    HTML5 (on GitHub)
+    <a href="https://github.com/polito-iaw-2023/materiale/tree/main/esercizi/02-html/esercizio/">HTML5 (su GitHub)</a>
+</LectureRow>
+
+<LectureDivider topic='Settimana 2'/>{/*---------------------------------------*/}
+
+<LectureRow
+    date="16/10/2023" time="16:00-17:30" teacher="Juan Pablo Sáenz Moreno"
+    >
+    CSS3
+</LectureRow>
+
+<LectureRow
+    date="16/10/2023" time="17:30-19:00" type="Esercizio" teacher="Juan Pablo Sáenz Moreno"
+    >
+     CSS3 (su GitHub)
+</LectureRow>
+
+<LectureRow
+    date="19/10/2023" time="16:00-17:30" type="Lab" teacher="Juan Pablo Sáenz Moreno"
+    >
+    Primi passi con HTML e CSS (gruppo I)
+</LectureRow>
+
+<LectureRow
+    date="09/10/2023" time="17:30-19:00" type="Lab" teacher="Juan Pablo Sáenz Moreno"
+    >
+    Primi passi con HTML e CSS (gruppo II)
 </LectureRow>
 
 <LectureDivider/>
