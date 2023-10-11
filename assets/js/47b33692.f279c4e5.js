@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkelite_website=self.webpackChunkelite_website||[]).push([[6643],{48590:e=>{e.exports=JSON.parse('{"permalink":"/news/tags/artificial-intelligence","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Latest News from the e-Lite research group","blogTitle":"News"}')}}]);
