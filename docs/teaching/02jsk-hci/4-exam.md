@@ -23,7 +23,7 @@ Next exams, with deadlines:
 - Group composition
   - Deadline: October 10, 2023
   - [Submit the form](https://forms.gle/R83Yd2LysdNWrXeT9)
-  - Groups-themes association
+  - [Groups-themes association](https://docs.google.com/spreadsheets/d/1onS_mR75WWrs4NwDaIapE9KAfhRxd1jm8KXIem5h_nY)
 - Assignment 1: [Needfinding](https://polito-hci-2023.github.io/materials/assignments/A1-needfinding.pdf)
   - Deadline: October 24, 2023
 - Assignment 2
