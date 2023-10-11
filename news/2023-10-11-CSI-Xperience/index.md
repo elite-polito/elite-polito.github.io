@@ -2,7 +2,7 @@
 authors: [corno]
 tags: [events, artificial intelligence]
 description: "CSI Piemonte inaugura un nuovo formato di convegno, denominato \"CSI Xperience\", sul tema della Intelligenza Artificiale e delle sue relazioni con la società."
-image: ./CTS_2023_sezione_m.jpg
+image: ./CTS_2023_sezione_M.jpg
 image_alt: CSI Xperience banner
 ---
 
@@ -13,7 +13,7 @@ L’intelligenza artificiale trova già applicazione in molti settori, come la s
 Il CSI Piemonte inaugura un nuovo formato di convegno, denominato "CSI Xperience", sul tema della Intelligenza Artificiale e delle sue relazioni con la società.
 L'evento è previsto per il **17 ottobre 2023** ed è aperto da Fulvio Corno, attuale presidente del Comitato Tecnico Scientifico del CSI.
 
-![CSI Xperience](./CTS_2023_sezione_m.jpg)
+![CSI Xperience](./CTS_2023_sezione_M.jpg)
 
 <!-- truncate -->
 
