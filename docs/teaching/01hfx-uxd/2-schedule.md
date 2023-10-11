@@ -32,7 +32,7 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
     date="06/10/2023" time="11:30-13:00" type ="Lezione" teacher="Irene Ronga"
     video={['https://www.polito.it/didattica']}
     >
-    <a href="https://polito-uxd-2023.github.io/materiale/slides/00-intro.pdf">Needfinding</a>
+    <a href="https://polito-uxd-2023.github.io/materiale/slides/02-needfinding.pdf">Needfinding</a>
 </LectureRow>
 
 <LectureRow
