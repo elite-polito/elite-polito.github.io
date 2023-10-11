@@ -60,25 +60,25 @@ All slides, examples, exercises, and any other material used in the classroom an
 <LectureRow variant='success'
     date="10/10/2023" time="EOD" type="" teacher=""
     >
-    <em>Assignment 0 (group composition) due - doc with results</em>
+    <em>Assignment 0 (group composition) due - <a href="https://docs.google.com/spreadsheets/d/1onS_mR75WWrs4NwDaIapE9KAfhRxd1jm8KXIem5h_nY" title="Groups-Themes match>doc with results</a></em>
 </LectureRow>
 
 <LectureRow 
     date="11/10/2023" time="13:00-14:30" type="Lab" teacher="Alberto Monge Roffarello"
     >
-    <a href="https://polito-hci-2023.github.io/materials/assignments/A1-needfinding.pdf" title="First assignment">Assignment 1: Needfinding</a> (group 1)
+    <a href="https://polito-hci-2023.github.io/materials/assignments/A1-needfinding.pdf" title="First assignment">Assignment 1: Needfinding</a> (<a href="https://docs.google.com/spreadsheets/d/1onS_mR75WWrs4NwDaIapE9KAfhRxd1jm8KXIem5h_nY" title="Groups-Themes match>group 1</a>)
 </LectureRow>
 
 <LectureRow 
     date="11/10/2023" time="14:30-16:00" type="Lab" 
     >
-    <a href="https://polito-hci-2023.github.io/materials/assignments/A1-needfinding.pdf" title="First assignment">Assignment 1: Needfinding</a> (group 2)
+    <a href="https://polito-hci-2023.github.io/materials/assignments/A1-needfinding.pdf" title="First assignment">Assignment 1: Needfinding</a> (<a href="https://docs.google.com/spreadsheets/d/1onS_mR75WWrs4NwDaIapE9KAfhRxd1jm8KXIem5h_nY" title="Groups-Themes match>group 2</a>)
 </LectureRow>
 
 <LectureRow 
     date="11/10/2023" time="16:00-17:30" type="Lab" teacher="Tommaso Calò"
     >
-    <a href="https://polito-hci-2023.github.io/materials/assignments/A1-needfinding.pdf" title="First assignment">Assignment 1: Needfinding</a> (group 3)
+    <a href="https://polito-hci-2023.github.io/materials/assignments/A1-needfinding.pdf" title="First assignment">Assignment 1: Needfinding</a> (<a href="https://docs.google.com/spreadsheets/d/1onS_mR75WWrs4NwDaIapE9KAfhRxd1jm8KXIem5h_nY" title="Groups-Themes match>group 3</a>)
 </LectureRow>
 
 <LectureDivider topic='Week 03'/>{/*-------------------------------------------*/}
