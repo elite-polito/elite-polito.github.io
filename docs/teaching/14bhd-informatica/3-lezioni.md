@@ -76,15 +76,16 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     video='https://youtu.be/FR5ETBIYodQ'
 />
 
-
 <LectureRow
     date="11/10/2023" time="11:30-13:00"
-    topic="L05 Stringhe"
+    topic="L05 Esercizio su espressioni. Introduzione alle Stringhe"
+    video='https://youtu.be/fnLDHDVkOwU'
 />
 
 <LectureRow
     date="11/10/2023" time="13:00-14:30"
-    topic="L06 Esercizi"
+    topic="L06 Operazioni sulle stringhe"
+    video='https://youtu.be/u0BTBG9uQ-Y'
 />
 
 <LectureRow
@@ -106,6 +107,13 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     topic="Lab01 - Squadra 2 - Flow chart e primi programmi"
     teacher='Roberta Bardini'
     pdf='https://github.com/polito-informatica/Laboratori/blob/main/Lab01/Lab01_testo.pdf?raw=true'
+/>
+
+<LectureRow 
+    date='' time=''
+    topic='Esercizi della settimana'
+    teacher='' type=''
+    zip='https://github.com/polito-informatica/Settimane2023/raw/main/Settimana02.zip'
 />
 
 <LectureDivider topic="Settimana 03"/>
