@@ -49,6 +49,30 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
     >
     Needfinding (continua)
 </LectureRow>
+<LectureRow 
+    date="13/10/2023" time="11:30-13:00" type ="Lezione"
+    >
+    <a href="https://polito-uxd-2023.github.io/materials/slides/03-tasks.pdf">Task analysis</a>
+</LectureRow>
+<LectureRow 
+    date="13/10/2023" time="11:30-13:00" type ="Esercitazione"
+    >
+    Task analysis (continua)
+</LectureRow>
+
+<LectureDivider topic='Settimana 2'/>{/*-------------------------------------------*/}
+
+<LectureRow variant='success'
+    date="16/10/2023" time="EOD" type="" teacher=""
+    >
+    <em>Assignment 0 (group composition) - deadline</em>
+</LectureRow>
+
+<LectureRow 
+    date="17/10/2023" time="11:30-13:00" type ="Laboratorio"
+    >
+    <a href="https://polito-uxd-2023.github.io/materials/assignments/A1-needfinding.pdf">Assignment 1: Needfinding</a>
+</LectureRow>
 
 
 </LectureTable>

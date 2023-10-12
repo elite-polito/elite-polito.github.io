@@ -21,10 +21,10 @@ Prossimi appelli, con scadenze:
 *Tutte le scadenze sono EOD (End Of Day).*
 
 - Composizione dei gruppi
-  - Deadline: TBD
-  - Sottometti il form
-- Assignment 1: Needfinding
-  - Deadline: TBD
+  - Deadline: 16/10/2023
+  - [Sottometti il form](https://forms.gle/XZqNXzT44cceTEAD6)
+- [Assignment 1: Needfinding](https://polito-uxd-2023.github.io/materials/assignments/A1-needfinding.pdf)
+  - Deadline: 30/10/2023
 - Assignment 2
   - Deadline: TBD
 - Assignment 3
