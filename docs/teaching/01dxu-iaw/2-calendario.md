@@ -37,6 +37,7 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 
 <LectureRow
     date="12/10/2023" time="16:00-17:30"
+    video="https://youtu.be/mxfFhfyUd1g"
     >
     <a href="https://polito-iaw-2023.github.io/materiale/slide/02-html.pdf" title="Materiale su HTML">HTML5</a>
     <ul><li><a href="https://github.com/polito-iaw-2023/materiale/tree/main/esercizi/02-html/">Esempio</a> (su GitHub)</li></ul>
@@ -44,6 +45,7 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 
 <LectureRow
     date="09/10/2023" time="17:30-19:00" type="Esercizio"
+    video="https://youtu.be/RPkBuD1LFQM"
     >
     <a href="https://github.com/polito-iaw-2023/materiale/tree/main/esercizi/02-html/esercizio/">HTML5</a> (su GitHub)
 </LectureRow>
