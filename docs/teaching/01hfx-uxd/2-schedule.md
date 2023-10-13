@@ -50,12 +50,12 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
     Needfinding (continua)
 </LectureRow>
 <LectureRow 
-    date="13/10/2023" time="11:30-13:00" type ="Lezione"
+    date="13/10/2023" time="11:30-13:00" type ="Lezione" video={['https://www.polito.it/didattica']}
     >
     <a href="https://polito-uxd-2023.github.io/materiale/slides/03-tasks.pdf">Task analysis</a>
 </LectureRow>
 <LectureRow 
-    date="13/10/2023" time="11:30-13:00" type ="Esercitazione"
+    date="13/10/2023" time="11:30-13:00" type ="Esercitazione" video={['https://www.polito.it/didattica']}
     >
     Task analysis (continua)
 </LectureRow>
