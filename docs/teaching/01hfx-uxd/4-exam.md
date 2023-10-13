@@ -23,7 +23,7 @@ Prossimi appelli, con scadenze:
 - Composizione dei gruppi
   - Deadline: 16/10/2023
   - [Sottometti il form](https://forms.gle/XZqNXzT44cceTEAD6)
-- [Assignment 1: Needfinding](https://polito-uxd-2023.github.io/materials/assignments/A1-needfinding.pdf)
+- [Assignment 1: Needfinding](https://polito-uxd-2023.github.io/materiale/assignments/A1-needfinding.pdf)
   - Deadline: 30/10/2023
 - Assignment 2
   - Deadline: TBD

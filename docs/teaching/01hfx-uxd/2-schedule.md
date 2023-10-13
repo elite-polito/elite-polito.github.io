@@ -52,7 +52,7 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 <LectureRow 
     date="13/10/2023" time="11:30-13:00" type ="Lezione"
     >
-    <a href="https://polito-uxd-2023.github.io/materials/slides/03-tasks.pdf">Task analysis</a>
+    <a href="https://polito-uxd-2023.github.io/materiale/slides/03-tasks.pdf">Task analysis</a>
 </LectureRow>
 <LectureRow 
     date="13/10/2023" time="11:30-13:00" type ="Esercitazione"
@@ -71,7 +71,7 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 <LectureRow 
     date="17/10/2023" time="11:30-13:00" type ="Laboratorio"
     >
-    <a href="https://polito-uxd-2023.github.io/materials/assignments/A1-needfinding.pdf">Assignment 1: Needfinding</a>
+    <a href="https://polito-uxd-2023.github.io/materiale/assignments/A1-needfinding.pdf">Assignment 1: Needfinding</a>
 </LectureRow>
 
 
