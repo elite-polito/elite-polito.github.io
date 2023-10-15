@@ -84,13 +84,13 @@ All slides, examples, exercises, and any other material used in the classroom an
 <LectureDivider topic='Week 03'/>{/*-------------------------------------------*/}
 
 <LectureRow
-    date="16/10/2023" time="14:30-16:00"
+    date="16/10/2023" time="14:30-16:00" type="Exercise"
     >
-    Tasks and Analysis
+    Supervised work group on interviews
 </LectureRow>
 
 <LectureRow 
-    date="17/10/2023" time="17:30-19:00" type="Exercise"
+    date="17/10/2023" time="17:30-19:00"
     >
     Tasks and Analysis
 </LectureRow>
