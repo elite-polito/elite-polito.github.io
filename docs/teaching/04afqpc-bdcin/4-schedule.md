@@ -20,7 +20,7 @@ _Legenda:_ la colonna Tipo può essere Lez=Lezione, EsT=Esercitazione "tradizion
 |----|-------------|--------|----|------|------|-----|
 | lun 16/10/23 | 10.00-11.30 | EsT | 1,5 | Esercitazione SQL#2. | LAIB 3B | L. Farinetti |
 | lun 16/10/23 | 11.30-13.00 | Cons | 1,5 | Consulenza su videolezioni/esercizi. | LAIB 3B | L. Farinetti |
-| ven 20/10/23 | 14.30-16.00 | EsT | 1,5 | Esercitazione SQL#3. | 9T | L. Farinetti |
+| ven 20/10/23 | 13.00-16.00 | EsT | 3 | Esercitazione SQL#3. | 9T | L. Farinetti |
 | lun 23/10/23 | 10.00-11.30 | Lab-sqA | 1,5 | <font color="mediumvioletred">Laboratorio #1: SQL (squadra A).</font> | LAIB 3B | L. Canale |
 | lun 23/10/23 | 11.30-13.00 | Lab-sqB | 1,5 | <font color="teal">Laboratorio #1: SQL (squadra B).</font> | LAIB 3B | L. Canale |
 | ven 27/10/23 | 13.00-16.00 | EsCCT | 3 | Esercitazione CCT#1 su SQL. | 9T | L. Farinetti |
