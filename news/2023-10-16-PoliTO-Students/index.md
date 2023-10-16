@@ -27,11 +27,11 @@ Tutto il processo è stato condotto nella logica dell'*Open Source*, tutto il co
 
 
 Maggiori informazioni:
-<img src={icon} width='20%' align='right'/>
+<img src={icon} width='20%' style={{'float':'right'}}/>
 
 - [Comunicato ufficiale di lancio dell'ateneo](https://www.polito.it/ateneo/comunicazione-e-ufficio-stampa/poliflash/lanciata-la-nuova-polito-students-app)
 - [Pagina descrittiva delle App del Politecnico](https://www.polito.it/ateneo/comunicazione-e-ufficio-stampa/polito-app)
 - [Scaricamento Versione Android](https://play.google.com/store/apps/details?id=it.polito.students)
-- Scaricamento della versione iOS (*coming soon*)
+- [Scaricamento della versione iOS](https://apps.apple.com/us/app/polito-students/id6443913305)
 - [Pagina GitHub del progetto PoliTO Students](https://github.com/polito/students-app)
 - [Profilo GitHub del Politecnico di Torino](https://github.com/polito/)
