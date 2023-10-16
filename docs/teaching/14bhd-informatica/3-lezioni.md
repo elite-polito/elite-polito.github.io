@@ -123,17 +123,39 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     topic="L07 Rappresentazione dell'informazione"
     pdf="https://polito-informatica.github.io/Materiale/T1-Rappresentazione_dati.pdf"
     type='Lezione on-line'
-><br/><a href='https://polito-it.zoom.us/j/86175075461?pwd=dXd6RFVVSEVCYWRSUjkzckRGUmFTZz09'>Link Zoom</a>
-</LectureRow>
+    video='https://youtu.be/hN0bjnQ0SL4'
+/>
 
 <LectureRow
     date="18/10/2023" time="11:30-13:00"
-    topic="L08"
+    topic="L08 Input. Decisioni (if). Confronti."
+    pdf='https://polito-informatica.github.io/Materiale/P3-Decisioni.pdf'
 />
 
 <LectureRow
     date="18/10/2023" time="13:00-14:30"
-    topic="L09"
+    topic="L09 Formattazione output. Esercizi."
+/>
+
+<LectureRow
+    date="18/10/2023" time="16:00-17:30"
+    topic="Lab02 - Squadra 3 - Variabili, aritmetica, stringhe"
+    teacher='Roberta Bardini'
+    pdf='https://github.com/polito-informatica/Laboratori/blob/main/Lab02/Lab02_testo.pdf?raw=true'
+/>
+
+<LectureRow
+    date="19/10/2023" time="11:30-13:00"
+    topic="Lab02 - Squadra 1 - Variabili, aritmetica, stringhe"
+    teacher='Roberta Bardini'
+    pdf='https://github.com/polito-informatica/Laboratori/blob/main/Lab02/Lab02_testo.pdf?raw=true'
+/>
+
+<LectureRow
+    date="19/10/2023" time="13:00-14:30"
+    topic="Lab02 - Squadra 2 - Variabili, aritmetica, stringhe"
+    teacher='Roberta Bardini'
+    pdf='https://github.com/polito-informatica/Laboratori/blob/main/Lab02/Lab02_testo.pdf?raw=true'
 />
 
 
@@ -141,3 +163,4 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 </LectureTable>
 
 
+<!-- <br/><a href='https://polito-it.zoom.us/j/86175075461?pwd=dXd6RFVVSEVCYWRSUjkzckRGUmFTZz09'>Link Zoom</a> -->
