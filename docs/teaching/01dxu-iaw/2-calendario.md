@@ -54,14 +54,16 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 
 <LectureRow
     date="16/10/2023" time="16:00-17:30" teacher="Juan Pablo Sáenz Moreno"
+    video="https://youtu.be/b1fuJl7T4tE"
     >
     <a href="https://polito-iaw-2023.github.io/materiale/slide/03-css.pdf" title="CSS3">CSS3</a>
 </LectureRow>
 
 <LectureRow
     date="16/10/2023" time="17:30-19:00" type="Esercizio" teacher="Juan Pablo Sáenz Moreno"
+    video="https://youtu.be/yPBdMv1Pl7g"
     >
-    <a href="https://github.com/polito-iaw-2023/materiale/tree/main/esercizi/03-css/esercizio/">CSS3 (su GitHub)</a>
+    <a href="https://github.com/polito-iaw-2023/materiale/tree/main/esercizi/03-css/esercizio/">CSS3</a> (su GitHub)
 </LectureRow>
 
 <LectureRow
