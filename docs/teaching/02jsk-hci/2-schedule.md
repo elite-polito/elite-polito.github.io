@@ -91,6 +91,7 @@ All slides, examples, exercises, and any other material used in the classroom an
 
 <LectureRow 
     date="17/10/2023" time="17:30-19:00"
+    video="https://youtu.be/FAj3r1CTtkI"
     >
     <a href="https://polito-hci-2023.github.io/materials/slides/03-analyzing.pdf" title="Task analysis, scenarios, and storyboards (PDF)">Analyzing and Synthetizing</a>
 </LectureRow>
