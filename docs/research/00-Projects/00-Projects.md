@@ -275,7 +275,7 @@ AccessCoVE aims to structure excellence in Vocational Education and Training in 
     title='Proxima Centauri'
     url='http://www.proxima-centauri.it/'
     period='2009-2013' >
-    We collaborated with <a href="http://www.proxima-centauri.it/">Proxima Centauri</a> in the <a href="http://www.jeerp.org/">JEERP</a> (The J-Energy Enterprise Resource Planning) project, and we provided the data (energy metering) collection layer and network indepentence functionalities, for both Residential and Industrial plants, based on the <a href="http://domoticdog.sourceforge.net">Dog</a>&nbsp;architecture.
+    We collaborated with <a href="http://www.proxima-centauri.it/">Proxima Centauri</a> in the <a href="http://www.jeerp.org/">JEERP</a> (The J-Energy Enterprise Resource Planning) project, and we provided the data (energy metering) collection layer and network independence functionalities, for both Residential and Industrial plants, based on the <a href="http://domoticdog.sourceforge.net">Dog</a>&nbsp;architecture.
 </ProjectCard>
 
 <ProjectCard
