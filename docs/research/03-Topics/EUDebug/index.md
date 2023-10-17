@@ -13,7 +13,7 @@ the joint behavior of their devices and online services by defining **trigger-ac
 camera in
 the kitchen detects a movement,then send me a Telegram message_.” Trigger-action programming is, however, a complex task
 for non-programmers, and errors made during the composition of rules may lead to unpredictable behaviors and security
-issues, e.g., a lamp that is continuously flashing or a door thatis unexpectedly unlocked. As a consequence, one of the
+issues, e.g., a lamp that is continuously flashing or a door that is unexpectedly unlocked. As a consequence, one of the
 most important and urgent challenges in this context is the need to avoid possible conflicts and to assess the
 correctness of trigger-action rules. For this purpose, we introduce **EUDebug**, a system that enables end users to
 debug
