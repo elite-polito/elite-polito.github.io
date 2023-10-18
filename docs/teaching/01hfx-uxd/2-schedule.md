@@ -57,7 +57,7 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
     <a href="https://polito-uxd-2023.github.io/materiale/slides/03-tasks.pdf">Task analysis</a>
 </LectureRow>
 
-LectureRow 
+<LectureRow 
     date="13/10/2023" time="11:30-13:00" type ="Esercitazione" video={['https://www.polito.it/didattica']}
     >
     Task analysis (continua)
