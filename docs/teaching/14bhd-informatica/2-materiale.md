@@ -41,7 +41,7 @@ Tutti i testi dei laboratori (e le relative soluzioni, che saranno disponibili n
 -    nella sezione Laboratorio
 -    nel Registro delle Lezioni
 -    nel Portale della Didattica, sotto il Materiale del corso
--    su GitHub, al seguent link: https://github.com/polito-informatica/Laboratori
+-    su GitHub, al seguente link: https://github.com/polito-informatica/Laboratori
 
 
 ## Libro di testo

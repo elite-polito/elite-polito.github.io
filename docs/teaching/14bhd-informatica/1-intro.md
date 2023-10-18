@@ -53,4 +53,4 @@ Il gruppo Telegram potrà essere usato:
 - per contatti rapidi in caso di comunicazioni urgenti
 - per fornire supporto agli studenti sugli argomenti del corso
 - per svolgere i laboratori o gli esercizi assegnati
-- per domande, richieste, charimenti, esercizi, soluzioni, ... condivisi dagli studenti o dai docenti
+- per domande, richieste, chiarimenti, esercizi, soluzioni, ... condivisi dagli studenti o dai docenti

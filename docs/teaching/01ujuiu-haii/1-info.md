@@ -34,4 +34,4 @@ Artificial Intelligence (AI) has become increasingly present and integrated in o
 ## Exam
 The exam will consist in the evaluation of three exercises proposed and developed during the class hours.
 
-A successfull completion of __three__ out of four exercises is needed to pass the exam.
+A successful completion of __three__ out of four exercises is needed to pass the exam.

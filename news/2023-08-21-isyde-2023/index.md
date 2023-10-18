@@ -14,7 +14,7 @@ The 2023 edition of the **Italian Symposium on Digital Education** (ISYDE), orga
 
 <!-- truncate -->
 
-The special session will describe the result of a survey, across 10 major Italian universities, of the practices and experiences in delivering *blended learning* courses in their institutional offers. The speakers will present the data stemming from the survey and reflect on their significance and perspectives, also on the light of the Digital Education Hub intiatives. The session is organized and coordinate by Susanna Sancassani from the METID center of Politecnico di Milano.
+The special session will describe the result of a survey, across 10 major Italian universities, of the practices and experiences in delivering *blended learning* courses in their institutional offers. The speakers will present the data stemming from the survey and reflect on their significance and perspectives, also on the light of the Digital Education Hub initiatives. The session is organized and coordinate by Susanna Sancassani from the METID center of Politecnico di Milano.
 
 Contents of the Special Plenary Session:
 
