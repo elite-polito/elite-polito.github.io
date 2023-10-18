@@ -128,13 +128,15 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 
 <LectureRow
     date="18/10/2023" time="11:30-13:00"
-    topic="L08 Input. Decisioni (if). Confronti."
+    topic="L08 Input. Formattazione output. Decisioni (if)."
     pdf='https://polito-informatica.github.io/Materiale/P3-Decisioni.pdf'
+    video='https://youtu.be/cIxbZjwEt4w'
 />
 
 <LectureRow
     date="18/10/2023" time="13:00-14:30"
-    topic="L09 Formattazione output. Esercizi."
+    topic="L09 Confronti. Espressioni booleane."
+    video='https://youtu.be/cIxbZjwEt4w'
 />
 
 <LectureRow
@@ -158,6 +160,12 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     pdf='https://github.com/polito-informatica/Laboratori/blob/main/Lab02/Lab02_testo.pdf?raw=true'
 />
 
+<LectureRow 
+    date='' time=''
+    topic='Esercizi della settimana'
+    teacher='' type=''
+    zip='https://github.com/polito-informatica/Settimane2023/raw/main/Settimana03.zip'
+/>
 
 
 </LectureTable>
