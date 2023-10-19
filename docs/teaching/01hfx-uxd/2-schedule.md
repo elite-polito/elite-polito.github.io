@@ -80,13 +80,13 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 <LectureRow 
     date="20/10/2023" time="11:30-13:00" type ="Lezione" teacher="Irene Ronga"
     >
-    <a href="https://polito-uxd-2023.github.io/materiale/slides/02-needfinding.pdf">Interazione con Intelligenza Artificiale</a>
+    <a href="https://polito-uxd-2023.github.io/materiale/slides/04-AIinteraction.pdf">Interazione con Intelligenza Artificiale</a>
 </LectureRow>
 
 <LectureRow
     date="20/10/2023" time="13:00-14:30" type ="Esercitazione" teacher="Irene Ronga"
     >
-    Needfinding sul tema del "digital trust"
+   Interazione con Intelligenza Artificiale (continua)
 </LectureRow>
 
 </LectureTable>
