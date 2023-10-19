@@ -27,7 +27,7 @@ Il materiale del corso (lezioni, esercizi e laboratori) è disponibile nella sez
 | Repository GitHub:     | https://github.com/polito-iaw-2023                  |
 | Video lezioni: 	       | [Playlist YouTube](https://www.youtube.com/playlist?list=PLs7DWGc_wmwT7lSFgUpuNX80Pc7wp5rah) e Portale della Didattica          |
 | Gruppo Telegram: 	     | https://t.me/+I9aGteFGY0Y0ZjU0                      |
-| Laboratorio:           | Suddivisione gruppi                                 |
+| Laboratorio:           | [Suddivisione gruppi](https://polito-iaw-2023.github.io/materiale/suddivisione-labs/suddivisione-labs.pdf)                               |
 
 
 ## Orario delle lezioni
