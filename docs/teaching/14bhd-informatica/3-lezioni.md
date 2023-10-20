@@ -167,6 +167,131 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     zip='https://github.com/polito-informatica/Settimane2023/raw/main/Settimana03.zip'
 />
 
+<LectureDivider topic="Settimana 04"/>
+
+<LectureRow
+    date="23/10/2023" time="17:30-19:00"
+    topic="L10 Esercizi su condizionali ed analisi stringhe. Es. 'Briscola'"
+/>
+
+<LectureRow
+    date="25/10/2023" time="11:30-13:00"
+    topic="L11 Cicli while"
+    pdf='https://polito-informatica.github.io/Materiale/P4-Cicli.pdf'
+/>
+
+<LectureRow
+    date="25/10/2023" time="13:00-14:30"
+    topic="L12 Cicli for"
+/>
+
+<LectureRow
+    date="25/10/2023" time="16:00-17:30"
+    topic="Lab03 - Squadra 3 - Espressioni. Costrutti condizionali."
+    teacher='Roberta Bardini'
+    pdf='https://github.com/polito-informatica/Laboratori/blob/main/Lab03/Lab03_testo.pdf?raw=true'
+/>
+
+<LectureRow
+    date="26/10/2023" time="11:30-13:00"
+    topic="Lab03 - Squadra 1 - Espressioni. Costrutti condizionali."
+    teacher='Roberta Bardini'
+    pdf='https://github.com/polito-informatica/Laboratori/blob/main/Lab03/Lab03_testo.pdf?raw=true'
+/>
+
+<LectureRow
+    date="26/10/2023" time="13:00-14:30"
+    topic="Lab03 - Squadra 2 - Espressioni. Costrutti condizionali."
+    teacher='Lorenzo Martini'
+    pdf='https://github.com/polito-informatica/Laboratori/blob/main/Lab03/Lab03_testo.pdf?raw=true'
+/>
+
+<LectureRow 
+    date='' time=''
+    topic='Esercizi della settimana'
+    teacher='' type=''
+/>
+
+<LectureDivider topic="Settimana 05"/>
+
+<LectureRow
+    date="30/10/2023" time="17:30-19:00"
+    topic="L13 Esercizi su cicli"
+/>
+
+<LectureRow
+    variant='danger'
+    date="01/11/2023"
+    type='🎃'
+    topic="Festività - Non ci sono lezioni. La Squadra 3 di laboratorio è spostata nei turni delle Squadre 1 e 2"
+/>
+
+<LectureRow
+    date="02/11/2023" time="11:30-13:00"
+    topic="Lab04 - Squadra 1 + Squadra 3 - Cicli while e for"
+    teacher='Roberta Bardini'
+    pdf='https://github.com/polito-informatica/Laboratori/blob/main/Lab04/Lab04_testo.pdf?raw=true'
+/>
+
+<LectureRow
+    date="02/11/2023" time="13:00-14:30"
+    topic="Lab04 - Squadra 2 + Squadra 3 - Cicli while e for"
+    teacher='Lorenzo Martini'
+    pdf='https://github.com/polito-informatica/Laboratori/blob/main/Lab04/Lab04_testo.pdf?raw=true'
+/>
+
+<LectureRow 
+    date='' time=''
+    topic='Esercizi della settimana'
+    teacher='' type=''
+/>
+
+<LectureDivider topic="Settimana 06"/>
+
+
+<LectureRow
+    date="06/11/2023" time="17:30-19:00"
+    topic="L14 Esercizi"
+    teacher='Roberta Bardini'
+/>
+
+<LectureRow
+    date="08/11/2023" time="11:30-13:00"
+    topic="L15 Esercizi"
+/>
+
+<LectureRow
+    date="08/11/2023" time="13:00-14:30"
+    topic="L16 Esercizi"
+/>
+
+<LectureRow
+    date="08/11/2023" time="16:00-17:30"
+    topic="Lab05 - Squadra 3 - Ripasso Condizionali e Cicli."
+    teacher='Roberta Bardini'
+    pdf='https://github.com/polito-informatica/Laboratori/blob/main/Lab05/Lab05_testo.pdf?raw=true'
+/>
+
+<LectureRow
+    date="08/11/2023" time="11:30-13:00"
+    topic="Lab05 - Squadra 1 - Ripasso Condizionali e Cicli."
+    teacher='Roberta Bardini'
+    pdf='https://github.com/polito-informatica/Laboratori/blob/main/Lab05/Lab05_testo.pdf?raw=true'
+/>
+
+<LectureRow
+    date="08/11/2023" time="13:00-14:30"
+    topic="Lab05 - Squadra 2 - Ripasso Condizionali e Cicli."
+    teacher='Lorenzo Martini'
+    pdf='https://github.com/polito-informatica/Laboratori/blob/main/Lab05/Lab05_testo.pdf?raw=true'
+/>
+
+<LectureRow 
+    date='' time=''
+    topic='Esercizi della settimana'
+    teacher='' type=''
+/>
+
 
 </LectureTable>
 
