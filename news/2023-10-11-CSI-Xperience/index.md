@@ -19,10 +19,10 @@ L'evento è previsto per il **17 ottobre 2023** ed è aperto da Fulvio Corno, at
 
 L'evento è organizzato in due fasi:
 
-- [Intelligenza artificiale o aumentata? Verso una nuova relazione tra uomo e macchina](https://www.csipiemonte.it/it/evento/intelligenza-artificiale-aumentata): convegno in presenza ed in streaming con l'intervento di relatori esperti di AI nella Pubblica Amministrazione, nel Lavoro ed Etica, nell'Educazione e Didattica, nell'Arte e Creatività. Il convegno sarà 
+- [Intelligenza artificiale o aumentata? Verso una nuova relazione tra uomo e macchina](https://www.csipiemonte.it/it/evento/intelligenza-artificiale-aumentata): convegno in presenza ed in streaming con l'intervento di relatori esperti di AI nella Pubblica Amministrazione, nel Lavoro ed Etica, nell'Educazione e Didattica, nell'Arte e Creatività. 
 - [L'intelligenza artificiale vista da vicino](https://www.csipiemonte.it/it/evento/lintelligenza-artificiale-vista-vicino): Percorsi guidati con ingressi ogni ora in CSI Next, sede della Casa delle Tecnologie Emergenti di Torino. Robot, assistenti virtuali, giochi e chat basate su AI generativa, musica e film.
 
 Maggiori informazioni:
 
-- [Programma del convegno (17/10, mattina)](https://www.csipiemonte.it/it/evento/intelligenza-artificiale-aumentata)
+- [Programma del convegno (17/10, mattina)](https://www.csipiemonte.it/it/evento/intelligenza-artificiale-aumentata), con le video registrazioni degli interventi
 - [Programma delle esperienze pratiche (17/10, pomeriggio)](https://www.csipiemonte.it/it/evento/lintelligenza-artificiale-vista-vicino)
