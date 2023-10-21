@@ -73,9 +73,34 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 </LectureRow>
 
 <LectureRow
-    date="09/10/2023" time="17:30-19:00" type="Lab" teacher="Juan Pablo Sáenz Moreno"
+    date="19/10/2023" time="17:30-19:00" type="Lab" teacher="Juan Pablo Sáenz Moreno"
     >
     <a href="https://polito-iaw-2023.github.io/materiale/laboratori/lab-01/lab-01-primi-passi-html-css.pdf">Primi passi con HTML e CSS (gruppo II)</a>
+</LectureRow>
+
+<LectureDivider/>
+
+<LectureDivider topic='Settimana 3'/>{/*---------------------------------------*/}
+
+<LectureRow
+    date="23/10/2023" time="16:00-17:30" teacher="Juan Pablo Sáenz Moreno"
+    >
+    <a href="https://polito-iaw-2023.github.io/materiale/slide/04-more-css.pdf" title="CSS3: aspetti avanzati">CSS3: aspetti avanzati</a>
+</LectureRow>
+
+<LectureRow
+    date="23/10/2023" time="17:30-19:00" type="Esercizio" teacher="Juan Pablo Sáenz Moreno"
+    >
+</LectureRow>
+
+<LectureRow
+    date="26/10/2023" time="16:00-17:30" type="Lab" teacher="Juan Pablo Sáenz Moreno"
+    >
+</LectureRow>
+
+<LectureRow
+    date="26/10/2023" time="17:30-19:00" type="Lab" teacher="Juan Pablo Sáenz Moreno"
+    >
 </LectureRow>
 
 <LectureDivider/>
