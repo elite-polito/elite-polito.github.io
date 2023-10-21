@@ -78,8 +78,6 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
     <a href="https://polito-iaw-2023.github.io/materiale/laboratori/lab-01/lab-01-primi-passi-html-css.pdf">Primi passi con HTML e CSS (gruppo II)</a>
 </LectureRow>
 
-<LectureDivider/>
-
 <LectureDivider topic='Settimana 3'/>{/*---------------------------------------*/}
 
 <LectureRow
@@ -102,8 +100,6 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
     date="26/10/2023" time="17:30-19:00" type="Lab" teacher="Juan Pablo Sáenz Moreno"
     >
 </LectureRow>
-
-<LectureDivider/>
 
 </LectureTable>
 
