@@ -33,3 +33,10 @@ description: "Materiale didattico (slide, documenti, link, ...)"
     - Blocco 2: [Testo](https://farinetti.github.io/materiale-bdcin/EsSQL_2-Testo.pdf) e Soluzione
     - Blocco 3: [Testo](https://farinetti.github.io/materiale-bdcin/EsSQL_3-Testo.pdf) e Soluzione
     - Blocco 4: [Testo](https://farinetti.github.io/materiale-bdcin/EsSQL_4-Testo.pdf) e Soluzione
+
+## Laboratori
+
+- Laboratorio 1: 23/10
+    - [Testo](https://farinetti.github.io/materiale-bdcin/Lab-1-testo.pdf)
+    - [Risultati attesi](https://farinetti.github.io/materiale-bdcin/Lab-1-risultati_attesi.pdf)
+    - Soluzioni
