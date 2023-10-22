@@ -171,8 +171,10 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 
 <LectureRow
     date="23/10/2023" time="17:30-19:00"
-    topic="L10 Esercizi su condizionali ed analisi stringhe. Es. 'Briscola'"
-/>
+    topic="L10 Esercizi su condizionali ed analisi stringhe. "
+>
+<a href='https://github.com/polito-informatica/Settimane2023/blob/main/Settimana03/briscola.md'>Esercizio "Briscola"</a> e <a href='https://github.com/polito-informatica/Settimane2023/blob/main/Settimana04/esercizi.md'>altri esercizi proposti</a>.
+</LectureRow>
 
 <LectureRow
     date="25/10/2023" time="11:30-13:00"
