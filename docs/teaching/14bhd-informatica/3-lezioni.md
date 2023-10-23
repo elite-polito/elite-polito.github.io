@@ -171,20 +171,21 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 
 <LectureRow
     date="23/10/2023" time="17:30-19:00"
-    topic="L10 Esercizi su condizionali ed analisi stringhe. "
+    topic="L10 Esercizio (Briscola) "
+    video='https://youtu.be/dRY1i5Ofns8'
 >
 <a href='https://github.com/polito-informatica/Settimane2023/blob/main/Settimana03/briscola.md'>Esercizio "Briscola"</a> e <a href='https://github.com/polito-informatica/Settimane2023/blob/main/Settimana04/esercizi.md'>altri esercizi proposti</a>.
 </LectureRow>
 
 <LectureRow
     date="25/10/2023" time="11:30-13:00"
-    topic="L11 Cicli while"
+    topic="L11 Esercizi. Cicli while."
     pdf='https://polito-informatica.github.io/Materiale/P4-Cicli.pdf'
 />
 
 <LectureRow
     date="25/10/2023" time="13:00-14:30"
-    topic="L12 Cicli for"
+    topic="L12 Cicli while"
 />
 
 <LectureRow
