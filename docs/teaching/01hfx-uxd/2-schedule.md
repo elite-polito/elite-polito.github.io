@@ -89,6 +89,40 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
    Interazione con Intelligenza Artificiale (continua)
 </LectureRow>
 
+<LectureDivider topic='Settimana 3'/>{/*-------------------------------------------*/}
+
+<LectureRow 
+    date="24/10/2023" time="11:30-13:00" type ="Laboratorio"
+    >
+    <a href="https://polito-uxd-2023.github.io/materiale/assignments/A1-needfinding.pdf">Assignment 1: Needfinding</a>
+</LectureRow>
+
+<LectureRow 
+    date="27/10/2023" time="11:30-13:00" type ="Lezione" teacher="Irene Ronga"
+    >
+   Bias cognitivi nel needfinding
+</LectureRow>
+
+<LectureRow
+    date="27/10/2023" time="13:00-14:30" type ="Laboratorio" teacher="Irene Ronga"
+    >
+    <a href="https://polito-uxd-2023.github.io/materiale/assignments/A1-needfinding.pdf">Assignment 1: Needfinding</a>
+</LectureRow>
+
+<LectureDivider topic='Settimana 4'/>{/*-------------------------------------------*/}
+
+<LectureRow variant='success'
+    date="30/10/2023" time="EOD" type="" teacher=""
+    >
+    <em>Assignment 1 - deadline</em>
+</LectureRow>
+
+<LectureRow 
+    date="31/10/2023" time="11:30-13:00" type ="Laboratorio"
+    >
+    Sessione di feedback su Assignment 1
+</LectureRow>
+
 </LectureTable>
 
 
