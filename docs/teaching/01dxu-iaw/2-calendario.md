@@ -89,7 +89,7 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 <LectureRow
     date="23/10/2023" time="17:30-19:00" type="Esercizio" teacher="Juan Pablo Sáenz Moreno"
     >
-    <a href="https://github.com/polito-iaw-2023/materiale/tree/main/esercizi/04-more-css/esercizio/">CSS3: aspetti avanzati</a> (su GitHub)
+    <a href="https://github.com/polito-iaw-2023/materiale/tree/main/esercizi/04-more-css/">CSS3: aspetti avanzati</a> (su GitHub)
 </LectureRow>
 
 <LectureRow
