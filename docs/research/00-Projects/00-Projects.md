@@ -31,9 +31,9 @@ import {ProjectCard} from '@site/src/components/Projects'
 ## European projects
 
 <ProjectCard
-    icon={undefined}
+    icon='AccessCoVE.png'
     title='AccessCoVE'
-    url={undefined}
+    url='/research/Projects/AccessCoVE'
     period='2023 - 2027'>
 AccessCoVE aims to structure excellence in Vocational Education and Training in the field of Accessibility. Twenty-five partners from four different countries (Greece, Sweden, Spain, and Italy) joined their forces to establish a European multi-level innovative and constantly growing Centre of Vocational Excellence - the AccessCoVE - in the field of accessibility for individuals with disabilities (i.e. individuals with impairments and elders).
 </ProjectCard>
