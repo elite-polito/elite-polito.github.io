@@ -112,7 +112,7 @@ All slides, examples, exercises, and any other material used in the classroom an
 
 <LectureRow
     date="14/10/2022" time="16:00-17:30"
-    teacher='Tommaso Calò'
+    teacher='All'
     type='Lab' >
     Assignment 1: Feedback and discussion (all groups)
 </LectureRow>

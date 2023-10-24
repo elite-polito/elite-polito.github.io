@@ -116,6 +116,42 @@ All slides, examples, exercises, and any other material used in the classroom an
 
 <LectureDivider topic='Week 04'/>{/*-------------------------------------------*/}
 
+<LectureRow
+    date="23/10/2023" time="14:30-16:00"
+    video="https://youtu.be/vpZgjmfiSPQ"
+    >
+    Analyzing and Synthetizing (cont'd)
+</LectureRow>
+
+<LectureRow 
+    date="24/10/2023" time="17:30-19:00" type="Exercise"
+    >
+    <a href="https://polito-hci-2023.github.io/materials/slides/03b-analyzing-exercise.pdf" title="Exercise on tasks and storyboards (PDF)">Exercise on Tasks and Storyboards</a>
+</LectureRow>
+
+<LectureRow variant="success" date="24/10/2023" time="EOD" teacher="" type="">
+    <em>Assignment 1 (needfinding) due</em>
+</LectureRow>
+
+<LectureRow 
+    date="25/10/2023" time="13:00-14:30" type="Lab" teacher="All"
+    >
+    Assignment 1: Feedback and discussion (all groups)
+</LectureRow>
+
+<LectureRow 
+    date="25/10/2023" time="14:30-16:00" type="Lab" teacher="All"
+    >
+    Assignment 1: Feedback and discussion (all groups)
+</LectureRow>
+
+<LectureRow 
+    date="25/10/2023" time="16:00-17:30" type="Lab" teacher="All"
+    >
+    Assignment 1: Feedback and discussion (all groups)
+</LectureRow>
+
+<LectureDivider topic='Week 05'/>{/*-------------------------------------------*/}
 </LectureTable>
 
 ## Video lectures
