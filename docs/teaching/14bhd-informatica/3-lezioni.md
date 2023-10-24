@@ -171,10 +171,10 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 
 <LectureRow
     date="23/10/2023" time="17:30-19:00"
-    topic="L10 Esercizio (Briscola) "
+    topic="L10 Esercizio (Briscola)"
     video='https://youtu.be/dRY1i5Ofns8'
 >
-<a href='https://github.com/polito-informatica/Settimane2023/blob/main/Settimana03/briscola.md'>Esercizio "Briscola"</a> e <a href='https://github.com/polito-informatica/Settimane2023/blob/main/Settimana04/esercizi.md'>altri esercizi proposti</a>.
+<br/><a href='https://github.com/polito-informatica/Settimane2023/blob/main/Settimana03/briscola.md'>Esercizio "Briscola"</a> e <a href='https://github.com/polito-informatica/Settimane2023/blob/main/Settimana04/esercizi.md'>altri esercizi proposti</a>.
 </LectureRow>
 
 <LectureRow
@@ -223,11 +223,26 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 />
 
 <LectureRow
+    variant='warning'
+    date="31/10/2023" time="16:00-17:30"
+    topic="L14 Rappresentazione dell'informazione (seconda parte)"
+    type='Lezione on-line'
+>
+<br/><a href='https://polito-it.zoom.us/j/86175075461?pwd=dXd6RFVVSEVCYWRSUjkzckRGUmFTZz09'>Link Zoom</a> 
+</LectureRow>
+
+
+<LectureRow
     variant='danger'
     date="01/11/2023"
     type='🎃'
-    topic="Festività - Non ci sono lezioni. La Squadra 3 di laboratorio è spostata nei turni delle Squadre 1 e 2"
-/>
+    topic="Festività - Non ci sono lezioni."
+>
+<ul style={{'lineHeight':'95%', 'fontSize': '90%', 'marginBottom':'3pt'}}>
+<li>La lezione viene recuperata (parzialmente) il giorno precedente in modalità on-line</li>
+<li>La Squadra 3 di laboratorio è spostata nei turni delle Squadre 1 e 2</li>
+</ul>
+</LectureRow>
 
 <LectureRow
     date="02/11/2023" time="11:30-13:00"
@@ -254,18 +269,18 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 
 <LectureRow
     date="06/11/2023" time="17:30-19:00"
-    topic="L14 Esercizi"
+    topic="L15 Esercizi"
     teacher='Roberta Bardini'
 />
 
 <LectureRow
     date="08/11/2023" time="11:30-13:00"
-    topic="L15 Esercizi"
+    topic="L16 Esercizi"
 />
 
 <LectureRow
     date="08/11/2023" time="13:00-14:30"
-    topic="L16 Esercizi"
+    topic="L17 Esercizi"
 />
 
 <LectureRow
