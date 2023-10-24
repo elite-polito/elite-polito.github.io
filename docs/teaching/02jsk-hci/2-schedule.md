@@ -125,6 +125,7 @@ All slides, examples, exercises, and any other material used in the classroom an
 
 <LectureRow 
     date="24/10/2023" time="17:30-19:00" type="Exercise"
+    video="https://youtu.be/OsPlTPsB2Oo"
     >
     <a href="https://polito-hci-2023.github.io/materials/slides/03b-analyzing-exercise.pdf" title="Exercise on tasks and storyboards (PDF)">Exercise on Tasks and Storyboards</a>
 </LectureRow>
