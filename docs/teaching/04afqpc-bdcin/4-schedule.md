@@ -18,11 +18,6 @@ _Legenda:_ la colonna Tipo può essere Lez=Lezione, EsT=Esercitazione "tradizion
 
 | Data | Orario | Tipo | Ore | Argomento | Aula | Docente |
 |----|-------------|--------|----|------|------|-----|
-| lun 16/10/23 | 10.00-11.30 | EsT | 1,5 | Esercitazione SQL#2. | LAIB 3B | L. Farinetti |
-| lun 16/10/23 | 11.30-13.00 | Cons | 1,5 | Consulenza su videolezioni/esercizi. | LAIB 3B | L. Farinetti |
-| ven 20/10/23 | 13.00-16.00 | EsT | 3 | Esercitazione SQL#3. | 9T | L. Farinetti |
-| lun 23/10/23 | 10.00-11.30 | Lab-sqA | 1,5 | <font color="mediumvioletred">Laboratorio #1: SQL (squadra A).</font> | LAIB 3B | L. Canale |
-| lun 23/10/23 | 11.30-13.00 | Lab-sqB | 1,5 | <font color="teal">Laboratorio #1: SQL (squadra B).</font> | LAIB 3B | L. Canale |
 | ven 27/10/23 | 13.00-16.00 | EsCCT | 3 | Esercitazione CCT#1 su SQL. | 9T | L. Farinetti |
 | lun 30/10/23 | 10.00-11.30 | Lab-sqB | 1,5 | <font color="teal">Laboratorio #2: SQL (squadra B).</font> | LAIB 3B | L. Canale |
 | lun 30/10/23 | 11.30-13.00 | Lab-sqA | 1,5 | <font color="mediumvioletred">Laboratorio #2: SQL (squadra A).</font> | LAIB 3B | L. Canale |
@@ -43,6 +38,7 @@ _Legenda:_ la colonna Tipo può essere Lez=Lezione, EsT=Esercitazione "tradizion
 | [SQL #2](https://farinetti.github.io/materiale-bdcin/Esercizi-SQL_2.pdf): GROUP BY | 16/10 | [Soluzioni SQL #2](https://farinetti.github.io/materiale-bdcin/Soluzioni-SQL_2.pdf) - comprende le soluzioni degli altri esercizi proposti in aula |
 | [SQL #3](https://farinetti.github.io/materiale-bdcin/Esercizi-SQL_3.pdf): IN e NOT IN | 20/10 | [Soluzioni SQL #3](https://farinetti.github.io/materiale-bdcin/Soluzioni-SQL_3.pdf) - comprende le soluzioni degli altri esercizi proposti in aula |
 | [CCT #1](https://farinetti.github.io/materiale-bdcin/Esercizi-CCT_1.pdf) | 27/10 | |
+| [SQL #4](https://farinetti.github.io/materiale-bdcin/Esercizi-SQL_4.pdf): EXISTS, correlazione, divisione, table function | 3/11 | |
 
 ## Elenco delle videolezioni
 
