@@ -136,19 +136,19 @@ All slides, examples, exercises, and any other material used in the classroom an
 <LectureRow 
     date="25/10/2023" time="13:00-14:30" type="Lab" teacher="All"
     >
-    Assignment 1: Feedback and discussion (all groups)
+    Assignment 1: Feedback and discussion (<a href="https://docs.google.com/spreadsheets/d/1NngPG8eniNBA2pFE4qbOaYt1zSBjm6HF8UrwcEfHo_w" title="Schedule for the feedback session">schedule for all groups</a>)
 </LectureRow>
 
 <LectureRow 
     date="25/10/2023" time="14:30-16:00" type="Lab" teacher="All"
     >
-    Assignment 1: Feedback and discussion (all groups)
+    Assignment 1: Feedback and discussion (<a href="https://docs.google.com/spreadsheets/d/1NngPG8eniNBA2pFE4qbOaYt1zSBjm6HF8UrwcEfHo_w" title="Schedule for the feedback session">schedule for all groups</a>)
 </LectureRow>
 
 <LectureRow 
     date="25/10/2023" time="16:00-17:30" type="Lab" teacher="All"
     >
-    Assignment 1: Feedback and discussion (all groups)
+    Assignment 1: Feedback and discussion (<a href="https://docs.google.com/spreadsheets/d/1NngPG8eniNBA2pFE4qbOaYt1zSBjm6HF8UrwcEfHo_w" title="Schedule for the feedback session">schedule for all groups</a>)
 </LectureRow>
 
 <LectureDivider topic='Week 05'/>{/*-------------------------------------------*/}
