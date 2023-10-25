@@ -172,20 +172,26 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 <LectureRow
     date="23/10/2023" time="17:30-19:00"
     topic="L10 Esercizio (Briscola)"
+    type='Esercitazione'
     video='https://youtu.be/dRY1i5Ofns8'
 >
-<br/><a href='https://github.com/polito-informatica/Settimane2023/blob/main/Settimana03/briscola.md'>Esercizio "Briscola"</a> e <a href='https://github.com/polito-informatica/Settimane2023/blob/main/Settimana04/esercizi.md'>altri esercizi proposti</a>.
+<br/><a href='https://github.com/polito-informatica/Settimane2023/blob/main/Settimana03/briscola.md'>Esercizio "Briscola"</a>.
 </LectureRow>
 
 <LectureRow
     date="25/10/2023" time="11:30-13:00"
-    topic="L11 Esercizi. Cicli while."
-    pdf='https://polito-informatica.github.io/Materiale/P4-Cicli.pdf'
-/>
+    topic="L11 Esercizi"
+    type='Esercitazione'
+    video='https://youtu.be/5NjxjlHy3zU'
+>
+<br/><a href='https://github.com/polito-informatica/Settimane2023/blob/main/Settimana04/esercizi.md'>Esercizi proposti</a>.
+</LectureRow>
 
 <LectureRow
     date="25/10/2023" time="13:00-14:30"
     topic="L12 Cicli while"
+    pdf='https://polito-informatica.github.io/Materiale/P4-Cicli.pdf'
+    video='https://youtu.be/ZXS34El6d6c'
 />
 
 <LectureRow
@@ -213,13 +219,14 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     date='' time=''
     topic='Esercizi della settimana'
     teacher='' type=''
+    zip='https://github.com/polito-informatica/Settimane2023/raw/main/Settimana04.zip'
 />
 
 <LectureDivider topic="Settimana 05"/>
 
 <LectureRow
     date="30/10/2023" time="17:30-19:00"
-    topic="L13 Esercizi su cicli"
+    topic="L13 Cicli while"
 />
 
 <LectureRow
