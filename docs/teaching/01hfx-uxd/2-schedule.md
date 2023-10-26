@@ -100,7 +100,7 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 <LectureRow 
     date="27/10/2023" time="11:30-13:00" type ="Lezione" teacher="Irene Ronga"
     >
-   Bias cognitivi nel needfinding
+   <a href="https://polito-uxd-2023.github.io/materiale/slides/05-gamification.pdf">Approcci gamificati</a>
 </LectureRow>
 
 <LectureRow
