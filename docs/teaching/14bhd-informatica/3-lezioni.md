@@ -127,6 +127,13 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 />
 
 <LectureRow
+    date="17/10/2023" time=""
+    topic='Calcolo simbolico (SymPy)'
+    type='Video Extra'
+    video='https://youtu.be/qQc83MPkscI'
+/>
+
+<LectureRow
     date="18/10/2023" time="11:30-13:00"
     topic="L08 Input. Formattazione output. Decisioni (if)."
     pdf='https://polito-informatica.github.io/Materiale/P3-Decisioni.pdf'
@@ -213,6 +220,13 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     topic="Lab03 - Squadra 2 - Espressioni. Costrutti condizionali."
     teacher='Lorenzo Martini'
     pdf='https://github.com/polito-informatica/Laboratori/blob/main/Lab03/Lab03_testo.pdf?raw=true'
+/>
+
+<LectureRow
+    date="27/10/2023" time=""
+    topic='Espressioni Regolari (Regex)'
+    type='Video Extra'
+    video='https://youtu.be/6ypb-rkIt_Q'
 />
 
 <LectureRow 
