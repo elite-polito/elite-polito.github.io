@@ -39,7 +39,11 @@ description: "Materiale didattico (slide, documenti, link, ...)"
 
 ## Laboratori
 
-- Laboratorio 1: 23/10
+- Laboratorio #1: 23/10
     - [Testo](https://farinetti.github.io/materiale-bdcin/Lab1-testo.pdf)
     - [Risultati attesi](https://farinetti.github.io/materiale-bdcin/Lab-1-risultati_attesi.pdf)
+    - Soluzioni
+- Laboratorio #2: 30/10
+    - [Testo](https://farinetti.github.io/materiale-bdcin/Lab-2-testo.pdf)
+    - [Risultati attesi](https://farinetti.github.io/materiale-bdcin/Lab-2-risultati_attesi.pdf)
     - Soluzioni
