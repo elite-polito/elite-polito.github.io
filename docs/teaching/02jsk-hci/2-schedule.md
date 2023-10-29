@@ -153,6 +153,88 @@ All slides, examples, exercises, and any other material used in the classroom an
 </LectureRow>
 
 <LectureDivider topic='Week 05'/>{/*-------------------------------------------*/}
+
+<LectureRow
+    date="30/10/2023" time="14:30-16:00"
+    >
+    Design Principles
+</LectureRow>
+
+<LectureRow 
+    date="31/10/2023" time="17:30-19:00"
+    >
+    Design Guidelines
+</LectureRow>
+
+<LectureRow date="01/11/2023" variant="warning" type="" teacher=""
+    >
+    <em>No labs (holiday)</em>
+</LectureRow>
+
+<LectureDivider topic='Week 06'/>{/*-------------------------------------------*/}
+
+<LectureRow
+    date="06/11/2023" time="14:30-16:00"
+    >
+    Prototyping
+</LectureRow>
+
+<LectureRow 
+    date="07/11/2023" time="17:30-19:00" type="Exercise"
+    >
+    Exercise on Low-fi Prototypes
+</LectureRow>
+
+<LectureRow 
+    date="08/11/2023" time="13:00-14:30" type="Lab" teacher="Alberto Monge Roffarello"
+    >
+    Assignment 2: Storyboard and Low-fidelity Prototypes (group 1)
+</LectureRow>
+
+<LectureRow 
+    date="08/11/2023" time="14:30-16:00" type="Lab" teacher="Luigi De Russis"
+    >
+    Assignment 2: Storyboard and Low-fidelity Prototypes (group 2)
+</LectureRow>
+
+<LectureRow 
+    date="08/11/2023" time="16:00-17:30" type="Lab" teacher="Tommaso Calò"
+    >
+    Assignment 2: Storyboard and Low-fidelity Prototypes (group 3)
+</LectureRow>
+
+<LectureDivider topic='Week 07'/>{/*-------------------------------------------*/}
+
+<LectureRow
+    date="06/11/2023" time="14:30-16:00"
+    >
+    Visual Design
+</LectureRow>
+
+<LectureRow 
+    date="07/11/2023" time="17:30-19:00"
+    >
+    Visual Design (cont'd)
+</LectureRow>
+
+<LectureRow 
+    date="08/11/2023" time="13:00-14:30" type="Lab" teacher="Alberto Monge Roffarello"
+    >
+    Assignment 2: Storyboard and Low-fidelity Prototypes (cont'd, group 1)
+</LectureRow>
+
+<LectureRow 
+    date="08/11/2023" time="14:30-16:00" type="Lab" teacher="Luigi De Russis"
+    >
+    Assignment 2: Storyboard and Low-fidelity Prototypes (cont'd, group 2)
+</LectureRow>
+
+<LectureRow 
+    date="08/11/2023" time="16:00-17:30" type="Lab" teacher="Tommaso Calò"
+    >
+    Assignment 2: Storyboard and Low-fidelity Prototypes (cont'd, group 3)
+</LectureRow>
+
 </LectureTable>
 
 ## Video lectures
