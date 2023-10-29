@@ -106,6 +106,54 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
     <a href="https://polito-iaw-2023.github.io/materiale/laboratori/lab-02/lab-2-css-avanzato.pdf.pdf">CSS Avanzato (gruppo II)</a>
 </LectureRow>
 
+<LectureDivider topic='Settimana 4'/>{/*---------------------------------------*/}
+
+<LectureRow
+    date="30/10/2023" time="16:00-17:30" type="Esercizio" teacher="Juan Pablo Sáenz Moreno"
+    >
+    Framework CSS: Bootstrap
+</LectureRow>
+
+<LectureRow
+    date="02/11/2023" time="16:00-17:30" type="Lab" teacher="Juan Pablo Sáenz Moreno"
+    >
+    Framework CSS: Bootstrap (gruppo I)
+</LectureRow>
+
+<LectureRow
+    date="02/11/2023" time="17:30-19:00" type="Lab" teacher="Juan Pablo Sáenz Moreno"
+    >
+    Framework CSS: Bootstrap (gruppo II)
+</LectureRow>
+
+<LectureDivider topic='Settimana 5'/>{/*---------------------------------------*/}
+
+<LectureRow
+    date="06/11/2023" time="16:00-17:30"
+    >
+    Progettare per il web: architettura dell'informazione e visual design
+</LectureRow>
+
+<LectureRow
+    date="06/11/2023" time="17:30-19:00" type="Esercizio"
+    >
+    Progettare per il web: architettura dell'informazione e visual design
+</LectureRow>
+
+<LectureRow
+    date="09/11/2023" time="16:00-17:30" type="Lab"
+    >
+    Progettare per il web (gruppo I)
+</LectureRow>
+
+<LectureRow
+    date="26/10/2023" time="17:30-19:00" type="Lab"
+    >
+    Progettare per il web (gruppo II)
+</LectureRow>
+
+<LectureDivider topic='Settimana 6'/>{/*---------------------------------------*/}
+
 </LectureTable>
 
 ## Video lezioni
