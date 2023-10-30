@@ -26,8 +26,8 @@ Next exams, with deadlines:
   - [Groups-themes association](https://docs.google.com/spreadsheets/d/1onS_mR75WWrs4NwDaIapE9KAfhRxd1jm8KXIem5h_nY)
 - Assignment 1: [Needfinding](https://polito-hci-2023.github.io/materials/assignments/A1-needfinding.pdf)
   - Deadline: October 24, 2023
-- Assignment 2
-  - Deadline: TBD
+- Assignment 2: [Storyboard and Low-fi Prototypes](https://polito-hci-2023.github.io/materials/assignments/A2-storyboard-paper-prototypes.pdf)
+  - Deadline: November 21, 2023
 - Assignment 3
   - Deadline: TBD
 - Assignment 4

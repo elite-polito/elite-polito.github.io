@@ -157,13 +157,13 @@ All slides, examples, exercises, and any other material used in the classroom an
 <LectureRow
     date="30/10/2023" time="14:30-16:00"
     >
-    Design Principles
+    <a href="https://polito-hci-2023.github.io/materials/slides/04-design-principles.pdf" title="Design theories, principles, and guidelines (PDF)">Design Theory, Principles, and Guidelines</a>
 </LectureRow>
 
 <LectureRow 
     date="31/10/2023" time="17:30-19:00"
     >
-    Design Guidelines
+    Design Theory, Principles, and Guidelines (cont'd)
 </LectureRow>
 
 <LectureRow date="01/11/2023" variant="warning" type="" teacher=""
@@ -188,19 +188,19 @@ All slides, examples, exercises, and any other material used in the classroom an
 <LectureRow 
     date="08/11/2023" time="13:00-14:30" type="Lab" teacher="Alberto Monge Roffarello"
     >
-    Assignment 2: Storyboard and Low-fidelity Prototypes (group 1)
+    <a href="https://polito-hci-2023.github.io/materials/assignments/A2-storyboard-paper-prototypes.pdf" title="Second assignment">Assignment 2: Storyboard and Low-fi Prototypes</a> (group 1)
 </LectureRow>
 
 <LectureRow 
     date="08/11/2023" time="14:30-16:00" type="Lab" teacher="Luigi De Russis"
     >
-    Assignment 2: Storyboard and Low-fidelity Prototypes (group 2)
+    <a href="https://polito-hci-2023.github.io/materials/assignments/A2-storyboard-paper-prototypes.pdf" title="Second assignment">Assignment 2: Storyboard and Low-fi Prototypes</a> (group 2)
 </LectureRow>
 
 <LectureRow 
     date="08/11/2023" time="16:00-17:30" type="Lab" teacher="Tommaso Calò"
     >
-    Assignment 2: Storyboard and Low-fidelity Prototypes (group 3)
+    <a href="https://polito-hci-2023.github.io/materials/assignments/A2-storyboard-paper-prototypes.pdf" title="Second assignment">Assignment 2: Storyboard and Low-fi Prototypes</a> (group 3)
 </LectureRow>
 
 <LectureDivider topic='Week 07'/>{/*-------------------------------------------*/}
@@ -220,19 +220,19 @@ All slides, examples, exercises, and any other material used in the classroom an
 <LectureRow 
     date="08/11/2023" time="13:00-14:30" type="Lab" teacher="Alberto Monge Roffarello"
     >
-    Assignment 2: Storyboard and Low-fidelity Prototypes (cont'd, group 1)
+    Assignment 2: Storyboard and Low-fi Prototypes (cont'd, group 1)
 </LectureRow>
 
 <LectureRow 
     date="08/11/2023" time="14:30-16:00" type="Lab" teacher="Luigi De Russis"
     >
-    Assignment 2: Storyboard and Low-fidelity Prototypes (cont'd, group 2)
+    Assignment 2: Storyboard and Low-fi Prototypes (cont'd, group 2)
 </LectureRow>
 
 <LectureRow 
     date="08/11/2023" time="16:00-17:30" type="Lab" teacher="Tommaso Calò"
     >
-    Assignment 2: Storyboard and Low-fidelity Prototypes (cont'd, group 3)
+    Assignment 2: Storyboard and Low-fi Prototypes (cont'd, group 3)
 </LectureRow>
 
 </LectureTable>
