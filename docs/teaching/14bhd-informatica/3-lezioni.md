@@ -240,7 +240,8 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 
 <LectureRow
     date="30/10/2023" time="17:30-19:00"
-    topic="L13 Cicli while"
+    topic="L13 Cicli while (parte 2)"
+    video='https://youtu.be/8Ro0QRlUmeM'
 />
 
 <LectureRow
