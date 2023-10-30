@@ -15,7 +15,11 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 
 <LectureTable defaultTeacher="Fulvio Corno" defaultType="Lezione">
 
-<LectureDivider topic="Settimana 01"/>
+<LectureDivider>
+
+### Settimana 01
+
+</LectureDivider>
 
 <LectureRow
     date="02/10/2023" time="17:30-19:00"
@@ -59,8 +63,11 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     teacher='' type=''
     zip='https://github.com/polito-informatica/Settimane2023/raw/main/Settimana01.zip'
 />
+<LectureDivider>
 
-<LectureDivider topic="Settimana 02"/>
+### Settimana 02
+
+</LectureDivider>
 
 <LectureRow
     date="09/10/2023" time="17:30-19:00"
@@ -116,7 +123,11 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     zip='https://github.com/polito-informatica/Settimane2023/raw/main/Settimana02.zip'
 />
 
-<LectureDivider topic="Settimana 03"/>
+<LectureDivider>
+
+### Settimana 03
+
+</LectureDivider>
 
 <LectureRow
     date="16/10/2023" time="17:30-19:00"
@@ -174,7 +185,11 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     zip='https://github.com/polito-informatica/Settimane2023/raw/main/Settimana03.zip'
 />
 
-<LectureDivider topic="Settimana 04"/>
+<LectureDivider>
+
+### Settimana 04
+
+</LectureDivider>
 
 <LectureRow
     date="23/10/2023" time="17:30-19:00"
@@ -236,7 +251,12 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     zip='https://github.com/polito-informatica/Settimane2023/raw/main/Settimana04.zip'
 />
 
-<LectureDivider topic="Settimana 05"/>
+<LectureDivider>
+
+### Settimana 05
+
+</LectureDivider>
+
 
 <LectureRow
     date="30/10/2023" time="17:30-19:00"
@@ -286,7 +306,11 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     teacher='' type=''
 />
 
-<LectureDivider topic="Settimana 06"/>
+<LectureDivider>
+
+### Settimana 06
+
+</LectureDivider>
 
 
 <LectureRow
