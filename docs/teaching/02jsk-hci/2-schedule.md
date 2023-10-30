@@ -156,6 +156,7 @@ All slides, examples, exercises, and any other material used in the classroom an
 
 <LectureRow
     date="30/10/2023" time="14:30-16:00"
+    video="https://youtu.be/q92i5Z-uiuI"
     >
     <a href="https://polito-hci-2023.github.io/materials/slides/04-design-principles.pdf" title="Design theories, principles, and guidelines (PDF)">Design Theory, Principles, and Guidelines</a>
 </LectureRow>
