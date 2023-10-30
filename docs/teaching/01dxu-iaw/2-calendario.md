@@ -110,6 +110,7 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 
 <LectureRow
     date="30/10/2023" time="16:00-17:30" type="Esercizio" teacher="Juan Pablo Sáenz Moreno"
+    video="https://youtu.be/byT8hecsTkA"
     >
     <a href="https://github.com/polito-iaw-2023/materiale/tree/main/esercizi/05-bootstrap/">Framework CSS: Bootstrap</a> (su GitHub)
 </LectureRow>
