@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
-import TOCCollapsible from '@theme/TOCCollapsible';
-import TOCInline from '@theme/TOCInline';
+import TOC from '@theme/TOC';
 import { Publication } from "./Publication";
 
 import { allMembers } from "../data/IRISAuthors";
@@ -51,7 +50,13 @@ export function PublicationList(props) {
         const years = getYears(allPublications);
         const types = getTypes(allPublications);
 
-        const tocYears = years.map(y => ({ value: (y == 9999 ? 'In press' : y), id: y, level: 2 }));
+        let tocYears = years.map(y => ({ value: (y == 9999 ? 'In press' : y), id: y, level: 2 }));
+        // prune the list of years to avoid many useless links
+        const displayedYears = 15 ;
+        const lastYearId = tocYears[displayedYears].id;
+        tocYears = tocYears.slice(0, displayedYears);
+        tocYears.push({ value: 'Older', id: lastYearId,  level: 2 });
+
         const tocTypes = types.map(t => ({ value: t.name, id: t.order, level: 2 }));
 
         return <>
@@ -73,7 +78,7 @@ export function PublicationList(props) {
                                 types={types} />)}
                         </div>
                         <div className="col col--2">
-                            <TOCInline toc={tocYears} />
+                            <TOC toc={tocYears} />
                         </div>
                     </div>
                 </TabItem>
@@ -87,7 +92,7 @@ export function PublicationList(props) {
                                 years={years} />)}
                         </div>
                         <div className="col col--2">
-                            <TOCInline toc={tocTypes} />
+                            <TOC toc={tocTypes} />
                         </div>
                     </div>
 
