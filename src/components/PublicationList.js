@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCCollapsible from '@theme/TOCCollapsible';
+import TOCInline from '@theme/TOCInline';
 import { Publication } from "./Publication";
 
 import { allMembers } from "../data/IRISAuthors";
@@ -64,15 +65,15 @@ export function PublicationList(props) {
             <Tabs queryString="publication_order">
                 <TabItem value="by_year" label="By Year">
                     <div className="row ">
-                        <div className="col ">
+                        <div className="col">
                             {years.map(year => <PublicationListYear
                                 key={year}
                                 allPublications={allPublications}
                                 year={year}
                                 types={types} />)}
                         </div>
-                        <div className="col-1">
-                            <TOCCollapsible toc={tocYears} />
+                        <div className="col col--2">
+                            <TOCInline toc={tocYears} />
                         </div>
                     </div>
                 </TabItem>
@@ -85,8 +86,8 @@ export function PublicationList(props) {
                                 type={type}
                                 years={years} />)}
                         </div>
-                        <div className="col-1">
-                            <TOCCollapsible toc={tocTypes} />
+                        <div className="col col--2">
+                            <TOCInline toc={tocTypes} />
                         </div>
                     </div>
 
