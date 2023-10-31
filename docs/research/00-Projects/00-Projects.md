@@ -1,8 +1,54 @@
 ---
 description: 'Research Projects and Collaborations'
+hide_table_of_contents: true
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 import {ProjectCard} from '@site/src/components/Projects'
+
+<Tabs>
+<TabItem value='ongoing' label='Ongoing projects'>
+
+## European projects
+
+<ProjectCard
+    icon='AccessCoVE.png'
+    title='AccessCoVE'
+    url='/research/Projects/AccessCoVE'
+    period='2023 - 2027'>
+AccessCoVE aims to structure excellence in Vocational Education and Training in the field of Accessibility. Twenty-five partners from four different countries (Greece, Sweden, Spain, and Italy) joined their forces to establish a European multi-level innovative and constantly growing Centre of Vocational Excellence - the AccessCoVE - in the field of accessibility for individuals with disabilities (i.e. individuals with impairments and elders).
+</ProjectCard>
+
+<ProjectCard
+    icon={undefined}
+    title='SIFIS - HOME'
+    url='https://www.sifis-home.eu/'
+    period='2020 - today'>
+    <p>The <a href="https://www.sifis-home.eu">SIFIS-Home</a>&nbsp;project (Secure Interoperable Full-stack Internet
+        of things for smart Home)&nbsp;aims at providing a secure-by-design and consistent software framework for
+        improving resilience of Interconnected Smart Home Systems at all stack levels.</p>
+    <p>The project is coordinated by <a href="http://www.cnr.it/">CNR</a> (Consiglio Nazionale delle Ricerche) and
+        the e-Lite group is participating as part of the Department of Control and Computer Engineering.</p>
+</ProjectCard>
+
+## National or Regional projects
+
+<ProjectCard
+    icon='Serics.png'
+    title='SERICS - SEcurity and RIghts In the CyberSpace'
+    url='https://serics.eu/'
+    period='2023-2026'>
+    <p>Il progetto SERICS (Security and Rights In the CyberSpace) è un Partenariato Esteso nell'ambito del PNRR – Missione 4, componente 2 | Linea 7 "Cybersecurity, nuove tecnologie e tutela dei diritti"; le attività di SERICS si svilupperanno su 10 spoke. </p>
+    <p>Il gruppo e-Lite partecipa attivamente allo Spoke 8: Gestione del rischio e governance (UNIBO) (in particolare al progetto Risk management for future cyber-physical ecosystems (EcoCyber)), ed allo Spoke 7: Sicurezza delle infrastrutture (POLITO) (in particolare al progetto Secure AND Safe infrasTructures fOR cps in the compute continuuM (SANDSTORM))</p>
+</ProjectCard>
+
+
+</TabItem>
+
+<TabItem value='past' label='Past projects'>
+
 
 ## International Associations
 
@@ -30,25 +76,6 @@ import {ProjectCard} from '@site/src/components/Projects'
 
 ## European projects
 
-<ProjectCard
-    icon='AccessCoVE.png'
-    title='AccessCoVE'
-    url='/research/Projects/AccessCoVE'
-    period='2023 - 2027'>
-AccessCoVE aims to structure excellence in Vocational Education and Training in the field of Accessibility. Twenty-five partners from four different countries (Greece, Sweden, Spain, and Italy) joined their forces to establish a European multi-level innovative and constantly growing Centre of Vocational Excellence - the AccessCoVE - in the field of accessibility for individuals with disabilities (i.e. individuals with impairments and elders).
-</ProjectCard>
-
-<ProjectCard
-    icon={undefined}
-    title='SIFIS - HOME'
-    url='https://www.sifis-home.eu/'
-    period='2020 - today'>
-    <p>The <a href="https://www.sifis-home.eu">SIFIS-Home</a>&nbsp;project (Secure Interoperable Full-stack Internet
-        of things for smart Home)&nbsp;aims at providing a secure-by-design and consistent software framework for
-        improving resilience of Interconnected Smart Home Systems at all stack levels.</p>
-    <p>The project is coordinated by <a href="http://www.cnr.it/">CNR</a> (Consiglio Nazionale delle Ricerche) and
-        the e-Lite group is participating as part of the Department of Control and Computer Engineering.</p>
-</ProjectCard>
 
 <ProjectCard
     icon='optimus.png'
@@ -128,17 +155,7 @@ AccessCoVE aims to structure excellence in Vocational Education and Training in 
     <p>MOISE: International Organization Model for People with Special Educational Needs</p>
 </ProjectCard>
 
-
 ## National or Regional projects
-
-<ProjectCard
-    icon='Serics.png'
-    title='SERICS - SEcurity and RIghts In the CyberSpace'
-    url='https://serics.eu/'
-    period='2023-2026'>
-    <p>Il progetto SERICS (Security and Rights In the CyberSpace) è un Partenariato Esteso nell'ambito del PNRR – Missione 4, componente 2 | Linea 7 "Cybersecurity, nuove tecnologie e tutela dei diritti"; le attività di SERICS si svilupperanno su 10 spoke. </p>
-    <p>Il gruppo e-Lite partecipa attivamente allo Spoke 8: Gestione del rischio e governance (UNIBO) (in particolare al progetto Risk management for future cyber-physical ecosystems (EcoCyber)), ed allo Spoke 7: Sicurezza delle infrastrutture (POLITO) (in particolare al progetto Secure AND Safe infrasTructures fOR cps in the compute continuuM (SANDSTORM))</p>
-</ProjectCard>
 
 <ProjectCard
     icon='Batti5.png'
@@ -218,7 +235,6 @@ AccessCoVE aims to structure excellence in Vocational Education and Training in 
     period='2009-2009' >
     <p><span style={{fontSize: 'large', fontFamily: 'Times New Roman'}}>RepubLit</span>. Training and technology transfer for an academic spin-off under the FIxO program. Coordinator: Filippo Chiocchetti, <a href="http://www.unipmn.it/">Università del Piemonte Orientale</a>. In collaboration with <a href="http://www.intellisemantic.com">Intellisemantic</a> and with <a href="http://www.lucarosati.it">Luca Rosati</a>.</p>
 </ProjectCard>
-
 
 ## Industry Collaborations
 
@@ -338,3 +354,12 @@ AccessCoVE aims to structure excellence in Vocational Education and Training in 
     url='http://www.ismb.it/'
     period='2006-2018' > 
 </ProjectCard>
+
+</TabItem>
+</Tabs>
+
+
+
+
+
+

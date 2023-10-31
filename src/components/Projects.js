@@ -5,7 +5,10 @@ export const ProjectCard = ({title, icon, url, children, period}) => {
         <div className="card margin-bottom--sm" >
             <div className="card__header">
                 <div className="avatar">
-                    {icon && <img alt={`${title} logo`} title={`${title} logo`}
+                    {icon && url && <a href={url}><img alt={`${title} logo`} title={`${title} logo`}
+                        width="120px"
+                        src={require(`@site/docs/research/00-Projects-Logos/${icon}`).default}/></a>}
+                    {icon && !url && <img alt={`${title} logo`} title={`${title} logo`}
                         width="120px"
                         src={require(`@site/docs/research/00-Projects-Logos/${icon}`).default}/>}
                     <div className="avatar__intro">
