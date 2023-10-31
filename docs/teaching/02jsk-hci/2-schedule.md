@@ -163,6 +163,7 @@ All slides, examples, exercises, and any other material used in the classroom an
 
 <LectureRow 
     date="31/10/2023" time="17:30-19:00"
+    video="https://youtu.be/X01UHPrYTAs"
     >
     Design Theory, Principles, and Guidelines (cont'd)
 </LectureRow>
