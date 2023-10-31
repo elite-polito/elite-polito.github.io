@@ -69,14 +69,14 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 <LectureRow
     date="19/10/2023" time="16:00-17:30" type="Lab" teacher="Juan Pablo Sáenz Moreno"
     >
-    <a href="https://polito-iaw-2023.github.io/materiale/laboratori/lab-01/lab-01-primi-passi-html-css.pdf">Primi passi con HTML e CSS (gruppo I)</a>
+    <a href="https://polito-iaw-2023.github.io/materiale/laboratori/lab-01/lab-01-primi-passi-html-css.pdf">Primi passi con HTML e CSS</a> (gruppo I)
     <ul><li><a href="https://github.com/polito-iaw-2023/materiale/tree/main/laboratori/lab-01/soluzione">Soluzione</a> (su GitHub)</li></ul>
 </LectureRow>
 
 <LectureRow
     date="19/10/2023" time="17:30-19:00" type="Lab" teacher="Juan Pablo Sáenz Moreno"
     >
-    <a href="https://polito-iaw-2023.github.io/materiale/laboratori/lab-01/lab-01-primi-passi-html-css.pdf">Primi passi con HTML e CSS (gruppo II)</a>
+    <a href="https://polito-iaw-2023.github.io/materiale/laboratori/lab-01/lab-01-primi-passi-html-css.pdf">Primi passi con HTML e CSS</a> (gruppo II)
     <ul><li><a href="https://github.com/polito-iaw-2023/materiale/tree/main/laboratori/lab-01/soluzione">Soluzione</a> (su GitHub)</li></ul>
 </LectureRow>
 
@@ -97,13 +97,15 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 <LectureRow
     date="26/10/2023" time="16:00-17:30" type="Lab" teacher="Juan Pablo Sáenz Moreno"
     >
-    <a href="https://polito-iaw-2023.github.io/materiale/laboratori/lab-02/lab-2-css-avanzato.pdf">CSS Avanzato (gruppo I)</a>
+    <a href="https://polito-iaw-2023.github.io/materiale/laboratori/lab-02/lab-2-css-avanzato.pdf">CSS Avanzato</a> (gruppo I)
+    <ul><li><a href="https://github.com/polito-iaw-2023/materiale/tree/main/laboratori/lab-02/soluzione">Soluzione</a> (su GitHub)</li></ul>
 </LectureRow>
 
 <LectureRow
     date="26/10/2023" time="17:30-19:00" type="Lab" teacher="Juan Pablo Sáenz Moreno"
     >
-    <a href="https://polito-iaw-2023.github.io/materiale/laboratori/lab-02/lab-2-css-avanzato.pdf.pdf">CSS Avanzato (gruppo II)</a>
+    <a href="https://polito-iaw-2023.github.io/materiale/laboratori/lab-02/lab-2-css-avanzato.pdf.pdf">CSS Avanzato</a> (gruppo II)
+    <ul><li><a href="https://github.com/polito-iaw-2023/materiale/tree/main/laboratori/lab-02/soluzione">Soluzione</a> (su GitHub)</li></ul>
 </LectureRow>
 
 <LectureDivider topic='Settimana 4'/>{/*---------------------------------------*/}
