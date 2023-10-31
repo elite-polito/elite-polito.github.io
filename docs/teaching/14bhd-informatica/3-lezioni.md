@@ -269,9 +269,8 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     date="31/10/2023" time="16:00-17:30"
     topic="L14 Rappresentazione dell'informazione (seconda parte)"
     type='Lezione on-line'
->
-<br/><a href='https://polito-it.zoom.us/j/86175075461?pwd=dXd6RFVVSEVCYWRSUjkzckRGUmFTZz09'>Link Zoom</a> 
-</LectureRow>
+    video='https://youtu.be/oOTIgdbmoxU'
+/>
 
 
 <LectureRow
