@@ -123,6 +123,26 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
     Sessione di feedback su Assignment 1
 </LectureRow>
 
+<LectureRow 
+    date="03/11/2023" time="11:30-13:00" type ="Lezione" 
+    >
+   <a href="https://polito-uxd-2023.github.io/materiale/slides/06-storyboards.pdf">Scenari e storyboards</a>
+</LectureRow>
+
+<LectureRow
+    date="03/11/2023" time="13:00-14:30" type ="Lezione" 
+    >
+    <a href="https://polito-uxd-2023.github.io/materiale/slides/07-prototyping.pdf">Prototyping</a>
+</LectureRow>
+
+<LectureDivider topic='Settimana 5'/>{/*-------------------------------------------*/}
+
+<LectureRow 
+    date="07/11/2023" time="11:30-13:00" type ="Laboratorio"
+    >
+    <a href="https://polito-uxd-2023.github.io/materiale/assignments/A2-storyboard-paper-prototypes.pdf">Assignment 2: Storyboard e prototipo a bassa fedeltà</a>
+</LectureRow>
+
 </LectureTable>
 
 

@@ -25,12 +25,10 @@ Prossimi appelli, con scadenze:
   - [Sottometti il form](https://forms.gle/XZqNXzT44cceTEAD6)
 - [Assignment 1: Needfinding](https://polito-uxd-2023.github.io/materiale/assignments/A1-needfinding.pdf)
   - Deadline: 30/10/2023
-- Assignment 2
-  - Deadline: TBD
+- [Assignment 2: Storyboard e prototipo a bassa fedeltà](https://polito-uxd-2023.github.io/materiale/assignments/A2-storyboard-paper-prototypes.pdf)
+  - Deadline: 19/11/2023
 - Assignment 3
   - Deadline: TBD
 - Assignment 4
-  - Deadline: 7 giorni prima di ogni appello (vedi sopra per le date esatte)
-- Assignment 5: Report Finale
   - Template
   - Deadline: 7 giorni prima di ogni appello (vedi sopra per le date esatte)
