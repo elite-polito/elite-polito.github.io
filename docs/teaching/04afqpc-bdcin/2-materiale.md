@@ -47,4 +47,9 @@ description: "Materiale didattico (slide, documenti, link, ...)"
     - [Testo](https://farinetti.github.io/materiale-bdcin/Lab-2-testo.pdf)
     - [Risultati attesi](https://farinetti.github.io/materiale-bdcin/Lab-2-risultati_attesi.pdf)
     - [Soluzioni](https://farinetti.github.io/materiale-bdcin/Lab-2-soluzioni.pdf)
+- Laboratorio #3: 06/11
+    - [Testo](https://farinetti.github.io/materiale-bdcin/Lab-3-testo.pdf)
+    - [Risultati attesi](https://farinetti.github.io/materiale-bdcin/Lab-3-risultati_attesi.pdf)
+    - Soluzioni
+    
     
