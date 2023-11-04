@@ -39,17 +39,22 @@ description: "Materiale didattico (slide, documenti, link, ...)"
 
 ## Laboratori
 
-- Laboratorio #1: 23/10
+- Laboratorio #1: 23/10 - SQL
     - [Testo](https://farinetti.github.io/materiale-bdcin/Lab1-testo.pdf)
     - [Risultati attesi](https://farinetti.github.io/materiale-bdcin/Lab-1-risultati_attesi.pdf)
     - [Soluzioni](https://farinetti.github.io/materiale-bdcin/Lab-1-soluzioni.pdf)
-- Laboratorio #2: 30/10
+- Laboratorio #2: 30/10 - SQL
     - [Testo](https://farinetti.github.io/materiale-bdcin/Lab-2-testo.pdf)
     - [Risultati attesi](https://farinetti.github.io/materiale-bdcin/Lab-2-risultati_attesi.pdf)
     - [Soluzioni](https://farinetti.github.io/materiale-bdcin/Lab-2-soluzioni.pdf)
-- Laboratorio #3: 06/11
+- Laboratorio #3: 06/11 - SQL
     - [Testo](https://farinetti.github.io/materiale-bdcin/Lab-3-testo.pdf)
     - [Risultati attesi](https://farinetti.github.io/materiale-bdcin/Lab-3-risultati_attesi.pdf)
     - Soluzioni
-    
+- Laboratori #4-#7: 13/11, 20/11, 04/12 e 11/12 - Q&A Information Retrieval
+    - Obiettivo: progettare, creare e valutare un Chatbot Telegram in grado di rispondere a domande specifiche a partire da una base di conoscenza
+    - Attività unica, ma organizzata in fasi (con consegna dopo ciascuna fase)
+    - Fase 1: [presentazione](https://farinetti.github.io/materiale-bdcin/Chatbot-Fase1.pdf) e [link](https://colab.research.google.com/drive/1sIy6IVzW5ANHoTpWYNXlf9IXlNL3Cw-P?usp=sharing) al Notebook con istruzioni/tutorial -> consegna prima del laboratorio di lunedì 13/11
+
+   
     
