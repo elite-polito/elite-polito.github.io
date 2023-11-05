@@ -178,7 +178,7 @@ All slides, examples, exercises, and any other material used in the classroom an
 <LectureRow
     date="06/11/2023" time="14:30-16:00"
     >
-    Prototyping
+    <a href="https://polito-hci-2023.github.io/materials/slides/05-low-fi-prototypes.pdf" title="Prototyping in low-fidelity">Introduction to Prototyping. Low-fidelity Prototypes.</a>
 </LectureRow>
 
 <LectureRow 
@@ -235,6 +235,248 @@ All slides, examples, exercises, and any other material used in the classroom an
     date="08/11/2023" time="16:00-17:30" type="Lab" teacher="Tommaso Calò"
     >
     Assignment 2: Storyboard and Low-fi Prototypes (cont'd, group 3)
+</LectureRow>
+
+<LectureDivider topic='Week 08'/>{/*-------------------------------------------*/}
+
+<LectureRow
+    date="20/11/2023" time="14:30-16:00" teacher="Alberto Monge Roffarello"
+    >
+    Design Patterns
+</LectureRow>
+
+<LectureRow 
+    date="21/11/2023" time="17:30-19:00" teacher="Alberto Monge Roffarello"
+    >
+    Evaluation: overview. Heuristic evaluation.
+</LectureRow>
+
+<LectureRow variant="success" date="21/11/2023" time="EOD" teacher="" type="">
+    <em>Assignment 2 (storyboard and low-fi prototypes) due</em>
+</LectureRow>
+
+<LectureRow 
+    date="22/11/2023" time="13:00-14:30" type="Lab" teacher="All"
+    >
+    Assignment 2: Feedback and discussion (all groups)
+</LectureRow>
+
+<LectureRow 
+    date="22/11/2023" time="14:30-16:00" type="Lab" teacher="All"
+    >
+    Assignment 2: Feedback and discussion (all groups)
+</LectureRow>
+
+<LectureRow 
+    date="22/11/2023" time="16:00-17:30" type="Lab" teacher="All"
+    >
+    Assignment 2: Feedback and discussion (all groups)
+</LectureRow>
+
+<LectureDivider topic='Week 09'/>{/*-------------------------------------------*/}
+
+<LectureRow
+    date="27/11/2023" time="14:30-16:00" teacher="Alberto Monge Roffarello"
+    >
+    Heuristic evaluation (cont'd)
+</LectureRow>
+
+<LectureRow 
+    date="28/11/2023" time="17:30-19:00" type="Exercise" teacher="Alberto Monge Roffarello"
+    >
+    Heuristic evaluation
+</LectureRow>
+
+<LectureRow 
+    date="08/11/2023" time="13:00-14:30" type="Lab" teacher="Alberto Monge Roffarello"
+    >
+    Assignment 3: Heuristic evaluation - individual assignment (group 1)
+</LectureRow>
+
+<LectureRow 
+    date="08/11/2023" time="14:30-16:00" type="Lab" teacher="Alberto Monge Roffarello"
+    >
+    Assignment 3: Heuristic evaluation - individual assignment (group 2)
+</LectureRow>
+
+<LectureRow 
+    date="08/11/2023" time="16:00-17:30" type="Lab" teacher="Tommaso Calò"
+    >
+    Assignment 3: Heuristic evaluation - individual assignment (group 3)
+</LectureRow>
+
+<LectureDivider topic='Week 10'/>{/*-------------------------------------------*/}
+
+<LectureRow
+    date="04/12/2023" time="14:30-16:00" teacher="Alberto Monge Roffarello"
+    >
+    Medium-fidelity Prototypes
+</LectureRow>
+
+<LectureRow 
+    date="05/12/2023" time="17:30-19:00" type="Exercise" teacher="Alberto Monge Roffarello"
+    >
+    Medium-fidelity Prototypes
+</LectureRow>
+
+<LectureRow variant="success" date="05/12/2023" time="EOD" teacher="" type="">
+    <em>Assignment 3 (heuristic evaluation) due</em>
+</LectureRow>
+
+<LectureRow 
+    date="06/12/2023" time="13:00-14:30" type="Lab" teacher="Alberto Monge Roffarello"
+    >
+    Assignment 4: Medium to High-fi Prototype (group 1)
+</LectureRow>
+
+<LectureRow 
+    date="06/12/2023" time="14:30-16:00" type="Lab" teacher="Tommaso Calò"
+    >
+    Assignment 4: Medium to High-fi Prototype (group 2)
+</LectureRow>
+
+<LectureRow 
+    date="06/12/2023" time="16:00-17:30" type="Lab" teacher="Tommaso Calò"
+    >
+    Assignment 4: Medium to High-fi Prototype (group 3)
+</LectureRow>
+
+<LectureDivider topic='Week 11'/>{/*-------------------------------------------*/}
+
+<LectureRow
+    date="11/12/2023" time="14:30-16:00"
+    >
+    High-fidelity Prototypes
+</LectureRow>
+
+<LectureRow 
+    date="12/12/2023" time="17:30-19:00" type="Exercise"
+    >
+    High-fidelity Prototypes
+</LectureRow>
+
+<LectureRow variant="success" date="12/12/2023" time="EOD" teacher="" type="">
+    <em>Assignment 4 (medium to high-fidelity prototype) due</em>
+</LectureRow>
+
+<LectureRow 
+    date="13/12/2023" time="13:00-14:30" type="Lab" teacher="Alberto Monge Roffarello"
+    >
+    Assignment 5: High-fi Prototype (group 1)
+</LectureRow>
+
+<LectureRow 
+    date="13/12/2023" time="14:30-16:00" type="Lab"
+    >
+    Assignment 5: High-fi Prototype (group 2)
+</LectureRow>
+
+<LectureRow 
+    date="13/12/2023" time="16:00-17:30" type="Lab" teacher="Tommaso Calò"
+    >
+    Assignment 5: High-fi Prototype (group 3)
+</LectureRow>
+
+<LectureDivider topic='Week 12'/>{/*-------------------------------------------*/}
+
+<LectureRow
+    date="18/12/2023" time="14:30-16:00"
+    >
+    Designing for Diversity
+</LectureRow>
+
+<LectureRow 
+    date="19/12/2023" time="17:30-19:00"
+    >
+    Usability Testing
+</LectureRow>
+
+<LectureRow 
+    date="20/12/2023" time="13:00-14:30" type="Lab" teacher="Alberto Monge Roffarello"
+    >
+    Assignment 5: High-fi Prototype (cont'd, group 1)
+</LectureRow>
+
+<LectureRow 
+    date="20/12/2023" time="14:30-16:00" type="Lab"
+    >
+    Assignment 5: High-fi Prototype (cont'd, group 2)
+</LectureRow>
+
+<LectureRow 
+    date="20/12/2023" time="16:00-17:30" type="Lab" teacher="Tommaso Calò"
+    >
+    Assignment 5: High-fi Prototype (cont'd, group 3)
+</LectureRow>
+
+<LectureDivider />{/*-------------------------------------------*/}
+
+<LectureRow variant="warning" teacher="" type="">
+    <em>Christmas vacation</em>
+</LectureRow>
+
+<LectureDivider topic='Week 13'/>{/*-------------------------------------------*/}
+
+<LectureRow
+    date="08/01/2024" time="14:30-16:00"
+    >
+    Usability Testing (cont'd )
+</LectureRow>
+
+<LectureRow 
+    date="09/01/2024" time="17:30-19:00" type="Exercise"
+    >
+    Usability Testing (plan drafted in class)
+</LectureRow>
+
+<LectureRow 
+    date="10/01/2024" time="13:00-14:30" type="Lab" teacher="Alberto Monge Roffarello"
+    >
+    Assignment 5: High-fi Prototype (cont'd, group 1)
+</LectureRow>
+
+<LectureRow 
+    date="10/01/2024" time="14:30-16:00" type="Lab"
+    >
+    Assignment 5: High-fi Prototype (cont'd, group 2)
+</LectureRow>
+
+<LectureRow 
+    date="10/01/2024" time="16:00-17:30" type="Lab" teacher="Tommaso Calò"
+    >
+    Assignment 5: High-fi Prototype (cont'd, group 3)
+</LectureRow>
+
+<LectureDivider topic='Week 14'/>{/*-------------------------------------------*/}
+
+<LectureRow
+    date="15/01/2024" time="14:30-16:00"
+    >
+    Q&A about the exam and the final report
+</LectureRow>
+
+<LectureRow 
+    date="16/01/2024" time="17:30-19:00" type="" variant="warning"
+    >
+    No class
+</LectureRow>
+
+<LectureRow 
+    date="17/01/2024" time="13:00-14:30" type="Lab"
+    >
+    Assignment 5: High-fi Prototype (cont'd, group 1)
+</LectureRow>
+
+<LectureRow 
+    date="17/01/2024" time="14:30-16:00" type="Lab"
+    >
+    Assignment 5: High-fi Prototype (cont'd, group 2)
+</LectureRow>
+
+<LectureRow 
+    date="17/01/2024" time="16:00-17:30" type="Lab"
+    >
+    Assignment 5: High-fi Prototype (cont'd, group 3)
 </LectureRow>
 
 </LectureTable>
