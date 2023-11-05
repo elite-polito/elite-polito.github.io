@@ -371,8 +371,8 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
     Simulazione tema d'esame (gruppo unico)
 </LectureRow>
 
-
-
 </LectureTable>
 
 ## Video lezioni
+
+<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/videoseries?si=TMcymcbyjluEndMw&amp;list=PLs7DWGc_wmwT7lSFgUpuNX80Pc7wp5rah" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
