@@ -47,7 +47,7 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
     date="09/10/2023" time="17:30-19:00" type="Esercizio"
     video="https://youtu.be/mxfFhfyUd1g"
     >
-    <a href="https://github.com/polito-iaw-2023/materiale/tree/main/esercizi/02-html/esercizio/">HTML5</a> (su GitHub)
+    <a href="https://github.com/polito-iaw-2023/materiale/tree/main/esercizi/02-html/esercizio/"title="Esercizio su HTML">HTML5</a> (su GitHub)
 </LectureRow>
 
 <LectureDivider topic='Settimana 2'/>{/*---------------------------------------*/}
@@ -63,7 +63,7 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
     date="16/10/2023" time="17:30-19:00" type="Esercizio" teacher="Juan Pablo Sáenz Moreno"
     video="https://youtu.be/yPBdMv1Pl7g"
     >
-    <a href="https://github.com/polito-iaw-2023/materiale/tree/main/esercizi/03-css/esercizio/">CSS3</a> (su GitHub)
+    <a href="https://github.com/polito-iaw-2023/materiale/tree/main/esercizi/03-css/esercizio/" title="Materiale su CSS3">CSS3</a> (su GitHub)
 </LectureRow>
 
 <LectureRow
@@ -91,7 +91,7 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 <LectureRow
     date="23/10/2023" time="17:30-19:00" type="Esercizio" teacher="Juan Pablo Sáenz Moreno"
     >
-    <a href="https://github.com/polito-iaw-2023/materiale/tree/main/esercizi/04-more-css/">CSS3: aspetti avanzati</a> (su GitHub)
+    <a href="https://github.com/polito-iaw-2023/materiale/tree/main/esercizi/04-more-css/" title="Esercizio su flex">CSS3: aspetti avanzati</a> (su GitHub)
 </LectureRow>
 
 <LectureRow
@@ -114,7 +114,7 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
     date="30/10/2023" time="16:00-17:30" type="Esercizio" teacher="Juan Pablo Sáenz Moreno"
     video="https://youtu.be/byT8hecsTkA"
     >
-    <a href="https://github.com/polito-iaw-2023/materiale/tree/main/esercizi/05-bootstrap/">Framework CSS: Bootstrap</a> (su GitHub)
+    <a href="https://github.com/polito-iaw-2023/materiale/tree/main/esercizi/05-bootstrap/" title="Esercizio su Bootstrap">Framework CSS: Bootstrap</a> (su GitHub)
 </LectureRow>
 
 <LectureRow
@@ -136,7 +136,7 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 <LectureRow
     date="06/11/2023" time="16:00-17:30"
     >
-    Progettare per il web: architettura dell'informazione e visual design
+    <a href="https://polito-iaw-2023.github.io/materiale/slide/05-ia-visual-design.pdf" title="Architettura dell'informazione e visual design">Progettare per il web: architettura dell'informazione e visual design</a>
 </LectureRow>
 
 <LectureRow
@@ -152,12 +152,226 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 </LectureRow>
 
 <LectureRow
-    date="26/10/2023" time="17:30-19:00" type="Lab"
+    date="09/11/2023" time="17:30-19:00" type="Lab"
     >
     Progettare per il web (gruppo II)
 </LectureRow>
 
 <LectureDivider topic='Settimana 6'/>{/*---------------------------------------*/}
+
+<LectureRow
+    date="13/11/2023" time="16:00-17:30"
+    >
+    Flask
+</LectureRow>
+
+<LectureRow
+    date="13/11/2023" time="17:30-19:00" type="Esercizio"
+    >
+    Flask (su GitHub)
+</LectureRow>
+
+<LectureRow
+    date="16/11/2023" time="16:00-17:30" type="Lab"
+    >
+    Primi passi con Flask (gruppo I)
+</LectureRow>
+
+<LectureRow
+    date="16/11/2023" time="17:30-19:00" type="Lab"
+    >
+    Primi passi con Flask (gruppo II)
+</LectureRow>
+
+<LectureDivider topic='Settimana 7'/>{/*---------------------------------------*/}
+
+<LectureRow
+    date="20/11/2023" time="16:00-17:30"
+    >
+    Flask (continua)
+</LectureRow>
+
+<LectureRow
+    date="20/11/2023" time="17:30-19:00" type="Esercizio"
+    >
+    Flask (su GitHub)
+</LectureRow>
+
+<LectureRow
+    date="23/11/2023" time="16:00-17:30" type="Lab"
+    >
+    Flask avanzato (gruppo I)
+</LectureRow>
+
+<LectureRow
+    date="23/11/2023" time="17:30-19:00" type="Lab"
+    >
+    Flask avanzato (gruppo II)
+</LectureRow>
+
+<LectureDivider topic='Settimana 8'/>{/*---------------------------------------*/}
+
+<LectureRow
+    date="27/11/2023" time="16:00-17:30" teacher="Juan Pablo Sáenz Moreno"
+    >
+    Form in HTML
+</LectureRow>
+
+<LectureRow
+    date="27/11/2023" time="17:30-19:00" teacher="Juan Pablo Sáenz Moreno"
+    >
+    Form in Flask (con esempio)
+</LectureRow>
+
+<LectureRow
+    date="30/11/2023" time="16:00-17:30" type="Lab" teacher="Juan Pablo Sáenz Moreno"
+    >
+    Form in HTML (gruppo I)
+</LectureRow>
+
+<LectureRow
+    date="30/11/2023" time="17:30-19:00" type="Lab" teacher="Juan Pablo Sáenz Moreno"
+    >
+    Form in HTML (gruppo II)
+</LectureRow>
+
+<LectureDivider topic='Settimana 9'/>{/*---------------------------------------*/}
+
+<LectureRow
+    date="04/12/2023" time="16:00-17:30" type="Esercizio" teacher="Juan Pablo Sáenz Moreno"
+    >
+    Form in Flask (su GitHub)
+</LectureRow>
+
+<LectureRow
+    date="04/12/2023" time="17:30-19:00" teacher="Juan Pablo Sáenz Moreno"
+    >
+    Interazione col database
+</LectureRow>
+
+<LectureRow
+    date="07/12/2023" time="16:00-17:30" type="Lab" teacher="Juan Pablo Sáenz Moreno"
+    >
+    Form in Flask (gruppo I)
+</LectureRow>
+
+<LectureRow
+    date="07/12/2023" time="17:30-19:00" type="Lab" teacher="Juan Pablo Sáenz Moreno"
+    >
+    Form in Flask (gruppo II)
+</LectureRow>
+
+<LectureDivider topic='Settimana 10'/>{/*---------------------------------------*/}
+
+<LectureRow
+    date="11/12/2023" time="16:00-17:30" type="Esercizio" teacher="Juan Pablo Sáenz Moreno"
+    >
+    Ripasso sui database. Interazione col database (su GitHub)
+</LectureRow>
+
+<LectureRow
+    date="11/12/2023" time="17:30-19:00" type="Esercizio" teacher="Juan Pablo Sáenz Moreno"
+    >
+    Interazione col database (su GitHub, continua)
+</LectureRow>
+
+<LectureRow
+    date="14/12/2023" time="16:00-17:30" type="Lab" teacher="Juan Pablo Sáenz Moreno"
+    >
+    Interazione col database (gruppo I)
+</LectureRow>
+
+<LectureRow
+    date="14/12/2023" time="17:30-19:00" type="Lab" teacher="Juan Pablo Sáenz Moreno"
+    >
+    Interazione col database (gruppo II)
+</LectureRow>
+
+<LectureDivider topic='Settimana 11'/>{/*---------------------------------------*/}
+
+<LectureRow
+    date="18/12/2023" time="16:00-17:30" teacher="Juan Pablo Sáenz Moreno"
+    >
+    Sessioni e autenticazione
+</LectureRow>
+
+<LectureRow
+    date="18/12/2023" time="17:30-19:00" type="Esercizio" teacher="Juan Pablo Sáenz Moreno"
+    >
+    Autenticazione (su GitHub)
+</LectureRow>
+
+<LectureRow
+    date="21/12/2023" time="16:00-17:30" type="Lab" teacher="Juan Pablo Sáenz Moreno"
+    >
+    Autenticazione (gruppo I)
+</LectureRow>
+
+<LectureRow
+    date="21/12/2023" time="17:30-19:00" type="Lab" teacher="Juan Pablo Sáenz Moreno"
+    >
+    Autenticazione (gruppo II)
+</LectureRow>
+
+<LectureDivider />{/*---------------------------------------*/}
+
+<LectureRow variant="warning" type="" teacher="">
+    <em>Vacanze di Natale</em>
+</LectureRow>
+
+<LectureDivider topic='Settimana 12'/>{/*---------------------------------------*/}
+
+<LectureRow
+    date="08/01/2024" time="16:00-17:30"
+    >
+    Manipolazione del DOM con JavaScript
+</LectureRow>
+
+<LectureRow
+    date="08/01/2024" time="17:30-19:00" type="Esercizio"
+    >
+    Manipolazione del DOM con JavaScript (su GitHub)
+</LectureRow>
+
+<LectureRow
+    date="11/01/2024" time="16:00-17:30" type="Lab"
+    >
+    Manipolazione del DOM con JavaScript (gruppo I)
+</LectureRow>
+
+<LectureRow
+    date="11/01/2024" time="17:30-19:00" type="Lab"
+    >
+    Manipolazione del DOM con JavaScript (gruppo II)
+</LectureRow>
+
+<LectureDivider topic='Settimana 13'/>{/*---------------------------------------*/}
+
+<LectureRow
+    date="15/01/2024" time="16:00-17:30"
+    >
+    Ripasso e domande
+</LectureRow>
+
+<LectureRow
+    date="15/01/2024" time="17:30-19:00" type="Esercizio"
+    >
+    Simulazione tema d'esame
+</LectureRow>
+
+<LectureRow
+    date="18/01/2024" time="16:00-17:30" type="Lab"
+    >
+    Simulazione tema d'esame (gruppo unico)
+</LectureRow>
+
+<LectureRow
+    date="18/01/2024" time="17:30-19:00" type="Lab"
+    >
+    Simulazione tema d'esame (gruppo unico)
+</LectureRow>
+
+
 
 </LectureTable>
 
