@@ -9,6 +9,7 @@ import TabItem from '@theme/TabItem';
 import {ProjectCard} from '@site/src/components/Projects'
 
 <Tabs>
+
 <TabItem value='ongoing' label='Ongoing projects'>
 
 ## European projects
@@ -17,38 +18,43 @@ import {ProjectCard} from '@site/src/components/Projects'
     icon='AccessCoVE.png'
     title='AccessCoVE'
     url='/research/Projects/AccessCoVE'
-    period='2023 - 2027'>
+    period='2023-2027'>
 AccessCoVE aims to structure excellence in Vocational Education and Training in the field of Accessibility. Twenty-five partners from four different countries (Greece, Sweden, Spain, and Italy) joined their forces to establish a European multi-level innovative and constantly growing Centre of Vocational Excellence - the AccessCoVE - in the field of accessibility for individuals with disabilities (i.e. individuals with impairments and elders).
 </ProjectCard>
 
-<ProjectCard
-    icon={undefined}
-    title='SIFIS - HOME'
-    url='https://www.sifis-home.eu/'
-    period='2020 - today'>
-    <p>The <a href="https://www.sifis-home.eu">SIFIS-Home</a>&nbsp;project (Secure Interoperable Full-stack Internet
-        of things for smart Home)&nbsp;aims at providing a secure-by-design and consistent software framework for
-        improving resilience of Interconnected Smart Home Systems at all stack levels.</p>
-    <p>The project is coordinated by <a href="http://www.cnr.it/">CNR</a> (Consiglio Nazionale delle Ricerche) and
-        the e-Lite group is participating as part of the Department of Control and Computer Engineering.</p>
-</ProjectCard>
 
 ## National or Regional projects
 
 <ProjectCard
-    icon='Serics.png'
-    title='SERICS - SEcurity and RIghts In the CyberSpace'
-    url='https://serics.eu/'
-    period='2023-2026'>
-    <p>Il progetto SERICS (Security and Rights In the CyberSpace) è un Partenariato Esteso nell'ambito del PNRR – Missione 4, componente 2 | Linea 7 "Cybersecurity, nuove tecnologie e tutela dei diritti"; le attività di SERICS si svilupperanno su 10 spoke. </p>
-    <p>Il gruppo e-Lite partecipa attivamente allo Spoke 8: Gestione del rischio e governance (UNIBO) (in particolare al progetto Risk management for future cyber-physical ecosystems (EcoCyber)), ed allo Spoke 7: Sicurezza delle infrastrutture (POLITO) (in particolare al progetto Secure AND Safe infrasTructures fOR cps in the compute continuuM (SANDSTORM))</p>
+    icon={undefined}
+    title='Improving digital wellbeing with and for teens: a gamified and personalized intelligent system'
+    url={undefined}
+    period='2023-2025'>
+    <p>A PRIN 2022 project, funded by the MUR and developed in collaboration with the University of Bologna. Together with members of both universities, we share the vision that digital wellbeing is more a path of personal growth that requires education rather than self-monitoring strategies.</p>
+    <p>Within the project, we will design, implement, and evaluate a novel gamification platform for teaching digital wellbeing as a part of educational programs, with the direct involvement of high-school teachers and students.</p>
 </ProjectCard>
 
+<ProjectCard
+    icon='Serics.png'
+    title='SERICS - SEcurity and RIghts In the CyberSpace'
+    url='https://serics.eu'
+    period='2023-2026'>
+    <p>Il progetto SERICS (Security and Rights In the CyberSpace) è un Partenariato Esteso nell'ambito del PNRR – Missione 4, componente 2 | Linea 7 "Cybersecurity, nuove tecnologie e tutela dei diritti"; le attività di SERICS si svilupperanno su 10 spoke.</p>
+    <p>Il gruppo e-Lite partecipa attivamente allo Spoke 8: Gestione del rischio e governance (UNIBO) (in particolare al progetto Risk management for future cyber-physical ecosystems (EcoCyber)), ed allo Spoke 7: Sicurezza delle infrastrutture (POLITO) (in particolare al progetto Secure AND Safe infrasTructures fOR cps in the compute continuuM (SANDSTORM)).</p>
+</ProjectCard>
+
+<ProjectCard
+    icon='FAIR.png'
+    title='FAIR - Future Artificial Intelligence Research'
+    url='https://future-ai-research.it'
+    period='2023 - 2026'>
+    <p>Il progetto "Future Artificial Intelligence Research (FAIR)" è un Partenariato Esteso nell'ambito del PNRR che si pone l'obiettivo di contribuire ad affrontare le domande di ricerca, le metodologie, i modelli, le tecnologie e anche le regole etiche e legali per costruire la nuova generazione di sistemi di Intelligenza Artificiale.</p>
+    <p>Il gruppo e-Lite partecipa attivamente allo Spoke 7: Edge-exascale AI, coordinato dal Politecnico di Torino.</p>
+</ProjectCard>
 
 </TabItem>
 
 <TabItem value='past' label='Past projects'>
-
 
 ## International Associations
 
@@ -74,8 +80,20 @@ AccessCoVE aims to structure excellence in Vocational Education and Training in 
     <p><a href="http://www.knx.org/knx-partners/scientific/about/">KNX&nbsp;Scientific </a>Partnership</p>
 </ProjectCard>
 
+
 ## European projects
 
+<ProjectCard
+    icon={undefined}
+    title='SIFIS-HOME'
+    url='https://www.sifis-home.eu/'
+    period='2020 - 2023'>
+    <p>The <a href="https://www.sifis-home.eu">SIFIS-Home</a>&nbsp;project (Secure Interoperable Full-stack Internet
+        of things for smart Home)&nbsp;aims at providing a secure-by-design and consistent software framework for
+        improving resilience of Interconnected Smart Home Systems at all stack levels.</p>
+    <p>The project is coordinated by <a href="http://www.cnr.it/">CNR</a> (Consiglio Nazionale delle Ricerche) and
+        the e-Lite group is participating as part of the Department of Control and Computer Engineering.</p>
+</ProjectCard>
 
 <ProjectCard
     icon='optimus.png'
@@ -154,6 +172,7 @@ AccessCoVE aims to structure excellence in Vocational Education and Training in 
     period='1999-2000'>
     <p>MOISE: International Organization Model for People with Special Educational Needs</p>
 </ProjectCard>
+
 
 ## National or Regional projects
 
@@ -236,6 +255,7 @@ AccessCoVE aims to structure excellence in Vocational Education and Training in 
     <p><span style={{fontSize: 'large', fontFamily: 'Times New Roman'}}>RepubLit</span>. Training and technology transfer for an academic spin-off under the FIxO program. Coordinator: Filippo Chiocchetti, <a href="http://www.unipmn.it/">Università del Piemonte Orientale</a>. In collaboration with <a href="http://www.intellisemantic.com">Intellisemantic</a> and with <a href="http://www.lucarosati.it">Luca Rosati</a>.</p>
 </ProjectCard>
 
+
 ## Industry Collaborations
 
 <ProjectCard
@@ -316,6 +336,7 @@ AccessCoVE aims to structure excellence in Vocational Education and Training in 
     period='2010-2010' >
     Consultancy and advising in the development of the&nbsp;"ABC - Automatic Bibliography&nbsp;Compiler", in collaboration with <a href="http://www.intext.it/">InText</a>. Coordinator: Filippo Chiocchetti.
 </ProjectCard>
+
 
 ## Non-profit organizations
 
