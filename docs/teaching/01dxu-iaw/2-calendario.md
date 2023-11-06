@@ -135,14 +135,16 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 
 <LectureRow
     date="06/11/2023" time="16:00-17:30"
+    video="https://youtu.be/wQGosi69A-E"
     >
     <a href="https://polito-iaw-2023.github.io/materiale/slide/05-ia-visual-design.pdf" title="Architettura dell'informazione e visual design">Progettare per il web: architettura dell'informazione e visual design</a>
 </LectureRow>
 
 <LectureRow
-    date="06/11/2023" time="17:30-19:00" type="Esercizio"
+    date="06/11/2023" time="17:30-19:00"
+    video="https://youtu.be/QpCX4UTAGs4"
     >
-    Progettare per il web: architettura dell'informazione e visual design
+    Progettare per il web: architettura dell'informazione e visual design (continua)
 </LectureRow>
 
 <LectureRow

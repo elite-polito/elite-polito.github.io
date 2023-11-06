@@ -177,14 +177,15 @@ All slides, examples, exercises, and any other material used in the classroom an
 
 <LectureRow
     date="06/11/2023" time="14:30-16:00"
+    video="https://youtu.be/Fp8LKOxVI5s"
     >
-    <a href="https://polito-hci-2023.github.io/materials/slides/05-low-fi-prototypes.pdf" title="Prototyping in low-fidelity">Introduction to Prototyping. Low-fidelity Prototypes.</a>
+    <a href="https://polito-hci-2023.github.io/materials/slides/05-low-fi-prototypes.pdf" title="Prototyping">Introduction to Prototyping</a>
 </LectureRow>
 
 <LectureRow 
-    date="07/11/2023" time="17:30-19:00" type="Exercise"
+    date="07/11/2023" time="17:30-19:00"
     >
-    Exercise on Low-fi Prototypes
+    Low-fi Prototyping (cont'd). Example.
 </LectureRow>
 
 <LectureRow 
@@ -288,19 +289,19 @@ All slides, examples, exercises, and any other material used in the classroom an
 </LectureRow>
 
 <LectureRow 
-    date="08/11/2023" time="13:00-14:30" type="Lab" teacher="Alberto Monge Roffarello"
+    date="29/11/2023" time="13:00-14:30" type="Lab" teacher="Alberto Monge Roffarello"
     >
     Assignment 3: Heuristic evaluation - individual assignment (group 1)
 </LectureRow>
 
 <LectureRow 
-    date="08/11/2023" time="14:30-16:00" type="Lab" teacher="Alberto Monge Roffarello"
+    date="29/11/2023" time="14:30-16:00" type="Lab" teacher="Alberto Monge Roffarello"
     >
     Assignment 3: Heuristic evaluation - individual assignment (group 2)
 </LectureRow>
 
 <LectureRow 
-    date="08/11/2023" time="16:00-17:30" type="Lab" teacher="Tommaso Calò"
+    date="29/11/2023" time="16:00-17:30" type="Lab" teacher="Tommaso Calò"
     >
     Assignment 3: Heuristic evaluation - individual assignment (group 3)
 </LectureRow>
