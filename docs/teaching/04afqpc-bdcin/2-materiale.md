@@ -50,7 +50,7 @@ description: "Materiale didattico (slide, documenti, link, ...)"
 - Laboratorio #3: 06/11 - SQL
     - [Testo](https://farinetti.github.io/materiale-bdcin/Lab-3-testo.pdf)
     - [Risultati attesi](https://farinetti.github.io/materiale-bdcin/Lab-3-risultati_attesi.pdf)
-    - Soluzioni
+    - [Soluzioni](https://farinetti.github.io/materiale-bdcin/Lab-3-soluzioni.pdf)
 - Laboratori #4-#7: 13/11, 20/11, 04/12 e 11/12 - Q&A Information Retrieval
     - Obiettivo: progettare, creare e valutare un Chatbot Telegram in grado di rispondere a domande specifiche a partire da una base di conoscenza
     - Attività unica, ma organizzata in fasi (con consegna dopo ciascuna fase)
