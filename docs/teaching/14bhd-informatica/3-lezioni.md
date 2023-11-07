@@ -333,14 +333,14 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 <LectureRow
     date="08/11/2023" time="16:00-17:30"
     topic="Lab05 - Squadra 3 - Ripasso Condizionali e Cicli."
-    teacher='Roberta Bardini'
+    teacher='Fulvio Corno'
     pdf='https://github.com/polito-informatica/Laboratori/blob/main/Lab05/Lab05_testo.pdf?raw=true'
 />
 
 <LectureRow
     date="08/11/2023" time="11:30-13:00"
     topic="Lab05 - Squadra 1 - Ripasso Condizionali e Cicli."
-    teacher='Roberta Bardini'
+    teacher='Lorenzo Martini'
     pdf='https://github.com/polito-informatica/Laboratori/blob/main/Lab05/Lab05_testo.pdf?raw=true'
 />
 
