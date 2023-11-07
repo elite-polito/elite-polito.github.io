@@ -184,6 +184,7 @@ All slides, examples, exercises, and any other material used in the classroom an
 
 <LectureRow 
     date="07/11/2023" time="17:30-19:00" type="Exercise"
+    video="https://youtu.be/8ZqCF5ud4z4"
     >
     Low-fi Prototyping (cont'd). <a href="https://polito-hci-2023.github.io/materials/slides/05b-low-fi-prototypes-exercise.pdf" title="Critique of low-fi prototypes">Exercise on low-fi prototypes</a>.
 </LectureRow>
@@ -475,7 +476,7 @@ All slides, examples, exercises, and any other material used in the classroom an
 </LectureRow>
 
 <LectureRow 
-    date="17/01/2024" time="16:00-17:30" type="Lab"
+    date="17/01/2024" time="16:00-17:30" type="Lab" teacher="Tommaso Calò"
     >
     Assignment 5: High-fi Prototype (cont'd, group 3)
 </LectureRow>
