@@ -183,9 +183,9 @@ All slides, examples, exercises, and any other material used in the classroom an
 </LectureRow>
 
 <LectureRow 
-    date="07/11/2023" time="17:30-19:00"
+    date="07/11/2023" time="17:30-19:00" type="Exercise"
     >
-    Low-fi Prototyping (cont'd). Example.
+    Low-fi Prototyping (cont'd). <a href="https://polito-hci-2023.github.io/materials/slides/05b-low-fi-prototypes-exercise.pdf" title="Critique of low-fi prototypes">Exercise on low-fi prototypes</a>.
 </LectureRow>
 
 <LectureRow 
