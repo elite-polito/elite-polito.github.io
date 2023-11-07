@@ -315,13 +315,14 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 
 <LectureRow
     date="06/11/2023" time="17:30-19:00"
-    topic="L15 Esercizi"
+    topic="L15 Esercizi sui cicli"
     teacher='Roberta Bardini'
+    video='https://youtu.be/ELjJ53BETRA'
 />
 
 <LectureRow
     date="08/11/2023" time="11:30-13:00"
-    topic="L16 Esercizi"
+    topic="L16 Cicli 'for'"
 />
 
 <LectureRow
