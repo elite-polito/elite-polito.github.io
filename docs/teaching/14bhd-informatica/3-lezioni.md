@@ -13,6 +13,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 - Laboratori: https://github.com/polito-informatica/Laboratori
 :::
 
+
 <LectureTable defaultTeacher="Fulvio Corno" defaultType="Lezione">
 
 <LectureDivider>
@@ -99,6 +100,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     date="11/10/2023" time="16:00-17:30"
     topic="Lab01 - Squadra 3 - Flow chart e primi programmi"
     teacher='Roberta Bardini'
+    type='Laboratorio'
     pdf='https://github.com/polito-informatica/Laboratori/blob/main/Lab01/Lab01_testo.pdf?raw=true'
 />
 
@@ -106,6 +108,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     date="12/10/2023" time="11:30-13:00"
     topic="Lab01 - Squadra 1 - Flow chart e primi programmi"
     teacher='Roberta Bardini'
+    type='Laboratorio'
     pdf='https://github.com/polito-informatica/Laboratori/blob/main/Lab01/Lab01_testo.pdf?raw=true'
 />
 
@@ -113,6 +116,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     date="12/10/2023" time="13:00-14:30"
     topic="Lab01 - Squadra 2 - Flow chart e primi programmi"
     teacher='Roberta Bardini'
+    type='Laboratorio'
     pdf='https://github.com/polito-informatica/Laboratori/blob/main/Lab01/Lab01_testo.pdf?raw=true'
 />
 
@@ -161,6 +165,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     date="18/10/2023" time="16:00-17:30"
     topic="Lab02 - Squadra 3 - Variabili, aritmetica, stringhe"
     teacher='Roberta Bardini'
+    type='Laboratorio'
     pdf='https://github.com/polito-informatica/Laboratori/blob/main/Lab02/Lab02_testo.pdf?raw=true'
 />
 
@@ -168,6 +173,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     date="19/10/2023" time="11:30-13:00"
     topic="Lab02 - Squadra 1 - Variabili, aritmetica, stringhe"
     teacher='Roberta Bardini'
+    type='Laboratorio'
     pdf='https://github.com/polito-informatica/Laboratori/blob/main/Lab02/Lab02_testo.pdf?raw=true'
 />
 
@@ -175,6 +181,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     date="19/10/2023" time="13:00-14:30"
     topic="Lab02 - Squadra 2 - Variabili, aritmetica, stringhe"
     teacher='Roberta Bardini'
+    type='Laboratorio'
     pdf='https://github.com/polito-informatica/Laboratori/blob/main/Lab02/Lab02_testo.pdf?raw=true'
 />
 
@@ -220,6 +227,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     date="25/10/2023" time="16:00-17:30"
     topic="Lab03 - Squadra 3 - Espressioni. Costrutti condizionali."
     teacher='Roberta Bardini'
+    type='Laboratorio'
     pdf='https://github.com/polito-informatica/Laboratori/blob/main/Lab03/Lab03_testo.pdf?raw=true'
 />
 
@@ -227,6 +235,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     date="26/10/2023" time="11:30-13:00"
     topic="Lab03 - Squadra 1 - Espressioni. Costrutti condizionali."
     teacher='Roberta Bardini'
+    type='Laboratorio'
     pdf='https://github.com/polito-informatica/Laboratori/blob/main/Lab03/Lab03_testo.pdf?raw=true'
 />
 
@@ -234,6 +243,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     date="26/10/2023" time="13:00-14:30"
     topic="Lab03 - Squadra 2 - Espressioni. Costrutti condizionali."
     teacher='Lorenzo Martini'
+    type='Laboratorio'
     pdf='https://github.com/polito-informatica/Laboratori/blob/main/Lab03/Lab03_testo.pdf?raw=true'
 />
 
@@ -289,6 +299,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     date="02/11/2023" time="11:30-13:00"
     topic="Lab04 - Squadra 1 + Squadra 3 - Cicli while e for"
     teacher='Roberta Bardini'
+    type='Laboratorio'
     pdf='https://github.com/polito-informatica/Laboratori/blob/main/Lab04/Lab04_testo.pdf?raw=true'
 />
 
@@ -296,6 +307,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     date="02/11/2023" time="13:00-14:30"
     topic="Lab04 - Squadra 2 + Squadra 3 - Cicli while e for"
     teacher='Lorenzo Martini'
+    type='Laboratorio'
     pdf='https://github.com/polito-informatica/Laboratori/blob/main/Lab04/Lab04_testo.pdf?raw=true'
 />
 
@@ -336,20 +348,23 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     date="08/11/2023" time="16:00-17:30"
     topic="Lab05 - Squadra 3 - Ripasso Condizionali e Cicli."
     teacher='Fulvio Corno'
+    type='Laboratorio'
     pdf='https://github.com/polito-informatica/Laboratori/blob/main/Lab05/Lab05_testo.pdf?raw=true'
 />
 
 <LectureRow
-    date="08/11/2023" time="11:30-13:00"
+    date="09/11/2023" time="11:30-13:00"
     topic="Lab05 - Squadra 1 - Ripasso Condizionali e Cicli."
     teacher='Lorenzo Martini'
+    type='Laboratorio'
     pdf='https://github.com/polito-informatica/Laboratori/blob/main/Lab05/Lab05_testo.pdf?raw=true'
 />
 
 <LectureRow
-    date="08/11/2023" time="13:00-14:30"
+    date="09/11/2023" time="13:00-14:30"
     topic="Lab05 - Squadra 2 - Ripasso Condizionali e Cicli."
     teacher='Lorenzo Martini'
+    type='Laboratorio'
     pdf='https://github.com/polito-informatica/Laboratori/blob/main/Lab05/Lab05_testo.pdf?raw=true'
 />
 
@@ -360,8 +375,173 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     zip='https://github.com/polito-informatica/Settimane2023/raw/main/Settimana06.zip'
 />
 
+<LectureDivider>
+
+### Settimana 07
+
+</LectureDivider>
+
+
+<LectureRow
+    date="13/11/2023" time="17:30-19:00"
+    topic="L18 Funzioni"
+/>
+
+<LectureRow
+    date="15/11/2023" time="11:30-13:00"
+    topic="L19 Liste"
+/>
+
+<LectureRow
+    date="08/11/2023" time="13:00-14:30"
+    topic="L20 Liste"
+/>
+
+<LectureRow
+    date="15/11/2023" time="16:00-17:30"
+    topic="Lab06 - Squadra 3 - Funzioni."
+    teacher='Roberta Bardini'
+    type='Laboratorio'
+    pdf='https://github.com/polito-informatica/Laboratori/blob/main/Lab06/Lab06_testo.pdf?raw=true'
+/>
+
+<LectureRow
+    date="16/11/2023" time="11:30-13:00"
+    topic="Lab06 - Squadra 1 - Funzioni."
+    teacher='Lorenzo Martini'
+    type='Laboratorio'
+    pdf='https://github.com/polito-informatica/Laboratori/blob/main/Lab06/Lab06_testo.pdf?raw=true'
+/>
+
+<LectureRow
+    date="16/11/2023" time="13:00-14:30"
+    topic="Lab06 - Squadra 2 - Funzioni."
+    teacher='Lorenzo Martini'
+    type='Laboratorio'
+    pdf='https://github.com/polito-informatica/Laboratori/blob/main/Lab06/Lab06_testo.pdf?raw=true'
+/>
+
+<LectureRow 
+    date='' time=''
+    topic='Esercizi della settimana'
+    teacher='' type=''
+/>
+
+<LectureDivider>
+
+### Settimana 08
+
+</LectureDivider>
+
+
+<LectureRow
+    date="20/11/2023" time="17:30-19:00"
+    topic="L21 Esercizi sulle liste"
+    teacher='Roberta Bardini'
+/>
+
+<LectureRow
+    date="22/11/2023" time="11:30-13:00"
+    topic="L22 Esercizi sulle liste"
+/>
+
+<LectureRow
+    date="22/11/2023" time="13:00-14:30"
+    topic="L23 Liste e funzioni. Comprehension."
+/>
+
+<LectureRow
+    date="22/11/2023" time="16:00-17:30"
+    topic="Lab07 - Squadra 3 - Liste."
+    teacher='Roberta Bardini'
+    type='Laboratorio'
+    pdf='https://github.com/polito-informatica/Laboratori/blob/main/Lab07/Lab07_testo.pdf?raw=true'
+/>
+
+<LectureRow
+    date="23/11/2023" time="11:30-13:00"
+    topic="Lab07 - Squadra 1 - Liste."
+    teacher='Lorenzo Martini'
+    type='Laboratorio'
+    pdf='https://github.com/polito-informatica/Laboratori/blob/main/Lab07/Lab07_testo.pdf?raw=true'
+/>
+
+<LectureRow
+    date="23/11/2023" time="13:00-14:30"
+    topic="Lab07 - Squadra 2 - Liste."
+    teacher='Lorenzo Martini'
+    type='Laboratorio'
+    pdf='https://github.com/polito-informatica/Laboratori/blob/main/Lab07/Lab07_testo.pdf?raw=true'
+/>
+
+<LectureRow 
+    date='' time=''
+    topic='Esercizi della settimana'
+    teacher='' type=''
+/>
+
+<LectureDivider>
+
+### Settimana 09
+
+</LectureDivider>
+
+
+<LectureRow
+    variant='danger'
+    date="27/11/2023" time="17:30-19:00"
+    topic="Lezione posticipata al 29/11 ore 08:30 (scambio con Chimica)"
+    teacher=''
+/>
+
+<LectureRow
+    variant='warning'
+    date="29/11/2023" time="08:30-10:00"
+    topic="L24"
+    teacher='Roberta Bardini'
+/>
+
+<LectureRow
+    date="29/11/2023" time="11:30-13:00"
+    topic="L25"
+/>
+
+<LectureRow
+    date="29/11/2023" time="13:00-14:30"
+    topic="L26"
+/>
+
+<LectureRow
+    date="29/11/2023" time="16:00-17:30"
+    topic="Lab08 - Squadra 3 - Liste, Tabelle."
+    teacher='Roberta Bardini'
+    type='Laboratorio'
+    pdf='https://github.com/polito-informatica/Laboratori/blob/main/Lab08/Lab08_testo.pdf?raw=true'
+/>
+
+<LectureRow
+    date="29/11/2023" time="11:30-13:00"
+    topic="Lab08 - Squadra 1 - Liste, Tabelle."
+    teacher='Lorenzo Martini'
+    type='Laboratorio'
+    pdf='https://github.com/polito-informatica/Laboratori/blob/main/Lab08/Lab08_testo.pdf?raw=true'
+/>
+
+<LectureRow
+    date="29/11/2023" time="13:00-14:30"
+    topic="Lab08 - Squadra 2 - Liste, Tabelle."
+    teacher='Lorenzo Martini'
+    type='Laboratorio'
+    pdf='https://github.com/polito-informatica/Laboratori/blob/main/Lab08/Lab08_testo.pdf?raw=true'
+/>
+
+<LectureRow 
+    date='' time=''
+    topic='Esercizi della settimana'
+    teacher='' type=''
+/>
+
 
 </LectureTable>
-
 
 <!-- <br/><a href='https://polito-it.zoom.us/j/86175075461?pwd=dXd6RFVVSEVCYWRSUjkzckRGUmFTZz09'>Link Zoom</a> -->
