@@ -322,12 +322,14 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 
 <LectureRow
     date="08/11/2023" time="11:30-13:00"
-    topic="L16 Cicli 'for'"
+    topic="L16 Cicli 'for'. Cicli annidati."
+    video='https://youtu.be/uwJOBomsyws'
 />
 
 <LectureRow
     date="08/11/2023" time="13:00-14:30"
-    topic="L17 Esercizi"
+    topic="L17 Esercizi sui cicli (nomi propri)"
+    video='https://youtu.be/TesvXIwuoHw'
 />
 
 <LectureRow
@@ -355,6 +357,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     date='' time=''
     topic='Esercizi della settimana'
     teacher='' type=''
+    zip='https://github.com/polito-informatica/Settimane2023/raw/main/Settimana06.zip'
 />
 
 
