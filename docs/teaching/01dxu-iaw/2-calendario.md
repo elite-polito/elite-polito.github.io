@@ -122,6 +122,7 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
     >
     <a href="https://polito-iaw-2023.github.io/materiale/laboratori/lab-03/lab-3-bootstrap.pdf">
     Framework CSS: Bootstrap</a> (gruppo I)
+    <ul><li><a href="https://github.com/polito-iaw-2023/materiale/tree/main/laboratori/lab-03/soluzione">Soluzione</a> (su GitHub)</li></ul>
 </LectureRow>
 
 <LectureRow
@@ -129,6 +130,7 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
     >
     <a href="https://polito-iaw-2023.github.io/materiale/laboratori/lab-03/lab-3-bootstrap.pdf">
     Framework CSS: Bootstrap</a> (gruppo II)
+    <ul><li><a href="https://github.com/polito-iaw-2023/materiale/tree/main/laboratori/lab-03/soluzione">Soluzione</a> (su GitHub)</li></ul>
 </LectureRow>
 
 <LectureDivider topic='Settimana 5'/>{/*---------------------------------------*/}
