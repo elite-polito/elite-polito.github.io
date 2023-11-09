@@ -53,7 +53,16 @@ const people = [
         img: '/img/people/TommasoCalo.jpeg',
         github: 'tommasocalo',
         linkedin: 'tommaso-caló-20509512a',
+    },
+    {
+        name: 'Luca Pezzolla',
+        role: 'Ph.D. Student',
+        email: 'luca.pezzolla@polito.it',
+        img: '/img/people/LucaPezzolla.jpg',
+        github: 'lpezzolla',
+        linkedin: 'lpezzolla',
     }
+
 ]
 
 const alumni = [

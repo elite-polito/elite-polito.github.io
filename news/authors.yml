@@ -34,6 +34,13 @@ calo:
   url: https://tommasocalo.github.io
   image_url: /img/people/TommasoCalo.jpeg
 
+pezzolla:
+  name: Luca Pezzolla
+  title: Ph.D. Student
+  url: https://github.com/lpezzolla
+  image_url: /img/people/LucaPezzolla.jpg
+
+
 farinetti:
   name: Laura Farinetti
   title: Assistant professor
