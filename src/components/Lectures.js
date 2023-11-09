@@ -4,6 +4,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faYoutube, faGithub, faPython } from '@fortawesome/free-brands-svg-icons'
 import { faFilePdf, faFileZipper } from '@fortawesome/free-solid-svg-icons'
 
+import stles from './lectures.module.css';
+
 const defaultTableContext = {
     defaultTeacher: undefined,
     defaultType: undefined,

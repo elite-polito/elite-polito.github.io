@@ -2,8 +2,6 @@
 
 import React from "react";
 
-import styles from './publications.module.css' ;
-
 export function Publication({ publication }) {
 
     const p = publication; // shortname
