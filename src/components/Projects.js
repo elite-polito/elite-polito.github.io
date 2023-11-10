@@ -2,7 +2,7 @@ import React from 'react'
 
 export const ProjectCard = ({title, icon, url, children, period}) => {
     return (
-        <div className="card margin-bottom--sm" >
+        <div className="card margin-bottom--md" >
             <div className="card__header">
                 <div className="avatar">
                     {icon && url && <a href={url}><img alt={`${title} logo`} title={`${title} logo`}
