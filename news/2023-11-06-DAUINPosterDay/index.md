@@ -18,7 +18,7 @@ The first poster by Luca Mannella, titled "Supporting Developers in the Cybersec
 Tommaso Calò's poster, "Code Generation From Visual Representations," addressed the challenge of translating web UI designs into code. It underscored the labor-intensive aspect of this translation process, necessitating frequent revisions between the design and development phases. To address this, the research presented a multimodal Transformer architecture designed to automate the translation process by concurrently processing textual and visual information. The approach aims to advance existing methodologies by enhancing the architectural framework and introducing a challenging dataset that serves as a new benchmark for future advancements in the field
 
 
-For those interested in delving deeper into the research presented at the DAUIN PhD poster day, we have made available the posters for online viewing:
+For those interested in delving deeper into the research presented at the DAUIN PhD poster day, we have made available the posters for downloading:
 
 - [Supporting Developers in the Cybersecurity of IoT Systems] (./Mannella-Luca-36.pdf).
 - [Code Generation From Visual Representations] (./phdposter_calò_5nov.pdf).
