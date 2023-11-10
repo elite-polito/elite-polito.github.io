@@ -155,6 +155,26 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
     Design Theory, Principles, and Guidelines (continua). <a href="https://polito-uxd-2023.github.io/materiale/slides/08b-low-fi-prototypes-exercise.pdf">Esercizio su low-fi prototyping</a>
 </LectureRow>
 
+<LectureDivider topic='Settimana 6'/>{/*-------------------------------------------*/}
+
+<LectureRow 
+    date="14/11/2023" time="11:30-13:00" type ="Laboratorio"
+    >
+    <a href="https://polito-uxd-2023.github.io/materiale/assignments/A2-storyboard-paper-prototypes.pdf">Assignment 2: Storyboard e prototipo a bassa fedeltà</a>
+</LectureRow>
+
+<LectureRow 
+    date="17/11/2023" time="11:30-13:00" type ="Lezione"
+    >
+   Visual Design
+</LectureRow>
+
+<LectureRow
+    date="17/11/2023" time="13:00-14:30" type ="Lezione"
+    >
+    Visual Design (continua)
+</LectureRow>
+
 </LectureTable>
 
 
