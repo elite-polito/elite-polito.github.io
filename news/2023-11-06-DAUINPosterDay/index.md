@@ -6,12 +6,9 @@ image: ./header_0.png
 image_alt: DAUIN PhD Poster Day banner
 ---
 
-import icon from './icona_poliTOstudents.png'
-
 # DAUIN PhD Poster Day 2023 Highlights
 
-At the Politecnico di Torino, the e-Lite research group from the Department of Control and Computer Engineering (DAUIN) presented their advancements at the PhD poster day. The event featured research posters by two PhD candidates:
-
+At the Politecnico di Torino, the e-Lite research group from the Department of Control and Computer Engineering (DAUIN) presented their advancements at the PhD poster day. The event featured research posters by two PhD candidates.
 
 The first poster by Luca Mannella, titled "Supporting Developers in the Cybersecurity of IoT Systems," focused on the prevalent security concerns within IoT systems. It emphasized the need for developing secure IoT applications with a special focus on smart homes. The goal set forth was to make the development process accessible for developers with varying levels of expertise in cybersecurity. It introduced a threat model for smart home gateways, pointing out the specific risks associated with these central devices in managing smart home applications, especially when third-party plugins are involved. The poster also discussed the application of the Manufacturer Usage Description (MUD) standard as a way to define network policies that help secure IoT devices.
 
