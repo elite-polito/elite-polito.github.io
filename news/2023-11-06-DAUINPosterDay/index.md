@@ -3,10 +3,13 @@ authors: [calo]
 tags: [events, research, phd]
 description: "The DAUIN PhD poster day featured two posters by PhD candidates showcasing their research in IoT cybersecurity and automated code generation from visual representations."
 image: ./header_0.png
-image_alt: DAUIN PhD Poster Day banner
+image_alt: DAUIN PhD Poster Day
 ---
+import logo from './header_0.png';
 
 # DAUIN PhD Poster Day 2023 Highlights
+
+<p className="text--center"><img src={logo} alt="DAUIN PhD Poster Day Logo"></img></p>
 
 At the Politecnico di Torino, the e-Lite research group from the Department of Control and Computer Engineering (DAUIN) presented their advancements at the PhD poster day. The event featured research posters by two PhD candidates.
 
