@@ -18,28 +18,24 @@ _Legenda:_ la colonna Tipo può essere Lez=Lezione, EsT=Esercitazione "tradizion
 
 | Data | Orario | Tipo | Ore | Argomento | Aula | Docente |
 |----|-------------|--------|----|------|------|-----|
-| ven 03/11/23 | 13.00-16.00 | EsT | 3 | Esercitazione SQL#4. | 9T | L. Farinetti |
-| lun 06/11/23 | 10.00-11.30 | Lab-sqA | 1,5 | <font color="mediumvioletred">Laboratorio #3: SQL (squadra A).</font> | LAIB 3B | L. Canale |
-| lun 06/11/23 | 11.30-13.00 | Lab-sqB | 1,5 | <font color="teal">Laboratorio #3: SQL (squadra B).</font> | LAIB 3B | L. Canale |
-| ven 10/11/23 | 13.00-16.00 | EsT | 3 | Presentazione attività prossimi laboratori. | 9T | L. Canale |
-| lun 13/11/23 | 10.00-11.30 | Lab-sqB | 1,5 | <font color="teal">Laboratorio #4: Information retrieval (squadra B).</font> | LAIB 3B | L. Canale |
-| lun 13/11/23 | 11.30-13.00 | Lab-sqA | 1,5 | <font color="mediumvioletred">Laboratorio #4: Information retrieval (squadra A).</font> | LAIB 3B | L. Canale |
-| ven 17/11/23 | 13.00-16.00 | EsCCT | 3 | Esercitazione CCT#2 su SQL. | 9T | L. Farinetti |
+| lun 13/11/23 | 10.00-11.30 | Lab-sqB | 1,5 | <font color="mediumvioletred">Laboratorio #4: Information retrieval (squadra A).</font> | LAIB 3B | L. Canale |
+| lun 13/11/23 | 11.30-13.00 | Lab-sqA | 1,5 | <font color="teal">Laboratorio #4: Information retrieval (squadra B).</font> | LAIB 3B | L. Canale |
+| ven 17/11/23 | 13.00-16.00 | EsCCT | 3 | Esercitazione SQL#5. | 9T | L. Farinetti |
 | lun 20/11/23 | 10.00-11.30 | Lab-sqB | 1,5 | <font color="mediumvioletred">Laboratorio #5: Information retrieval (squadra A).</font> | LAIB 3B | L. Canale |
 | lun 20/11/23 | 11.30-13.00 | Lab-sqA | 1,5 | <font color="teal">Laboratorio #5: Information retrieval (squadra B).</font> | LAIB 3B | L. Canale |
-| ven 24/11/23 | 13.00-16.00 | EsCCT | 3 | Esercitazione CCT#3: Cluedo. | 9T | L. Canale |
+| ven 24/11/23 | 13.00-16.00 | EsCCT | 3 | Esercitazione CCT#2: Cluedo. | 9T | L. Canale |
 | lun 27/11/23 | 10.00-11.30 | EsT | 1,5 | Esercitazione Progettazione#1. | LAIB 3B | L. Farinetti |
 | lun 27/11/23 | 11.30-13.00 | Cons | 1,5 | Consulenza. | LAIB 3B | L. Farinetti |
 | ven 01/12/23 | 13.00-16.00 | EsT | 3 | Esercitazione Progettazione#2. | 9T | L. Farinetti |
-| lun 04/12/23 | 10.00-11.30 | Lab-sqB | 1,5 | <font color="teal">Laboratorio #6: Information retrieval (squadra B).</font> | LAIB 3B | L. Canale |
-| lun 04/12/23 | 11.30-13.00 | Lab-sqA | 1,5 | <font color="mediumvioletred">Laboratorio #6: Information retrieval (squadra A).</font> | LAIB 3B | L. Canale |
+| lun 04/12/23 | 10.00-11.30 | Lab-sqB | 1,5 | <font color="mediumvioletred">Laboratorio #6: Information retrieval (squadra A).</font> | LAIB 3B | L. Canale |
+| lun 04/12/23 | 11.30-13.00 | Lab-sqA | 1,5 | <font color="teal">Laboratorio #6: Information retrieval (squadra B).</font> | LAIB 3B | L. Canale |
 | lun 11/12/23 | 10.00-11.30 | Lab-sqB | 1,5 | <font color="mediumvioletred">Laboratorio #7: Information retrieval (squadra A).</font> | LAIB 3B | L. Canale |
 | lun 11/12/23 | 11.30-13.00 | Lab-sqA | 1,5 | <font color="teal">Laboratorio #7: Information retrieval (squadra B).</font> | LAIB 3B | L. Canale |
 | ven 15/12/23 | 13.00-16.00 | EsT | 3 | Esercitazione Progettazione#3. | 9T | L. Farinetti |
 | lun 18/12/23 | 10.00-11.30 | EsT | 1,5 | Esercitazione. | LAIB 3B | L. Canale |
 | lun 18/12/23 | 11.30-13.00 | Cons | 1,5 | Consulenza. | LAIB 3B | L. Farinetti |
 | lun 08/01/24 | 10.00-11.30 | EsT | 1,5 | Temi d'esame. | LAIB 3B | L. Canale |
-| ven 12/01/24 | 13.00-16.00 | EsCCT | 3 | Esercitazione CCT#4: Progettazione. | 9T | L. Farinetti |
+| ven 12/01/24 | 13.00-16.00 | EsCCT | 3 | Esercitazione CCT#3: Progettazione. | 9T | L. Farinetti |
 | lun 15/01/24 | 10.00-11.30 | Lab-sqB | 1,5 | <font color="teal">Laboratorio #8: Ripasso SQL (squadra B).</font> | LAIB 3B | L. Canale |
 | lun 15/01/24 | 11.30-13.00 | Lab-sqA | 1,5 | <font color="mediumvioletred">Laboratorio #8: Ripasso SQL (squadra A).</font> | LAIB 3B | L. Canale |
 | ven 19/01/24 | 10.00-11.30 | EsT | 1,5 | Temi d'esame. | LAIB 3B | L. Farinetti |
