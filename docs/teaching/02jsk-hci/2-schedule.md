@@ -211,6 +211,7 @@ All slides, examples, exercises, and any other material used in the classroom an
 
 <LectureRow
     date="13/11/2023" time="14:30-16:00"
+    video="https://youtu.be/R5C_xz_lZtA"
     >
     <a href="https://polito-hci-2023.github.io/materials/slides/06-visualdesign.pdf" title="Visual design and navigation">Visual Design</a>
 </LectureRow>
