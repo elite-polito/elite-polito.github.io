@@ -244,13 +244,13 @@ All slides, examples, exercises, and any other material used in the classroom an
 <LectureRow
     date="20/11/2023" time="14:30-16:00" teacher="Alberto Monge Roffarello"
     >
-    Design Patterns
+    Evaluation: overview. Heuristic evaluation.
 </LectureRow>
 
 <LectureRow 
     date="21/11/2023" time="17:30-19:00" teacher="Alberto Monge Roffarello"
     >
-    Evaluation: overview. Heuristic evaluation.
+    Heuristic evaluation (cont'd)
 </LectureRow>
 
 <LectureRow variant="success" date="21/11/2023" time="EOD" teacher="" type="">
@@ -278,15 +278,15 @@ All slides, examples, exercises, and any other material used in the classroom an
 <LectureDivider topic='Week 09'/>{/*-------------------------------------------*/}
 
 <LectureRow
-    date="27/11/2023" time="14:30-16:00" teacher="Alberto Monge Roffarello"
+    date="27/11/2023" time="14:30-16:00" type="Exercise" teacher="Alberto Monge Roffarello"
     >
-    Heuristic evaluation (cont'd)
+    Heuristic evaluation
 </LectureRow>
 
 <LectureRow 
-    date="28/11/2023" time="17:30-19:00" type="Exercise" teacher="Alberto Monge Roffarello"
+    date="28/11/2023" time="17:30-19:00" teacher="Alberto Monge Roffarello"
     >
-    Heuristic evaluation
+    Design Patterns
 </LectureRow>
 
 <LectureRow 
