@@ -385,6 +385,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 <LectureRow
     date="13/11/2023" time="17:30-19:00"
     topic="L18 Funzioni"
+    pdf='https://polito-informatica.github.io/Materiale/P5-Funzioni.pdf'
 />
 
 <LectureRow
