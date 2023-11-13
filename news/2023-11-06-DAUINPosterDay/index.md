@@ -21,7 +21,7 @@ Tommaso Calò's poster, "Code Generation From Visual Representations," addressed
 For those interested in delving deeper into the research presented at the DAUIN PhD poster day, we have made available the posters for downloading:
 
 - [Supporting Developers in the Cybersecurity of IoT Systems](./Mannella-Luca-36.pdf).
-- [Code Generation From Visual Representations](./phdposter_calò_5nov.pdf).
+- [Code Generation From Visual Representations](./phdposter_calo_5nov.pdf).
 
 
 <!-- truncate -->
