@@ -166,25 +166,25 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 <LectureRow
     date="13/11/2023" time="16:00-17:30"
     >
-    Flask
+    <a href="https://polito-iaw-2023.github.io/materiale/slide/06-flask.pdf" title="Il framework Flask">Flask</a>
 </LectureRow>
 
 <LectureRow
-    date="13/11/2023" time="17:30-19:00" type="Esercizio"
+    date="13/11/2023" time="17:30-19:00"
     >
-    Flask (su GitHub)
+    Flask (continua). <a href="https://github.com/polito-iaw-2023/materiale/tree/main/esercizi/06-flask">Esempi</a> (su GitHub).
 </LectureRow>
 
 <LectureRow
     date="16/11/2023" time="16:00-17:30" type="Lab"
     >
-    Primi passi con Flask (gruppo I)
+    <a href="https://polito-iaw-2023.github.io/materiale/laboratori/lab-05/lab-5-flask.pdf">Primi passi con Flask</a> (gruppo I)
 </LectureRow>
 
 <LectureRow
     date="16/11/2023" time="17:30-19:00" type="Lab"
     >
-    Primi passi con Flask (gruppo II)
+    <a href="https://polito-iaw-2023.github.io/materiale/laboratori/lab-05/lab-5-flask.pdf">Primi passi con Flask</a> (gruppo II)
 </LectureRow>
 
 <LectureDivider topic='Settimana 7'/>{/*---------------------------------------*/}
@@ -192,7 +192,7 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 <LectureRow
     date="20/11/2023" time="16:00-17:30"
     >
-    Flask (continua)
+    Flask (continua), con esempi
 </LectureRow>
 
 <LectureRow
