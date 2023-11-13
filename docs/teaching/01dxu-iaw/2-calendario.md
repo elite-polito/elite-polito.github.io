@@ -165,12 +165,14 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 
 <LectureRow
     date="13/11/2023" time="16:00-17:30"
+    video="https://youtu.be/GQ_kPVjCmfQ"
     >
     <a href="https://polito-iaw-2023.github.io/materiale/slide/06-flask.pdf" title="Il framework Flask">Flask</a>
 </LectureRow>
 
 <LectureRow
     date="13/11/2023" time="17:30-19:00"
+    video="https://youtu.be/1U-I4pHbxRQ"
     >
     Flask (continua). <a href="https://github.com/polito-iaw-2023/materiale/tree/main/esercizi/06-flask">Esempi</a> (su GitHub).
 </LectureRow>
