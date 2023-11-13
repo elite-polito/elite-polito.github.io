@@ -386,15 +386,17 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     date="13/11/2023" time="17:30-19:00"
     topic="L18 Funzioni"
     pdf='https://polito-informatica.github.io/Materiale/P5-Funzioni.pdf'
+    video='https://youtu.be/nuIXhT0t28Q'
 />
 
 <LectureRow
     date="15/11/2023" time="11:30-13:00"
     topic="L19 Liste"
+    pdf='https://polito-informatica.github.io/Materiale/P6-Liste_e_Tabelle.pdf'
 />
 
 <LectureRow
-    date="08/11/2023" time="13:00-14:30"
+    date="15/11/2023" time="13:00-14:30"
     topic="L20 Liste"
 />
 
