@@ -249,9 +249,9 @@ All slides, examples, exercises, and any other material used in the classroom an
 </LectureRow>
 
 <LectureRow 
-    date="21/11/2023" time="17:30-19:00" teacher="Alberto Monge Roffarello"
+    date="21/11/2023" time="17:30-19:00" type="Exercise" teacher="Alberto Monge Roffarello"
     >
-    Heuristic evaluation (cont'd)
+    Heuristic evaluation
 </LectureRow>
 
 <LectureRow variant="success" date="21/11/2023" time="EOD" teacher="" type="">
@@ -281,7 +281,7 @@ All slides, examples, exercises, and any other material used in the classroom an
 <LectureRow
     date="27/11/2023" time="14:30-16:00" type="Exercise" teacher="Alberto Monge Roffarello"
     >
-    Heuristic evaluation
+    Group set-up for Assignment 3
 </LectureRow>
 
 <LectureRow 
