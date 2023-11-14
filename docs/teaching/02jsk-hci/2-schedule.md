@@ -218,6 +218,7 @@ All slides, examples, exercises, and any other material used in the classroom an
 
 <LectureRow 
     date="14/11/2023" time="17:30-19:00"
+    video="https://youtu.be/JrBcXjsqmmo"
     >
     Visual Design (cont'd)
 </LectureRow>
