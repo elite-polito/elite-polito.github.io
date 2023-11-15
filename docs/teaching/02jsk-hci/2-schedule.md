@@ -224,19 +224,19 @@ All slides, examples, exercises, and any other material used in the classroom an
 </LectureRow>
 
 <LectureRow 
-    date="16/11/2023" time="13:00-14:30" type="Lab" teacher="Alberto Monge Roffarello"
+    date="15/11/2023" time="13:00-14:30" type="Lab" teacher="Alberto Monge Roffarello"
     >
     Assignment 2: Storyboard and Low-fi Prototypes (cont'd, group 1)
 </LectureRow>
 
 <LectureRow 
-    date="16/11/2023" time="14:30-16:00" type="Lab" teacher="Luigi De Russis"
+    date="15/11/2023" time="14:30-16:00" type="Lab" teacher="Luigi De Russis"
     >
     Assignment 2: Storyboard and Low-fi Prototypes (cont'd, group 2)
 </LectureRow>
 
 <LectureRow 
-    date="16/11/2023" time="16:00-17:30" type="Lab" teacher="Tommaso Calò"
+    date="15/11/2023" time="16:00-17:30" type="Lab" teacher="Tommaso Calò"
     >
     Assignment 2: Storyboard and Low-fi Prototypes (cont'd, group 3)
 </LectureRow>
