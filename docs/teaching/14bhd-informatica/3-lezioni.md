@@ -391,13 +391,15 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 
 <LectureRow
     date="15/11/2023" time="11:30-13:00"
-    topic="L19 Liste"
+    topic="L19 Introduzione alle Liste"
     pdf='https://polito-informatica.github.io/Materiale/P6-Liste_e_Tabelle.pdf'
+    video='https://youtu.be/WSI90K-Olqk'
 />
 
 <LectureRow
     date="15/11/2023" time="13:00-14:30"
-    topic="L20 Liste"
+    topic="L20 Funzioni e metodi sulle liste"
+    video='https://youtu.be/VZAnBgpwnr8'
 />
 
 <LectureRow
@@ -428,6 +430,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     date='' time=''
     topic='Esercizi della settimana'
     teacher='' type=''
+    zip='https://github.com/polito-informatica/Settimane2023/raw/main/Settimana07.zip'
 />
 
 <LectureDivider>

@@ -5,6 +5,7 @@ description: "Lucidi, videolezioni, esercizi, ..."
 # Materiale di studio
 
 **Tutto il materiale è accessibile su GitHub alla pagina: https://github.com/polito-informatica**
+
 ## Lucidi delle lezioni
 
 - [Introduzione al corso](https://polito-informatica.github.io/Materiale/Unita'%200%20-%20Introduzione%20al%20corso%20(Corno).pdf)
@@ -20,6 +21,12 @@ description: "Lucidi, videolezioni, esercizi, ..."
 - [Unità T2 - Architettura degli elaboratori](https://polito-informatica.github.io/Materiale/T2-Architettura.pdf)
 
 Nota: le slide sono anche disponibili su GitHub, al link: https://polito-informatica.github.io/Materiale
+
+## Prontuario con le principali funzioni Python
+
+- [Cheatsheet](https://polito-informatica.github.io/Materiale/CheatSheet/Python_Cheat_Sheet-3.2.pdf)
+- [Versione accessibile](https://polito-informatica.github.io/Materiale/CheatSheet/Python_Cheat_Sheet-Accessibile-v3.2.pdf)
+
 
 ## Video Lezioni
 
