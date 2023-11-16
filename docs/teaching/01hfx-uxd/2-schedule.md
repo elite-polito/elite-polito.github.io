@@ -166,14 +166,23 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 <LectureRow 
     date="17/11/2023" time="11:30-13:00" type ="Lezione"
     >
-   Visual Design
+   <a href="https://polito-uxd-2023.github.io/materiale/slides/09-heuristic-evaluation.pdf">Overview su tecniche di valutazione. Valutazione Euristica</a>
 </LectureRow>
 
 <LectureRow
-    date="17/11/2023" time="13:00-14:30" type ="Lezione"
+    date="17/11/2023" time="13:00-14:30" type ="Esercitazione"
     >
-    Visual Design (continua)
+    <a href="https://polito-uxd-2023.github.io/materiale/slides/09b-heuristic-evaluation-exercise.pdf">Valutazione Euristica (esercizio)</a>
 </LectureRow>
+
+<LectureDivider topic='Settimana 7'/>{/*-------------------------------------------*/}
+
+<LectureRow 
+    date="21/11/2023" time="11:30-13:00" type ="Laboratorio"
+    >
+    Sessione di feedback su Assignment 2
+</LectureRow>
+
 
 </LectureTable>
 
