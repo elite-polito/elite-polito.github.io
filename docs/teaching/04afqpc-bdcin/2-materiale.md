@@ -29,10 +29,13 @@ description: "Materiale didattico (slide, documenti, link, ...)"
 ## Esercitazioni
 
 - SQL
-    - Blocco 1: [Testo](https://farinetti.github.io/materiale-bdcin/EsSQL_1-Testo.pdf) e Soluzione
-    - Blocco 2: [Testo](https://farinetti.github.io/materiale-bdcin/EsSQL_2-Testo.pdf) e Soluzione
-    - Blocco 3: [Testo](https://farinetti.github.io/materiale-bdcin/EsSQL_3-Testo.pdf) e Soluzione
-    - Blocco 4: [Testo](https://farinetti.github.io/materiale-bdcin/EsSQL_4-Testo.pdf) e Soluzione
+    - Blocco 1: [Testo](https://farinetti.github.io/materiale-bdcin/EsSQL_1-Testo.pdf) e [Soluzione](https://farinetti.github.io/materiale-bdcin/EsSQL_1-Soluz.pdf)
+    - Blocco 2: [Testo](https://farinetti.github.io/materiale-bdcin/EsSQL_2-Testo.pdf) e [Soluzione](https://farinetti.github.io/materiale-bdcin/EsSQL_2-Soluz.pdf)
+    - Blocco 3: [Testo](https://farinetti.github.io/materiale-bdcin/EsSQL_3-Testo.pdf) e [Soluzione](https://farinetti.github.io/materiale-bdcin/EsSQL_3-Soluz.pdf)
+    - Blocco 4: [Testo](https://farinetti.github.io/materiale-bdcin/EsSQL_4-Testo.pdf) e [Soluzione](https://farinetti.github.io/materiale-bdcin/EsSQL_4-Soluz.pdf)
+
+- Progettazione
+    - ER 1: [Testo](https://farinetti.github.io/materiale-bdcin/EsER_1-Testo.pdf) e Soluzione
 
 ## Esercitazioni CCT
 - Esercitazione CCT#1: ChatGPT e SQL, caccia all'errore - [Presentazione](https://farinetti.github.io/materiale-bdcin/Es_CCT_1.pdf) e [Schemi](https://farinetti.github.io/materiale-bdcin/SchemiProposti.docx)
