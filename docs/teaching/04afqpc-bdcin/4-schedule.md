@@ -23,7 +23,7 @@ _Legenda:_ la colonna Tipo può essere Lez=Lezione, EsT=Esercitazione "tradizion
 | ven 17/11/23 | 13.00-16.00 | EsCCT | 3 | Esercitazione SQL#5. | 9T | L. Farinetti |
 | lun 20/11/23 | 10.00-11.30 | Lab-sqB | 1,5 | <font color="mediumvioletred">Laboratorio #5: Information retrieval (squadra A).</font> | LAIB 3B | L. Canale |
 | lun 20/11/23 | 11.30-13.00 | Lab-sqA | 1,5 | <font color="teal">Laboratorio #5: Information retrieval (squadra B).</font> | LAIB 3B | L. Canale |
-| ven 24/11/23 | 13.00-16.00 | EsCCT | 3 | Esercitazione CCT#2: Cluedo. | 9T | L. Canale |
+| ven 24/11/23 | 13.00-16.00 | EsCCT | 3 | Information retrieval: lavoro di gruppo | 9T | L. Canale |
 | lun 27/11/23 | 10.00-11.30 | EsT | 1,5 | Esercitazione Progettazione#1. | LAIB 3B | L. Farinetti |
 | lun 27/11/23 | 11.30-13.00 | Cons | 1,5 | Consulenza. | LAIB 3B | L. Farinetti |
 | ven 01/12/23 | 13.00-16.00 | EsT | 3 | Esercitazione Progettazione#2. | 9T | L. Farinetti |
