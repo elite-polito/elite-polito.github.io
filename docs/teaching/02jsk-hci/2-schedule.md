@@ -262,19 +262,19 @@ All slides, examples, exercises, and any other material used in the classroom an
 <LectureRow 
     date="22/11/2023" time="13:00-14:30" type="Lab" teacher="All"
     >
-    Assignment 2: Feedback and discussion (all groups)
+    Assignment 2: Feedback and discussion (schedule for all groups)
 </LectureRow>
 
 <LectureRow 
     date="22/11/2023" time="14:30-16:00" type="Lab" teacher="All"
     >
-    Assignment 2: Feedback and discussion (all groups)
+    Assignment 2: Feedback and discussion (schedule for all groups)
 </LectureRow>
 
 <LectureRow 
     date="22/11/2023" time="16:00-17:30" type="Lab" teacher="All"
     >
-    Assignment 2: Feedback and discussion (all groups)
+    Assignment 2: Feedback and discussion (schedule for all groups)
 </LectureRow>
 
 <LectureDivider topic='Week 09'/>{/*-------------------------------------------*/}
