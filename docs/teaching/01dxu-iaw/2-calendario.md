@@ -202,7 +202,7 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 <LectureRow
     date="20/11/2023" time="17:30-19:00" type="Esercizio"
     >
-    Flask (su GitHub)
+    <a href="https://github.com/polito-iaw-2023/materiale/tree/main/esercizi/06-flask/esercizio">Flask</a> (su GitHub)
 </LectureRow>
 
 <LectureRow
