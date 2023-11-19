@@ -49,7 +49,7 @@ _Legenda:_ la colonna Tipo può essere Lez=Lezione, EsT=Esercitazione "tradizion
 | [CCT #1](https://farinetti.github.io/materiale-bdcin/Esercizi-CCT_1.pdf) | 27/10 | [Soluzioni CCT #1](https://farinetti.github.io/materiale-bdcin/Soluzioni-CCT_1.pdf) |
 | [SQL #4](https://farinetti.github.io/materiale-bdcin/Esercizi-SQL_4.pdf): EXISTS, correlazione, divisione, table function | 3/11 | [Soluzioni SQL #4](https://farinetti.github.io/materiale-bdcin/Soluzioni-SQL_4.pdf) - comprende le soluzioni degli altri esercizi proposti in aula |
 | [SQL #5](https://farinetti.github.io/materiale-bdcin/Esercizi-SQL_5.pdf): Tema d'esame | 17/11 | [Soluzioni SQL #5](https://farinetti.github.io/materiale-bdcin/Soluzioni-SQL_5.pdf) - comprende le soluzioni degli altri esercizi proposti in aula |
- [ER #1](https://farinetti.github.io/materiale-bdcin/Esercizi-ER_1.pdf): Progettazione concettuale | 27/11 |  |
+| [ER #1](https://farinetti.github.io/materiale-bdcin/Esercizi-ER_1.pdf): Progettazione concettuale | 27/11 |  |
 
 ## Elenco delle videolezioni
 
