@@ -18,9 +18,6 @@ _Legenda:_ la colonna Tipo può essere Lez=Lezione, EsT=Esercitazione "tradizion
 
 | Data | Orario | Tipo | Ore | Argomento | Aula | Docente |
 |----|-------------|--------|----|------|------|-----|
-| lun 13/11/23 | 10.00-11.30 | Lab-sqB | 1,5 | <font color="mediumvioletred">Laboratorio #4: Information retrieval (squadra A).</font> | LAIB 3B | L. Canale |
-| lun 13/11/23 | 11.30-13.00 | Lab-sqA | 1,5 | <font color="teal">Laboratorio #4: Information retrieval (squadra B).</font> | LAIB 3B | L. Canale |
-| ven 17/11/23 | 13.00-16.00 | EsCCT | 3 | Esercitazione SQL#5. | 9T | L. Farinetti |
 | lun 20/11/23 | 10.00-11.30 | Lab-sqB | 1,5 | <font color="mediumvioletred">Laboratorio #5: Information retrieval (squadra A).</font> | LAIB 3B | L. Canale |
 | lun 20/11/23 | 11.30-13.00 | Lab-sqA | 1,5 | <font color="teal">Laboratorio #5: Information retrieval (squadra B).</font> | LAIB 3B | L. Canale |
 | ven 24/11/23 | 13.00-16.00 | EsCCT | 3 | Information retrieval: lavoro di gruppo | 9T | L. Canale |
@@ -51,7 +48,8 @@ _Legenda:_ la colonna Tipo può essere Lez=Lezione, EsT=Esercitazione "tradizion
 | [SQL #3](https://farinetti.github.io/materiale-bdcin/Esercizi-SQL_3.pdf): IN e NOT IN | 20/10 | [Soluzioni SQL #3](https://farinetti.github.io/materiale-bdcin/Soluzioni-SQL_3.pdf) - comprende le soluzioni degli altri esercizi proposti in aula |
 | [CCT #1](https://farinetti.github.io/materiale-bdcin/Esercizi-CCT_1.pdf) | 27/10 | [Soluzioni CCT #1](https://farinetti.github.io/materiale-bdcin/Soluzioni-CCT_1.pdf) |
 | [SQL #4](https://farinetti.github.io/materiale-bdcin/Esercizi-SQL_4.pdf): EXISTS, correlazione, divisione, table function | 3/11 | [Soluzioni SQL #4](https://farinetti.github.io/materiale-bdcin/Soluzioni-SQL_4.pdf) - comprende le soluzioni degli altri esercizi proposti in aula |
-| [SQL #5](https://farinetti.github.io/materiale-bdcin/Esercizi-SQL_5.pdf): Tema d'esame | 17/11 | |
+| [SQL #5](https://farinetti.github.io/materiale-bdcin/Esercizi-SQL_5.pdf): Tema d'esame | 17/11 | [Soluzioni SQL #5](https://farinetti.github.io/materiale-bdcin/Soluzioni-SQL_5.pdf) - comprende le soluzioni degli altri esercizi proposti in aula |
+ [ER #1](https://farinetti.github.io/materiale-bdcin/Esercizi-ER_1.pdf): Progettazione concettuale | 27/11 |  |
 
 ## Elenco delle videolezioni
 
