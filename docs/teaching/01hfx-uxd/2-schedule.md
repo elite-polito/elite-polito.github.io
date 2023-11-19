@@ -164,13 +164,13 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 </LectureRow>
 
 <LectureRow 
-    date="17/11/2023" time="11:30-13:00" type ="Lezione" video={['https://www.polito.it/didattica']
+    date="17/11/2023" time="11:30-13:00" type ="Lezione" video={['https://www.polito.it/didattica']}
     >
    <a href="https://polito-uxd-2023.github.io/materiale/slides/09-heuristic-evaluation.pdf">Overview su tecniche di valutazione. Valutazione Euristica</a>
 </LectureRow>
 
 <LectureRow
-    date="17/11/2023" time="13:00-14:30" type ="Esercitazione" video={['https://www.polito.it/didattica']
+    date="17/11/2023" time="13:00-14:30" type ="Esercitazione" video={['https://www.polito.it/didattica']}
     >
     <a href="https://polito-uxd-2023.github.io/materiale/slides/09b-heuristic-evaluation-exercise.pdf">Valutazione Euristica (esercizio)</a>
 </LectureRow>
