@@ -51,6 +51,7 @@ _Legenda:_ la colonna Tipo può essere Lez=Lezione, EsT=Esercitazione "tradizion
 | [SQL #5](https://farinetti.github.io/materiale-bdcin/Esercizi-SQL_5.pdf): Tema d'esame | 17/11 | [Soluzioni SQL #5](https://farinetti.github.io/materiale-bdcin/Soluzioni-SQL_5.pdf) - comprende le soluzioni degli altri esercizi proposti in aula |
 | [ER #1](https://farinetti.github.io/materiale-bdcin/Esercizi-ER_1.pdf): Progettazione concettuale | 27/11 |  |
 
+
 ## Elenco delle videolezioni
 
 La tabella riporta la sequenza delle videolezioni pre-registrate, con i relativi quiz. Per le videolezioni è riportato il periodo consigliato per la visione. Per i quiz è riportato il periodo di pubblicazione (apertura-chiusura). I quiz devono essere sottomessi ENTRO la mezzanotte della data di chiusura, e possono essere sottomessi 1 SOLA VOLTA. Si noti che alcuni quiz sono aperti contemporaneamente.
