@@ -195,12 +195,14 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 
 <LectureRow
     date="20/11/2023" time="16:00-17:30"
+    video="https://youtu.be/AarxYv4SO3M"
     >
     Flask (continua), con esempi
 </LectureRow>
 
 <LectureRow
     date="20/11/2023" time="17:30-19:00" type="Esercizio"
+    video="https://youtu.be/F81P3h6JZQU"
     >
     <a href="https://github.com/polito-iaw-2023/materiale/tree/main/esercizi/06-flask/esercizio">Flask</a> (su GitHub)
 </LectureRow>
