@@ -60,6 +60,7 @@ description: "Materiale didattico (slide, documenti, link, ...)"
     - Fase 1: [presentazione](https://farinetti.github.io/materiale-bdcin/Chatbot-Fase1.pdf) e [link](https://colab.research.google.com/drive/1sIy6IVzW5ANHoTpWYNXlf9IXlNL3Cw-P?usp=sharing) al Notebook con istruzioni/tutorial -> consegna prima del laboratorio di lunedì 13/11
     - [Langchain](https://docs.google.com/presentation/d/1OFu-hU7-CMQR6hB7ydX2pOxRf5KWLdLV2P9ePetcW0k/edit?usp=sharing) -> slide usate in aula il 10/11
     - Fase 2: [link](https://colab.research.google.com/drive/1X1Pj9ik5qhO1m5_P7Es2vKQ5VJYTEZCf?usp=sharing) al Notebook -> consegna prima del laboratorio di lunedì 20/11
-    
+    - Fase 3: [link](https://colab.research.google.com/drive/1vHXgeznEpwmNfGOXVl3-PeVA8X6sa5cl?usp=sharing) al Notebook -> consegna prima del laboratorio di lunedì 4/12
+       
    
     
