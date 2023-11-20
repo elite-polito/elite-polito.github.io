@@ -208,13 +208,13 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 <LectureRow
     date="23/11/2023" time="16:00-17:30" type="Lab"
     >
-    Flask avanzato (gruppo I)
+    <a href="https://polito-iaw-2023.github.io/materiale/laboratori/lab-06/lab-6-flask-avanzato.pdf">Flask avanzato</a> (gruppo I)
 </LectureRow>
 
 <LectureRow
     date="23/11/2023" time="17:30-19:00" type="Lab"
     >
-    Flask avanzato (gruppo II)
+    <a href="https://polito-iaw-2023.github.io/materiale/laboratori/lab-06/lab-6-flask-avanzato.pdf">Flask avanzato</a> (gruppo II)
 </LectureRow>
 
 <LectureDivider topic='Settimana 8'/>{/*---------------------------------------*/}
