@@ -573,7 +573,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 <LectureRow
     date="06/12/2023" time="16:00-17:30"
     topic="Lab09 - Squadra 3 - Ripasso Cicli, Liste, Tabelle."
-    teacher=''
+    teacher='Roberta Bardini'
     type='Laboratorio'
     pdf='https://github.com/polito-informatica/Laboratori/blob/main/Lab09/Lab09_testo.pdf?raw=true'
 />
@@ -581,7 +581,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 <LectureRow
     date="07/12/2023" time="11:30-13:00"
     topic="Lab09 - Squadra 1 - Ripasso Cicli, Liste, Tabelle."
-    teacher=''
+    teacher='Roberta Bardini'
     type='Laboratorio'
     pdf='https://github.com/polito-informatica/Laboratori/blob/main/Lab09/Lab09_testo.pdf?raw=true'
 />
@@ -589,7 +589,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 <LectureRow
     date="07/12/2023" time="13:00-14:30"
     topic="Lab09 - Squadra 2 - Ripasso Cicli, Liste, Tabelle."
-    teacher=''
+    teacher='Roberta Bardini'
     type='Laboratorio'
     pdf='https://github.com/polito-informatica/Laboratori/blob/main/Lab09/Lab09_testo.pdf?raw=true'
 />
@@ -625,7 +625,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 <LectureRow
     date="13/12/2023" time="16:00-17:30"
     topic="Lab10 - Squadra 3 - File, eccezioni."
-    teacher=''
+    teacher='Fulvio Corno'
     type='Laboratorio'
     pdf='https://github.com/polito-informatica/Laboratori/blob/main/Lab10/Lab10_testo.pdf?raw=true'
 />
@@ -633,7 +633,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 <LectureRow
     date="14/12/2023" time="11:30-13:00"
     topic="Lab10 - Squadra 1 - File, eccezioni."
-    teacher=''
+    teacher='Lorenzo Martini'
     type='Laboratorio'
     pdf='https://github.com/polito-informatica/Laboratori/blob/main/Lab10/Lab10_testo.pdf?raw=true'
 />
@@ -641,7 +641,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 <LectureRow
     date="14/12/2023" time="13:00-14:30"
     topic="Lab10 - Squadra 2 - File, eccezioni."
-    teacher=''
+    teacher='Lorenzo Martini'
     type='Laboratorio'
     pdf='https://github.com/polito-informatica/Laboratori/blob/main/Lab10/Lab10_testo.pdf?raw=true'
 />
@@ -665,35 +665,35 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 />
 
 <LectureRow
-    date="19/12/2023" time="11:30-13:00"
+    date="20/12/2023" time="11:30-13:00"
     topic="L34 Strutture dati complesse"
 />
 
 <LectureRow
-    date="19/12/2023" time="13:00-14:30"
+    date="20/12/2023" time="13:00-14:30"
     topic="L35"
 />
 
 <LectureRow
-    date="19/12/2023" time="16:00-17:30"
+    date="20/12/2023" time="16:00-17:30"
     topic="Lab11 - Squadra 3 - Insiemi e dizionari."
-    teacher=''
+    teacher='Fulvio Corno'
     type='Laboratorio'
     pdf='https://github.com/polito-informatica/Laboratori/blob/main/Lab11/Lab11_testo.pdf?raw=true'
 />
 
 <LectureRow
-    date="20/12/2023" time="11:30-13:00"
+    date="21/12/2023" time="11:30-13:00"
     topic="Lab11 - Squadra 1 - Insiemi e dizionari."
-    teacher=''
+    teacher='Lorenzo Martini'
     type='Laboratorio'
     pdf='https://github.com/polito-informatica/Laboratori/blob/main/Lab11/Lab11_testo.pdf?raw=true'
 />
 
 <LectureRow
-    date="20/12/2023" time="13:00-14:30"
+    date="21/12/2023" time="13:00-14:30"
     topic="Lab11 - Squadra 2 - Insiemi e dizionari."
-    teacher=''
+    teacher='Lorenzo Martini'
     type='Laboratorio'
     pdf='https://github.com/polito-informatica/Laboratori/blob/main/Lab11/Lab11_testo.pdf?raw=true'
 />
@@ -734,21 +734,21 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 <LectureRow
     date="09/01/2024" time="16:00-17:30"
     topic="Lab12 - Squadra 3 - Simulazione d'esame."
-    teacher=''
+    teacher='Lorenzo Martini'
     type='Laboratorio'
 />
 
 <LectureRow
     date="10/01/2024" time="11:30-13:00"
     topic="Lab12 - Squadra 1 - Simulazione d'esame."
-    teacher=''
+    teacher='Lorenzo Martini'
     type='Laboratorio'
 />
 
 <LectureRow
     date="10/01/2024" time="13:00-14:30"
     topic="Lab12 - Squadra 1 - Simulazione d'esame."
-    teacher=''
+    teacher='Lorenzo Martini'
     type='Laboratorio'
 />
 
