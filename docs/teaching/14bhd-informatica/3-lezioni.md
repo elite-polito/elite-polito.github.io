@@ -445,6 +445,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     date="20/11/2023" time="17:30-19:00"
     topic="L21 Esercizi sulle liste"
     teacher='Roberta Bardini'
+    video='https://youtu.be/7QnXEefP9PQ'
 />
 
 <LectureRow
