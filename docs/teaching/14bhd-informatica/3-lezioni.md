@@ -517,6 +517,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 <LectureRow
     date="29/11/2023" time="13:00-14:30"
     topic="L26 Introduzione ai file"
+    pdf='https://polito-informatica.github.io/Materiale/P7-File_e_Eccezioni.pdf'
 />
 
 <LectureRow
@@ -616,6 +617,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 <LectureRow
     date="13/12/2023" time="11:30-13:00"
     topic="L31 Insiemi"
+    pdf='https://polito-informatica.github.io/Materiale/P8-Strutture_dati_complesse.pdf'
 />
 
 <LectureRow
@@ -662,7 +664,6 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 <LectureRow
     date="18/12/2023" time="17:30-19:00"
     topic="L33 Dizionari (seconda parte)"
-    teacher='Roberta Bardini'
 />
 
 <LectureRow
