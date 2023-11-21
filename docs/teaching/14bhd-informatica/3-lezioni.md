@@ -288,6 +288,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     date="01/11/2023"
     type='🎃'
     topic="Festività - Non ci sono lezioni."
+    teacher=''
 >
 <ul style={{'lineHeight':'95%', 'fontSize': '90%', 'marginBottom':'3pt'}}>
 <li>La lezione viene recuperata (parzialmente) il giorno precedente in modalità on-line</li>
@@ -448,12 +449,12 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 
 <LectureRow
     date="22/11/2023" time="11:30-13:00"
-    topic="L22 Esercizi sulle liste"
+    topic="L22 Liste e funzioni. Tuple. Comprehension."
 />
 
 <LectureRow
     date="22/11/2023" time="13:00-14:30"
-    topic="L23 Liste e funzioni. Comprehension."
+    topic="L23 Introduzione alle tabelle."
 />
 
 <LectureRow
@@ -503,18 +504,18 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 <LectureRow
     variant='warning'
     date="29/11/2023" time="08:30-10:00"
-    topic="L24"
+    topic="L24 Esercizi sulle liste"
     teacher='Roberta Bardini'
 />
 
 <LectureRow
     date="29/11/2023" time="11:30-13:00"
-    topic="L25"
+    topic="L25 Operazioni sulle tabelle"
 />
 
 <LectureRow
     date="29/11/2023" time="13:00-14:30"
-    topic="L26"
+    topic="L26 Introduzione ai file"
 />
 
 <LectureRow
@@ -546,6 +547,271 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     topic='Esercizi della settimana'
     teacher='' type=''
 />
+
+
+<LectureDivider>
+
+### Settimana 10
+
+</LectureDivider>
+
+<LectureRow
+    date="04/12/2023" time="17:30-19:00"
+    topic="L27 Elaborazione di file di testo"
+/>
+
+<LectureRow
+    date="06/12/2023" time="11:30-13:00"
+    topic="L28 File di testo strutturati"
+/>
+
+<LectureRow
+    date="06/12/2023" time="13:00-14:30"
+    topic="L29 File CSV. Eccezioni."
+/>
+
+<LectureRow
+    date="06/12/2023" time="16:00-17:30"
+    topic="Lab09 - Squadra 3 - Ripasso Cicli, Liste, Tabelle."
+    teacher=''
+    type='Laboratorio'
+    pdf='https://github.com/polito-informatica/Laboratori/blob/main/Lab09/Lab09_testo.pdf?raw=true'
+/>
+
+<LectureRow
+    date="07/12/2023" time="11:30-13:00"
+    topic="Lab09 - Squadra 1 - Ripasso Cicli, Liste, Tabelle."
+    teacher=''
+    type='Laboratorio'
+    pdf='https://github.com/polito-informatica/Laboratori/blob/main/Lab09/Lab09_testo.pdf?raw=true'
+/>
+
+<LectureRow
+    date="07/12/2023" time="13:00-14:30"
+    topic="Lab09 - Squadra 2 - Ripasso Cicli, Liste, Tabelle."
+    teacher=''
+    type='Laboratorio'
+    pdf='https://github.com/polito-informatica/Laboratori/blob/main/Lab09/Lab09_testo.pdf?raw=true'
+/>
+
+<LectureRow 
+    date='' time=''
+    topic='Esercizi della settimana'
+    teacher='' type=''
+/>
+
+<LectureDivider>
+
+### Settimana 11
+
+</LectureDivider>
+
+<LectureRow
+    date="11/12/2023" time="17:30-19:00"
+    topic="L30 Esercizi su file di testo"
+    teacher='Roberta Bardini'
+/>
+
+<LectureRow
+    date="13/12/2023" time="11:30-13:00"
+    topic="L31 Insiemi"
+/>
+
+<LectureRow
+    date="13/12/2023" time="13:00-14:30"
+    topic="L32 Dizionari (prima parte)"
+/>
+
+<LectureRow
+    date="13/12/2023" time="16:00-17:30"
+    topic="Lab10 - Squadra 3 - File, eccezioni."
+    teacher=''
+    type='Laboratorio'
+    pdf='https://github.com/polito-informatica/Laboratori/blob/main/Lab10/Lab10_testo.pdf?raw=true'
+/>
+
+<LectureRow
+    date="14/12/2023" time="11:30-13:00"
+    topic="Lab10 - Squadra 1 - File, eccezioni."
+    teacher=''
+    type='Laboratorio'
+    pdf='https://github.com/polito-informatica/Laboratori/blob/main/Lab10/Lab10_testo.pdf?raw=true'
+/>
+
+<LectureRow
+    date="14/12/2023" time="13:00-14:30"
+    topic="Lab10 - Squadra 2 - File, eccezioni."
+    teacher=''
+    type='Laboratorio'
+    pdf='https://github.com/polito-informatica/Laboratori/blob/main/Lab10/Lab10_testo.pdf?raw=true'
+/>
+
+<LectureRow 
+    date='' time=''
+    topic='Esercizi della settimana'
+    teacher='' type=''
+/>
+
+<LectureDivider>
+
+### Settimana 12
+
+</LectureDivider>
+
+<LectureRow
+    date="18/12/2023" time="17:30-19:00"
+    topic="L33 Dizionari (seconda parte)"
+    teacher='Roberta Bardini'
+/>
+
+<LectureRow
+    date="19/12/2023" time="11:30-13:00"
+    topic="L34 Strutture dati complesse"
+/>
+
+<LectureRow
+    date="19/12/2023" time="13:00-14:30"
+    topic="L35"
+/>
+
+<LectureRow
+    date="19/12/2023" time="16:00-17:30"
+    topic="Lab11 - Squadra 3 - Insiemi e dizionari."
+    teacher=''
+    type='Laboratorio'
+    pdf='https://github.com/polito-informatica/Laboratori/blob/main/Lab11/Lab11_testo.pdf?raw=true'
+/>
+
+<LectureRow
+    date="20/12/2023" time="11:30-13:00"
+    topic="Lab11 - Squadra 1 - Insiemi e dizionari."
+    teacher=''
+    type='Laboratorio'
+    pdf='https://github.com/polito-informatica/Laboratori/blob/main/Lab11/Lab11_testo.pdf?raw=true'
+/>
+
+<LectureRow
+    date="20/12/2023" time="13:00-14:30"
+    topic="Lab11 - Squadra 2 - Insiemi e dizionari."
+    teacher=''
+    type='Laboratorio'
+    pdf='https://github.com/polito-informatica/Laboratori/blob/main/Lab11/Lab11_testo.pdf?raw=true'
+/>
+
+<LectureRow 
+    date='' time=''
+    topic='Esercizi della settimana'
+    teacher='' type=''
+/>
+
+
+<LectureRow variant='danger' type='Vacanza' teacher='🎅'>
+🎍 <strong>Vacanze di Natale</strong> 🎍
+</LectureRow>
+
+
+<LectureDivider>
+
+### Settimana 13
+
+</LectureDivider>
+
+<LectureRow
+    date="08/01/2024" time="17:30-19:00"
+    topic="L36 Architettura degli elaboratori"
+/>
+
+<LectureRow
+    date="09/01/2024" time="11:30-13:00"
+    topic="L37 Esercizi d'esame"
+/>
+
+<LectureRow
+    date="09/01/2024" time="13:00-14:30"
+    topic="L38 Esercizi d'esame"
+/>
+
+<LectureRow
+    date="09/01/2024" time="16:00-17:30"
+    topic="Lab12 - Squadra 3 - Simulazione d'esame."
+    teacher=''
+    type='Laboratorio'
+/>
+
+<LectureRow
+    date="10/01/2024" time="11:30-13:00"
+    topic="Lab12 - Squadra 1 - Simulazione d'esame."
+    teacher=''
+    type='Laboratorio'
+/>
+
+<LectureRow
+    date="10/01/2024" time="13:00-14:30"
+    topic="Lab12 - Squadra 1 - Simulazione d'esame."
+    teacher=''
+    type='Laboratorio'
+/>
+
+<LectureRow 
+    date='' time=''
+    topic='Esercizi della settimana'
+    teacher='' type=''
+/>
+
+<LectureDivider>
+
+### Settimana 14
+
+</LectureDivider>
+
+<LectureRow
+    date="15/01/2024" time="17:30-19:00"
+    topic="L39 Esercizi d'esame"
+/>
+
+<LectureRow
+    date="16/01/2024" time="11:30-13:00"
+    topic="L40 Esercizi d'esame"
+/>
+
+<LectureRow
+    date="16/01/2024" time="13:00-14:30"
+    topic="L41 Esercizi d'esame"
+/>
+
+<LectureRow
+    date="09/01/2024" time="16:00-17:30"
+    topic="L42 Esercizi sui sistemi di numerazione"
+    teacher='Fulvio Corno'
+    type='Esercizi (on-line)'
+>
+<br/><a href='https://polito-it.zoom.us/j/86175075461?pwd=dXd6RFVVSEVCYWRSUjkzckRGUmFTZz09'>Link Zoom</a>
+</LectureRow>
+
+<LectureRow
+    date="10/01/2024" time="11:30-13:00"
+    topic="L43 Esercizi sulle architetture degli elaboratori"
+    teacher='Fulvio Corno'
+    type='Esercizi (on-line)'
+>
+<br/><a href='https://polito-it.zoom.us/j/86175075461?pwd=dXd6RFVVSEVCYWRSUjkzckRGUmFTZz09'>Link Zoom</a>
+</LectureRow>
+
+<LectureRow
+    date="10/01/2024" time="13:00-14:30"
+    topic="L44 Esercizi sulla programmazione Python"
+    teacher='Fulvio Corno'
+    type='Esercizi (on-line)'
+>
+<br/><a href='https://polito-it.zoom.us/j/86175075461?pwd=dXd6RFVVSEVCYWRSUjkzckRGUmFTZz09'>Link Zoom</a>
+</LectureRow>
+
+<LectureRow 
+    date='' time=''
+    topic='Esercizi della settimana'
+    teacher='' type=''
+/>
+
 
 
 </LectureTable>
