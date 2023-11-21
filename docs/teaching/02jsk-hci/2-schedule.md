@@ -244,7 +244,9 @@ All slides, examples, exercises, and any other material used in the classroom an
 <LectureDivider topic='Week 08'/>{/*-------------------------------------------*/}
 
 <LectureRow
-    date="20/11/2023" time="14:30-16:00" teacher="Alberto Monge Roffarello"
+    date="20/11/2023" time="14:30-16:00" 
+    video="https://youtu.be/xQQ3f9DV5Lo"
+    teacher="Alberto Monge Roffarello"
     >
     <a href="https://polito-hci-2023.github.io/materials/slides/07-heuristic-evaluation.pdf" title="Evaluation: Introduction and Heuristics">Evaluation: overview. Heuristic evaluation.</a>
 </LectureRow>
