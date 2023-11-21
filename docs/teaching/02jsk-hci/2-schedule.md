@@ -252,7 +252,9 @@ All slides, examples, exercises, and any other material used in the classroom an
 </LectureRow>
 
 <LectureRow 
-    date="21/11/2023" time="17:30-19:00" type="Exercise" teacher="Alberto Monge Roffarello"
+    date="21/11/2023" time="17:30-19:00"
+    video="https://youtu.be/PwfQyt2ASwo"
+    type="Exercise" teacher="Alberto Monge Roffarello"
     >
     <a href="https://polito-hci-2023.github.io/materials/slides/07b-heuristic-evaluation-exercise.pdf" title="Exercise on Heuristic Evaluation">Heuristic evaluation</a>
 </LectureRow>
