@@ -183,12 +183,14 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
     date="16/11/2023" time="16:00-17:30" type="Lab"
     >
     <a href="https://polito-iaw-2023.github.io/materiale/laboratori/lab-05/lab-5-flask.pdf">Primi passi con Flask</a> (gruppo I)
+    <ul><li><a href="https://github.com/polito-iaw-2023/materiale/tree/main/laboratori/lab-05/soluzione">Soluzione</a> (su GitHub)</li></ul>
 </LectureRow>
 
 <LectureRow
     date="16/11/2023" time="17:30-19:00" type="Lab"
     >
     <a href="https://polito-iaw-2023.github.io/materiale/laboratori/lab-05/lab-5-flask.pdf">Primi passi con Flask</a> (gruppo II)
+    <ul><li><a href="https://github.com/polito-iaw-2023/materiale/tree/main/laboratori/lab-05/soluzione">Soluzione</a> (su GitHub)</li></ul>
 </LectureRow>
 
 <LectureDivider topic='Settimana 7'/>{/*---------------------------------------*/}
