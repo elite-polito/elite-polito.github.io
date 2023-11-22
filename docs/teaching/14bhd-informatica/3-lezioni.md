@@ -450,12 +450,14 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 
 <LectureRow
     date="22/11/2023" time="11:30-13:00"
-    topic="L22 Liste e funzioni. Tuple. Comprehension."
+    topic="L22 Operazioni sulle liste. Comprehension. Liste e funzioni."
+    video='https://youtu.be/D3Inh12GdQ8'
 />
 
 <LectureRow
     date="22/11/2023" time="13:00-14:30"
-    topic="L23 Introduzione alle tabelle."
+    topic="L23 Liste e funzioni. Tuple. Esercizio."
+    video='https://youtu.be/eUgE9QEycZU'
 />
 
 <LectureRow
@@ -486,6 +488,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     date='' time=''
     topic='Esercizi della settimana'
     teacher='' type=''
+    zip='https://github.com/polito-informatica/Settimane2023/raw/main/Settimana08.zip'
 />
 
 <LectureDivider>
@@ -511,12 +514,12 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 
 <LectureRow
     date="29/11/2023" time="11:30-13:00"
-    topic="L25 Operazioni sulle tabelle"
+    topic="L25 Introduzione alle tabelle"
 />
 
 <LectureRow
     date="29/11/2023" time="13:00-14:30"
-    topic="L26 Introduzione ai file"
+    topic="L26 Operazioni sulle tabelle"
     pdf='https://polito-informatica.github.io/Materiale/P7-File_e_Eccezioni.pdf'
 />
 
@@ -559,17 +562,17 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 
 <LectureRow
     date="04/12/2023" time="17:30-19:00"
-    topic="L27 Elaborazione di file di testo"
+    topic="L27 Introduzione ai file"
 />
 
 <LectureRow
     date="06/12/2023" time="11:30-13:00"
-    topic="L28 File di testo strutturati"
+    topic="L28 Elaborazione di file di testo"
 />
 
 <LectureRow
     date="06/12/2023" time="13:00-14:30"
-    topic="L29 File CSV. Eccezioni."
+    topic="L29 File di testo strutturati"
 />
 
 <LectureRow
@@ -616,13 +619,13 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 
 <LectureRow
     date="13/12/2023" time="11:30-13:00"
-    topic="L31 Insiemi"
+    topic="L31 File CSV. Eccezioni. "
     pdf='https://polito-informatica.github.io/Materiale/P8-Strutture_dati_complesse.pdf'
 />
 
 <LectureRow
     date="13/12/2023" time="13:00-14:30"
-    topic="L32 Dizionari (prima parte)"
+    topic="L32 Insiemi. Dizionari (prima parte)"
 />
 
 <LectureRow
