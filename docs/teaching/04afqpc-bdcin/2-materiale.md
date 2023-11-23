@@ -36,6 +36,7 @@ description: "Materiale didattico (slide, documenti, link, ...)"
 
 - Progettazione
     - ER 1: [Testo](https://farinetti.github.io/materiale-bdcin/EsER_1-Testo.pdf) e Soluzione
+    - ER 2: [Testo](https://farinetti.github.io/materiale-bdcin/EsER_2-Testo.pdf) e Soluzione
 
 ## Esercitazioni CCT
 - Esercitazione CCT#1: ChatGPT e SQL, caccia all'errore - [Presentazione](https://farinetti.github.io/materiale-bdcin/Es_CCT_1.pdf) e [Schemi](https://farinetti.github.io/materiale-bdcin/SchemiProposti.docx)
