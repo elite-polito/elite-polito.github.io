@@ -183,6 +183,25 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
     Sessione di feedback su Assignment 2
 </LectureRow>
 
+<LectureRow 
+    date="24/11/2023" time="11:30-13:00" type ="Lezione" video={['https://www.polito.it/didattica']}
+    >
+   <a href="https://polito-uxd-2023.github.io/materiale/slides/10-visualdesign.pdf">Visual Design</a>
+</LectureRow>
+
+<LectureRow
+    date="24/11/2023" time="13:00-14:30" type ="Lezione" video={['https://www.polito.it/didattica']}
+    >
+    <a href="https://polito-uxd-2023.github.io/materiale/slides/11-design-patterns-pdf">Design Patterns</a>
+</LectureRow>
+
+<LectureDivider topic='Settimana 8'/>{/*-------------------------------------------*/}
+
+<LectureRow 
+    date="28/11/2023" time="11:30-13:00" type ="Laboratorio"
+    >
+    Assignment 3: Valutazione Euristica
+</LectureRow>
 
 </LectureTable>
 
