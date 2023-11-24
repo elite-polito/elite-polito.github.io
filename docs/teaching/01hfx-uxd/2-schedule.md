@@ -200,7 +200,7 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 <LectureRow 
     date="28/11/2023" time="11:30-13:00" type ="Laboratorio"
     >
-    Assignment 3: Valutazione Euristica
+    <a href="https://polito-uxd-2023.github.io/materiale/assignments/A3-heuristic-evaluation.pdf">Assignment 3: Valutazione Euristica</a>
 </LectureRow>
 
 </LectureTable>
