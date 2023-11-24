@@ -298,19 +298,19 @@ All slides, examples, exercises, and any other material used in the classroom an
 <LectureRow 
     date="29/11/2023" time="13:00-14:30" type="Lab" teacher="Alberto Monge Roffarello"
     >
-    Assignment 3: Heuristic evaluation - individual assignment (group 1)
+    <a href="https://polito-hci-2023.github.io/materials/assignments/A3-heuristic-evaluation.pdf" title="Third assignment">Assignment 3: Heuristic evaluation - individual assignment</a> (group 1)
 </LectureRow>
 
 <LectureRow 
     date="29/11/2023" time="14:30-16:00" type="Lab" teacher="Alberto Monge Roffarello"
     >
-    Assignment 3: Heuristic evaluation - individual assignment (group 2)
+    <a href="https://polito-hci-2023.github.io/materials/assignments/A3-heuristic-evaluation.pdf" title="Third assignment">Assignment 3: Heuristic evaluation - individual assignment</a> (group 2)
 </LectureRow>
 
 <LectureRow 
     date="29/11/2023" time="16:00-17:30" type="Lab" teacher="Tommaso Calò"
     >
-    Assignment 3: Heuristic evaluation - individual assignment (group 3)
+    <a href="https://polito-hci-2023.github.io/materials/assignments/A3-heuristic-evaluation.pdf" title="Third assignment">Assignment 3: Heuristic evaluation - individual assignment</a> (group 3)
 </LectureRow>
 
 <LectureDivider topic='Week 10'/>{/*-------------------------------------------*/}
