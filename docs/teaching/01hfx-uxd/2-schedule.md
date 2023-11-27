@@ -203,6 +203,18 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
     <a href="https://polito-uxd-2023.github.io/materiale/assignments/A3-heuristic-evaluation.pdf">Assignment 3: Valutazione Euristica</a>
 </LectureRow>
 
+<LectureRow 
+    date="01/12/2023" time="11:30-13:00" type ="Lezione" teacher="Irene Ronga"
+    >
+   Neuroestetica
+</LectureRow>
+
+<LectureRow
+    date="01/12/2023" time="13:00-14:30" type ="Lezione" teacher="Irene Ronga"
+    >
+    Neuroestetica
+</LectureRow>
+
 </LectureTable>
 
 
