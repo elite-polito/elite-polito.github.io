@@ -232,7 +232,7 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 <LectureRow
     date="27/11/2023" time="17:30-19:00" teacher="Juan Pablo Sáenz Moreno"
     >
-    Form in Flask (con esempio)
+    Form in Flask. <a href="https://github.com/polito-iaw-2023/materiale/tree/main/esercizi/07-forms">Esempio</a> (su GitHub).
 </LectureRow>
 
 <LectureRow
