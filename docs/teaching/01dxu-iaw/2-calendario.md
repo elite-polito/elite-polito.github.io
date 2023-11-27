@@ -225,6 +225,7 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 
 <LectureRow
     date="27/11/2023" time="16:00-17:30" teacher="Juan Pablo Sáenz Moreno"
+    video="https://youtu.be/kRvW_o5O8jk"
     >
     <a href="https://polito-iaw-2023.github.io/materiale/slide/07-forms.pdf" title="Form in HTML">Form in HTML</a>
 </LectureRow>
