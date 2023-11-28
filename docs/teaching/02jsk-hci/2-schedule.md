@@ -292,7 +292,7 @@ All slides, examples, exercises, and any other material used in the classroom an
 <LectureRow 
     date="28/11/2023" time="17:30-19:00" teacher="Alberto Monge Roffarello"
     >
-    Design Patterns
+    <a href="https://polito-hci-2023.github.io/materials/slides/08-design-patterns.pdf.pdf" title="Design Patterns">Design Patterns</a>
 </LectureRow>
 
 <LectureRow 
