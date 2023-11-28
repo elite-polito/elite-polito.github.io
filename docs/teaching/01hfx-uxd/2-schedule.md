@@ -215,6 +215,14 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
     Neuroestetica
 </LectureRow>
 
+<LectureDivider topic='Settimana 9'/>{/*-------------------------------------------*/}
+
+<LectureRow 
+    date="05/12/2023" time="11:30-13:00" type ="Laboratorio"
+    >
+    <a href="https://polito-uxd-2023.github.io/materiale/assignments/A3-heuristic-evaluation.pdf">Assignment 3: Valutazione Euristica</a>
+</LectureRow>
+
 </LectureTable>
 
 

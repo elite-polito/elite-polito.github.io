@@ -28,7 +28,7 @@ Prossimi appelli, con scadenze:
 - [Assignment 2: Storyboard e prototipo a bassa fedeltà](https://polito-uxd-2023.github.io/materiale/assignments/A2-storyboard-paper-prototypes.pdf)
   - Deadline: 19/11/2023
 - [Assignment 3: Valutazione euristica](https://polito-uxd-2023.github.io/materiale/assignments/A3-heuristic-evaluation.pdf)
-  - Deadline: 04/12/2023
+  - Deadline: 11/12/2023
 - Assignment 4
   - Template
   - Deadline: 7 giorni prima di ogni appello (vedi sopra per le date esatte)
