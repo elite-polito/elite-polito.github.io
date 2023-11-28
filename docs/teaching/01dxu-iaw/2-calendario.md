@@ -240,13 +240,13 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 <LectureRow
     date="30/11/2023" time="16:00-17:30" type="Lab" teacher="Juan Pablo Sáenz Moreno"
     >
-    Form in HTML (gruppo I)
+    <a href="https://polito-iaw-2023.github.io/materiale/laboratori/lab-07/lab-7-form.pdf">Form in HTML</a> (gruppo I)
 </LectureRow>
 
 <LectureRow
     date="30/11/2023" time="17:30-19:00" type="Lab" teacher="Juan Pablo Sáenz Moreno"
     >
-    Form in HTML (gruppo II)
+    <a href="https://polito-iaw-2023.github.io/materiale/laboratori/lab-07/lab-7-form.pdf">Form in HTML</a> (gruppo II)
 </LectureRow>
 
 <LectureDivider topic='Settimana 9'/>{/*---------------------------------------*/}
