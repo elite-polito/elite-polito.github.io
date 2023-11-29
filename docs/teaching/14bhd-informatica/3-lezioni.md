@@ -508,8 +508,9 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 <LectureRow
     variant='warning'
     date="29/11/2023" time="08:30-10:00"
-    topic="L24 Esercizi sulle liste"
+    topic="L24 Esercizi sulle liste II"
     teacher='Roberta Bardini'
+    video='https://youtu.be/vL0b4bSluWw'
 />
 
 <LectureRow
