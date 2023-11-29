@@ -317,13 +317,13 @@ All slides, examples, exercises, and any other material used in the classroom an
 <LectureDivider topic='Week 10'/>{/*-------------------------------------------*/}
 
 <LectureRow
-    date="04/12/2023" time="14:30-16:00" teacher="Alberto Monge Roffarello"
+    date="04/12/2023" time="14:30-16:00" type="Exercise" teacher="Alberto Monge Roffarello"
     >
-    Medium-fidelity Prototypes
+    Supervised work group on heuristic evaluation
 </LectureRow>
 
 <LectureRow 
-    date="05/12/2023" time="17:30-19:00" type="Exercise" teacher="Alberto Monge Roffarello"
+    date="05/12/2023" time="17:30-19:00" teacher="Alberto Monge Roffarello"
     >
     Medium-fidelity Prototypes
 </LectureRow>
