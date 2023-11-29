@@ -515,11 +515,13 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 <LectureRow
     date="29/11/2023" time="11:30-13:00"
     topic="L25 Introduzione alle tabelle"
+    video='https://youtu.be/nIIWImaqdvw'
 />
 
 <LectureRow
     date="29/11/2023" time="13:00-14:30"
-    topic="L26 Operazioni sulle tabelle"
+    topic="L26 Esercizio sulle tabelle (Campo minato)"
+    video='https://youtu.be/VUSpWNzuDlk'
 />
 
 <LectureRow
