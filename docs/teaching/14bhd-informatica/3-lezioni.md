@@ -553,6 +553,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     date='' time=''
     topic='Esercizi della settimana'
     teacher='' type=''
+    zip='https://github.com/polito-informatica/Settimane2023/raw/main/Settimana09.zip'
 />
 
 
