@@ -76,8 +76,9 @@ transform AccessCoVE into a transnational platform of CoVE.
     - Action Type: Centers of Vocational Excellence
 - Start date 15-06-2023
 - End date 14-06-2027
-- EU Grant:3.315.161,00 €
-- Partners:21
+- EU Grant: 3.315.161,00 €
+- Partners: 21
 - Countries covered 4: 🇬🇷 Greece 🇮🇹 Italy 🇪🇸 Spain 🇸🇪 Sweden 
 - [Project card](https://erasmus-plus.ec.europa.eu/projects/search/details/101103097)
+- [Project website](https://accesscove.org/)
 
