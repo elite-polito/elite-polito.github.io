@@ -78,7 +78,7 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 </LectureRow>
 
 <LectureRow 
-    date="20/10/2023" time="11:30-13:00" type ="Lezione" teacher="Irene Ronga"
+    date="20/10/2023" time="11:30-13:00" type ="Lezione" teacher="Irene Ronga" video={['https://www.polito.it/didattica']}
     >
     <a href="https://polito-uxd-2023.github.io/materiale/slides/04-AIinteraction.pdf">Interazione con Intelligenza Artificiale</a>
 </LectureRow>
@@ -98,7 +98,7 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 </LectureRow>
 
 <LectureRow 
-    date="27/10/2023" time="11:30-13:00" type ="Lezione" teacher="Irene Ronga"
+    date="27/10/2023" time="11:30-13:00" type ="Lezione" teacher="Irene Ronga" video={['https://www.polito.it/didattica']}
     >
    <a href="https://polito-uxd-2023.github.io/materiale/slides/05-gamification.pdf">Approcci gamificati</a>
 </LectureRow>
@@ -206,13 +206,13 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 <LectureRow 
     date="01/12/2023" time="11:30-13:00" type ="Lezione" teacher="Irene Ronga"
     >
-   Neuroestetica
+   <a href="https://polito-uxd-2023.github.io/materiale/slides/12-neuroestetica.pdf">Neuroestetica</a>
 </LectureRow>
 
 <LectureRow
     date="01/12/2023" time="13:00-14:30" type ="Lezione" teacher="Irene Ronga"
     >
-    Neuroestetica
+   <a href="https://polito-uxd-2023.github.io/materiale/slides/12-neuroestetica.pdf">Neuroestetica</a>
 </LectureRow>
 
 <LectureDivider topic='Settimana 9'/>{/*-------------------------------------------*/}
