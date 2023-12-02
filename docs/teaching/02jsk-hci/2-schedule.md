@@ -317,7 +317,7 @@ All slides, examples, exercises, and any other material used in the classroom an
 <LectureDivider topic='Week 10'/>{/*-------------------------------------------*/}
 
 <LectureRow
-    date="04/12/2023" time="14:30-16:00" type="Exercise" teacher="Alberto Monge Roffarello"
+    date="04/12/2023" time="14:30-16:00" type="Exercise" teacher="Tommaso Calò"
     >
     Supervised work group on heuristic evaluation
 </LectureRow>
@@ -339,7 +339,7 @@ All slides, examples, exercises, and any other material used in the classroom an
 </LectureRow>
 
 <LectureRow 
-    date="06/12/2023" time="14:30-16:00" type="Lab" teacher="Tommaso Calò"
+    date="06/12/2023" time="14:30-16:00" type="Lab" teacher="Alberto Monge Roffarello"
     >
     Assignment 4: Medium to High-fi Prototype (group 2)
 </LectureRow>
