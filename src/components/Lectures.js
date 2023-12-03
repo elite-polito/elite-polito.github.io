@@ -3,6 +3,7 @@ import React, { createContext, useContext, useMemo } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faYoutube, faGithub, faPython } from '@fortawesome/free-brands-svg-icons'
 import { faFilePdf, faFileZipper } from '@fortawesome/free-solid-svg-icons'
+import Link from '@docusaurus/Link'
 
 import stles from './lectures.module.css';
 
@@ -28,7 +29,7 @@ function IconicLinks({ links, label, icon }) {
     return (
         links ?
             ensureArray(links).map(item =>
-                <a key={i++} href={item} title={label}><FontAwesomeIcon icon={icon} size="2x" className="icon-padding" /></a>)
+                <Link key={i++} href={item} title={label}><FontAwesomeIcon icon={icon} size="2x" className="icon-padding" /></Link>)
             : null
     )
 }

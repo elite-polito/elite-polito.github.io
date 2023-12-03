@@ -2,6 +2,7 @@ import React from "react";
 import {useState, useEffect} from "react";
 import fetchJsonp from "fetch-jsonp";
 import Details from '@theme/MDXComponents/Details';
+import Link from "@docusaurus/Link";
 
 export function OfferedThesisList() {
 
@@ -54,8 +55,8 @@ function OfferedThesis({
         <div className='fix-new-lines'>{description}</div>
         <hr/>
         {keywords.length > 0 && <div><strong>Keywords: </strong>{keywords.join(', ')}</div>}
-        <div><a href={`https://didattica.polito.it/pls/portal30/sviluppo.tesiv.elenchi?idt=${ID}&lang=EN`}>View the proposal on Portale della Didattica</a></div>
-        <div><a href={`https://didattica.polito.it/pls/portal30/sviluppo.tesiv.candidati?id=${ID}`}>Submit your application</a></div>
+        <div><Link href={`https://didattica.polito.it/pls/portal30/sviluppo.tesiv.elenchi?idt=${ID}&lang=EN`}>View the proposal on Portale della Didattica</Link></div>
+        <div><Link href={`https://didattica.polito.it/pls/portal30/sviluppo.tesiv.candidati?id=${ID}`}>Submit your application</Link></div>
     </Details>
 }
 

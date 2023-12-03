@@ -1,5 +1,6 @@
 // Format the citation of a single publication, according to the ACM style (https://www.acm.org/publications/authors/reference-formatting)
 
+import Link from "@docusaurus/Link";
 import React from "react";
 
 export function Publication({ publication }) {
@@ -65,8 +66,8 @@ export function Publication({ publication }) {
 
     return <li>{cite}
         <br />
-        <a href={`http://hdl.handle.net/${handle}`}>IRIS Page</a>
-        {doi && <> &ndash; DOI: <a href={`http://dx.doi.org/${doi}`}>{publication.lookupValues.doi}</a></>}
+        <Link href={`http://hdl.handle.net/${handle}`}>IRIS Page</Link>
+        {doi && <> &ndash; DOI: <Link href={`http://dx.doi.org/${doi}`}>{publication.lookupValues.doi}</Link></>}
     </li>
 
 }

@@ -2,6 +2,7 @@ import fetchJsonp from "fetch-jsonp";
 import {useEffect, useState} from "react";
 import React from "react";
 import Details from '@theme/MDXComponents/Details';
+import Link from '@docusaurus/Link';
 
 
 const supervisors = [
@@ -44,7 +45,7 @@ function CompletedThesis({date, relators, annoacc, creators, title, abstract, ur
         </summary>
         <div className='fix-new-lines'>{abstract}</div>
         <hr/>
-        <div><a href={uri}>See all details and download the thesis</a></div>
+        <div><Link href={uri}>See all details and download the thesis</Link></div>
     </Details>
 }
 

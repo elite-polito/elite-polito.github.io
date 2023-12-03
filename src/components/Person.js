@@ -3,6 +3,7 @@ import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import '@fortawesome/free-solid-svg-icons'
 import { faGithub, faTelegram, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import Link from "@docusaurus/Link";
 
 
 export const Person = (props) => (
@@ -18,7 +19,7 @@ export const Person = (props) => (
                     <div className="avatar__intro">
                         <div className="avatar__name">{props.name}</div>
                         <small className="avatar__subtitle">{props.role}<br />
-                            {props.email && <address><a href={"mailto:" + props.email}>{props.email}</a><br /></address>}
+                            {props.email && <address><Link href={"mailto:" + props.email}>{props.email}</Link><br /></address>}
                         </small>
                     </div>
                 </div>
@@ -27,17 +28,17 @@ export const Person = (props) => (
 
 
                 {props.github &&
-                    <>&nbsp;<a href={"http://github.com/" + props.github} title='GitHub'>
-                        <FontAwesomeIcon icon={faGithub} className='fa-xl' /></a>&nbsp;</>}
+                    <>&nbsp;<Link href={"http://github.com/" + props.github} title='GitHub'>
+                        <FontAwesomeIcon icon={faGithub} className='fa-xl' /></Link>&nbsp;</>}
                 {props.telegram &&
-                    <>&nbsp;<a href={"https://t.me/" + props.telegram} title='Telegram'>
-                        <FontAwesomeIcon icon={faTelegram} className='fa-xl' /></a>&nbsp;</>}
+                    <>&nbsp;<Link href={"https://t.me/" + props.telegram} title='Telegram'>
+                        <FontAwesomeIcon icon={faTelegram} className='fa-xl' /></Link>&nbsp;</>}
                 {props.linkedin &&
-                    <>&nbsp;<a href={"https://www.linkedin.com/in/" + props.linkedin} title='LinkedIn'>
-                        <FontAwesomeIcon icon={faLinkedin} className='fa-xl' /></a>&nbsp;</>}
+                    <>&nbsp;<Link href={"https://www.linkedin.com/in/" + props.linkedin} title='LinkedIn'>
+                        <FontAwesomeIcon icon={faLinkedin} className='fa-xl' /></Link>&nbsp;</>}
                 {props.twitter &&
-                    <>&nbsp;<a href={"https://twitter.com/" + props.twitter} title='Twitter'>
-                        <FontAwesomeIcon icon={faTwitter} className='fa-xl' /></a>&nbsp;</>}
+                    <>&nbsp;<Link href={"https://twitter.com/" + props.twitter} title='Twitter'>
+                        <FontAwesomeIcon icon={faTwitter} className='fa-xl' /></Link>&nbsp;</>}
                 &nbsp;
             </div>
         </div>
