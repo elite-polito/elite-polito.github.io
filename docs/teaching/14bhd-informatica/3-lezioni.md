@@ -567,6 +567,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     date="04/12/2023" time="17:30-19:00"
     topic="L27 Introduzione ai file"
     pdf='https://polito-informatica.github.io/Materiale/P7-File_e_Eccezioni.pdf'
+    video='https://youtu.be/-qaMUck5Yc0'
 />
 
 <LectureRow
