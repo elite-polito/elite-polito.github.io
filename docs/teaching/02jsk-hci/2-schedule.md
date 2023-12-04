@@ -2,7 +2,8 @@
 description: "Course schedule"
 ---
 
-import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lectures'
+import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lectures';
+import Link from '@docusaurus/Link';
 
 
 # Schedule
@@ -24,21 +25,21 @@ All slides, examples, exercises, and any other material used in the classroom an
     date="02/10/2023" time="14:30-16:00"
     video="https://youtu.be/S6_VuAk8taA"
     >
-    <a href="https://polito-hci-2023.github.io/materials/slides/00-intro.pdf" title="Course introduction slides in PDF">Introduction to the course</a>
+    <Link to="https://polito-hci-2023.github.io/materials/slides/00-intro.pdf" title="Course introduction slides in PDF">Introduction to the course</Link>
 </LectureRow>
 
 <LectureRow 
     date="03/10/2023" time="17:30-19:00"
     video="https://youtu.be/wWwFxNahoTA"
     >
-    <a href="https://polito-hci-2023.github.io/materials/slides/01-whatisHCI.pdf" title="Slides on introduction to HCI in PDF">What is HCI?</a>
+    <Link to="https://polito-hci-2023.github.io/materials/slides/01-whatisHCI.pdf" title="Slides on introduction to HCI in PDF">What is HCI?</Link>
 </LectureRow>
 
 <LectureRow
     date="04/10/2023" time="13:00-14:30"
     video="https://youtu.be/9_OdwSfnElM"
     >
-    <a href="https://polito-hci-2023.github.io/materials/slides/02-needfinding.pdf" title="Needfinding slides in PDF">Needfinding</a>
+    <Link to="https://polito-hci-2023.github.io/materials/slides/02-needfinding.pdf" title="Needfinding slides in PDF">Needfinding</Link>
 </LectureRow>
 
 <LectureDivider topic='Week 02'/>{/*-------------------------------------------*/}
@@ -54,31 +55,31 @@ All slides, examples, exercises, and any other material used in the classroom an
     date="10/10/2023" time="17:30-19:00" type="Exercise"
     video="https://youtu.be/uynZynu7EKE"
     >
-    <a href="https://polito-hci-2023.github.io/materials/slides/02b-needfinding-exercise.pdf" title="Exercise on needfinding">Needfinding</a>
+    <Link to="https://polito-hci-2023.github.io/materials/slides/02b-needfinding-exercise.pdf" title="Exercise on needfinding">Needfinding</Link>
 </LectureRow>
 
 <LectureRow variant='success'
     date="10/10/2023" time="EOD" type="" teacher=""
     >
-    <em>Assignment 0 (group composition) due - <a href="https://docs.google.com/spreadsheets/d/1onS_mR75WWrs4NwDaIapE9KAfhRxd1jm8KXIem5h_nY" title="Groups-Themes match">doc with results</a></em>
+    <em>Assignment 0 (group composition) due - <Link to="https://docs.google.com/spreadsheets/d/1onS_mR75WWrs4NwDaIapE9KAfhRxd1jm8KXIem5h_nY" title="Groups-Themes match">doc with results</Link></em>
 </LectureRow>
 
 <LectureRow 
     date="11/10/2023" time="13:00-14:30" type="Lab" teacher="Alberto Monge Roffarello"
     >
-    <a href="https://polito-hci-2023.github.io/materials/assignments/A1-needfinding.pdf" title="First assignment">Assignment 1: Needfinding</a> (<a href="https://docs.google.com/spreadsheets/d/1onS_mR75WWrs4NwDaIapE9KAfhRxd1jm8KXIem5h_nY" title="Groups-Themes match">group 1</a>)
+    <Link to="https://polito-hci-2023.github.io/materials/assignments/A1-needfinding.pdf" title="First assignment">Assignment 1: Needfinding</Link> (<Link to="https://docs.google.com/spreadsheets/d/1onS_mR75WWrs4NwDaIapE9KAfhRxd1jm8KXIem5h_nY" title="Groups-Themes match">group 1</Link>)
 </LectureRow>
 
 <LectureRow 
     date="11/10/2023" time="14:30-16:00" type="Lab" 
     >
-    <a href="https://polito-hci-2023.github.io/materials/assignments/A1-needfinding.pdf" title="First assignment">Assignment 1: Needfinding</a> (<a href="https://docs.google.com/spreadsheets/d/1onS_mR75WWrs4NwDaIapE9KAfhRxd1jm8KXIem5h_nY" title="Groups-Themes match">group 2</a>)
+    <Link to="https://polito-hci-2023.github.io/materials/assignments/A1-needfinding.pdf" title="First assignment">Assignment 1: Needfinding</Link> (<Link to="https://docs.google.com/spreadsheets/d/1onS_mR75WWrs4NwDaIapE9KAfhRxd1jm8KXIem5h_nY" title="Groups-Themes match">group 2</Link>)
 </LectureRow>
 
 <LectureRow 
     date="11/10/2023" time="16:00-17:30" type="Lab" teacher="Tommaso Calò"
     >
-    <a href="https://polito-hci-2023.github.io/materials/assignments/A1-needfinding.pdf" title="First assignment">Assignment 1: Needfinding</a> (<a href="https://docs.google.com/spreadsheets/d/1onS_mR75WWrs4NwDaIapE9KAfhRxd1jm8KXIem5h_nY" title="Groups-Themes match">group 3</a>)
+    <Link to="https://polito-hci-2023.github.io/materials/assignments/A1-needfinding.pdf" title="First assignment">Assignment 1: Needfinding</Link> (<Link to="https://docs.google.com/spreadsheets/d/1onS_mR75WWrs4NwDaIapE9KAfhRxd1jm8KXIem5h_nY" title="Groups-Themes match">group 3</Link>)
 </LectureRow>
 
 <LectureDivider topic='Week 03'/>{/*-------------------------------------------*/}
@@ -93,7 +94,7 @@ All slides, examples, exercises, and any other material used in the classroom an
     date="17/10/2023" time="17:30-19:00"
     video="https://youtu.be/FAj3r1CTtkI"
     >
-    <a href="https://polito-hci-2023.github.io/materials/slides/03-analyzing.pdf" title="Task analysis, scenarios, and storyboards (PDF)">Analyzing and Synthetizing</a>
+    <Link to="https://polito-hci-2023.github.io/materials/slides/03-analyzing.pdf" title="Task analysis, scenarios, and storyboards (PDF)">Analyzing and Synthetizing</Link>
 </LectureRow>
 
 <LectureRow 
@@ -127,7 +128,7 @@ All slides, examples, exercises, and any other material used in the classroom an
     date="24/10/2023" time="17:30-19:00" type="Exercise"
     video="https://youtu.be/OsPlTPsB2Oo"
     >
-    <a href="https://polito-hci-2023.github.io/materials/slides/03b-analyzing-exercise.pdf" title="Exercise on tasks and storyboards (PDF)">Exercise on Tasks and Storyboards</a>
+    <Link to="https://polito-hci-2023.github.io/materials/slides/03b-analyzing-exercise.pdf" title="Exercise on tasks and storyboards (PDF)">Exercise on Tasks and Storyboards</Link>
 </LectureRow>
 
 <LectureRow variant="success" date="24/10/2023" time="EOD" teacher="" type="">
@@ -137,19 +138,19 @@ All slides, examples, exercises, and any other material used in the classroom an
 <LectureRow 
     date="25/10/2023" time="13:00-14:30" type="Lab" teacher="All"
     >
-    Assignment 1: Feedback and discussion (<a href="https://docs.google.com/spreadsheets/d/1NngPG8eniNBA2pFE4qbOaYt1zSBjm6HF8UrwcEfHo_w" title="Schedule for the feedback session">schedule for all groups</a>)
+    Assignment 1: Feedback and discussion (<Link to="https://docs.google.com/spreadsheets/d/1NngPG8eniNBA2pFE4qbOaYt1zSBjm6HF8UrwcEfHo_w" title="Schedule for the feedback session">schedule for all groups</Link>)
 </LectureRow>
 
 <LectureRow 
     date="25/10/2023" time="14:30-16:00" type="Lab" teacher="All"
     >
-    Assignment 1: Feedback and discussion (<a href="https://docs.google.com/spreadsheets/d/1NngPG8eniNBA2pFE4qbOaYt1zSBjm6HF8UrwcEfHo_w" title="Schedule for the feedback session">schedule for all groups</a>)
+    Assignment 1: Feedback and discussion (<Link to="https://docs.google.com/spreadsheets/d/1NngPG8eniNBA2pFE4qbOaYt1zSBjm6HF8UrwcEfHo_w" title="Schedule for the feedback session">schedule for all groups</Link>)
 </LectureRow>
 
 <LectureRow 
     date="25/10/2023" time="16:00-17:30" type="Lab" teacher="All"
     >
-    Assignment 1: Feedback and discussion (<a href="https://docs.google.com/spreadsheets/d/1NngPG8eniNBA2pFE4qbOaYt1zSBjm6HF8UrwcEfHo_w" title="Schedule for the feedback session">schedule for all groups</a>)
+    Assignment 1: Feedback and discussion (<Link to="https://docs.google.com/spreadsheets/d/1NngPG8eniNBA2pFE4qbOaYt1zSBjm6HF8UrwcEfHo_w" title="Schedule for the feedback session">schedule for all groups</Link>)
 </LectureRow>
 
 <LectureDivider topic='Week 05'/>{/*-------------------------------------------*/}
@@ -158,7 +159,7 @@ All slides, examples, exercises, and any other material used in the classroom an
     date="30/10/2023" time="14:30-16:00"
     video="https://youtu.be/q92i5Z-uiuI"
     >
-    <a href="https://polito-hci-2023.github.io/materials/slides/04-design-principles.pdf" title="Design theories, principles, and guidelines (PDF)">Design Theory, Principles, and Guidelines</a>
+    <Link to="https://polito-hci-2023.github.io/materials/slides/04-design-principles.pdf" title="Design theories, principles, and guidelines (PDF)">Design Theory, Principles, and Guidelines</Link>
 </LectureRow>
 
 <LectureRow 
@@ -179,32 +180,32 @@ All slides, examples, exercises, and any other material used in the classroom an
     date="06/11/2023" time="14:30-16:00"
     video="https://youtu.be/Fp8LKOxVI5s"
     >
-    <a href="https://polito-hci-2023.github.io/materials/slides/05-low-fi-prototypes.pdf" title="Prototyping">Introduction to Prototyping</a>
+    <Link to="https://polito-hci-2023.github.io/materials/slides/05-low-fi-prototypes.pdf" title="Prototyping">Introduction to Prototyping</Link>
 </LectureRow>
 
 <LectureRow 
     date="07/11/2023" time="17:30-19:00" type="Exercise"
     video="https://youtu.be/8ZqCF5ud4z4"
     >
-    Low-fi Prototyping (cont'd). <a href="https://polito-hci-2023.github.io/materials/slides/05b-low-fi-prototypes-exercise.pdf" title="Critique of low-fi prototypes">Exercise on low-fi prototypes</a>.
+    Low-fi Prototyping (cont'd). <Link to="https://polito-hci-2023.github.io/materials/slides/05b-low-fi-prototypes-exercise.pdf" title="Critique of low-fi prototypes">Exercise on low-fi prototypes</Link>.
 </LectureRow>
 
 <LectureRow 
     date="08/11/2023" time="13:00-14:30" type="Lab" teacher="Alberto Monge Roffarello"
     >
-    <a href="https://polito-hci-2023.github.io/materials/assignments/A2-storyboard-paper-prototypes.pdf" title="Second assignment">Assignment 2: Storyboard and Low-fi Prototypes</a> (group 1)
+    <Link to="https://polito-hci-2023.github.io/materials/assignments/A2-storyboard-paper-prototypes.pdf" title="Second assignment">Assignment 2: Storyboard and Low-fi Prototypes</Link> (group 1)
 </LectureRow>
 
 <LectureRow 
     date="08/11/2023" time="14:30-16:00" type="Lab" teacher="Luigi De Russis"
     >
-    <a href="https://polito-hci-2023.github.io/materials/assignments/A2-storyboard-paper-prototypes.pdf" title="Second assignment">Assignment 2: Storyboard and Low-fi Prototypes</a> (group 2)
+    <Link to="https://polito-hci-2023.github.io/materials/assignments/A2-storyboard-paper-prototypes.pdf" title="Second assignment">Assignment 2: Storyboard and Low-fi Prototypes</Link> (group 2)
 </LectureRow>
 
 <LectureRow 
     date="08/11/2023" time="16:00-17:30" type="Lab" teacher="Tommaso Calò"
     >
-    <a href="https://polito-hci-2023.github.io/materials/assignments/A2-storyboard-paper-prototypes.pdf" title="Second assignment">Assignment 2: Storyboard and Low-fi Prototypes</a> (group 3)
+    <Link to="https://polito-hci-2023.github.io/materials/assignments/A2-storyboard-paper-prototypes.pdf" title="Second assignment">Assignment 2: Storyboard and Low-fi Prototypes</Link> (group 3)
 </LectureRow>
 
 <LectureDivider topic='Week 07'/>{/*-------------------------------------------*/}
@@ -213,7 +214,7 @@ All slides, examples, exercises, and any other material used in the classroom an
     date="13/11/2023" time="14:30-16:00"
     video="https://youtu.be/R5C_xz_lZtA"
     >
-    <a href="https://polito-hci-2023.github.io/materials/slides/06-visualdesign.pdf" title="Visual design and navigation">Visual Design</a>
+    <Link to="https://polito-hci-2023.github.io/materials/slides/06-visualdesign.pdf" title="Visual design and navigation">Visual Design</Link>
 </LectureRow>
 
 <LectureRow 
@@ -248,7 +249,7 @@ All slides, examples, exercises, and any other material used in the classroom an
     video="https://youtu.be/xQQ3f9DV5Lo"
     teacher="Alberto Monge Roffarello"
     >
-    <a href="https://polito-hci-2023.github.io/materials/slides/07-heuristic-evaluation.pdf" title="Evaluation: Introduction and Heuristics">Evaluation: overview. Heuristic evaluation.</a>
+    <Link to="https://polito-hci-2023.github.io/materials/slides/07-heuristic-evaluation.pdf" title="Evaluation: Introduction and Heuristics">Evaluation: overview. Heuristic evaluation.</Link>
 </LectureRow>
 
 <LectureRow 
@@ -256,7 +257,7 @@ All slides, examples, exercises, and any other material used in the classroom an
     video="https://youtu.be/PwfQyt2ASwo"
     type="Exercise" teacher="Alberto Monge Roffarello"
     >
-    <a href="https://polito-hci-2023.github.io/materials/slides/07b-heuristic-evaluation-exercise.pdf" title="Exercise on Heuristic Evaluation">Heuristic evaluation</a>
+    <Link to="https://polito-hci-2023.github.io/materials/slides/07b-heuristic-evaluation-exercise.pdf" title="Exercise on Heuristic Evaluation">Heuristic evaluation</Link>
 </LectureRow>
 
 <LectureRow variant="success" date="21/11/2023" time="EOD" teacher="" type="">
@@ -266,19 +267,19 @@ All slides, examples, exercises, and any other material used in the classroom an
 <LectureRow 
     date="22/11/2023" time="13:00-14:30" type="Lab" teacher="All"
     >
-    Assignment 2: Feedback and discussion (<a href="https://docs.google.com/spreadsheets/d/1W5maJ0hBiGLfgS_EttpQQM7CYw0moe1t9BIubdS7o5Y">schedule for all groups</a>)
+    Assignment 2: Feedback and discussion (<Link to="https://docs.google.com/spreadsheets/d/1W5maJ0hBiGLfgS_EttpQQM7CYw0moe1t9BIubdS7o5Y">schedule for all groups</Link>)
 </LectureRow>
 
 <LectureRow 
     date="22/11/2023" time="14:30-16:00" type="Lab" teacher="All"
     >
-    Assignment 2: Feedback and discussion (<a href="https://docs.google.com/spreadsheets/d/1W5maJ0hBiGLfgS_EttpQQM7CYw0moe1t9BIubdS7o5Y">schedule for all groups</a>)
+    Assignment 2: Feedback and discussion (<Link to="https://docs.google.com/spreadsheets/d/1W5maJ0hBiGLfgS_EttpQQM7CYw0moe1t9BIubdS7o5Y">schedule for all groups</Link>)
 </LectureRow>
 
 <LectureRow 
     date="22/11/2023" time="16:00-17:30" type="Lab" teacher="All"
     >
-    Assignment 2: Feedback and discussion (<a href="https://docs.google.com/spreadsheets/d/1W5maJ0hBiGLfgS_EttpQQM7CYw0moe1t9BIubdS7o5Y">schedule for all groups</a>)
+    Assignment 2: Feedback and discussion (<Link to="https://docs.google.com/spreadsheets/d/1W5maJ0hBiGLfgS_EttpQQM7CYw0moe1t9BIubdS7o5Y">schedule for all groups</Link>)
 </LectureRow>
 
 <LectureDivider topic='Week 09'/>{/*-------------------------------------------*/}
@@ -293,25 +294,25 @@ All slides, examples, exercises, and any other material used in the classroom an
     date="28/11/2023" time="17:30-19:00" teacher="Alberto Monge Roffarello"
     video="https://youtu.be/KWKWM-7V8to"
     >
-    <a href="https://polito-hci-2023.github.io/materials/slides/08-design-patterns.pdf" title="Design Patterns">Design Patterns</a>
+    <Link to="https://polito-hci-2023.github.io/materials/slides/08-design-patterns.pdf" title="Design Patterns">Design Patterns</Link>
 </LectureRow>
 
 <LectureRow 
     date="29/11/2023" time="13:00-14:30" type="Lab" teacher="Alberto Monge Roffarello"
     >
-    <a href="https://polito-hci-2023.github.io/materials/assignments/A3-heuristic-evaluation.pdf" title="Third assignment">Assignment 3: Heuristic evaluation - individual assignment</a> (group 1)
+    <Link to="https://polito-hci-2023.github.io/materials/assignments/A3-heuristic-evaluation.pdf" title="Third assignment">Assignment 3: Heuristic evaluation - individual assignment</Link> (group 1)
 </LectureRow>
 
 <LectureRow 
     date="29/11/2023" time="14:30-16:00" type="Lab" teacher="Alberto Monge Roffarello"
     >
-    <a href="https://polito-hci-2023.github.io/materials/assignments/A3-heuristic-evaluation.pdf" title="Third assignment">Assignment 3: Heuristic evaluation - individual assignment</a> (group 2)
+    <Link to="https://polito-hci-2023.github.io/materials/assignments/A3-heuristic-evaluation.pdf" title="Third assignment">Assignment 3: Heuristic evaluation - individual assignment</Link> (group 2)
 </LectureRow>
 
 <LectureRow 
     date="29/11/2023" time="16:00-17:30" type="Lab" teacher="Tommaso Calò"
     >
-    <a href="https://polito-hci-2023.github.io/materials/assignments/A3-heuristic-evaluation.pdf" title="Third assignment">Assignment 3: Heuristic evaluation - individual assignment</a> (group 3)
+    <Link to="https://polito-hci-2023.github.io/materials/assignments/A3-heuristic-evaluation.pdf" title="Third assignment">Assignment 3: Heuristic evaluation - individual assignment</Link> (group 3)
 </LectureRow>
 
 <LectureDivider topic='Week 10'/>{/*-------------------------------------------*/}
@@ -325,7 +326,7 @@ All slides, examples, exercises, and any other material used in the classroom an
 <LectureRow 
     date="05/12/2023" time="17:30-19:00" teacher="Alberto Monge Roffarello"
     >
-      <a href="https://polito-hci-2023.github.io/materials/slides/09-mid-fi-prototypes.pdf" title="Medium fidelity prototypes">Medium-fidelity Prototypes</a>
+      <Link to="https://polito-hci-2023.github.io/materials/slides/09-mid-fi-prototypes.pdf" title="Medium fidelity prototypes">Medium-fidelity Prototypes</Link>
 </LectureRow>
 
 <LectureRow variant="success" date="05/12/2023" time="EOD" teacher="" type="">
@@ -335,19 +336,19 @@ All slides, examples, exercises, and any other material used in the classroom an
 <LectureRow 
     date="06/12/2023" time="13:00-14:30" type="Lab" teacher="Alberto Monge Roffarello"
     >
-    <a href="https://polito-hci-2023.github.io/materials/assignments/A4-mid-to-hi-fidelity.pdf" title="Fourth assignment">Assignment 4: Medium to High-fi Prototype</a> (group 1)
+    <Link to="https://polito-hci-2023.github.io/materials/assignments/A4-mid-to-hi-fidelity.pdf" title="Fourth assignment">Assignment 4: Medium to High-fi Prototype</Link> (group 1)
 </LectureRow>
 
 <LectureRow 
     date="06/12/2023" time="14:30-16:00" type="Lab" teacher="Alberto Monge Roffarello"
     >
-    <a href="https://polito-hci-2023.github.io/materials/assignments/A4-mid-to-hi-fidelity.pdf" title="Fourth assignment">Assignment 4: Medium to High-fi Prototype</a> (group 2)
+    <Link to="https://polito-hci-2023.github.io/materials/assignments/A4-mid-to-hi-fidelity.pdf" title="Fourth assignment">Assignment 4: Medium to High-fi Prototype</Link> (group 2)
 </LectureRow>
 
 <LectureRow 
     date="06/12/2023" time="16:00-17:30" type="Lab" teacher="Tommaso Calò"
     >
-    <a href="https://polito-hci-2023.github.io/materials/assignments/A4-mid-to-hi-fidelity.pdf" title="Fourth assignment">Assignment 4: Medium to High-fi Prototype</a> (group 3)
+    <Link to="https://polito-hci-2023.github.io/materials/assignments/A4-mid-to-hi-fidelity.pdf" title="Fourth assignment">Assignment 4: Medium to High-fi Prototype</Link> (group 3)
 </LectureRow>
 
 <LectureDivider topic='Week 11'/>{/*-------------------------------------------*/}
