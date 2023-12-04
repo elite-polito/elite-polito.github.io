@@ -2,7 +2,8 @@
 description: "Calendario"
 ---
 
-import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lectures'
+import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lectures';
+import Link from '@docusaurus/Link';
 
 
 # Calendario
@@ -25,29 +26,29 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
     date="09/10/2023" time="16:00-17:30"
     video="https://youtu.be/K2Tp8YXECKk"
     >
-    <a href="https://polito-iaw-2023.github.io/materiale/slide/00-intro.pdf" title="Slide introduttive in PDF">Introduzione al corso</a>
+    <Link to="https://polito-iaw-2023.github.io/materiale/slide/00-intro.pdf" title="Slide introduttive in PDF">Introduzione al corso</Link>
 </LectureRow>
 
 <LectureRow
     date="09/10/2023" time="17:30-19:00"
     video="https://youtu.be/jKFGAZzhev4"
     >
-     <a href="https://polito-iaw-2023.github.io/materiale/slide/01-web-architectures.pdf" title="Panoramica sulle architetture web">Architetture web</a>
+     <Link to="https://polito-iaw-2023.github.io/materiale/slide/01-web-architectures.pdf" title="Panoramica sulle architetture web">Architetture web</Link>
 </LectureRow>
 
 <LectureRow
     date="12/10/2023" time="16:00-17:30"
     video="https://youtu.be/RPkBuD1LFQM"
     >
-    <a href="https://polito-iaw-2023.github.io/materiale/slide/02-html.pdf" title="Materiale su HTML">HTML5</a>
-    <ul><li><a href="https://github.com/polito-iaw-2023/materiale/tree/main/esercizi/02-html/">Esempio</a> (su GitHub)</li></ul>
+    <Link to="https://polito-iaw-2023.github.io/materiale/slide/02-html.pdf" title="Materiale su HTML">HTML5</Link>
+    <ul><li><Link to="https://github.com/polito-iaw-2023/materiale/tree/main/esercizi/02-html/">Esempio</Link> (su GitHub)</li></ul>
 </LectureRow>
 
 <LectureRow
     date="09/10/2023" time="17:30-19:00" type="Esercizio"
     video="https://youtu.be/mxfFhfyUd1g"
     >
-    <a href="https://github.com/polito-iaw-2023/materiale/tree/main/esercizi/02-html/esercizio/"title="Esercizio su HTML">HTML5</a> (su GitHub)
+    <Link to="https://github.com/polito-iaw-2023/materiale/tree/main/esercizi/02-html/esercizio/"title="Esercizio su HTML">HTML5</Link> (su GitHub)
 </LectureRow>
 
 <LectureDivider topic='Settimana 2'/>{/*---------------------------------------*/}
@@ -56,28 +57,28 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
     date="16/10/2023" time="16:00-17:30" teacher="Juan Pablo Sáenz Moreno"
     video="https://youtu.be/b1fuJl7T4tE"
     >
-    <a href="https://polito-iaw-2023.github.io/materiale/slide/03-css.pdf" title="CSS3">CSS3</a>
+    <Link to="https://polito-iaw-2023.github.io/materiale/slide/03-css.pdf" title="CSS3">CSS3</Link>
 </LectureRow>
 
 <LectureRow
     date="16/10/2023" time="17:30-19:00" type="Esercizio" teacher="Juan Pablo Sáenz Moreno"
     video="https://youtu.be/yPBdMv1Pl7g"
     >
-    <a href="https://github.com/polito-iaw-2023/materiale/tree/main/esercizi/03-css/esercizio/" title="Materiale su CSS3">CSS3</a> (su GitHub)
+    <Link to="https://github.com/polito-iaw-2023/materiale/tree/main/esercizi/03-css/esercizio/" title="Materiale su CSS3">CSS3</Link> (su GitHub)
 </LectureRow>
 
 <LectureRow
     date="19/10/2023" time="16:00-17:30" type="Lab" teacher="Juan Pablo Sáenz Moreno"
     >
-    <a href="https://polito-iaw-2023.github.io/materiale/laboratori/lab-01/lab-01-primi-passi-html-css.pdf">Primi passi con HTML e CSS</a> (gruppo I)
-    <ul><li><a href="https://github.com/polito-iaw-2023/materiale/tree/main/laboratori/lab-01/soluzione">Soluzione</a> (su GitHub)</li></ul>
+    <Link to="https://polito-iaw-2023.github.io/materiale/laboratori/lab-01/lab-01-primi-passi-html-css.pdf">Primi passi con HTML e CSS</Link> (gruppo I)
+    <ul><li><Link to="https://github.com/polito-iaw-2023/materiale/tree/main/laboratori/lab-01/soluzione">Soluzione</Link> (su GitHub)</li></ul>
 </LectureRow>
 
 <LectureRow
     date="19/10/2023" time="17:30-19:00" type="Lab" teacher="Juan Pablo Sáenz Moreno"
     >
-    <a href="https://polito-iaw-2023.github.io/materiale/laboratori/lab-01/lab-01-primi-passi-html-css.pdf">Primi passi con HTML e CSS</a> (gruppo II)
-    <ul><li><a href="https://github.com/polito-iaw-2023/materiale/tree/main/laboratori/lab-01/soluzione">Soluzione</a> (su GitHub)</li></ul>
+    <Link to="https://polito-iaw-2023.github.io/materiale/laboratori/lab-01/lab-01-primi-passi-html-css.pdf">Primi passi con HTML e CSS</Link> (gruppo II)
+    <ul><li><Link to="https://github.com/polito-iaw-2023/materiale/tree/main/laboratori/lab-01/soluzione">Soluzione</Link> (su GitHub)</li></ul>
 </LectureRow>
 
 <LectureDivider topic='Settimana 3'/>{/*---------------------------------------*/}
@@ -85,27 +86,27 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 <LectureRow
     date="23/10/2023" time="16:00-17:30" teacher="Juan Pablo Sáenz Moreno"
     >
-    <a href="https://polito-iaw-2023.github.io/materiale/slide/04-more-css.pdf" title="CSS3: aspetti avanzati">CSS3: aspetti avanzati</a>
+    <Link to="https://polito-iaw-2023.github.io/materiale/slide/04-more-css.pdf" title="CSS3: aspetti avanzati">CSS3: aspetti avanzati</Link>
 </LectureRow>
 
 <LectureRow
     date="23/10/2023" time="17:30-19:00" type="Esercizio" teacher="Juan Pablo Sáenz Moreno"
     >
-    <a href="https://github.com/polito-iaw-2023/materiale/tree/main/esercizi/04-more-css/" title="Esercizio su flex">CSS3: aspetti avanzati</a> (su GitHub)
+    <Link to="https://github.com/polito-iaw-2023/materiale/tree/main/esercizi/04-more-css/" title="Esercizio su flex">CSS3: aspetti avanzati</Link> (su GitHub)
 </LectureRow>
 
 <LectureRow
     date="26/10/2023" time="16:00-17:30" type="Lab" teacher="Juan Pablo Sáenz Moreno"
     >
-    <a href="https://polito-iaw-2023.github.io/materiale/laboratori/lab-02/lab-2-css-avanzato.pdf">CSS Avanzato</a> (gruppo I)
-    <ul><li><a href="https://github.com/polito-iaw-2023/materiale/tree/main/laboratori/lab-02/soluzione">Soluzione</a> (su GitHub)</li></ul>
+    <Link to="https://polito-iaw-2023.github.io/materiale/laboratori/lab-02/lab-2-css-avanzato.pdf">CSS Avanzato</Link> (gruppo I)
+    <ul><li><Link to="https://github.com/polito-iaw-2023/materiale/tree/main/laboratori/lab-02/soluzione">Soluzione</Link> (su GitHub)</li></ul>
 </LectureRow>
 
 <LectureRow
     date="26/10/2023" time="17:30-19:00" type="Lab" teacher="Juan Pablo Sáenz Moreno"
     >
-    <a href="https://polito-iaw-2023.github.io/materiale/laboratori/lab-02/lab-2-css-avanzato.pdf.pdf">CSS Avanzato</a> (gruppo II)
-    <ul><li><a href="https://github.com/polito-iaw-2023/materiale/tree/main/laboratori/lab-02/soluzione">Soluzione</a> (su GitHub)</li></ul>
+    <Link to="https://polito-iaw-2023.github.io/materiale/laboratori/lab-02/lab-2-css-avanzato.pdf.pdf">CSS Avanzato</Link> (gruppo II)
+    <ul><li><Link to="https://github.com/polito-iaw-2023/materiale/tree/main/laboratori/lab-02/soluzione">Soluzione</Link> (su GitHub)</li></ul>
 </LectureRow>
 
 <LectureDivider topic='Settimana 4'/>{/*---------------------------------------*/}
@@ -114,23 +115,23 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
     date="30/10/2023" time="16:00-17:30" type="Esercizio" teacher="Juan Pablo Sáenz Moreno"
     video="https://youtu.be/byT8hecsTkA"
     >
-    <a href="https://github.com/polito-iaw-2023/materiale/tree/main/esercizi/05-bootstrap/" title="Esercizio su Bootstrap">Framework CSS: Bootstrap</a> (su GitHub)
+    <Link to="https://github.com/polito-iaw-2023/materiale/tree/main/esercizi/05-bootstrap/" title="Esercizio su Bootstrap">Framework CSS: Bootstrap</Link> (su GitHub)
 </LectureRow>
 
 <LectureRow
     date="02/11/2023" time="16:00-17:30" type="Lab" teacher="Juan Pablo Sáenz Moreno"
     >
-    <a href="https://polito-iaw-2023.github.io/materiale/laboratori/lab-03/lab-3-bootstrap.pdf">
-    Framework CSS: Bootstrap</a> (gruppo I)
-    <ul><li><a href="https://github.com/polito-iaw-2023/materiale/tree/main/laboratori/lab-03/soluzione">Soluzione</a> (su GitHub)</li></ul>
+    <Link to="https://polito-iaw-2023.github.io/materiale/laboratori/lab-03/lab-3-bootstrap.pdf">
+    Framework CSS: Bootstrap</Link> (gruppo I)
+    <ul><li><Link to="https://github.com/polito-iaw-2023/materiale/tree/main/laboratori/lab-03/soluzione">Soluzione</Link> (su GitHub)</li></ul>
 </LectureRow>
 
 <LectureRow
     date="02/11/2023" time="17:30-19:00" type="Lab" teacher="Juan Pablo Sáenz Moreno"
     >
-    <a href="https://polito-iaw-2023.github.io/materiale/laboratori/lab-03/lab-3-bootstrap.pdf">
-    Framework CSS: Bootstrap</a> (gruppo II)
-    <ul><li><a href="https://github.com/polito-iaw-2023/materiale/tree/main/laboratori/lab-03/soluzione">Soluzione</a> (su GitHub)</li></ul>
+    <Link to="https://polito-iaw-2023.github.io/materiale/laboratori/lab-03/lab-3-bootstrap.pdf">
+    Framework CSS: Bootstrap</Link> (gruppo II)
+    <ul><li><Link to="https://github.com/polito-iaw-2023/materiale/tree/main/laboratori/lab-03/soluzione">Soluzione</Link> (su GitHub)</li></ul>
 </LectureRow>
 
 <LectureDivider topic='Settimana 5'/>{/*---------------------------------------*/}
@@ -139,7 +140,7 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
     date="06/11/2023" time="16:00-17:30"
     video="https://youtu.be/wQGosi69A-E"
     >
-    <a href="https://polito-iaw-2023.github.io/materiale/slide/05-ia-visual-design.pdf" title="Architettura dell'informazione e visual design">Progettare per il web: architettura dell'informazione e visual design</a>
+    <Link to="https://polito-iaw-2023.github.io/materiale/slide/05-ia-visual-design.pdf" title="Architettura dell'informazione e visual design">Progettare per il web: architettura dell'informazione e visual design</Link>
 </LectureRow>
 
 <LectureRow
@@ -152,15 +153,15 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 <LectureRow
     date="09/11/2023" time="16:00-17:30" type="Lab"
     >
-    <a href="https://polito-iaw-2023.github.io/materiale/laboratori/lab-04/lab-4-progettare-web.pdf">Progettare per il web</a> (gruppo I)
-    <ul><li><a href="https://github.com/polito-iaw-2023/materiale/tree/main/laboratori/lab-04/soluzione">Soluzione</a> (su GitHub)</li></ul>
+    <Link to="https://polito-iaw-2023.github.io/materiale/laboratori/lab-04/lab-4-progettare-web.pdf">Progettare per il web</Link> (gruppo I)
+    <ul><li><Link to="https://github.com/polito-iaw-2023/materiale/tree/main/laboratori/lab-04/soluzione">Soluzione</Link> (su GitHub)</li></ul>
 </LectureRow>
 
 <LectureRow
     date="09/11/2023" time="17:30-19:00" type="Lab"
     >
-    <a href="https://polito-iaw-2023.github.io/materiale/laboratori/lab-04/lab-4-progettare-web.pdf">Progettare per il web</a> (gruppo II)
-    <ul><li><a href="https://github.com/polito-iaw-2023/materiale/tree/main/laboratori/lab-04/soluzione">Soluzione</a> (su GitHub)</li></ul>
+    <Link to="https://polito-iaw-2023.github.io/materiale/laboratori/lab-04/lab-4-progettare-web.pdf">Progettare per il web</Link> (gruppo II)
+    <ul><li><Link to="https://github.com/polito-iaw-2023/materiale/tree/main/laboratori/lab-04/soluzione">Soluzione</Link> (su GitHub)</li></ul>
 </LectureRow>
 
 <LectureDivider topic='Settimana 6'/>{/*---------------------------------------*/}
@@ -169,28 +170,28 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
     date="13/11/2023" time="16:00-17:30"
     video="https://youtu.be/GQ_kPVjCmfQ"
     >
-    <a href="https://polito-iaw-2023.github.io/materiale/slide/06-flask.pdf" title="Il framework Flask">Flask</a>
+    <Link to="https://polito-iaw-2023.github.io/materiale/slide/06-flask.pdf" title="Il framework Flask">Flask</Link>
 </LectureRow>
 
 <LectureRow
     date="13/11/2023" time="17:30-19:00"
     video="https://youtu.be/1U-I4pHbxRQ"
     >
-    Flask (continua). <a href="https://github.com/polito-iaw-2023/materiale/tree/main/esercizi/06-flask">Esempi</a> (su GitHub).
+    Flask (continua). <Link to="https://github.com/polito-iaw-2023/materiale/tree/main/esercizi/06-flask">Esempi</Link> (su GitHub).
 </LectureRow>
 
 <LectureRow
     date="16/11/2023" time="16:00-17:30" type="Lab"
     >
-    <a href="https://polito-iaw-2023.github.io/materiale/laboratori/lab-05/lab-5-flask.pdf">Primi passi con Flask</a> (gruppo I)
-    <ul><li><a href="https://github.com/polito-iaw-2023/materiale/tree/main/laboratori/lab-05/soluzione">Soluzione</a> (su GitHub)</li></ul>
+    <Link to="https://polito-iaw-2023.github.io/materiale/laboratori/lab-05/lab-5-flask.pdf">Primi passi con Flask</Link> (gruppo I)
+    <ul><li><Link to="https://github.com/polito-iaw-2023/materiale/tree/main/laboratori/lab-05/soluzione">Soluzione</Link> (su GitHub)</li></ul>
 </LectureRow>
 
 <LectureRow
     date="16/11/2023" time="17:30-19:00" type="Lab"
     >
-    <a href="https://polito-iaw-2023.github.io/materiale/laboratori/lab-05/lab-5-flask.pdf">Primi passi con Flask</a> (gruppo II)
-    <ul><li><a href="https://github.com/polito-iaw-2023/materiale/tree/main/laboratori/lab-05/soluzione">Soluzione</a> (su GitHub)</li></ul>
+    <Link to="https://polito-iaw-2023.github.io/materiale/laboratori/lab-05/lab-5-flask.pdf">Primi passi con Flask</Link> (gruppo II)
+    <ul><li><Link to="https://github.com/polito-iaw-2023/materiale/tree/main/laboratori/lab-05/soluzione">Soluzione</Link> (su GitHub)</li></ul>
 </LectureRow>
 
 <LectureDivider topic='Settimana 7'/>{/*---------------------------------------*/}
@@ -206,21 +207,21 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
     date="20/11/2023" time="17:30-19:00" type="Esercizio"
     video="https://youtu.be/F81P3h6JZQU"
     >
-    <a href="https://github.com/polito-iaw-2023/materiale/tree/main/esercizi/06-flask/esercizio">Flask</a> (su GitHub)
+    <Link to="https://github.com/polito-iaw-2023/materiale/tree/main/esercizi/06-flask/esercizio">Flask</Link> (su GitHub)
 </LectureRow>
 
 <LectureRow
     date="23/11/2023" time="16:00-17:30" type="Lab"
     >
-    <a href="https://polito-iaw-2023.github.io/materiale/laboratori/lab-06/lab-6-flask-avanzato.pdf">Flask avanzato</a> (gruppo I)
-    <ul><li><a href="https://github.com/polito-iaw-2023/materiale/tree/main/laboratori/lab-06/soluzione">Soluzione</a> (su GitHub)</li></ul>
+    <Link to="https://polito-iaw-2023.github.io/materiale/laboratori/lab-06/lab-6-flask-avanzato.pdf">Flask avanzato</Link> (gruppo I)
+    <ul><li><Link to="https://github.com/polito-iaw-2023/materiale/tree/main/laboratori/lab-06/soluzione">Soluzione</Link> (su GitHub)</li></ul>
 </LectureRow>
 
 <LectureRow
     date="23/11/2023" time="17:30-19:00" type="Lab"
     >
-    <a href="https://polito-iaw-2023.github.io/materiale/laboratori/lab-06/lab-6-flask-avanzato.pdf">Flask avanzato</a> (gruppo II)
-    <ul><li><a href="https://github.com/polito-iaw-2023/materiale/tree/main/laboratori/lab-06/soluzione">Soluzione</a> (su GitHub)</li></ul>
+    <Link to="https://polito-iaw-2023.github.io/materiale/laboratori/lab-06/lab-6-flask-avanzato.pdf">Flask avanzato</Link> (gruppo II)
+    <ul><li><Link to="https://github.com/polito-iaw-2023/materiale/tree/main/laboratori/lab-06/soluzione">Soluzione</Link> (su GitHub)</li></ul>
 </LectureRow>
 
 <LectureDivider topic='Settimana 8'/>{/*---------------------------------------*/}
@@ -229,26 +230,26 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
     date="27/11/2023" time="16:00-17:30" teacher="Juan Pablo Sáenz Moreno"
     video="https://youtu.be/kRvW_o5O8jk"
     >
-    <a href="https://polito-iaw-2023.github.io/materiale/slide/07-forms.pdf" title="Form in HTML">Form in HTML</a>
+    <Link to="https://polito-iaw-2023.github.io/materiale/slide/07-forms.pdf" title="Form in HTML">Form in HTML</Link>
 </LectureRow>
 
 <LectureRow
     date="27/11/2023" time="17:30-19:00" teacher="Juan Pablo Sáenz Moreno"
     video="https://youtu.be/4kgBtRLF33U"
     >
-    Form in Flask. <a href="https://github.com/polito-iaw-2023/materiale/tree/main/esercizi/07-forms">Esempio</a> (su GitHub).
+    Form in Flask. <Link to="https://github.com/polito-iaw-2023/materiale/tree/main/esercizi/07-forms">Esempio</Link> (su GitHub).
 </LectureRow>
 
 <LectureRow
     date="30/11/2023" time="16:00-17:30" type="Lab" teacher="Juan Pablo Sáenz Moreno"
     >
-    <a href="https://polito-iaw-2023.github.io/materiale/laboratori/lab-07/lab-7-form.pdf">Form in HTML</a> (gruppo I)
+    <Link to="https://polito-iaw-2023.github.io/materiale/laboratori/lab-07/lab-7-form.pdf">Form in HTML</Link> (gruppo I)
 </LectureRow>
 
 <LectureRow
     date="30/11/2023" time="17:30-19:00" type="Lab" teacher="Juan Pablo Sáenz Moreno"
     >
-    <a href="https://polito-iaw-2023.github.io/materiale/laboratori/lab-07/lab-7-form.pdf">Form in HTML</a> (gruppo II)
+    <Link to="https://polito-iaw-2023.github.io/materiale/laboratori/lab-07/lab-7-form.pdf">Form in HTML</Link> (gruppo II)
 </LectureRow>
 
 <LectureDivider topic='Settimana 9'/>{/*---------------------------------------*/}
@@ -257,26 +258,26 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
     date="04/12/2023" time="16:00-17:30" type="Esercizio" teacher="Juan Pablo Sáenz Moreno"
     video="https://youtu.be/TaEAZ96esD0"
     >
-    Form in Flask. <a href="https://github.com/polito-iaw-2023/materiale/tree/main/esercizi/08-forms-avanzato">Esercizio</a> (su GitHub)
+    Form in Flask. <Link to="https://github.com/polito-iaw-2023/materiale/tree/main/esercizi/08-forms-avanzato">Esercizio</Link> (su GitHub)
 </LectureRow>
 
 <LectureRow
     date="04/12/2023" time="17:30-19:00" teacher="Juan Pablo Sáenz Moreno"
     video="https://youtu.be/tF8fVcRBnX0"
     >
-    <a href="https://polito-iaw-2023.github.io/materiale/slide/08-database.pdf" title="Interazione col database">Interazione col database</a>
+    <Link to="https://polito-iaw-2023.github.io/materiale/slide/08-database.pdf" title="Interazione col database">Interazione col database</Link>
 </LectureRow>
 
 <LectureRow
     date="07/12/2023" time="16:00-17:30" type="Lab" teacher="Juan Pablo Sáenz Moreno"
     >
-    <a href="https://polito-iaw-2023.github.io/materiale/laboratori/lab-09/lab-8-form-avanzato.pdf">Form in Flask</a> (gruppo I)
+    <Link to="https://polito-iaw-2023.github.io/materiale/laboratori/lab-09/lab-8-form-avanzato.pdf">Form in Flask</Link> (gruppo I)
 </LectureRow>
 
 <LectureRow
     date="07/12/2023" time="17:30-19:00" type="Lab" teacher="Juan Pablo Sáenz Moreno"
     >
-    <a href="https://polito-iaw-2023.github.io/materiale/laboratori/lab-08/lab-8-form-avanzato.pdf">Form in Flask</a> (gruppo II)
+    <Link to="https://polito-iaw-2023.github.io/materiale/laboratori/lab-08/lab-8-form-avanzato.pdf">Form in Flask</Link> (gruppo II)
 </LectureRow>
 
 <LectureDivider topic='Settimana 10'/>{/*---------------------------------------*/}
