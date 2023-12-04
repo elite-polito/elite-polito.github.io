@@ -335,19 +335,19 @@ All slides, examples, exercises, and any other material used in the classroom an
 <LectureRow 
     date="06/12/2023" time="13:00-14:30" type="Lab" teacher="Alberto Monge Roffarello"
     >
-    Assignment 4: Medium to High-fi Prototype (group 1)
+    <a href="https://polito-hci-2023.github.io/materials/assignments/A4-mid-to-hi-fidelity.pdf" title="Fourth assignment">Assignment 4: Medium to High-fi Prototype</a> (group 1)
 </LectureRow>
 
 <LectureRow 
     date="06/12/2023" time="14:30-16:00" type="Lab" teacher="Alberto Monge Roffarello"
     >
-    Assignment 4: Medium to High-fi Prototype (group 2)
+    <a href="https://polito-hci-2023.github.io/materials/assignments/A4-mid-to-hi-fidelity.pdf" title="Fourth assignment">Assignment 4: Medium to High-fi Prototype</a> (group 2)
 </LectureRow>
 
 <LectureRow 
     date="06/12/2023" time="16:00-17:30" type="Lab" teacher="Tommaso Calò"
     >
-    Assignment 4: Medium to High-fi Prototype (group 3)
+    <a href="https://polito-hci-2023.github.io/materials/assignments/A4-mid-to-hi-fidelity.pdf" title="Fourth assignment">Assignment 4: Medium to High-fi Prototype</a> (group 3)
 </LectureRow>
 
 <LectureDivider topic='Week 11'/>{/*-------------------------------------------*/}
