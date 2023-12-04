@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkelite_website=self.webpackChunkelite_website||[]).push([[8438],{64039:e=>{e.exports=JSON.parse('{"permalink":"/news/tags/teaching","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Latest News from the e-Lite research group","blogTitle":"News"}')}}]);
