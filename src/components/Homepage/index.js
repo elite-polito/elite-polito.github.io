@@ -111,12 +111,12 @@ export default function Home({recentPosts}) {
                         <div className="col col--3">
                             <Admonition type="info" icon="⚡️" title={'Quick links'}>
                                 <Link to='/teaching/04afqpc-bdcin'>Basi di dati</Link><br/>
-                                <Link href='/teaching/02jsk-hci'>Human Computer Interaction</Link><br/>
-                                <Link href='/teaching/14bhd-informatica'>Informatica</Link><br/>
-                                <Link href='/teaching/01dxu-iaw'>Introduzione alle Applicazioni Web</Link><br/>
-                                <Link href='/teaching/01hfx-uxd'>User Experience Design</Link><br/>
+                                <Link to='/teaching/02jsk-hci'>Human Computer Interaction</Link><br/>
+                                <Link to='/teaching/14bhd-informatica'>Informatica</Link><br/>
+                                <Link to='/teaching/01dxu-iaw'>Introduzione alle Applicazioni Web</Link><br/>
+                                <Link to='/teaching/01hfx-uxd'>User Experience Design</Link><br/>
                                 <br/>
-                                <Link href='/thesis-offers'>Thesis offers</Link>
+                                <Link to='/thesis-offers'>Thesis offers</Link>
                             </Admonition>
                         </div>
                     </div>
