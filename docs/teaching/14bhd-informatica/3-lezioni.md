@@ -794,6 +794,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     topic="L42 Esercizi sui sistemi di numerazione"
     teacher='Fulvio Corno'
     type='Esercizi (on-line)'
+    github='https://github.com/polito-informatica/Esempi-esame/blob/master/teoria/numeri.md'
 >
 <br/><a href='https://polito-it.zoom.us/j/86175075461?pwd=dXd6RFVVSEVCYWRSUjkzckRGUmFTZz09'>Link Zoom</a>
 </LectureRow>
@@ -803,6 +804,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     topic="L43 Esercizi sulle architetture degli elaboratori"
     teacher='Fulvio Corno'
     type='Esercizi (on-line)'
+    github='https://github.com/polito-informatica/Esempi-esame/blob/master/teoria/architettura.md'
 >
 <br/><a href='https://polito-it.zoom.us/j/86175075461?pwd=dXd6RFVVSEVCYWRSUjkzckRGUmFTZz09'>Link Zoom</a>
 </LectureRow>
@@ -812,6 +814,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
     topic="L44 Esercizi sulla programmazione Python"
     teacher='Fulvio Corno'
     type='Esercizi (on-line)'
+    github='https://github.com/polito-informatica/Esempi-esame/blob/master/teoria/python.md'
 >
 <br/><a href='https://polito-it.zoom.us/j/86175075461?pwd=dXd6RFVVSEVCYWRSUjkzckRGUmFTZz09'>Link Zoom</a>
 </LectureRow>
