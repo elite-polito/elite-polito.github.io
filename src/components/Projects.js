@@ -13,7 +13,7 @@ export const ProjectCard = ({title, icon, url, children, period}) => {
                         width="120px"
                         src={require(`@site/docs/research/00-Projects-Logos/${icon}`).default}/>}
                     <div className="avatar__intro">
-                        {url ? <div className="avatar__name"><Link href={url}>{title}</Link></div>
+                        {url ? <div className="avatar__name"><Link to={url}>{title}</Link></div>
                             : <div className="avatar__name">{title}</div>}
                     </div>
                 </div>

@@ -66,8 +66,8 @@ export function Publication({ publication }) {
 
     return <li>{cite}
         <br />
-        <Link href={`http://hdl.handle.net/${handle}`}>IRIS Page</Link>
-        {doi && <> &ndash; DOI: <Link href={`http://dx.doi.org/${doi}`}>{publication.lookupValues.doi}</Link></>}
+        <Link to={`http://hdl.handle.net/${handle}`}>IRIS Page</Link>
+        {doi && <> &ndash; DOI: <Link to={`http://dx.doi.org/${doi}`}>{publication.lookupValues.doi}</Link></>}
     </li>
 
 }

@@ -19,7 +19,7 @@ export const Person = (props) => (
                     <div className="avatar__intro">
                         <div className="avatar__name">{props.name}</div>
                         <small className="avatar__subtitle">{props.role}<br />
-                            {props.email && <address><Link href={"mailto:" + props.email}>{props.email}</Link><br /></address>}
+                            {props.email && <address><Link to={"mailto:" + props.email}>{props.email}</Link><br /></address>}
                         </small>
                     </div>
                 </div>
@@ -28,16 +28,16 @@ export const Person = (props) => (
 
 
                 {props.github &&
-                    <>&nbsp;<Link href={"http://github.com/" + props.github} title='GitHub'>
+                    <>&nbsp;<Link to={"http://github.com/" + props.github} title='GitHub'>
                         <FontAwesomeIcon icon={faGithub} className='fa-xl' /></Link>&nbsp;</>}
                 {props.telegram &&
-                    <>&nbsp;<Link href={"https://t.me/" + props.telegram} title='Telegram'>
+                    <>&nbsp;<Link to={"https://t.me/" + props.telegram} title='Telegram'>
                         <FontAwesomeIcon icon={faTelegram} className='fa-xl' /></Link>&nbsp;</>}
                 {props.linkedin &&
-                    <>&nbsp;<Link href={"https://www.linkedin.com/in/" + props.linkedin} title='LinkedIn'>
+                    <>&nbsp;<Link to={"https://www.linkedin.com/in/" + props.linkedin} title='LinkedIn'>
                         <FontAwesomeIcon icon={faLinkedin} className='fa-xl' /></Link>&nbsp;</>}
                 {props.twitter &&
-                    <>&nbsp;<Link href={"https://twitter.com/" + props.twitter} title='Twitter'>
+                    <>&nbsp;<Link to={"https://twitter.com/" + props.twitter} title='Twitter'>
                         <FontAwesomeIcon icon={faTwitter} className='fa-xl' /></Link>&nbsp;</>}
                 &nbsp;
             </div>

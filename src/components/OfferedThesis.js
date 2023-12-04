@@ -55,8 +55,8 @@ function OfferedThesis({
         <div className='fix-new-lines'>{description}</div>
         <hr/>
         {keywords.length > 0 && <div><strong>Keywords: </strong>{keywords.join(', ')}</div>}
-        <div><Link href={`https://didattica.polito.it/pls/portal30/sviluppo.tesiv.elenchi?idt=${ID}&lang=EN`}>View the proposal on Portale della Didattica</Link></div>
-        <div><Link href={`https://didattica.polito.it/pls/portal30/sviluppo.tesiv.candidati?id=${ID}`}>Submit your application</Link></div>
+        <div><Link to={`https://didattica.polito.it/pls/portal30/sviluppo.tesiv.elenchi?idt=${ID}&lang=EN`}>View the proposal on Portale della Didattica</Link></div>
+        <div><Link to={`https://didattica.polito.it/pls/portal30/sviluppo.tesiv.candidati?id=${ID}`}>Submit your application</Link></div>
     </Details>
 }
 

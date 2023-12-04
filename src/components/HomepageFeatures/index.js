@@ -7,7 +7,7 @@ const FeatureList = [
         title: 'Publications',
         icon: '📚',
         description: (<>
-            Our publications are available through <a href={'https://iris.polito.it/'}>PORTO@Iris</a>, the open repository of publications produced by the
+            Our publications are available through <Link to={'https://iris.polito.it/'}>PORTO@Iris</Link>, the open repository of publications produced by the
             scientific community of Politecnico di Torino.
         </>),
         link: '/research/Publications'

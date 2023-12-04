@@ -45,7 +45,7 @@ function CompletedThesis({date, relators, annoacc, creators, title, abstract, ur
         </summary>
         <div className='fix-new-lines'>{abstract}</div>
         <hr/>
-        <div><Link href={uri}>See all details and download the thesis</Link></div>
+        <div><Link to={uri}>See all details and download the thesis</Link></div>
     </Details>
 }
 
