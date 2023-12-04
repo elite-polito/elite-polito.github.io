@@ -29,7 +29,7 @@ function IconicLinks({ links, label, icon }) {
     return (
         links ?
             ensureArray(links).map(item =>
-                <Link key={i++} href={item} title={label}><FontAwesomeIcon icon={icon} size="2x" className="icon-padding" /></Link>)
+                <Link key={i++} to={item} title={label}><FontAwesomeIcon icon={icon} size="2x" className="icon-padding" /></Link>)
             : null
     )
 }
@@ -46,13 +46,12 @@ function IconicLinks({ links, label, icon }) {
  * - `pdf`, `python`, `zip`, `github`: link(s) to resources to go into the "Materiale" column (if enabled)
  * - `video`: link(s) to video lecture
  * - `teacher` (or defaults to `defaultTeacher` set in `LectureTable` -- to suppress the default set to `''`)
- * - `variant`: ovverrides the row background color, may be one of: primary, secondary, info, success, warning, danger (see https://infima.dev/docs/utilities/colors)
+ * - `variant`: overrides the row background color, may be one of: `primary`, `secondary`, `info`, `success`, `warning`, `danger` (see https://infima.dev/docs/utilities/colors)
  *
  * Note: *link(s)* refers to a single link (string) or a list of links (array of strings)
  *
  * @param props
  * @returns {JSX.Element}
- * @constructor
  */
 function LectureRow(props) {
     const tableContext = useContext(TableContext);
@@ -80,9 +79,19 @@ function LectureRow(props) {
     </tr>)
 }
 
+/**
+ * Create a divider row in the course schedule, spanning all cells.
+ * 
+ * Accepts, as props (*all optional*):
+ *  - `topic` (alternatively the topic can be defined as the CHILDREN of the component)   
+ *  - `variant`: overrides the row background color, may be one of: `primary`, `secondary`, `info`, `success`, `warning`, `danger` (see https://infima.dev/docs/utilities/colors)
+ * 
+ * @param {*} props 
+ * @returns {JSX.Element}
+ */
 function LectureDivider(props) {
     const tableContext = useContext(TableContext)
-    const spanSize = tableContext.showMaterial ? 7 : 6
+    const spanSize = 8 - tableContext.showMaterial - tableContext.showRoom
 
     return <tr className={props.variant}>
         <th colSpan={spanSize} className="text--left">{props.topic}{props.children}</th>
@@ -93,16 +102,17 @@ function LectureDivider(props) {
  * Creates a table containing a sequence of `LectureRow` or `LectureDivider` elements.
  * 
  * May accept some optional props to set the defaults for table display:
- * - `language`: `'IT'` or `'EN'` used to localize strings
+ * - `language` (default: `'IT'`): `'IT'` or `'EN'` used to localize strings
  * - `showMaterial` (default: `true`) if the 'Materiale/Resources' column should be shown
- * - `defaultTeacher`
- * - `defaultType`
+ * - `showRoom` (default: `false`) if the 'Aula/Room' column should be shown
+ * - `defaultTeacher` (default: undefined): name to be shown in the Docente/Teacher column if not specified in the `LectureRow` elements
+ * - `defaultType` (default: undefined): lecture type to be shown in the Tipo/Type column if not specified in the `LectureRow` elements
  * 
  * @param {*} props 
  * @returns {JSX.Element}
  */
 function LectureTable(props) {
-    const tableOptions = useMemo(()=>({ ...defaultTableContext, ...props }), [defaultTableContext, props]) ;
+    const tableOptions = useMemo(() => ({ ...defaultTableContext, ...props }), [defaultTableContext, props]);
     return (
         <TableContext.Provider value={tableOptions}>
             <LectureTableContent {...props} />
