@@ -256,25 +256,25 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 <LectureRow
     date="04/12/2023" time="16:00-17:30" type="Esercizio" teacher="Juan Pablo Sáenz Moreno"
     >
-    Form in Flask (su GitHub)
+    Form in Flask. <a href="https://github.com/polito-iaw-2023/materiale/tree/main/esercizi/08-forms-avanzato">Esercizio</a> (su GitHub)
 </LectureRow>
 
 <LectureRow
     date="04/12/2023" time="17:30-19:00" teacher="Juan Pablo Sáenz Moreno"
     >
-    Interazione col database
+    <a href="https://polito-iaw-2023.github.io/materiale/slide/08-database.pdf" title="Interazione col database">Interazione col database</a>
 </LectureRow>
 
 <LectureRow
     date="07/12/2023" time="16:00-17:30" type="Lab" teacher="Juan Pablo Sáenz Moreno"
     >
-    Form in Flask (gruppo I)
+    <a href="https://polito-iaw-2023.github.io/materiale/laboratori/lab-09/lab-9-form-avanzato.pdf">Form in Flask</a> (gruppo I)
 </LectureRow>
 
 <LectureRow
     date="07/12/2023" time="17:30-19:00" type="Lab" teacher="Juan Pablo Sáenz Moreno"
     >
-    Form in Flask (gruppo II)
+    <a href="https://polito-iaw-2023.github.io/materiale/laboratori/lab-08/lab-8-form-avanzato.pdf">Form in Flask</a> (gruppo II)
 </LectureRow>
 
 <LectureDivider topic='Settimana 10'/>{/*---------------------------------------*/}
