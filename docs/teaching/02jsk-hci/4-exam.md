@@ -30,10 +30,9 @@ Next exams, with deadlines:
   - Deadline: November 21, 2023
 - Assignment 3: [Heuristic evaluation](https://polito-hci-2023.github.io/materials/assignments/A3-heuristic-evaluation.pdf) (individual)
   - Deadline: December 5, 2023
-- Assignment 4: Medium to High-fi Prototype
+- Assignment 4: [Medium to High-fi Prototype](https://polito-hci-2023.github.io/materials/assignments/A4-mid-to-hi-fidelity.pdf)
   - Deadline: December 12, 2023
 - Assignment 5: High-fidelity Prototype
   - Deadline: 7 days before each official exam date (see above for the exact dates)
-- Assignment 6: Final Report
-  - Template
+- Final Report: [Template and Instructions](https://polito-hci-2023.github.io/materials/assignments/final-report-instructions.pdf)
   - Deadline: 7 days before each official exam date (see above for the exact dates)
