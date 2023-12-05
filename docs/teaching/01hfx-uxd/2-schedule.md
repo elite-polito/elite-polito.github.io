@@ -23,8 +23,8 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
     date="03/10/2023" time="11:30-13:00" type ="Lezione"
     video={['https://www.polito.it/didattica']}>
     <ul>
-    <li><a href="https://polito-uxd-2023.github.io/materiale/slides/00-intro.pdf">Introduction to the course</a></li>
-    <li><a href="https://polito-uxd-2023.github.io/materiale/slides/01-whatisUXD.pdf">What is UXD?</a></li>
+    <li><Link to="https://polito-uxd-2023.github.io/materiale/slides/00-intro.pdf">Introduction to the course</Link></li>
+    <li><Link to="https://polito-uxd-2023.github.io/materiale/slides/01-whatisUXD.pdf">What is UXD?</Link></li>
     </ul>
 </LectureRow>
 
@@ -32,7 +32,7 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
     date="06/10/2023" time="11:30-13:00" type ="Lezione" teacher="Irene Ronga"
     video={['https://www.polito.it/didattica']}
     >
-    <a href="https://polito-uxd-2023.github.io/materiale/slides/02-needfinding.pdf">Needfinding</a>
+    <Link to="https://polito-uxd-2023.github.io/materiale/slides/02-needfinding.pdf">Needfinding</Link>
 </LectureRow>
 
 <LectureRow
@@ -54,7 +54,7 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 <LectureRow 
     date="13/10/2023" time="11:30-13:00" type ="Lezione" video={['https://www.polito.it/didattica']}
     >
-    <a href="https://polito-uxd-2023.github.io/materiale/slides/03-tasks.pdf">Task analysis</a>
+    <Link to="https://polito-uxd-2023.github.io/materiale/slides/03-tasks.pdf">Task analysis</Link>
 </LectureRow>
 
 <LectureRow 
@@ -74,13 +74,13 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 <LectureRow 
     date="17/10/2023" time="11:30-13:00" type ="Laboratorio"
     >
-    <a href="https://polito-uxd-2023.github.io/materiale/assignments/A1-needfinding.pdf">Assignment 1: Needfinding</a>
+    <Link to="https://polito-uxd-2023.github.io/materiale/assignments/A1-needfinding.pdf">Assignment 1: Needfinding</Link>
 </LectureRow>
 
 <LectureRow 
     date="20/10/2023" time="11:30-13:00" type ="Lezione" teacher="Irene Ronga" video={['https://www.polito.it/didattica']}
     >
-    <a href="https://polito-uxd-2023.github.io/materiale/slides/04-AIinteraction.pdf">Interazione con Intelligenza Artificiale</a>
+    <Link to="https://polito-uxd-2023.github.io/materiale/slides/04-AIinteraction.pdf">Interazione con Intelligenza Artificiale</Link>
 </LectureRow>
 
 <LectureRow
@@ -94,19 +94,19 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 <LectureRow 
     date="24/10/2023" time="11:30-13:00" type ="Laboratorio"
     >
-    <a href="https://polito-uxd-2023.github.io/materiale/assignments/A1-needfinding.pdf">Assignment 1: Needfinding</a>
+    <Link to="https://polito-uxd-2023.github.io/materiale/assignments/A1-needfinding.pdf">Assignment 1: Needfinding</Link>
 </LectureRow>
 
 <LectureRow 
     date="27/10/2023" time="11:30-13:00" type ="Lezione" teacher="Irene Ronga" video={['https://www.polito.it/didattica']}
     >
-   <a href="https://polito-uxd-2023.github.io/materiale/slides/05-gamification.pdf">Approcci gamificati</a>
+   <Link to="https://polito-uxd-2023.github.io/materiale/slides/05-gamification.pdf">Approcci gamificati</Link>
 </LectureRow>
 
 <LectureRow
     date="27/10/2023" time="13:00-14:30" type ="Laboratorio" teacher="Irene Ronga"
     >
-    <a href="https://polito-uxd-2023.github.io/materiale/assignments/A1-needfinding.pdf">Assignment 1: Needfinding</a>
+    <Link to="https://polito-uxd-2023.github.io/materiale/assignments/A1-needfinding.pdf">Assignment 1: Needfinding</Link>
 </LectureRow>
 
 <LectureDivider topic='Settimana 4'/>{/*-------------------------------------------*/}
@@ -126,13 +126,13 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 <LectureRow 
     date="03/11/2023" time="11:30-13:00" type ="Lezione" video={['https://www.polito.it/didattica']}
     >
-   <a href="https://polito-uxd-2023.github.io/materiale/slides/06-storyboards.pdf">Scenari e storyboards</a>
+   <Link to="https://polito-uxd-2023.github.io/materiale/slides/06-storyboards.pdf">Scenari e storyboards</Link>
 </LectureRow>
 
 <LectureRow
     date="03/11/2023" time="13:00-14:30" type ="Lezione" video={['https://www.polito.it/didattica']}
     >
-    <a href="https://polito-uxd-2023.github.io/materiale/slides/07-prototyping.pdf">Prototyping</a>
+    <Link to="https://polito-uxd-2023.github.io/materiale/slides/07-prototyping.pdf">Prototyping</Link>
 </LectureRow>
 
 <LectureDivider topic='Settimana 5'/>{/*-------------------------------------------*/}
@@ -140,19 +140,19 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 <LectureRow 
     date="07/11/2023" time="11:30-13:00" type ="Laboratorio"
     >
-    <a href="https://polito-uxd-2023.github.io/materiale/assignments/A2-storyboard-paper-prototypes.pdf">Assignment 2: Storyboard e prototipo a bassa fedeltà</a>
+    <Link to="https://polito-uxd-2023.github.io/materiale/assignments/A2-storyboard-paper-prototypes.pdf">Assignment 2: Storyboard e prototipo a bassa fedeltà</Link>
 </LectureRow>
 
 <LectureRow 
     date="10/11/2023" time="11:30-13:00" type ="Lezione" video={['https://www.polito.it/didattica']}
     >
-   <a href="https://polito-uxd-2023.github.io/materiale/slides/08-design-principles.pdf">Design Theory, Principles, and Guidelines</a>
+   <Link to="https://polito-uxd-2023.github.io/materiale/slides/08-design-principles.pdf">Design Theory, Principles, and Guidelines</Link>
 </LectureRow>
 
 <LectureRow
     date="10/11/2023" time="13:00-14:30" type ="Lezione" video={['https://www.polito.it/didattica']}
     >
-    Design Theory, Principles, and Guidelines (continua). <a href="https://polito-uxd-2023.github.io/materiale/slides/08b-low-fi-prototypes-exercise.pdf">Esercizio su low-fi prototyping</a>
+    Design Theory, Principles, and Guidelines (continua). <Link to="https://polito-uxd-2023.github.io/materiale/slides/08b-low-fi-prototypes-exercise.pdf">Esercizio su low-fi prototyping</Link>
 </LectureRow>
 
 <LectureDivider topic='Settimana 6'/>{/*-------------------------------------------*/}
@@ -160,19 +160,19 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 <LectureRow 
     date="14/11/2023" time="11:30-13:00" type ="Laboratorio"
     >
-    <a href="https://polito-uxd-2023.github.io/materiale/assignments/A2-storyboard-paper-prototypes.pdf">Assignment 2: Storyboard e prototipo a bassa fedeltà</a>
+    <Link to="https://polito-uxd-2023.github.io/materiale/assignments/A2-storyboard-paper-prototypes.pdf">Assignment 2: Storyboard e prototipo a bassa fedeltà</Link>
 </LectureRow>
 
 <LectureRow 
     date="17/11/2023" time="11:30-13:00" type ="Lezione" video={['https://www.polito.it/didattica']}
     >
-   <a href="https://polito-uxd-2023.github.io/materiale/slides/09-heuristic-evaluation.pdf">Overview su tecniche di valutazione. Valutazione Euristica</a>
+   <Link to="https://polito-uxd-2023.github.io/materiale/slides/09-heuristic-evaluation.pdf">Overview su tecniche di valutazione. Valutazione Euristica</Link>
 </LectureRow>
 
 <LectureRow
     date="17/11/2023" time="13:00-14:30" type ="Esercitazione" video={['https://www.polito.it/didattica']}
     >
-    <a href="https://polito-uxd-2023.github.io/materiale/slides/09b-heuristic-evaluation-exercise.pdf">Valutazione Euristica (esercizio)</a>
+    <Link to="https://polito-uxd-2023.github.io/materiale/slides/09b-heuristic-evaluation-exercise.pdf">Valutazione Euristica (esercizio)</Link>
 </LectureRow>
 
 <LectureDivider topic='Settimana 7'/>{/*-------------------------------------------*/}
@@ -186,13 +186,13 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 <LectureRow 
     date="24/11/2023" time="11:30-13:00" type ="Lezione" video={['https://www.polito.it/didattica']}
     >
-   <a href="https://polito-uxd-2023.github.io/materiale/slides/10-visualdesign.pdf">Visual Design</a>
+   <Link to="https://polito-uxd-2023.github.io/materiale/slides/10-visualdesign.pdf">Visual Design</Link>
 </LectureRow>
 
 <LectureRow
     date="24/11/2023" time="13:00-14:30" type ="Lezione" video={['https://www.polito.it/didattica']}
     >
-    <a href="https://polito-uxd-2023.github.io/materiale/slides/11-design-patterns-pdf">Design Patterns</a>
+    <Link to="https://polito-uxd-2023.github.io/materiale/slides/11-design-patterns-pdf">Design Patterns</Link>
 </LectureRow>
 
 <LectureDivider topic='Settimana 8'/>{/*-------------------------------------------*/}
@@ -200,19 +200,19 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 <LectureRow 
     date="28/11/2023" time="11:30-13:00" type ="Laboratorio"
     >
-    <a href="https://polito-uxd-2023.github.io/materiale/assignments/A3-heuristic-evaluation.pdf">Assignment 3: Valutazione Euristica</a>
+    <Link to="https://polito-uxd-2023.github.io/materiale/assignments/A3-heuristic-evaluation.pdf">Assignment 3: Valutazione Euristica</Link>
 </LectureRow>
 
 <LectureRow 
     date="01/12/2023" time="11:30-13:00" type ="Lezione" teacher="Irene Ronga"
     >
-   <a href="https://polito-uxd-2023.github.io/materiale/slides/12-neuroestetica.pdf">Neuroestetica</a>
+   <Link to="https://polito-uxd-2023.github.io/materiale/slides/12-neuroestetica.pdf">Neuroestetica</Link>
 </LectureRow>
 
 <LectureRow
     date="01/12/2023" time="13:00-14:30" type ="Lezione" teacher="Irene Ronga"
     >
-   <a href="https://polito-uxd-2023.github.io/materiale/slides/12-neuroestetica.pdf">Neuroestetica</a>
+   <Link to="https://polito-uxd-2023.github.io/materiale/slides/12-neuroestetica.pdf">Neuroestetica</Link>
 </LectureRow>
 
 <LectureDivider topic='Settimana 9'/>{/*-------------------------------------------*/}
@@ -220,8 +220,21 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 <LectureRow 
     date="05/12/2023" time="11:30-13:00" type ="Laboratorio"
     >
-    <a href="https://polito-uxd-2023.github.io/materiale/assignments/A3-heuristic-evaluation.pdf">Assignment 3: Valutazione Euristica</a>
+    <Link to="https://polito-uxd-2023.github.io/materiale/assignments/A3-heuristic-evaluation.pdf">Assignment 3: Valutazione Euristica</Link>
 </LectureRow>
+
+<LectureRow date="08/12/2023" variant="warning" type="" teacher=""
+    >
+    <em>No lezione (vacanza)</em>
+</LectureRow>
+
+<LectureRow date="08/12/2023" variant="warning" type="" teacher=""
+    >
+    <em>No lezione (vacanza)</em>
+</LectureRow>
+
+<LectureDivider topic='Settimana 10'/>{/*-------------------------------------------*/}
+
 
 </LectureTable>
 
