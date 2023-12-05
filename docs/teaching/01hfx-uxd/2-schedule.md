@@ -3,6 +3,7 @@ description: "Calendario"
 ---
 
 import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lectures'
+import Link from '@docusaurus/Link';
 
 
 # Calendario
