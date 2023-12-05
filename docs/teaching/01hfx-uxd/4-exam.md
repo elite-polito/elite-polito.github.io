@@ -31,4 +31,7 @@ Prossimi appelli, con scadenze:
   - Deadline: 11/12/2023
 - Assignment 4
   - Template
-  - Deadline: 7 giorni prima di ogni appello (vedi sopra per le date esatte)
+  - Deadline: 7 giorni prima di ogni appello (vedi sopra per le date esatte)  
+- Report finale: [Template e Istruzioni](https://polito-uxd-2023.github.io/materiale/assignments/final-report-instructions.pdf)
+  - Deadline: 7 giorni prima di ogni appello (vedi sopra per le date esatte) 
+
