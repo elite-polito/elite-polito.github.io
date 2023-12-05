@@ -271,7 +271,7 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 <LectureRow
     date="07/12/2023" time="16:00-17:30" type="Lab" teacher="Juan Pablo Sáenz Moreno"
     >
-    <Link to="https://polito-iaw-2023.github.io/materiale/laboratori/lab-09/lab-8-form-avanzato.pdf">Form in Flask</Link> (gruppo I)
+    <Link to="https://polito-iaw-2023.github.io/materiale/laboratori/lab-08/lab-8-form-avanzato.pdf">Form in Flask</Link> (gruppo I)
 </LectureRow>
 
 <LectureRow
