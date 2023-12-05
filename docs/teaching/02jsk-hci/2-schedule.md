@@ -325,6 +325,7 @@ All slides, examples, exercises, and any other material used in the classroom an
 
 <LectureRow 
     date="05/12/2023" time="17:30-19:00" teacher="Alberto Monge Roffarello"
+    video="https://youtu.be/Zv-fkhRltIw"
     >
       <Link to="https://polito-hci-2023.github.io/materials/slides/09-mid-fi-prototypes.pdf" title="Medium fidelity prototypes">Medium-fidelity Prototypes</Link>
 </LectureRow>
