@@ -35,7 +35,7 @@ description: "Materiale didattico (slide, documenti, link, ...)"
     - Blocco 4: [Testo](https://farinetti.github.io/materiale-bdcin/EsSQL_4-Testo.pdf) e [Soluzione](https://farinetti.github.io/materiale-bdcin/EsSQL_4-Soluz.pdf)
 
 - Progettazione
-    - ER 1: [Testo](https://farinetti.github.io/materiale-bdcin/EsER_1-Testo.pdf) e Soluzione
+    - ER 1: [Testo](https://farinetti.github.io/materiale-bdcin/EsER_1-Testo.pdf) e [Soluzione](https://farinetti.github.io/materiale-bdcin/EsER_1-Soluz.pdf)
     - ER 2: [Testo](https://farinetti.github.io/materiale-bdcin/EsER_2-Testo.pdf) e Soluzione
 
 ## Esercitazioni CCT
