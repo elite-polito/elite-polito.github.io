@@ -244,12 +244,14 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
     date="30/11/2023" time="16:00-17:30" type="Lab" teacher="Juan Pablo Sáenz Moreno"
     >
     <Link to="https://polito-iaw-2023.github.io/materiale/laboratori/lab-07/lab-7-form.pdf">Form in HTML</Link> (gruppo I)
+    <ul><li><Link to="https://github.com/polito-iaw-2023/materiale/tree/main/laboratori/lab-07/soluzione">Soluzione</Link> (su GitHub)</li></ul>
 </LectureRow>
 
 <LectureRow
     date="30/11/2023" time="17:30-19:00" type="Lab" teacher="Juan Pablo Sáenz Moreno"
     >
     <Link to="https://polito-iaw-2023.github.io/materiale/laboratori/lab-07/lab-7-form.pdf">Form in HTML</Link> (gruppo II)
+    <ul><li><Link to="https://github.com/polito-iaw-2023/materiale/tree/main/laboratori/lab-07/soluzione">Soluzione</Link> (su GitHub)</li></ul>
 </LectureRow>
 
 <LectureDivider topic='Settimana 9'/>{/*---------------------------------------*/}
@@ -266,6 +268,7 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
     video="https://youtu.be/tF8fVcRBnX0"
     >
     <Link to="https://polito-iaw-2023.github.io/materiale/slide/08-database.pdf" title="Interazione col database">Interazione col database</Link>
+    <ul><li><Link to="https://github.com/polito-iaw-2023/materiale/tree/main/esercizi/08-database/">Esempio</Link> (su GitHub)</li></ul>
 </LectureRow>
 
 <LectureRow
