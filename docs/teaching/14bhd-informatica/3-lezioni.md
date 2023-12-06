@@ -573,11 +573,15 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 <LectureRow
     date="06/12/2023" time="11:30-13:00"
     topic="L28 Elaborazione di file di testo"
+    video='https://youtu.be/iENCH5w2BQU'
 />
 
 <LectureRow
     date="06/12/2023" time="13:00-14:30"
-    topic="L29 File di testo strutturati"
+    topic="L29 Risoluzione tema d'esame 'Tempesta'"
+    github='https://github.com/polito-informatica/Esempi-esame/tree/master/esami2022-23/tempesta'
+    type='Esercitazione'
+    video='https://youtu.be/YMGekKwgfwA'
 />
 
 <LectureRow
