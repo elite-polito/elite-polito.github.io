@@ -3,6 +3,7 @@ description: "Calendario delle lezioni e materiale utilizzato in ciascuna lezion
 ---
 
 import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lectures'
+import Link from '@docusaurus/Link'
 
 # Calendario delle lezioni
 
@@ -620,10 +621,18 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 
 </LectureDivider>
 
+<LectureRow variant='info'
+    date="11/12/2023" time="13:00-14:30"
+    topic='Consulenza "Livello Base"'
+    type='Consulenza'
+>
+<br/><small>Ritrovo alle ore 13:00 al secondo piano sopra la <Link to='https://www.polito.it/ateneo/chi-siamo/sedi-e-mappe?bl_id=TO_CIT11&fl_id=XPTE&rm_id=062'>Sala Studio ex-Celid</Link>. Ci spostiamo poi nel vicino <Link to='https://www.polito.it/ateneo/chi-siamo/sedi-e-mappe?bl_id=TO_CIT11&fl_id=XP02&rm_id=161&lang=it'>Lab 10</Link></small>
+</LectureRow>
+
 <LectureRow
     date="11/12/2023" time="17:30-19:00"
     topic="L30 Esercizi su file di testo"
-    teacher='Roberta Bardini'
+    teacher='Fulvio Corno'
 />
 
 <LectureRow
@@ -672,6 +681,16 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 ### Settimana 12
 
 </LectureDivider>
+
+<LectureRow variant='info'
+    date="18/12/2023" time="13:00-14:30"
+    topic='Consulenza "Livello Base"'
+    type='Consulenza'
+>
+<br/><small>Ritrovo alle ore 13:00 al secondo piano sopra la <Link to='https://www.polito.it/ateneo/chi-siamo/sedi-e-mappe?bl_id=TO_CIT11&fl_id=XPTE&rm_id=062'>Sala Studio ex-Celid</Link>. Ci spostiamo poi nel vicino <Link to='https://www.polito.it/ateneo/chi-siamo/sedi-e-mappe?bl_id=TO_CIT11&fl_id=XP02&rm_id=161&lang=it'>Lab 10</Link></small>
+</LectureRow>
+
+
 
 <LectureRow
     date="18/12/2023" time="17:30-19:00"
