@@ -63,6 +63,7 @@ description: "Materiale didattico (slide, documenti, link, ...)"
     - Fase 2: [link](https://colab.research.google.com/drive/1X1Pj9ik5qhO1m5_P7Es2vKQ5VJYTEZCf?usp=sharing) al Notebook -> consegna prima del laboratorio di lunedì 20/11
     - Fase 3: [link](https://colab.research.google.com/drive/1vHXgeznEpwmNfGOXVl3-PeVA8X6sa5cl?usp=sharing) al Notebook -> **consegna posticipata entro domenica 10/12**
         -  [link](https://colab.research.google.com/drive/1zxR_11AjstEPfWcqw5ehmhr-ukOgfw9H?usp=share_link) ad un Notebook di supporto
-       
+    - Fase 4 (collegare il chatbot a Telegram): [link](https://colab.research.google.com/drive/1QNuZ00D-LeZHOju_JVmNOB7X3gQRbPSp?usp=sharing) al Notebook
+        
    
     
