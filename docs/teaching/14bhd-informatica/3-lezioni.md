@@ -632,25 +632,26 @@ import Link from '@docusaurus/Link'
 
 <LectureRow
     date="11/12/2023" time="17:30-19:00"
-    topic="L30 Esercizi su file di testo"
+    topic="L30 Esercizio su file di testo (Popolazione)"
     teacher='Fulvio Corno'
+    video='https://youtu.be/EJkAjS_7MAY'
 />
 
 <LectureRow
     date="13/12/2023" time="11:30-13:00"
     topic="L31 File CSV. Eccezioni. "
-    pdf='https://polito-informatica.github.io/Materiale/P8-Strutture_dati_complesse.pdf'
 />
 
 <LectureRow
     date="13/12/2023" time="13:00-14:30"
     topic="L32 Insiemi. Dizionari (prima parte)"
+    pdf='https://polito-informatica.github.io/Materiale/P8-Strutture_dati_complesse.pdf'
 />
 
 <LectureRow
     date="13/12/2023" time="16:00-17:30"
     topic="Lab10 - Squadra 3 - File, eccezioni."
-    teacher='Fulvio Corno'
+    teacher='Lorenzo Martini'
     type='Laboratorio'
     pdf='https://github.com/polito-informatica/Laboratori/blob/main/Lab10/Lab10_testo.pdf?raw=true'
 />
