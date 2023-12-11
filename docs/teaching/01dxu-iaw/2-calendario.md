@@ -288,25 +288,25 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 <LectureRow
     date="11/12/2023" time="16:00-17:30" type="Esercizio" teacher="Juan Pablo Sáenz Moreno"
     >
-    Ripasso sui database. Interazione col database (su GitHub)
+    Ripasso sui database. <Link to="https://github.com/polito-iaw-2023/materiale/tree/main/esercizi/08-database/esercizio">Interazione col database</Link> (su GitHub)
 </LectureRow>
 
 <LectureRow
     date="11/12/2023" time="17:30-19:00" type="Esercizio" teacher="Juan Pablo Sáenz Moreno"
     >
-    Interazione col database (su GitHub, continua)
+    <Link to="https://github.com/polito-iaw-2023/materiale/tree/main/esercizi/08-database/esercizio">Interazione col database</Link> (su GitHub, continua)
 </LectureRow>
 
 <LectureRow
     date="14/12/2023" time="16:00-17:30" type="Lab" teacher="Juan Pablo Sáenz Moreno"
     >
-    Interazione col database (gruppo I)
+    <Link to="https://polito-iaw-2023.github.io/materiale/laboratori/lab-09/lab-9-database.pdf">Interazione col database</Link> (gruppo I)
 </LectureRow>
 
 <LectureRow
     date="14/12/2023" time="17:30-19:00" type="Lab" teacher="Juan Pablo Sáenz Moreno"
     >
-    Interazione col database (gruppo II)
+    <Link to="https://polito-iaw-2023.github.io/materiale/laboratori/lab-09/lab-9-database.pdf">Interazione col database</Link> (gruppo II)
 </LectureRow>
 
 <LectureDivider topic='Settimana 11'/>{/*---------------------------------------*/}
