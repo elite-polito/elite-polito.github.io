@@ -236,6 +236,23 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 
 <LectureDivider topic='Settimana 10'/>{/*-------------------------------------------*/}
 
+<LectureRow 
+    date="12/12/2023" time="11:30-13:00" type ="Laboratorio"
+    >
+    <Link to="https://polito-uxd-2023.github.io/materiale/assignments/A4-mid-to-hi-fidelity.pdf">Assignment 4: Da bassa ad alta fedeltà</Link>
+</LectureRow>
+
+<LectureRow
+    date="12/12/2023" time="13:00-13:00" type ="Esercitazione" teacher="Irene Ronga"
+    >
+   Esercizio su Neuroestetica
+</LectureRow>
+
+<LectureRow
+    date="12/12/2023" time="13:00-14:30" type ="Lezione"
+    >
+   Prototipazione ad alta fedeltà
+</LectureRow>
 
 </LectureTable>
 

@@ -29,8 +29,9 @@ Prossimi appelli, con scadenze:
   - Deadline: 19/11/2023
 - [Assignment 3: Valutazione euristica](https://polito-uxd-2023.github.io/materiale/assignments/A3-heuristic-evaluation.pdf)
   - Deadline: 11/12/2023
-- Assignment 4
-  - Template
+- [Assignment 4: Da media ad alta fedeltà](https://polito-uxd-2023.github.io/materiale/assignments/A4-mid-to-hi-fidelity.pdf)
+  - Deadline: 18/12/2023
+- Assignment 5
   - Deadline: 7 giorni prima di ogni appello (vedi sopra per le date esatte)  
 - Report finale: [Template e Istruzioni](https://polito-uxd-2023.github.io/materiale/assignments/final-report-instructions.pdf)
   - Deadline: 7 giorni prima di ogni appello (vedi sopra per le date esatte) 
