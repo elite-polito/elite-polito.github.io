@@ -11,10 +11,15 @@ It must be passed in the **current academic** year. Material for the projects ev
 
 Next exams, with deadlines:
 
-- **xx/xx/2024 h. xx:00, Room xx**
-    - remember to enroll at the exam, by *xx/xx/202x*, on the Portale della Didattica
-    - all the assignments (including the code) must be on the group's GitHub repositories by *xx/xx/202x EOD*
-    - the schedule of the groups' presentations will be shared a few days before the exam
+- **13/02/2024 h. 09:00, Room R3b**
+  - remember to enroll at the exam, by *07/02/2024*, on the Portale della Didattica
+  - all the assignments (including the code) must be on the group's GitHub repositories by *06/02/2024 EOD*
+  - the schedule of the groups' presentations will be shared a few days before the exam
+
+- **29/02/2024 h. 09:00, Room R3b**
+  - remember to enroll at the exam, by *23/02/2024*, on the Portale della Didattica
+  - all the assignments (including the code) must be on the group's GitHub repositories by *22/02/2024 EOD*
+  - the schedule of the groups' presentations will be shared a few days before the exam
 
 ## Group Projects (with Assignments)
 
@@ -32,7 +37,7 @@ Next exams, with deadlines:
   - Deadline: December 5, 2023
 - Assignment 4: [Medium to High-fi Prototype](https://polito-hci-2023.github.io/materials/assignments/A4-mid-to-hi-fidelity.pdf)
   - Deadline: December 12, 2023
-- Assignment 5: High-fidelity Prototype
+- Assignment 5: [High-fidelity Prototype](https://polito-hci-2023.github.io/materials/assignments/A5-high-fidelity-prototype.pdf)
   - Deadline: 7 days before each official exam date (see above for the exact dates)
 - Final Report: [Template and Instructions](https://polito-hci-2023.github.io/materials/assignments/final-report-instructions.pdf)
   - Deadline: 7 days before each official exam date (see above for the exact dates)

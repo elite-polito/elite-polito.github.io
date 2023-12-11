@@ -373,19 +373,19 @@ All slides, examples, exercises, and any other material used in the classroom an
 <LectureRow 
     date="13/12/2023" time="13:00-14:30" type="Lab" teacher="Alberto Monge Roffarello"
     >
-    Assignment 5: High-fi Prototype (group 1)
+    <Link to="https://polito-hci-2023.github.io/materials/assignments/A5-high-fidelity-prototype.pdf" title="Fifth assignment">Assignment 5: High-fi Prototype</Link> (group 1)
 </LectureRow>
 
 <LectureRow 
     date="13/12/2023" time="14:30-16:00" type="Lab"
     >
-    Assignment 5: High-fi Prototype (group 2)
+    <Link to="https://polito-hci-2023.github.io/materials/assignments/A5-high-fidelity-prototype.pdf" title="Fifth assignment">Assignment 5: High-fi Prototype</Link> (group 2)
 </LectureRow>
 
 <LectureRow 
     date="13/12/2023" time="16:00-17:30" type="Lab" teacher="Tommaso Calò"
     >
-    Assignment 5: High-fi Prototype (group 3)
+    <Link to="https://polito-hci-2023.github.io/materials/assignments/A5-high-fidelity-prototype.pdf" title="Fifth assignment">Assignment 5: High-fi Prototype</Link> (group 3)
 </LectureRow>
 
 <LectureDivider topic='Week 12'/>{/*-------------------------------------------*/}
@@ -393,7 +393,7 @@ All slides, examples, exercises, and any other material used in the classroom an
 <LectureRow
     date="18/12/2023" time="14:30-16:00"
     >
-    Designing for Diversity
+    <Link to="https://polito-hci-2023.github.io/materials/slides/11-designing-diversity.pdf" title="Inclusive and universal design">Designing for Diversity</Link>
 </LectureRow>
 
 <LectureRow 
