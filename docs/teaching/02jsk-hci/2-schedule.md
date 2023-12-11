@@ -356,6 +356,7 @@ All slides, examples, exercises, and any other material used in the classroom an
 
 <LectureRow
     date="11/12/2023" time="14:30-16:00"
+    video="https://youtu.be/4u3bjH1CQ_U"
     >
      <Link to="https://polito-hci-2023.github.io/materials/slides/10-hi-fi-prototypes.pdf" title="High fidelity prototypes">High-fidelity Prototypes</Link>
 </LectureRow>
