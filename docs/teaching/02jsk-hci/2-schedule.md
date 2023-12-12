@@ -392,15 +392,15 @@ All slides, examples, exercises, and any other material used in the classroom an
 <LectureDivider topic='Week 12'/>{/*-------------------------------------------*/}
 
 <LectureRow
-    date="18/12/2023" time="14:30-16:00"
+    date="18/12/2023" time="14:30-16:00" teacher="Alberto Monge Roffarello"
     >
-    <Link to="https://polito-hci-2023.github.io/materials/slides/11-designing-diversity.pdf" title="Inclusive and universal design">Designing for Diversity</Link>
+    Supervised work group on A5
 </LectureRow>
 
 <LectureRow 
     date="19/12/2023" time="17:30-19:00"
     >
-    Usability Testing
+    <Link to="https://polito-hci-2023.github.io/materials/slides/11-designing-diversity.pdf" title="Inclusive and universal design">Designing for Diversity</Link>
 </LectureRow>
 
 <LectureRow 
@@ -432,7 +432,7 @@ All slides, examples, exercises, and any other material used in the classroom an
 <LectureRow
     date="08/01/2024" time="14:30-16:00"
     >
-    Usability Testing (cont'd )
+    Usability Testing
 </LectureRow>
 
 <LectureRow 
@@ -442,7 +442,7 @@ All slides, examples, exercises, and any other material used in the classroom an
 </LectureRow>
 
 <LectureRow 
-    date="10/01/2024" time="13:00-14:30" type="Lab" teacher="Alberto Monge Roffarello"
+    date="10/01/2024" time="13:00-14:30" type="Lab" teacher="Luigi De Russis"
     >
     Assignment 5: High-fi Prototype (cont'd, group 1)
 </LectureRow>
