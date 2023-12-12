@@ -239,7 +239,10 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 <LectureRow 
     date="12/12/2023" time="11:30-13:00" type ="Laboratorio"
     >
-    <Link to="https://polito-uxd-2023.github.io/materiale/assignments/A4-mid-to-hi-fidelity.pdf">Assignment 4: Da bassa ad alta fedeltà</Link>
+    <ul>
+    <li><Link to="https://polito-uxd-2023.github.io/materiale/assignments/A4-mid-to-hi-fidelity.pdf">Assignment 4: Da bassa ad alta fedeltà</Link></li>
+    <li><Link to="https://www.youtube.com/watch?v=v_1DhO-Vcgc">Figma Hands On (dal corso di HCI dello scorso anno)</Link></li>
+    </ul>
 </LectureRow>
 
 <LectureRow
