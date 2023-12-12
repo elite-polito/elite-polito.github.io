@@ -364,7 +364,7 @@ All slides, examples, exercises, and any other material used in the classroom an
 <LectureRow 
     date="12/12/2023" time="17:30-19:00" type="Exercise"
     >
-    Group set-up for Assignment 5
+    Group set-up for Assignment 5 (<Link to="https://polito-hci-2023.github.io/materials/slides/10a-tech-choices.pdf" title="Options for implementing the hi-fi prototypes">document crafted in class</Link>)
 </LectureRow>
 
 <LectureRow variant="success" date="12/12/2023" time="EOD" teacher="" type="">
