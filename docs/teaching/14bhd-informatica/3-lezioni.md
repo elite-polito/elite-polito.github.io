@@ -639,13 +639,14 @@ import Link from '@docusaurus/Link'
 
 <LectureRow
     date="13/12/2023" time="11:30-13:00"
-    topic="L31 File CSV. Eccezioni. "
+    topic="L31 File CSV"
+    video='https://youtu.be/sIuUFZJH22Y'
 />
 
 <LectureRow
     date="13/12/2023" time="13:00-14:30"
-    topic="L32 Insiemi. Dizionari (prima parte)"
-    pdf='https://polito-informatica.github.io/Materiale/P8-Strutture_dati_complesse.pdf'
+    topic="L32 Eccezioni"
+    video='https://youtu.be/jxXGYWm5V14'
 />
 
 <LectureRow
@@ -675,6 +676,7 @@ import Link from '@docusaurus/Link'
 <LectureRow 
     date='' time=''
     topic='Esercizi della settimana'
+    zip='https://github.com/polito-informatica/Settimane2023/raw/main/Settimana11.zip'
     teacher='' type=''
 />
 
@@ -696,17 +698,18 @@ import Link from '@docusaurus/Link'
 
 <LectureRow
     date="18/12/2023" time="17:30-19:00"
-    topic="L33 Dizionari (seconda parte)"
+    topic="L33 Insiemi. Dizionari (prima parte)"
+    pdf='https://polito-informatica.github.io/Materiale/P8-Strutture_dati_complesse.pdf'
 />
 
 <LectureRow
     date="20/12/2023" time="11:30-13:00"
-    topic="L34 Strutture dati complesse"
+    topic="L34 Dizionari (seconda parte)"
 />
 
 <LectureRow
     date="20/12/2023" time="13:00-14:30"
-    topic="L35"
+    topic="L35 Strutture dati complesse"
 />
 
 <LectureRow
