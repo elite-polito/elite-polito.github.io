@@ -40,7 +40,7 @@ description: "Materiale didattico (slide, documenti, link, ...)"
 
 ## Esercitazioni CCT
 - Esercitazione CCT#1: ChatGPT e SQL, caccia all'errore - [Presentazione](https://farinetti.github.io/materiale-bdcin/Es_CCT_1.pdf) e [Schemi](https://farinetti.github.io/materiale-bdcin/SchemiProposti.docx)
-- Esercitazione CCT#2: Progettazione di basi dati - [Testo](https://farinetti.github.io/materiale-bdcin/Esercizi-CCT_2.pdf)
+- Esercitazione CCT#2: Progettazione di basi dati - [Testo](https://farinetti.github.io/materiale-bdcin/EsercitazioneCCT_2.pdf)
 
 
 ## Laboratori
