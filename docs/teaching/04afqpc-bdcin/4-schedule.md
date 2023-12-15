@@ -18,15 +18,12 @@ _Legenda:_ la colonna Tipo può essere Lez=Lezione, EsT=Esercitazione "tradizion
 
 | Data | Orario | Tipo | Ore | Argomento | Aula | Docente |
 |----|-------------|--------|----|------|------|-----|
-| lun 11/12/23 | 10.00-11.30 | Lab-sqB | 1,5 | <font color="mediumvioletred">Laboratorio #7: Information retrieval (squadra A).</font> | LAIB 3B | L. Canale |
-| lun 11/12/23 | 11.30-13.00 | Lab-sqA | 1,5 | <font color="teal">Laboratorio #7: Information retrieval (squadra B).</font> | LAIB 3B | L. Canale |
 | ven 15/12/23 | 13.00-16.00 | EsT | 3 | Esercitazione CCT#2: Progettazione. | 9T | L. Farinetti |
 | lun 18/12/23 | 10.00-11.30 | EsT | 1,5 | Esercitazione Progettazione#3. | LAIB 3B | L. Farinetti |
 | lun 18/12/23 | 11.30-13.00 | Cons | 1,5 | Consulenza. | LAIB 3B | L. Farinetti |
-| lun 08/01/24 | 10.00-13.00 | EsT | 3 | Temi d'esame. | LAIB 3B | L. Canale |
-| ven 12/01/24 | 13.00-16.00 | EsCCT | 3 | Esercitazione CCT#3: Progettazione. | 9T | L. Farinetti |
-| lun 15/01/24 | 10.00-11.30 | Lab-sqB | 1,5 | <font color="teal">Laboratorio #8.</font> | LAIB 3B | L. Canale |
-| lun 15/01/24 | 11.30-13.00 | Lab-sqA | 1,5 | <font color="mediumvioletred">Laboratorio #8 (squadra A).</font> | LAIB 3B | L. Canale |
+| lun 08/01/24 | 10.00-13.00 | Lab | 3 | Laboratorio #8 (per tutti): Information retrieval | LAIB 3B | L. Canale |
+| ven 12/01/24 | 13.00-16.00 | EsT | 3 | Temi d'esame. | 9T | L. Farinetti |
+| lun 15/01/24 | 10.00-13.00 | EsT | 1,5 | Temi d'esame. | LAIB 3B | L. Canale |
 | ven 19/01/24 | 13.00-14.30 | EsT | 1,5 | Temi d'esame. | 9T | L. Farinetti |
 | ven 19/01/24 | 14.30-16.00 | Cons | 1,5 | Consulenza. | 9T | L. Farinetti |
 
