@@ -246,7 +246,7 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 </LectureRow>
 
 <LectureRow
-    date="15/12/2023" time="13:00-13:00" type ="Lezione"
+    date="15/12/2023" time="13:00-13:00" type ="Lezione" video={['https://www.polito.it/didattica']}
     >
     <Link to="https://polito-uxd-2023.github.io/materiale/slides/13-hi-fi-prototypes-with-examples.pdf">Prototipazione ad alta fedeltà (con esempi)</Link>
 </LectureRow>
