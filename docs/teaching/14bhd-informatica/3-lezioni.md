@@ -700,6 +700,7 @@ import Link from '@docusaurus/Link'
     date="18/12/2023" time="17:30-19:00"
     topic="L33 Insiemi. Dizionari (prima parte)"
     pdf='https://polito-informatica.github.io/Materiale/P8-Strutture_dati_complesse.pdf'
+    video='https://youtu.be/VTtox20aYiA'
 />
 
 <LectureRow
