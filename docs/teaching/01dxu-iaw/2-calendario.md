@@ -317,12 +317,14 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 
 <LectureRow
     date="18/12/2023" time="16:00-17:30" teacher="Juan Pablo Sáenz Moreno"
+    video="https://youtu.be/av2ZEb1PYO0"
     >
     <Link to="https://polito-iaw-2023.github.io/materiale/slide/09-autenticazione.pdf" title="Sessioni e autenticazione">Sessioni e autenticazione</Link>
 </LectureRow>
 
 <LectureRow
     date="18/12/2023" time="17:30-19:00" type="Esercizio" teacher="Juan Pablo Sáenz Moreno"
+    video="https://youtu.be/fLOhKRHQkPA"
     >
     <Link to="https://github.com/polito-iaw-2023/materiale/tree/main/esercizi/09-autenticazione">Autenticazione</Link> (su GitHub)
 </LectureRow>
