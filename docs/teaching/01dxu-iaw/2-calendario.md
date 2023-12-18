@@ -324,7 +324,7 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 <LectureRow
     date="18/12/2023" time="17:30-19:00" type="Esercizio" teacher="Juan Pablo Sáenz Moreno"
     >
-    Autenticazione (su GitHub)
+    <Link to="https://github.com/polito-iaw-2023/materiale/tree/main/esercizi/09-autenticazione">Autenticazione</Link> (su GitHub)
 </LectureRow>
 
 <LectureRow
