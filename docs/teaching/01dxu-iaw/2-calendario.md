@@ -318,7 +318,7 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 <LectureRow
     date="18/12/2023" time="16:00-17:30" teacher="Juan Pablo Sáenz Moreno"
     >
-    Sessioni e autenticazione
+    <Link to="https://polito-iaw-2023.github.io/materiale/slide/09-autenticazione.pdf" title="Sessioni e autenticazione">Sessioni e autenticazione</Link>
 </LectureRow>
 
 <LectureRow
