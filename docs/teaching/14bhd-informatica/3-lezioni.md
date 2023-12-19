@@ -755,6 +755,15 @@ import Link from '@docusaurus/Link'
 
 </LectureDivider>
 
+<LectureRow variant='info'
+    date="08/01/2024" time="13:00-14:30"
+    topic='Consulenza "Livello Base"'
+    type='Consulenza'
+>
+<br/><small>Ritrovo alle ore 13:00 al secondo piano sopra la <Link to='https://www.polito.it/ateneo/chi-siamo/sedi-e-mappe?bl_id=TO_CIT11&fl_id=XPTE&rm_id=062'>Sala Studio ex-Celid</Link>. Ci spostiamo poi nel vicino <Link to='https://www.polito.it/ateneo/chi-siamo/sedi-e-mappe?bl_id=TO_CIT11&fl_id=XP02&rm_id=161&lang=it'>Lab 10</Link></small>
+</LectureRow>
+
+
 <LectureRow
     date="08/01/2024" time="17:30-19:00"
     topic="L36 Architettura degli elaboratori"
@@ -803,6 +812,15 @@ import Link from '@docusaurus/Link'
 
 </LectureDivider>
 
+<LectureRow variant='info'
+    date="15/01/2024" time="13:00-14:30"
+    topic='Consulenza "Livello Base"'
+    type='Consulenza'
+>
+<br/><small>Ritrovo alle ore 13:00 al secondo piano sopra la <Link to='https://www.polito.it/ateneo/chi-siamo/sedi-e-mappe?bl_id=TO_CIT11&fl_id=XPTE&rm_id=062'>Sala Studio ex-Celid</Link>. Ci spostiamo poi nel vicino <Link to='https://www.polito.it/ateneo/chi-siamo/sedi-e-mappe?bl_id=TO_CIT11&fl_id=XP02&rm_id=161&lang=it'>Lab 10</Link></small>
+</LectureRow>
+
+
 <LectureRow
     date="15/01/2024" time="17:30-19:00"
     topic="L39 Esercizi d'esame"
@@ -822,7 +840,7 @@ import Link from '@docusaurus/Link'
     date="09/01/2024" time="16:00-17:30"
     topic="L42 Esercizi sui sistemi di numerazione"
     teacher='Fulvio Corno'
-    type='Esercizi (on-line)'
+    type='Maratona Esercizi (on-line)'
     github='https://github.com/polito-informatica/Esempi-esame/blob/master/teoria/numeri.md'
 >
 <br/><a href='https://polito-it.zoom.us/j/86175075461?pwd=dXd6RFVVSEVCYWRSUjkzckRGUmFTZz09'>Link Zoom</a>
@@ -832,7 +850,7 @@ import Link from '@docusaurus/Link'
     date="10/01/2024" time="11:30-13:00"
     topic="L43 Esercizi sulle architetture degli elaboratori"
     teacher='Fulvio Corno'
-    type='Esercizi (on-line)'
+    type='Maratona Esercizi (on-line)'
     github='https://github.com/polito-informatica/Esempi-esame/blob/master/teoria/architettura.md'
 >
 <br/><a href='https://polito-it.zoom.us/j/86175075461?pwd=dXd6RFVVSEVCYWRSUjkzckRGUmFTZz09'>Link Zoom</a>
@@ -842,7 +860,7 @@ import Link from '@docusaurus/Link'
     date="10/01/2024" time="13:00-14:30"
     topic="L44 Esercizi sulla programmazione Python"
     teacher='Fulvio Corno'
-    type='Esercizi (on-line)'
+    type='Maratona Esercizi (on-line)'
     github='https://github.com/polito-informatica/Esempi-esame/blob/master/teoria/python.md'
 >
 <br/><a href='https://polito-it.zoom.us/j/86175075461?pwd=dXd6RFVVSEVCYWRSUjkzckRGUmFTZz09'>Link Zoom</a>
