@@ -399,6 +399,7 @@ All slides, examples, exercises, and any other material used in the classroom an
 
 <LectureRow 
     date="19/12/2023" time="17:30-19:00"
+    video="https://youtu.be/o7P2PCKzous"
     >
     <Link to="https://polito-hci-2023.github.io/materials/slides/11-designing-diversity.pdf" title="Inclusive and universal design">Designing for Diversity</Link>
 </LectureRow>
