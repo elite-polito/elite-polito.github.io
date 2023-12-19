@@ -40,7 +40,10 @@ _Legenda:_ la colonna Tipo può essere Lez=Lezione, EsT=Esercitazione "tradizion
 | [SQL #5](https://farinetti.github.io/materiale-bdcin/Esercizi-SQL_5.pdf): Tema d'esame | 17/11 | [Soluzioni SQL #5](https://farinetti.github.io/materiale-bdcin/Soluzioni-SQL_5.pdf) - comprende le soluzioni degli altri esercizi proposti in aula |
 | [ER #1](https://farinetti.github.io/materiale-bdcin/Esercizi-ER_1.pdf): Progettazione concettuale | 27/11 | [Soluzioni ER #1](https://farinetti.github.io/materiale-bdcin/Soluzioni-ER_1.pdf) - comprende le soluzioni degli altri esercizi proposti in aula |
 | [ER #2](https://farinetti.github.io/materiale-bdcin/Esercizi-ER_2.pdf): Progettazione concettuale | 1/12 | [Soluzioni ER #2](https://farinetti.github.io/materiale-bdcin/Soluzioni-ER_2.pdf) - comprende le soluzioni degli altri esercizi proposti in aula |
-| [CCT #2](https://farinetti.github.io/materiale-bdcin/Esercizi-CCT_2.pdf) | 15/12 |  |
+| [CCT #2](https://farinetti.github.io/materiale-bdcin/Esercizi-CCT_2.pdf) | 15/12 | [Soluzioni CCT #2](https://farinetti.github.io/materiale-bdcin/Soluzioni-CCT_2.pdf) - comprende le soluzioni degli altri esercizi proposti in aula |
+| [TE #1](https://farinetti.github.io/materiale-bdcin/Esercizi-TE_1.pdf): Progettazione concettuale | 12/01 |  |
+| [TE #2](https://farinetti.github.io/materiale-bdcin/Esercizi-TE_2.pdf): Progettazione concettuale | 19/01 |  |
+
 
 
 ## Elenco delle videolezioni
