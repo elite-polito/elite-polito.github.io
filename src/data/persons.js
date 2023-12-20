@@ -43,7 +43,7 @@ const people = [
         role: 'Ph.D. Student',
         email: 'luca.mannella@polito.it',
         img: '/img/people/LucaMannella.jpg',
-        github: 'Sarcares',
+        github: 'LucaMannella',
         linkedin: 'lucamannella',
     },
     {
@@ -88,7 +88,7 @@ const alumni = [
     },
     {
         name: 'Teodoro Montanaro',
-        role: 'Post-Doc Researcher at  Università del Salento',
+        role: 'Post-Doc Researcher at Università del Salento',
         img: '/img/people/TeodoroMontanaro.webp',
         github: 'tmontanaro',
         linkedin: 'teodoro-montanaro-94a50991',
@@ -141,7 +141,7 @@ const alumni = [
     },
     {
         name: 'Paolo Pellegrino',
-        role: ' Developer at Zirak srl',
+        role: 'Developer at Zirak srl',
     },
     {
         name: 'Francesco Gerace',
