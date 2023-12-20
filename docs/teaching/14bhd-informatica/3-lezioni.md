@@ -705,12 +705,16 @@ import Link from '@docusaurus/Link'
 
 <LectureRow
     date="20/12/2023" time="11:30-13:00"
-    topic="L34 Dizionari (seconda parte)"
-/>
+    video={['https://youtu.be/Aq7Nop78ARg', 'https://youtu.be/tKhQQIxXWjY']}
+>
+L34a Informazioni sull'esame<br/>
+L34b Dizionari (seconda parte)
+</LectureRow>
 
 <LectureRow
     date="20/12/2023" time="13:00-14:30"
-    topic="L35 Strutture dati complesse"
+    topic="L35 Ordinamenti avanzati. Strutture dati complesse."
+    video='https://youtu.be/jViNWMTWgAE'
 />
 
 <LectureRow
@@ -740,6 +744,7 @@ import Link from '@docusaurus/Link'
 <LectureRow 
     date='' time=''
     topic='Esercizi della settimana'
+    zip='https://github.com/polito-informatica/Settimane2023/raw/main/Settimana12.zip'
     teacher='' type=''
 />
 
