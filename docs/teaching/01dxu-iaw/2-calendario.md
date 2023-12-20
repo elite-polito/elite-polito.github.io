@@ -332,13 +332,13 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 <LectureRow
     date="21/12/2023" time="16:00-17:30" type="Lab" teacher="Juan Pablo Sáenz Moreno"
     >
-    Autenticazione (gruppo I)
+    <Link to="https://polito-iaw-2023.github.io/materiale/laboratori/lab-10/lab-10-autenticazione.pdf">Autenticazione</Link> (gruppo I)
 </LectureRow>
 
 <LectureRow
     date="21/12/2023" time="17:30-19:00" type="Lab" teacher="Juan Pablo Sáenz Moreno"
     >
-    Autenticazione (gruppo II)
+    <Link to="https://polito-iaw-2023.github.io/materiale/laboratori/lab-10/lab-10-autenticazione.pdf">Autenticazione</Link> (gruppo II)
 </LectureRow>
 
 <LectureDivider />{/*---------------------------------------*/}
