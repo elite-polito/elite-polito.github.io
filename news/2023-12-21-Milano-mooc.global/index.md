@@ -4,7 +4,6 @@ tags: [events, conference, digital education]
 description: "Participation and keynote talk at the Global MOOC and Online Education Conference 2023"
 image: ./conference-banner.jpg
 image_alt: Participation and keynote talk at the Global MOOC and Online Education Conference 2023
-draft: true
 ---
 
 import speaker from './speaker.jpg'
