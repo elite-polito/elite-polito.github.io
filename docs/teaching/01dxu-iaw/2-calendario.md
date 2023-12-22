@@ -121,16 +121,14 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 <LectureRow
     date="02/11/2023" time="16:00-17:30" type="Lab" teacher="Juan Pablo Sáenz Moreno"
     >
-    <Link to="https://polito-iaw-2023.github.io/materiale/laboratori/lab-03/lab-3-bootstrap.pdf">
-    Framework CSS: Bootstrap</Link> (gruppo I)
+    <Link to="https://polito-iaw-2023.github.io/materiale/laboratori/lab-03/lab-3-bootstrap.pdf">Framework CSS: Bootstrap</Link> (gruppo I)
     <ul><li><Link to="https://github.com/polito-iaw-2023/materiale/tree/main/laboratori/lab-03/soluzione">Soluzione</Link> (su GitHub)</li></ul>
 </LectureRow>
 
 <LectureRow
     date="02/11/2023" time="17:30-19:00" type="Lab" teacher="Juan Pablo Sáenz Moreno"
     >
-    <Link to="https://polito-iaw-2023.github.io/materiale/laboratori/lab-03/lab-3-bootstrap.pdf">
-    Framework CSS: Bootstrap</Link> (gruppo II)
+    <Link to="https://polito-iaw-2023.github.io/materiale/laboratori/lab-03/lab-3-bootstrap.pdf">Framework CSS: Bootstrap</Link> (gruppo II)
     <ul><li><Link to="https://github.com/polito-iaw-2023/materiale/tree/main/laboratori/lab-03/soluzione">Soluzione</Link> (su GitHub)</li></ul>
 </LectureRow>
 
