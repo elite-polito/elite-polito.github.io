@@ -261,21 +261,21 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 <LectureDivider topic='Settimana 11'/>{/*-------------------------------------------*/}
 
 <LectureRow 
-    date="18/12/2023" time="11:30-13:00" type ="Laboratorio"
+    date="18/12/2023" time="11:30-13:00" type ="Laboratorio" teacher = "Irene Ronga"
     >
     <Link to="https://polito-uxd-2023.github.io/materiale/assignments/A5-high-fidelity-prototype.pdf">Assignment 5: Prototipo ad alta fedeltà</Link>
 </LectureRow>
 
 <LectureRow 
-    date="22/12/2023" time="11:30-13:00" type ="Lezione" teacher="Irene Ronga"
+    date="22/12/2023" time="11:30-13:00" type ="Lezione" video={['https://www.polito.it/didattica']}
     >
-   Usability testing
+   <Link to="https://polito-uxd-2023.github.io/materiale/slides/14-usability-testing.pdf">Usability testing</Link>
 </LectureRow>
 
 <LectureRow
-    date="22/12/2023" time="13:00-14:30" type ="Lezione" teacher="Irene Ronga"
+    date="22/12/2023" time="13:00-14:30" type ="Lezione" video={['https://www.polito.it/didattica']}
     >
-    Usability testing
+   <Link to="https://polito-uxd-2023.github.io/materiale/slides/14-usability-testing.pdf">Usability testing</Link>
 </LectureRow>
 
 
