@@ -22,4 +22,4 @@ On December 7th, teachers gathered in the nice "Palazzina TLlab", the key space 
 More information:
 
 - [News about the worksop on Politecnico di Torino's website](https://www.polito.it/ateneo/comunicazione-e-ufficio-stampa/appuntamenti/news?idn=22021)
-- For more information contact the Teacning and Language Laboratory:  tllab@polito.it
+- For more information contact the Teaching and Language Laboratory:  tllab@polito.it
