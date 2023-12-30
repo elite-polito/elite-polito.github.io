@@ -23,7 +23,10 @@ description: "Exam"
   - The final version is on-line since August 23. You may [check the comments](./WA1_exam3_GuessWho-with-comments.pdf) that were raised and answered.
   - Ask for further clarification in the Telegram group.
   - Complete the assignment on GitHub Classroom: [project skeleton and exam submission](https://classroom.github.com/a/-RTLSo1u).
-- Exam 4 (winter session)
+- [Exam 4: Rescuing Surplus Food](https://docs.google.com/document/d/1K3aNNcYL0s7Zdned0G8OfO2ap7F0mL1DvKpxGMB9_yA) (deadline: 2024-01-24 at 23:59)
+  - For any doubts or questions, add a comment in the document linked above - the final version will be published on January 10.
+  - Ask for further clarification in the Telegram group.
+  - Complete the assignment on GitHub Classroom: [project skeleton and exam submission](https://classroom.github.com/a/nTPFqRit).
 
 
 ### Year 2021/22
