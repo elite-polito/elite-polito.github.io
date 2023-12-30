@@ -23,7 +23,11 @@ description: "Exam"
   - For any doubts or questions, add a comment in the document linked above - the final version will be published on August 23.
   - Ask for further clarification in the dedicated topic on the course's Telegram group.
   - Complete the assignment on GitHub Classroom: [project skeleton and exam submission](https://classroom.github.com/a/O3iTxcG2).
-- Exam 4
+- [Exam 4: Rescuing Surplus Food](https://docs.google.com/document/d/1K3aNNcYL0s7Zdned0G8OfO2ap7F0mL1DvKpxGMB9_yA) (deadline: 2024-01-24 at 23:59)
+  - For any doubts or questions, add a comment in the document linked above - the final version will be published on January 10.
+  - Ask for further clarification in the dedicated topic on the course's Telegram group.
+  - Complete the assignment on GitHub Classroom: [project skeleton and exam submission](https://classroom.github.com/a/zIn4P_pj).
+
 
 ### Year 2021/22
 
