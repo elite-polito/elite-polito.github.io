@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkelite_website=self.webpackChunkelite_website||[]).push([[9712],{77171:e=>{e.exports=JSON.parse('{"label":"student branch","permalink":"/news/tags/student-branch","allTagsPath":"/news/tags","count":1}')}}]);

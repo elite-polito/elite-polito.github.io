@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkelite_website=self.webpackChunkelite_website||[]).push([[5171],{43637:e=>{e.exports=JSON.parse('{"label":"doctoral consortium","permalink":"/news/tags/doctoral-consortium","allTagsPath":"/news/tags","count":2,"unlisted":false}')}}]);

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkelite_website=self.webpackChunkelite_website||[]).push([[8989],{76659:e=>{e.exports=JSON.parse('{"label":"PitchD","permalink":"/news/tags/pitch-d","allTagsPath":"/news/tags","count":1}')}}]);

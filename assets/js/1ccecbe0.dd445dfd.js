@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkelite_website=self.webpackChunkelite_website||[]).push([[8391],{57626:e=>{e.exports=JSON.parse('{"label":"digital education","permalink":"/news/tags/digital-education","allTagsPath":"/news/tags","count":5}')}}]);

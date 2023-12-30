@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkelite_website=self.webpackChunkelite_website||[]).push([[6721],{14747:e=>{e.exports=JSON.parse('{"label":"digital education hub","permalink":"/news/tags/digital-education-hub","allTagsPath":"/news/tags","count":1}')}}]);

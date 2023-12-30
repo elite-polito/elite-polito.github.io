@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkelite_website=self.webpackChunkelite_website||[]).push([[8638],{39778:e=>{e.exports=JSON.parse('{"label":"research","permalink":"/news/tags/research","allTagsPath":"/news/tags","count":1}')}}]);
