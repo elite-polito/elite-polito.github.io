@@ -19,7 +19,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
     pdf={['https://elite.polito.it/materiale-benesseredigitale-2023/slide/00a-intro-corso.pdf','https://elite.polito.it/materiale-benesseredigitale-2023/slide/00b-intro-benesseredigitale.pdf']}
     video={['https://www.polito.it/didattica']}
     >
-    Introduzione al corso e al Benessere Digitale
+    <>Introduzione al corso e al Benessere Digitale</>
 </LectureRow>
 
 <LectureDivider/>
@@ -29,7 +29,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
     pdf='https://elite.polito.it/materiale-benesseredigitale-2023/slide/P01-needfinding.pdf' 
     video={['https://www.polito.it/didattica']}
     >
-    Metodi di needfinding (parte I)
+    <>Metodi di needfinding (parte I)</>
 </LectureRow>
 
 <LectureRow
@@ -37,7 +37,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
     pdf='' 
     video={['https://www.polito.it/didattica']}
     >
-    Metodi di needfinding (parte II)
+    <>Metodi di needfinding (parte II)</>
 </LectureRow>
 
 <LectureRow
@@ -45,7 +45,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
     pdf='https://elite.polito.it/materiale-benesseredigitale-2023/slide/P02-minacce.pdf' 
     video={['https://www.polito.it/didattica']}
     >
-    Attention Economy
+    <>Attention Economy</>
 </LectureRow>
 
 <LectureDivider/>
@@ -56,7 +56,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
     video={['https://www.polito.it/didattica']}
     teacher='Monica Molino'
     >
-    Benessere digitale: prospettiva psicologica
+    <>Benessere digitale: prospettiva psicologica</>
 </LectureRow>
 
 <LectureRow
@@ -64,7 +64,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
     pdf='https://elite.polito.it/materiale-benesseredigitale-2023/slide/E01-journeymap.pdf' 
     type='Esercitazione'
     >
-    Journey Map sul Benessere Digitale
+    <>Journey Map sul Benessere Digitale</>
 </LectureRow>
 
 <LectureRow
@@ -73,7 +73,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
     video={[]}
     type='Esercitazione'
     >
-    Journey Map sul Benessere Digitale
+    <>Journey Map sul Benessere Digitale</>
 </LectureRow>
 
 <LectureDivider/>
@@ -91,8 +91,8 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
     video={[]}
     type='Esercitazione'
     >
-    Presentazione delle journey map realizzate. Feedback.
-    <ul><li><a href="https://docs.google.com/spreadsheets/d/1pHqrJLpQctYr0fVXJvkxuJ4LVYY2N_qTRWTDYhOY7rw/edit?usp=sharing">Calendario presentazioni</a></li></ul>
+    <>Presentazione delle journey map realizzate. Feedback.
+    <ul><li><a href="https://docs.google.com/spreadsheets/d/1pHqrJLpQctYr0fVXJvkxuJ4LVYY2N_qTRWTDYhOY7rw/edit?usp=sharing">Calendario presentazioni</a></li></ul></>
 </LectureRow>
 
 <LectureRow
@@ -101,8 +101,8 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
     video={[]}
     type='Esercitazione'
     >
-    Presentazione delle journey map realizzate. Feedback.
-    <ul><li><a href="https://docs.google.com/spreadsheets/d/1pHqrJLpQctYr0fVXJvkxuJ4LVYY2N_qTRWTDYhOY7rw/edit?usp=sharing">Calendario presentazioni</a></li></ul>
+    <>Presentazione delle journey map realizzate. Feedback.
+    <ul><li><a href="https://docs.google.com/spreadsheets/d/1pHqrJLpQctYr0fVXJvkxuJ4LVYY2N_qTRWTDYhOY7rw/edit?usp=sharing">Calendario presentazioni</a></li></ul></>
 </LectureRow>
 
 <LectureDivider topic='VACANZE DI PASQUA'/>
@@ -113,7 +113,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
     video={['https://www.polito.it/didattica']}
     teacher= 'Monica Molino'
     >
-    Stress Digitale
+    <>Stress Digitale</>
 </LectureRow>
 
 <LectureDivider/>
@@ -124,7 +124,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
     video={['https://www.polito.it/didattica']}
     teacher= 'Monica Molino'
     >
-    Metodi di needfinding (parte III)
+    <>Metodi di needfinding (parte III)</>
 </LectureRow>
 
 <LectureRow
@@ -134,7 +134,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
     type='Esercitazione'
     teacher= 'Monica Molino'
     >
-    Needfinding
+    <>Needfinding</>
 </LectureRow>
 
 <LectureRow
@@ -143,7 +143,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
     video={[]}
     type='Esercitazione'
     >
-    Needfinding
+    <>Needfinding</>
 </LectureRow>
 
 <LectureDivider/>
@@ -154,8 +154,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
     video={['https://www.polito.it/didattica']}
     teacher= 'Monica Molino'
     >
-    Benessere Digitale e lavoro (parte I)
-
+    <>Benessere Digitale e lavoro (parte I)</>
 </LectureRow>
 
 <LectureDivider/>
@@ -166,7 +165,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
     video={['https://www.polito.it/didattica']}
     teacher='Monica Molino'
     >
-   Ancore di carriera. Benessere Digitale e industria 4.0 (<a href="https://elite.polito.it/materiale-benesseredigitale-2023/audio/BD-2023-L09b 2023-05-02 16-00-00.m4a">Registrazione audio</a>)
+    <>Ancore di carriera. Benessere Digitale e industria 4.0 (<a href="https://elite.polito.it/materiale-benesseredigitale-2023/audio/BD-2023-L09b 2023-05-02 16-00-00.m4a">Registrazione audio</a>)</>
 </LectureRow>
 
 <LectureRow
@@ -175,7 +174,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
     video={['https://www.polito.it/didattica']}
     teacher='Monica Molino'
     >
-    Differenze Individuali
+    <>Differenze Individuali</>
 </LectureRow>
 
 <LectureRow
@@ -183,7 +182,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
     pdf='https://elite.polito.it/materiale-benesseredigitale-2023/slide/P03-strategie.pdf' 
     video={['https://www.polito.it/didattica']}
     >
-    Strategie informatiche per il Benessere Digitale (parte I)
+    <>Strategie informatiche per il Benessere Digitale (parte I)</>
 </LectureRow>
 
 <LectureDivider/>
@@ -202,8 +201,8 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
     type='Esercitazione'
     teacher= 'Monica Molino'
     >
-    Presentazione del metodo di needfinding condotto. Feedback.
-    <ul><li><a href="https://docs.google.com/spreadsheets/d/1-VTPNVk-r3X3yk_44kUpuRZVXUfXhM-fBx9Z4RqEz0g/edit?usp=sharing">Calendario presentazioni</a></li></ul>
+    <>Presentazione del metodo di needfinding condotto. Feedback.
+    <ul><li><a href="https://docs.google.com/spreadsheets/d/1-VTPNVk-r3X3yk_44kUpuRZVXUfXhM-fBx9Z4RqEz0g/edit?usp=sharing">Calendario presentazioni</a></li></ul></>
 </LectureRow>
 
 <LectureRow
@@ -213,8 +212,8 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
     type='Esercitazione'
     teacher= 'Monica Molino'
     >
-    Presentazione del metodo di needfinding condotto. Feedback. 
-    <ul><li><a href="https://docs.google.com/spreadsheets/d/1-VTPNVk-r3X3yk_44kUpuRZVXUfXhM-fBx9Z4RqEz0g/edit?usp=sharing">Calendario presentazioni</a></li></ul>
+    <>Presentazione del metodo di needfinding condotto. Feedback. 
+    <ul><li><a href="https://docs.google.com/spreadsheets/d/1-VTPNVk-r3X3yk_44kUpuRZVXUfXhM-fBx9Z4RqEz0g/edit?usp=sharing">Calendario presentazioni</a></li></ul></>
 </LectureRow>
 
 <LectureRow
@@ -223,7 +222,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
     video={['https://www.polito.it/didattica']}
     teacher= 'Monica Molino'
     >
-    Strategie psicologiche per il Benessere Digitale
+    <>Strategie psicologiche per il Benessere Digitale</>
 </LectureRow>
 
 <LectureDivider/>
@@ -233,7 +232,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
     pdf='' 
     video={['https://www.polito.it/didattica']}
     >
-    Strategie informatiche per il Benessere Digitale (parte II)
+    <>Strategie informatiche per il Benessere Digitale (parte II)</>
 </LectureRow>
 
 <LectureRow
@@ -241,7 +240,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
     pdf='https://elite.polito.it/materiale-benesseredigitale-2023/slide/P04-prototipazione.pdf'
     video={['https://www.polito.it/didattica']}
     >
-    Prototipazione rapida di strumenti per il benessere digitale
+    <>Prototipazione rapida di strumenti per il benessere digitale</>
 </LectureRow>
 
 <LectureRow
@@ -250,7 +249,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
     video={[]}
     type='Esercitazione'
     >
-    Progettazione prototipo a bassa fedeltà
+    <>Progettazione prototipo a bassa fedeltà</>
 </LectureRow>
 
 <LectureRow
@@ -259,7 +258,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
     video={['https://www.polito.it/didattica']}
     type='Esercitazione'
     >
-    Tutorial su Figma
+    <>Tutorial su Figma</>
 </LectureRow>
 
 <LectureDivider/>
@@ -271,7 +270,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
     type='Esercitazione'
     teacher = 'Monica Molino'
     >
-    Progettazione prototipo a bassa fedeltà
+    <>Progettazione prototipo a bassa fedeltà</>
 </LectureRow>
 
 <LectureRow
@@ -281,7 +280,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
     type='Esercitazione'
     teacher = 'Monica Molino'
     >
-    Progettazione prototipo a bassa fedeltà
+    <>Progettazione prototipo a bassa fedeltà</>
 </LectureRow>
 
 <LectureRow
@@ -290,7 +289,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
     video={[]}
     type='Esercitazione'
     >
-    Progettazione prototipo a bassa fedeltà
+    <>Progettazione prototipo a bassa fedeltà</>
 </LectureRow>
 
 <LectureDivider/>
@@ -309,8 +308,8 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
     type='Esercitazione'
     teacher = 'Monica Molino'
     >
-    Presentazione del prototipo a bassa fedeltà. Feedback.
-    <ul><li><a href="https://docs.google.com/spreadsheets/d/10dtZovSFGXzylCrMugo0ze1i-cAqVjQwmI-VXxNbZv4/edit?usp=sharing">Calendario presentazioni</a></li></ul>
+    <>Presentazione del prototipo a bassa fedeltà. Feedback.
+    <ul><li><a href="https://docs.google.com/spreadsheets/d/10dtZovSFGXzylCrMugo0ze1i-cAqVjQwmI-VXxNbZv4/edit?usp=sharing">Calendario presentazioni</a></li></ul></>
 </LectureRow>
 
 <LectureRow
@@ -320,8 +319,8 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
     type='Esercitazione'
     teacher = 'Monica Molino'
     >
-    Presentazione del prototipo a bassa fedeltà. Feedback.
-    <ul><li><a href="https://docs.google.com/spreadsheets/d/10dtZovSFGXzylCrMugo0ze1i-cAqVjQwmI-VXxNbZv4/edit?usp=sharing">Calendario presentazioni</a></li></ul>
+    <>Presentazione del prototipo a bassa fedeltà. Feedback.
+    <ul><li><a href="https://docs.google.com/spreadsheets/d/10dtZovSFGXzylCrMugo0ze1i-cAqVjQwmI-VXxNbZv4/edit?usp=sharing">Calendario presentazioni</a></li></ul></>
 </LectureRow>
 
 <LectureDivider/>
@@ -333,7 +332,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
     type='Esercitazione'
     teacher = 'Monica Molino'
     >
-    Progettazione prototipo ad alta fedeltà (esame)
+    <>Progettazione prototipo ad alta fedeltà (esame)</>
 </LectureRow>
 
 <LectureRow
@@ -343,7 +342,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
     type='Esercitazione'
     teacher = 'Monica Molino'
     >
-    Progettazione prototipo ad alta fedeltà (esame)
+    <>Progettazione prototipo ad alta fedeltà (esame)</>
 </LectureRow>
 
 <LectureRow
@@ -352,7 +351,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
     video={[]}
     type='Esercitazione'
     >
-    Progettazione prototipo ad alta fedeltà (esame)
+    <>Progettazione prototipo ad alta fedeltà (esame)</>
 </LectureRow>
 
 </LectureTable>

@@ -48,7 +48,7 @@ All slides, examples, exercises, and any other material used in the classroom an
     date="09/10/2023" time="14:30-16:00"
     video="https://youtu.be/wu4ASikBZZ8"
     >
-    Needfinding (cont'd)
+    <span>Needfinding (cont'd)</span>
 </LectureRow>
 
 <LectureRow 
@@ -67,27 +67,25 @@ All slides, examples, exercises, and any other material used in the classroom an
 <LectureRow 
     date="11/10/2023" time="13:00-14:30" type="Lab" teacher="Alberto Monge Roffarello"
     >
-    <Link to="https://polito-hci-2023.github.io/materials/assignments/A1-needfinding.pdf" title="First assignment">Assignment 1: Needfinding</Link> (<Link to="https://docs.google.com/spreadsheets/d/1onS_mR75WWrs4NwDaIapE9KAfhRxd1jm8KXIem5h_nY" title="Groups-Themes match">group 1</Link>)
+    <><Link to="https://polito-hci-2023.github.io/materials/assignments/A1-needfinding.pdf" title="First assignment">Assignment 1: Needfinding</Link> (<Link to="https://docs.google.com/spreadsheets/d/1onS_mR75WWrs4NwDaIapE9KAfhRxd1jm8KXIem5h_nY" title="Groups-Themes match">group 1</Link>)</>
 </LectureRow>
 
 <LectureRow 
     date="11/10/2023" time="14:30-16:00" type="Lab" 
     >
-    <Link to="https://polito-hci-2023.github.io/materials/assignments/A1-needfinding.pdf" title="First assignment">Assignment 1: Needfinding</Link> (<Link to="https://docs.google.com/spreadsheets/d/1onS_mR75WWrs4NwDaIapE9KAfhRxd1jm8KXIem5h_nY" title="Groups-Themes match">group 2</Link>)
+    <><Link to="https://polito-hci-2023.github.io/materials/assignments/A1-needfinding.pdf" title="First assignment">Assignment 1: Needfinding</Link> (<Link to="https://docs.google.com/spreadsheets/d/1onS_mR75WWrs4NwDaIapE9KAfhRxd1jm8KXIem5h_nY" title="Groups-Themes match">group 2</Link>)</>
 </LectureRow>
 
 <LectureRow 
     date="11/10/2023" time="16:00-17:30" type="Lab" teacher="Tommaso Calò"
-    >
-    <Link to="https://polito-hci-2023.github.io/materials/assignments/A1-needfinding.pdf" title="First assignment">Assignment 1: Needfinding</Link> (<Link to="https://docs.google.com/spreadsheets/d/1onS_mR75WWrs4NwDaIapE9KAfhRxd1jm8KXIem5h_nY" title="Groups-Themes match">group 3</Link>)
-</LectureRow>
+    ><Link to="https://polito-hci-2023.github.io/materials/assignments/A1-needfinding.pdf" title="First assignment">Assignment 1: Needfinding</Link> (<Link to="https://docs.google.com/spreadsheets/d/1onS_mR75WWrs4NwDaIapE9KAfhRxd1jm8KXIem5h_nY" title="Groups-Themes match">group 3</Link>)</LectureRow>
 
 <LectureDivider topic='Week 03'/>{/*-------------------------------------------*/}
 
 <LectureRow
     date="16/10/2023" time="14:30-16:00" type="Exercise"
     >
-    Supervised work group on interviews
+    <>Supervised work group on interviews</>
 </LectureRow>
 
 <LectureRow 
@@ -99,30 +97,22 @@ All slides, examples, exercises, and any other material used in the classroom an
 
 <LectureRow 
     date="18/10/2023" time="13:00-14:30" type="Lab" teacher="Alberto Monge Roffarello"
-    >
-    Assignment 1: Needfinding (cont'd, group 1)
-</LectureRow>
+    >Assignment 1: Needfinding (cont'd, group 1)</LectureRow>
 
 <LectureRow 
     date="18/10/2023" time="14:30-16:00" type="Lab" teacher="Alberto Monge Roffarello"
-    >
-    Assignment 1: Needfinding (cont'd, group 2)
-</LectureRow>
+    >Assignment 1: Needfinding (cont'd, group 2)</LectureRow>
 
 <LectureRow 
     date="18/10/2023" time="16:00-17:30" type="Lab" teacher="Tommaso Calò"
-    >
-    Assignment 1: Needfinding (cont'd, group 3)
-</LectureRow>
+    >Assignment 1: Needfinding (cont'd, group 3)</LectureRow>
 
 <LectureDivider topic='Week 04'/>{/*-------------------------------------------*/}
 
 <LectureRow
     date="23/10/2023" time="14:30-16:00"
     video="https://youtu.be/vpZgjmfiSPQ"
-    >
-    Analyzing and Synthetizing (cont'd)
-</LectureRow>
+    >Analyzing and Synthetizing (cont'd)</LectureRow>
 
 <LectureRow 
     date="24/10/2023" time="17:30-19:00" type="Exercise"
@@ -138,19 +128,19 @@ All slides, examples, exercises, and any other material used in the classroom an
 <LectureRow 
     date="25/10/2023" time="13:00-14:30" type="Lab" teacher="All"
     >
-    Assignment 1: Feedback and discussion (<Link to="https://docs.google.com/spreadsheets/d/1NngPG8eniNBA2pFE4qbOaYt1zSBjm6HF8UrwcEfHo_w" title="Schedule for the feedback session">schedule for all groups</Link>)
+    <>Assignment 1: Feedback and discussion (<Link to="https://docs.google.com/spreadsheets/d/1NngPG8eniNBA2pFE4qbOaYt1zSBjm6HF8UrwcEfHo_w" title="Schedule for the feedback session">schedule for all groups</Link>)</>
 </LectureRow>
 
 <LectureRow 
     date="25/10/2023" time="14:30-16:00" type="Lab" teacher="All"
     >
-    Assignment 1: Feedback and discussion (<Link to="https://docs.google.com/spreadsheets/d/1NngPG8eniNBA2pFE4qbOaYt1zSBjm6HF8UrwcEfHo_w" title="Schedule for the feedback session">schedule for all groups</Link>)
+    <>Assignment 1: Feedback and discussion (<Link to="https://docs.google.com/spreadsheets/d/1NngPG8eniNBA2pFE4qbOaYt1zSBjm6HF8UrwcEfHo_w" title="Schedule for the feedback session">schedule for all groups</Link>)</>
 </LectureRow>
 
 <LectureRow 
     date="25/10/2023" time="16:00-17:30" type="Lab" teacher="All"
     >
-    Assignment 1: Feedback and discussion (<Link to="https://docs.google.com/spreadsheets/d/1NngPG8eniNBA2pFE4qbOaYt1zSBjm6HF8UrwcEfHo_w" title="Schedule for the feedback session">schedule for all groups</Link>)
+    <>Assignment 1: Feedback and discussion (<Link to="https://docs.google.com/spreadsheets/d/1NngPG8eniNBA2pFE4qbOaYt1zSBjm6HF8UrwcEfHo_w" title="Schedule for the feedback session">schedule for all groups</Link>)</>
 </LectureRow>
 
 <LectureDivider topic='Week 05'/>{/*-------------------------------------------*/}
@@ -166,7 +156,7 @@ All slides, examples, exercises, and any other material used in the classroom an
     date="31/10/2023" time="17:30-19:00"
     video="https://youtu.be/X01UHPrYTAs"
     >
-    Design Theory, Principles, and Guidelines (cont'd)
+    <>Design Theory, Principles, and Guidelines (cont'd)</>
 </LectureRow>
 
 <LectureRow date="01/11/2023" variant="warning" type="" teacher=""
@@ -187,25 +177,25 @@ All slides, examples, exercises, and any other material used in the classroom an
     date="07/11/2023" time="17:30-19:00" type="Exercise"
     video="https://youtu.be/8ZqCF5ud4z4"
     >
-    Low-fi Prototyping (cont'd). <Link to="https://polito-hci-2023.github.io/materials/slides/05b-low-fi-prototypes-exercise.pdf" title="Critique of low-fi prototypes">Exercise on low-fi prototypes</Link>.
+    <>Low-fi Prototyping (cont'd). <Link to="https://polito-hci-2023.github.io/materials/slides/05b-low-fi-prototypes-exercise.pdf" title="Critique of low-fi prototypes">Exercise on low-fi prototypes</Link>.</>
 </LectureRow>
 
 <LectureRow 
     date="08/11/2023" time="13:00-14:30" type="Lab" teacher="Alberto Monge Roffarello"
     >
-    <Link to="https://polito-hci-2023.github.io/materials/assignments/A2-storyboard-paper-prototypes.pdf" title="Second assignment">Assignment 2: Storyboard and Low-fi Prototypes</Link> (group 1)
+    <><Link to="https://polito-hci-2023.github.io/materials/assignments/A2-storyboard-paper-prototypes.pdf" title="Second assignment">Assignment 2: Storyboard and Low-fi Prototypes</Link> (group 1)</>
 </LectureRow>
 
 <LectureRow 
     date="08/11/2023" time="14:30-16:00" type="Lab" teacher="Luigi De Russis"
     >
-    <Link to="https://polito-hci-2023.github.io/materials/assignments/A2-storyboard-paper-prototypes.pdf" title="Second assignment">Assignment 2: Storyboard and Low-fi Prototypes</Link> (group 2)
+    <><Link to="https://polito-hci-2023.github.io/materials/assignments/A2-storyboard-paper-prototypes.pdf" title="Second assignment">Assignment 2: Storyboard and Low-fi Prototypes</Link> (group 2)</>
 </LectureRow>
 
 <LectureRow 
     date="08/11/2023" time="16:00-17:30" type="Lab" teacher="Tommaso Calò"
     >
-    <Link to="https://polito-hci-2023.github.io/materials/assignments/A2-storyboard-paper-prototypes.pdf" title="Second assignment">Assignment 2: Storyboard and Low-fi Prototypes</Link> (group 3)
+    <><Link to="https://polito-hci-2023.github.io/materials/assignments/A2-storyboard-paper-prototypes.pdf" title="Second assignment">Assignment 2: Storyboard and Low-fi Prototypes</Link> (group 3)</>
 </LectureRow>
 
 <LectureDivider topic='Week 07'/>{/*-------------------------------------------*/}
@@ -221,25 +211,25 @@ All slides, examples, exercises, and any other material used in the classroom an
     date="14/11/2023" time="17:30-19:00"
     video="https://youtu.be/JrBcXjsqmmo"
     >
-    Visual Design (cont'd)
+    <>Visual Design (cont'd)</>
 </LectureRow>
 
 <LectureRow 
     date="15/11/2023" time="13:00-14:30" type="Lab" teacher="Alberto Monge Roffarello"
     >
-    Assignment 2: Storyboard and Low-fi Prototypes (cont'd, group 1)
+    <>Assignment 2: Storyboard and Low-fi Prototypes (cont'd, group 1)</>
 </LectureRow>
 
 <LectureRow 
     date="15/11/2023" time="14:30-16:00" type="Lab" teacher="Luigi De Russis"
     >
-    Assignment 2: Storyboard and Low-fi Prototypes (cont'd, group 2)
+    <>Assignment 2: Storyboard and Low-fi Prototypes (cont'd, group 2)</>
 </LectureRow>
 
 <LectureRow 
     date="15/11/2023" time="16:00-17:30" type="Lab" teacher="Tommaso Calò"
     >
-    Assignment 2: Storyboard and Low-fi Prototypes (cont'd, group 3)
+    <>Assignment 2: Storyboard and Low-fi Prototypes (cont'd, group 3)</>
 </LectureRow>
 
 <LectureDivider topic='Week 08'/>{/*-------------------------------------------*/}
@@ -267,19 +257,19 @@ All slides, examples, exercises, and any other material used in the classroom an
 <LectureRow 
     date="22/11/2023" time="13:00-14:30" type="Lab" teacher="All"
     >
-    Assignment 2: Feedback and discussion (<Link to="https://docs.google.com/spreadsheets/d/1W5maJ0hBiGLfgS_EttpQQM7CYw0moe1t9BIubdS7o5Y">schedule for all groups</Link>)
+    <>Assignment 2: Feedback and discussion (<Link to="https://docs.google.com/spreadsheets/d/1W5maJ0hBiGLfgS_EttpQQM7CYw0moe1t9BIubdS7o5Y">schedule for all groups</Link>)</>
 </LectureRow>
 
 <LectureRow 
     date="22/11/2023" time="14:30-16:00" type="Lab" teacher="All"
     >
-    Assignment 2: Feedback and discussion (<Link to="https://docs.google.com/spreadsheets/d/1W5maJ0hBiGLfgS_EttpQQM7CYw0moe1t9BIubdS7o5Y">schedule for all groups</Link>)
+    <>Assignment 2: Feedback and discussion (<Link to="https://docs.google.com/spreadsheets/d/1W5maJ0hBiGLfgS_EttpQQM7CYw0moe1t9BIubdS7o5Y">schedule for all groups</Link>)</>
 </LectureRow>
 
 <LectureRow 
     date="22/11/2023" time="16:00-17:30" type="Lab" teacher="All"
     >
-    Assignment 2: Feedback and discussion (<Link to="https://docs.google.com/spreadsheets/d/1W5maJ0hBiGLfgS_EttpQQM7CYw0moe1t9BIubdS7o5Y">schedule for all groups</Link>)
+    <>Assignment 2: Feedback and discussion (<Link to="https://docs.google.com/spreadsheets/d/1W5maJ0hBiGLfgS_EttpQQM7CYw0moe1t9BIubdS7o5Y">schedule for all groups</Link>)</>
 </LectureRow>
 
 <LectureDivider topic='Week 09'/>{/*-------------------------------------------*/}
@@ -287,7 +277,7 @@ All slides, examples, exercises, and any other material used in the classroom an
 <LectureRow
     date="27/11/2023" time="14:30-16:00" type="Exercise" teacher="Alberto Monge Roffarello"
     >
-    Group set-up for Assignment 3
+    <>Group set-up for Assignment 3</>
 </LectureRow>
 
 <LectureRow 
@@ -300,19 +290,19 @@ All slides, examples, exercises, and any other material used in the classroom an
 <LectureRow 
     date="29/11/2023" time="13:00-14:30" type="Lab" teacher="Alberto Monge Roffarello"
     >
-    <Link to="https://polito-hci-2023.github.io/materials/assignments/A3-heuristic-evaluation.pdf" title="Third assignment">Assignment 3: Heuristic evaluation - individual assignment</Link> (group 1)
+    <><Link to="https://polito-hci-2023.github.io/materials/assignments/A3-heuristic-evaluation.pdf" title="Third assignment">Assignment 3: Heuristic evaluation - individual assignment</Link> (group 1)</>
 </LectureRow>
 
 <LectureRow 
     date="29/11/2023" time="14:30-16:00" type="Lab" teacher="Alberto Monge Roffarello"
     >
-    <Link to="https://polito-hci-2023.github.io/materials/assignments/A3-heuristic-evaluation.pdf" title="Third assignment">Assignment 3: Heuristic evaluation - individual assignment</Link> (group 2)
+    <><Link to="https://polito-hci-2023.github.io/materials/assignments/A3-heuristic-evaluation.pdf" title="Third assignment">Assignment 3: Heuristic evaluation - individual assignment</Link> (group 2)</>
 </LectureRow>
 
 <LectureRow 
     date="29/11/2023" time="16:00-17:30" type="Lab" teacher="Tommaso Calò"
     >
-    <Link to="https://polito-hci-2023.github.io/materials/assignments/A3-heuristic-evaluation.pdf" title="Third assignment">Assignment 3: Heuristic evaluation - individual assignment</Link> (group 3)
+    <><Link to="https://polito-hci-2023.github.io/materials/assignments/A3-heuristic-evaluation.pdf" title="Third assignment">Assignment 3: Heuristic evaluation - individual assignment</Link> (group 3)</>
 </LectureRow>
 
 <LectureDivider topic='Week 10'/>{/*-------------------------------------------*/}
@@ -320,7 +310,7 @@ All slides, examples, exercises, and any other material used in the classroom an
 <LectureRow
     date="04/12/2023" time="14:30-16:00" type="Exercise" teacher="Tommaso Calò"
     >
-    Supervised work group on heuristic evaluation
+    <>Supervised work group on heuristic evaluation</>
 </LectureRow>
 
 <LectureRow 
@@ -337,19 +327,19 @@ All slides, examples, exercises, and any other material used in the classroom an
 <LectureRow 
     date="06/12/2023" time="13:00-14:30" type="Lab" teacher="Alberto Monge Roffarello"
     >
-    <Link to="https://polito-hci-2023.github.io/materials/assignments/A4-mid-to-hi-fidelity.pdf" title="Fourth assignment">Assignment 4: Medium to High-fi Prototype</Link> (group 1)
+    <><Link to="https://polito-hci-2023.github.io/materials/assignments/A4-mid-to-hi-fidelity.pdf" title="Fourth assignment">Assignment 4: Medium to High-fi Prototype</Link> (group 1)</>
 </LectureRow>
 
 <LectureRow 
     date="06/12/2023" time="14:30-16:00" type="Lab" teacher="Alberto Monge Roffarello"
     >
-    <Link to="https://polito-hci-2023.github.io/materials/assignments/A4-mid-to-hi-fidelity.pdf" title="Fourth assignment">Assignment 4: Medium to High-fi Prototype</Link> (group 2)
+    <><Link to="https://polito-hci-2023.github.io/materials/assignments/A4-mid-to-hi-fidelity.pdf" title="Fourth assignment">Assignment 4: Medium to High-fi Prototype</Link> (group 2)</>
 </LectureRow>
 
 <LectureRow 
     date="06/12/2023" time="16:00-17:30" type="Lab" teacher="Tommaso Calò"
     >
-    <Link to="https://polito-hci-2023.github.io/materials/assignments/A4-mid-to-hi-fidelity.pdf" title="Fourth assignment">Assignment 4: Medium to High-fi Prototype</Link> (group 3)
+    <><Link to="https://polito-hci-2023.github.io/materials/assignments/A4-mid-to-hi-fidelity.pdf" title="Fourth assignment">Assignment 4: Medium to High-fi Prototype</Link> (group 3)</>
 </LectureRow>
 
 <LectureDivider topic='Week 11'/>{/*-------------------------------------------*/}
@@ -364,7 +354,7 @@ All slides, examples, exercises, and any other material used in the classroom an
 <LectureRow 
     date="12/12/2023" time="17:30-19:00" type="Exercise"
     >
-    Group set-up for Assignment 5 (<Link to="https://polito-hci-2023.github.io/materials/slides/10a-tech-choices.pdf" title="Options for implementing the hi-fi prototypes">document crafted in class</Link>)
+    <>Group set-up for Assignment 5 (<Link to="https://polito-hci-2023.github.io/materials/slides/10a-tech-choices.pdf" title="Options for implementing the hi-fi prototypes">document crafted in class</Link>)</>
 </LectureRow>
 
 <LectureRow variant="success" date="12/12/2023" time="EOD" teacher="" type="">
@@ -374,19 +364,19 @@ All slides, examples, exercises, and any other material used in the classroom an
 <LectureRow 
     date="13/12/2023" time="13:00-14:30" type="Lab" teacher="Alberto Monge Roffarello"
     >
-    <Link to="https://polito-hci-2023.github.io/materials/assignments/A5-high-fidelity-prototype.pdf" title="Fifth assignment">Assignment 5: High-fi Prototype</Link> (group 1)
+    <><Link to="https://polito-hci-2023.github.io/materials/assignments/A5-high-fidelity-prototype.pdf" title="Fifth assignment">Assignment 5: High-fi Prototype</Link> (group 1)</>
 </LectureRow>
 
 <LectureRow 
     date="13/12/2023" time="14:30-16:00" type="Lab"
     >
-    <Link to="https://polito-hci-2023.github.io/materials/assignments/A5-high-fidelity-prototype.pdf" title="Fifth assignment">Assignment 5: High-fi Prototype</Link> (group 2)
+    <><Link to="https://polito-hci-2023.github.io/materials/assignments/A5-high-fidelity-prototype.pdf" title="Fifth assignment">Assignment 5: High-fi Prototype</Link> (group 2)</>
 </LectureRow>
 
 <LectureRow 
     date="13/12/2023" time="16:00-17:30" type="Lab" teacher="Tommaso Calò"
     >
-    <Link to="https://polito-hci-2023.github.io/materials/assignments/A5-high-fidelity-prototype.pdf" title="Fifth assignment">Assignment 5: High-fi Prototype</Link> (group 3)
+    <><Link to="https://polito-hci-2023.github.io/materials/assignments/A5-high-fidelity-prototype.pdf" title="Fifth assignment">Assignment 5: High-fi Prototype</Link> (group 3)</>
 </LectureRow>
 
 <LectureDivider topic='Week 12'/>{/*-------------------------------------------*/}
@@ -394,7 +384,7 @@ All slides, examples, exercises, and any other material used in the classroom an
 <LectureRow
     date="18/12/2023" time="14:30-16:00" teacher="Alberto Monge Roffarello"
     >
-    Supervised work group on A5
+    <>Supervised work group on A5</>
 </LectureRow>
 
 <LectureRow 
@@ -407,19 +397,19 @@ All slides, examples, exercises, and any other material used in the classroom an
 <LectureRow 
     date="20/12/2023" time="13:00-14:30" type="Lab" teacher="Alberto Monge Roffarello"
     >
-    Assignment 5: High-fi Prototype (cont'd, group 1)
+    <>Assignment 5: High-fi Prototype (cont'd, group 1)</>
 </LectureRow>
 
 <LectureRow 
     date="20/12/2023" time="14:30-16:00" type="Lab"
     >
-    Assignment 5: High-fi Prototype (cont'd, group 2)
+    <>Assignment 5: High-fi Prototype (cont'd, group 2)</>
 </LectureRow>
 
 <LectureRow 
     date="20/12/2023" time="16:00-17:30" type="Lab" teacher="Tommaso Calò"
     >
-    Assignment 5: High-fi Prototype (cont'd, group 3)
+    <>Assignment 5: High-fi Prototype (cont'd, group 3)</>
 </LectureRow>
 
 <LectureDivider />{/*-------------------------------------------*/}
@@ -433,31 +423,31 @@ All slides, examples, exercises, and any other material used in the classroom an
 <LectureRow
     date="08/01/2024" time="14:30-16:00"
     >
-    Usability Testing
+    <>Usability Testing</>
 </LectureRow>
 
 <LectureRow 
     date="09/01/2024" time="17:30-19:00" type="Exercise"
     >
-    Usability Testing (plan drafted in class)
+    <>Usability Testing (plan drafted in class)</>
 </LectureRow>
 
 <LectureRow 
     date="10/01/2024" time="13:00-14:30" type="Lab" teacher="Luigi De Russis"
     >
-    Assignment 5: High-fi Prototype (cont'd, group 1)
+    <>Assignment 5: High-fi Prototype (cont'd, group 1)</>
 </LectureRow>
 
 <LectureRow 
     date="10/01/2024" time="14:30-16:00" type="Lab"
     >
-    Assignment 5: High-fi Prototype (cont'd, group 2)
+    <>Assignment 5: High-fi Prototype (cont'd, group 2)</>
 </LectureRow>
 
 <LectureRow 
     date="10/01/2024" time="16:00-17:30" type="Lab" teacher="Tommaso Calò"
     >
-    Assignment 5: High-fi Prototype (cont'd, group 3)
+    <>Assignment 5: High-fi Prototype (cont'd, group 3)</>
 </LectureRow>
 
 <LectureDivider topic='Week 14'/>{/*-------------------------------------------*/}
@@ -465,31 +455,31 @@ All slides, examples, exercises, and any other material used in the classroom an
 <LectureRow
     date="15/01/2024" time="14:30-16:00"
     >
-    Q&A about the exam and the final report
+    <>Q&A about the exam and the final report</>
 </LectureRow>
 
 <LectureRow 
     date="16/01/2024" time="17:30-19:00" type="" variant="warning"
     >
-    No class
+    <>No class</>
 </LectureRow>
 
 <LectureRow 
     date="17/01/2024" time="13:00-14:30" type="Lab"
     >
-    Assignment 5: High-fi Prototype (cont'd, group 1)
+    <>Assignment 5: High-fi Prototype (cont'd, group 1)</>
 </LectureRow>
 
 <LectureRow 
     date="17/01/2024" time="14:30-16:00" type="Lab"
     >
-    Assignment 5: High-fi Prototype (cont'd, group 2)
+    <>Assignment 5: High-fi Prototype (cont'd, group 2)</>
 </LectureRow>
 
 <LectureRow 
     date="17/01/2024" time="16:00-17:30" type="Lab" teacher="Tommaso Calò"
     >
-    Assignment 5: High-fi Prototype (cont'd, group 3)
+    <>Assignment 5: High-fi Prototype (cont'd, group 3)</>
 </LectureRow>
 
 </LectureTable>

@@ -18,9 +18,7 @@ import Link from '@docusaurus/Link'
 <LectureTable defaultTeacher="Fulvio Corno" defaultType="Lezione">
 
 <LectureDivider>
-
 ### Settimana 01
-
 </LectureDivider>
 
 <LectureRow
@@ -65,10 +63,9 @@ import Link from '@docusaurus/Link'
     teacher='' type=''
     zip='https://github.com/polito-informatica/Settimane2023/raw/main/Settimana01.zip'
 />
+
 <LectureDivider>
-
 ### Settimana 02
-
 </LectureDivider>
 
 <LectureRow
@@ -129,9 +126,7 @@ import Link from '@docusaurus/Link'
 />
 
 <LectureDivider>
-
 ### Settimana 03
-
 </LectureDivider>
 
 <LectureRow
@@ -194,9 +189,7 @@ import Link from '@docusaurus/Link'
 />
 
 <LectureDivider>
-
 ### Settimana 04
-
 </LectureDivider>
 
 <LectureRow
@@ -204,18 +197,14 @@ import Link from '@docusaurus/Link'
     topic="L10 Esercizio (Briscola)"
     type='Esercitazione'
     video='https://youtu.be/dRY1i5Ofns8'
->
-<br/><a href='https://github.com/polito-informatica/Settimane2023/blob/main/Settimana03/briscola.md'>Esercizio "Briscola"</a>.
-</LectureRow>
+><br/><a href='https://github.com/polito-informatica/Settimane2023/blob/main/Settimana03/briscola.md'>Esercizio "Briscola"</a>. </LectureRow>
 
 <LectureRow
     date="25/10/2023" time="11:30-13:00"
     topic="L11 Esercizi"
     type='Esercitazione'
     video='https://youtu.be/5NjxjlHy3zU'
->
-<br/><a href='https://github.com/polito-informatica/Settimane2023/blob/main/Settimana04/esercizi.md'>Esercizi proposti</a>.
-</LectureRow>
+><br/><a href='https://github.com/polito-informatica/Settimane2023/blob/main/Settimana04/esercizi.md'>Esercizi proposti</a>.</LectureRow>
 
 <LectureRow
     date="25/10/2023" time="13:00-14:30"
@@ -263,9 +252,7 @@ import Link from '@docusaurus/Link'
 />
 
 <LectureDivider>
-
 ### Settimana 05
-
 </LectureDivider>
 
 
@@ -321,9 +308,7 @@ import Link from '@docusaurus/Link'
 />
 
 <LectureDivider>
-
 ### Settimana 06
-
 </LectureDivider>
 
 
@@ -378,9 +363,7 @@ import Link from '@docusaurus/Link'
 />
 
 <LectureDivider>
-
 ### Settimana 07
-
 </LectureDivider>
 
 
@@ -436,9 +419,7 @@ import Link from '@docusaurus/Link'
 />
 
 <LectureDivider>
-
 ### Settimana 08
-
 </LectureDivider>
 
 
@@ -493,9 +474,7 @@ import Link from '@docusaurus/Link'
 />
 
 <LectureDivider>
-
 ### Settimana 09
-
 </LectureDivider>
 
 
@@ -559,9 +538,7 @@ import Link from '@docusaurus/Link'
 
 
 <LectureDivider>
-
 ### Settimana 10
-
 </LectureDivider>
 
 <LectureRow
@@ -617,9 +594,7 @@ import Link from '@docusaurus/Link'
 />
 
 <LectureDivider>
-
 ### Settimana 11
-
 </LectureDivider>
 
 <LectureRow variant='info'
@@ -681,9 +656,7 @@ import Link from '@docusaurus/Link'
 />
 
 <LectureDivider>
-
 ### Settimana 12
-
 </LectureDivider>
 
 <LectureRow variant='info'
@@ -693,8 +666,6 @@ import Link from '@docusaurus/Link'
 >
 <br/><small>Ritrovo alle ore 13:00 al secondo piano sopra la <Link to='https://www.polito.it/ateneo/chi-siamo/sedi-e-mappe?bl_id=TO_CIT11&fl_id=XPTE&rm_id=062'>Sala Studio ex-Celid</Link>. Ci spostiamo poi nel vicino <Link to='https://www.polito.it/ateneo/chi-siamo/sedi-e-mappe?bl_id=TO_CIT11&fl_id=XP02&rm_id=161&lang=it'>Lab 10</Link></small>
 </LectureRow>
-
-
 
 <LectureRow
     date="18/12/2023" time="17:30-19:00"
@@ -707,8 +678,8 @@ import Link from '@docusaurus/Link'
     date="20/12/2023" time="11:30-13:00"
     video={['https://youtu.be/Aq7Nop78ARg', 'https://youtu.be/tKhQQIxXWjY']}
 >
-L34a Informazioni sull'esame<br/>
-L34b Dizionari (seconda parte)
+<>L34a Informazioni sull'esame<br/>
+L34b Dizionari (seconda parte)</>
 </LectureRow>
 
 <LectureRow
@@ -750,14 +721,12 @@ L34b Dizionari (seconda parte)
 
 
 <LectureRow variant='danger' type='Vacanza' teacher='🎅'>
-🎍 <strong>Vacanze di Natale</strong> 🎍
+<>🎍 <strong>Vacanze di Natale</strong> 🎍</>
 </LectureRow>
 
 
 <LectureDivider>
-
 ### Settimana 13
-
 </LectureDivider>
 
 <LectureRow variant='info'
@@ -812,9 +781,7 @@ L34b Dizionari (seconda parte)
 />
 
 <LectureDivider>
-
 ### Settimana 14
-
 </LectureDivider>
 
 <LectureRow variant='info'
