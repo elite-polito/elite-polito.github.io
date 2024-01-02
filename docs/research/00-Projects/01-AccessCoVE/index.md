@@ -1,5 +1,5 @@
 ---
-description: 'Full list of publications'
+description: 'AccessCoVE project information'
 ---
 
 import logo from '../../00-Projects-Logos/AccessCoVE.png'

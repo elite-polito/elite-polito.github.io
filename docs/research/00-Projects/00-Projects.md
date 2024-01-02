@@ -15,6 +15,22 @@ import {ProjectCard} from '@site/src/components/Projects'
 ## European projects
 
 <ProjectCard
+    icon={undefined}
+    title='Critical Making'
+    url='/research/Projects/CriticalMaking'
+    period='2024-2026'
+>
+Critical Making is a Erasmus+ Forward Looking Project, started on the 1st of January, 2024. 
+The objective of the project is the design and evaluation of curricula and recommendations for teacher trainings targeted
+to equip in- and pre-service teachers with the necessary competences and methodological skills to tackle disinformation
+and to thus foster students’ digital competencies in STEM. In line with the Digital Education Action Plan 2021-2027, the
+innovative concept features a project-based learning (PBL) approach in pedagogical makerspaces, offering the potential
+to challenge disinformation and to cover digital competencies in science contexts in a comprehensive and practical way,
+through making and usage of innovative digital technologies and tools. Thematically, sustainable development is focused
+across all areas.
+</ProjectCard>
+
+<ProjectCard
     icon='AccessCoVE.png'
     title='AccessCoVE'
     url='/research/Projects/AccessCoVE'
