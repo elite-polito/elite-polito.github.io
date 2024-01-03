@@ -785,7 +785,7 @@ L34b Dizionari (seconda parte)</>
 </LectureDivider>
 
 <LectureRow variant='info'
-    date="15/01/2024" time="13:00-14:30"
+    date="15/01/2024" time="13:00-14:00"
     topic='Consulenza "Livello Base"'
     type='Consulenza'
 >
