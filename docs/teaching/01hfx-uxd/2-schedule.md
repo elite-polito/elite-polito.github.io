@@ -254,7 +254,7 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 <LectureRow
     date="15/12/2023" time="13:00-14:30" type ="Esercitazione"
     >
-   Lavoro di gruppo supervisionato
+  <>Lavoro di gruppo supervisionato</>
 </LectureRow>
 
 
@@ -278,7 +278,53 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
    <Link to="https://polito-uxd-2023.github.io/materiale/slides/14-usability-testing.pdf">Usability testing</Link>
 </LectureRow>
 
+<LectureDivider />{/*-------------------------------------------*/}
 
+<LectureRow variant="warning" teacher="" type="">
+    <em>Vacanze di Natale</em>
+</LectureRow>
+
+<LectureDivider topic='Settimana 12'/>{/*-------------------------------------------*/}
+
+<LectureRow 
+    date="09/01/2024" time="11:30-13:00" type ="Laboratorio"
+    >
+    <>Recap su test di usabilità e lavoro di gruppo supervisionato</>
+</LectureRow>
+
+<LectureRow 
+    date="12/01/2024" time="11:30-13:00" type ="Laboratorio"
+    >
+    <>Lavoro di gruppo supervisionato</>
+
+</LectureRow>
+
+<LectureRow
+    date="12/01/2023" time="13:00-14:30" type ="Laboratorio" teacher = "Irene Ronga"
+    >
+    <>Lavoro di gruppo supervisionato</>
+</LectureRow>
+
+<LectureDivider topic='Settimana 13'/>{/*-------------------------------------------*/}
+
+<LectureRow 
+    date="16/01/2024" time="11:30-13:00" type ="Laboratorio" teacher = "Irene Ronga"
+    >
+    <>Lavoro di gruppo supervisionato</>
+</LectureRow>
+
+<LectureRow 
+    date="19/01/2024" time="11:30-13:00" type ="Laboratorio" teacher = "Irene Ronga"
+    >
+    <>Lavoro di gruppo supervisionato</>
+
+</LectureRow>
+
+<LectureRow
+    date="19/01/2023" time="13:00-14:30" type ="Laboratorio"
+    >
+    <>Q&A sull'esame e il report finale</>
+</LectureRow>
 </LectureTable>
 
 
