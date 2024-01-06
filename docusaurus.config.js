@@ -19,7 +19,8 @@ const config = {
 
   baseUrl: '/',
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenAnchors: 'throw',
+  onBrokenMarkdownLinks: 'throw',
   favicon: 'img/favicon.ico',
 
   // Even if you don't use internalization, you can use this field to set useful
