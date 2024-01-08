@@ -353,14 +353,15 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 
 <LectureRow
     date="08/01/2024" time="16:00-17:30"
+    video="https://youtu.be/LIbqliiCcr0"
     >
-    <>Ripasso e domande</>
+    <>Regole d'esame e panoramica dei temi passati</>
 </LectureRow>
 
 <LectureRow
-    date="08/01/2024" time="17:30-19:00" type="Esercizio"
+    date="08/01/2024" time="17:30-19:00"
     >
-    <>Regole d'esame e panoramica dei temi passati</>
+    <>Panoramica dei temi d'esame passati (continua)</>
 </LectureRow>
 
 <LectureRow

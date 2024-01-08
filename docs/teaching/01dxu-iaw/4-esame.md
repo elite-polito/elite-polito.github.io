@@ -8,10 +8,10 @@ description: "Esame"
 L'esame consiste nella realizzazione di un progetto individuale, sulla base di specifiche rilasciate prima di ogni appello.
 
 ## Prove d'esame
-- Esame #1 (scadenza: xx/xx/2024)
+- Esame #1 (scadenza: 08/02/2024)
   - In caso di dubbi o domande, aggiungere un commento al documento linkato sopra - la versione finale sarà pubblicata il *xx/xx/2024*.
-  - L'esame si terrà il *xx/xx/202x in aula X* secondo il calendario concordato con gli iscritti all'appello/disponibile online.
-  - Iscrivetevi all'appello sul portale della didattica entro il *xx/xx/2024*.
+  - L'esame si terrà il *09/02/2024 in aula 14* secondo il calendario concordato con gli iscritti all'appello/disponibile online.
+  - Iscrivetevi all'appello sul portale della didattica entro il *05/02/2024*.
 
 
 ## Esami passati
