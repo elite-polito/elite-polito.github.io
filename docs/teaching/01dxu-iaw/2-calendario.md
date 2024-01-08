@@ -354,33 +354,33 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 <LectureRow
     date="08/01/2024" time="16:00-17:30"
     >
-    <>Manipolazione del DOM con JavaScript</>
+    <>Ripasso e domande</>
 </LectureRow>
 
 <LectureRow
     date="08/01/2024" time="17:30-19:00" type="Esercizio"
     >
-    <>Manipolazione del DOM con JavaScript (su GitHub)</>
+    <>Regole d'esame e panoramica dei temi passati</>
 </LectureRow>
 
 <LectureRow
     date="11/01/2024" time="16:00-17:30" type="Lab"
     >
-    <>Manipolazione del DOM con JavaScript (gruppo I)</>
+    <>Deploy (gruppo I)</>
 </LectureRow>
 
 <LectureRow
     date="11/01/2024" time="17:30-19:00" type="Lab"
     >
-    <>Manipolazione del DOM con JavaScript (gruppo II)</>
+    <>Deploy (gruppo II)</>
 </LectureRow>
 
 <LectureDivider topic='Settimana 13'/>{/*---------------------------------------*/}
 
 <LectureRow
-    date="15/01/2024" time="16:00-17:30"
+    date="15/01/2024" time="16:00-17:30" type="Esercizio"
     >
-    <>Ripasso e domande</>
+    <>Simulazione tema d'esame</>
 </LectureRow>
 
 <LectureRow
