@@ -429,7 +429,7 @@ All slides, examples, exercises, and any other material used in the classroom an
 <LectureRow 
     date="09/01/2024" time="17:30-19:00" type="Exercise"
     >
-    <>Usability Testing (plan drafted in class)</>
+    <Link to="https://docs.google.com/document/d/1vaZ7w1Wg_fuDEifT1zvaNIvlYqwuEm8zlDdVva7v_lo" title="Usability plan drafted in class">Usability Testing (plan drafted in class)</Link>
 </LectureRow>
 
 <LectureRow 
