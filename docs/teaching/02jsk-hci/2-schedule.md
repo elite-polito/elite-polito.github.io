@@ -423,7 +423,7 @@ All slides, examples, exercises, and any other material used in the classroom an
 <LectureRow
     date="08/01/2024" time="14:30-16:00"
     >
-    <>Usability Testing</>
+    <Link to="https://polito-hci-2023.github.io/materials/slides/12-usability-testing.pdf" title="Usability testing">Usability Testing</Link>
 </LectureRow>
 
 <LectureRow 
