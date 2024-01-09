@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkelite_website=self.webpackChunkelite_website||[]).push([[5989],{91953:e=>{e.exports=JSON.parse('{"permalink":"/news/tags/welcome","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Latest News from the e-Lite research group","blogTitle":"News"}')}}]);
