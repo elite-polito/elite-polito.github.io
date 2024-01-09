@@ -11,9 +11,13 @@ Deve essere superato **nell'anno accademico corrente**. Il materiale per la valu
 
 Prossimi appelli, con scadenze:
 
-- **xx/xx/2024 h. xx:00, Aula xx**
-    - ricordarsi di iscriversi all'esame entro il *xx/xx/202x*, sul Portale della Didattica
-    - tutti gli assignments (compreso il codice) devono essere presenti sui repository GitHub del gruppo entro il *xx/xx/202x EOD*.
+- 29/01/2024 
+    - ricordarsi di iscriversi all'esame entro il *23/01/2024*, sul Portale della Didattica
+    - tutti gli assignments (compreso il codice) devono essere presenti sui repository GitHub del gruppo entro il *22/01/2024 EOD*.
+    - il programma delle presentazioni dei gruppi sarà condiviso qualche giorno prima dell'esame
+- 16/02/2024 
+    - ricordarsi di iscriversi all'esame entro il *12/02/2024*, sul Portale della Didattica
+    - tutti gli assignments (compreso il codice) devono essere presenti sui repository GitHub del gruppo entro il *09/02/2024 EOD*.
     - il programma delle presentazioni dei gruppi sarà condiviso qualche giorno prima dell'esame
 
 ## Progetti (con Assignment)
