@@ -293,7 +293,7 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 </LectureRow>
 
 <LectureRow 
-    date="12/01/2024" time="11:30-13:00" type ="Laboratorio"
+    date="12/01/2024" time="11:30-13:00" type ="Laboratorio" teacher = "Irene Ronga"
     >
     <>Lavoro di gruppo supervisionato</>
 
@@ -314,7 +314,7 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 </LectureRow>
 
 <LectureRow 
-    date="19/01/2024" time="11:30-13:00" type ="Laboratorio" teacher = "Irene Ronga"
+    date="19/01/2024" time="11:30-13:00" type ="Laboratorio"
     >
     <>Lavoro di gruppo supervisionato</>
 
