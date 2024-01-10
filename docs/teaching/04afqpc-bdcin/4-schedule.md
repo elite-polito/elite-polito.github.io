@@ -22,8 +22,8 @@ _Legenda:_ la colonna Tipo può essere Lez=Lezione, EsT=Esercitazione "tradizion
 | lun 18/12/23 | 10.00-11.30 | EsT | 1,5 | Esercitazione Progettazione#3. | LAIB 3B | L. Farinetti |
 | lun 18/12/23 | 11.30-13.00 | Cons | 1,5 | Consulenza. | LAIB 3B | L. Farinetti |
 | lun 08/01/24 | 10.00-13.00 | Lab | 3 | Laboratorio #8 (per tutti): Information retrieval | LAIB 3B | L. Canale |
-| ven 12/01/24 | 13.00-16.00 | EsT | 3 | Temi d'esame. | 9T | L. Farinetti |
-| lun 15/01/24 | 10.00-13.00 | EsT | 1,5 | Temi d'esame. | LAIB 3B | L. Canale |
+| ven 12/01/24 | 13.00-16.00 | EsT | 3 | Temi d'esame. | 9T | L. Canale |
+| lun 15/01/24 | 10.00-13.00 | EsT | 3 | Temi d'esame. | LAIB 3B | L. Farinetti |
 | ven 19/01/24 | 13.00-14.30 | EsT | 1,5 | Temi d'esame. | 9T | L. Farinetti |
 | ven 19/01/24 | 14.30-16.00 | Cons | 1,5 | Consulenza. | 9T | L. Farinetti |
 
@@ -41,7 +41,7 @@ _Legenda:_ la colonna Tipo può essere Lez=Lezione, EsT=Esercitazione "tradizion
 | [ER #1](https://farinetti.github.io/materiale-bdcin/Esercizi-ER_1.pdf): Progettazione concettuale | 27/11 | [Soluzioni ER #1](https://farinetti.github.io/materiale-bdcin/Soluzioni-ER_1.pdf) - comprende le soluzioni degli altri esercizi proposti in aula |
 | [ER #2](https://farinetti.github.io/materiale-bdcin/Esercizi-ER_2.pdf): Progettazione concettuale | 1/12 | [Soluzioni ER #2](https://farinetti.github.io/materiale-bdcin/Soluzioni-ER_2.pdf) - comprende le soluzioni degli altri esercizi proposti in aula |
 | [CCT #2](https://farinetti.github.io/materiale-bdcin/Esercizi-CCT_2.pdf) | 15/12 | [Soluzioni CCT #2](https://farinetti.github.io/materiale-bdcin/Soluzioni-CCT_2.pdf) - comprende le soluzioni degli altri esercizi proposti in aula |
-| [TE #1](https://farinetti.github.io/materiale-bdcin/Esercizi-TE_1.pdf): Tema d'esame | 12/01 |  |
+| [TE #1](https://farinetti.github.io/materiale-bdcin/Esercizi-TE_1.pdf): Tema d'esame | 15/01 |  |
 | [TE #2](https://farinetti.github.io/materiale-bdcin/Esercizi-TE_2.pdf): Tema d'esame | 19/01 |  |
 
 
