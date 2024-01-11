@@ -365,13 +365,13 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 </LectureRow>
 
 <LectureRow
-    date="11/01/2024" time="16:00-17:30" type="Lab"
+    date="11/01/2024" time="16:00-17:30" type="Lab" teacher="Juan Pablo Sáenz Moreno"
     >
     <>Deploy (gruppo I)</>
 </LectureRow>
 
 <LectureRow
-    date="11/01/2024" time="17:30-19:00" type="Lab"
+    date="11/01/2024" time="17:30-19:00" type="Lab" teacher="Juan Pablo Sáenz Moreno"
     >
     <>Deploy (gruppo II)</>
 </LectureRow>
