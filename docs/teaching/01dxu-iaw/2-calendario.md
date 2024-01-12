@@ -367,13 +367,13 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 <LectureRow
     date="11/01/2024" time="16:00-17:30" type="Lab" teacher="Juan Pablo Sáenz Moreno"
     >
-    <>Deploy (gruppo I)</>
+    <><Link to="https://polito-iaw-2023.github.io/materiale/laboratori/lab-11/lab-11-deployment.pdf">Deploy</Link> (gruppo I)</>
 </LectureRow>
 
 <LectureRow
     date="11/01/2024" time="17:30-19:00" type="Lab" teacher="Juan Pablo Sáenz Moreno"
     >
-    <>Deploy (gruppo II)</>
+    <><Link to="https://polito-iaw-2023.github.io/materiale/laboratori/lab-11/lab-11-deployment.pdf">Deploy</Link> (gruppo II)</>
 </LectureRow>
 
 <LectureDivider topic='Settimana 13'/>{/*---------------------------------------*/}
