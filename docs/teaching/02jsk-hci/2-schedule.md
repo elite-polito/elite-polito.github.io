@@ -463,7 +463,7 @@ All slides, examples, exercises, and any other material used in the classroom an
 </LectureRow>
 
 <LectureRow 
-    date="16/01/2024" time="17:30-19:00" type="" variant="warning"
+    date="16/01/2024" time="17:30-19:00" type="" variant="warning" teacher=""
     >
     <>No class</>
 </LectureRow>
