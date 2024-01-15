@@ -457,6 +457,7 @@ All slides, examples, exercises, and any other material used in the classroom an
 
 <LectureRow
     date="15/01/2024" time="14:30-16:00"
+    video="https://youtu.be/E44_WZvMieY"
     >
     <>Q&A about the exam and the final report</>
 </LectureRow>
