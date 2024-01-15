@@ -380,12 +380,14 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 
 <LectureRow
     date="15/01/2024" time="16:00-17:30" type="Esercizio"
+    video="https://youtu.be/FPEtlkhCMJA"
     >
     <Link to="https://docs.google.com/document/d/1ijAkagu7h8-taCBObDhBbKWLw2Pl7_M62jgKf30Kmeg">Simulazione tema d'esame</Link>
 </LectureRow>
 
 <LectureRow
     date="15/01/2024" time="17:30-19:00" type="Esercizio"
+    video="https://youtu.be/O1o8QpgfuF0"
     >
     <>Simulazione tema d'esame (continua)</>
 </LectureRow>
