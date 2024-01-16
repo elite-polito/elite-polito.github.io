@@ -18,7 +18,7 @@ description: "Informazioni sull'esame"
     - Tema 7: [Testo](https://farinetti.github.io/materiale-bdcin/TE-SQL7-Testo.pdf) e Soluzione
     - Tema 8: [Testo](https://farinetti.github.io/materiale-bdcin/TE-SQL8-Testo.pdf) e [Soluzione](https://farinetti.github.io/materiale-bdcin/TE-SQL8-Soluzione.pdf)
     - Temi d'esame proposti in aula il 12/01/2024: [Testo](https://farinetti.github.io/materiale-bdcin/Esercizi-12-01-24.pdf)
-    - Temi d'esame proposti in aula il 15/01/2024: [Testo](https://farinetti.github.io/materiale-bdcin/Esercizi-15-01-24.pdf)
+
 
 - Parte di progettazione
     - Tema 1: [Testo](https://farinetti.github.io/materiale-bdcin/TE-ER1-Testo.pdf) e [Soluzione](https://farinetti.github.io/materiale-bdcin/TE-ER1-Soluzione.pdf)
