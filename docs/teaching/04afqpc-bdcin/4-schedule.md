@@ -42,7 +42,7 @@ _Legenda:_ la colonna Tipo può essere Lez=Lezione, EsT=Esercitazione "tradizion
 | [ER #2](https://farinetti.github.io/materiale-bdcin/Esercizi-ER_2.pdf): Progettazione concettuale | 1/12 | [Soluzioni ER #2](https://farinetti.github.io/materiale-bdcin/Soluzioni-ER_2.pdf) - comprende le soluzioni degli altri esercizi proposti in aula |
 | [CCT #2](https://farinetti.github.io/materiale-bdcin/Esercizi-CCT_2.pdf) | 15/12 | [Soluzioni CCT #2](https://farinetti.github.io/materiale-bdcin/Soluzioni-CCT_2.pdf) - comprende le soluzioni degli altri esercizi proposti in aula |
 | [TE #1](https://farinetti.github.io/materiale-bdcin/Esercizi-TE_1.pdf): Tema d'esame | 15/01 | [Soluzioni TE #1](https://farinetti.github.io/materiale-bdcin/Soluzioni-TE_1.pdf) - comprende le soluzioni degli altri esercizi proposti in aula  |
-| [TE #2](https://farinetti.github.io/materiale-bdcin/Esercizi-TE_2.pdf): Tema d'esame | 19/01 |  |
+| [TE #2](https://farinetti.github.io/materiale-bdcin/Esercizi-TE_2.pdf): Tema d'esame | 19/01 | [Soluzioni TE #2](https://farinetti.github.io/materiale-bdcin/Soluzioni-TE_2.pdf) - comprende le soluzioni degli altri esercizi proposti in aula |
 
 
 
