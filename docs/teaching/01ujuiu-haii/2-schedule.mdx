@@ -3,12 +3,13 @@ pagination_next: null
 description: "Course schedule"
 ---
 
-import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lectures'
-
+import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lectures';
+import Link from '@docusaurus/Link';
 
 # Schedule
 
 :::tip Quick Links
+* [GitHub repository](https://github.com/elite-polito/2024-haii-materials) (materials)
 * [Videolectures' playlist](https://www.youtube.com/playlist?list=PLs7DWGc_wmwRRpqbvV-kSzGkoWfUlIDcq) (on YouTube)
 :::
 
@@ -24,7 +25,7 @@ All lectures will be video-recorded and will be available on the Portale della D
     date="22/01/2024" time="09:00-11:30"
     room="8I"
     >
-    <Link to="https://elite.polito.it/2024-haii-materials/slides/01-intro.pdf">Introduction and fundamentals</Link>
+    <Link to="https://elite.polito.it/2024-haii-materials/slides/01-intro.pdf" title="Introduction to human-centered AI and to the course">Introduction and fundamentals</Link>
 </LectureRow>
 
 <LectureRow
@@ -32,7 +33,7 @@ All lectures will be video-recorded and will be available on the Portale della D
     room="8I"
     >
     <p>Madness session</p>
-    <Link to="https://elite.polito.it/2024-haii-materials/exercises/01-reading-panels.pdf">Reading panels: instructions</Link>
+    <Link to="https://elite.polito.it/2024-haii-materials/exercises/01-reading-panels.pdf" title="Instructions for preparing the panels">Reading panels: instructions</Link>
 </LectureRow>
 
 <LectureDivider topic='Class #2'/>{/*-------------------------------------------*/}
