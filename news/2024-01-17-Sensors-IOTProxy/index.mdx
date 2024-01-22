@@ -1,0 +1,44 @@
+---
+authors: [mannella]
+tags: [journal, special issue, paper, IoT]
+description: The research artcile "Security at the Edge for Resource-Limited IoT Devices" has been recently published in the special issue "Emerging IoT Technologies for Smart Environments, 3rd Edition" of MDPI Sensors.
+image: ./sensors-banner.PNG
+image_alt: MDPI Sensors Special Issue Banner.
+---
+
+import architectureWorkflow from './workflow.jpg';
+import IPSFlowchart from './flowchart.jpg';
+
+
+# Publication: "Security at the Edge for Resource-Limited IoT Devices"
+
+Luca Mannella has recently co-authored a new research article titled "[Security at the Edge for Resource-Limited IoT Devices](https://www.mdpi.com/1424-8220/24/2/590)", in the special issue "[Emerging IoT Technologies for Smart Environments, 3rd Edition](https://www.mdpi.com/journal/sensors/special_issues/4ODP84BU72)" of [MDPI Sensors](https://www.mdpi.com/journal/sensors).
+This research is a collaborative effort with Daniele Canavese ([Institut de Recherche en Informatique de Toulouse](https://www.irit.fr/en/home/)), [Leonardo Regano](https://web.unica.it/unica/page/it/leonardo_regano) (Università degli Studi di Cagliari), and [Cataldo Basile](https://www.polito.it/en/staff?p=cataldo.basile) (TORSEC research group, DAUIN, Politecnico di Torino).
+
+The proliferation of IoT devices (14.4 billion active endpoints at the end of 2022) has introduced security vulnerabilities stemming from limited computing power, absence of timely security updates, and intrinsic design flaws. This paper aims to improve the security of IoT devices presenting the IoT Proxy, a modular component crafted to enhance security in resource-limited IoT scenarios.
+At its core, the IoT Proxy is crafted to externalize security-related functions from IoT devices, mitigating limitations arising from constrained computing power. This is achieved through a secure network gateway equipped with diverse Virtual Network Security Functions (VNSFs), allowing for adaptability and scalability.
+
+
+<img src={architectureWorkflow} alt="Architecture and workflow of the IoT Proxy" width="80%" />
+
+
+<!-- truncate -->
+
+With a focus on modularity, the IoT Proxy accommodates various VNSFs. Our proof of concept includes a Virtual Private Network (VPN) terminator and an Intrusion Detection System (IDS)/Intrusion Prevention System (IPS). A notably aspect of our IDS/IPS is the incorporation of the "oblivious authentication", a machine learning-based technique capable of identifying an IoT device through its network traffic (without imposing additional computational overhead on edge devices).
+The IoT Proxy distinguishes itself by its configurability, providing a versatile solution tailored to specific requirements. Indeed, the IDS/IPS module is bidirectionally configurable, ensuring seamless integration with diverse IoT environments without imposing rigid constraints.
+
+
+<img src={IPSFlowchart} alt="Workflow of the IDS/IPS module of the IoT Proxy" width="70%" />
+
+
+To learn more about this research activity, you can [access the full paper](https://www.researchgate.net/publication/377463843_Security_at_the_Edge_for_Resource-Limited_IoT_Devices) through the link at the end of this page.
+
+To conclude, we extend our gratitude to Lorenzo Cesetti for his invaluable contributions during the course of this research through [his master thesis](https://webthesis.biblio.polito.it/28583/).
+
+---
+
+Additional information:
+
+* [Paper on ReserachGate](https://www.researchgate.net/publication/377463843_Security_at_the_Edge_for_Resource-Limited_IoT_Devices)
+* [Paper on PORTO@IRIS](https://hdl.handle.net/11583/2985177)
+* [Paper on MDPI website](https://www.mdpi.com/1424-8220/24/2/590)
