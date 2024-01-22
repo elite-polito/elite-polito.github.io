@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkelite_website=self.webpackChunkelite_website||[]).push([[1313],{27675:e=>{e.exports=JSON.parse('{"permalink":"/news/tags/io-t","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Latest News from the e-Lite research group","blogTitle":"News"}')}}]);

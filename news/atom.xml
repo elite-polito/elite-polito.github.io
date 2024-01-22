@@ -2,12 +2,44 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://elite.polito.it/news</id>
     <title>e-Lite Research Group Blog</title>
-    <updated>2023-12-21T00:00:00.000Z</updated>
+    <updated>2024-01-17T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://elite.polito.it/news"/>
     <subtitle>e-Lite Research Group Blog</subtitle>
     <icon>https://elite.polito.it/img/favicon.ico</icon>
     <rights>Copyright © 2024 Politecnico di Torino</rights>
+    <entry>
+        <title type="html"><![CDATA[Publication: "Security at the Edge for Resource-Limited IoT Devices"]]></title>
+        <id>https://elite.polito.it/news/2024/01/17/Sensors-IOTProxy</id>
+        <link href="https://elite.polito.it/news/2024/01/17/Sensors-IOTProxy"/>
+        <updated>2024-01-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The research artcile "Security at the Edge for Resource-Limited IoT Devices" has been recently published in the special issue "Emerging IoT Technologies for Smart Environments, 3rd Edition" of MDPI Sensors.]]></summary>
+        <content type="html"><![CDATA[<p>Luca Mannella has recently co-authored a new research article titled "<a href="https://www.mdpi.com/1424-8220/24/2/590" target="_blank" rel="noopener noreferrer">Security at the Edge for Resource-Limited IoT Devices</a>", in the special issue "<a href="https://www.mdpi.com/journal/sensors/special_issues/4ODP84BU72" target="_blank" rel="noopener noreferrer">Emerging IoT Technologies for Smart Environments, 3rd Edition</a>" of <a href="https://www.mdpi.com/journal/sensors" target="_blank" rel="noopener noreferrer">MDPI Sensors</a>.
+This research is a collaborative effort with Daniele Canavese (<a href="https://www.irit.fr/en/home/" target="_blank" rel="noopener noreferrer">Institut de Recherche en Informatique de Toulouse</a>), <a href="https://web.unica.it/unica/page/it/leonardo_regano" target="_blank" rel="noopener noreferrer">Leonardo Regano</a> (Università degli Studi di Cagliari), and <a href="https://www.polito.it/en/staff?p=cataldo.basile" target="_blank" rel="noopener noreferrer">Cataldo Basile</a> (TORSEC research group, DAUIN, Politecnico di Torino).</p>
+<p>The proliferation of IoT devices (14.4 billion active endpoints at the end of 2022) has introduced security vulnerabilities stemming from limited computing power, absence of timely security updates, and intrinsic design flaws. This paper aims to improve the security of IoT devices presenting the IoT Proxy, a modular component crafted to enhance security in resource-limited IoT scenarios.
+At its core, the IoT Proxy is crafted to externalize security-related functions from IoT devices, mitigating limitations arising from constrained computing power. This is achieved through a secure network gateway equipped with diverse Virtual Network Security Functions (VNSFs), allowing for adaptability and scalability.</p>
+<img src="https://elite.polito.it/assets/images/workflow-8a466819c307f24c1284a6a493260145.jpg" alt="Architecture and workflow of the IoT Proxy" width="80%">
+<p>With a focus on modularity, the IoT Proxy accommodates various VNSFs. Our proof of concept includes a Virtual Private Network (VPN) terminator and an Intrusion Detection System (IDS)/Intrusion Prevention System (IPS). A notably aspect of our IDS/IPS is the incorporation of the "oblivious authentication", a machine learning-based technique capable of identifying an IoT device through its network traffic (without imposing additional computational overhead on edge devices).
+The IoT Proxy distinguishes itself by its configurability, providing a versatile solution tailored to specific requirements. Indeed, the IDS/IPS module is bidirectionally configurable, ensuring seamless integration with diverse IoT environments without imposing rigid constraints.</p>
+<img src="https://elite.polito.it/assets/images/flowchart-fae378d31eaaa5a7e72a5d1770516aec.jpg" alt="Workflow of the IDS/IPS module of the IoT Proxy" width="70%">
+<p>To learn more about this research activity, you can <a href="https://www.researchgate.net/publication/377463843_Security_at_the_Edge_for_Resource-Limited_IoT_Devices" target="_blank" rel="noopener noreferrer">access the full paper</a> through the link at the end of this page.</p>
+<p>To conclude, we extend our gratitude to Lorenzo Cesetti for his invaluable contributions during the course of this research through <a href="https://webthesis.biblio.polito.it/28583/" target="_blank" rel="noopener noreferrer">his master thesis</a>.</p>
+<hr>
+<p>Additional information:</p>
+<ul>
+<li><a href="https://www.researchgate.net/publication/377463843_Security_at_the_Edge_for_Resource-Limited_IoT_Devices" target="_blank" rel="noopener noreferrer">Paper on ReserachGate</a></li>
+<li><a href="https://hdl.handle.net/11583/2985177" target="_blank" rel="noopener noreferrer">Paper on PORTO@IRIS</a></li>
+<li><a href="https://www.mdpi.com/1424-8220/24/2/590" target="_blank" rel="noopener noreferrer">Paper on MDPI website</a></li>
+</ul>]]></content>
+        <author>
+            <name>Luca Mannella</name>
+            <uri>https://github.com/Sarcares</uri>
+        </author>
+        <category label="journal" term="journal"/>
+        <category label="special issue" term="special issue"/>
+        <category label="paper" term="paper"/>
+        <category label="IoT" term="IoT"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Participation and keynote talk at the Global MOOC and Online Education Conference 2023]]></title>
         <id>https://elite.polito.it/news/2023/12/21/Milano-mooc.global</id>
@@ -242,45 +274,5 @@ the <strong>AccessCoVE</strong> - in the field of accessibility for individuals 
             <name>Laura Farinetti</name>
         </author>
         <category label="projects" term="projects"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Courses by the e-Lite group (I semester 2023/2024)]]></title>
-        <id>https://elite.polito.it/news/2023/09/15/courses-first-semester</id>
-        <link href="https://elite.polito.it/news/2023/09/15/courses-first-semester"/>
-        <updated>2023-09-15T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In the next semester, members of the e-Lite group will teach various elective and mandatory courses. In welcoming back Politecnico's students, we invite them to look at our offering.]]></summary>
-        <content type="html"><![CDATA[<p>On October 2, 2023, Politecnico di Torino's students will start the first semester in the new <strong>academic year</strong>. Welcome back!</p>
-<p>Members of the e-Lite group teach various courses in the semester, some of them being elective. Such courses are offered in different bachelors' and masters' degrees. Courses' topics include web applications, databases, and human-computer interaction.</p>
-<p>We invite students to familiarize themselves with the courses taught by group members and consider them for their choices. Continue to read for more details and useful links.</p>
-<p class="text--center"><img src="https://elite.polito.it/assets/images/courses-i-sem-2023-90acc6a5eeaf755b45f1cc4da3191426.png" alt="e-Lite courses in the first semester: introduction to web application, user experience design, human computer interaction, database, computer science"></p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="elective-courses">Elective Courses<a href="https://elite.polito.it/news/2023/09/15/courses-first-semester#elective-courses" class="hash-link" aria-label="Direct link to Elective Courses" title="Direct link to Elective Courses">​</a></h2>
-<p>This coming semester, members of the e-Lite group are involved in three elective courses: <em>Human Computer Interaction</em> (M.S. in Computer Engineering, in English); <em>Introduzione alle Applicazioni Web</em> (B.S. in Engineering, in Italian); and <em>User Experience Design</em> (M.S. in Cinema and Media Engineering, in Italian).</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="human-computer-interaction">Human Computer Interaction<a href="https://elite.polito.it/news/2023/09/15/courses-first-semester#human-computer-interaction" class="hash-link" aria-label="Direct link to Human Computer Interaction" title="Direct link to Human Computer Interaction">​</a></h3>
-<p><strong>Human Computer Interaction</strong> see the participation of three members of the group: <em>Luigi De Russis</em> (main teacher), <em>Alberto Monge Roffarello</em>, and <em>Tommaso Calò</em>.</p>
-<p>The course, elective for the master's degree in Computer Engineering and held in English, provides a solid foundation for the field. It gives students hands-on practice to design and develop innovative solutions by adopting a modern human-centered process while building a prototype application to serve target users. In the end, students will learn how to design and create usable, useful, and used technologies.</p>
-<p>Course materials are available on this same website, under <a href="https://elite.polito.it/teaching/02jsk-hci">Teaching &gt; Human Computer Interaction (02JSK)</a>, while the full <a href="https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=02JSKOV" target="_blank" rel="noopener noreferrer">course description</a> is on the students' guide.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="introduzione-alle-applicazioni-web">Introduzione alle Applicazioni Web<a href="https://elite.polito.it/news/2023/09/15/courses-first-semester#introduzione-alle-applicazioni-web" class="hash-link" aria-label="Direct link to Introduzione alle Applicazioni Web" title="Direct link to Introduzione alle Applicazioni Web">​</a></h3>
-<p><em>Luigi De Russis</em> and <em>Juan Pablo Sáenz Moreno</em> teach the <strong>Introduzione alle Applicazioni Web</strong> (Introduction to Web Applications) course.</p>
-<p>The course, among the 3rd year's "free credits" of the Engineering bachelor's degrees, covers the basic concepts and technologies of the Web. Using Python and the Flask framework, it also accompanies students in building a complete web application.</p>
-<p>Interested people can find the course materials under <a href="https://elite.polito.it/teaching/01dxu-iaw">Teaching &gt; Introduzione alle Applicazioni Web (01DXU)</a> and the <a href="https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=01DXU" target="_blank" rel="noopener noreferrer">official course description</a> in the students' guide. The course is offered in Italian.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="user-experience-design">User Experience Design<a href="https://elite.polito.it/news/2023/09/15/courses-first-semester#user-experience-design" class="hash-link" aria-label="Direct link to User Experience Design" title="Direct link to User Experience Design">​</a></h3>
-<p><em>Alberto Monge Roffarello</em> is the main teacher of <strong>User Experience Design</strong>, a new elective course for the master's degree in Cinema and Media Engineering.</p>
-<p>The course, held in Italian and with the participation of two psychologists from the University of Torino, shares the same goal of the previous Human Computer Interaction course but orient it to serve better the different degree program in which it is offered.</p>
-<p>Course materials will be available on this website under <a href="https://elite.polito.it/teaching">Teaching</a>. As before, the official <a href="https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=01HFXPD" target="_blank" rel="noopener noreferrer">course description</a> is in the students' guide.</p>
-<hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="mandatory-courses">Mandatory Courses<a href="https://elite.polito.it/news/2023/09/15/courses-first-semester#mandatory-courses" class="hash-link" aria-label="Direct link to Mandatory Courses" title="Direct link to Mandatory Courses">​</a></h2>
-<p>Members of the e-Lite group are involved in two mandatory courses in the first semester: <em>Informatica</em> (B.S. in Engineering) and <em>Basi di dati</em> (B.S. in Cinema and Media Engineering). Both courses are in Italian.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="informatica">Informatica<a href="https://elite.polito.it/news/2023/09/15/courses-first-semester#informatica" class="hash-link" aria-label="Direct link to Informatica" title="Direct link to Informatica">​</a></h3>
-<p><em>Fulvio Corno</em> is one of the main teachers of the <strong>Informatica</strong> (Computer Science) course. The course, held in Italian, is _mandatory for all 1st-year students enrolled in bachelor's degrees in Engineering.</p>
-<p>It covers the basis of Computer Science and introduces programming in Python. Course materials are available on this same website, under <a href="https://elite.polito.it/teaching/14bhd-informatica">Teaching &gt; Informatica (14BHD)</a>. The course description, instead, is available in the <a href="https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=14BHDNX" target="_blank" rel="noopener noreferrer">official students' guide</a>.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="basi-di-dati">Basi di Dati<a href="https://elite.polito.it/news/2023/09/15/courses-first-semester#basi-di-dati" class="hash-link" aria-label="Direct link to Basi di Dati" title="Direct link to Basi di Dati">​</a></h3>
-<p><em>Laura Farinetti</em>, finally, is the main teacher of the <strong>Basi di dati</strong> (Databases) course, offered in Italian to bachelor's degree students in Cinema and Media Engineering.</p>
-<p>The course introduces the main topics and concepts related to database technologies and languages. As before, course materials are available on this website under <a href="https://elite.polito.it/teaching/04afqpc-bdcin">Teaching &gt; Basi di Dati (04AFQPC)</a>. The students' guide includes the official <a href="https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=04AFQPC" target="_blank" rel="noopener noreferrer">course description</a>.</p>]]></content>
-        <author>
-            <name>Luigi De Russis</name>
-            <uri>https://github.com/luigidr</uri>
-        </author>
-        <category label="courses" term="courses"/>
-        <category label="teaching" term="teaching"/>
     </entry>
 </feed>
