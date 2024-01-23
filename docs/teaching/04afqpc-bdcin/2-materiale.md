@@ -33,6 +33,7 @@ description: "Materiale didattico (slide, documenti, link, ...)"
     - Blocco 2: [Testo](https://farinetti.github.io/materiale-bdcin/EsSQL_2-Testo.pdf) e [Soluzione](https://farinetti.github.io/materiale-bdcin/EsSQL_2-Soluz.pdf)
     - Blocco 3: [Testo](https://farinetti.github.io/materiale-bdcin/EsSQL_3-Testo.pdf) e [Soluzione](https://farinetti.github.io/materiale-bdcin/EsSQL_3-Soluz.pdf)
     - Blocco 4: [Testo](https://farinetti.github.io/materiale-bdcin/EsSQL_4-Testo.pdf) e [Soluzione](https://farinetti.github.io/materiale-bdcin/EsSQL_4-Soluz.pdf)
+    - [Pillola video](https://youtu.be/5dUdTthfgvs) su GROUP BY e NOT IN
 
 - Progettazione
     - ER 1: [Testo](https://farinetti.github.io/materiale-bdcin/EsER_1-Testo.pdf) e [Soluzione](https://farinetti.github.io/materiale-bdcin/EsER_1-Soluz.pdf)
