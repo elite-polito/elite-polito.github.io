@@ -11,7 +11,7 @@ import styles from './index.module.css';
 
 function NewsCard({postInfo}) {
     return(
-        <div className="col col--4">
+        <div className="col col--4" style={{display: 'flex', flex: '1'}}>
             <div className={clsx('card', styles.newsItem)}>
             {postInfo.assets.image && <div className="card__image">
             <Link to={postInfo.metadata.permalink}><img
