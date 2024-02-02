@@ -7,7 +7,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 # Calendario delle lezioni
 
 :::caution
-Questa pagina contiene la versione __archiviata__ dell'edizione 2023/2024 del corso.
+Questa pagina contiene la versione __archiviata__ dell'edizione 2022/2023 del corso.
 
 Vai alla [versione più recente](/teaching/03fyz-tdp)
 ::: 
