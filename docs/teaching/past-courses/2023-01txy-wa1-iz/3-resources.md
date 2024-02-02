@@ -4,6 +4,12 @@ description: "Development Resources (tools, documentation)"
 
 # Development Resources
 
+:::caution
+This page contains the __archived__ version for the 2022/2023 edition of the course.
+
+Go to the [latest version](/teaching/01txy-wa1)
+::: 
+
 This section lists the software applications and the libraries used in the course. In addition, it includes some additional resources that might be useful for the creation of web applications.
 
 ## Software In Use

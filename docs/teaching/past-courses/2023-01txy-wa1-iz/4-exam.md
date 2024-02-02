@@ -5,6 +5,12 @@ description: "Exam"
 
 # Exam
 
+:::caution
+This page contains the __archived__ version for the 2022/2023 edition of the course.
+
+Go to the [latest version](/teaching/01txy-wa1)
+::: 
+
 ## Exam Assignments
 
 - [GitHub Classroom instructions](https://polito-wa1-aw1-2023.github.io/materials/GH-Classroom-Instructions.pdf)

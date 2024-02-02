@@ -5,9 +5,11 @@ description: "General information"
 
 # Information
 
-:::info How to get here
-Short link to this page: https://bit.ly/polito-wa1-iz
-:::
+:::caution
+This page contains the __archived__ version for the 2022/2023 edition of the course.
+
+Go to the [latest version](/teaching/01txy-wa1)
+::: 
 
 ## Basic Information
 
