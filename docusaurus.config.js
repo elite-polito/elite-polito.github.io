@@ -168,7 +168,7 @@ const config = {
             from: '/teaching/current-courses/565-01gofiu-strategies-for-dwb'
           },
           { // http://bit.ly/polito-wa1
-            to: '/teaching/',
+            to: '/teaching/01txy-wa1',
             from: '/teaching/current-courses/521-wa1'
           },
           { // https://bit.ly/polito-wa1-ii

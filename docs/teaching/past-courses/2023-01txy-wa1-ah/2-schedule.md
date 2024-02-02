@@ -7,6 +7,12 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 
 # Schedule
 
+:::caution
+This page contains an __archived__ version of the 2022/2023 edition of the course.
+
+Go to the [latest version](/teaching/01txy-wa1)
+::: 
+
 :::info
 - Slides: [GitHub](https://github.com/polito-WA1-AW1-2023/materials)
 - Exercises: [GitHub](https://github.com/polito-WA1-AW1-2023/wa1-ah-weeks)
