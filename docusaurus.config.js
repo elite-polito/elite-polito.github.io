@@ -171,6 +171,10 @@ const config = {
             to: '/teaching/01txy-wa1',
             from: '/teaching/current-courses/521-wa1'
           },
+          { // https://bit.ly/polito-wa1-ah
+            to: '/teaching/01txy-wa1',
+            from: '/teaching/01txy-wa1-ah'
+          },
           { // https://bit.ly/polito-wa1-ii
             to: '/teaching/',
             from: '/teaching/current-courses/556-01txyov-wa1'
