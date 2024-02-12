@@ -1,0 +1,46 @@
+---
+authors: [monge]
+tags: [journal, paper, digital wellbeing]
+description: Our recent paper published on the International Journal of Human-Computer Studies (IJHCS) talks about StepByStep, a novel mobile DSCT that proactively assists users in learning how to regulate smartphone use through adaptable and continuously variable interventions. 
+image: ./2021-ijhcs-cover.jpg
+image_alt: IJHCS's logo.
+---
+import sbs from './sbs.png';
+import levels from './path1-levels.png';
+
+import functionality from './functionality.png';
+import forest from './forest_plot.png';
+
+
+# Publication: "Hey StepByStep! Can You Teach Me How To Use My Phone Better?"
+
+People nowadays have access to Digital Self-Control Tools (DSCTs) that can help them manage their technology use. These tools offer features such as timers and the ability to disable distracting functionalities like recommendations and newsfeeds. However, researchers have identified several limitations with existing DSCTs, ranging from theoretical gaps to an overreliance on users' self-monitoring abilities.
+
+In our work, we tried to overcome such limits and effectively support people in regaining control over smartphone use in the long term, focusing on <b><em>teaching</em></b> users how to relate better with technology, so that they can break unwanted smartphone habits and establish alternative behaviors without being forced to use a supportive tool forever.
+
+Specifically, we designed, implemented, and evaluated <b><em>StepByStep</em></b>, a novel mobile DSCT that proactively assists users in learning how to regulate smartphone use. 
+
+<p class="text--center">
+    <img src={sbs} alt="Some screenshots from the StepByStep app" width="60%"></img>
+</p>
+
+By monitoring user's behavior, the app suggests new personalized learning paths composed of adaptable and continuously variable interventions to reduce and change unwanted behaviors with the smartphone.  These paths can be at phone or app-level, and may be used to shape different behaviors, from avoiding using the smartphone in specific circumstances to using an app for an established amount of time. The main idea behind a learning path, in particular, is to progressively reduce the degree of support of the tool - i.e., the intensity of the associated intervention - based on user's achievements, until the user acquires a sufficient level of independence, i.e., it is able to sustain the new behavior without the help of the tool. To this end, StepByStep follows a gamification approach through which the intensity of an intervention is divided into four different levels. Users can gain points and advance in levels, i.e., by receiving less support,  if they consistently respect the intervention with its current intensity for a sufficient amount of time. However, they can also lose points and downgrade to previous levels, i.e., by receiving more support, if they consistently fail to respect the intervention with its current intensity.
+
+<!-- truncate -->
+
+<p class="text--center">
+    <img src={levels} alt="Some screenshots from the StepByStep app" width="80%"></img>
+</p>
+
+The figure above exemplifies a learning path to help users avoid using the smartphone or a mobile app when performing a given task, e.g., while studying or working. When activated, StepByStep asks the user to take an unusual object and put it over the smartphone (<em>level 1</em>), next to the smartphone (<em>level 2</em>), or in the user's field of view (<em>level 3</em>), until the object is no longer necessary to complete the task without unlocking the phone (<em>level 4</em>).
+
+Two exploratory in-the-wild studies with 8 and 41 participants, respectively, show initial evidence that the adopted approach is promising and could effectively assist users into understanding when and how to reduce the time spent on their smartphones, thus avoiding unwanted smartphone habits. Most of the involved participants, in particular, were successfully able to progress in the learning paths, and self-assessed themselves as less addicted to their smartphones after the study. Although further studies will be needed to confirm the long-term impact of StepByStep, our work demonstrates the feasibility of exploring tools for digital wellbeing that overcome the short-term vision of pure self-monitoring interventions.  
+
+---
+
+Additional information:
+
+* [Paper on PORTO@IRIS](https://hdl.handle.net/11583/2983994)
+* [Paper on ScienceDirect](https://www.sciencedirect.com/science/article/abs/pii/S1071581923002045)
+
+
