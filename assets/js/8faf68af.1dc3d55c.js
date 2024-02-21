@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkelite_website=self.webpackChunkelite_website||[]).push([[1962],{6415:e=>{e.exports=JSON.parse('{"label":"courses","permalink":"/news/tags/courses","allTagsPath":"/news/tags","count":1,"unlisted":false}')}}]);
