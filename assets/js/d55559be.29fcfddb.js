@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkelite_website=self.webpackChunkelite_website||[]).push([[278],{62732:e=>{e.exports=JSON.parse('{"title":"Teaching Resources","description":"Currently Active Courses","keywords":["teaching"],"slug":"/teaching","permalink":"/teaching","navigation":{"next":{"title":"Basi di Dati (04AFQPC)","permalink":"/teaching/04afqpc-bdcin"}}}')}}]);
