@@ -205,7 +205,7 @@ const config = {
           },
           { // http://bit.ly/polito-aw1
             to: '/teaching/01udf-aw1',
-            from: 'teaching/current-courses/532-01udfov-aw1'
+            from: '/teaching/current-courses/532-01udfov-aw1'
           },
 
         ]
