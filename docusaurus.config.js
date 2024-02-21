@@ -203,6 +203,10 @@ const config = {
             to: '/teaching/04afqpc-bdcin',
             from: '/teaching/current-courses/526-04afqpc'
           },
+          { // http://bit.ly/polito-aw1
+            to: '/teaching/01udf-aw1',
+            from: 'teaching/current-courses/532-01udfov-aw1'
+          },
 
         ]
       }
