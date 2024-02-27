@@ -4,11 +4,37 @@
         <title>e-Lite Research Group Blog</title>
         <link>https://elite.polito.it/news</link>
         <description>e-Lite Research Group Blog</description>
-        <lastBuildDate>Wed, 21 Feb 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 27 Feb 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <copyright>Copyright © 2024 Politecnico di Torino</copyright>
+        <item>
+            <title><![CDATA[Workshop: Digital Wellbeing for Teens - Designing Educational Systems (DIGI-Teens)]]></title>
+            <link>https://elite.polito.it/news/2024/02/27/digiteens</link>
+            <guid>https://elite.polito.it/news/2024/02/27/digiteens</guid>
+            <pubDate>Tue, 27 Feb 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[The workshop "Digital Wellbeing for Teens - Designing Educational Systems (DIGI-Teens)," co-located with AVI 2024, will be held on June 3-4, 2024, at Arenzano, Italy, and it is currently accepting contributions.]]></description>
+            <content:encoded><![CDATA[<p>The workshop <a href="https://sites.google.com/view/digi-teens" target="_blank" rel="noopener noreferrer">Digital Wellbeing for Teens - Designing Educational Systems (DIGI-Teens)</a>, to be held on June 3-4, 2024, at Arenzano, Italy is currently accepting contributions!</p>
+<p>DIGI-Teens is an <a href="https://avi2024.dibris.unige.it/home" target="_blank" rel="noopener noreferrer">AVI 2024</a> workshop that aims to establish a venue for the academic and industrial communities to discuss ongoing research and ideas at the intersection of digital wellbeing and education, aiming to promote the development of strategies and tools to "teach" users – particularly children and teenagers – to use technology more meaningfully and consciously.</p>
+<p class="text--center"><img src="https://elite.polito.it/assets/images/digiteens-02e10883323e2b38c742f9d42f83db06.png" alt="screenshot of the DIGI-Teens workshop website" width="60%"></p>
+<p>The topics of interest for the workshop include, but are not limited to:</p>
+<ul>
+<li>participatory and co-design of digital wellbeing systems;</li>
+<li>tools and strategies to teach digital wellbeing at school;</li>
+<li>strategies and tools for measuring students’ digital wellbeing;</li>
+<li>novel tools for digital self-control that include educational aspects;</li>
+<li>gamification strategies for digital wellbeing;</li>
+<li>ethical, social, and political factors.</li>
+</ul>
+<p>To contribute, prospective participants are invited to submit a short papers (2-4 paes) by using the <a href="https://www.acm.org/publications/proceedings-template" target="_blank" rel="noopener noreferrer">ACM Primary Article Submission Templates (single column)</a>. Submissions should be done in PDF via email to <a href="mailto:aberto.monge@polito.it" target="_blank" rel="noopener noreferrer">alberto.monge@polito.it</a> by March 31, 2024.</p>
+<p>We aim to submit the proceedings to CEUR-WS, while workshop results will be published on the workshop website.</p>
+<p>More information can be found on the <a href="https://sites.google.com/view/digi-teens" target="_blank" rel="noopener noreferrer">workshop webpage</a>.</p>]]></content:encoded>
+            <category>events</category>
+            <category>workshop</category>
+            <category>digital wellbeing</category>
+            <category>education</category>
+        </item>
         <item>
             <title><![CDATA[Courses by the e-Lite group (II semester 2023/2024)]]></title>
             <link>https://elite.polito.it/news/2024/02/21/courses-second-semester</link>
@@ -223,29 +249,6 @@ The poster introduced a threat model for smart home gateways, pointing out the r
             <category>events</category>
             <category>thesis</category>
             <category>teaching</category>
-        </item>
-        <item>
-            <title><![CDATA[Convegno CSI: Intelligenza artificiale o aumentata?]]></title>
-            <link>https://elite.polito.it/news/2023/10/11/CSI-Xperience</link>
-            <guid>https://elite.polito.it/news/2023/10/11/CSI-Xperience</guid>
-            <pubDate>Wed, 11 Oct 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[CSI Piemonte inaugura un nuovo formato di convegno, denominato "CSI Xperience", sul tema della Intelligenza Artificiale e delle sue relazioni con la società.]]></description>
-            <content:encoded><![CDATA[<p>L’intelligenza artificiale trova già applicazione in molti settori, come la sanità, i trasporti, la didattica e l’intrattenimento. Più interagiamo con questi strumenti, meglio riusciamo a valutarne l’impatto economico e sociale e a guidarne l’evoluzione, regolamentando anche gli aspetti etici.</p>
-<p>Il CSI Piemonte inaugura un nuovo formato di convegno, denominato "CSI Xperience", sul tema della Intelligenza Artificiale e delle sue relazioni con la società.
-L'evento è previsto per il <strong>17 ottobre 2023</strong> ed è aperto da Fulvio Corno, attuale presidente del Comitato Tecnico Scientifico del CSI.</p>
-<p><img decoding="async" loading="lazy" alt="CSI Xperience" src="https://elite.polito.it/assets/images/CTS_2023_sezione_M-79018ba6e4f8b58cbfad11f1fbec4579.jpg" width="1180" height="787" class="img_ev3q"></p>
-<p>L'evento è organizzato in due fasi:</p>
-<ul>
-<li><a href="https://www.csipiemonte.it/it/evento/intelligenza-artificiale-aumentata" target="_blank" rel="noopener noreferrer">Intelligenza artificiale o aumentata? Verso una nuova relazione tra uomo e macchina</a>: convegno in presenza ed in streaming con l'intervento di relatori esperti di AI nella Pubblica Amministrazione, nel Lavoro ed Etica, nell'Educazione e Didattica, nell'Arte e Creatività.</li>
-<li><a href="https://www.csipiemonte.it/it/evento/lintelligenza-artificiale-vista-vicino" target="_blank" rel="noopener noreferrer">L'intelligenza artificiale vista da vicino</a>: Percorsi guidati con ingressi ogni ora in CSI Next, sede della Casa delle Tecnologie Emergenti di Torino. Robot, assistenti virtuali, giochi e chat basate su AI generativa, musica e film.</li>
-</ul>
-<p>Maggiori informazioni:</p>
-<ul>
-<li><a href="https://www.csipiemonte.it/it/evento/intelligenza-artificiale-aumentata" target="_blank" rel="noopener noreferrer">Programma del convegno (17/10, mattina)</a>, con le video registrazioni degli interventi</li>
-<li><a href="https://www.csipiemonte.it/it/evento/lintelligenza-artificiale-vista-vicino" target="_blank" rel="noopener noreferrer">Programma delle esperienze pratiche (17/10, pomeriggio)</a></li>
-</ul>]]></content:encoded>
-            <category>events</category>
-            <category>artificial intelligence</category>
         </item>
     </channel>
 </rss>

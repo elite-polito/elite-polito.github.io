@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkelite_website=self.webpackChunkelite_website||[]).push([[4351],{96942:e=>{e.exports=JSON.parse('{"label":"education","permalink":"/news/tags/education","allTagsPath":"/news/tags","count":1,"unlisted":false}')}}]);
