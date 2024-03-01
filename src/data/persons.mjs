@@ -67,7 +67,9 @@ const people = [
         name: 'Luca Scibetta',
         role: 'Ph.D. Student',
         email: 'luca.scibetta@polito.it',
-        img: '/img/people/VOID.webp'
+        img: '/img/people/LucaScibetta.jpg',
+        github: 'LucaScibetta',
+        linkedin: 'luca-scibetta-26290b22b',
     }
 
 ]
@@ -90,7 +92,6 @@ const alumni = [
         name: 'Fabio Ballati',
         role: 'Ph.D. Student at Politecnico di Torino',
         img: '/img/people/FabioBallati.webp',
-        // email: 'fabio.ballati@polito.it',
         linkedin: 'fabio-ballati-290853ba',
     },
     {
