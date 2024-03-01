@@ -19,9 +19,9 @@ const people = [
         img: '/img/people/LuigiDeRussis.jpg',
         role: 'Associate Professor',
         email: 'luigi.derussis@polito.it',
-        twitter: 'luigidr',
         github: 'luigidr',
         linkedin: 'luigidr',
+        youtube: 'LuigiDeRussis'
     },
     {
         name: 'Alberto Monge Roffarello',
@@ -40,7 +40,7 @@ const people = [
     },
     {
         name: 'Luca Mannella',
-        role: 'Ph.D. Student',
+        role: 'Ph.D. Candidate',
         email: 'luca.mannella@polito.it',
         img: '/img/people/LucaMannella.jpg',
         github: 'LucaMannella',
@@ -61,6 +61,12 @@ const people = [
         img: '/img/people/LucaPezzolla.jpg',
         github: 'lpezzolla',
         linkedin: 'lpezzolla',
+    },
+    {
+        name: 'Luca Scibetta',
+        role: 'Ph.D. Student',
+        email: 'luca.scibetta@polito.it',
+        img: '/img/people/VOID.webp'
     }
 
 ]

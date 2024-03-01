@@ -2,7 +2,7 @@ import React from "react";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import '@fortawesome/free-solid-svg-icons'
-import { faGithub, faTelegram, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faTelegram, faXTwitter, faLinkedin, faYoutube } from '@fortawesome/free-brands-svg-icons'
 import Link from "@docusaurus/Link";
 
 
@@ -30,15 +30,18 @@ export const Person = (props) => (
                 {props.github &&
                     <>&nbsp;<Link to={"http://github.com/" + props.github} title='GitHub'>
                         <FontAwesomeIcon icon={faGithub} className='fa-xl' /></Link>&nbsp;</>}
-                {props.telegram &&
-                    <>&nbsp;<Link to={"https://t.me/" + props.telegram} title='Telegram'>
-                        <FontAwesomeIcon icon={faTelegram} className='fa-xl' /></Link>&nbsp;</>}
                 {props.linkedin &&
                     <>&nbsp;<Link to={"https://www.linkedin.com/in/" + props.linkedin} title='LinkedIn'>
                         <FontAwesomeIcon icon={faLinkedin} className='fa-xl' /></Link>&nbsp;</>}
+                {props.youtube &&
+                    <>&nbsp;<Link to={"https://www.youtube.com/" + props.youtube} title='YouTube'>
+                        <FontAwesomeIcon icon={faYoutube} className='fa-xl' /></Link>&nbsp;</>}
+                {props.telegram &&
+                    <>&nbsp;<Link to={"https://t.me/" + props.telegram} title='Telegram'>
+                        <FontAwesomeIcon icon={faTelegram} className='fa-xl' /></Link>&nbsp;</>}
                 {props.twitter &&
                     <>&nbsp;<Link to={"https://twitter.com/" + props.twitter} title='Twitter'>
-                        <FontAwesomeIcon icon={faTwitter} className='fa-xl' /></Link>&nbsp;</>}
+                        <FontAwesomeIcon icon={faXTwitter} className='fa-xl' /></Link>&nbsp;</>}
                 &nbsp;
             </div>
         </div>
