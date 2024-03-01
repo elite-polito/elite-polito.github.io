@@ -5,9 +5,10 @@ const people = [
         role: 'Full Professor',
         email: 'fulvio.corno@polito.it',
         github: 'fulcorno',
-        twitter: 'fulcorno',
+        // twitter: 'fulcorno',
         telegram: 'fulcorno',
         linkedin: 'fulviocorno',
+        youtube: 'fulcorno',
     },
     {
         name: 'Laura Farinetti',
