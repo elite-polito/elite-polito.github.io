@@ -46,6 +46,8 @@ const people = [
         img: '/img/people/LucaMannella.jpg',
         github: 'LucaMannella',
         linkedin: 'lucamannella',
+        twitter: 'LukeMannella',
+        youtube: '@LucaMannella'
     },
     {
         name: 'Tommaso Calò',
