@@ -17,14 +17,14 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 <LectureDivider topic = "Settimana 1"/>
 
 <LectureRow
-    date="22/03/2024" time="13:00-14:30">
+    date="22/03/2024" time="13:00-14:30" pdf = "https://elite.polito.it/materiale-benesseredigitale-2024/slide/lezioni/00-intro-corso.pdf">
     <>Introduzione al corso e al Benessere Digitale</>
 </LectureRow>
 
 <LectureDivider topic = "Settimana 2"/>
 
 <LectureRow
-    date="26/03/2024" time="16:00-17:30">
+    date="26/03/2024" time="16:00-17:30" pdf = "https://elite.polito.it/materiale-benesseredigitale-2024/slide/lezioni/01-attention-economy.pdf">
     <>Attention Economy</>
 </LectureRow>
 
