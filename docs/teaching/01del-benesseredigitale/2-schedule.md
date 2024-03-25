@@ -30,7 +30,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 
 <LectureRow
     date="26/03/2024" time="17:30-19:00"
-    teacher = "Monica Molino">
+    teacher = "Monica Molino" pdf = "https://elite.polito.it/materiale-benesseredigitale-2024/slide/lezioni/02-benessere-digitale-psicologia.pdf">
     <>Benessere digitale: prospettiva psicologica</>
 </LectureRow>
 
