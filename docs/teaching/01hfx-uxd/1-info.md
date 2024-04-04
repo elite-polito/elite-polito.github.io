@@ -30,7 +30,6 @@ Il materiale del corso (lezioni, esercizi e laboratori) è disponibile nella sez
 ## Orario delle lezioni
 
 Consulta la sezione [Calendario](schedule) per informazioni dettagliate ed eventuali variazioni.
-http://localhost:3000/teaching/01hfx-uxd/schedule
 
 | Giorno     | Ora        | Luogo | Tipo            |
 |---------|-------------|----------|-----------------|
