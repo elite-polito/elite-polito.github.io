@@ -47,7 +47,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 
 <LectureRow
     date="05/04/2024" time="13:00-14:30"
-    teacher = "Monica Molino">
+    teacher = "Monica Molino" pdf = "https://elite.polito.it/materiale-benesseredigitale-2024/slide/lezioni/03-stress-digitale.pdf">
     <>Stress digitale</>
 </LectureRow>
 
