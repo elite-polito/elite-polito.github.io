@@ -17,20 +17,20 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 <LectureDivider topic = "Settimana 1"/>
 
 <LectureRow
-    date="22/03/2024" time="13:00-14:30" pdf = "https://elite.polito.it/materiale-benesseredigitale-2024/slide/lezioni/00-intro-corso.pdf">
+    date="22/03/2024" time="13:00-14:30" pdf = "https://elite.polito.it/materiale-benesseredigitale-2024/slide/lezioni/00-intro-corso.pdf" video={['https://www.polito.it/didattica']}>
     <>Introduzione al corso e al Benessere Digitale</>
 </LectureRow>
 
 <LectureDivider topic = "Settimana 2"/>
 
 <LectureRow
-    date="26/03/2024" time="16:00-17:30" pdf = "https://elite.polito.it/materiale-benesseredigitale-2024/slide/lezioni/01-attention-economy.pdf">
+    date="26/03/2024" time="16:00-17:30" pdf = "https://elite.polito.it/materiale-benesseredigitale-2024/slide/lezioni/01-attention-economy.pdf" video={['https://www.polito.it/didattica']}>
     <>Attention Economy</>
 </LectureRow>
 
 <LectureRow
     date="26/03/2024" time="17:30-19:00"
-    teacher = "Monica Molino" pdf = "https://elite.polito.it/materiale-benesseredigitale-2024/slide/lezioni/02-benessere-digitale-psicologia.pdf">
+    teacher = "Monica Molino" pdf = "https://elite.polito.it/materiale-benesseredigitale-2024/slide/lezioni/02-benessere-digitale-psicologia.pdf" video={['https://www.polito.it/didattica']}>
     <>Benessere digitale: prospettiva psicologica</>
 </LectureRow>
 
@@ -47,7 +47,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 
 <LectureRow
     date="05/04/2024" time="13:00-14:30"
-    teacher = "Monica Molino" pdf = "https://elite.polito.it/materiale-benesseredigitale-2024/slide/lezioni/03-stress-digitale.pdf">
+    teacher = "Monica Molino" pdf = "https://elite.polito.it/materiale-benesseredigitale-2024/slide/lezioni/03-stress-digitale.pdf" video={['https://www.polito.it/didattica']}>
     <>Stress digitale</>
 </LectureRow>
 
