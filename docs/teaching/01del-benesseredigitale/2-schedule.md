@@ -55,7 +55,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 
 <LectureRow
     date="09/04/2024" time="16:00-17:30"
-    teacher = "Monica Molino">
+    teacher = "Monica Molino" pdf = "https://elite.polito.it/materiale-benesseredigitale-2024/slide/lezioni/04-benessere-digitale-e-lavoro.pdf">
     <>Benessere Digitale e lavoro (parte I)</>
 </LectureRow>
 
