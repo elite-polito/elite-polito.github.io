@@ -54,23 +54,23 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 <LectureDivider topic = "Settimana 4"/>
 
 <LectureRow
-    date="09/04/2024" time="16:00-17:30"
+    date="09/04/2024" time="16:00-17:30" pdf = "https://elite.polito.it/materiale-benesseredigitale-2024/slide/lezioni/05-needfinding.pdf">
+    <>Metodi di needfinding (parte I)</>
+</LectureRow>
+
+<LectureRow
+    date="09/04/2024" time="17:30-19:00">
+    <>Metodi di needfinding (parte II)</>
+</LectureRow>
+
+<LectureRow
+    date="12/04/2024" time="13:00-14:30"
     teacher = "Monica Molino" pdf = "https://elite.polito.it/materiale-benesseredigitale-2024/slide/lezioni/04-benessere-digitale-e-lavoro.pdf">
     <>Benessere Digitale e lavoro (parte I)</>
 </LectureRow>
 
-<LectureRow
-    date="09/04/2024" time="17:30-19:00"
-    teacher = "Monica Molino">
-    <>Benessere Digitale e lavoro (parte II)</>
-</LectureRow>
 
-<LectureRow
-    date="12/04/2024" time="13:00-14:30">
-    <>Metodi di needfinding (parte I)</>
-</LectureRow>
-
-<LectureDivider topic = "Settimana 5"/>
+<!-- <LectureDivider topic = "Settimana 5"/>
 
 <LectureRow
     date="16/04/2024" time="16:00-17:30"
@@ -87,7 +87,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 <LectureRow
     date="19/04/2024" time="13:00-14:30"
     teacher = "Monica Molino">
-    <>Metodi di needfinding (parte II)</>
+    <>Metodi di needfinding (parte III)</>
 </LectureRow>
 
 <LectureDivider topic = "Settimana 6"/>
@@ -253,7 +253,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 <LectureRow
     date="14/06/2024" variant="warning" time="13:00-14:30" teacher="" type="">
     <em>No Lezione</em>
-</LectureRow>
+</LectureRow>-->
 
 </LectureTable>
 
