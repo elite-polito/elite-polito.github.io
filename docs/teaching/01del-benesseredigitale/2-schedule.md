@@ -70,7 +70,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 </LectureRow>
 
 
-<!-- <LectureDivider topic = "Settimana 5"/>
+<LectureDivider topic = "Settimana 5"/>
 
 <LectureRow
     date="16/04/2024" time="16:00-17:30"
@@ -87,7 +87,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 <LectureRow
     date="19/04/2024" time="13:00-14:30"
     teacher = "Monica Molino">
-    <>Metodi di needfinding (parte III)</>
+    <>Benessere Digitale e lavoro (parte II)</>
 </LectureRow>
 
 <LectureDivider topic = "Settimana 6"/>
@@ -110,7 +110,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 
 <LectureRow
     date="26/04/2024" time="13:00-14:30">
-    <>Metodi di needfinding (parte III)</>
+    <>Strategie - prospettiva informatica (parte I)</>
 </LectureRow>
 
 <LectureDivider topic = "Settimana 7"/>
@@ -118,7 +118,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 <LectureRow
     date="30/04/2024" time="16:00-17:30"
     teacher = "Monica Molino">
-    <>Differenze individuali</>
+    <>Metododi di needfinding (parte III)</>
 </LectureRow>
 
 <LectureRow
@@ -130,7 +130,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 <LectureRow
     date="03/05/2024" time="13:00-14:30"
     teacher = "Monica Molino">
-    <>Strategie - prospettiva psicologica</>
+    <>Differenze individuali</>
 </LectureRow>
 
 <LectureDivider topic = "Settimana 8"/>
@@ -148,8 +148,8 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 </LectureRow>
 
 <LectureRow
-    date="10/05/2024" time="13:00-14:30">
-    <>Strategie - prospettiva informatica (parte I)</>
+    date="10/05/2024" time="13:00-14:30" teacher = "Monica Molino">
+    <>Strategie - prospettiva psicologica</>
 </LectureRow>
 
 <LectureDivider topic = "Settimana 9"/>
@@ -253,7 +253,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 <LectureRow
     date="14/06/2024" variant="warning" time="13:00-14:30" teacher="" type="">
     <em>No Lezione</em>
-</LectureRow>-->
+</LectureRow>
 
 </LectureTable>
 
