@@ -63,10 +63,15 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
     <>Metodi di needfinding (parte II)</>
 </LectureRow>
 
-<LectureRow
+<!--<LectureRow
     date="12/04/2024" time="13:00-14:30"
     teacher = "Monica Molino" pdf = "https://elite.polito.it/materiale-benesseredigitale-2024/slide/lezioni/04-benessere-digitale-e-lavoro.pdf">
     <>Benessere Digitale e lavoro (parte I)</>
+</LectureRow>-->
+
+<LectureRow
+    date="12/04/2024" variant="warning" time="13:00-14:30" teacher="" type="">
+    <em>Lezione Annullata</em>
 </LectureRow>
 
 
