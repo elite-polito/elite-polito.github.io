@@ -85,7 +85,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 
 <LectureRow
     date="16/04/2024" time="17:30-19:00"
-    type = "Esercitazione" teacher = "Monica Molino">
+    type = "Esercitazione">
     <>ASSIGNMENT 1: Journey Map</>
 </LectureRow>
 
