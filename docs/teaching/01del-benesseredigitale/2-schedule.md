@@ -79,7 +79,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 
 <LectureRow
     date="16/04/2024" time="16:00-17:30"
-    type = "Esercitazione">
+    type = "Esercitazione" pdf = "https://elite.polito.it/materiale-benesseredigitale-2024/slide/assignment/A1-journeymap.pdf">
     <>ASSIGNMENT 1: Journey Map</>
 </LectureRow>
 

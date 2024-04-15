@@ -15,6 +15,6 @@ Il progetto di gruppo sarà valutato tramite la correzione delle consegne interm
 
 ## Esercitazioni intermedie
 
-* Esercitazione 1
+* [Esercitazione 1 - Journey Map](https://elite.polito.it/materiale-benesseredigitale-2024/slide/assignment/A1-journeymap.pdf)
 * Esercitazione 2
 * Esercitazione 3
