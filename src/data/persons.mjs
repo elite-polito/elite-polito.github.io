@@ -72,6 +72,14 @@ const people = [
         img: '/img/people/LucaScibetta.jpg',
         github: 'LucaScibetta',
         linkedin: 'luca-scibetta-26290b22b',
+    },
+    {
+        name: 'Massimiliano Pellegrino',
+        role: 'Research Fellow',
+        email: 'massimiliano.pellegrino@polito.it',
+        img: '/img/people/MassimilianoPellegrino.jpg',
+        github: 'MassimilianoPellegrino',
+        linkedin: 'massimiliano-pellegrino',
     }
 
 ]
