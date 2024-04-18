@@ -92,7 +92,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 <LectureRow
     date="19/04/2024" time="13:00-14:30"
     teacher = "Monica Molino">
-    <>Benessere Digitale e lavoro (parte II)</>
+    <>Benessere Digitale e lavoro</>
 </LectureRow>
 
 <LectureDivider topic = "Settimana 6"/>
@@ -103,7 +103,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 
 <LectureRow
     date="23/04/2024" time="16:00-17:30"
-    type = "Esercitazione">
+    type = "Esercitazione" teacher = "Monica Molino">
     <>PRESENTAZIONE 1: Journey Map</>
 </LectureRow>
 
