@@ -97,7 +97,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 
 <LectureRow
     date="19/04/2024" time="ONLINE SUL PORTALE DELLA DIDDATTICA" variant="info"
-    teacher = "Monica Molino" video={['https://www.polito.it/didattica']} video={['https://www.polito.it/didattica']}>
+    teacher = "Monica Molino" video={['https://www.polito.it/didattica']}>
     <>Benessere Digitale e lavoro (parte II)</>
 </LectureRow>
 
@@ -122,7 +122,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 </LectureRow>
 
 <LectureRow
-    date="26/04/2024" time="13:00-14:30" pdf = "https://elite.polito.it/materiale-benesseredigitale-2024/slide/lezioni/06-strategie-informatiche.pdf">
+    date="26/04/2024" time="13:00-14:30" pdf = "https://elite.polito.it/materiale-benesseredigitale-2024/slide/lezioni/06-strategie-informatiche.pdf" video={['https://www.polito.it/didattica']}>
     <>Strategie - prospettiva informatica (parte I)</>
 </LectureRow>
 
