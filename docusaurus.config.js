@@ -209,7 +209,7 @@ const config = {
           },
           { // Python Dottorato Palermo
             to: '/teaching/acsrs-Palermo',
-            from: '/teaching/python-dottorato'
+            from: ['/teaching/python-dottorato', '/teaching/python-dottorato/intro']
           },
         ]
       }
