@@ -207,7 +207,10 @@ const config = {
             to: '/teaching/01udf-aw1',
             from: '/teaching/current-courses/532-01udfov-aw1'
           },
-
+          { // Python Dottorato Palermo
+            to: '/teaching/acsrs-Palermo',
+            from: '/teaching/python-dottorato'
+          },
         ]
       }
       ],
