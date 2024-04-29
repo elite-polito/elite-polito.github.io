@@ -136,7 +136,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 
 <LectureRow
     date="30/04/2024" time="17:30-19:00"
-    type = "Esercitazione" teacher = "Monica Molino">
+    type = "Esercitazione" teacher = "Monica Molino" pdf = "https://elite.polito.it/materiale-benesseredigitale-2024/slide/assignment/A2-needfinding.pdf">
     <>ASSIGNMENT 2: Needfinding</>
 </LectureRow>
 
