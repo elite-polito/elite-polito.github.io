@@ -18,7 +18,7 @@ Il progetto di gruppo sarà valutato tramite la correzione delle consegne interm
 * [Esercitazione 1 - Journey Map](https://elite.polito.it/materiale-benesseredigitale-2024/slide/assignment/A1-journeymap.pdf)
      * [Calendario](https://docs.google.com/spreadsheets/d/1-J4LfEgAsTg8K8DJGgJS9MJuXyhhG2OjiB69xGXJuWw/edit?usp=sharing)
      * [Feedback](https://docs.google.com/document/d/1EE18w5-KbITTdk02bQx2Tbu_g4i-sP4P8txm9a4zg1c/edit?usp=sharing)  
-*[Esercitazione 2 - Needfinding](https://elite.polito.it/materiale-benesseredigitale-2024/slide/assignment/A2-needfinding.pdf)
+* [Esercitazione 2 - Needfinding](https://elite.polito.it/materiale-benesseredigitale-2024/slide/assignment/A2-needfinding.pdf)
      * [Template consenso minori](https://docs.google.com/document/d/16RK4r2BfUzgAJRO17VAkGoeE_-zKioSi0xiuCFbiGPI/edit)
      * [Template consenso adulti](https://docs.google.com/document/d/16PhEKEeyu-0HlloUAvDmACATgraXu3KnGjv7BxPI8AM/edit)
 * Esercitazione 3
