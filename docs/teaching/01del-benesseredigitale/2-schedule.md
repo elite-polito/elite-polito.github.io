@@ -129,7 +129,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 <LectureDivider topic = "Settimana 7"/>
 
 <LectureRow
-    date="30/04/2024" time="16:00-17:30"
+    date="30/04/2024" time="16:00-17:30" pdf = "https://elite.polito.it/materiale-benesseredigitale-2024/slide/lezioni/05b-needfinding-analisi.pdf"
     teacher = "Monica Molino">
     <>Metododi di needfinding (parte III)</>
 </LectureRow>
