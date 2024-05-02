@@ -130,7 +130,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 
 <LectureRow
     date="30/04/2024" time="16:00-17:30" pdf = "https://elite.polito.it/materiale-benesseredigitale-2024/slide/lezioni/05b-needfinding-analisi.pdf"
-    teacher = "Monica Molino">
+    teacher = "Monica Molino" video={['https://www.polito.it/didattica']}>
     <>Metododi di needfinding (parte III)</>
 </LectureRow>
 
@@ -142,7 +142,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 
 <LectureRow
     date="03/05/2024" time="13:00-14:30"
-    teacher = "Monica Molino">
+    teacher = "Monica Molino" pdf = "https://elite.polito.it/materiale-benesseredigitale-2024/slide/lezioni/07-differenze-individuali.pdf" video={['https://www.polito.it/didattica']}>
     <>Differenze individuali</>
 </LectureRow>
 
