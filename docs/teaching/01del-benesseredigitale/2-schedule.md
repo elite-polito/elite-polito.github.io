@@ -142,7 +142,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 
 <LectureRow
     date="03/05/2024" time="13:00-14:30"
-    teacher = "Monica Molino" pdf = "https://elite.polito.it/materiale-benesseredigitale-2024/slide/lezioni/07-differenze-individuali.pdf" video={['https://www.polito.it/didattica']}>
+    teacher = "Monica Molino" pdf = {['https://elite.polito.it/materiale-benesseredigitale-2024/slide/lezioni/07-differenze-individuali.pdf','https://elite.polito.it/materiale-benesseredigitale-2024/slide/lezioni/08-competenze-digitali.pdf']} video={['https://www.polito.it/didattica']}>
     <>Differenze individuali</>
 </LectureRow>
 
