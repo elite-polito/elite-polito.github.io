@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkelite_website=self.webpackChunkelite_website||[]).push([[885],{77691:e=>{e.exports=JSON.parse('{"label":"human-computer interaction","permalink":"/news/tags/human-computer-interaction","allTagsPath":"/news/tags","count":1,"unlisted":false}')}}]);
