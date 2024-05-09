@@ -21,4 +21,5 @@ Il progetto di gruppo sarà valutato tramite la correzione delle consegne interm
 * [Esercitazione 2 - Needfinding](https://elite.polito.it/materiale-benesseredigitale-2024/slide/assignment/A2-needfinding.pdf)
      * [Template consenso minori](https://docs.google.com/document/d/16RK4r2BfUzgAJRO17VAkGoeE_-zKioSi0xiuCFbiGPI/edit)
      * [Template consenso adulti](https://docs.google.com/document/d/16PhEKEeyu-0HlloUAvDmACATgraXu3KnGjv7BxPI8AM/edit)
+     * [Calendario](https://docs.google.com/spreadsheets/d/1syfAWnp2RI0mPcgxiX4dDflm2TN2txXAM5Sz2WsiQZM/edit?usp=sharing) 
 * Esercitazione 3

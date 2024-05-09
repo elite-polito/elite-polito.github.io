@@ -174,13 +174,15 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 <LectureRow
     date="14/05/2024" time="16:00-17:30"
     type = "Esercitazione" teacher = "Monica Molino">
-    <>PRESENTAZIONE 2: Needfinding</>
+    <>PRESENTAZIONE 2: Needfinding
+    <ul><li><a href="https://docs.google.com/spreadsheets/d/1syfAWnp2RI0mPcgxiX4dDflm2TN2txXAM5Sz2WsiQZM/edit?usp=sharing">Calendario presentazioni</a></li></ul></>
 </LectureRow>
 
 <LectureRow
     date="14/05/2024" time="17:30-19:00"
     type = "Esercitazione" teacher = "Monica Molino">
-    <>PRESENTAZIONE 2: Needfinding</>
+    <>PRESENTAZIONE 2: Needfinding
+    <ul><li><a href="https://docs.google.com/spreadsheets/d/1syfAWnp2RI0mPcgxiX4dDflm2TN2txXAM5Sz2WsiQZM/edit?usp=sharing">Calendario presentazioni</a></li></ul></>
 </LectureRow>
 
 <LectureRow
