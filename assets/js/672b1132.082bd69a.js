@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkelite_website=self.webpackChunkelite_website||[]).push([[8683],{28684:e=>{e.exports=JSON.parse('{"label":"workshop","permalink":"/news/tags/workshop","allTagsPath":"/news/tags","count":1,"unlisted":false}')}}]);

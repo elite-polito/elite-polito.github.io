@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkelite_website=self.webpackChunkelite_website||[]).push([[8323],{57352:e=>{e.exports=JSON.parse('{"label":"poster","permalink":"/news/tags/poster","allTagsPath":"/news/tags","count":1,"unlisted":false}')}}]);

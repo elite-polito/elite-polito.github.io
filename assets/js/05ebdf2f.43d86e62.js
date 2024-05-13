@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkelite_website=self.webpackChunkelite_website||[]).push([[2910],{39588:e=>{e.exports=JSON.parse('{"label":"IoT","permalink":"/news/tags/io-t","allTagsPath":"/news/tags","count":1,"unlisted":false}')}}]);

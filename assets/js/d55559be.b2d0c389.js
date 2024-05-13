@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkelite_website=self.webpackChunkelite_website||[]).push([[278],{62732:e=>{e.exports=JSON.parse('{"title":"Teaching Resources","description":"Currently Active Courses","keywords":["teaching"],"slug":"/teaching","permalink":"/teaching","navigation":{"next":{"title":"Applicazioni Web I (01UDF)","permalink":"/teaching/01udf-aw1"}}}')}}]);
