@@ -186,7 +186,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 </LectureRow>
 
 <LectureRow
-    date="17/05/2024" time="13:00-14:30">
+    date="17/05/2024" time="13:00-14:30" pdf = "https://elite.polito.it/materiale-benesseredigitale-2024/slide/lezioni/06-strategie-informatiche.pdf" video={['https://www.polito.it/didattica']}>
     <>Strategie - prospettiva informatica (parte II)</>
 </LectureRow>
 
