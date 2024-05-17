@@ -204,7 +204,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 </LectureRow>
 
 <LectureRow
-    date="17/05/2024" time="13:00-14:30"
+    date="24/05/2024" time="13:00-14:30"
     type = "Esercitazione" teacher = "Monica Molino">
     <>ASSIGNMENT 3: Prototipo a bassa fedeltà</>
 </LectureRow>
