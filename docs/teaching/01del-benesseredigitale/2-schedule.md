@@ -193,13 +193,13 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 <LectureDivider topic = "Settimana 10"/>
 
 <LectureRow
-    date="21/05/2024" time="16:00-17:30">
+    date="21/05/2024" time="16:00-17:30" pdf = "https://elite.polito.it/materiale-benesseredigitale-2024/slide/lezioni/10-prototipazione.pdf">
     <>Prototipazione rapida di strumenti per il benessere digitale </>
 </LectureRow>
 
 <LectureRow
     date="21/05/2024" time="17:30-19:00"
-    type = "Esercitazione">
+    type = "Esercitazione" pdf = "https://elite.polito.it/materiale-benesseredigitale-2024/slide/assignment/A3-lowfi.pdf">
     <>ASSIGNMENT 3: Prototipo a bassa fedeltà</>
 </LectureRow>
 
