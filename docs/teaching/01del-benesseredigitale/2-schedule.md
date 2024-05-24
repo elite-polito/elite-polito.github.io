@@ -218,13 +218,15 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 <LectureRow
     date="28/05/2024" time="16:00-17:30"
     type = "Esercitazione">
-    <>PRESENTAZIONE 3: Prototipo a bassa fedeltà</>
+    <>PRESENTAZIONE 3: Prototipo a bassa fedeltà
+    <ul><li><a href="https://docs.google.com/spreadsheets/d/1z2_yz2mk2YMbpyeQQM0xob3lrKKMeOefM1JrIQbiz98/edit?usp=sharing">Calendario presentazioni</a></li></ul></>
 </LectureRow>
 
 <LectureRow
     date="28/05/2024" time="17:30-19:00"
     type = "Esercitazione">
-    <>PRESENTAZIONE 3: Prototipo a bassa fedeltà</>
+    <>PRESENTAZIONE 3: Prototipo a bassa fedeltà
+    <ul><li><a href="https://docs.google.com/spreadsheets/d/1z2_yz2mk2YMbpyeQQM0xob3lrKKMeOefM1JrIQbiz98/edit?usp=sharing">Calendario presentazioni</a></li></ul></>
 </LectureRow>
 
 <LectureRow

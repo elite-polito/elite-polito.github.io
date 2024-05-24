@@ -24,3 +24,4 @@ Il progetto di gruppo sarà valutato tramite la correzione delle consegne interm
      * [Calendario](https://docs.google.com/spreadsheets/d/1syfAWnp2RI0mPcgxiX4dDflm2TN2txXAM5Sz2WsiQZM/edit?usp=sharing) 
      * [Feedback](https://docs.google.com/document/d/1SbGm_s8J-GIfwK9YP80kWZU8lgaZe4_C8qadw3wfjkA/edit?usp=sharing)
 * [Esercitazione 3 - Prototipo a bassa fedeltà](https://elite.polito.it/materiale-benesseredigitale-2024/slide/assignment/A3-lowfi.pdf)
+     * [Calendario](https://docs.google.com/spreadsheets/d/1z2_yz2mk2YMbpyeQQM0xob3lrKKMeOefM1JrIQbiz98/edit?usp=sharing)
