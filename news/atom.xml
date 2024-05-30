@@ -2,12 +2,41 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://elite.polito.it/news</id>
     <title>e-Lite Research Group Blog</title>
-    <updated>2024-05-08T00:00:00.000Z</updated>
+    <updated>2024-05-30T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://elite.polito.it/news"/>
     <subtitle>e-Lite Research Group Blog</subtitle>
     <icon>https://elite.polito.it/img/favicon.ico</icon>
     <rights>Copyright © 2024 Politecnico di Torino</rights>
+    <entry>
+        <title type="html"><![CDATA[Participation at AVI 2024]]></title>
+        <id>https://elite.polito.it/news/2024/05/30/avi</id>
+        <link href="https://elite.polito.it/news/2024/05/30/avi"/>
+        <updated>2024-05-30T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[On June 4-7, 2024, the e-Lite group will participate at the 17th International Conference on Advanced Visual Interfaces (AVI 2024) in Arenzano, Italy. The group will hold a workshop and present a paper on Digital Wellbeing.]]></summary>
+        <content type="html"><![CDATA[<p>On June 4-7, 2024, the e-Lite group will attend (in person) the <a href="https://avi2024.dibris.unige.it/" target="_blank" rel="noopener noreferrer"><em>17th International Conference on Advanced Visual Interfaces</em></a> (AVI 2024) in Arenzano, Italy.</p>
+<p>The group will organize a workshop entitled "<a href="https://elite.polito.it/news/2024/02/27/digiteens">Digital Wellbeing for Teens: Designing Educational Systems</a> (DIGI-Teens 2024)"  in the morning of Tuesday, <strong>4 June</strong> as part of a PRIN 2022 research project.</p>
+<p>Massimiliano Pellegrino will present the short paper "<em>Digital Wellbeing Lens: Design Interfaces That Respect User Attention</em>" on Friday, <strong>7 June</strong> at 12:00 (session: Design).</p>
+<p class="text--center"><img src="https://elite.polito.it/assets/images/banner-d588ecfc1acb4f65a6d1b821ea2814e2.png" alt="Banner of the AVI 2024 conference"></p>
+<p>The paper explores the idea of having designers prioritizing users' digital wellbeing during the design stage, instead of having end-users handling on external tools.</p>
+<p>Indeed, user interfaces heavily rely on attention-capture design patterns, e.g., infinite scroll and other variable-rewarding mechanisms, that erode users' sense of autonomy and undermine their digital wellbeing. Instead of having users rely on external self-regulation tools, we advocate that tech companies and designers should prioritize users' digital wellbeing by design.</p>
+<p>To take a first step in this direction, the paper presents <strong>Digital Wellbeing Lens</strong>, a Figma plugin that guides designers in creating user interfaces that <em>respect and preserve user time and attention</em>. The plugin allows the continuous evaluation of prototypes against attention-capture patterns, calculating a digital wellbeing score and suggesting suitable design alternatives.</p>
+<p>Besides introducing the plugin, we demonstrate its practical application through a use case involving the design of a mobile social media app, and we report on the results of a first exploratory study with four designers, discussing the opportunities and challenges of embracing this paradigm shift.</p>
+<p>Read the paper by following the links below!</p>
+<hr>
+<p>Additional information:</p>
+<ul>
+<li><a href="https://hdl.handle.net/11583/2987847" target="_blank" rel="noopener noreferrer">Paper on PORTO@IRIS</a></li>
+<li><a href="https://sites.google.com/view/digi-teens" target="_blank" rel="noopener noreferrer">Workshop website</a></li>
+<li><a href="https://avi2024.dibris.unige.it/program" target="_blank" rel="noopener noreferrer">Full conference program</a></li>
+</ul>]]></content>
+        <author>
+            <name>Luigi De Russis</name>
+            <uri>https://github.com/luigidr</uri>
+        </author>
+        <category label="conference" term="conference"/>
+        <category label="paper" term="paper"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Seminar: "If all you have is a hammer..."]]></title>
         <id>https://elite.polito.it/news/2024/05/08/seminar-andrea-bianchi</id>
@@ -272,34 +301,5 @@ The IoT Proxy distinguishes itself by its configurability, providing a versatile
         <category label="projects" term="projects"/>
         <category label="teaching" term="teaching"/>
         <category label="digital education" term="digital education"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DAUIN PhD Poster Day 2023 Highlights]]></title>
-        <id>https://elite.polito.it/news/2023/11/06/DAUINPosterDay</id>
-        <link href="https://elite.polito.it/news/2023/11/06/DAUINPosterDay"/>
-        <updated>2023-11-06T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The DAUIN PhD poster day featured two posters by PhD candidates showcasing their research in IoT cybersecurity and automated code generation from visual representations.]]></summary>
-        <content type="html"><![CDATA[<p class="text--center"><img src="https://elite.polito.it/assets/images/header_0-ff4042db5d37c04f40b6ed28789fcdcc.png" alt="DAUIN PhD Poster Day Logo"></p>
-<p>At the Politecnico di Torino, the e-Lite research group from the Department of Control and Computer Engineering (DAUIN) presented their advancements at the PhD poster day 2023. The event featured research posters by two PhD candidates.</p>
-<p>The first poster by Luca Mannella, titled "Supporting Developers in the Cybersecurity of IoT Systems," presented some tools for helping developers create more secure IoT applications (with a particular focus on smart homes). The goal set forth was to make the development process accessible for developers with varying levels of expertise in cybersecurity.
-The poster introduced a threat model for smart home gateways, pointing out the risks associated with these central devices in managing smart home applications, especially when third-party plug-ins are involved. The poster also discussed the application of the Manufacturer Usage Description (MUD) standard inside an extensible smart home gateway. Allowing plug-in developers to define their plug-ins' network requirements can help secure the whole smart home.</p>
-<p>Tommaso Calò's poster, "Code Generation From Visual Representations," addressed the challenge of translating web UI designs into code. It underscored the labor-intensive aspect of this translation process, necessitating frequent revisions between the design and development phases. To address this, the research presented a multimodal Transformer architecture designed to automate the translation process by concurrently processing textual and visual information. The approach aims to advance existing methodologies by enhancing the architectural framework and introducing a challenging dataset that serves as a new benchmark for future advancements in the field.</p>
-<p>For those interested in delving deeper into the research presented at the DAUIN PhD poster day 2023, we have made available the posters for downloading:</p>
-<ul>
-<li><a href="https://elite.polito.it/assets/files/Mannella-Luca-36-40742a1b3c5329f6cdc6d7c60f27ff83.pdf" target="_blank">Supporting Developers in the Cybersecurity of IoT Systems</a>.</li>
-<li><a href="https://elite.polito.it/assets/files/phdposter_calo_5nov-7c22cd7ed7d1dc129de6202c5c4b0c9f.pdf" target="_blank">Code Generation From Visual Representations</a>.</li>
-</ul>
-<p>Mannella's research is supervised by Prof. Fulvio Corno and Prof. Antonio Lioy. While Calò's work is supervised by Luigi De Russis. These research projects reflect e-Lite’s dedication to contributing to the advancement of IoT cybersecurity and the development of Human-Centered AI technologies.</p>]]></content>
-        <author>
-            <name>Tommaso Calò</name>
-            <uri>https://tommasocalo.github.io</uri>
-        </author>
-        <author>
-            <name>Luca Mannella</name>
-            <uri>https://github.com/Sarcares</uri>
-        </author>
-        <category label="events" term="events"/>
-        <category label="research" term="research"/>
-        <category label="phd" term="phd"/>
     </entry>
 </feed>
