@@ -19,6 +19,10 @@ Prossimi appelli, con scadenze:
     - ricordarsi di iscriversi all'esame entro il *12/02/2024*, sul Portale della Didattica
     - tutti gli assignments (compreso il codice) devono essere presenti sui repository GitHub del gruppo entro il *12/02/2024 EOD*.
     - il programma delle presentazioni dei gruppi sarà condiviso qualche giorno prima dell'esame
+- 04/07/2024 
+    - ricordarsi di iscriversi all'esame entro il *28/06/2024*, sul Portale della Didattica
+    - tutti gli assignments (compreso il codice) devono essere presenti sui repository GitHub del gruppo entro il *27/06/2024 EOD*.
+    - il programma delle presentazioni dei gruppi sarà condiviso qualche giorno prima dell'esame
 
 ## Progetti (con Assignment)
 

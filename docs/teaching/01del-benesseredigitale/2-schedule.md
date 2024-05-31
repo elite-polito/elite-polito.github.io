@@ -230,7 +230,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 </LectureRow>
 
 <LectureRow
-    date="31/05/2024" time="13:00-14:30">
+    date="31/05/2024" time="13:00-14:30" video={['https://www.polito.it/didattica']}>
     <>Introduzione a Figma</>
 </LectureRow>
 
