@@ -26,3 +26,7 @@ Il progetto di gruppo sarà valutato tramite la correzione delle consegne interm
 * [Esercitazione 3 - Prototipo a bassa fedeltà](https://elite.polito.it/materiale-benesseredigitale-2024/slide/assignment/A3-lowfi.pdf)
      * [Calendario](https://docs.google.com/spreadsheets/d/1z2_yz2mk2YMbpyeQQM0xob3lrKKMeOefM1JrIQbiz98/edit?usp=sharing)
      * [Feedback](https://docs.google.com/document/d/18s8fwJnfyZZu5Pi1jADm9dnGLxUJdv7wh3w1q0P9e5c/edit?usp=sharing)
+
+
+## Assignment 4 - Esame
+* [Istruzioni](https://elite.polito.it/materiale-benesseredigitale-2024/slide/assignment/A4-exam.pdf)

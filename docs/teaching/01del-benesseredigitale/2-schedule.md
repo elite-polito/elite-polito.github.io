@@ -238,7 +238,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 
 <LectureRow
     date="04/06/2024" time="16:00-17:30"
-    type = "Esercitazione" teacher = "Monica Molino">
+    type = "Esercitazione" teacher = "Monica Molino" pdf ="https://elite.polito.it/materiale-benesseredigitale-2024/slide/assignment/A4-exam.pdf">
     <>ASSIGNMENT 4: Prototipo ad alta fedeltà</>
 </LectureRow>
 
