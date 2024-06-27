@@ -30,4 +30,5 @@ Il progetto di gruppo sarà valutato tramite la correzione delle consegne interm
 
 ## Assignment 4 - Esame
 * [Istruzioni](https://elite.polito.it/materiale-benesseredigitale-2024/slide/assignment/A4-exam.pdf)
-     * **CONSEGNA: Giovedì 20/06 entro la fine della giornata**
+     * **CONSEGNA PRIMO APPELLO: Giovedì 20/06 entro la fine della giornata**
+     * **CONSEGNA SECONDO APPELLO: Mercoledì 10/07 entro la fine della giornata**

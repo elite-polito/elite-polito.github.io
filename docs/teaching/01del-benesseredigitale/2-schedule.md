@@ -273,7 +273,10 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 </LectureRow>
 <LectureDivider topic = "Settimana 14"/>
 <LectureRow variant="success" date="20/06/2024" time="EOD" teacher="" type="">
-    <em>Consegna Finale</em>
+    <em>Consegna Finale Primo Appello</em>
+</LectureRow>
+<LectureRow variant="success" date="10/07/2024" time="EOD" teacher="" type="">
+    <em>Consegna Finale Secondo Appello</em>
 </LectureRow>
 
 </LectureTable>
