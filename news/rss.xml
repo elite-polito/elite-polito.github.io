@@ -4,11 +4,30 @@
         <title>e-Lite Research Group Blog</title>
         <link>https://elite.polito.it/news</link>
         <description>e-Lite Research Group Blog</description>
-        <lastBuildDate>Thu, 30 May 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 28 Jun 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <copyright>Copyright © 2024 Politecnico di Torino</copyright>
+        <item>
+            <title><![CDATA[Most Influential Paper Award at IE 2024]]></title>
+            <link>https://elite.polito.it/news/2024/06/28/ie24-award</link>
+            <guid>https://elite.polito.it/news/2024/06/28/ie24-award</guid>
+            <pubDate>Fri, 28 Jun 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[During the latest Intelligent Environments (IE 2024) conference, a 2018 paper by the e-Lite group received the "Most Influential Paper Award".]]></description>
+            <content:encoded><![CDATA[<p>On June 2024, 2024, Luigi De Russis joined (online) the <a href="https://ie2024.ijs.si/index.php/awards/" target="_blank" rel="noopener noreferrer">closing and awards ceremony</a> at the Intelligent Environments (IE) 2024 conference to receive the <strong>Most Influential Paper Award</strong> for the 2018 paper entitled "<em>'Hey Siri, do you understand me?': Virtual Assistants and Dysarthria</em>".</p>
+<p class="text--center"><img src="https://elite.polito.it/assets/images/award-ff4984d2ec308df1e2466a66eeedf4f4.png" alt="Most influential paper award at IE 24"></p>
+<p>The paper, authored by Fabio Ballati (former Ph.D. student), Fulvio Corno, and Luigi De Russis is recognized as the most influential paper in the last 5 years.</p>
+<p>It was the first work of the group on conversational agents and dysarthric speech, which was followed up by a <a href="https://dl.acm.org/doi/10.1145/3234695.3236354" target="_blank" rel="noopener noreferrer">full paper</a> presented the ACM ASSETS 2018 conference.</p>
+<p>The awarded paper can be found on:</p>
+<ul>
+<li><a href="https://hdl.handle.net/11583/2705646" target="_blank" rel="noopener noreferrer">PORTO@IRIS</a></li>
+<li><a href="https://ebooks.iospress.nl/volumearticle/49411" target="_blank" rel="noopener noreferrer">IOS Press Library</a></li>
+</ul>]]></content:encoded>
+            <category>conference</category>
+            <category>paper</category>
+            <category>award</category>
+        </item>
         <item>
             <title><![CDATA[Participation at AVI 2024]]></title>
             <link>https://elite.polito.it/news/2024/05/30/avi</link>
@@ -231,28 +250,6 @@ The IoT Proxy distinguishes itself by its configurability, providing a versatile
             <category>projects</category>
             <category>teaching</category>
             <category>accessibility</category>
-        </item>
-        <item>
-            <title><![CDATA[Hands-on Workshop su Critical Making]]></title>
-            <link>https://elite.polito.it/news/2023/11/30/Workshop-Critical-Making</link>
-            <guid>https://elite.polito.it/news/2023/11/30/Workshop-Critical-Making</guid>
-            <pubDate>Thu, 30 Nov 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Workshop collaborativo per esplorare le possibilità educative, basate soprattutto su metodiche sperimentali ed esperienziali, e per immaginare insieme attività didattiche che aiutino la comprensione e il contrasto delle fake news in ambito STEM.]]></description>
-            <content:encoded><![CDATA[<p>Lo sviluppo del pensiero critico (<em>Critical Thinking</em>) è uno degli obiettivi fondamentali della formazione a tutti i livelli, ma anche un tema rilevante a livello sociale, per il contrasto alle fake news, specialmente in ambito STEM.</p>
-<p>Il Dipartimento di Automatica e Informatica ed il Teaching and Language Lab, in collaborazione con la <strong>Fondazione Links</strong> e con la <strong>Pädagogische Hochschule Weingarten</strong>, organizza un <strong>workshop collaborativo</strong> per esplorare le possibilità educative, basate soprattutto su metodiche sperimentali ed esperienziali, e per immaginare insieme attività didattiche che aiutino la comprensione e il contrasto delle fake news in campo scientifico e tecnologico.</p>
-<p>I risultati del workshop saranno resi accessibili a tutta la comunità accademica e forniranno un importante input per il progetto Erasmus+ "Critical Making" a cui partecipa il Politecnico di Torino (Dipartimento DAUIN e TLlab) partecipa.</p>
-<p><img decoding="async" loading="lazy" alt="Workshop Banner" src="https://elite.polito.it/assets/images/banner-55dc9b0008bed2175712bc10b9bf7d9f.png" width="1223" height="688" class="img_ev3q"></p>
-<p>Il workshop è aperto a tutti i docenti del Politecnico e degli istituti di istruzione secondaria. Le attività di svolgeranno in lingua inglese.</p>
-<p>Maggiori informazioni:</p>
-<ul>
-<li><a href="https://www.polito.it/ateneo/comunicazione-e-ufficio-stampa/appuntamenti/news?idn=22021" target="_blank" rel="noopener noreferrer">Comunicato ufficiale dell'ateneo</a></li>
-<li><a href="https://forms.office.com/e/4DUNjeybxv" target="_blank" rel="noopener noreferrer">Link per la prenotazione</a></li>
-<li>Per contatti e informazioni:  <a href="mailto:tllab@polito.it" target="_blank" rel="noopener noreferrer">tllab@polito.it</a></li>
-</ul>]]></content:encoded>
-            <category>events</category>
-            <category>projects</category>
-            <category>teaching</category>
-            <category>digital education</category>
         </item>
     </channel>
 </rss>

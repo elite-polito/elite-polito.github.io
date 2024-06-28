@@ -5,6 +5,23 @@
     "description": "e-Lite Research Group Blog",
     "items": [
         {
+            "id": "https://elite.polito.it/news/2024/06/28/ie24-award",
+            "content_html": "<p>On June 2024, 2024, Luigi De Russis joined (online) the <a href=\"https://ie2024.ijs.si/index.php/awards/\" target=\"_blank\" rel=\"noopener noreferrer\">closing and awards ceremony</a> at the Intelligent Environments (IE) 2024 conference to receive the <strong>Most Influential Paper Award</strong> for the 2018 paper entitled \"<em>'Hey Siri, do you understand me?': Virtual Assistants and Dysarthria</em>\".</p>\n<p class=\"text--center\"><img src=\"https://elite.polito.it/assets/images/award-ff4984d2ec308df1e2466a66eeedf4f4.png\" alt=\"Most influential paper award at IE 24\"></p>\n<p>The paper, authored by Fabio Ballati (former Ph.D. student), Fulvio Corno, and Luigi De Russis is recognized as the most influential paper in the last 5 years.</p>\n<p>It was the first work of the group on conversational agents and dysarthric speech, which was followed up by a <a href=\"https://dl.acm.org/doi/10.1145/3234695.3236354\" target=\"_blank\" rel=\"noopener noreferrer\">full paper</a> presented the ACM ASSETS 2018 conference.</p>\n<p>The awarded paper can be found on:</p>\n<ul>\n<li><a href=\"https://hdl.handle.net/11583/2705646\" target=\"_blank\" rel=\"noopener noreferrer\">PORTO@IRIS</a></li>\n<li><a href=\"https://ebooks.iospress.nl/volumearticle/49411\" target=\"_blank\" rel=\"noopener noreferrer\">IOS Press Library</a></li>\n</ul>",
+            "url": "https://elite.polito.it/news/2024/06/28/ie24-award",
+            "title": "Most Influential Paper Award at IE 2024",
+            "summary": "During the latest Intelligent Environments (IE 2024) conference, a 2018 paper by the e-Lite group received the \"Most Influential Paper Award\".",
+            "date_modified": "2024-06-28T00:00:00.000Z",
+            "author": {
+                "name": "Luigi De Russis",
+                "url": "https://github.com/luigidr"
+            },
+            "tags": [
+                "conference",
+                "paper",
+                "award"
+            ]
+        },
+        {
             "id": "https://elite.polito.it/news/2024/05/30/avi",
             "content_html": "<p>On June 4-7, 2024, the e-Lite group will attend (in person) the <a href=\"https://avi2024.dibris.unige.it/\" target=\"_blank\" rel=\"noopener noreferrer\"><em>17th International Conference on Advanced Visual Interfaces</em></a> (AVI 2024) in Arenzano, Italy.</p>\n<p>The group will organize a workshop entitled \"<a href=\"https://elite.polito.it/news/2024/02/27/digiteens\">Digital Wellbeing for Teens: Designing Educational Systems</a> (DIGI-Teens 2024)\"  in the morning of Tuesday, <strong>4 June</strong> as part of a PRIN 2022 research project. Luigi De Russis, Alberto Monge Roffarello, Luca Scibetta e Massimiliano Pellegrino will join the workshop (and the entire conference).</p>\n<p>Massimiliano Pellegrino will present the short paper \"<em>Digital Wellbeing Lens: Design Interfaces That Respect User Attention</em>\" on Friday, <strong>7 June</strong> at 12:00 (session: Design).</p>\n<p class=\"text--center\"><img src=\"https://elite.polito.it/assets/images/banner-d588ecfc1acb4f65a6d1b821ea2814e2.png\" alt=\"Banner of the AVI 2024 conference\"></p>\n<p>The paper explores the idea of having designers prioritizing users' digital wellbeing during the design stage, instead of having end-users handling on external tools.</p>\n<p>Indeed, user interfaces heavily rely on attention-capture design patterns, e.g., infinite scroll and other variable-rewarding mechanisms, that erode users' sense of autonomy and undermine their digital wellbeing. Instead of having users rely on external self-regulation tools, we advocate that tech companies and designers should prioritize users' digital wellbeing by design.</p>\n<p>To take a first step in this direction, the paper presents <strong>Digital Wellbeing Lens</strong>, a Figma plugin that guides designers in creating user interfaces that <em>respect and preserve user time and attention</em>. The plugin allows the continuous evaluation of prototypes against attention-capture patterns, calculating a digital wellbeing score and suggesting suitable design alternatives.</p>\n<p>Besides introducing the plugin, we demonstrate its practical application through a use case involving the design of a mobile social media app, and we report on the results of a first exploratory study with four designers, discussing the opportunities and challenges of embracing this paradigm shift.</p>\n<p>Read the paper by following the links below!</p>\n<hr>\n<p>Additional information:</p>\n<ul>\n<li><a href=\"https://hdl.handle.net/11583/2987847\" target=\"_blank\" rel=\"noopener noreferrer\">Paper on PORTO@IRIS</a></li>\n<li><a href=\"https://sites.google.com/view/digi-teens\" target=\"_blank\" rel=\"noopener noreferrer\">Workshop website</a></li>\n<li><a href=\"https://avi2024.dibris.unige.it/program\" target=\"_blank\" rel=\"noopener noreferrer\">Full conference program</a></li>\n</ul>",
             "url": "https://elite.polito.it/news/2024/05/30/avi",
@@ -157,24 +174,6 @@
                 "projects",
                 "teaching",
                 "accessibility"
-            ]
-        },
-        {
-            "id": "https://elite.polito.it/news/2023/11/30/Workshop-Critical-Making",
-            "content_html": "<p>Lo sviluppo del pensiero critico (<em>Critical Thinking</em>) è uno degli obiettivi fondamentali della formazione a tutti i livelli, ma anche un tema rilevante a livello sociale, per il contrasto alle fake news, specialmente in ambito STEM.</p>\n<p>Il Dipartimento di Automatica e Informatica ed il Teaching and Language Lab, in collaborazione con la <strong>Fondazione Links</strong> e con la <strong>Pädagogische Hochschule Weingarten</strong>, organizza un <strong>workshop collaborativo</strong> per esplorare le possibilità educative, basate soprattutto su metodiche sperimentali ed esperienziali, e per immaginare insieme attività didattiche che aiutino la comprensione e il contrasto delle fake news in campo scientifico e tecnologico.</p>\n<p>I risultati del workshop saranno resi accessibili a tutta la comunità accademica e forniranno un importante input per il progetto Erasmus+ \"Critical Making\" a cui partecipa il Politecnico di Torino (Dipartimento DAUIN e TLlab) partecipa.</p>\n<p><img decoding=\"async\" loading=\"lazy\" alt=\"Workshop Banner\" src=\"https://elite.polito.it/assets/images/banner-55dc9b0008bed2175712bc10b9bf7d9f.png\" width=\"1223\" height=\"688\" class=\"img_ev3q\"></p>\n<p>Il workshop è aperto a tutti i docenti del Politecnico e degli istituti di istruzione secondaria. Le attività di svolgeranno in lingua inglese.</p>\n<p>Maggiori informazioni:</p>\n<ul>\n<li><a href=\"https://www.polito.it/ateneo/comunicazione-e-ufficio-stampa/appuntamenti/news?idn=22021\" target=\"_blank\" rel=\"noopener noreferrer\">Comunicato ufficiale dell'ateneo</a></li>\n<li><a href=\"https://forms.office.com/e/4DUNjeybxv\" target=\"_blank\" rel=\"noopener noreferrer\">Link per la prenotazione</a></li>\n<li>Per contatti e informazioni:  <a href=\"mailto:tllab@polito.it\" target=\"_blank\" rel=\"noopener noreferrer\">tllab@polito.it</a></li>\n</ul>",
-            "url": "https://elite.polito.it/news/2023/11/30/Workshop-Critical-Making",
-            "title": "Hands-on Workshop su Critical Making",
-            "summary": "Workshop collaborativo per esplorare le possibilità educative, basate soprattutto su metodiche sperimentali ed esperienziali, e per immaginare insieme attività didattiche che aiutino la comprensione e il contrasto delle fake news in ambito STEM.",
-            "date_modified": "2023-11-30T00:00:00.000Z",
-            "author": {
-                "name": "Fulvio Corno",
-                "url": "https://github.com/fulcorno"
-            },
-            "tags": [
-                "events",
-                "projects",
-                "teaching",
-                "digital education"
             ]
         }
     ]
