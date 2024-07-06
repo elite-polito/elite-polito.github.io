@@ -2,12 +2,38 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://elite.polito.it/news</id>
     <title>e-Lite Research Group Blog</title>
-    <updated>2024-06-28T00:00:00.000Z</updated>
+    <updated>2024-07-06T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://elite.polito.it/news"/>
     <subtitle>e-Lite Research Group Blog</subtitle>
     <icon>https://elite.polito.it/img/favicon.ico</icon>
     <rights>Copyright © 2024 Politecnico di Torino</rights>
+    <entry>
+        <title type="html"><![CDATA[Presentation of "Empowering Users: EUD for Mobile Applications Privacy Management"]]></title>
+        <id>https://elite.polito.it/news/2024/07/06/trustai</id>
+        <link href="https://elite.polito.it/news/2024/07/06/trustai"/>
+        <updated>2024-07-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[On June 26, 2024, Juan Pablo Sáenz presented the Article "Empowering Users: End User Development for Mobile Applications Privacy Management" at the first International Workshop on Trusted Computing and Artificial Intelligence applied to Cybersecurity, held in Paris.]]></summary>
+        <content type="html"><![CDATA[<p>On June 26, I presented the work "<strong>Empowering Users: End User Development for Mobile Applications Privacy Management</strong>" at the first <a href="https://sites.google.com/view/trustedaicybersec2024" target="_blank" rel="noopener noreferrer">International Workshop on Trusted Computing and Artificial Intelligence applied to Cybersecurity</a>, held in Paris.</p>
+<p>Smartphones have become integral to everyday life, offering numerous benefits but also raising significant privacy and security concerns. Users often face challenges managing app permissions and protecting personal data due to the complexity of existing smartphone operating system settings. Our research addresses these issues by introducing Privacy Manager, a mobile application designed for Android devices that employs an End-User Development (EUD) approach.</p>
+<p>Privacy Manager empowers users by providing personalized data protection and privacy security measures through user-friendly interfaces and customizable settings. This application enhances user awareness and control over their data, making privacy management accessible even to non-technical users.</p>
+<p>During the presentation, I detailed the development of Privacy Manager and discussed the results of a validation study conducted with 8 participants over a week. The study included an initial questionnaire, a week-long period of real-world application usage, and a final assessment using the System Usability Scale (SUS). The findings demonstrated the usability and effectiveness of Privacy Manager, highlighting its potential to significantly improve mobile privacy management.</p>
+<p>The presentation was well-received, sparking engaging discussions on the future of privacy management in mobile applications.</p>
+<p>If you're interested in learning more, our additional material is just a click away!</p>
+<hr>
+<ul>
+<li><a href="https://hdl.handle.net/11583/2990422" target="_blank" rel="noopener noreferrer">Paper on PORTO@IRIS</a></li>
+<li><a href="https://elite.polito.it/assets/files/2024-trustai-privacymanager-287001dbd11cee6481a2647d583d2fa8.pdf" target="_blank">Slides</a></li>
+</ul>]]></content>
+        <author>
+            <name>Juan Pablo Sáenz Moreno</name>
+            <uri>https://github.com/jpsaenzmo</uri>
+        </author>
+        <category label="conference" term="conference"/>
+        <category label="paper" term="paper"/>
+        <category label="end-user development" term="end-user development"/>
+        <category label="privacy" term="privacy"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Most Influential Paper Award at IE 2024]]></title>
         <id>https://elite.polito.it/news/2024/06/28/ie24-award</id>
@@ -266,34 +292,5 @@ The IoT Proxy distinguishes itself by its configurability, providing a versatile
         <category label="projects" term="projects"/>
         <category label="teaching" term="teaching"/>
         <category label="digital education" term="digital education"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Presentation of Erasmus+ project AccessCoVE]]></title>
-        <id>https://elite.polito.it/news/2023/12/04/AccessCoVE-FillInTheGaps</id>
-        <link href="https://elite.polito.it/news/2023/12/04/AccessCoVE-FillInTheGaps"/>
-        <updated>2023-12-04T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Project presentation in the event *Fill (in the) gaps* on Disability, Research and Intersectionality, organized by Politecnico di Torino for the International Day of rights of persons with disabilities.]]></summary>
-        <content type="html"><![CDATA[<p>The project  <a href="https://elite.polito.it/research/Projects/AccessCoVE">AccessCoVE</a> aims to structure excellence in Vocational Education and Training in the field of Accessibility, by establishing a European multi-level innovative and constantly growing Centre of Vocational Excellence - the AccessCoVE - in the field of accessibility for individuals with disabilities.</p>
-<p>On November 30, 2023, Politecnico di Torino organized an event on the topic of "Disability, Research, and Intersectionality", with talks by several researchers and professors who are actively involved in the field of accessibility. The event was organized in occasion of the International Day of rights of persons with disabilities.</p>
-<p>In that context, we held a short presentation of the AccessCoVE project, its partners, its objectives, and the ways in which the project will involve the whole research community of Politecnico di Torino, and other national associations and research centers.</p>
-<p><img decoding="async" loading="lazy" alt="AccessCoVE cover slide" src="https://elite.polito.it/assets/images/2023-11-30-AccessCoVE-FillInTheGaps_1-7034e888d0a8f5b68957993107ae1b99.png" width="2000" height="1125" class="img_ev3q"></p>
-<p>Maggiori informazioni:</p>
-<ul>
-<li><a href="https://elite.polito.it/research/Projects/AccessCoVE">Project description</a></li>
-<li><a href="https://accesscove.org/" target="_blank" rel="noopener noreferrer">Official project website</a></li>
-<li><a href="https://www.polito.it/ateneo/comunicazione-e-ufficio-stampa/appuntamenti/news?idn=21896" target="_blank" rel="noopener noreferrer">Presentation of the Fill In The Gaps event</a></li>
-<li><a href="https://elite.polito.it/research/Projects/AccessCoVE/dissemination">AccessCoVE dissemination events</a></li>
-</ul>]]></content>
-        <author>
-            <name>Fulvio Corno</name>
-            <uri>https://github.com/fulcorno</uri>
-        </author>
-        <author>
-            <name>Laura Farinetti</name>
-        </author>
-        <category label="events" term="events"/>
-        <category label="projects" term="projects"/>
-        <category label="teaching" term="teaching"/>
-        <category label="accessibility" term="accessibility"/>
     </entry>
 </feed>

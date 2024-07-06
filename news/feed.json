@@ -5,6 +5,24 @@
     "description": "e-Lite Research Group Blog",
     "items": [
         {
+            "id": "https://elite.polito.it/news/2024/07/06/trustai",
+            "content_html": "<p>On June 26, I presented the work \"<strong>Empowering Users: End User Development for Mobile Applications Privacy Management</strong>\" at the first <a href=\"https://sites.google.com/view/trustedaicybersec2024\" target=\"_blank\" rel=\"noopener noreferrer\">International Workshop on Trusted Computing and Artificial Intelligence applied to Cybersecurity</a>, held in Paris.</p>\n<p>Smartphones have become integral to everyday life, offering numerous benefits but also raising significant privacy and security concerns. Users often face challenges managing app permissions and protecting personal data due to the complexity of existing smartphone operating system settings. Our research addresses these issues by introducing Privacy Manager, a mobile application designed for Android devices that employs an End-User Development (EUD) approach.</p>\n<p>Privacy Manager empowers users by providing personalized data protection and privacy security measures through user-friendly interfaces and customizable settings. This application enhances user awareness and control over their data, making privacy management accessible even to non-technical users.</p>\n<p>During the presentation, I detailed the development of Privacy Manager and discussed the results of a validation study conducted with 8 participants over a week. The study included an initial questionnaire, a week-long period of real-world application usage, and a final assessment using the System Usability Scale (SUS). The findings demonstrated the usability and effectiveness of Privacy Manager, highlighting its potential to significantly improve mobile privacy management.</p>\n<p>The presentation was well-received, sparking engaging discussions on the future of privacy management in mobile applications.</p>\n<p>If you're interested in learning more, our additional material is just a click away!</p>\n<hr>\n<ul>\n<li><a href=\"https://hdl.handle.net/11583/2990422\" target=\"_blank\" rel=\"noopener noreferrer\">Paper on PORTO@IRIS</a></li>\n<li><a href=\"https://elite.polito.it/assets/files/2024-trustai-privacymanager-287001dbd11cee6481a2647d583d2fa8.pdf\" target=\"_blank\">Slides</a></li>\n</ul>",
+            "url": "https://elite.polito.it/news/2024/07/06/trustai",
+            "title": "Presentation of \"Empowering Users: EUD for Mobile Applications Privacy Management\"",
+            "summary": "On June 26, 2024, Juan Pablo Sáenz presented the Article \"Empowering Users: End User Development for Mobile Applications Privacy Management\" at the first International Workshop on Trusted Computing and Artificial Intelligence applied to Cybersecurity, held in Paris.",
+            "date_modified": "2024-07-06T00:00:00.000Z",
+            "author": {
+                "name": "Juan Pablo Sáenz Moreno",
+                "url": "https://github.com/jpsaenzmo"
+            },
+            "tags": [
+                "conference",
+                "paper",
+                "end-user development",
+                "privacy"
+            ]
+        },
+        {
             "id": "https://elite.polito.it/news/2024/06/28/ie24-award",
             "content_html": "<p>On June 2024, 2024, Luigi De Russis joined (online) the <a href=\"https://ie2024.ijs.si/index.php/awards/\" target=\"_blank\" rel=\"noopener noreferrer\">closing and awards ceremony</a> at the Intelligent Environments (IE) 2024 conference to receive the <strong>Most Influential Paper Award</strong> for the 2018 paper entitled \"<em>'Hey Siri, do you understand me?': Virtual Assistants and Dysarthria</em>\".</p>\n<p class=\"text--center\"><img src=\"https://elite.polito.it/assets/images/award-ff4984d2ec308df1e2466a66eeedf4f4.png\" alt=\"Most influential paper award at IE 24\"></p>\n<p>The paper, authored by Fabio Ballati (former Ph.D. student), Fulvio Corno, and Luigi De Russis is recognized as the most influential paper in the last 5 years.</p>\n<p>It was the first work of the group on conversational agents and dysarthric speech, which was followed up by a <a href=\"https://dl.acm.org/doi/10.1145/3234695.3236354\" target=\"_blank\" rel=\"noopener noreferrer\">full paper</a> presented the ACM ASSETS 2018 conference.</p>\n<p>The awarded paper can be found on:</p>\n<ul>\n<li><a href=\"https://hdl.handle.net/11583/2705646\" target=\"_blank\" rel=\"noopener noreferrer\">PORTO@IRIS</a></li>\n<li><a href=\"https://ebooks.iospress.nl/volumearticle/49411\" target=\"_blank\" rel=\"noopener noreferrer\">IOS Press Library</a></li>\n</ul>",
             "url": "https://elite.polito.it/news/2024/06/28/ie24-award",
@@ -156,24 +174,6 @@
                 "projects",
                 "teaching",
                 "digital education"
-            ]
-        },
-        {
-            "id": "https://elite.polito.it/news/2023/12/04/AccessCoVE-FillInTheGaps",
-            "content_html": "<p>The project  <a href=\"https://elite.polito.it/research/Projects/AccessCoVE\">AccessCoVE</a> aims to structure excellence in Vocational Education and Training in the field of Accessibility, by establishing a European multi-level innovative and constantly growing Centre of Vocational Excellence - the AccessCoVE - in the field of accessibility for individuals with disabilities.</p>\n<p>On November 30, 2023, Politecnico di Torino organized an event on the topic of \"Disability, Research, and Intersectionality\", with talks by several researchers and professors who are actively involved in the field of accessibility. The event was organized in occasion of the International Day of rights of persons with disabilities.</p>\n<p>In that context, we held a short presentation of the AccessCoVE project, its partners, its objectives, and the ways in which the project will involve the whole research community of Politecnico di Torino, and other national associations and research centers.</p>\n<p><img decoding=\"async\" loading=\"lazy\" alt=\"AccessCoVE cover slide\" src=\"https://elite.polito.it/assets/images/2023-11-30-AccessCoVE-FillInTheGaps_1-7034e888d0a8f5b68957993107ae1b99.png\" width=\"2000\" height=\"1125\" class=\"img_ev3q\"></p>\n<p>Maggiori informazioni:</p>\n<ul>\n<li><a href=\"https://elite.polito.it/research/Projects/AccessCoVE\">Project description</a></li>\n<li><a href=\"https://accesscove.org/\" target=\"_blank\" rel=\"noopener noreferrer\">Official project website</a></li>\n<li><a href=\"https://www.polito.it/ateneo/comunicazione-e-ufficio-stampa/appuntamenti/news?idn=21896\" target=\"_blank\" rel=\"noopener noreferrer\">Presentation of the Fill In The Gaps event</a></li>\n<li><a href=\"https://elite.polito.it/research/Projects/AccessCoVE/dissemination\">AccessCoVE dissemination events</a></li>\n</ul>",
-            "url": "https://elite.polito.it/news/2023/12/04/AccessCoVE-FillInTheGaps",
-            "title": "Presentation of Erasmus+ project AccessCoVE",
-            "summary": "Project presentation in the event *Fill (in the) gaps* on Disability, Research and Intersectionality, organized by Politecnico di Torino for the International Day of rights of persons with disabilities.",
-            "date_modified": "2023-12-04T00:00:00.000Z",
-            "author": {
-                "name": "Fulvio Corno",
-                "url": "https://github.com/fulcorno"
-            },
-            "tags": [
-                "events",
-                "projects",
-                "teaching",
-                "accessibility"
             ]
         }
     ]
