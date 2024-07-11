@@ -24,7 +24,7 @@ export function Publication({ publication }) {
 
     const doi = lu.doi
     const handle = p.handle;
-    const volume_issue = lu.volume ? (lu.volume + (lu.issue ? ', ' + lu.issue : '')) : '';
+    const volume_issue = lu.volume ? (' ' + lu.volume + (lu.issue ? ', ' + lu.issue : '')) : '';
     const pages = lu.spage ? lu.spage + '-' + lu.epage : '';
     const congress = lu.book != 'Titolo volume non avvalorato' ? lu.book : 'Conference Proceedings';
 
@@ -34,7 +34,7 @@ export function Publication({ publication }) {
         case 'Journal Paper':
         case 'Journal Abstract':
             // [1] Patricia S. Abril and Robert Plant. 2007. The patent holder's dilemma: Buy, sell, or troll? Commun. ACM 50, 1 (Jan. 2007), 36-44. https://doi.org/10.1145/1188913.1188915
-            cite = <>{authors}. {year}. {title}. <em>{publication.lookupValues.jtitle}</em> {volume_issue}, {pages}</>;
+            cite = <>{authors}. {year}. {title}. <em>{publication.lookupValues.jtitle}</em>{volume_issue}{pages && (', ' + pages)}.</>;
             break;
 
         case 'Book':
@@ -46,12 +46,12 @@ export function Publication({ publication }) {
             // Donald E. Knuth. 2007. Computer programming as an art. ACM Turing award lectures. Association for Computing Machinery, New York, NY, USA, 1974. https://doi.org/10.1145/1283920.1283929
 
             // Stefan Kopp and Teena Hassan. 2022. The Fabric of Socially Interactive Agents: Multimodal Interaction Architectures. The Handbook on Socially Interactive Agents: 20 years of Research on Embodied Conversational Agents, Intelligent Virtual Agents, and Social Robotics Volume 2: Interactivity, Platforms, Application (1st ed.). Association for Computing Machinery, New York, NY, USA, 77–112. https://doi.org/10.1145/3563659.3563664
-            cite = <>{authors}. {year}. {title}. <em>{lu.book}</em>, {pages}</>;
+            cite = <>{authors}. {year}. {title}. <em>{lu.book}</em>{pages && (', ' + pages)}.</>;
             break;
 
         case 'Conference Proceedings':
             // [1] Sten Andler. 1979. Predicate path expressions. In Proceedings of the 6th. ACM SIGACT-SIGPLAN Symposium on Principles of Programming Languages (POPL '79), January 29 - 31, 1979,  San Antonio, Texas. ACM Inc., New York, NY, 226-236. https://doi.org/10.1145/567752.567774
-            cite = <>{authors}. {year}. {title}. In <em>{congress}</em>, {pages}</>;
+            cite = <>{authors}. {year}. {title}. In <em>{congress}</em>{pages && (', ' + pages)}.</>;
             // note: missing: location and congress dates (they are not in the JSON)
             break;
 
@@ -62,7 +62,6 @@ export function Publication({ publication }) {
         default:
             cite = lu.citation;
     }
-
 
     return <li>{cite}
         <br />
