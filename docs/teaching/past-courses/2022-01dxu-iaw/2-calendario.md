@@ -471,4 +471,4 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 
 ## Video lezioni
 
-<div><iframe src="https://www.youtube.com/embed/videoseries?list=PLs7DWGc_wmwTg9F9SkP6GWtJ5FV36dIxp" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="allowfullscreen" width="640" height="360" frameBorder="0"></iframe></div>
+<div><iframe src="https://www.youtube.com/embed/videoseries?list=PLs7DWGc_wmwTg9F9SkP6GWtJ5FV36dIxp" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="allowFullScreen" width="640" height="360" frameBorder="0"></iframe></div>

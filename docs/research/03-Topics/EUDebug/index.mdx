@@ -9,19 +9,16 @@
 Nowadays, end users who want to personalize their **Internet of Things** (IoT) ecosystem can take advantage of
 visual programming platforms such as [IFTTT](https://ifttt.com/discover) or [Zapier](https://zapier.com/). In such
 **End-User Development** (EUD) platforms, users can program
-the joint behavior of their devices and online services by defining **trigger-action** rules such as “_if the Nest
-camera in
-the kitchen detects a movement,then send me a Telegram message_.” Trigger-action programming is, however, a complex task
+the joint behavior of their devices and online services by defining **trigger-action** rules such as "_if the Nest
+camera in the kitchen detects a movement,then send me a Telegram message_." Trigger-action programming is, however, a complex task
 for non-programmers, and errors made during the composition of rules may lead to unpredictable behaviors and security
 issues, e.g., a lamp that is continuously flashing or a door that is unexpectedly unlocked. As a consequence, one of the
 most important and urgent challenges in this context is the need to avoid possible conflicts and to assess the
 correctness of trigger-action rules. For this purpose, we introduce **EUDebug**, a system that enables end users to
-debug
-their trigger-action rules.
+debug their trigger-action rules.
 
 The goal of **EUDebug** is to properly warn users when they are defining any troublesome or potentially dangerous
-behavior,
-according to two strategies:
+behavior, according to two strategies:
 
 1. by assisting them in identifying rule conflicts, and
 2. by helping them foresee the run-time behavior of their rules through step-by-step simulation.
@@ -30,10 +27,9 @@ The figure below shows a sample usage scenario.
 
 <img src={require("./overview.png").default}/>
 
-1. The user composes a new trigger-action rule in a web-based application modeled after IFTTT (e.g., “_if the security
-   camera in the office is armed, then unlock the door_”). As the user is composing the rule, EUDebug employs a novel
-   hybrid
-   Semantic Colored Petri Net to model, check, and simulate the rule with respect to previously defined trigger-action
+1. The user composes a new trigger-action rule in a web-based application modeled after IFTTT (e.g., "_if the security
+   camera in the office is armed, then unlock the door_"). As the user is composing the rule, EUDebug employs a novel
+   hybrid Semantic Colored Petri Net to model, check, and simulate the rule with respect to previously defined trigger-action
    rules.
 2. When the rule composition is completed, EUDebug highlights possible problems that the rule may generate, by providing
    a short explanation to the user.
@@ -49,10 +45,7 @@ detect and show problems like loops, inconsistencies, and redundancies.
 
 Check out the following video and papers for additional details.
 
-<iframe style={{display:'block', marginLeft: 'auto', marginRight: 'auto'}}
-src="https://www.youtube-nocookie.com/embed/iE34A1agELI"
-width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"
-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
+<iframe style={{display:'block', marginLeft: 'auto', marginRight: 'auto'}} width="560" height="315" src="https://www.youtube-nocookie.com/embed/iE34A1agELI?si=8s9gsODVcFDfaKOJ" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
 
 ## Publications
 

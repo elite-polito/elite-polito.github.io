@@ -29,7 +29,7 @@ Nota: le slide sono anche disponibili su GitHub, al link: https://github.com/pol
 
 ## Video Lezioni
 
-<iframe src="https://www.youtube.com/embed/videoseries?list=PLqRTLlwsxDL-yRy3U34aImItjkWhcnSdY" allowFullScreen="allowfullscreen" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" width="560" height="315" frameBorder="0"></iframe>
+<iframe src="https://www.youtube.com/embed/videoseries?list=PLqRTLlwsxDL-yRy3U34aImItjkWhcnSdY" allowFullScreen="allowFullScreen" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" width="560" height="315" frameBorder="0"></iframe>
 
 ## Esercizi svolti in aula
 

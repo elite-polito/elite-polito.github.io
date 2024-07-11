@@ -558,4 +558,4 @@ All slides, examples, exercises, and any other material used in the classroom an
 
 ## Video lectures
 
-<div><iframe src="https://www.youtube.com/embed/videoseries?list=PLs7DWGc_wmwRZHYGyiQxcgfJ7U1X81N_i" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="allowfullscreen" width="640" height="360" frameBorder="0"></iframe></div>
+<div><iframe src="https://www.youtube.com/embed/videoseries?list=PLs7DWGc_wmwRZHYGyiQxcgfJ7U1X81N_i" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="allowFullScreen" width="640" height="360" frameBorder="0"></iframe></div>
