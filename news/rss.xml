@@ -4,11 +4,32 @@
         <title>e-Lite Research Group Blog</title>
         <link>https://elite.polito.it/news</link>
         <description>e-Lite Research Group Blog</description>
-        <lastBuildDate>Sat, 06 Jul 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 15 Jul 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <copyright>Copyright © 2024 Politecnico di Torino</copyright>
+        <item>
+            <title><![CDATA[2nd AccessCoVE Project Meeting]]></title>
+            <link>https://elite.polito.it/news/2024/07/15/AccessCoVE-Meeting</link>
+            <guid>https://elite.polito.it/news/2024/07/15/AccessCoVE-Meeting</guid>
+            <pubDate>Mon, 15 Jul 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[On July 15 and 16, the partners of the AccessCoVE project met for the 2nd plenary meeting of the project.]]></description>
+            <content:encoded><![CDATA[<p>On July 15 and 16, the partners of the AccessCoVE project met for the 2nd plenary meeting of the project
+(following the kick-off meeting in Thessaloniki in September 2023, and many on-line meetings).</p>
+<p>The partners were hosted for two very dense days in the Ciminiera Meeting Room at the Department of Control
+and Computer Engineering, in Politecnico di Torino. The partners revised the different Workpackages and pending
+activities, and planned a significant number of activities for the next Autumn.</p>
+<p>More information:</p>
+<ul>
+<li><a href="https://elite.polito.it/research/Projects/AccessCoVE">Project description</a></li>
+<li><a href="https://accesscove.org/" target="_blank" rel="noopener noreferrer">Official project website</a></li>
+</ul>]]></content:encoded>
+            <category>events</category>
+            <category>projects</category>
+            <category>teaching</category>
+            <category>accessibility</category>
+        </item>
         <item>
             <title><![CDATA[Presentation of "Empowering Users: EUD for Mobile Applications Privacy Management"]]></title>
             <link>https://elite.polito.it/news/2024/07/06/trustai</link>
@@ -230,25 +251,6 @@ The IoT Proxy distinguishes itself by its configurability, providing a versatile
 </ul>]]></content:encoded>
             <category>events</category>
             <category>conference</category>
-            <category>digital education</category>
-        </item>
-        <item>
-            <title><![CDATA[Hands-on Workshop on Critical Making]]></title>
-            <link>https://elite.polito.it/news/2023/12/11/CriticalMaking-Workshop</link>
-            <guid>https://elite.polito.it/news/2023/12/11/CriticalMaking-Workshop</guid>
-            <pubDate>Mon, 11 Dec 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Some partners of the 'Critical Making' Erasmus project started a reflection on how critical thinking and makerspaces may help fighting fake news in STEM]]></description>
-            <content:encoded><![CDATA[<p>Critical Making is a newly approved Erasmus+ Forward Looking Project, that will start on the 1st of January, 2024. In preparation for the project start, some partners (Politecnico di Torino, the Links Foundation and the Pädagogische Hochschule Weingarten) organized a hands-on activity, open to teachers of Politecnico di Torino and other collaborators of the TLlab.</p>
-<p><img decoding="async" loading="lazy" alt="Critical Making Scenarios and activity sheets" src="https://elite.polito.it/assets/images/workshop-materials-fcde4a75cd80ccf71dc3dce7f8d98eac.jpg" width="750" height="459" class="img_ev3q"></p>
-<p>On December 7th, teachers gathered in the nice "Palazzina TLlab", the key space for all activities of the Teaching and Language Lab, and were guided by Flavio Renga and Chiara Ciociola (Links Foundation) in the analysis of 4 different scenarios that may contain scientifically inaccurate (or outright wrong) information. In a 3-step process, teachers were asked to identify the elements of "critical thinking", "making" and "disinformation" in one of the scenarios, to share their ideas in a group and synthesize them, and finally to start working on a possible definition for 'critical making' by reshuffling the groups and comparing ideas and insights. The 2-hour activity went out in a breeze, and the results presented by the moderators were intriguing and promising, and will be used as a starting point for the project activities.</p>
-<p>More information:</p>
-<ul>
-<li><a href="https://www.polito.it/ateneo/comunicazione-e-ufficio-stampa/appuntamenti/news?idn=22021" target="_blank" rel="noopener noreferrer">News about the worksop on Politecnico di Torino's website</a></li>
-<li>For more information contact the Teaching and Language Laboratory:  <a href="mailto:tllab@polito.it" target="_blank" rel="noopener noreferrer">tllab@polito.it</a></li>
-</ul>]]></content:encoded>
-            <category>events</category>
-            <category>projects</category>
-            <category>teaching</category>
             <category>digital education</category>
         </item>
     </channel>

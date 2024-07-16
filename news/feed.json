@@ -5,6 +5,24 @@
     "description": "e-Lite Research Group Blog",
     "items": [
         {
+            "id": "https://elite.polito.it/news/2024/07/15/AccessCoVE-Meeting",
+            "content_html": "<p>On July 15 and 16, the partners of the AccessCoVE project met for the 2nd plenary meeting of the project\n(following the kick-off meeting in Thessaloniki in September 2023, and many on-line meetings).</p>\n<p>The partners were hosted for two very dense days in the Ciminiera Meeting Room at the Department of Control\nand Computer Engineering, in Politecnico di Torino. The partners revised the different Workpackages and pending\nactivities, and planned a significant number of activities for the next Autumn.</p>\n<p>More information:</p>\n<ul>\n<li><a href=\"https://elite.polito.it/research/Projects/AccessCoVE\">Project description</a></li>\n<li><a href=\"https://accesscove.org/\" target=\"_blank\" rel=\"noopener noreferrer\">Official project website</a></li>\n</ul>",
+            "url": "https://elite.polito.it/news/2024/07/15/AccessCoVE-Meeting",
+            "title": "2nd AccessCoVE Project Meeting",
+            "summary": "On July 15 and 16, the partners of the AccessCoVE project met for the 2nd plenary meeting of the project.",
+            "date_modified": "2024-07-15T00:00:00.000Z",
+            "author": {
+                "name": "Fulvio Corno",
+                "url": "https://github.com/fulcorno"
+            },
+            "tags": [
+                "events",
+                "projects",
+                "teaching",
+                "accessibility"
+            ]
+        },
+        {
             "id": "https://elite.polito.it/news/2024/07/06/trustai",
             "content_html": "<p>On June 26, I presented the work \"<strong>Empowering Users: End User Development for Mobile Applications Privacy Management</strong>\" at the first <a href=\"https://sites.google.com/view/trustedaicybersec2024\" target=\"_blank\" rel=\"noopener noreferrer\">International Workshop on Trusted Computing and Artificial Intelligence applied to Cybersecurity</a>, held in Paris.</p>\n<p>Smartphones have become integral to everyday life, offering numerous benefits but also raising significant privacy and security concerns. Users often face challenges managing app permissions and protecting personal data due to the complexity of existing smartphone operating system settings. Our research addresses these issues by introducing Privacy Manager, a mobile application designed for Android devices that employs an End-User Development (EUD) approach.</p>\n<p>Privacy Manager empowers users by providing personalized data protection and privacy security measures through user-friendly interfaces and customizable settings. This application enhances user awareness and control over their data, making privacy management accessible even to non-technical users.</p>\n<p>During the presentation, I detailed the development of Privacy Manager and discussed the results of a validation study conducted with 8 participants over a week. The study included an initial questionnaire, a week-long period of real-world application usage, and a final assessment using the System Usability Scale (SUS). The findings demonstrated the usability and effectiveness of Privacy Manager, highlighting its potential to significantly improve mobile privacy management.</p>\n<p>The presentation was well-received, sparking engaging discussions on the future of privacy management in mobile applications.</p>\n<p>If you're interested in learning more, our additional material is just a click away!</p>\n<hr>\n<ul>\n<li><a href=\"https://hdl.handle.net/11583/2990422\" target=\"_blank\" rel=\"noopener noreferrer\">Paper on PORTO@IRIS</a></li>\n<li><a href=\"https://elite.polito.it/assets/files/2024-trustai-privacymanager-287001dbd11cee6481a2647d583d2fa8.pdf\" target=\"_blank\">Slides</a></li>\n</ul>",
             "url": "https://elite.polito.it/news/2024/07/06/trustai",
@@ -155,24 +173,6 @@
             "tags": [
                 "events",
                 "conference",
-                "digital education"
-            ]
-        },
-        {
-            "id": "https://elite.polito.it/news/2023/12/11/CriticalMaking-Workshop",
-            "content_html": "<p>Critical Making is a newly approved Erasmus+ Forward Looking Project, that will start on the 1st of January, 2024. In preparation for the project start, some partners (Politecnico di Torino, the Links Foundation and the Pädagogische Hochschule Weingarten) organized a hands-on activity, open to teachers of Politecnico di Torino and other collaborators of the TLlab.</p>\n<p><img decoding=\"async\" loading=\"lazy\" alt=\"Critical Making Scenarios and activity sheets\" src=\"https://elite.polito.it/assets/images/workshop-materials-fcde4a75cd80ccf71dc3dce7f8d98eac.jpg\" width=\"750\" height=\"459\" class=\"img_ev3q\"></p>\n<p>On December 7th, teachers gathered in the nice \"Palazzina TLlab\", the key space for all activities of the Teaching and Language Lab, and were guided by Flavio Renga and Chiara Ciociola (Links Foundation) in the analysis of 4 different scenarios that may contain scientifically inaccurate (or outright wrong) information. In a 3-step process, teachers were asked to identify the elements of \"critical thinking\", \"making\" and \"disinformation\" in one of the scenarios, to share their ideas in a group and synthesize them, and finally to start working on a possible definition for 'critical making' by reshuffling the groups and comparing ideas and insights. The 2-hour activity went out in a breeze, and the results presented by the moderators were intriguing and promising, and will be used as a starting point for the project activities.</p>\n<p>More information:</p>\n<ul>\n<li><a href=\"https://www.polito.it/ateneo/comunicazione-e-ufficio-stampa/appuntamenti/news?idn=22021\" target=\"_blank\" rel=\"noopener noreferrer\">News about the worksop on Politecnico di Torino's website</a></li>\n<li>For more information contact the Teaching and Language Laboratory:  <a href=\"mailto:tllab@polito.it\" target=\"_blank\" rel=\"noopener noreferrer\">tllab@polito.it</a></li>\n</ul>",
-            "url": "https://elite.polito.it/news/2023/12/11/CriticalMaking-Workshop",
-            "title": "Hands-on Workshop on Critical Making",
-            "summary": "Some partners of the 'Critical Making' Erasmus project started a reflection on how critical thinking and makerspaces may help fighting fake news in STEM",
-            "date_modified": "2023-12-11T00:00:00.000Z",
-            "author": {
-                "name": "Fulvio Corno",
-                "url": "https://github.com/fulcorno"
-            },
-            "tags": [
-                "events",
-                "projects",
-                "teaching",
                 "digital education"
             ]
         }
