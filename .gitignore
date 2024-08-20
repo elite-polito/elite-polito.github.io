@@ -21,3 +21,6 @@ yarn-error.log*
 
 # WebStorm
 /.idea
+
+# VSCode
+/.vscode
