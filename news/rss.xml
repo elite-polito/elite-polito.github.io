@@ -4,16 +4,16 @@
         <title>e-Lite Research Group Blog</title>
         <link>https://elite.polito.it/news</link>
         <description>e-Lite Research Group Blog</description>
-        <lastBuildDate>Wed, 21 Aug 2024 10:38:27 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 25 Jul 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <copyright>Copyright © 2024 Politecnico di Torino</copyright>
         <item>
             <title><![CDATA[Study on Enhancing Smart Home Interactions Published in Personal and Ubiquitous Computing]]></title>
-            <link>https://elite.polito.it/news/2024-puc-multimodal-disambiguation</link>
-            <guid>https://elite.polito.it/news/2024-puc-multimodal-disambiguation</guid>
-            <pubDate>Wed, 21 Aug 2024 10:38:27 GMT</pubDate>
+            <link>https://elite.polito.it/news/2024/07/25/puc-multimodal-disambiguation</link>
+            <guid>https://elite.polito.it/news/2024/07/25/puc-multimodal-disambiguation</guid>
+            <pubDate>Thu, 25 Jul 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[We announce the publication the paper "Enhancing smart home interaction through multimodal command disambiguation" in Personal and Ubiquitous Computing, a leading journal in the field of ubiquitous and pervasive computing.]]></description>
             <content:encoded><![CDATA[<p>We are excited to announce the publication of our latest research paper in Personal and Ubiquitous Computing. The study, titled <strong>"Enhancing smart home interaction through multimodal command disambiguation,"</strong> and conducted by me and <strong>Luigi De Russis</strong>, explores an innovative approach to making smart homes more intuitive and responsive to user commands.</p>
 <p>Imagine a scenario where a user says, "Set a cozy mood in the living room." This simple command can be interpreted in various ways. Does "cozy" mean dimming the lights, adjusting the temperature, or perhaps playing soft background music?
