@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://elite.polito.it/news</id>
     <title>e-Lite Research Group Blog</title>
-    <updated>2024-08-21T09:42:40.000Z</updated>
+    <updated>2024-08-21T10:09:14.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://elite.polito.it/news"/>
     <subtitle>e-Lite Research Group Blog</subtitle>
@@ -12,7 +12,7 @@
         <title type="html"><![CDATA[Study on Enhancing Smart Home Interactions Published in Personal and Ubiquitous Computing]]></title>
         <id>https://elite.polito.it/news/2024-puc-multimodal-disambiguation</id>
         <link href="https://elite.polito.it/news/2024-puc-multimodal-disambiguation"/>
-        <updated>2024-08-21T09:42:40.000Z</updated>
+        <updated>2024-08-21T10:09:14.000Z</updated>
         <summary type="html"><![CDATA[We announce the publication the paper "Enhancing smart home interaction through multimodal command disambiguation" in Personal and Ubiquitous Computing, a leading journal in the field of ubiquitous and pervasive computing.]]></summary>
         <content type="html"><![CDATA[<p>We are excited to announce the publication of our latest research paper in Personal and Ubiquitous Computing. The study, titled <strong>"Enhancing smart home interaction through multimodal command disambiguation,"</strong> and conducted by me and <strong>Luigi De Russis</strong>, explores an innovative approach to making smart homes more intuitive and responsive to user commands.</p>
 <p>Imagine a scenario where a user says, "Set a cozy mood in the living room." This simple command can be interpreted in various ways. Does "cozy" mean dimming the lights, adjusting the temperature, or perhaps playing soft background music?
