@@ -15,7 +15,7 @@ import {ProjectCard} from '@site/src/components/Projects'
 ## European projects
 
 <ProjectCard
-    icon={undefined}
+    icon='Critical-Making.png'
     title='Critical Making'
     url='/research/Projects/CriticalMaking'
     period='2024-2026'

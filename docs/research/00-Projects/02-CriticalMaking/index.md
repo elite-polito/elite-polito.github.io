@@ -2,8 +2,13 @@
 description: 'Critical Making project information'
 ---
 
+import logo from '../../00-Projects-Logos/Critical-Making.png'
+
 
 # Critical Making
+
+<img src={logo} width='50%' style={{'float':'right'}} />
+
 
 ## Critical Making - Addressing Misinformation in STEM Through Makerspaces
 
