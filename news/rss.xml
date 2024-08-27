@@ -4,11 +4,58 @@
         <title>e-Lite Research Group Blog</title>
         <link>https://elite.polito.it/news</link>
         <description>e-Lite Research Group Blog</description>
-        <lastBuildDate>Thu, 25 Jul 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 27 Aug 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <copyright>Copyright © 2024 Politecnico di Torino</copyright>
+        <item>
+            <title><![CDATA[Critical Making: Primo percorso di formazione contro la disinformazione scientifica]]></title>
+            <link>https://elite.polito.it/news/2024/08/27/criticalmaking-course</link>
+            <guid>https://elite.polito.it/news/2024/08/27/criticalmaking-course</guid>
+            <pubDate>Tue, 27 Aug 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Il progetto Erasmus+ Critical Making lancia il suo corso per combattere la disinformazione in ambito scientifico attraverso la progettazione didattica e l'integrazione delle tecnologie. Il corso è rivolto a tutti i docenti STEM degli istituti secondari di secondo grado. Iscrizioni aperte fino al 30 settembre.]]></description>
+            <content:encoded><![CDATA[<p><a href="https://elite.polito.it/assets/files/Volantino%20Formazione%20Critical%20Making-17c19c1f20d217f9c4170a30df919815.pdf" target="_blank"><img src="https://elite.polito.it/assets/images/full-volantino-formazione-critical-making-e8fc77138fe12163b15639a67c8ebb0c.png" width="40%" align="right"></a>
+Il progetto Erasmus+ <strong><a href="https://critical-making.eu/" target="_blank" rel="noopener noreferrer">Critical Making</a></strong>, i cui partner includono il <a href="https://www.polito.it/" target="_blank" rel="noopener noreferrer">Politecnico di Torino</a> e la <a href="https://linksfoundation.com/" target="_blank" rel="noopener noreferrer">Fondazione Links</a>,
+ed in cui la <a href="https://www.associazionedschola.it/" target="_blank" rel="noopener noreferrer">associazione Dschola</a> è partner associato,
+entra nella fase operativa e  lancia il suo corso per aiutare i docenti a combattere la disinformazione in ambito scientifico
+attraverso la progettazione didattica e l'integrazione delle tecnologie.</p>
+<p>Il corso  si svolgerà all'interno del laboratorio specificatamente attrezzato al Politecnico di Torino nei mesi di ottobre e novembre,
+dove si  sperimenterà in pratica come integrare nella propria disciplina tecnologie hardware e software (robot, stampanti 3D, videogiochi, audio/video)
+con il duplice obiettivo di aumentare le competenze digitali degli studenti e combattere la loro disinformazione in ambito scientifico.</p>
+<p>In questo percorso sarai accompagnatə
+nello sviluppo di un progetto didattico e
+farai parte di un ambiente di apprendi-
+mento composto da te, altri docenti,
+ricercatori, facilitatori e vari strumenti da
+esplorare, che potrai utilizzare come
+“materiale da costruzione” per realizzare
+il tuo progetto.</p>
+<p>Le iscrizioni sono <em>aperte fino al 30 settembre</em>: i posti sono limitati, <a href="https://forms.office.com/e/2BMfi12pce" target="_blank" rel="noopener noreferrer">affrettarsi a prenotarsi</a> per non perdere questa bella opportunità.</p>
+<!-- -->
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="il-progetto-critical-making">Il progetto Critical Making<a class="hash-link" aria-label="Direct link to Il progetto Critical Making" title="Direct link to Il progetto Critical Making" href="https://elite.polito.it/news/2024/08/27/criticalmaking-course#il-progetto-critical-making">​</a></h4>
+<p>Le fake news sono informazioni fuorvianti che compaiono sui social media con l'obiettivo di
+manipolare le opinioni. Questo percorso di apprendimento è parte del progetto europeo
+Critical Making, che mira a sviluppare programmi di formazione per insegnanti con
+l'obiettivo di aiutare gli studenti a sviluppare il senso critico, lavorando ad un progetto
+concreto e significativo.</p>
+<hr>
+<p>Informazioni ed iscrizioni:</p>
+<ul>
+<li><a href="https://elite.polito.it/assets/files/Volantino%20Formazione%20Critical%20Making-17c19c1f20d217f9c4170a30df919815.pdf" target="_blank">Volantino di presentazione (pdf)</a></li>
+<li><a href="https://forms.office.com/e/2BMfi12pce" target="_blank" rel="noopener noreferrer">Modulo di prenotazione</a></li>
+</ul>
+<p>Maggiori informazioni:</p>
+<ul>
+<li><a href="https://critical-making.eu/" target="_blank" rel="noopener noreferrer">Sito ufficiale del progetto Critical Making</a></li>
+<li><a href="https://elite.polito.it/research/Projects/CriticalMaking">Scheda del progetto Critical Making</a></li>
+<li><a href="https://www.associazionedschola.it/blog/2024/08/26/critical-making-contro-la-disinformazione-in-ambito-scientifico/" target="_blank" rel="noopener noreferrer">Post sul sito dell'Asssocianzione DSchola</a></li>
+</ul>]]></content:encoded>
+            <category>project</category>
+            <category>education</category>
+            <category>teaching</category>
+            <category>digital education</category>
+        </item>
         <item>
             <title><![CDATA[Study on Enhancing Smart Home Interactions Published in Personal and Ubiquitous Computing]]></title>
             <link>https://elite.polito.it/news/2024/07/25/puc-multimodal-disambiguation</link>
@@ -228,34 +275,6 @@ As before, course materials are available on this website under <a href="https:/
             <category>journal</category>
             <category>paper</category>
             <category>digital wellbeing</category>
-        </item>
-        <item>
-            <title><![CDATA[Publication: "Security at the Edge for Resource-Limited IoT Devices"]]></title>
-            <link>https://elite.polito.it/news/2024/01/17/Sensors-IOTProxy</link>
-            <guid>https://elite.polito.it/news/2024/01/17/Sensors-IOTProxy</guid>
-            <pubDate>Wed, 17 Jan 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[The research artcile "Security at the Edge for Resource-Limited IoT Devices" has been recently published in the special issue "Emerging IoT Technologies for Smart Environments, 3rd Edition" of MDPI Sensors.]]></description>
-            <content:encoded><![CDATA[<p>Luca Mannella has recently co-authored a new research article titled "<a href="https://www.mdpi.com/1424-8220/24/2/590" target="_blank" rel="noopener noreferrer">Security at the Edge for Resource-Limited IoT Devices</a>", in the special issue "<a href="https://www.mdpi.com/journal/sensors/special_issues/4ODP84BU72" target="_blank" rel="noopener noreferrer">Emerging IoT Technologies for Smart Environments, 3rd Edition</a>" of <a href="https://www.mdpi.com/journal/sensors" target="_blank" rel="noopener noreferrer">MDPI Sensors</a>.
-This research is a collaborative effort with Daniele Canavese (<a href="https://www.irit.fr/en/home/" target="_blank" rel="noopener noreferrer">Institut de Recherche en Informatique de Toulouse</a>), <a href="https://web.unica.it/unica/page/it/leonardo_regano" target="_blank" rel="noopener noreferrer">Leonardo Regano</a> (Università degli Studi di Cagliari), and <a href="https://www.polito.it/en/staff?p=cataldo.basile" target="_blank" rel="noopener noreferrer">Cataldo Basile</a> (TORSEC research group, DAUIN, Politecnico di Torino).</p>
-<p>The proliferation of IoT devices (14.4 billion active endpoints at the end of 2022) has introduced security vulnerabilities stemming from limited computing power, absence of timely security updates, and intrinsic design flaws. This paper aims to improve the security of IoT devices presenting the IoT Proxy, a modular component crafted to enhance security in resource-limited IoT scenarios.
-At its core, the IoT Proxy is crafted to externalize security-related functions from IoT devices, mitigating limitations arising from constrained computing power. This is achieved through a secure network gateway equipped with diverse Virtual Network Security Functions (VNSFs), allowing for adaptability and scalability.</p>
-<img src="https://elite.polito.it/assets/images/workflow-8a466819c307f24c1284a6a493260145.jpg" alt="Architecture and workflow of the IoT Proxy" width="80%">
-<p>With a focus on modularity, the IoT Proxy accommodates various VNSFs. Our proof of concept includes a Virtual Private Network (VPN) terminator and an Intrusion Detection System (IDS)/Intrusion Prevention System (IPS). A notably aspect of our IDS/IPS is the incorporation of the "oblivious authentication", a machine learning-based technique capable of identifying an IoT device through its network traffic (without imposing additional computational overhead on edge devices).
-The IoT Proxy distinguishes itself by its configurability, providing a versatile solution tailored to specific requirements. Indeed, the IDS/IPS module is bidirectionally configurable, ensuring seamless integration with diverse IoT environments without imposing rigid constraints.</p>
-<img src="https://elite.polito.it/assets/images/flowchart-fae378d31eaaa5a7e72a5d1770516aec.jpg" alt="Workflow of the IDS/IPS module of the IoT Proxy" width="70%">
-<p>To learn more about this research activity, you can <a href="https://www.researchgate.net/publication/377463843_Security_at_the_Edge_for_Resource-Limited_IoT_Devices" target="_blank" rel="noopener noreferrer">access the full paper</a> through the link at the end of this page.</p>
-<p>To conclude, we extend our gratitude to Lorenzo Cesetti for his invaluable contributions during the course of this research through <a href="https://webthesis.biblio.polito.it/28583/" target="_blank" rel="noopener noreferrer">his master thesis</a>.</p>
-<hr>
-<p>Additional information:</p>
-<ul>
-<li><a href="https://www.researchgate.net/publication/377463843_Security_at_the_Edge_for_Resource-Limited_IoT_Devices" target="_blank" rel="noopener noreferrer">Paper on ReserachGate</a></li>
-<li><a href="https://hdl.handle.net/11583/2985177" target="_blank" rel="noopener noreferrer">Paper on PORTO@IRIS</a></li>
-<li><a href="https://www.mdpi.com/1424-8220/24/2/590" target="_blank" rel="noopener noreferrer">Paper on MDPI website</a></li>
-</ul>]]></content:encoded>
-            <category>journal</category>
-            <category>special issue</category>
-            <category>paper</category>
-            <category>IoT</category>
         </item>
     </channel>
 </rss>
