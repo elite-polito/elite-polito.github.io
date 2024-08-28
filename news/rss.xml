@@ -4,11 +4,35 @@
         <title>e-Lite Research Group Blog</title>
         <link>https://elite.polito.it/news</link>
         <description>e-Lite Research Group Blog</description>
-        <lastBuildDate>Tue, 27 Aug 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 28 Aug 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <copyright>Copyright © 2024 Politecnico di Torino</copyright>
+        <item>
+            <title><![CDATA[Participation at GoodIT 2024]]></title>
+            <link>https://elite.polito.it/news/2024/08/28/goodit</link>
+            <guid>https://elite.polito.it/news/2024/08/28/goodit</guid>
+            <pubDate>Wed, 28 Aug 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[On September 4-6, 2024, the 4th International Conference on Information Technology for Social Good (GoodIT 2024) in Bremen, Germany. Luca Scibetta will present a paper entitled "Dialogues with Digital Wisdom: Can LLMs Help Us Put Down the Phone?"]]></description>
+            <content:encoded><![CDATA[<p>On September 4-6, 2024, the e-Lite group will attend (in person) the <a href="https://blogs.uni-bremen.de/goodit2024/" target="_blank" rel="noopener noreferrer"><em>4th International Conference on Information Technology for Social Good</em></a> (GoodIT 2024) in Bremen, Germany. Luca Scibetta will present the work-in-progress paper "<em>Dialogues with Digital Wisdom: Can LLMs Help Us Put Down the Phone?</em>" on Wednesday, <strong>4 September</strong> at 10:00 (WiP 1).</p>
+<p class="text--center"><img src="https://elite.polito.it/assets/images/banner-9118fac26a5ad094ef9d0179e480afb7.png" alt="Banner of the GoodIT 2024 conference"></p>
+<p>The paper explores the potential of Large Language Models (LLMs), such as Bing, ChatGPT, Gemini, and Claude.AI,
+to act as "digital wellbeing assistants" and help users manage problematic smartphone use and improve digital wellbeing. Unlike traditional digital self-control methods,
+these AI chatbots can provide personalized suggestions to address issues like overuse and possible solutions, tailored to individual needs.
+The research developed four user personas based on the existing literature and representing a different type of negative smartphone usage pattern to test the effectiveness of these
+LLMs in understanding and responding to various smartphone use problems, providing suitable and diversified solutions.
+The findings suggest that LLMs could lead to smarter, AI-driven strategies for enhancing digital self-control and supporting users' self-monitoring and regulation.</p>
+<p>Read the paper by following the links below!</p>
+<hr>
+<p>Additional information:</p>
+<ul>
+<li><a href="https://iris.polito.it/handle/11583/2992025" target="_blank" rel="noopener noreferrer">Paper on PORTO@IRIS</a></li>
+<li><a href="https://blogs.uni-bremen.de/goodit2024/program/" target="_blank" rel="noopener noreferrer">Full conference program</a></li>
+</ul>]]></content:encoded>
+            <category>conference</category>
+            <category>paper</category>
+        </item>
         <item>
             <title><![CDATA[Critical Making: Primo percorso di formazione contro la disinformazione scientifica]]></title>
             <link>https://elite.polito.it/news/2024/08/27/criticalmaking-course</link>
@@ -251,30 +275,6 @@ The English course is also offered as a choice to students in the master's degre
 As before, course materials are available on this website under <a href="https://elite.polito.it/teaching/03fyz-tdp">Teaching &gt; Tecniche di Programmazione (03FYZ)</a>. The students' guide includes the official <a href="https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=03FYZPL" target="_blank" rel="noopener noreferrer">course description</a>.</p>]]></content:encoded>
             <category>courses</category>
             <category>teaching</category>
-        </item>
-        <item>
-            <title><![CDATA[Publication: "Hey StepByStep! Can You Teach Me How To Use My Phone Better?"]]></title>
-            <link>https://elite.polito.it/news/2024/02/12/ijhcs-stepbystep</link>
-            <guid>https://elite.polito.it/news/2024/02/12/ijhcs-stepbystep</guid>
-            <pubDate>Mon, 12 Feb 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Our recent paper published on the International Journal of Human-Computer Studies (IJHCS) talks about StepByStep, a novel mobile DSCT that proactively assists users in learning how to regulate smartphone use through adaptable and continuously variable interventions.]]></description>
-            <content:encoded><![CDATA[<p>People nowadays have access to Digital Self-Control Tools (DSCTs) that can help them manage their technology use. These tools offer features such as timers and the ability to disable distracting functionalities like recommendations and newsfeeds. However, researchers have identified several limitations with existing DSCTs, ranging from theoretical gaps to an overreliance on users' self-monitoring abilities.</p>
-<p>In our work, we tried to overcome such limits and effectively support people in regaining control over smartphone use in the long term, focusing on <b><em>teaching</em></b> users how to relate better with technology, so that they can break unwanted smartphone habits and establish alternative behaviors without being forced to use a supportive tool forever.</p>
-<p>Specifically, we designed, implemented, and evaluated <b><em>StepByStep</em></b>, a novel mobile DSCT that proactively assists users in learning how to regulate smartphone use.</p>
-<p class="text--center"><img src="https://elite.polito.it/assets/images/sbs-c393938bc95085610f4f92f0ee944234.png" alt="Some screenshots from the StepByStep app" width="60%"></p>
-<p>By monitoring user's behavior, the app suggests new personalized learning paths composed of adaptable and continuously variable interventions to reduce and change unwanted behaviors with the smartphone.  These paths can be at phone or app-level, and may be used to shape different behaviors, from avoiding using the smartphone in specific circumstances to using an app for an established amount of time. The main idea behind a learning path, in particular, is to progressively reduce the degree of support of the tool - i.e., the intensity of the associated intervention - based on user's achievements, until the user acquires a sufficient level of independence, i.e., it is able to sustain the new behavior without the help of the tool. To this end, StepByStep follows a gamification approach through which the intensity of an intervention is divided into four different levels. Users can gain points and advance in levels, i.e., by receiving less support,  if they consistently respect the intervention with its current intensity for a sufficient amount of time. However, they can also lose points and downgrade to previous levels, i.e., by receiving more support, if they consistently fail to respect the intervention with its current intensity.</p>
-<p class="text--center"><img src="https://elite.polito.it/assets/images/path1-levels-6a25904a73e971751819f12f05cbdd8f.png" alt="Some screenshots from the StepByStep app" width="80%"></p>
-<p>The figure above exemplifies a learning path to help users avoid using the smartphone or a mobile app when performing a given task, e.g., while studying or working. When activated, StepByStep asks the user to take an unusual object and put it over the smartphone (<em>level 1</em>), next to the smartphone (<em>level 2</em>), or in the user's field of view (<em>level 3</em>), until the object is no longer necessary to complete the task without unlocking the phone (<em>level 4</em>).</p>
-<p>Two exploratory in-the-wild studies with 8 and 41 participants, respectively, show initial evidence that the adopted approach is promising and could effectively assist users into understanding when and how to reduce the time spent on their smartphones, thus avoiding unwanted smartphone habits. Most of the involved participants, in particular, were successfully able to progress in the learning paths, and self-assessed themselves as less addicted to their smartphones after the study. Although further studies will be needed to confirm the long-term impact of StepByStep, our work demonstrates the feasibility of exploring tools for digital wellbeing that overcome the short-term vision of pure self-monitoring interventions.</p>
-<hr>
-<p>Additional information:</p>
-<ul>
-<li><a href="https://hdl.handle.net/11583/2983994" target="_blank" rel="noopener noreferrer">Paper on PORTO@IRIS</a></li>
-<li><a href="https://www.sciencedirect.com/science/article/abs/pii/S1071581923002045" target="_blank" rel="noopener noreferrer">Paper on ScienceDirect</a></li>
-</ul>]]></content:encoded>
-            <category>journal</category>
-            <category>paper</category>
-            <category>digital wellbeing</category>
         </item>
     </channel>
 </rss>
