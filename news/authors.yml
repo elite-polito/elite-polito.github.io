@@ -40,7 +40,12 @@ pezzolla:
   url: https://github.com/lpezzolla
   image_url: /img/people/LucaPezzolla.jpg
 
-
 farinetti:
   name: Laura Farinetti
   title: Assistant professor
+
+scibetta:
+  name: Luca Scibetta
+  title: Ph.D. Student
+  url: https://github.com/LucaScibetta
+  image_url: /img/people/LucaScibetta.jpg
