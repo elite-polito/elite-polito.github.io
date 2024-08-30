@@ -10,7 +10,7 @@ export const allMembers = [
     { first: "Alberto", last: "Monge Roffarello", id: "040637", active: true },
     { first: "Juan Pablo", last: "Saenz", id: "042870", active: true },
     { first: "Fabio", last: "Ballati", id: "037716", active: false },
-    { first: "Lorenzo", last: "Canale", id: "041708", active: true },
+    { first: "Lorenzo", last: "Canale", id: "041708", active: false },
     { first: "Luisa Fernanda", last: "Barrera Leon", id: "050419", active: false },
     { first: "Luca", last: "Mannella", id: "040887", active: true },
     { first: "Tommaso", last: "Calò", id: "058407", active: true },
