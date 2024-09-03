@@ -224,6 +224,7 @@ const config = {
           blogTitle: 'News',
           blogDescription: 'Latest News from the e-Lite research group',
           blogSidebarTitle: 'Latest News',
+          // blogSidebarCount: 20,
           feedOptions: {
             type: 'all',
             copyright: `Copyright © ${new Date().getFullYear()} Politecnico di Torino`,
