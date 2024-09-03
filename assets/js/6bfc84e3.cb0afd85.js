@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkelite_website=self.webpackChunkelite_website||[]).push([[6135],{15844:e=>{e.exports=JSON.parse('{"blogBasePath":"/news","blogTitle":"News","authorsListPath":"/news/authors"}')}}]);
