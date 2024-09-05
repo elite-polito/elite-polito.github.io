@@ -3,42 +3,62 @@ corno:
   title: Full Professor
   url: https://github.com/fulcorno
   image_url: /img/people/FulvioCorno.webp
+  socials:
+    github: fulcorno
+    linkedin: fulviocorno
 
 derussis:
   name: Luigi De Russis
   title: Associate Professor
   url: https://github.com/luigidr
   image_url: /img/people/LuigiDeRussis.jpg
+  socials:
+    github: luigidr
+    linkedin: luigidr
 
 mannella:
   name: Luca Mannella
   title: Ph.D. Student
   url: https://github.com/Sarcares
   image_url: /img/people/LucaMannella.jpg
+  socials:
+    github: LucaMannella
+    linkedin: lucamannella
 
 monge:
   name: Alberto Monge Roffarello
   title: Assistant Professor
   url: https://github.com/alberto-mr
   image_url: /img/people/AlbertoMonge.jpg
+  socials:
+    github: alberto-mr
 
 saenz:
   name: Juan Pablo Sáenz Moreno
   title: Assistant Professor
   url: https://github.com/jpsaenzmo
   image_url: /img/people/JuanSaenz.png
+  socials:
+    github: jpsaenzmo
+    linkedin: jpsaenz
 
 calo:
   name: Tommaso Calò
   title: Ph.D. Student
   url: https://tommasocalo.github.io
   image_url: /img/people/TommasoCalo.jpeg
+  socials:
+    github: tommasocalo
+    linkedin: tommaso-caló-20509512a
 
 pezzolla:
   name: Luca Pezzolla
   title: Ph.D. Student
   url: https://github.com/lpezzolla
   image_url: /img/people/LucaPezzolla.jpg
+  socials:
+    github: lpezzolla
+    linkedin: lpezzolla
 
 farinetti:
   name: Laura Farinetti
@@ -49,3 +69,6 @@ scibetta:
   title: Ph.D. Student
   url: https://github.com/LucaScibetta
   image_url: /img/people/LucaScibetta.jpg
+  socials:
+    github: LucaScibetta
+    linkedin: luca-scibetta-26290b22b
