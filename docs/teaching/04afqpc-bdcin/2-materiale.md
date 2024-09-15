@@ -21,8 +21,9 @@ description: "Materiale didattico (slide, documenti, link, ...)"
     - [Modello Entità-Relazione](https://farinetti.github.io/materiale-bdcin/10-Progettazione_ER.pdf)
     - [Esempio di progettazione concettuale](https://farinetti.github.io/materiale-bdcin/11-Esempio_progettazione_concettuale.pdf)
     - [Esempi di gestione del tempo](https://farinetti.github.io/materiale-bdcin/12-Progettazione_ER_gestione_tempo.pdf)
-    - [Progettazione logica relazionale](https://farinetti.github.io/materiale-bdcin/5.3-ProgettazioneLogica.pdf)
-    - [Esempio di progettazione logica relazionale](https://farinetti.github.io/materiale-bdcin/5.4-EsempioProgLogica.pdf)
+    - [Ristrutturazione dello schema ER](https://farinetti.github.io/materiale-bdcin/13-Progettazione_ER_ristrutturazione.pdf)
+    - [Traduzione nel modello logico](https://farinetti.github.io/materiale-bdcin/14-Progettazione_modello_logico.pdf)    
+    - [Esempio di progettazione logica relazionale](https://farinetti.github.io/materiale-bdcin/15-Esempio_progettazione_logica.pdf)
 
 ## Esercitazioni
 
