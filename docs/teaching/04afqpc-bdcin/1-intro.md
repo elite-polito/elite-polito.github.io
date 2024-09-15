@@ -20,11 +20,12 @@ Il corso aderisce al progetto OCSE dal titolo «Fostering and assessing creativi
 
 | Giorno   |Ora |Tipo |Aula |
 |----------|----|-----|------|
-| Lunedì | 10:00-11:30 | Lezione/Laboratorio | LAIB 3B |
-| Lunedì | 11:30-13:00 | Lezione/Laboratorio | LAIB 3B |
-| Venerdì | 13:00-16:00 | Lezione/Esercitazione | Aula 9T |
+| Martedì | 16:00-17:30 | Laboratorio/Lezione | Aula 5T |
+| Martedì | 17:30-19:00 | Laboratorio | Aula 5T |
+| Mercoledì | 8:30-11:30 | Lezione/Esercitazione | Aula 9T |
+| Giovedì | 8:30-10:00 | Lezione/Esercitazione | Aula 10I |
 
-IMPORTANTE: Le attività potranno variare da settimana a settimana: consultate frequentemente la sezione "Piano del corso" per le informazioni aggiornate.
+IMPORTANTE: Le attività potrebbero variare da settimana a settimana: consultate frequentemente la sezione "Piano del corso" per le informazioni aggiornate.
 
 ## Materiale di studio
 
@@ -36,5 +37,4 @@ Atzeni, Ceri, Paraboschi, Torlone, “Basi di dati - Modelli e linguaggi di inte
 
 ## Modalità di comunicazione con i docenti
 
-- Gruppo Telegram: https://t.me/+JpDO2MYzUQFhN2Jk
 - Portale della didattica ed email per le comunicazioni ufficiali
