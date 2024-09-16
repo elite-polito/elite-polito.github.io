@@ -20,10 +20,10 @@ _Legenda:_ la colonna Tipo può essere Lez/Es=Lezione/Esercitazione in aula, Lab
 | Data | Orario | Tipo | Ore | Argomento | Aula | Docente |
 |----|-------------|--------|----|------|------|-----|
 | mer 25/09/24 | 8.30-11.30 | Lez/Es | 3 | Presentazione del corso. Introduzione alla basi dati. Modello relazionale. | 9T | L. Farinetti |
-| gio 26/09/24 | 8.30-10.00 | Lez/Es | 1,5 | Modello relazionale. | 10I | L. Farinetti |
-| mar 01/10/24 | 16.00-17.30 | Lez/Es | 1,5 | SQL: struttura base, ordinamento. | 5T | L. Farinetti |
-| mer 02/10/24 | 8.30-11.30 | Lez/Es | 3 | SQL: join, funzioni aggregate. | 9T | L. Farinetti |
-| gio 03/10/24 | 8.30-10.00 | Lez/Es | 1,5 | SQL: raggruppamento. | 10I | L. Farinetti |
+| gio 26/09/24 | 8.30-10.00 | Lez/Es | 1,5 | Modello relazionale. SQL: struttura base.| 10I | L. Farinetti |
+| mer 02/10/24 | 8.30-11.30 | Lez/Es | 3 | SQL: struttura base, ordinamento, join. | 9T | L. Farinetti |
+| gio 03/10/24 | 8.30-10.00 | Lez/Es | 1,5 | SQL: join, funzioni aggregate. | 10I | L. Farinetti |
+| mar 08/10/24 | 16.00-17.30 | Lez/Es | 1,5 | SQL: raggruppamento. | 5T | L. Farinetti |
 | mer 09/10/24 | 8.30-11.30 | Lez/Es | 3 | SQL: interrogazioni annidate, IN e NOT IN. | 9T | L. Farinetti |
 | gio 10/10/24 | 8.30-10.00 | Lez/Es | 1,5 | SQL: EXISTS, correlazione. | 10I | L. Farinetti |
 | mar 15/10/24 | 16.00-17.30 | Lab sq. A | 1,5 | Laboratorio #1: SQL. Squadra A | 5T | L. Canale |
