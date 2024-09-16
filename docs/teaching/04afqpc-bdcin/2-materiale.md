@@ -30,34 +30,44 @@ description: "Materiale didattico (slide, documenti, link, ...)"
 - SQL
     - Blocco 1: [Testo](https://farinetti.github.io/materiale-bdcin/EsSQL_1-Testo.pdf)
     <!-- e [Soluzione](https://farinetti.github.io/materiale-bdcin/EsSQL_1-Soluz.pdf) -->
-    - Blocco 2: [Testo](https://farinetti.github.io/materiale-bdcin/EsSQL_2-Testo.pdf) e [Soluzione](https://farinetti.github.io/materiale-bdcin/EsSQL_2-Soluz.pdf)
-    - Blocco 3: [Testo](https://farinetti.github.io/materiale-bdcin/EsSQL_3-Testo.pdf) e [Soluzione](https://farinetti.github.io/materiale-bdcin/EsSQL_3-Soluz.pdf)
-    - Blocco 4: [Testo](https://farinetti.github.io/materiale-bdcin/EsSQL_4-Testo.pdf) e [Soluzione](https://farinetti.github.io/materiale-bdcin/EsSQL_4-Soluz.pdf)
-    - [Pillola video](https://youtu.be/5dUdTthfgvs) su GROUP BY e NOT IN
+    - Blocco 2: [Testo](https://farinetti.github.io/materiale-bdcin/EsSQL_2-Testo.pdf) 
+    <!-- e [Soluzione](https://farinetti.github.io/materiale-bdcin/EsSQL_2-Soluz.pdf) -->
+    - Blocco 3: [Testo](https://farinetti.github.io/materiale-bdcin/EsSQL_3-Testo.pdf)
+    <!-- e [Soluzione](https://farinetti.github.io/materiale-bdcin/EsSQL_3-Soluz.pdf) -->
+    - Blocco 4: [Testo](https://farinetti.github.io/materiale-bdcin/EsSQL_4-Testo.pdf)
+    <!-- e [Soluzione](https://farinetti.github.io/materiale-bdcin/EsSQL_4-Soluz.pdf) -->
+    <!-- - [Pillola video](https://youtu.be/5dUdTthfgvs) su GROUP BY e NOT IN -->
 
 - Progettazione
-    - ER 1: [Testo](https://farinetti.github.io/materiale-bdcin/EsER_1-Testo.pdf) e [Soluzione](https://farinetti.github.io/materiale-bdcin/EsER_1-Soluz.pdf)
-    - ER 2: [Testo](https://farinetti.github.io/materiale-bdcin/EsER_2-Testo.pdf) e [Soluzione](https://farinetti.github.io/materiale-bdcin/EsER_2-Soluz.pdf)
+    - ER 1: [Testo](https://farinetti.github.io/materiale-bdcin/EsER_1-Testo.pdf)
+    <!-- e [Soluzione](https://farinetti.github.io/materiale-bdcin/EsER_1-Soluz.pdf) -->
+    - ER 2: [Testo](https://farinetti.github.io/materiale-bdcin/EsER_2-Testo.pdf)
+    <!-- e [Soluzione](https://farinetti.github.io/materiale-bdcin/EsER_2-Soluz.pdf) -->
 
+<!--
 ## Esercitazioni CCT
 - Esercitazione CCT#1: ChatGPT e SQL, caccia all'errore - [Presentazione](https://farinetti.github.io/materiale-bdcin/Es_CCT_1.pdf) e [Schemi](https://farinetti.github.io/materiale-bdcin/SchemiProposti.docx)
 - Esercitazione CCT#2: Progettazione di basi dati - [Testo](https://farinetti.github.io/materiale-bdcin/EsercitazioneCCT_2.pdf)
-
+-->
 
 ## Laboratori
 
-- Laboratorio #1: 23/10 - SQL
-    - [Testo](https://farinetti.github.io/materiale-bdcin/Lab1-testo.pdf)
+- Laboratorio #1: 15/10 - SQL
+ <!--   - [Testo](https://farinetti.github.io/materiale-bdcin/Lab1-testo.pdf)
     - [Risultati attesi](https://farinetti.github.io/materiale-bdcin/Lab-1-risultati_attesi.pdf)
-    - [Soluzioni](https://farinetti.github.io/materiale-bdcin/Lab-1-soluzioni.pdf)
-- Laboratorio #2: 30/10 - SQL
+    - [Soluzioni](https://farinetti.github.io/materiale-bdcin/Lab-1-soluzioni.pdf) -->
+- Laboratorio #2: 29/10 - SQL
+<!--
     - [Testo](https://farinetti.github.io/materiale-bdcin/Lab-2-testo.pdf)
     - [Risultati attesi](https://farinetti.github.io/materiale-bdcin/Lab-2-risultati_attesi.pdf)
-    - [Soluzioni](https://farinetti.github.io/materiale-bdcin/Lab-2-soluzioni.pdf)
-- Laboratorio #3: 06/11 - SQL
+    - [Soluzioni](https://farinetti.github.io/materiale-bdcin/Lab-2-soluzioni.pdf) -->
+- Laboratorio #3: 05/11 - SQL
+<!--
     - [Testo](https://farinetti.github.io/materiale-bdcin/Lab-3-testo.pdf)
     - [Risultati attesi](https://farinetti.github.io/materiale-bdcin/Lab-3-risultati_attesi.pdf)
-    - [Soluzioni](https://farinetti.github.io/materiale-bdcin/Lab-3-soluzioni.pdf)
+    - [Soluzioni](https://farinetti.github.io/materiale-bdcin/Lab-3-soluzioni.pdf) -->
+
+<!--
 - Laboratori #4-#7: 13/11, 20/11, 04/12 e 11/12 - Q&A Information Retrieval
     - Obiettivo: progettare, creare e valutare un Chatbot Telegram in grado di rispondere a domande specifiche a partire da una base di conoscenza
     - Attività unica, ma organizzata in fasi (con consegna dopo ciascuna fase)
@@ -67,9 +77,8 @@ description: "Materiale didattico (slide, documenti, link, ...)"
     - Fase 3: [link](https://colab.research.google.com/drive/1vHXgeznEpwmNfGOXVl3-PeVA8X6sa5cl?usp=sharing) al Notebook -> **consegna posticipata entro domenica 10/12**
         -  [link](https://colab.research.google.com/drive/1zxR_11AjstEPfWcqw5ehmhr-ukOgfw9H?usp=share_link) ad un Notebook di supporto
     - Fase 4 (collegare il chatbot a Telegram): [link](https://colab.research.google.com/drive/1QNuZ00D-LeZHOju_JVmNOB7X3gQRbPSp?usp=sharing) al Notebook
-    - Fase 5 (valutazione finale del chatbot): [link](https://colab.research.google.com/drive/1f43u1B5VhLjgB3RMlgUwAG3a3yrqW0lt?usp=sharing) al Notebook
-        
-
+    - Fase 5 (valutazione finale del chatbot): [link](https://colab.research.google.com/drive/1f43u1B5VhLjgB3RMlgUwAG3a3yrqW0lt?usp=sharing) al Notebook        
+-->
         
    
     
