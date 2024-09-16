@@ -56,12 +56,12 @@ description: "Materiale didattico (slide, documenti, link, ...)"
  <!--   - [Testo](https://farinetti.github.io/materiale-bdcin/Lab1-testo.pdf)
     - [Risultati attesi](https://farinetti.github.io/materiale-bdcin/Lab-1-risultati_attesi.pdf)
     - [Soluzioni](https://farinetti.github.io/materiale-bdcin/Lab-1-soluzioni.pdf) -->
-- Laboratorio #2: 29/10 - SQL
+- Laboratorio #2: 22/10 - SQL
 <!--
     - [Testo](https://farinetti.github.io/materiale-bdcin/Lab-2-testo.pdf)
     - [Risultati attesi](https://farinetti.github.io/materiale-bdcin/Lab-2-risultati_attesi.pdf)
     - [Soluzioni](https://farinetti.github.io/materiale-bdcin/Lab-2-soluzioni.pdf) -->
-- Laboratorio #3: 05/11 - SQL
+- Laboratorio #3: 29/10 - SQL
 <!--
     - [Testo](https://farinetti.github.io/materiale-bdcin/Lab-3-testo.pdf)
     - [Risultati attesi](https://farinetti.github.io/materiale-bdcin/Lab-3-risultati_attesi.pdf)

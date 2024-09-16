@@ -28,12 +28,11 @@ _Legenda:_ la colonna Tipo può essere Lez/Es=Lezione/Esercitazione in aula, Lab
 | gio 10/10/24 | 8.30-10.00 | Lez/Es | 1,5 | SQL: EXISTS, correlazione. | 10I | L. Farinetti |
 | mar 15/10/24 | 16.00-17.30 | Lab sq. A | 1,5 | Laboratorio #1: SQL. Squadra A | 5T | L. Canale |
 | mar 15/10/24 | 17.30-19.00 | Lab sq. B | 1,5 | Laboratorio #1: SQL. Squadra B | 5T | L. Canale |
-| mer 16/10/24 | 8.30-11.30 | Lez/Es | 3 | SQL: divisione, table function. | 9T | L. Farinetti |
 | gio 17/10/24 | 8.30-10.00 | Lez/Es | 1,5 | Esercitazione SQL. | 10I | L. Canale |
 | mar 22/10/24 | 16.00-17.30 | Lab sq. B | 1,5 | Laboratorio #2: SQL. Squadra B | 5T | L. Canale |
 | mar 22/10/24 | 17.30-19.00 | Lab sq. A | 1,5 | Laboratorio #2: SQL. Squadra A | 5T | L. Canale |
-| mer 23/10/24 | 8.30-11.30 | Lez/Es | 3 | SQL: operatori insiemistici, manipolazione dati. | 9T | L. Farinetti |
-| gio 24/10/24 | 8.30-10.00 | Lez/Es | 1,5 | Esercizi SQL. | 10I | L. Farinetti |
+| mer 23/10/24 | 8.30-11.30 | Lez/Es | 3 | SQL: divisione, table function. | 9T | L. Farinetti |
+| gio 24/10/24 | 8.30-10.00 | Lez/Es | 1,5 | SQL: operatori insiemistici, manipolazione dati. | 10I | L. Farinetti |
 | mar 29/10/24 | 16.00-17.30 | Lab sq. A | 1,5 | Laboratorio #3: SQL. Squadra A | 5T | L. Canale |
 | mar 29/10/24 | 17.30-19.00 | Lab sq. B | 1,5 | Laboratorio #3: SQL. Squadra B | 5T | L. Canale |
 
