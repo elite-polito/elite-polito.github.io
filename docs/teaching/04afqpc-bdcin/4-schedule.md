@@ -5,29 +5,39 @@ description: "Piano del corso"
 
 # Piano del corso
 
-In questa sezione trovate:
-- il calendario delle lezioni del corso, in cui sono riportate le attività e gli argomenti;
+In questa sezione trovate il calendario delle lezioni del corso, in cui sono riportate le attività e gli argomenti.
+<!--
 - l'elenco degli esercizi da svolgere in preparazione di ciascuna esercitazione in aula;
-- l'elenco delle videolezioni, con le date di visione consigliate e le scadenze dei relativi quiz.
+- l'elenco delle videolezioni, con le date di visione consigliate e le scadenze dei relativi quiz. -->
 
 ## Calendario delle lezioni
 
 La seguente tabella riporta la pianificazione delle lezioni del corso, per trasparenza di informazione e per facilitare la vostra pianificazione. Ci riserviamo di modificare la pianificazione delle lezioni per esigenze didattiche.
 
-_Legenda:_ la colonna Tipo può essere Lez=Lezione, EsT=Esercitazione "tradizionale" in aula, EsCCT=Esercitazione "CCT" in aula, Lab=Esercitazione di laboratorio, Cons=Consulenza. Le attività in nero sono per tutti, quelle in <font color="mediumvioletred">viola</font> o in <font color="teal">verde</font> sono attività a squadre (<font color="mediumvioletred">squadra A</font> e <font color="teal">squadra B</font> rispettivamente).
+_Legenda:_ la colonna Tipo può essere Lez/Es=Lezione/Esercitazione in aula, Lab=Esercitazione di laboratorio.
+<!-- Le attività in nero sono per tutti, quelle in <font color="mediumvioletred">viola</font> o in <font color="teal">verde</font> sono attività a squadre (<font color="mediumvioletred">squadra A</font> e <font color="teal">squadra B</font> rispettivamente). -->
 
 | Data | Orario | Tipo | Ore | Argomento | Aula | Docente |
 |----|-------------|--------|----|------|------|-----|
-| ven 15/12/23 | 13.00-16.00 | EsT | 3 | Esercitazione CCT#2: Progettazione. | 9T | L. Farinetti |
-| lun 18/12/23 | 10.00-11.30 | EsT | 1,5 | Esercitazione Progettazione#3. | LAIB 3B | L. Farinetti |
-| lun 18/12/23 | 11.30-13.00 | Cons | 1,5 | Consulenza. | LAIB 3B | L. Farinetti |
-| lun 08/01/24 | 10.00-13.00 | Lab | 3 | Laboratorio #8 (per tutti): Information retrieval | LAIB 3B | L. Canale |
-| ven 12/01/24 | 13.00-16.00 | EsT | 3 | Temi d'esame. | 9T | L. Canale |
-| lun 15/01/24 | 10.00-13.00 | EsT | 3 | Temi d'esame. | LAIB 3B | L. Farinetti |
-| ven 19/01/24 | 13.00-14.30 | EsT | 1,5 | Temi d'esame. | 9T | L. Farinetti |
-| ven 19/01/24 | 14.30-16.00 | Cons | 1,5 | Consulenza. | 9T | L. Farinetti |
+| mer 25/09/24 | 8.30-11.30 | Lez/Es | 3 | Presentazione del corso. Introduzione alla basi dati. Modello relazionale. | 9T | L. Farinetti |
+| gio 26/09/24 | 8.30-10.00 | Lez/Es | 1,5 | Modello relazionale. | 10I | L. Farinetti |
+| mar 01/10/24 | 16.00-17.30 | Lez/Es | 1,5 | SQL: struttura base, ordinamento. | 5T | L. Farinetti |
+| mer 02/10/24 | 8.30-11.30 | Lez/Es | 3 | SQL: join, funzioni aggregate. | 9T | L. Farinetti |
+| gio 03/10/24 | 8.30-10.00 | Lez/Es | 1,5 | SQL: raggruppamento. | 10I | L. Farinetti |
+| mer 09/10/24 | 8.30-11.30 | Lez/Es | 3 | SQL: interrogazioni annidate, IN e NOT IN. | 9T | L. Farinetti |
+| gio 10/10/24 | 8.30-10.00 | Lez/Es | 1,5 | SQL: EXISTS, correlazione. | 10I | L. Farinetti |
+| mar 15/10/24 | 16.00-17.30 | Lab sq. A | 1,5 | Laboratorio #1: SQL. Squadra A | 5T | L. Canale |
+| mar 15/10/24 | 17.30-19.00 | Lab sq. B | 1,5 | Laboratorio #1: SQL. Squadra B | 5T | L. Canale |
+| mer 16/10/24 | 8.30-11.30 | Lez/Es | 3 | SQL: divisione, table function. | 9T | L. Farinetti |
+| gio 17/10/24 | 8.30-10.00 | Lez/Es | 1,5 | Esercitazione SQL. | 10I | L. Canale |
+| mar 22/10/24 | 16.00-17.30 | Lab sq. B | 1,5 | Laboratorio #2: SQL. Squadra B | 5T | L. Canale |
+| mar 22/10/24 | 17.30-19.00 | Lab sq. A | 1,5 | Laboratorio #2: SQL. Squadra A | 5T | L. Canale |
+| mer 23/10/24 | 8.30-11.30 | Lez/Es | 3 | SQL: operatori insiemistici, manipolazione dati. | 9T | L. Farinetti |
+| gio 24/10/24 | 8.30-10.00 | Lez/Es | 1,5 | Esercizi SQL. | 10I | L. Farinetti |
+| mar 29/10/24 | 16.00-17.30 | Lab sq. A | 1,5 | Laboratorio #3: SQL. Squadra A | 5T | L. Canale |
+| mar 29/10/24 | 17.30-19.00 | Lab sq. B | 1,5 | Laboratorio #3: SQL. Squadra B | 5T | L. Canale |
 
-
+<!--
 ## Esercizi da svolgere prima delle esercitazioni in aula
 
 | Esercizi proposti | Da svolgere prima del ... | Soluzione |
@@ -44,7 +54,9 @@ _Legenda:_ la colonna Tipo può essere Lez=Lezione, EsT=Esercitazione "tradizion
 | [TE #1](https://farinetti.github.io/materiale-bdcin/Esercizi-TE_1.pdf): Tema d'esame | 15/01 | [Soluzioni TE #1](https://farinetti.github.io/materiale-bdcin/Soluzioni-TE_1.pdf) - comprende le soluzioni degli altri esercizi proposti in aula  |
 | [TE #2](https://farinetti.github.io/materiale-bdcin/Esercizi-TE_2.pdf): Tema d'esame | 19/01 | [Soluzioni TE #2](https://farinetti.github.io/materiale-bdcin/Soluzioni-TE_2.pdf) - comprende le soluzioni degli altri esercizi proposti in aula |
 
+-->
 
+<!--
 
 ## Elenco delle videolezioni
 
@@ -71,3 +83,5 @@ Note:
 | VL12 | Progettazione concettuale. Esempio: data base per la gestione di prenotazioni in una ASL. | 13/11 - 19/11 | VL12 | 13/11 | 19/11 | [![icona_pdf](https://farinetti.github.io/materiale-bdcin/iconaPdf.png)](https://farinetti.github.io/materiale-bdcin/VL12-ProgettazioneConcettuale.pdf) |
 | VL13 | Progettazione logico-relazionale: ristrutturazione dello schema E-R. Traduzione nel modello relazionale. Vincoli di integrità referenziale. | 20/11 - 26/11 | VL13 | 20/11 | 26/11 | [![icona_pdf](https://farinetti.github.io/materiale-bdcin/iconaPdf.png)](https://farinetti.github.io/materiale-bdcin/VL13-ProgettazioneLogica.pdf) |
 | VL14 | Esempio di progettazione logica: data base per la gestione di prenotazioni in una ASL. | 20/11 - 26/11 | VL14 | 20/11 | 26/11 | [![icona_pdf](https://farinetti.github.io/materiale-bdcin/iconaPdf.png)](https://farinetti.github.io/materiale-bdcin/VL14-EsempioProgLogica.pdf) |
+
+-->
