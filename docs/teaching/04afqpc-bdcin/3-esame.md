@@ -4,10 +4,12 @@ description: "Informazioni sull'esame"
 
 # Esame
 
-[Regole d'esame](https://farinetti.github.io/materiale-bdcin/RegoleEsame23-24.pdf)
+Regole d'esame
+<!-- (https://farinetti.github.io/materiale-bdcin/RegoleEsame23-24.pdf) -->
 
 ## Temi d'esame
 
+<!--
 - Parte di SQL
     - Tema 1: [Testo](https://farinetti.github.io/materiale-bdcin/TE-SQL1-Testo.pdf) e [Soluzione](https://farinetti.github.io/materiale-bdcin/TE-SQL1-Soluzione.pdf)
     - Tema 2: [Testo](https://farinetti.github.io/materiale-bdcin/TE-SQL2-Testo.pdf) e [Soluzione](https://farinetti.github.io/materiale-bdcin/TE-SQL2-Soluzione.pdf)
@@ -27,4 +29,6 @@ description: "Informazioni sull'esame"
     - Tema 4: [Testo](https://farinetti.github.io/materiale-bdcin/TE-ER4-Testo.pdf) e [Soluzione](https://farinetti.github.io/materiale-bdcin/TE-ER4-Soluzione.pdf)
     - Tema 5: [Testo](https://farinetti.github.io/materiale-bdcin/TE-ER5-Testo.pdf) e [Soluzione](https://farinetti.github.io/materiale-bdcin/TE-ER5-Soluzione.pdf)
     - Tema 6: [Testo](https://farinetti.github.io/materiale-bdcin/TE-ER6-Testo.pdf) e [Soluzione](https://farinetti.github.io/materiale-bdcin/TE-ER6-Soluzione.pdf)
+    
+    -->
 
