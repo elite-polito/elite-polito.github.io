@@ -18,7 +18,7 @@ Il corso aderisce al progetto OCSE dal titolo «Fostering and assessing creativi
 
 ## Orario delle lezioni
 
-| Giorno   |Ora |Tipo |Aula |
+| Giorno   | Ora |Tipo | Aula |
 |----------|----|-----|------|
 | Martedì | 16:00-17:30 | Laboratorio/Lezione | Aula 5T |
 | Martedì | 17:30-19:00 | Laboratorio | Aula 5T |
