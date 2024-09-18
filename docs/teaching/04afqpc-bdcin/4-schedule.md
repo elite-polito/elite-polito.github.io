@@ -63,8 +63,8 @@ _Legenda:_ la colonna Tipo può essere Lez/Es=Lezione/Esercitazione in aula, Lab
 La tabella riporta la sequenza dei quiz con le relative date di apertura e chiusura. I quiz devono essere sottomessi ENTRO la mezzanotte della data di chiusura, e possono essere sottomessi 1 SOLA VOLTA. Si noti che alcuni quiz potrebbero essere aperti contemporaneamente.
 
 Note:
-- I quiz sono sul Portale della Didattica, nella sezione "Moodle";
-- Le videolezioni sono sul Portale della Didattica, nella sezione "Virtual classroom";
+- I quiz sono sul Portale della Didattica, nella sezione Moodle;
+- Le videolezioni sono sul Portale della Didattica, nella sezione Virtual classroom;
 <!--
 - Le slide contenute in questa tabella sono le stesse contenute nel materiale didattico, semplicemente sono organizzate per videolezione.
 -->
