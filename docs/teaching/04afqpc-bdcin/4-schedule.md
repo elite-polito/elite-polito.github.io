@@ -69,14 +69,14 @@ Note:
 - Le slide contenute in questa tabella sono le stesse contenute nel materiale didattico, semplicemente sono organizzate per videolezione.
 -->
 
-
+<!--
 | Quiz | Argomento | Apertura quiz | Chiusura quiz | Videolezione |
 |----|-------------|--------|----|------|------|-----|
 | VL01 | Il modello relazionale. Definizioni. Vincoli di integrità. Chiave primaria. Vincoli di integrità referenziale. | 2/10 | 8/10 | VL01 |
 | VL02 | Il linguaggio SQL. Introduzione. L'istruzione SELECT. Struttura base. La clausola WHERE.  Gli operatori LIKE e IS. Ordinamento del risultato. | 2/10 | 8/10 | VL02 |
 | VL03 | L'istruzione SELECT. Join fra tabelle. | 2/10 | 8/10 | VL03 |
 
-<!--
+
 | VL04 | Funzioni aggregate. L'operatore GROUP BY. Condizione di selezione sui gruppi. | 9/10 - 15/10 | VL04 | 9/10 | 15/10 | [![icona_pdf](https://farinetti.github.io/materiale-bdcin/iconaPdf.png)](https://farinetti.github.io/materiale-bdcin/VL04-SQL-GroupBy.pdf) |
 | VL05 | Il linguaggio SQL. Select annidate. Gli operatori IN e NOT IN. Costruttore di tupla. | 9/10 - 15/10 | VL05 | 9/10 | 15/10 | [![icona_pdf](https://farinetti.github.io/materiale-bdcin/iconaPdf.png)](https://farinetti.github.io/materiale-bdcin/VL05-SQL-In.pdf) |
 | VL06 | Il linguaggio SQL. Select annidate. Gli operatori EXISTS e NOT EXISTS. Correlazione fra interrogazioni. | 16/10 - 22/10 | VL06 | 16/10 | 22/10 | [![icona_pdf](https://farinetti.github.io/materiale-bdcin/iconaPdf.png)](https://farinetti.github.io/materiale-bdcin/VL06-SQL-Exists.pdf) |
