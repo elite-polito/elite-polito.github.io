@@ -72,7 +72,7 @@ Note:
 
 | Quiz | Argomento | Apertura quiz | Chiusura quiz | Videolezione |
 |----|-------------|--------|----|------|------|-----|
-| VL01 | Il modello relazionale. Definizioni. Vincoli di integrità. Chiave primaria. Vincoli di integrità referenziale. | 2/10 - 8/10 | VL01 | 2/10 | 8/10 | VL01 |
+| VL01 | Il modello relazionale. Definizioni. Vincoli di integrità. Chiave primaria. Vincoli di integrità referenziale. | 2/10 | 8/10 | VL01 |
 | VL02 | Il linguaggio SQL. Introduzione. L'istruzione SELECT. Struttura base. La clausola WHERE.  Gli operatori LIKE e IS. Ordinamento del risultato. | 2/10 | 8/10 | VL02 |
 | VL03 | L'istruzione SELECT. Join fra tabelle. | 2/10 | 8/10 | VL03 |
 
