@@ -61,11 +61,11 @@ La tabella riporta la sequenza dei quiz con le relative date di apertura e chius
 
 Note:
 - I quiz sono sul Portale della Didattica, nella sezione Moodle;
-- Le videolezioni sono sul Portale della Didattica, nella sezione Virtual Classroom;
+- Le videolezioni sono sul Portale della Didattica, nella sezione Virtual Classroom.
 
 
 | Quiz | Argomento | Apertura quiz | Chiusura quiz | Videolezione |
-|----|-------------|--------|----|------|------|-----|
+|----|-------------|--------|----|------|
 | VL01 | Il modello relazionale. Definizioni. Vincoli di integrità. Chiave primaria. Vincoli di integrità referenziale. | 2/10 | 8/10 | VL01 |
 | VL02 | Il linguaggio SQL. Introduzione. L'istruzione SELECT. Struttura base. La clausola WHERE.  Gli operatori LIKE e IS. Ordinamento del risultato. | 2/10 | 8/10 | VL02 |
 | VL03 | L'istruzione SELECT. Join fra tabelle. | 2/10 | 8/10 | VL03 |
