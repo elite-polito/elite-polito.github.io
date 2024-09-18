@@ -8,16 +8,14 @@ description: "Piano del corso"
 In questa sezione trovate 
 - il calendario delle lezioni del corso, in cui sono riportate le attività e gli argomenti;
 - l'elenco dei quiz, con gli argomenti, le date di apertura e chiusura per la sottomissione, e le videolezioni utili per un eventuale ripasso.
-<!--
-- l'elenco degli esercizi da svolgere in preparazione di ciascuna esercitazione in aula;
--->
+
 
 ## Calendario delle lezioni
 
 La seguente tabella riporta la pianificazione delle lezioni del corso, per trasparenza di informazione e per facilitare la vostra pianificazione. Ci riserviamo di modificare la pianificazione delle lezioni per esigenze didattiche.
 
 _Legenda:_ la colonna Tipo può essere Lez/Es=Lezione/Esercitazione in aula, Lab=Esercitazione di laboratorio.
-<!-- Le attività in nero sono per tutti, quelle in <font color="mediumvioletred">viola</font> o in <font color="teal">verde</font> sono attività a squadre (<font color="mediumvioletred">squadra A</font> e <font color="teal">squadra B</font> rispettivamente). -->
+
 
 | Data | Orario | Tipo | Ore | Argomento | Aula | Docente |
 |----|-------------|--------|----|------|------|-----|
@@ -38,7 +36,7 @@ _Legenda:_ la colonna Tipo può essere Lez/Es=Lezione/Esercitazione in aula, Lab
 | mar 29/10/24 | 16.00-17.30 | Lab sq. A | 1,5 | Laboratorio #3: SQL. Squadra A | 5T | L. Canale |
 | mar 29/10/24 | 17.30-19.00 | Lab sq. B | 1,5 | Laboratorio #3: SQL. Squadra B | 5T | L. Canale |
 
-<!--
+{/*
 ## Esercizi da svolgere prima delle esercitazioni in aula
 
 | Esercizi proposti | Da svolgere prima del ... | Soluzione |
@@ -55,7 +53,7 @@ _Legenda:_ la colonna Tipo può essere Lez/Es=Lezione/Esercitazione in aula, Lab
 | [TE #1](https://farinetti.github.io/materiale-bdcin/Esercizi-TE_1.pdf): Tema d'esame | 15/01 | [Soluzioni TE #1](https://farinetti.github.io/materiale-bdcin/Soluzioni-TE_1.pdf) - comprende le soluzioni degli altri esercizi proposti in aula  |
 | [TE #2](https://farinetti.github.io/materiale-bdcin/Esercizi-TE_2.pdf): Tema d'esame | 19/01 | [Soluzioni TE #2](https://farinetti.github.io/materiale-bdcin/Soluzioni-TE_2.pdf) - comprende le soluzioni degli altri esercizi proposti in aula |
 
--->
+*/}
 
 ## Elenco dei quiz
 
@@ -72,7 +70,7 @@ Note:
 | VL02 | Il linguaggio SQL. Introduzione. L'istruzione SELECT. Struttura base. La clausola WHERE.  Gli operatori LIKE e IS. Ordinamento del risultato. | 2/10 | 8/10 | VL02 |
 | VL03 | L'istruzione SELECT. Join fra tabelle. | 2/10 | 8/10 | VL03 |
 
-<!--
+{/*
 | VL04 | Funzioni aggregate. L'operatore GROUP BY. Condizione di selezione sui gruppi. | 9/10 - 15/10 | VL04 | 9/10 | 15/10 | [![icona_pdf](https://farinetti.github.io/materiale-bdcin/iconaPdf.png)](https://farinetti.github.io/materiale-bdcin/VL04-SQL-GroupBy.pdf) |
 | VL05 | Il linguaggio SQL. Select annidate. Gli operatori IN e NOT IN. Costruttore di tupla. | 9/10 - 15/10 | VL05 | 9/10 | 15/10 | [![icona_pdf](https://farinetti.github.io/materiale-bdcin/iconaPdf.png)](https://farinetti.github.io/materiale-bdcin/VL05-SQL-In.pdf) |
 | VL06 | Il linguaggio SQL. Select annidate. Gli operatori EXISTS e NOT EXISTS. Correlazione fra interrogazioni. | 16/10 - 22/10 | VL06 | 16/10 | 22/10 | [![icona_pdf](https://farinetti.github.io/materiale-bdcin/iconaPdf.png)](https://farinetti.github.io/materiale-bdcin/VL06-SQL-Exists.pdf) |
@@ -84,5 +82,4 @@ Note:
 | VL12 | Progettazione concettuale. Esempio: data base per la gestione di prenotazioni in una ASL. | 13/11 - 19/11 | VL12 | 13/11 | 19/11 | [![icona_pdf](https://farinetti.github.io/materiale-bdcin/iconaPdf.png)](https://farinetti.github.io/materiale-bdcin/VL12-ProgettazioneConcettuale.pdf) |
 | VL13 | Progettazione logico-relazionale: ristrutturazione dello schema E-R. Traduzione nel modello relazionale. Vincoli di integrità referenziale. | 20/11 - 26/11 | VL13 | 20/11 | 26/11 | [![icona_pdf](https://farinetti.github.io/materiale-bdcin/iconaPdf.png)](https://farinetti.github.io/materiale-bdcin/VL13-ProgettazioneLogica.pdf) |
 | VL14 | Esempio di progettazione logica: data base per la gestione di prenotazioni in una ASL. | 20/11 - 26/11 | VL14 | 20/11 | 26/11 | [![icona_pdf](https://farinetti.github.io/materiale-bdcin/iconaPdf.png)](https://farinetti.github.io/materiale-bdcin/VL14-EsempioProgLogica.pdf) |
-
--->
+*/}
