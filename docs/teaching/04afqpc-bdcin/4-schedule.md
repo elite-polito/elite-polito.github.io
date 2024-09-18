@@ -57,6 +57,7 @@ _Legenda:_ la colonna Tipo può essere Lez/Es=Lezione/Esercitazione in aula, Lab
 
 -->
 
+<!--
 
 ## Elenco dei quiz
 
@@ -64,7 +65,10 @@ La tabella riporta la sequenza dei quiz con le relative date di apertura e chius
 
 Note:
 - I quiz sono sul Portale della Didattica, nella sezione Moodle;
-- Le videolezioni sono sul Portale della Didattica, nella sezione Virtual classroom;
+- Le videolezioni sono sul Portale della Didattica, nella sezione Virtual Classroom;
+
+-->
+
 <!--
 - Le slide contenute in questa tabella sono le stesse contenute nel materiale didattico, semplicemente sono organizzate per videolezione.
 -->
