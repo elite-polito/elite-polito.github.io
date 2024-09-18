@@ -5,10 +5,12 @@ description: "Piano del corso"
 
 # Piano del corso
 
-In questa sezione trovate il calendario delle lezioni del corso, in cui sono riportate le attività e gli argomenti.
+In questa sezione trovate 
+- il calendario delle lezioni del corso, in cui sono riportate le attività e gli argomenti;
+- l'elenco dei quiz, con gli argomenti, le date di apertura e chiusura per la sottomissione, e le videolezioni utili per un eventuale ripasso.
 <!--
 - l'elenco degli esercizi da svolgere in preparazione di ciascuna esercitazione in aula;
-- l'elenco delle videolezioni, con le date di visione consigliate e le scadenze dei relativi quiz. -->
+-->
 
 ## Calendario delle lezioni
 
@@ -55,22 +57,26 @@ _Legenda:_ la colonna Tipo può essere Lez/Es=Lezione/Esercitazione in aula, Lab
 
 -->
 
-<!--
 
-## Elenco delle videolezioni
+## Elenco dei quiz
 
-La tabella riporta la sequenza delle videolezioni pre-registrate, con i relativi quiz. Per le videolezioni è riportato il periodo consigliato per la visione. Per i quiz è riportato il periodo di pubblicazione (apertura-chiusura). I quiz devono essere sottomessi ENTRO la mezzanotte della data di chiusura, e possono essere sottomessi 1 SOLA VOLTA. Si noti che alcuni quiz sono aperti contemporaneamente.
+La tabella riporta la sequenza dei quiz con le relative date di apertura e chiusura. I quiz devono essere sottomessi ENTRO la mezzanotte della data di chiusura, e possono essere sottomessi 1 SOLA VOLTA. Si noti che alcuni quiz potrebbero essere aperti contemporaneamente.
 
 Note:
-- Le videolezioni sono sul Portale della Didattica, nella sezione "Virtual classroom";
 - I quiz sono sul Portale della Didattica, nella sezione "Moodle";
+- Le videolezioni sono sul Portale della Didattica, nella sezione "Virtual classroom";
+<!--
 - Le slide contenute in questa tabella sono le stesse contenute nel materiale didattico, semplicemente sono organizzate per videolezione.
+-->
 
-| Lezione |	Argomento |	Periodo visione consigliato | Quiz associato | Apertura quiz | Scadenza quiz | Slide |
+
+| Quiz | Argomento | Apertura quiz | Chiusura quiz | Videolezione |
 |----|-------------|--------|----|------|------|-----|
-| VL01 | Il modello relazionale. Definizioni. Vincoli di integrità. Chiave primaria. Vincoli di integrità referenziale. | 2/10 - 8/10 | VL01 | 2/10 | 8/10 | [![icona_pdf](https://farinetti.github.io/materiale-bdcin/iconaPdf.png)](https://farinetti.github.io/materiale-bdcin/VL01-ModelloRelazionale.pdf) |
-| VL02 | Il linguaggio SQL. Introduzione. L'istruzione SELECT. Struttura base. La clausola WHERE.  Gli operatori LIKE e IS. Ordinamento del risultato. | 2/10 - 8/10 | VL02 | 2/10 | 8/10 | [![icona_pdf](https://farinetti.github.io/materiale-bdcin/iconaPdf.png)](https://farinetti.github.io/materiale-bdcin/VL02-SQL-SelectBase.pdf) |
-| VL03 | L'istruzione SELECT. Join fra tabelle. | 2/10 - 8/10 | VL03 | 2/10 | 8/10 | [![icona_pdf](https://farinetti.github.io/materiale-bdcin/iconaPdf.png)](https://farinetti.github.io/materiale-bdcin/VL03-SQL-Join.pdf) |
+| VL01 | Il modello relazionale. Definizioni. Vincoli di integrità. Chiave primaria. Vincoli di integrità referenziale. | 2/10 - 8/10 | VL01 | 2/10 | 8/10 | VL01 |
+| VL02 | Il linguaggio SQL. Introduzione. L'istruzione SELECT. Struttura base. La clausola WHERE.  Gli operatori LIKE e IS. Ordinamento del risultato. | 2/10 | 8/10 | VL02 |
+| VL03 | L'istruzione SELECT. Join fra tabelle. | 2/10 | 8/10 | VL03 |
+
+<!--
 | VL04 | Funzioni aggregate. L'operatore GROUP BY. Condizione di selezione sui gruppi. | 9/10 - 15/10 | VL04 | 9/10 | 15/10 | [![icona_pdf](https://farinetti.github.io/materiale-bdcin/iconaPdf.png)](https://farinetti.github.io/materiale-bdcin/VL04-SQL-GroupBy.pdf) |
 | VL05 | Il linguaggio SQL. Select annidate. Gli operatori IN e NOT IN. Costruttore di tupla. | 9/10 - 15/10 | VL05 | 9/10 | 15/10 | [![icona_pdf](https://farinetti.github.io/materiale-bdcin/iconaPdf.png)](https://farinetti.github.io/materiale-bdcin/VL05-SQL-In.pdf) |
 | VL06 | Il linguaggio SQL. Select annidate. Gli operatori EXISTS e NOT EXISTS. Correlazione fra interrogazioni. | 16/10 - 22/10 | VL06 | 16/10 | 22/10 | [![icona_pdf](https://farinetti.github.io/materiale-bdcin/iconaPdf.png)](https://farinetti.github.io/materiale-bdcin/VL06-SQL-Exists.pdf) |
