@@ -75,12 +75,14 @@ Note:
 | Q07 | Divisione. Table function. | 25/10 | 31/10 | VL07 |
 | Q08 | Gli operatori insiemistici: UNION, INTERSECT, EXCEPT. Le istruzioni di aggiornamento: INSERT, DELETE, UPDATE. | 01/11 | 07/11 | VL08 |
 | Q09 | Gestione delle tabelle. Creazione, modifica, cancellazione. Vincoli di tabella. Vincoli di integrità referenziale e gestione dei vincoli. | 08/11 | 14/11 | VL09 |
+
+{/*
 | Q10 | Progettazione delle basi dati. Metodologia di progettazione. Il modello E-R: entità, relazioni, cardinalità, generalizzazione. |  |  | VL11 |
 | Q11 | Progettazione concettuale. Esempio: data base per la gestione di prenotazioni in una ASL. |  |  | VL12 |
 | Q12 | Progettazione logico-relazionale: ristrutturazione dello schema E-R. Traduzione nel modello relazionale. Vincoli di integrità referenziale. |  |  | VL13 |
 | Q13 | Esempio di progettazione logica: data base per la gestione di prenotazioni in una ASL. |  |  | VL14 |
 
-{/*
+
 | Q14 | Gestione delle transazioni. Proprietà delle transazioni. Controllo dell'accesso e sicurezza dei dati. Gestione dei privilegi in SQL. |  |  | VL10 |
 
 | VL14 | Esempio di progettazione logica: data base per la gestione di prenotazioni in una ASL. | 20/11 - 26/11 | VL14 | 20/11 | 26/11 | [![icona_pdf](https://farinetti.github.io/materiale-bdcin/iconaPdf.png)](https://farinetti.github.io/materiale-bdcin/VL14-EsempioProgLogica.pdf) |
