@@ -67,7 +67,7 @@ Note:
 | Quiz | Argomento | Apertura quiz | Chiusura quiz | Videolezione |
 |----|-------------|--------|----|------|
 | Q01 | Il modello relazionale. Definizioni. Vincoli di integrità. Chiave primaria. Vincoli di integrità referenziale. | 27/09 | 03/10 | VL01 |
-| Q02 | Il linguaggio SQL. Introduzione. L'istruzione SELECT. Struttura base. La clausola WHERE.  Gli operatori LIKE e IS. Ordinamento del risultato. | 4/10 | 10/10 | VL02 |
+| Q02 | Il linguaggio SQL. Introduzione. L'istruzione SELECT. Struttura base. La clausola WHERE.  Gli operatori LIKE e IS. Ordinamento del risultato. | 04/10 | 10/10 | VL02 |
 | Q03 | L'istruzione SELECT. Join fra tabelle. | 04/10 | 10/10 | VL03 |
 | Q04 | Funzioni aggregate. L'operatore GROUP BY. Condizione di selezione sui gruppi. | 11/10 | 17/10 | VL04 |
 | Q05 | Il linguaggio SQL. Select annidate. Gli operatori IN e NOT IN. Costruttore di tupla. | 18/10 | 24/10 | VL05 |
