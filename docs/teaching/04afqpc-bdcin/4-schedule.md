@@ -57,7 +57,7 @@ _Legenda:_ la colonna Tipo può essere Lez/Es=Lezione/Esercitazione in aula, Lab
 
 ## Elenco dei quiz
 
-La tabella riporta la sequenza dei quiz con le relative date di apertura e chiusura. I quiz devono essere sottomessi ENTRO la mezzanotte della data di chiusura, e possono essere sottomessi 1 SOLA VOLTA. Si noti che alcuni quiz potrebbero essere aperti contemporaneamente.
+La tabella riporta la sequenza dei quiz con le relative date di apertura e chiusura. I quiz devono essere sottomessi ENTRO la mezzanotte della data di chiusura, e possono essere sottomessi 1 SOLA VOLTA. Si noti che più quiz potrebbero essere aperti contemporaneamente.
 
 Note:
 - I quiz sono sul Portale della Didattica, nella sezione Moodle;
@@ -66,20 +66,21 @@ Note:
 
 | Quiz | Argomento | Apertura quiz | Chiusura quiz | Videolezione |
 |----|-------------|--------|----|------|
-| VL01 | Il modello relazionale. Definizioni. Vincoli di integrità. Chiave primaria. Vincoli di integrità referenziale. | 2/10 | 8/10 | VL01 |
-| VL02 | Il linguaggio SQL. Introduzione. L'istruzione SELECT. Struttura base. La clausola WHERE.  Gli operatori LIKE e IS. Ordinamento del risultato. | 2/10 | 8/10 | VL02 |
-| VL03 | L'istruzione SELECT. Join fra tabelle. | 2/10 | 8/10 | VL03 |
+| VL01 | Il modello relazionale. Definizioni. Vincoli di integrità. Chiave primaria. Vincoli di integrità referenziale. |  |  | VL01 |
+| VL02 | Il linguaggio SQL. Introduzione. L'istruzione SELECT. Struttura base. La clausola WHERE.  Gli operatori LIKE e IS. Ordinamento del risultato. |  |  | VL02 |
+| VL03 | L'istruzione SELECT. Join fra tabelle. |  |  | VL03 |
+| VL04 | Funzioni aggregate. L'operatore GROUP BY. Condizione di selezione sui gruppi. |  |  | VL04 |
+| VL05 | Il linguaggio SQL. Select annidate. Gli operatori IN e NOT IN. Costruttore di tupla. |  |  | VL05 |
+| VL06 | Il linguaggio SQL. Select annidate. Gli operatori EXISTS e NOT EXISTS. Correlazione fra interrogazioni. |  |  | VL06 |
+| VL07 | Divisione. Table function. |  |  | VL07 |
+| VL08 | Gli operatori insiemistici: UNION, INTERSECT, EXCEPT. Le istruzioni di aggiornamento: INSERT, DELETE, UPDATE. |  |  | VL08 |
+| VL09 | Gestione delle tabelle. Creazione, modifica, cancellazione. Vincoli di tabella. Vincoli di integrità referenziale e gestione dei vincoli. |  |  | VL09 |
+| VL10 | Progettazione delle basi dati. Metodologia di progettazione. Il modello E-R: entità, relazioni, cardinalità, generalizzazione. |  |  | VL11 |
+| VL11 | Progettazione concettuale. Esempio: data base per la gestione di prenotazioni in una ASL. |  |  | VL12 |
+| VL12 | Progettazione logico-relazionale: ristrutturazione dello schema E-R. Traduzione nel modello relazionale. Vincoli di integrità referenziale. |  |  | VL13 |
+| VL13 | Esempio di progettazione logica: data base per la gestione di prenotazioni in una ASL. |  |  | VL14 |
+| VL14 | Gestione delle transazioni. Proprietà delle transazioni. Controllo dell'accesso e sicurezza dei dati. Gestione dei privilegi in SQL. |  |  | VL10 |
 
 {/*
-| VL04 | Funzioni aggregate. L'operatore GROUP BY. Condizione di selezione sui gruppi. | 9/10 - 15/10 | VL04 | 9/10 | 15/10 | [![icona_pdf](https://farinetti.github.io/materiale-bdcin/iconaPdf.png)](https://farinetti.github.io/materiale-bdcin/VL04-SQL-GroupBy.pdf) |
-| VL05 | Il linguaggio SQL. Select annidate. Gli operatori IN e NOT IN. Costruttore di tupla. | 9/10 - 15/10 | VL05 | 9/10 | 15/10 | [![icona_pdf](https://farinetti.github.io/materiale-bdcin/iconaPdf.png)](https://farinetti.github.io/materiale-bdcin/VL05-SQL-In.pdf) |
-| VL06 | Il linguaggio SQL. Select annidate. Gli operatori EXISTS e NOT EXISTS. Correlazione fra interrogazioni. | 16/10 - 22/10 | VL06 | 16/10 | 22/10 | [![icona_pdf](https://farinetti.github.io/materiale-bdcin/iconaPdf.png)](https://farinetti.github.io/materiale-bdcin/VL06-SQL-Exists.pdf) |
-| VL07 | Divisione. Table function. | 23/10 - 29/10 | VL07 | 23/10 | 29/10 | [![icona_pdf](https://farinetti.github.io/materiale-bdcin/iconaPdf.png)](https://farinetti.github.io/materiale-bdcin/VL07-SQL-TableFunction.pdf) |
-| VL08 | Gli operatori insiemistici: UNION, INTERSECT, EXCEPT. Le istruzioni di aggiornamento: INSERT, DELETE, UPDATE. | 30/10 - 5/11 | VL08 | 30/10 | 5/11 | [![icona_pdf](https://farinetti.github.io/materiale-bdcin/iconaPdf.png)](https://farinetti.github.io/materiale-bdcin/VL08-SQL-OpInsiemistici.pdf) |
-| VL09 | Gestione delle tabelle. Creazione, modifica, cancellazione. Vincoli di tabella. Vincoli di integrità referenziale e gestione dei vincoli. | 6/11 - 12/11 | VL09 | 6/11 | 12/11 | [![icona_pdf](https://farinetti.github.io/materiale-bdcin/iconaPdf.png)](https://farinetti.github.io/materiale-bdcin/VL09-GestioneTabelle.pdf) |
-| VL10 | Gestione delle transazioni. Proprietà delle transazioni. Controllo dell'accesso e sicurezza dei dati. Gestione dei privilegi in SQL. | 6/11 - 12/11 | VL10 | 6/11 | 12/11 | [![icona_pdf](https://farinetti.github.io/materiale-bdcin/iconaPdf.png)](https://farinetti.github.io/materiale-bdcin/VL10-Transazioni-Accesso.pdf) |
-| VL11 | Progettazione delle basi dati. Metodologia di progettazione. Il modello E-R: entità, relazioni, cardinalità, generalizzazione. | 13/11 - 19/11 | VL11 | 13/11 | 19/11 | [![icona_pdf](https://farinetti.github.io/materiale-bdcin/iconaPdf.png)](https://farinetti.github.io/materiale-bdcin/VL11-ModelloER.pdf) |
-| VL12 | Progettazione concettuale. Esempio: data base per la gestione di prenotazioni in una ASL. | 13/11 - 19/11 | VL12 | 13/11 | 19/11 | [![icona_pdf](https://farinetti.github.io/materiale-bdcin/iconaPdf.png)](https://farinetti.github.io/materiale-bdcin/VL12-ProgettazioneConcettuale.pdf) |
-| VL13 | Progettazione logico-relazionale: ristrutturazione dello schema E-R. Traduzione nel modello relazionale. Vincoli di integrità referenziale. | 20/11 - 26/11 | VL13 | 20/11 | 26/11 | [![icona_pdf](https://farinetti.github.io/materiale-bdcin/iconaPdf.png)](https://farinetti.github.io/materiale-bdcin/VL13-ProgettazioneLogica.pdf) |
 | VL14 | Esempio di progettazione logica: data base per la gestione di prenotazioni in una ASL. | 20/11 - 26/11 | VL14 | 20/11 | 26/11 | [![icona_pdf](https://farinetti.github.io/materiale-bdcin/iconaPdf.png)](https://farinetti.github.io/materiale-bdcin/VL14-EsempioProgLogica.pdf) |
 */}
