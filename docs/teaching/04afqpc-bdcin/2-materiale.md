@@ -27,10 +27,10 @@ description: "Materiale didattico (slide, documenti, link, ...)"
 
 ## Videolezioni e quiz
 
-- Sul Portale della didattica trovate 14 video-lezioni pre-registrate (non sono registrazioni in aula di anni precedenti, ma lezioni da 1 ora focalizzate  su argomenti specifici).
+- Sul Portale della didattica trovate 13 video-lezioni pre-registrate (non sono registrazioni in aula di anni precedenti, ma lezioni da 1 ora focalizzate  su argomenti specifici).
 Sono utili per il ripasso o il recupero di lezioni perse.
 
-- Su Moodle sono pubblicati 14 quiz (formative assessment) relativi agli argomenti visti a lezione, da svolgere in un intervallo di tempo specifico (circa una settimana). L'obettivo è incentivare lo studio progressivo e rendere più efficace la partecipazione ad esercitazioni e laboratori.
+- Su Moodle sono pubblicati 13 quiz (formative assessment) relativi agli argomenti visti a lezione, da svolgere in un intervallo di tempo specifico (circa una settimana). L'obettivo è incentivare lo studio progressivo e rendere più efficace la partecipazione ad esercitazioni e laboratori.
 La sottomissione dei quiz entro la scadenza consente di ottenere alcuni punti extra (vedere le Regole d'esame <!-- (https://farinetti.github.io/materiale-bdcin/RegoleEsame23-24.pdf)--> ).
     - Gli argomenti dei quiz, e le date di apertura e chiusura per la sottomissione, sono pubblicati nel [Piano del corso](https://elite.polito.it/teaching/04afqpc-bdcin/schedule).
 
