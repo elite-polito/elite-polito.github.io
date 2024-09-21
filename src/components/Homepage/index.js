@@ -108,29 +108,30 @@ export default function Home({recentPosts}) {
                             <p>The main <Link to='/research/Topics'>research areas</Link> are on the crossing of <b>Human-Computer
                                 Interaction</b>, <b>Ubiquitous Computing</b>, and <b>Artificial Intelligence</b>.</p>
                         </div>
+                        {/* Second semester
                         <div className="col col--3">
                             <Admonition type="info" icon="⚡️" title={'Quick links'}>
                                 <Link to='/teaching/01udf-aw1'>Applicazioni Web I</Link><br/>
                                 <Link to='/teaching/01del-benesseredigitale'>Benessere Digitale</Link><br/>
+                                <Link to='/teaching/01dxu-iaw'>Introduzione alle Applicazioni Web</Link><br/>
                                 <Link to='/teaching/03fyz-tdp'>Tecniche di Programmazione</Link><br/>
                                 <Link to='/teaching/01txy-wa1'>Web Applications I</Link><br/>
                                 <br/>
                                 <Link to='/thesis-offers'>Thesis offers</Link>
                             </Admonition>
                         </div>
-                        {/* First semester 2023/24
+                        */}
                         <div className="col col--3">
                             <Admonition type="info" icon="⚡️" title={'Quick links'}>
                                 <Link to='/teaching/04afqpc-bdcin'>Basi di dati</Link><br/>
                                 <Link to='/teaching/02jsk-hci'>Human Computer Interaction</Link><br/>
                                 <Link to='/teaching/14bhd-informatica'>Informatica</Link><br/>
-                                <Link to='/teaching/01dxu-iaw'>Introduzione alle Applicazioni Web</Link><br/>
                                 <Link to='/teaching/01hfx-uxd'>User Experience Design</Link><br/>
                                 <br/>
                                 <Link to='/thesis-offers'>Thesis offers</Link>
                             </Admonition>
                         </div>
-                        */}
+                        
                     </div>
                 </div>
                 <HomepageFeatures/>
