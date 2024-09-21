@@ -22,7 +22,7 @@ Course material (lectures and labs) is available in the [Schedule](schedule) sec
 | Language:            | English                                      |
 | Main teacher:        | Luigi De Russis                              |
 | Other teachers:      | Alberto Monge Roffarello, Tommaso Calò       |
-| Official link:       | [Portale della Didattica](https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=02JSKOV)                     |
+| Official link:       | [Portale della Didattica](https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=02JSKOV&p_a_acc=2023)                     |
 | GitHub organization: | https://github.com/polito-hci-2022           |
 | Videolectures:       | [YouTube Playlist](https://www.youtube.com/playlist?list=PLs7DWGc_wmwRZHYGyiQxcgfJ7U1X81N_i) and Portale della Didattica |
 | Telegram group:      | https://t.me/+fH1BU1qkTrgzMDE8               |
