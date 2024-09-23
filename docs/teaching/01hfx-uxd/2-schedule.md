@@ -96,7 +96,7 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 <LectureDivider topic='Settimana 5'/>{/*-------------------------------------------*/}
 
 <LectureRow variant='success'
-    date="21/10/2024" time="EOD" type="" teacher=""
+    date="20/10/2024" time="EOD" type="" teacher=""
     >
     <em>Assignment 1 - deadline</em>
 </LectureRow>
@@ -153,7 +153,7 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 <LectureDivider topic='Settimana 8'/>{/*-------------------------------------------*/}
 
 <LectureRow variant='success'
-    date="11/11/2024" time="EOD" type="" teacher=""
+    date="10/11/2024" time="EOD" type="" teacher=""
     >
     <em>Assignment 2 - deadline</em>
 </LectureRow>
@@ -235,7 +235,7 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 <LectureDivider topic='Settimana 12'/>{/*-------------------------------------------*/}
 
 <LectureRow variant='success'
-    date="09/12/2024" time="EOD" type="" teacher=""
+    date="08/12/2024" time="EOD" type="" teacher=""
     >
     <em>Assignment 4 - deadline</em>
 </LectureRow>

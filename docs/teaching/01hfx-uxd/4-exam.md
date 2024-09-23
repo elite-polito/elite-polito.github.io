@@ -24,13 +24,13 @@ Prossimi appelli, con scadenze:
   - Deadline: 10/10/2024
   - [Sottometti il form](https://forms.gle/GwyftpZkcNAk8zYi7)
 - Assignment 1: Needfinding
-  - Deadline: 21/10/2024
+  - Deadline: 20/10/2024
 - Assignment 2: Storyboard e prototipo a bassa fedeltà
-  - Deadline: 11/11/2024
+  - Deadline: 10/11/2024
 - Assignment 3: Valutazione euristica
   - Deadline: 25/11/2024
 - Assignment 4: Da media ad alta fedeltà
-  - Deadline: 09/12/2024
+  - Deadline: 08/12/2024
 - Assignment 5: Prototipo ad alta fedeltà
   - Deadline: 7 giorni prima di ogni appello (vedi sopra per le date esatte)  
 - Report finale: Template e Istruzioni
