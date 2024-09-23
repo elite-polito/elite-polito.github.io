@@ -22,7 +22,7 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 
 <LectureRow
     date="24/09/2024" time="08:30-10:00" type ="Lezione">
-    Introduzione al corso
+    <Link to="https://polito-uxd-2024.github.io/materiale/slides/00-intro.pdf">Introduzione al corso</Link>
 </LectureRow>
 
 <LectureRow 
