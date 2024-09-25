@@ -27,12 +27,12 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 
 <LectureRow 
     date="27/09/2024" time="10:00-11:30" type ="Lezione">
-    Che cos'è lo UXD?
+    <Link to="https://polito-uxd-2024.github.io/materiale/slides/01-whatisUXD.pdf">Che cos'è lo UXD?</Link>
 </LectureRow>
 
 <LectureRow
     date="27/09/2024" time="11:30-13:00" type ="Lezione">
-    Bisogni, task, e loro analisi
+    <Link to="https://polito-uxd-2024.github.io/materiale/slides/02-users-needs-tasks.pdf">Bisogni, task, e loro analisi</Link>
 </LectureRow>
 
 <LectureDivider topic='Settimana 2'/>{/*-------------------------------------------*/}
