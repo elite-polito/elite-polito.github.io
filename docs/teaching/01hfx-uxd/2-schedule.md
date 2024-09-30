@@ -39,12 +39,12 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 
 <LectureRow
     date="01/10/2024" time="08:30-10:00" type ="Lezione" teacher ="Irene Ronga">
-   Introduzione al Benessere Digitale - prospettiva psicologica
+   <Link to="https://polito-uxd-2024.github.io/materiale/slides/03-needfinding.pdf">Needfinding</Link>
 </LectureRow>
 
 <LectureRow 
     date="04/10/2024" time="10:00-11:30" type ="Lezione" teacher ="Irene Ronga">
-    Needfinding
+    Needfinding (continua)
 </LectureRow>
 
 <LectureRow
