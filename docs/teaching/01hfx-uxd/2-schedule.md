@@ -19,37 +19,37 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 <LectureTable defaultTeacher="Alberto Monge Roffarello" defaultType="Lecture" showMaterial={false} language='IT'>
 
 <LectureDivider topic='Settimana 1'/>{/*-------------------------------------------*/}
-
+ 
 <LectureRow
-    date="24/09/2024" time="08:30-10:00" type ="Lezione">
-    <Link to="https://polito-uxd-2024.github.io/materiale/slides/00-intro.pdf">Introduzione al corso</Link>
+    date="24/09/2024" time="08:30-10:00" type ="Lezione" video={['https://www.polito.it/didattica']}>
+    <Link to="https://polito-uxd-2024.github.io/materiale/slides/00-intro.pdf" >Introduzione al corso</Link>
 </LectureRow>
 
 <LectureRow 
-    date="27/09/2024" time="10:00-11:30" type ="Lezione">
+    date="27/09/2024" time="10:00-11:30" type ="Lezione" video={['https://www.polito.it/didattica']}>
     <Link to="https://polito-uxd-2024.github.io/materiale/slides/01-whatisUXD.pdf">Che cos'è lo UXD?</Link>
 </LectureRow>
 
 <LectureRow
-    date="27/09/2024" time="11:30-13:00" type ="Lezione">
+    date="27/09/2024" time="11:30-13:00" type ="Lezione" video={['https://www.polito.it/didattica']}>
     <Link to="https://polito-uxd-2024.github.io/materiale/slides/02-users-needs-tasks.pdf">Bisogni, task, e loro analisi</Link>
 </LectureRow>
 
 <LectureDivider topic='Settimana 2'/>{/*-------------------------------------------*/}
 
 <LectureRow
-    date="01/10/2024" time="08:30-10:00" type ="Lezione" teacher ="Irene Ronga">
-   <Link to="https://polito-uxd-2024.github.io/materiale/slides/03-needfinding.pdf">Needfinding</Link>
+    date="01/10/2024" time="08:30-10:00" type ="Lezione" teacher ="Irene Ronga" video={['https://drive.google.com/drive/folders/1MtLUgYQ8SIwlQKScnWTcVzX5Sk6GbdRh?usp=sharing']}>
+   <Link to="https://polito-uxd-2024.github.io/materiale/slides/03-needfinding.pdf">Needfinding (video-registrazioni dallo scorso anno)</Link>
 </LectureRow>
 
 <LectureRow 
-    date="04/10/2024" time="10:00-11:30" type ="Lezione" teacher ="Irene Ronga">
-    Needfinding (continua)
+    date="04/10/2024" time="10:00-11:30" type ="Lezione" teacher ="Irene Ronga" video={['https://drive.google.com/drive/folders/1MtLUgYQ8SIwlQKScnWTcVzX5Sk6GbdRh?usp=sharing']}>
+    Needfinding (continua - video-registrazioni dallo scorso anno)
 </LectureRow>
 
 <LectureRow
-    date="04/10/2024" time="11:30-13:00" type ="Lezione" teacher ="Irene Ronga">
-    Needfinding (continua)
+    date="04/10/2024" time="11:30-13:00" type ="Lezione" teacher ="Irene Ronga" video={['https://drive.google.com/drive/folders/1MtLUgYQ8SIwlQKScnWTcVzX5Sk6GbdRh?usp=sharing']}>
+    Needfinding (continua - video-registrazioni dallo scorso anno)
 </LectureRow>
 
 <LectureDivider topic='Settimana 3'/>{/*-------------------------------------------*/}
