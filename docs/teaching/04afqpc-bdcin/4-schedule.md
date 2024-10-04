@@ -19,10 +19,12 @@ _Legenda:_ la colonna Tipo può essere Lez/Es=Lezione/Esercitazione in aula, Lab
 
 | Data | Orario | Tipo | Ore | Argomento | Aula | Docente |
 |----|-------------|--------|----|------|------|-----|
+{/*
 | mer 25/09/24 | 8.30-11.30 | Lez/Es | 3 | Presentazione del corso. Introduzione alla basi dati. Modello relazionale. | 9T | L. Farinetti |
 | gio 26/09/24 | 8.30-10.00 | Lez/Es | 1,5 | Modello relazionale. SQL: struttura base.| 10I | L. Farinetti |
 | mer 02/10/24 | 8.30-11.30 | Lez/Es | 3 | SQL: struttura base, ordinamento, join. | 9T | L. Farinetti |
 | gio 03/10/24 | 8.30-10.00 | Lez/Es | 1,5 | SQL: join, funzioni aggregate. | 10I | L. Farinetti |
+*/}
 | mar 08/10/24 | 16.00-17.30 | Lez/Es | 1,5 | SQL: raggruppamento. | 5T | L. Farinetti |
 | mer 09/10/24 | 8.30-11.30 | Lez/Es | 3 | SQL: interrogazioni annidate, IN e NOT IN. | 9T | L. Farinetti |
 | gio 10/10/24 | 8.30-10.00 | Lez/Es | 1,5 | SQL: EXISTS, correlazione. | 10I | L. Farinetti |
@@ -35,6 +37,17 @@ _Legenda:_ la colonna Tipo può essere Lez/Es=Lezione/Esercitazione in aula, Lab
 | gio 24/10/24 | 8.30-10.00 | Lez/Es | 1,5 | SQL: operatori insiemistici, manipolazione dati. | 10I | L. Farinetti |
 | mar 29/10/24 | 16.00-17.30 | Lab sq. A | 1,5 | Laboratorio #3: SQL. Squadra A | 5T | L. Canale |
 | mar 29/10/24 | 17.30-19.00 | Lab sq. B | 1,5 | Laboratorio #3: SQL. Squadra B | 5T | L. Canale |
+| mer 30/10/24 | 8.30-10.00 | Lez/Es | 1,5 | Presentazione del progetto - parte 1. | 9T | L. Canale |
+| mer 30/10/24 | 10.00-11.30 | Lez/Es | 1,5 | Gestione delle tabelle. | 9T | L. Farinetti |
+| gio 31/10/24 | 8.30-10.00 | Lez/Es | 1,5 | Presentazione del progetto - parte 2. | 10I | L. Canale |
+| mar 05/11/24 | 16.00-17.30 | Lab sq. B | 1,5 | Laboratorio #4: Progetto - fase 1. Squadra B | 5T | L. Canale |
+| mar 05/11/24 | 17.30-19.00 | Lab sq. A | 1,5 | Laboratorio #4: Progetto - fase 1. Squadra A | 5T | L. Canale |
+| mer 06/11/24 | 8.30-11.30 | Lez/Es | 3 | Progettazione concettuale. Modello E-R. | 9T | L. Farinetti |
+| gio 07/11/24 | 8.30-10.00 | Lez/Es | 1,5 | Gestione del tempo. | 10I | L. Farinetti |
+| mar 12/11/24 | 16.00-17.30 | Lab sq. A | 1,5 | Laboratorio #5: Progetto - fase 2. Squadra A | 5T | L. Canale |
+| mar 12/11/24 | 17.30-19.00 | Lab sq. B | 1,5 | Laboratorio #5: Progetto - fase 2. Squadra B | 5T | L. Canale |
+| mer 13/11/24 | 8.30-11.30 | Lez/Es | 3 | Progettazione logico-relazionale. | 9T | L. Farinetti |
+| gio 14/11/24 | 8.30-10.00 | Lez/Es | 1,5 | Esercizi di progettazione. | 10I | L. Farinetti |
 
 {/*
 ## Esercizi da svolgere prima delle esercitazioni in aula

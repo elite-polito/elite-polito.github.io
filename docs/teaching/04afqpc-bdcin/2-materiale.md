@@ -6,7 +6,6 @@ description: "Materiale didattico (slide, documenti, link, ...)"
 
 ## Lucidi delle lezioni
 
-- Introduzione al corso
 - [Introduzione alle basi di dati](https://farinetti.github.io/materiale-bdcin/01-Introduzione_alle_basi_dati.pdf)
 - [Modello relazionale](https://farinetti.github.io/materiale-bdcin/02-Modello_relazionale.pdf)
 - Linguaggio SQL
