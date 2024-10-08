@@ -59,25 +59,39 @@ La sottomissione dei quiz entro la scadenza consente di ottenere alcuni punti ex
 - Esercitazione CCT#2: Progettazione di basi dati - [Testo](https://farinetti.github.io/materiale-bdcin/EsercitazioneCCT_2.pdf)
 -->
 
-## Laboratori
+## Laboratori - informazioni
+
+In questa [cartella condivisa](https://drive.google.com/drive/folders/12450wIo07BCc3qJGXuSt6t3b-RksO-vv?usp=drive_link)
+trovate un file excel "Gruppi" e due cartelle che contengono sceneggiature di film.
+
+Nel file excel dovete inserire:
+- nome, cognome e matricola dei due componenti del gruppo (o un solo componente se volete fare il progetto da soli) -> entro venerdì 11/10
+- nella colonna "screenplay 1" dovete inserire il titolo di uno dei film che trovate nella cartella "screenplays_1" -> entro venerdì 25/10
+- nella colonna "screenplay 2" dovete inserire il titolo di uno dei film che trovate nella cartella "screenplays_2" -> entro venerdì 25/10
+Nota: i film devono essere diversi per ogni gruppo.
+
+## Laboratori - materiale
 
 - Laboratorio #1: 15/10 - SQL
- <!--   - [Testo](https://farinetti.github.io/materiale-bdcin/Lab1-testo.pdf)
-    - [Risultati attesi](https://farinetti.github.io/materiale-bdcin/Lab-1-risultati_attesi.pdf)
+    - [Testo](https://farinetti.github.io/materiale-bdcin/Lab1-testo.pdf)
+    - [Risultati attesi](https://farinetti.github.io/materiale-bdcin/Lab-1-risultati_attesi.pdf) 
+<!--    
     - [Soluzioni](https://farinetti.github.io/materiale-bdcin/Lab-1-soluzioni.pdf) -->
 - Laboratorio #2: 22/10 - SQL
 <!--
     - [Testo](https://farinetti.github.io/materiale-bdcin/Lab-2-testo.pdf)
     - [Risultati attesi](https://farinetti.github.io/materiale-bdcin/Lab-2-risultati_attesi.pdf)
     - [Soluzioni](https://farinetti.github.io/materiale-bdcin/Lab-2-soluzioni.pdf) -->
-- Laboratorio #3: 29/10 - SQL
+- Laboratorio #3: 05/11 - SQL
 <!--
     - [Testo](https://farinetti.github.io/materiale-bdcin/Lab-3-testo.pdf)
     - [Risultati attesi](https://farinetti.github.io/materiale-bdcin/Lab-3-risultati_attesi.pdf)
     - [Soluzioni](https://farinetti.github.io/materiale-bdcin/Lab-3-soluzioni.pdf) -->
 
+- Laboratori #4-#7: 12/11, 19/11, 26/11 e 03/12 - Information Retrieval
+
+
 <!--
-- Laboratori #4-#7: 13/11, 20/11, 04/12 e 11/12 - Q&A Information Retrieval
     - Obiettivo: progettare, creare e valutare un Chatbot Telegram in grado di rispondere a domande specifiche a partire da una base di conoscenza
     - Attività unica, ma organizzata in fasi (con consegna dopo ciascuna fase)
     - Fase 1: [presentazione](https://farinetti.github.io/materiale-bdcin/Chatbot-Fase1.pdf) e [link](https://colab.research.google.com/drive/1sIy6IVzW5ANHoTpWYNXlf9IXlNL3Cw-P?usp=sharing) al Notebook con istruzioni/tutorial -> consegna prima del laboratorio di lunedì 13/11
