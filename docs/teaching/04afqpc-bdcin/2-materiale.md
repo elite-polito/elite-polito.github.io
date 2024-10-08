@@ -62,12 +62,12 @@ La sottomissione dei quiz entro la scadenza consente di ottenere alcuni punti ex
 ## Laboratori - informazioni
 
 In questa [cartella condivisa](https://drive.google.com/drive/folders/12450wIo07BCc3qJGXuSt6t3b-RksO-vv?usp=drive_link)
-trovate un file excel "Gruppi" e due cartelle che contengono sceneggiature di film.
+trovate un file excel Gruppi e due cartelle che contengono sceneggiature di film.
 
 Nel file excel dovete inserire:
 - nome, cognome e matricola dei due componenti del gruppo (o un solo componente se volete fare il progetto da soli): entro venerdì 11/10
-- nella colonna "screenplay 1" dovete inserire il titolo di uno dei film che trovate nella cartella "screenplays_1": entro venerdì 25/10
-- nella colonna "screenplay 2" dovete inserire il titolo di uno dei film che trovate nella cartella "screenplays_2" : entro venerdì 25/10
+- nella colonna screenplay 1 dovete inserire il titolo di uno dei film che trovate nella cartella screenplays_1: entro venerdì 25/10
+- nella colonna screenplay 2 dovete inserire il titolo di uno dei film che trovate nella cartella screenplays_2: entro venerdì 25/10
 Nota: i film devono essere diversi per ogni gruppo.
 
 ## Laboratori - materiale
