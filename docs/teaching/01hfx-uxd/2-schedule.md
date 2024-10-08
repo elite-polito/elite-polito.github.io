@@ -39,8 +39,7 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 
 <LectureRow
     date="01/10/2024" time="08:30-10:00" type ="Lezione" teacher ="Irene Ronga" video={['https://drive.google.com/drive/folders/1MtLUgYQ8SIwlQKScnWTcVzX5Sk6GbdRh?usp=sharing']}>
-   
-   <><Link to="https://polito-uxd-2024.github.io/materiale/slides/03-needfinding.pdf">Needfindingz/Link><br/>
+   <><Link to="https://polito-uxd-2024.github.io/materiale/slides/03-needfinding.pdf">Needfinding</Link><br/>
     ➡ video-registrazioni dallo scorso anno</>
    
 </LectureRow>
