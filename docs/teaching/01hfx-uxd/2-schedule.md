@@ -72,19 +72,19 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 
 <LectureRow 
     date="11/10/2024" time="10:00-11:30" type ="Laboratorio" teacher ="Irene Ronga">
-    Assignment 1: Needfinding
+    <Link to="https://polito-uxd-2024.github.io/materiale/assignments/A1-needfinding.pdf">Assignment 1: Needfinding</Link>
 </LectureRow>
 
 <LectureRow
     date="11/10/2024" time="11:30-13:00" type ="Laboratorio" teacher ="Irene Ronga">
-    Assignment 1: Needfinding
+    Assignment 1: Needfinding (continua)
 </LectureRow>
 
 <LectureDivider topic='Settimana 4'/>{/*-------------------------------------------*/}
 
 <LectureRow
     date="15/10/2024" time="08:30-10:00" type ="Laboratorio" teacher ="Irene Ronga">
-    Assignment 1: Needfinding
+    Assignment 1: Needfinding (continua)
 </LectureRow>
 
 <LectureRow 

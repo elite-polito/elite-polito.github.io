@@ -23,7 +23,7 @@ Prossimi appelli, con scadenze:
 - Composizione dei gruppi
   - Deadline: 10/10/2024
   - [Sottometti il form](https://forms.gle/GwyftpZkcNAk8zYi7)
-- Assignment 1: Needfinding
+- [Assignment 1: Needfinding](https://polito-uxd-2024.github.io/materiale/assignments/A1-needfinding.pdf)
   - Deadline: 20/10/2024
 - Assignment 2: Storyboard e prototipo a bassa fedeltà
   - Deadline: 10/11/2024
