@@ -39,17 +39,22 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 
 <LectureRow
     date="01/10/2024" time="08:30-10:00" type ="Lezione" teacher ="Irene Ronga" video={['https://drive.google.com/drive/folders/1MtLUgYQ8SIwlQKScnWTcVzX5Sk6GbdRh?usp=sharing']}>
-   <Link to="https://polito-uxd-2024.github.io/materiale/slides/03-needfinding.pdf">Needfinding (video-registrazioni dallo scorso anno)</Link>
+   
+   <><Link to="https://polito-uxd-2024.github.io/materiale/slides/03-needfinding.pdf">Needfindingz/Link><br/>
+    ➡ video-registrazioni dallo scorso anno</>
+   
 </LectureRow>
 
 <LectureRow 
     date="04/10/2024" time="10:00-11:30" type ="Lezione" teacher ="Irene Ronga" video={['https://drive.google.com/drive/folders/1MtLUgYQ8SIwlQKScnWTcVzX5Sk6GbdRh?usp=sharing']}>
-    Needfinding (continua - video-registrazioni dallo scorso anno)
+    <>Needfinding (continua) <br/>
+    ➡ video-registrazioni dallo scorso anno</>
 </LectureRow>
 
 <LectureRow
     date="04/10/2024" time="11:30-13:00" type ="Lezione" teacher ="Irene Ronga" video={['https://drive.google.com/drive/folders/1MtLUgYQ8SIwlQKScnWTcVzX5Sk6GbdRh?usp=sharing']}>
-    Needfinding (continua - video-registrazioni dallo scorso anno)
+    <>Needfinding (continua) <br/>
+    ➡ video-registrazioni dallo scorso anno</>
 </LectureRow>
 
 <LectureDivider topic='Settimana 3'/>{/*-------------------------------------------*/}
@@ -57,7 +62,7 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 
 <LectureRow
     date="08/10/2024" time="08:30-10:00" type ="Lezione" teacher ="Irene Ronga">
-   Needfinding (continua)
+   <Link to="https://polito-uxd-2024.github.io/materiale/slides/04-naturale-digitale.pdf">Naturale e digitale</Link>
 </LectureRow>
 
 <LectureRow variant='success'
