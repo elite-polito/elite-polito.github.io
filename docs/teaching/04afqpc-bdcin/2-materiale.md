@@ -41,11 +41,19 @@ La sottomissione dei quiz entro la scadenza consente di ottenere alcuni punti ex
     <!-- e [Soluzione](https://farinetti.github.io/materiale-bdcin/EsSQL_1-Soluz.pdf) -->
     - Blocco 2: [Testo](https://farinetti.github.io/materiale-bdcin/EsSQL_2-Testo.pdf) 
     <!-- e [Soluzione](https://farinetti.github.io/materiale-bdcin/EsSQL_2-Soluz.pdf) -->
+    - Blocco 3: [Testo](https://farinetti.github.io/materiale-bdcin/EserciziSQL-parte1.pdf)
+    <!-- e [Soluzione](https://farinetti.github.io/materiale-bdcin/EserciziSQL-parte1_sol.pdf) -->
+    - Blocco 4: [Testo](https://farinetti.github.io/materiale-bdcin/EserciziSQL-parte2.pdf)
+    <!-- e [Soluzione](https://farinetti.github.io/materiale-bdcin/EserciziSQL-parte2_sol.pdf) -->
+    - Blocco 5: [Testo](https://farinetti.github.io/materiale-bdcin/EserciziSQL-parte3.pdf)
+    <!-- e [Soluzione](https://farinetti.github.io/materiale-bdcin/EserciziSQL-parte3_sito.pdf) -->
+
+    <!-- 
     - Blocco 3: [Testo](https://farinetti.github.io/materiale-bdcin/EsSQL_3-Testo.pdf)
-    <!-- e [Soluzione](https://farinetti.github.io/materiale-bdcin/EsSQL_3-Soluz.pdf) -->
+    e [Soluzione](https://farinetti.github.io/materiale-bdcin/EsSQL_3-Soluz.pdf)
     - Blocco 4: [Testo](https://farinetti.github.io/materiale-bdcin/EsSQL_4-Testo.pdf)
-    <!-- e [Soluzione](https://farinetti.github.io/materiale-bdcin/EsSQL_4-Soluz.pdf) -->
-    <!-- - [Pillola video](https://youtu.be/5dUdTthfgvs) su GROUP BY e NOT IN -->
+    e [Soluzione](https://farinetti.github.io/materiale-bdcin/EsSQL_4-Soluz.pdf)
+    - [Pillola video](https://youtu.be/5dUdTthfgvs) su GROUP BY e NOT IN -->
 
 - Progettazione
     - ER 1: [Testo](https://farinetti.github.io/materiale-bdcin/EsER_1-Testo.pdf)
