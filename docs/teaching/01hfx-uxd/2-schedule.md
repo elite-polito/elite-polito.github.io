@@ -68,7 +68,7 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
     date="10/10/2024" time="EOD" type="" teacher=""
     >
     <><em>Assignment 0 (composizione gruppi) - deadline</em><br/> 
-    ➡ <Link to="https://www.cs.cmu.edu/~pausch/Randy/tipoForGroups.html">Tips for working successfully in a group</Link>.</>
+    ➡ <Link to="https://docs.google.com/spreadsheets/d/1VpkieeJqiEiazZG3uxYID2cSz3ExIXBkoqkjMgSpbsU/edit?usp=sharing">Gruppi e temi</Link>.</>
 </LectureRow>
 
 <LectureRow 
