@@ -100,25 +100,27 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 
 <LectureDivider topic='Settimana 5'/>{/*-------------------------------------------*/}
 
+
+
+<LectureRow
+    date="22/10/2024" time="08:30-10:00" teacher ="Irene Ronga">
+        Interazione con l'Intelligenza Artificiale
+</LectureRow>
+
 <LectureRow variant='success'
-    date="20/10/2024" time="EOD" type="" teacher=""
+    date="23/10/2024" time="EOD" type="" teacher=""
     >
     <em>Assignment 1 - deadline</em>
 </LectureRow>
 
-<LectureRow
-    date="22/10/2024" time="08:30-10:00" type ="Laboratorio" teacher ="Irene Ronga">
-        Sessione di feedback su Assignment 1
-</LectureRow>
-
 <LectureRow 
     date="25/10/2024" time="10:00-11:30" type ="Lezione" teacher ="Irene Ronga">
-    Interazione con l'Intelligenza Artificiale
+    Interazione con l'Intelligenza Artificiale (continua)
 </LectureRow>
 
 <LectureRow
-    date="25/10/2024" time="11:30-13:00" type ="Lezione" teacher ="Irene Ronga">
-    Interazione con l'Intelligenza Artificiale
+    date="25/10/2024" time="11:30-13:00" type ="Laboratorio" teacher ="Irene Ronga">
+    Sessione di feedback su Assignment 1
 </LectureRow>
 
 <LectureDivider topic='Settimana 6'/>{/*-------------------------------------------*/}
