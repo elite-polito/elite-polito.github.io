@@ -67,7 +67,8 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 <LectureRow variant='success'
     date="10/10/2024" time="EOD" type="" teacher=""
     >
-    <em>Assignment 0 (composizione gruppi) - deadline</em>
+    <><em>Assignment 0 (composizione gruppi) - deadline</em><br/> 
+    ➡ <Link to="https://www.cs.cmu.edu/~pausch/Randy/tipoForGroups.html">Tips for working successfully in a group</Link>.</>
 </LectureRow>
 
 <LectureRow 
