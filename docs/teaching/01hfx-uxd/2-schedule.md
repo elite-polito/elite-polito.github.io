@@ -90,12 +90,12 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 
 <LectureRow 
     date="18/10/2024" time="10:00-11:30" type ="Lezione">
-    Prototipazione
+    Scenari, storyboard, e prototipazione a bassa fedeltà
 </LectureRow>
 
 <LectureRow
     date="18/10/2024" time="11:30-13:00" type ="Lezione">
-    Scenari e storyboard
+    Design principles
 </LectureRow>
 
 <LectureDivider topic='Settimana 5'/>{/*-------------------------------------------*/}
@@ -212,7 +212,7 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 
 <LectureRow 
     date="29/11/2024" time="10:00-11:30" type ="Lezione">
-    Design pattern
+    Design patterns e guidelines
 </LectureRow>
 
 <LectureRow
