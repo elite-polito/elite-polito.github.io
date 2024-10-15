@@ -63,7 +63,7 @@ function OfferedThesis({
 async function loadEliteThesis() {
     const baseUrl = 'https://didattica.polito.it/pls/portal30/sviluppo.tesiv.jsn?dgrp=';
     const lang = '&lang=EN';
-    const group = 'DAUIN%20%2D%20GR%2D10%20%2D%20Intelligent%20and%20Interactive%20Systems%20%2D%20e%2DLITE';
+    const group = 'DAUIN%20%2D%20GR%2D10%20%2D%20Intelligent%20and%20Interactive%20Systems%20%2D%20ELITE';
 
     const resource = baseUrl + group + lang;
 
