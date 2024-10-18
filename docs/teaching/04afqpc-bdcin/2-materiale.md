@@ -82,7 +82,7 @@ La sottomissione dei quiz entro la scadenza consente di ottenere alcuni punti ex
     - [Testo](https://farinetti.github.io/materiale-bdcin/Lab-2-testo.pdf)
     - [Risultati attesi](https://farinetti.github.io/materiale-bdcin/Lab-2-risultati_attesi.pdf)
 
-<!-->
+<!--
     - [Soluzioni](https://farinetti.github.io/materiale-bdcin/Lab-2-soluzioni.pdf) -->
 
 - Laboratorio #3: 05/11 - SQL
