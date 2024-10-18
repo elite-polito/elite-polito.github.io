@@ -55,6 +55,8 @@ La sottomissione dei quiz entro la scadenza consente di ottenere alcuni punti ex
     e [Soluzione](https://farinetti.github.io/materiale-bdcin/EsSQL_4-Soluz.pdf)
     - [Pillola video](https://youtu.be/5dUdTthfgvs) su GROUP BY e NOT IN -->
 
+    - [Esercitazione SQL](https://farinetti.github.io/materiale-bdcin/Es_SQL_17102024) del 17/10/2024
+
 - Progettazione
     - ER 1: [Testo](https://farinetti.github.io/materiale-bdcin/EsER_1-Testo.pdf)
     <!-- e [Soluzione](https://farinetti.github.io/materiale-bdcin/EsER_1-Soluz.pdf) -->
@@ -73,15 +75,14 @@ La sottomissione dei quiz entro la scadenza consente di ottenere alcuni punti ex
 - Laboratorio #1: 15/10 - SQL
     - [Testo](https://farinetti.github.io/materiale-bdcin/Lab1-testo.pdf)
     - [Risultati attesi](https://farinetti.github.io/materiale-bdcin/Lab-1-risultati_attesi.pdf) 
-
-<!--    
-    - [Soluzioni](https://farinetti.github.io/materiale-bdcin/Lab-1-soluzioni.pdf) -->
+    - [Soluzioni](https://farinetti.github.io/materiale-bdcin/Lab-1-soluzioni.pdf)
 
 - Laboratorio #2: 22/10 - SQL
 
-<!--
     - [Testo](https://farinetti.github.io/materiale-bdcin/Lab-2-testo.pdf)
     - [Risultati attesi](https://farinetti.github.io/materiale-bdcin/Lab-2-risultati_attesi.pdf)
+
+<!-->
     - [Soluzioni](https://farinetti.github.io/materiale-bdcin/Lab-2-soluzioni.pdf) -->
 
 - Laboratorio #3: 05/11 - SQL
