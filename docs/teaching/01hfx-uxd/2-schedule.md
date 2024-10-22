@@ -104,7 +104,7 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 
 <LectureRow
     date="22/10/2024" time="08:30-10:00" teacher ="Irene Ronga">
-        Interazione con l'Intelligenza Artificiale
+        <Link to="https://polito-uxd-2024.github.io/materiale/slides/07-ai-interaction.pdf">Interazione con l'Intelligenza Artificiale</Link>
 </LectureRow>
 
 <LectureRow variant='success'
