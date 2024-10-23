@@ -114,8 +114,8 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 </LectureRow>
 
 <LectureRow 
-    date="25/10/2024" time="10:00-11:30" type ="Lezione" teacher ="Irene Ronga">
-    Interazione con l'Intelligenza Artificiale (continua)
+    date="25/10/2024" time="10:00-11:30" type ="Laboratorio" teacher ="Irene Ronga">
+        Sessione di feedback su Assignment 1
 </LectureRow>
 
 <LectureRow
