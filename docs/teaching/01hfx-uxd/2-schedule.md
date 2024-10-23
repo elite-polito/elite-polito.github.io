@@ -89,13 +89,13 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 </LectureRow>
 
 <LectureRow 
-    date="18/10/2024" time="10:00-11:30" type ="Lezione">
-    <Link to="https://polito-uxd-2024.github.io/materiale/slides/05-scenarios-storyboards-lowfi.pdf" video={['https://www.polito.it/didattica']}>Scenari, storyboard, e prototipazione a bassa fedeltà</Link>
+    date="18/10/2024" time="10:00-11:30" type ="Lezione" video={['https://www.polito.it/didattica']}>
+    <Link to="https://polito-uxd-2024.github.io/materiale/slides/05-scenarios-storyboards-lowfi.pdf" >Scenari, storyboard, e prototipazione a bassa fedeltà</Link>
 </LectureRow>
 
 <LectureRow
-    date="18/10/2024" time="11:30-13:00" type ="Lezione">
-    <Link to="https://polito-uxd-2024.github.io/materiale/slides/06-design-principles.pdf" video={['https://www.polito.it/didattica']}>Design principles</Link>
+    date="18/10/2024" time="11:30-13:00" type ="Lezione" video={['https://www.polito.it/didattica']}>
+    <Link to="https://polito-uxd-2024.github.io/materiale/slides/06-design-principles.pdf" >Design principles</Link>
 </LectureRow>
 
 <LectureDivider topic='Settimana 5'/>{/*-------------------------------------------*/}
