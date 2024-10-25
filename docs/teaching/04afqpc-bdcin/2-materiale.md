@@ -56,6 +56,7 @@ La sottomissione dei quiz entro la scadenza consente di ottenere alcuni punti ex
     - [Pillola video](https://youtu.be/5dUdTthfgvs) su GROUP BY e NOT IN -->
 
     - [Esercitazione SQL](https://farinetti.github.io/materiale-bdcin/Es_SQL_17102024.pdf) del 17/10/2024
+    - Altri [esercizi di SQL](https://farinetti.github.io/materiale-bdcin/Esercizi_SQL.pdf) svolti in aula
 
 - Progettazione
     - ER 1: [Testo](https://farinetti.github.io/materiale-bdcin/EsER_1-Testo.pdf)
