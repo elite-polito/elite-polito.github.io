@@ -120,7 +120,7 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 
 <LectureRow
     date="25/10/2024" time="11:30-13:00" type ="Laboratorio" teacher ="Irene Ronga">
-    Sessione di feedback su Assignment 1
+     <Link to="https://polito-uxd-2024.github.io/materiale/slides/08-gamification.pdf">Approcci gamificati</Link>
 </LectureRow>
 
 <LectureDivider topic='Settimana 6'/>{/*-------------------------------------------*/}
@@ -149,12 +149,12 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 
 <LectureRow 
     date="08/11/2024" time="10:00-11:30" type ="Lezione" teacher ="Irene Ronga">
-    Approcci gamificati
+    Approcci gamificati (continua)
 </LectureRow>
 
 <LectureRow
     date="08/11/2024" time="11:30-13:00" type ="Lezione" teacher ="Irene Ronga">
-    Approcci gamificati
+    Approcci gamificati (continua)
 </LectureRow>
 
 <LectureDivider topic='Settimana 8'/>{/*-------------------------------------------*/}
