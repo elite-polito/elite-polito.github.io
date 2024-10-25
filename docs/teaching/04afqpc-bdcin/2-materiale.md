@@ -38,11 +38,11 @@ La sottomissione dei quiz entro la scadenza consente di ottenere alcuni punti ex
  
 - SQL
     - Blocco 1: [Testo](https://farinetti.github.io/materiale-bdcin/EsSQL_1-Testo.pdf)
-    <!-- e [Soluzione](https://farinetti.github.io/materiale-bdcin/EsSQL_1-Soluz.pdf) -->
+     e [Soluzione](https://farinetti.github.io/materiale-bdcin/EsSQL_1-Soluz.pdf)
     - Blocco 2: [Testo](https://farinetti.github.io/materiale-bdcin/EsSQL_2-Testo.pdf) 
-    <!-- e [Soluzione](https://farinetti.github.io/materiale-bdcin/EsSQL_2-Soluz.pdf) -->
+     e [Soluzione](https://farinetti.github.io/materiale-bdcin/EsSQL_2-Soluz.pdf)
     - Blocco 3: [Testo](https://farinetti.github.io/materiale-bdcin/EserciziSQL-parte1.pdf)
-    <!-- e [Soluzione](https://farinetti.github.io/materiale-bdcin/EserciziSQL-parte1_sol.pdf) -->
+     e [Soluzione](https://farinetti.github.io/materiale-bdcin/EserciziSQL-parte1_sol.pdf)
     - Blocco 4: [Testo](https://farinetti.github.io/materiale-bdcin/EserciziSQL-parte2.pdf)
     <!-- e [Soluzione](https://farinetti.github.io/materiale-bdcin/EserciziSQL-parte2_sol.pdf) -->
     - Blocco 5: [Testo](https://farinetti.github.io/materiale-bdcin/EserciziSQL-parte3.pdf)
@@ -81,9 +81,7 @@ La sottomissione dei quiz entro la scadenza consente di ottenere alcuni punti ex
 
     - [Testo](https://farinetti.github.io/materiale-bdcin/Lab-2-testo.pdf)
     - [Risultati attesi](https://farinetti.github.io/materiale-bdcin/Lab-2-risultati_attesi.pdf)
-
-<!--
-    - [Soluzioni](https://farinetti.github.io/materiale-bdcin/Lab-2-soluzioni.pdf) -->
+    - [Soluzioni](https://farinetti.github.io/materiale-bdcin/Lab-2-soluzioni.pdf)
 
 - Laboratorio #3: 05/11 - SQL
 
