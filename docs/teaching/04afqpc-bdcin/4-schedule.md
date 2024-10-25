@@ -34,6 +34,11 @@ _Legenda:_ la colonna Tipo può essere Lez/Es=Lezione/Esercitazione in aula, Lab
 | gio 14/11/24 | 8.30-10.00 | Lez/Es | 1,5 | Esercizi di progettazione. | 10I | L. Farinetti |
 | mar 19/11/24 | 16.00-17.30 | Lab sq. A | 1,5 | Laboratorio #5: Progetto - fase 2. Squadra A | 5T | L. Canale |
 | mar 19/11/24 | 17.30-19.00 | Lab sq. B | 1,5 | Laboratorio #5: Progetto - fase 2. Squadra B | 5T | L. Canale |
+| mer 20/11/24 | 8.30-11.30 | Lez/Es | 3 | Esempi di progettazione concettuale. | 9T | L. Farinetti |
+| gio 21/11/24 | 8.30-10.00 | Lez/Es | 1,5 | Esercizi. | 10I | L. Canale |
+| mar 26/11/24 | 16.00-17.30 | Lab sq. B | 1,5 | Laboratorio #6: Progetto - fase 3. Squadra B | 5T | L. Canale |
+| mar 26/11/24 | 17.30-19.00 | Lab sq. A | 1,5 | Laboratorio #6: Progetto - fase 3. Squadra A | 5T | L. Canale |
+| mer 27/11/24 | 8.30-11.30 | Lez/Es | 3 | Gestione delle transazioni e sicurezza dei dati. Esercizi. | 9T | L. Farinetti |
 
 {/*
 
