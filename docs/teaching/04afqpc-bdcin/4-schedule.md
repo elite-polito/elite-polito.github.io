@@ -89,10 +89,10 @@ Note:
 | Q07 | Divisione. Table function. | 25/10 | 31/10 | VL07 |
 | Q08 | Gli operatori insiemistici: UNION, INTERSECT, EXCEPT. Le istruzioni di aggiornamento: INSERT, DELETE, UPDATE. | 01/11 | 07/11 | VL08 |
 | Q09 | Gestione delle tabelle. Creazione, modifica, cancellazione. Vincoli di tabella. Vincoli di integrità referenziale e gestione dei vincoli. | 08/11 | 14/11 | VL09 |
-| Q10 | Progettazione delle basi dati. Metodologia di progettazione. Il modello E-R: entità, relazioni, cardinalità, generalizzazione. | 15/11 | 21/11 | VL11 |
-| Q11 | Progettazione concettuale. Esempio: data base per la gestione di prenotazioni in una ASL. | 15/11 | 21/11 | VL12 |
-| Q12 | Progettazione logico-relazionale: ristrutturazione dello schema E-R. Traduzione nel modello relazionale. Vincoli di integrità referenziale. | 22/11 | 28/11 | VL13 |
-| Q13 | Esempio di progettazione logica: data base per la gestione di prenotazioni in una ASL. | 22/11 | 28/11 | VL14 |
+| Q10 | Progettazione delle basi dati. Metodologia di progettazione. Il modello E-R: entità, relazioni, cardinalità, generalizzazione. | 15/11 | 21/11 | VL10 |
+| Q11 | Progettazione concettuale. Esempio: data base per la gestione di prenotazioni in una ASL. | 15/11 | 21/11 | VL11 |
+| Q12 | Progettazione logico-relazionale: ristrutturazione dello schema E-R. Traduzione nel modello relazionale. Vincoli di integrità referenziale. | 22/11 | 28/11 | VL12 |
+| Q13 | Esempio di progettazione logica: data base per la gestione di prenotazioni in una ASL. | 22/11 | 28/11 | VL13 |
 
 {/*
 
