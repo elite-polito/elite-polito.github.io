@@ -25,7 +25,7 @@ Prossimi appelli, con scadenze:
   - [Sottometti il form](https://forms.gle/GwyftpZkcNAk8zYi7)
 - [Assignment 1: Needfinding](https://polito-uxd-2024.github.io/materiale/assignments/A1-needfinding.pdf)
   - Deadline: 23/10/2024
-- Assignment 2: Storyboard e prototipo a bassa fedeltà
+- [Assignment 2: Storyboard e prototipo a bassa fedeltà](https://polito-uxd-2024.github.io/materiale/assignments/A2-storyboard-paper-prototypes.pdf)
   - Deadline: 10/11/2024
 - Assignment 3: Valutazione euristica
   - Deadline: 25/11/2024

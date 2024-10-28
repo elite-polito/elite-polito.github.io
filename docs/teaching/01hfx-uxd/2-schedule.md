@@ -127,7 +127,7 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 
 <LectureRow
     date="29/10/2024" time="08:30-10:00" type ="Laboratorio">
-        Assignment 2: Storyboard e prototipo a bassa fedeltà
+       <Link to="https://polito-uxd-2024.github.io/materiale/assignments/A2-storyboard-paper-prototypes.pdf">Assignment 2: Storyboard e prototipo a bassa fedeltà</Link>
 </LectureRow>
 
 <LectureRow 
