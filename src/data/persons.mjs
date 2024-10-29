@@ -41,7 +41,7 @@ const people = [
     },
     {
         name: 'Luca Mannella',
-        role: 'Ph.D. Candidate',
+        role: 'Post Doc Researcher',
         email: 'luca.mannella@polito.it',
         img: '/img/people/LucaMannella.jpg',
         github: 'LucaMannella',
