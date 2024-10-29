@@ -78,7 +78,7 @@ const alumni = [
     {
         name: 'Luca Mannella',
         role: 'Post-Doc Researcher at Politecnico di Torino',
-        email: 'luca.mannella@polito.it',
+        // email: 'luca.mannella@polito.it',
         img: '/img/people/LucaMannella.jpg',
         github: 'LucaMannella',
         linkedin: 'lucamannella',

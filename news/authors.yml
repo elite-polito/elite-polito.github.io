@@ -16,15 +16,6 @@ derussis:
     github: luigidr
     linkedin: luigidr
 
-mannella:
-  name: Luca Mannella
-  title: Ph.D. Student
-  url: https://github.com/Sarcares
-  image_url: /img/people/LucaMannella.jpg
-  socials:
-    github: LucaMannella
-    linkedin: lucamannella
-
 monge:
   name: Alberto Monge Roffarello
   title: Assistant Professor
@@ -72,3 +63,12 @@ scibetta:
   socials:
     github: LucaScibetta
     linkedin: luca-scibetta-26290b22b
+
+mannella:
+  name: Luca Mannella
+  title: (former) Ph.D. Student
+  url: https://github.com/Sarcares
+  image_url: /img/people/LucaMannella.jpg
+  socials:
+    github: LucaMannella
+    linkedin: lucamannella
