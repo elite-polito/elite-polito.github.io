@@ -40,18 +40,8 @@ const people = [
         linkedin: 'jpsaenz',
     },
     {
-        name: 'Luca Mannella',
-        role: 'Post Doc Researcher',
-        email: 'luca.mannella@polito.it',
-        img: '/img/people/LucaMannella.jpg',
-        github: 'LucaMannella',
-        linkedin: 'lucamannella',
-        twitter: 'LukeMannella',
-        youtube: '@LucaMannella'
-    },
-    {
         name: 'Tommaso Calò',
-        role: 'Ph.D. Student',
+        role: 'Ph.D. Candidate',
         email: 'tommaso.calo@polito.it',
         img: '/img/people/TommasoCalo.jpeg',
         github: 'tommasocalo',
@@ -86,6 +76,16 @@ const people = [
 
 const alumni = [
     {
+        name: 'Luca Mannella',
+        role: 'Post-Doc Researcher at Politecnico di Torino',
+        email: 'luca.mannella@polito.it',
+        img: '/img/people/LucaMannella.jpg',
+        github: 'LucaMannella',
+        linkedin: 'lucamannella',
+        twitter: 'LukeMannella',
+        youtube: '@LucaMannella'
+    },
+    {
         name: 'Lorenzo Canale',
         role: 'Artificial Intelligence Researcher at RAI - Radiotelevisione Italiana',
         img: 'img/people/LorenzoCanale.jpeg',
@@ -100,7 +100,7 @@ const alumni = [
     },
     {
         name: 'Fabio Ballati',
-        role: 'Ph.D. Student at Politecnico di Torino',
+        role: 'Systemic-relational Counselor',
         img: '/img/people/FabioBallati.webp',
         linkedin: 'fabio-ballati-290853ba',
     },
