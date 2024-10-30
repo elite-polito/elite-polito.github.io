@@ -19,18 +19,14 @@ _Legenda:_ la colonna Tipo può essere Lez/Es=Lezione/Esercitazione in aula, Lab
 
 | Data | Orario | Tipo | Ore | Argomento | Aula | Docente |
 |----|-------------|--------|----|------|------|-----|
-| mer 23/10/24 | 8.30-11.30 | Lez/Es | 3 | SQL: divisione, table function. | 9T | L. Farinetti |
-| gio 24/10/24 | 8.30-10.00 | Lez/Es | 1,5 | SQL: operatori insiemistici, manipolazione dati. | 10I | L. Farinetti |
-| mer 30/10/24 | 8.30-10.00 | Lez/Es | 1,5 | Presentazione del progetto - parte 1. | 9T | L. Canale |
-| mer 30/10/24 | 10.00-11.30 | Lez/Es | 1,5 | Gestione delle tabelle. | 9T | L. Farinetti |
-| gio 31/10/24 | 8.30-10.00 | Lez/Es | 1,5 | Presentazione del progetto - parte 2. | 10I | L. Canale |
+| gio 31/10/24 | 8.30-10.00 | Lez/Es | 1,5 | Presentazione del progetto - parte 1. | 10I | L. Canale |
 | mar 05/11/24 | 16.00-17.30 | Lab sq. A | 1,5 | Laboratorio #3: SQL. Squadra A | 5T | L. Canale |
 | mar 05/11/24 | 17.30-19.00 | Lab sq. B | 1,5 | Laboratorio #3: SQL. Squadra B | 5T | L. Canale |
 | mer 06/11/24 | 8.30-11.30 | Lez/Es | 3 | Progettazione concettuale. Modello E-R. | 9T | L. Farinetti |
-| gio 07/11/24 | 8.30-10.00 | Lez/Es | 1,5 | Gestione del tempo. | 10I | L. Farinetti |
+| gio 07/11/24 | 8.30-10.00 | Lez/Es | 1,5 | Presentazione del progetto - parte 2. | 10I | L. Canale |
 | mar 12/11/24 | 16.00-17.30 | Lab sq. B | 1,5 | Laboratorio #4: Progetto - fase 1. Squadra B | 5T | L. Canale |
 | mar 12/11/24 | 17.30-19.00 | Lab sq. A | 1,5 | Laboratorio #4: Progetto - fase 1. Squadra A | 5T | L. Canale |
-| mer 13/11/24 | 8.30-11.30 | Lez/Es | 3 | Progettazione logico-relazionale. | 9T | L. Farinetti |
+| mer 13/11/24 | 8.30-11.30 | Lez/Es | 3 | Progettazione logico-relazionale. Gestione del tempo. | 9T | L. Farinetti |
 | gio 14/11/24 | 8.30-10.00 | Lez/Es | 1,5 | Esercizi di progettazione. | 10I | L. Farinetti |
 | mar 19/11/24 | 16.00-17.30 | Lab sq. A | 1,5 | Laboratorio #5: Progetto - fase 2. Squadra A | 5T | L. Canale |
 | mar 19/11/24 | 17.30-19.00 | Lab sq. B | 1,5 | Laboratorio #5: Progetto - fase 2. Squadra B | 5T | L. Canale |
@@ -38,7 +34,15 @@ _Legenda:_ la colonna Tipo può essere Lez/Es=Lezione/Esercitazione in aula, Lab
 | gio 21/11/24 | 8.30-10.00 | Lez/Es | 1,5 | Esercizi. | 10I | L. Canale |
 | mar 26/11/24 | 16.00-17.30 | Lab sq. B | 1,5 | Laboratorio #6: Progetto - fase 3. Squadra B | 5T | L. Canale |
 | mar 26/11/24 | 17.30-19.00 | Lab sq. A | 1,5 | Laboratorio #6: Progetto - fase 3. Squadra A | 5T | L. Canale |
-| mer 27/11/24 | 8.30-11.30 | Lez/Es | 3 | Gestione delle transazioni e sicurezza dei dati. Esercizi. | 9T | L. Farinetti |
+| mer 27/11/24 | 8.30-11.30 | Lez/Es | 3 | Sicurezza dei dati. Esercizi di progettazione. | 9T | L. Farinetti |
+| gio 28/11/24 | 8.30-10.00 | Lez/Es | 1,5 | Esercitazione. | 10I | L. Farinetti |
+| mar 03/12/24 | 16.00-17.30 | Lab sq. A | 1,5 | Laboratorio #7: Progetto - fase 4. Squadra A | 5T | L. Canale |
+| mar 03/12/24 | 17.30-19.00 | Lab sq. B | 1,5 | Laboratorio #7: Progetto - fase 4. Squadra B | 5T | L. Canale |
+| gio 05/12/24 | 8.30-10.00 | Lez/Es | 1,5 | Esercitazione. | 10I | L. Canale |
+| mar 10/12/24 | 16.00-17.30 | Lab sq. B | 1,5 | Laboratorio #8: SQL. Squadra B | 5T | L. Canale |
+| mar 10/12/24 | 17.30-19.00 | Lab sq. A | 1,5 | Laboratorio #8: SQL. Squadra A | 5T | L. Canale |
+| mer 11/12/24 | 8.30-11.30 | Lez/Es | 3 | Temi d'esame. | 9T | L. Farinetti |
+| gio 12/12/24 | 8.30-10.00 | Lez/Es | 1,5 | Esercitazione. | 10I | L. Canale |
 
 {/*
 
@@ -54,7 +58,10 @@ _Legenda:_ la colonna Tipo può essere Lez/Es=Lezione/Esercitazione in aula, Lab
 | gio 17/10/24 | 8.30-10.00 | Lez/Es | 1,5 | Esercitazione SQL. | 10I | L. Canale |
 | mar 22/10/24 | 16.00-17.30 | Lab sq. B | 1,5 | Laboratorio #2: SQL. Squadra B | 5T | L. Canale |
 | mar 22/10/24 | 17.30-19.00 | Lab sq. A | 1,5 | Laboratorio #2: SQL. Squadra A | 5T | L. Canale |
-
+| mer 23/10/24 | 8.30-11.30 | Lez/Es | 3 | SQL: divisione, table function. | 9T | L. Farinetti |
+| gio 24/10/24 | 8.30-10.00 | Lez/Es | 1,5 | SQL: operatori insiemistici, manipolazione dati. | 10I | L. Farinetti |
+| mer 30/10/24 | 8.30-10.00 | Lez/Es | 1,5 | Presentazione del progetto - parte 1. | 9T | L. Canale |
+| mer 30/10/24 | 10.00-11.30 | Lez/Es | 1,5 | Gestione delle tabelle. | 9T | L. Farinetti |
 
 ## Esercizi da svolgere prima delle esercitazioni in aula
 
