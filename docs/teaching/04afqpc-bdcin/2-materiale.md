@@ -86,12 +86,14 @@ La sottomissione dei quiz entro la scadenza consente di ottenere alcuni punti ex
 
 - Laboratorio #3: 05/11 - SQL
 
-<!--
     - [Testo](https://farinetti.github.io/materiale-bdcin/Lab-3-testo.pdf)
     - [Risultati attesi](https://farinetti.github.io/materiale-bdcin/Lab-3-risultati_attesi.pdf)
+
+    <!--
     - [Soluzioni](https://farinetti.github.io/materiale-bdcin/Lab-3-soluzioni.pdf) -->
 
 - Laboratori #4-#7: 12/11, 19/11, 26/11 e 03/12 - Information Retrieval
+    - [Presentazione](https://docs.google.com/presentation/d/1hBk1BJXDLRQCS9zoOjlQzOANylgCSQnuP0rE8fp-SVw/edit?usp=drivesdk) del laboratorio "Talk to Movies" (lezione del 31/10)
 
 
 <!--
