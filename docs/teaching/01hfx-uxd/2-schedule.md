@@ -199,11 +199,7 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 
 <LectureDivider topic='Settimana 10'/>{/*-------------------------------------------*/}
 
-<LectureRow variant='success'
-    date="25/11/2024" time="EOD" type="" teacher=""
-    >
-    <em>Assignment 3 - deadline</em>
-</LectureRow>
+
 
 <LectureRow
     date="26/11/2024" time="08:30-10:00" type ="Lezione">
@@ -216,40 +212,46 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 </LectureRow>
 
 <LectureRow
-    date="29/11/2024" time="11:30-13:00" type ="Laboratorio">
-    Assignment 4: da media ad alta fedeltà
+    date="29/11/2024" time="11:30-13:00" type ="Lezione">
+    Prototipazione a media fedeltà
 </LectureRow>
 
 
 
 <LectureDivider topic='Settimana 11'/>{/*-------------------------------------------*/}
 
+<LectureRow variant='success'
+    date="02/12/2024" time="EOD" type="" teacher=""
+    >
+    <em>Assignment 3 - deadline</em>
+</LectureRow>
+
 <LectureRow
-    date="03/12/2024" time="08:30-10:00" type ="Lezione">
-    Prototipazione ad alta fedeltà
+    date="03/12/2024" time="08:30-10:00" type ="Laboratorio">
+    Assignment 4: da media ad alta fedeltà
 </LectureRow>
 
 <LectureRow 
     date="06/12/2024" time="10:00-11:30" type ="Lezione">
-    Test di usabilità
+    Prototipazione ad alta fedeltà
 </LectureRow>
 
 <LectureRow
-    date="06/12/2024" time="11:30-13:00" type ="Laboratorio">
+    date="06/12/2024" time="11:30-13:00" type ="Lezione">
     Test di usabilità
 </LectureRow>
 
 <LectureDivider topic='Settimana 12'/>{/*-------------------------------------------*/}
 
 <LectureRow variant='success'
-    date="08/12/2024" time="EOD" type="" teacher=""
+    date="09/12/2024" time="EOD" type="" teacher=""
     >
     <em>Assignment 4 - deadline</em>
 </LectureRow>
 
 <LectureRow
-    date="10/12/2024" time="08:30-10:00" type ="Laboratorio">
-    Sessione di feedback su Assignment 4
+    date="10/12/2024" time="08:30-10:00" type ="Lezione">
+    Test di usabilità e introduzione all'Assignment 5
 </LectureRow>
 
 <LectureRow 
