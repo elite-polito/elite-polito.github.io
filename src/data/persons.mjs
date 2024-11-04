@@ -130,7 +130,7 @@ const alumni = [
     },
     {
         name: 'Muhammad Sanaullah',
-        role: 'Assistant Professor, Air University (Multan Campus)',
+        role: 'Associate Professor, Air University (Multan Campus)',
         img: '/img/people/MuhammadSanaullah.jpeg',
         linkedin: 'muhammad-sanaullah-dr-a3a4849',
     },
