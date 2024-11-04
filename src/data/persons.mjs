@@ -70,8 +70,12 @@ const people = [
         img: '/img/people/MassimilianoPellegrino.jpg',
         github: 'MassimilianoPellegrino',
         linkedin: 'massimiliano-pellegrino',
+    },
+    {
+        name: 'Daniela Finotto',
+        role: 'Research Fellow',
+        email: 'daniela.finotto@polito.it',
     }
-
 ]
 
 const alumni = [
