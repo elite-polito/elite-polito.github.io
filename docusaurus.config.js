@@ -245,6 +245,11 @@ const config = {
     },
     themes: ['@docusaurus/theme-mermaid'],
     stylesheets: ['https://use.fontawesome.com/releases/v6.4.0/css/svg-with-js.css'],
+
+    // enable docusaurus faster
+    future: {
+      experimental_faster: true,
+    },
 };
 
 module.exports = config;
