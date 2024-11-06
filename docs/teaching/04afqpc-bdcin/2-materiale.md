@@ -93,6 +93,16 @@ La sottomissione dei quiz entro la scadenza consente di ottenere alcuni punti ex
 - Laboratori #4-#7: 12/11, 19/11, 26/11 e 03/12 - Information Retrieval
     - [Presentazione](https://docs.google.com/presentation/d/1hBk1BJXDLRQCS9zoOjlQzOANylgCSQnuP0rE8fp-SVw/edit?usp=drivesdk) del laboratorio "Talk to Movies" (lezione del 31/10)
 
+    Importante: **entro le ore 15.00 del 12/11 2024** occorre svolgere le seguenti operazioni:
+    - Controllare che i dati sul vostro gruppo nella tabella gruppi siano completi (non modificare i film scelti!!!); inoltre il “Nome Gruppo” deve contenere solo caratteri alfanumerici (no spazi!!!)
+    - Nella cartella “chatbots” aggiungere una cartella nominata come il “Nome Gruppo”
+    - Nella cartella create due copie di questo file:
+        - la prima copia deve chiamarsi “questions_1” (domande relative al primo film scelto) 
+        - la seconda copia deve chiamarsi “questions_2” (domande relative al secondo film scelto)
+    seguire il file d’esempio per creare le proprie domande
+    - Nella cartella creare anche un Google Doc nominato “report” in cui aggiungere una sezione sui problemi riscontrati nella creazione delle domande.
+
+
 
 <!--
     - Obiettivo: progettare, creare e valutare un Chatbot Telegram in grado di rispondere a domande specifiche a partire da una base di conoscenza
