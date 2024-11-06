@@ -94,14 +94,28 @@ La sottomissione dei quiz entro la scadenza consente di ottenere alcuni punti ex
     - [Presentazione](https://docs.google.com/presentation/d/1hBk1BJXDLRQCS9zoOjlQzOANylgCSQnuP0rE8fp-SVw/edit?usp=drivesdk) del laboratorio "Talk to Movies" (lezione del 31/10)
 
 <!--
-    Importante: **entro le ore 15.00 del 12/11 2024** occorre svolgere le seguenti operazioni:
-    - Controllare che i dati sul vostro gruppo nella tabella gruppi siano completi (non modificare i film scelti!!!); inoltre il “Nome Gruppo” deve contenere solo caratteri alfanumerici (no spazi!!!)
+    Importante: **entro le ore 15.00 del 12/11 2024** dovete svolgere le seguenti operazioni:
+    - Controllare che i dati sul vostro gruppo nella [tabella gruppi](https://docs.google.com/spreadsheets/d/1ghQMnHqx-ufu83DtqeDknjvvzDjd9ca6rQOXrrOC0d0/edit?gid=0#gid=0) siano completi (non modificare i film scelti!!!); inoltre il “Nome Gruppo” deve contenere solo caratteri alfanumerici (no spazi!!!)
     - Nella cartella “chatbots” aggiungere una cartella nominata come il “Nome Gruppo”
-    - Nella cartella creare due copie di questo file:
+    - Nella cartella creare due copie di [questo file](https://docs.google.com/spreadsheets/d/1OH_fCfZpyi9f6S0FlMfxUtE5vdOMhEmDGtioyAdfW7c/edit?gid=0#gid=0):
         - la prima copia deve chiamarsi “questions_1” (domande relative al primo film scelto) 
         - la seconda copia deve chiamarsi “questions_2” (domande relative al secondo film scelto)
-    seguire il file d’esempio per creare le proprie domande
+    seguire il file d’esempio per creare le domande
     - Nella cartella creare anche un Google Doc nominato “report” in cui aggiungere una sezione sui problemi riscontrati nella creazione delle domande.
+
+    **Creazione delle domande**
+    Per ogni film dovete creare **20 domande**:
+    - almeno 6 domande generali: non significa che non debbano entrare nei dettagli, ma devono essere "spontanee" e non derivare dai file di sceneggiatura, dai metadati e dalle review che avete a disposizione per ogni film;
+    - almeno 4 domande relative a spezzoni di dialogo della sceneggiatura;
+    - almeno 1 domanda su qualche elemento presente nei metadati (se il file è vuoto provare a cercare qualche info online o creare una domanda di altro tipo);
+    - almeno 1 domanda su qualche elemento presente nelle reviews (se il file è vuoto provare a cercare qualche info online o creare una domanda di altro tipo);
+    In totale quindi dovrete creare 40 domande (20 per ciascun film).
+
+    *Per chi fa il progetto individuale sono richieste 20 domande in tutto (10 per ciascun film).*
+
+    Per dubbi o domande potete scrivere su Telegram a @Talk2Movies
+
+
 
 -->
 
