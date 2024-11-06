@@ -93,7 +93,6 @@ La sottomissione dei quiz entro la scadenza consente di ottenere alcuni punti ex
 - Laboratori #4-#7: 12/11, 19/11, 26/11 e 03/12 - Information Retrieval
     - [Presentazione](https://docs.google.com/presentation/d/1hBk1BJXDLRQCS9zoOjlQzOANylgCSQnuP0rE8fp-SVw/edit?usp=drivesdk) del laboratorio "Talk to Movies" (lezione del 31/10)
 
-<!--
     Importante: **entro le ore 15.00 del 12/11 2024** dovete svolgere le seguenti operazioni:
     - Controllare che i dati sul vostro gruppo nella [tabella gruppi](https://docs.google.com/spreadsheets/d/1ghQMnHqx-ufu83DtqeDknjvvzDjd9ca6rQOXrrOC0d0/edit?gid=0#gid=0) siano completi (non modificare i film scelti!!!); inoltre il “Nome Gruppo” deve contenere solo caratteri alfanumerici (no spazi!!!)
     - Nella cartella “chatbots” aggiungere una cartella nominata come il “Nome Gruppo”
@@ -115,9 +114,6 @@ La sottomissione dei quiz entro la scadenza consente di ottenere alcuni punti ex
 
     Per dubbi o domande potete scrivere su Telegram a @Talk2Movies
 
-
-
--->
 
 <!--
     - Obiettivo: progettare, creare e valutare un Chatbot Telegram in grado di rispondere a domande specifiche a partire da una base di conoscenza
