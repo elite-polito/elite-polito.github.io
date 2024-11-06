@@ -103,6 +103,7 @@ La sottomissione dei quiz entro la scadenza consente di ottenere alcuni punti ex
     - Nella cartella creare anche un Google Doc nominato “report” in cui aggiungere una sezione sui problemi riscontrati nella creazione delle domande.
 
     **Creazione delle domande**
+    
     Per ogni film dovete creare **20 domande**:
     - almeno 6 domande generali: non significa che non debbano entrare nei dettagli, ma devono essere "spontanee" e non derivare dai file di sceneggiatura, dai metadati e dalle review che avete a disposizione per ogni film;
     - almeno 4 domande relative a spezzoni di dialogo della sceneggiatura;
