@@ -26,23 +26,22 @@ _Legenda:_ la colonna Tipo può essere Lez/Es=Lezione/Esercitazione in aula, Lab
 | gio 07/11/24 | 8.30-10.00 | Lez/Es | 1,5 | Presentazione del progetto - parte 2. | 10I | L. Canale |
 | mar 12/11/24 | 16.00-17.30 | Lab sq. B | 1,5 | Laboratorio #4: Progetto - fase 1. Squadra B | 5T | L. Canale |
 | mar 12/11/24 | 17.30-19.00 | Lab sq. A | 1,5 | Laboratorio #4: Progetto - fase 1. Squadra A | 5T | L. Canale |
-| mer 13/11/24 | 8.30-11.30 | Lez/Es | 3 | Progettazione logico-relazionale. Gestione del tempo. | 9T | L. Farinetti |
-| gio 14/11/24 | 8.30-10.00 | Lez/Es | 1,5 | Esercizi di progettazione. | 10I | L. Farinetti |
+| mer 13/11/24 | 8.30-11.30 | Lez/Es | 3 | Esempi di progettazione concettuale. | 9T | L. Farinetti |
+| gio 14/11/24 | 8.30-10.00 | Lez/Es | 1,5 | Presentazione del progetto - parte 3. | 10I | L. Canale |
 | mar 19/11/24 | 16.00-17.30 | Lab sq. A | 1,5 | Laboratorio #5: Progetto - fase 2. Squadra A | 5T | L. Canale |
 | mar 19/11/24 | 17.30-19.00 | Lab sq. B | 1,5 | Laboratorio #5: Progetto - fase 2. Squadra B | 5T | L. Canale |
-| mer 20/11/24 | 8.30-11.30 | Lez/Es | 3 | Esempi di progettazione concettuale. | 9T | L. Farinetti |
-| gio 21/11/24 | 8.30-10.00 | Lez/Es | 1,5 | Esercizi. | 10I | L. Canale |
+| mer 20/11/24 | 8.30-11.30 | Lez/Es | 3 | Progettazione logico-relazionale. | 9T | L. Farinetti |
+| gio 21/11/24 | 8.30-10.00 | Lez/Es | 1,5 | Presentazione del progetto - parte 4. | 10I | L. Canale |
 | mar 26/11/24 | 16.00-17.30 | Lab sq. B | 1,5 | Laboratorio #6: Progetto - fase 3. Squadra B | 5T | L. Canale |
 | mar 26/11/24 | 17.30-19.00 | Lab sq. A | 1,5 | Laboratorio #6: Progetto - fase 3. Squadra A | 5T | L. Canale |
-| mer 27/11/24 | 8.30-11.30 | Lez/Es | 3 | Sicurezza dei dati. Esercizi di progettazione. | 9T | L. Farinetti |
-| gio 28/11/24 | 8.30-10.00 | Lez/Es | 1,5 | Esercitazione. | 10I | L. Farinetti |
+| mer 27/11/24 | 8.30-11.30 | Lez/Es | 3 | Esercizi di progettazione. | 9T | L. Farinetti |
+| gio 28/11/24 | 8.30-10.00 | Lez/Es | 1,5 | Presentazione del progetto - parte 5. | 10I | L. Canale |
 | mar 03/12/24 | 16.00-17.30 | Lab sq. A | 1,5 | Laboratorio #7: Progetto - fase 4. Squadra A | 5T | L. Canale |
 | mar 03/12/24 | 17.30-19.00 | Lab sq. B | 1,5 | Laboratorio #7: Progetto - fase 4. Squadra B | 5T | L. Canale |
-| gio 05/12/24 | 8.30-10.00 | Lez/Es | 1,5 | Esercitazione. | 10I | L. Canale |
+| mer 04/12/24 | 8.30-11.30 | Lez/Es | 3 | Temi d'esame | 10I | L. Farinetti |
 | mar 10/12/24 | 16.00-17.30 | Lab sq. B | 1,5 | Laboratorio #8: SQL. Squadra B | 5T | L. Canale |
 | mar 10/12/24 | 17.30-19.00 | Lab sq. A | 1,5 | Laboratorio #8: SQL. Squadra A | 5T | L. Canale |
 | mer 11/12/24 | 8.30-11.30 | Lez/Es | 3 | Temi d'esame. | 9T | L. Farinetti |
-| gio 12/12/24 | 8.30-10.00 | Lez/Es | 1,5 | Esercitazione. | 10I | L. Canale |
 
 {/*
 
