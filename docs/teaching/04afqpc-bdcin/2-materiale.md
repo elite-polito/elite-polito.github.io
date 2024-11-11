@@ -92,6 +92,7 @@ La sottomissione dei quiz entro la scadenza consente di ottenere alcuni punti ex
 
 - Laboratori #4-#7: 12/11, 19/11, 26/11 e 03/12 - Information Retrieval
     - [Presentazione](https://docs.google.com/presentation/d/1hBk1BJXDLRQCS9zoOjlQzOANylgCSQnuP0rE8fp-SVw/edit?usp=drivesdk) del laboratorio "Talk to Movies" (lezione del 31/10)
+    - [Quiz](https://docs.google.com/presentation/d/1U9BvEKTeE8yKSvP6HDUXcS0N8wJT2pkE0AhHGX8TuCU/edit?usp=sharing) svolto durante la lezione del 07/11
 
     Importante: **entro le ore 15.00 del 12/11/2024** dovete svolgere le seguenti operazioni:
     - Controllare che i dati sul vostro gruppo nella [tabella gruppi](https://docs.google.com/spreadsheets/d/1ghQMnHqx-ufu83DtqeDknjvvzDjd9ca6rQOXrrOC0d0/edit?gid=0#gid=0) siano completi (non modificare i film scelti!!!); inoltre il “Nome Gruppo” deve contenere solo caratteri alfanumerici (no spazi!!!)
