@@ -172,19 +172,19 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 
 <LectureRow 
     date="15/11/2024" time="10:00-11:30" type ="Lezione">
-    Introduzione alla valutazione nello UXD
+    <Link to="https://polito-uxd-2024.github.io/materiale/slides/09-heuristic-evaluation.pdf">Valutazione euristica</Link>
 </LectureRow>
 
 <LectureRow
     date="15/11/2024" time="11:30-13:00" type ="Lezione">
-    Valutazione euristica
+    <Link to="https://polito-uxd-2024.github.io/materiale/slides/09b-heuristic-evaluation-exercise.pdf">Valutazione euristica - esercizio</Link>
 </LectureRow>
 
 <LectureDivider topic='Settimana 9'/>{/*-------------------------------------------*/}
 
 <LectureRow
     date="19/11/2024" time="08:30-10:00" type ="Laboratorio">
-    Assignment 3: Valutazione Euristica
+    <Link to="https://polito-uxd-2024.github.io/materiale/assignments/A3-heuristic-evaluation.pdf">Assignment 3: Valutazione Euristica</Link>
 </LectureRow>
 
 <LectureRow 
