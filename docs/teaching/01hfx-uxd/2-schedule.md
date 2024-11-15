@@ -172,11 +172,16 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 
 <LectureRow 
     date="15/11/2024" time="10:00-11:30" type ="Lezione">
-    <Link to="https://polito-uxd-2024.github.io/materiale/slides/09-heuristic-evaluation.pdf">Valutazione euristica</Link>
+    <Link to="https://polito-uxd-2024.github.io/materiale/slides/09-heuristic-evaluation.pdf" video={['https://drive.google.com/drive/folders/1MtLUgYQ8SIwlQKScnWTcVzX5Sk6GbdRh?usp=sharing']}>Valutazione euristica</Link>
+</LectureRow>
+
+<LectureRow 
+    date="15/11/2024" time="11:30-11:45" type ="Lezione">
+    <Link to="https://polito-uxd-2024.github.io/materiale/assignments/A3-heuristic-evaluation.pdf" video={['https://drive.google.com/drive/folders/1MtLUgYQ8SIwlQKScnWTcVzX5Sk6GbdRh?usp=sharing']}>Introduzione all'Assignment 3</Link>
 </LectureRow>
 
 <LectureRow
-    date="15/11/2024" time="11:30-13:00" type ="Lezione">
+    date="15/11/2024" time="11:30-13:00" type ="Esercitazione">
     <Link to="https://polito-uxd-2024.github.io/materiale/slides/09b-heuristic-evaluation-exercise.pdf">Valutazione euristica - esercizio</Link>
 </LectureRow>
 
