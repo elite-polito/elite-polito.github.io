@@ -207,18 +207,18 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 
 
 <LectureRow
-    date="26/11/2024" time="08:30-10:00" type ="Lezione">
-    Visual design
+    date="26/11/2024" time="08:30-10:00" type ="Lezione" video={['https://www.polito.it/didattica']}>
+    <Link to="https://polito-uxd-2024.github.io/materiale/slides/10-visualdesign.pdf">Visual design</Link>
 </LectureRow>
 
 <LectureRow 
-    date="29/11/2024" time="10:00-11:30" type ="Lezione">
-    Design patterns e guidelines
+    date="29/11/2024" time="10:00-11:30" type ="Lezione" video={['https://www.polito.it/didattica']}>
+     <Link to="https://polito-uxd-2024.github.io/materiale/slides/11-design-patterns.pdf">Design patterns e guidelines</Link>
 </LectureRow>
 
 <LectureRow
-    date="29/11/2024" time="11:30-13:00" type ="Lezione">
-    Prototipazione a media fedeltà
+    date="29/11/2024" time="11:30-13:00" type ="Lezione" video={['https://www.polito.it/didattica']}>
+    <Link to="https://polito-uxd-2024.github.io/materiale/slides/12-mid-fi-prototypes.pdf">Prototipazione a media fedeltà</Link>
 </LectureRow>
 
 
@@ -237,13 +237,13 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 </LectureRow>
 
 <LectureRow 
-    date="06/12/2024" time="10:00-11:30" type ="Lezione">
-    Prototipazione ad alta fedeltà
+    date="06/12/2024" time="10:00-11:30" type ="Lezione" video={['https://www.polito.it/didattica']}>
+    <Link to="https://polito-uxd-2024.github.io/materiale/slides/13-hi-fi-prototypes-with-examples.pdf">Prototipazione ad alta fedeltà</Link>
 </LectureRow>
 
 <LectureRow
-    date="06/12/2024" time="11:30-13:00" type ="Lezione">
-    Test di usabilità
+    date="06/12/2024" time="11:30-13:00" type ="Lezione" video={['https://www.polito.it/didattica']}>
+     <Link to="https://polito-uxd-2024.github.io/materiale/slides/14-usability-testing.pdf">Test di usabilità</Link>
 </LectureRow>
 
 <LectureDivider topic='Settimana 12'/>{/*-------------------------------------------*/}
@@ -255,7 +255,7 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 </LectureRow>
 
 <LectureRow
-    date="10/12/2024" time="08:30-10:00" type ="Lezione">
+    date="10/12/2024" time="08:30-10:00" type ="Lezione" video={['https://www.polito.it/didattica']}>
     Test di usabilità e introduzione all'Assignment 5
 </LectureRow>
 
