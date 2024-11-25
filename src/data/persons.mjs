@@ -75,7 +75,17 @@ const people = [
         name: 'Daniela Finotto',
         role: 'Research Fellow',
         email: 'daniela.finotto@polito.it',
-    }
+    },
+    {
+        name: 'Robert Schwartz',
+        role: 'Ph.D. Student',
+        email: 'robert.schwartz@polito.it'
+    },
+    {
+        name: 'Francesca Russo',
+        role: 'Ph.D. Student',
+        email: 'francesca.russo@polito.it'
+    },
 ]
 
 const alumni = [
