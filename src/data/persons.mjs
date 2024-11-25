@@ -79,12 +79,16 @@ const people = [
     {
         name: 'Robert Schwartz',
         role: 'Ph.D. Student',
-        email: 'robert.schwartz@polito.it'
+        email: 'robert.schwartz@polito.it',
+        img: '/img/people/RobertSchwartz.jpg'
     },
     {
         name: 'Francesca Russo',
         role: 'Ph.D. Student',
-        email: 'francesca.russo@polito.it'
+        email: 'francesca.russo@polito.it',
+        img: '/img/people/FrancescaRusso.jpg',
+        github: 'frarus',
+        linkedin: 'francesca-russo2',
     },
 ]
 
