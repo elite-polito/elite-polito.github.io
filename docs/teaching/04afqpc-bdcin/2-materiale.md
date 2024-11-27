@@ -62,7 +62,7 @@ La sottomissione dei quiz entro la scadenza consente di ottenere alcuni punti ex
     - ER 1: [Testo](https://farinetti.github.io/materiale-bdcin/EsER_1-Testo.pdf)
     <!-- e [Soluzione](https://farinetti.github.io/materiale-bdcin/EsER_1-Soluz.pdf) -->
     - ER 2: [Testo](https://farinetti.github.io/materiale-bdcin/EsER_2-Testo.pdf)
-    <!-- e [Soluzione](https://farinetti.github.io/materiale-bdcin/EsER_2-Soluz.pdf) -->
+    - Esercizio proposto in aula il 27/11: [Testo](https://farinetti.github.io/materiale-bdcin/ER-aula-27-11-24) e Soluzione
 
 <!--
 ## Esercitazioni CCT
