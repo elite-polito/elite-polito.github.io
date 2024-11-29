@@ -233,7 +233,7 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 
 <LectureRow
     date="03/12/2024" time="08:30-10:00" type ="Laboratorio">
-    Assignment 4: da media ad alta fedeltà
+    <Link to="https://polito-uxd-2024.github.io/materiale/assignments/A4-mid-to-hi-fidelity.pdf">Assignment 4: da media ad alta fedeltà</Link>
 </LectureRow>
 
 <LectureRow 
