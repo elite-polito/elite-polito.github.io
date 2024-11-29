@@ -218,7 +218,7 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 
 <LectureRow
     date="29/11/2024" time="11:30-13:00" type ="Lezione" video={['https://www.polito.it/didattica']}>
-    <Link to="https://polito-uxd-2024.github.io/materiale/slides/12-mid-fi-prototypes.pdf">Prototipazione a media fedeltà</Link>
+    <Link to="https://polito-uxd-2024.github.io/materiale/slides/12-mid-fi-prototypes.pdf">Presentazione di A4 e prototipazione a media fedeltà</Link>
 </LectureRow>
 
 
