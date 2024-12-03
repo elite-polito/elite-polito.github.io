@@ -23,7 +23,6 @@ description: "Materiale didattico (slide, documenti, link, ...)"
     - [Ristrutturazione dello schema ER](https://farinetti.github.io/materiale-bdcin/13-Progettazione_ER_ristrutturazione.pdf)
     - [Traduzione nel modello logico](https://farinetti.github.io/materiale-bdcin/14-Progettazione_modello_logico.pdf)    
     - [Esempio di progettazione logica relazionale](https://farinetti.github.io/materiale-bdcin/15-Esempio_progettazione_logica.pdf)
-    - [Gestione del tempo](https://farinetti.github.io/materiale-bdcin/Progettazione_ER_gestione_tempo.pdf)
 
 ## Videolezioni e quiz
 
