@@ -44,10 +44,10 @@ La sottomissione dei quiz entro la scadenza consente di ottenere alcuni punti ex
      e [Soluzione](https://farinetti.github.io/materiale-bdcin/EsSQL_2-Soluz.pdf)
     - Blocco 3: [Testo](https://farinetti.github.io/materiale-bdcin/EserciziSQL-parte1.pdf)
      e [Soluzione](https://farinetti.github.io/materiale-bdcin/EserciziSQL-parte1_sol.pdf)
-    - Blocco 4: [Testo](https://farinetti.github.io/materiale-bdcin/EserciziSQL-parte2.pdf)
-    <!-- e [Soluzione](https://farinetti.github.io/materiale-bdcin/EserciziSQL-parte2_sol.pdf) -->
+    - Blocco 4: [Testo](https://farinetti.github.io/materiale-bdcin/EserciziSQL-parte2.pdf) 
+     e [Soluzione](https://farinetti.github.io/materiale-bdcin/EserciziSQL-parte2_sol.pdf)
     - Blocco 5: [Testo](https://farinetti.github.io/materiale-bdcin/EserciziSQL-parte3.pdf)
-    <!-- e [Soluzione](https://farinetti.github.io/materiale-bdcin/EserciziSQL-parte3_sito.pdf) -->
+     e [Soluzione](https://farinetti.github.io/materiale-bdcin/EserciziSQL-parte3_sito.pdf)
 
     <!-- 
     - Blocco 3: [Testo](https://farinetti.github.io/materiale-bdcin/EsSQL_3-Testo.pdf)
@@ -60,8 +60,7 @@ La sottomissione dei quiz entro la scadenza consente di ottenere alcuni punti ex
     - Altri [esercizi di SQL](https://farinetti.github.io/materiale-bdcin/Esercizi_SQL.pdf) svolti in aula
 
 - Progettazione
-    - ER 1: [Testo](https://farinetti.github.io/materiale-bdcin/EsER_1-Testo.pdf)
-    <!-- e [Soluzione](https://farinetti.github.io/materiale-bdcin/EsER_1-Soluz.pdf) -->
+    - ER 1: [Testo](https://farinetti.github.io/materiale-bdcin/EsER_1-Testo.pdf) e [Soluzione](https://farinetti.github.io/materiale-bdcin/EsER_1-Soluz.pdf)
     - ER 2: [Testo](https://farinetti.github.io/materiale-bdcin/EsER_2-Testo.pdf)
     - Esercizio proposto in aula il 27/11: [Testo](https://farinetti.github.io/materiale-bdcin/ER-aula-27-11-24.pdf) e [Soluzione](https://farinetti.github.io/materiale-bdcin/ER-aula-27-11-24-sol.pdf)
 
