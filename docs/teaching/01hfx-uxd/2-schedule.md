@@ -261,7 +261,7 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 
 <LectureRow 
     date="13/12/2024" time="10:00-11:30" type ="Laboratorio">
-    Assignment 5: Prototipo ad alta fedeltà
+    <Link to="https://polito-uxd-2024.github.io/materiale/assignments/A5-high-fidelity-prototype.pdf">Assignment 5: Prototipo ad alta fedeltà</Link>
 </LectureRow>
 
 <LectureRow
