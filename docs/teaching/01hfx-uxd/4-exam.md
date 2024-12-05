@@ -31,8 +31,8 @@ Prossimi appelli, con scadenze:
   - Deadline: 02/12/2024
 - [Assignment 4: Da media ad alta fedeltà](https://polito-uxd-2024.github.io/materiale/assignments/A4-mid-to-hi-fidelity.pdf)
   - Deadline: 09/12/2024
-- Assignment 5: Prototipo ad alta fedeltà
+- [Assignment 5: Prototipo ad alta fedeltà](https://polito-uxd-2024.github.io/materiale/assignments/A5-high-fidelity-prototype.pdf)
   - Deadline: 7 giorni prima di ogni appello (vedi sopra per le date esatte)  
-- Report finale: Template e Istruzioni
+- [Report finale: Template e Istruzioni](https://polito-uxd-2024.github.io/materiale/assignments/final-report-instructions.pdf)
   - Deadline: 7 giorni prima di ogni appello (vedi sopra per le date esatte) 
 
