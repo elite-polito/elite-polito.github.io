@@ -90,6 +90,12 @@ const people = [
         github: 'frarus',
         linkedin: 'francesca-russo2',
     },
+    {
+        name: 'Miriam Fiorenza',
+        role: 'Ph.D. Student',
+        email: 'miriam.fiorenza@polito.it',
+        linkedin: 'miriam-fiorenza-725611137'
+    },
 ]
 
 const alumni = [
