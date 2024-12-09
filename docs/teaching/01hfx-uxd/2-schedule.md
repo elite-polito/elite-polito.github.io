@@ -256,7 +256,7 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 
 <LectureRow
     date="10/12/2024" time="08:30-10:00" type ="Lezione" video={['https://www.polito.it/didattica']}>
-    Test di usabilità (continua)
+    <Link to = "https://polito-uxd-2024.github.io/materiale/slides/14a-usability-testing-exercise.pdf">Test di usabilità - esercizi</Link>
 </LectureRow>
 
 <LectureRow 
