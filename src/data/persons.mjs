@@ -94,6 +94,7 @@ const people = [
         name: 'Miriam Fiorenza',
         role: 'Ph.D. Student',
         email: 'miriam.fiorenza@polito.it',
+        img: '/img/people/MiriamFiorenza.jpeg',
         linkedin: 'miriam-fiorenza-725611137'
     },
 ]
