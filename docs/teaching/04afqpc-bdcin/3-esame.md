@@ -16,7 +16,7 @@ description: "Informazioni sull'esame"
     - Tema 5: [Testo](https://farinetti.github.io/materiale-bdcin/TE-SQL5-Testo.pdf) e [Soluzione](https://farinetti.github.io/materiale-bdcin/TE-SQL5-Soluzione.pdf)
     - Tema 6: [Testo](https://farinetti.github.io/materiale-bdcin/TE-SQL6-Testo.pdf) e [Soluzione](https://farinetti.github.io/materiale-bdcin/TE-SQL6-Soluzione.pdf)
     - Tema 7: [Testo](https://farinetti.github.io/materiale-bdcin/TE-SQL7-Testo.pdf) e [Soluzione](https://farinetti.github.io/materiale-bdcin/TE-SQL7-Soluzione.pdf)
-    - Tema 8: [Testo](https://farinetti.github.io/materiale-bdcin/TE-SQL8-Testo.pdf) e [Soluzione](https://farinetti.github.io/materiale-bdcin/TE-SQL8-Soluzione.pdf) -->
+    - Tema 8: [Testo](https://farinetti.github.io/materiale-bdcin/TE-SQL8-Testo.pdf) e [Soluzione](https://farinetti.github.io/materiale-bdcin/TE-SQL8-Soluzione.pdf)
     - Tema 9: [Testo](https://farinetti.github.io/materiale-bdcin/TE-SQL9-Testo.pdf) e [Soluzione](https://farinetti.github.io/materiale-bdcin/TE-SQL9-Soluzione.pdf)
 
 <!--
