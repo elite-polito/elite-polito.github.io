@@ -48,14 +48,6 @@ const people = [
         linkedin: 'tommaso-caló-20509512a',
     },
     {
-        name: 'Luca Pezzolla',
-        role: 'Ph.D. Student',
-        email: 'luca.pezzolla@polito.it',
-        img: '/img/people/LucaPezzolla.jpg',
-        github: 'lpezzolla',
-        linkedin: 'lpezzolla',
-    },
-    {
         name: 'Luca Scibetta',
         role: 'Ph.D. Student',
         email: 'luca.scibetta@polito.it',
@@ -100,6 +92,14 @@ const people = [
 ]
 
 const alumni = [
+    {
+        name: 'Luca Pezzolla',
+        role: 'Co-Founder & CEO at Sbam',
+        // email: 'luca.pezzolla@polito.it',
+        img: '/img/people/LucaPezzolla.jpg',
+        github: 'lpezzolla',
+        linkedin: 'lpezzolla',
+    },
     {
         name: 'Luca Mannella',
         role: 'Post-Doc Researcher at Politecnico di Torino',
