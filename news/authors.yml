@@ -54,6 +54,9 @@ pezzolla:
 farinetti:
   name: Laura Farinetti
   title: Assistant professor
+  socials:
+    github: farinetti
+    linkedin: laura-farinetti-51606a1
 
 scibetta:
   name: Luca Scibetta
