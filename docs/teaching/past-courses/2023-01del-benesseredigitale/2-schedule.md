@@ -16,7 +16,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 
 <LectureRow
     date="17/03/2023" time="13:00-14:30"
-    pdf={['https://elite.polito.it/materiale-benesseredigitale-2023/slide/00a-intro-corso.pdf','https://elite.polito.it/materiale-benesseredigitale-2023/slide/00b-intro-benesseredigitale.pdf']}
+    pdf={['https://elite.polito.it/2023-benesseredigitale-materials/slide/00a-intro-corso.pdf','https://elite.polito.it/2023-benesseredigitale-materials/slide/00b-intro-benesseredigitale.pdf']}
     video={['https://www.polito.it/didattica']}
     >
     <>Introduzione al corso e al Benessere Digitale</>
@@ -26,7 +26,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 
 <LectureRow
     date="21/03/2023" time="16:00-17:30"
-    pdf='https://elite.polito.it/materiale-benesseredigitale-2023/slide/P01-needfinding.pdf' 
+    pdf='https://elite.polito.it/2023-benesseredigitale-materials/slide/P01-needfinding.pdf' 
     video={['https://www.polito.it/didattica']}
     >
     <>Metodi di needfinding (parte I)</>
@@ -42,7 +42,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 
 <LectureRow
     date="24/03/2023" time="13:00-14:30"
-    pdf='https://elite.polito.it/materiale-benesseredigitale-2023/slide/P02-minacce.pdf' 
+    pdf='https://elite.polito.it/2023-benesseredigitale-materials/slide/P02-minacce.pdf' 
     video={['https://www.polito.it/didattica']}
     >
     <>Attention Economy</>
@@ -52,7 +52,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 
 <LectureRow
     date="28/03/2023" time="16:00-17:30"
-    pdf='https://elite.polito.it/materiale-benesseredigitale-2023/slide/U01-intro.pdf' 
+    pdf='https://elite.polito.it/2023-benesseredigitale-materials/slide/U01-intro.pdf' 
     video={['https://www.polito.it/didattica']}
     teacher='Monica Molino'
     >
@@ -61,7 +61,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 
 <LectureRow
     date="28/03/2023" time="17:30-19:00"
-    pdf='https://elite.polito.it/materiale-benesseredigitale-2023/slide/E01-journeymap.pdf' 
+    pdf='https://elite.polito.it/2023-benesseredigitale-materials/slide/E01-journeymap.pdf' 
     type='Esercitazione'
     >
     <>Journey Map sul Benessere Digitale</>
@@ -109,7 +109,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 
 <LectureRow
     date="14/04/2023" time="13:00-14:30"
-    pdf='https://elite.polito.it/materiale-benesseredigitale-2023/slide/U02-stress-digitale.pdf' 
+    pdf='https://elite.polito.it/2023-benesseredigitale-materials/slide/U02-stress-digitale.pdf' 
     video={['https://www.polito.it/didattica']}
     teacher= 'Monica Molino'
     >
@@ -120,7 +120,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 
 <LectureRow
     date="18/04/2023" time="16:00-17:30"
-    pdf='https://elite.polito.it/materiale-benesseredigitale-2023/slide/U03-needfinding-analisi.pdf' 
+    pdf='https://elite.polito.it/2023-benesseredigitale-materials/slide/U03-needfinding-analisi.pdf' 
     video={['https://www.polito.it/didattica']}
     teacher= 'Monica Molino'
     >
@@ -129,7 +129,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 
 <LectureRow
     date="18/04/2023" time="17:30-19:00"
-    pdf='https://elite.polito.it/materiale-benesseredigitale-2023/slide/E02-needfinding.pdf' 
+    pdf='https://elite.polito.it/2023-benesseredigitale-materials/slide/E02-needfinding.pdf' 
     video={[]}
     type='Esercitazione'
     teacher= 'Monica Molino'
@@ -150,7 +150,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 
 <LectureRow
     date="28/04/2023" time="13:00-14:30"
-    pdf='https://elite.polito.it/materiale-benesseredigitale-2023/slide/U04-benessere-digitale-e-lavoro.pdf' 
+    pdf='https://elite.polito.it/2023-benesseredigitale-materials/slide/U04-benessere-digitale-e-lavoro.pdf' 
     video={['https://www.polito.it/didattica']}
     teacher= 'Monica Molino'
     >
@@ -161,16 +161,16 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 
 <LectureRow
     date="02/05/2023" time="16:00-17:30"
-    pdf={['https://elite.polito.it/materiale-benesseredigitale-2023/slide/U04b-ancore-di-carriera.pdf', 'https://elite.polito.it/materiale-benesseredigitale-2023/slide/U04c-benessere-digitale-e-industria-4.0.pdf']}
+    pdf={['https://elite.polito.it/2023-benesseredigitale-materials/slide/U04b-ancore-di-carriera.pdf', 'https://elite.polito.it/2023-benesseredigitale-materials/slide/U04c-benessere-digitale-e-industria-4.0.pdf']}
     video={['https://www.polito.it/didattica']}
     teacher='Monica Molino'
     >
-    <>Ancore di carriera. Benessere Digitale e industria 4.0 (<a href="https://elite.polito.it/materiale-benesseredigitale-2023/audio/BD-2023-L09b 2023-05-02 16-00-00.m4a">Registrazione audio</a>)</>
+    <>Ancore di carriera. Benessere Digitale e industria 4.0 (<a href="https://elite.polito.it/2023-benesseredigitale-materials/audio/BD-2023-L09b 2023-05-02 16-00-00.m4a">Registrazione audio</a>)</>
 </LectureRow>
 
 <LectureRow
     date="02/05/2023" time="17:30-19:00"
-    pdf='https://elite.polito.it/materiale-benesseredigitale-2023/slide/U05-differenze-individuali.pdf' 
+    pdf='https://elite.polito.it/2023-benesseredigitale-materials/slide/U05-differenze-individuali.pdf' 
     video={['https://www.polito.it/didattica']}
     teacher='Monica Molino'
     >
@@ -179,7 +179,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 
 <LectureRow
     date="05/05/2023" time="13:00-14:30"
-    pdf='https://elite.polito.it/materiale-benesseredigitale-2023/slide/P03-strategie.pdf' 
+    pdf='https://elite.polito.it/2023-benesseredigitale-materials/slide/P03-strategie.pdf' 
     video={['https://www.polito.it/didattica']}
     >
     <>Strategie informatiche per il Benessere Digitale (parte I)</>
@@ -218,7 +218,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 
 <LectureRow
     date="12/05/2023" time="13:00-14:30"
-    pdf='https://elite.polito.it/materiale-benesseredigitale-2023/slide/U06-strategie-per-il-benessere.pdf' 
+    pdf='https://elite.polito.it/2023-benesseredigitale-materials/slide/U06-strategie-per-il-benessere.pdf' 
     video={['https://www.polito.it/didattica']}
     teacher= 'Monica Molino'
     >
@@ -237,7 +237,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 
 <LectureRow
     date="16/05/2023" time="17:30-19:00"
-    pdf='https://elite.polito.it/materiale-benesseredigitale-2023/slide/P04-prototipazione.pdf'
+    pdf='https://elite.polito.it/2023-benesseredigitale-materials/slide/P04-prototipazione.pdf'
     video={['https://www.polito.it/didattica']}
     >
     <>Prototipazione rapida di strumenti per il benessere digitale</>
@@ -245,7 +245,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 
 <LectureRow
     date="19/05/2023" time="13:00-14:30"
-    pdf='https://elite.polito.it/materiale-benesseredigitale-2023/slide/E03-prototipo-bassa-fedelta.pdf' 
+    pdf='https://elite.polito.it/2023-benesseredigitale-materials/slide/E03-prototipo-bassa-fedelta.pdf' 
     video={[]}
     type='Esercitazione'
     >
@@ -327,7 +327,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 
 <LectureRow
     date="06/06/2023" time="16:00-17:30"
-    pdf='https://elite.polito.it/materiale-benesseredigitale-2023/slide/esame.pdf' 
+    pdf='https://elite.polito.it/2023-benesseredigitale-materials/slide/esame.pdf' 
     video={[]}
     type='Esercitazione'
     teacher = 'Monica Molino'

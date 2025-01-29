@@ -17,20 +17,20 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 <LectureDivider topic = "Settimana 1"/>
 
 <LectureRow
-    date="22/03/2024" time="13:00-14:30" pdf = "https://elite.polito.it/materiale-benesseredigitale-2024/slide/lezioni/00-intro-corso.pdf" video={['https://www.polito.it/didattica']}>
+    date="22/03/2024" time="13:00-14:30" pdf = "https://elite.polito.it/2024-benesseredigitale-materials/slide/lezioni/00-intro-corso.pdf" video={['https://www.polito.it/didattica']}>
     <>Introduzione al corso e al Benessere Digitale</>
 </LectureRow>
 
 <LectureDivider topic = "Settimana 2"/>
 
 <LectureRow
-    date="26/03/2024" time="16:00-17:30" pdf = "https://elite.polito.it/materiale-benesseredigitale-2024/slide/lezioni/01-attention-economy.pdf" video={['https://www.polito.it/didattica']}>
+    date="26/03/2024" time="16:00-17:30" pdf = "https://elite.polito.it/2024-benesseredigitale-materials/slide/lezioni/01-attention-economy.pdf" video={['https://www.polito.it/didattica']}>
     <>Attention Economy</>
 </LectureRow>
 
 <LectureRow
     date="26/03/2024" time="17:30-19:00"
-    teacher = "Monica Molino" pdf = "https://elite.polito.it/materiale-benesseredigitale-2024/slide/lezioni/02-benessere-digitale-psicologia.pdf" video={['https://www.polito.it/didattica']}>
+    teacher = "Monica Molino" pdf = "https://elite.polito.it/2024-benesseredigitale-materials/slide/lezioni/02-benessere-digitale-psicologia.pdf" video={['https://www.polito.it/didattica']}>
     <>Benessere digitale: prospettiva psicologica</>
 </LectureRow>
 
@@ -47,14 +47,14 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 
 <LectureRow
     date="05/04/2024" time="13:00-14:30"
-    teacher = "Monica Molino" pdf = "https://elite.polito.it/materiale-benesseredigitale-2024/slide/lezioni/03-stress-digitale.pdf" video={['https://www.polito.it/didattica']}>
+    teacher = "Monica Molino" pdf = "https://elite.polito.it/2024-benesseredigitale-materials/slide/lezioni/03-stress-digitale.pdf" video={['https://www.polito.it/didattica']}>
     <>Stress digitale</>
 </LectureRow>
 
 <LectureDivider topic = "Settimana 4"/>
 
 <LectureRow
-    date="09/04/2024" time="16:00-17:30" pdf = "https://elite.polito.it/materiale-benesseredigitale-2024/slide/lezioni/05-needfinding.pdf" video={['https://www.polito.it/didattica']}>
+    date="09/04/2024" time="16:00-17:30" pdf = "https://elite.polito.it/2024-benesseredigitale-materials/slide/lezioni/05-needfinding.pdf" video={['https://www.polito.it/didattica']}>
     <>Metodi di needfinding (parte I)</>
 </LectureRow>
 
@@ -65,7 +65,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 
 <!--<LectureRow
     date="12/04/2024" time="13:00-14:30"
-    teacher = "Monica Molino" pdf = "https://elite.polito.it/materiale-benesseredigitale-2024/slide/lezioni/04-benessere-digitale-e-lavoro.pdf">
+    teacher = "Monica Molino" pdf = "https://elite.polito.it/2024-benesseredigitale-materials/slide/lezioni/04-benessere-digitale-e-lavoro.pdf">
     <>Benessere Digitale e lavoro (parte I)</>
 </LectureRow>-->
 
@@ -79,7 +79,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 
 <LectureRow
     date="16/04/2024" time="16:00-17:30"
-    type = "Esercitazione" pdf = "https://elite.polito.it/materiale-benesseredigitale-2024/slide/assignment/A1-journeymap.pdf">
+    type = "Esercitazione" pdf = "https://elite.polito.it/2024-benesseredigitale-materials/slide/assignment/A1-journeymap.pdf">
     <>ASSIGNMENT 1: Journey Map</>
 </LectureRow>
 
@@ -91,7 +91,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 
 <LectureRow
     date="19/04/2024" time="13:00-14:30"
-    teacher = "Monica Molino" pdf = "https://elite.polito.it/materiale-benesseredigitale-2024/slide/lezioni/04-benessere-digitale-e-lavoro.pdf" video={['https://www.polito.it/didattica']}>
+    teacher = "Monica Molino" pdf = "https://elite.polito.it/2024-benesseredigitale-materials/slide/lezioni/04-benessere-digitale-e-lavoro.pdf" video={['https://www.polito.it/didattica']}>
     <>Benessere Digitale e lavoro</>
 </LectureRow>
 
@@ -122,27 +122,27 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 </LectureRow>
 
 <LectureRow
-    date="26/04/2024" time="13:00-14:30" pdf = "https://elite.polito.it/materiale-benesseredigitale-2024/slide/lezioni/06-strategie-informatiche.pdf" video={['https://www.polito.it/didattica']}>
+    date="26/04/2024" time="13:00-14:30" pdf = "https://elite.polito.it/2024-benesseredigitale-materials/slide/lezioni/06-strategie-informatiche.pdf" video={['https://www.polito.it/didattica']}>
     <>Strategie - prospettiva informatica (parte I)</>
 </LectureRow>
 
 <LectureDivider topic = "Settimana 7"/>
 
 <LectureRow
-    date="30/04/2024" time="16:00-17:30" pdf = "https://elite.polito.it/materiale-benesseredigitale-2024/slide/lezioni/05b-needfinding-analisi.pdf"
+    date="30/04/2024" time="16:00-17:30" pdf = "https://elite.polito.it/2024-benesseredigitale-materials/slide/lezioni/05b-needfinding-analisi.pdf"
     teacher = "Monica Molino" video={['https://www.polito.it/didattica']}>
     <>Metododi di needfinding (parte III)</>
 </LectureRow>
 
 <LectureRow
     date="30/04/2024" time="17:30-19:00"
-    type = "Esercitazione" teacher = "Monica Molino" pdf = "https://elite.polito.it/materiale-benesseredigitale-2024/slide/assignment/A2-needfinding.pdf">
+    type = "Esercitazione" teacher = "Monica Molino" pdf = "https://elite.polito.it/2024-benesseredigitale-materials/slide/assignment/A2-needfinding.pdf">
     <>ASSIGNMENT 2: Needfinding</>
 </LectureRow>
 
 <LectureRow
     date="03/05/2024" time="13:00-14:30"
-    teacher = "Monica Molino" pdf = {['https://elite.polito.it/materiale-benesseredigitale-2024/slide/lezioni/07-differenze-individuali.pdf','https://elite.polito.it/materiale-benesseredigitale-2024/slide/lezioni/08-competenze-digitali.pdf']} video={['https://www.polito.it/didattica']}>
+    teacher = "Monica Molino" pdf = {['https://elite.polito.it/2024-benesseredigitale-materials/slide/lezioni/07-differenze-individuali.pdf','https://elite.polito.it/2024-benesseredigitale-materials/slide/lezioni/08-competenze-digitali.pdf']} video={['https://www.polito.it/didattica']}>
     <>Differenze individuali</>
 </LectureRow>
 
@@ -161,7 +161,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 </LectureRow>
 
 <LectureRow
-    date="10/05/2024" time="13:00-14:30" teacher = "Monica Molino" pdf ="https://elite.polito.it/materiale-benesseredigitale-2024/slide/lezioni/09-strategie-psicologiche.pdf" video={['https://www.polito.it/didattica']}>
+    date="10/05/2024" time="13:00-14:30" teacher = "Monica Molino" pdf ="https://elite.polito.it/2024-benesseredigitale-materials/slide/lezioni/09-strategie-psicologiche.pdf" video={['https://www.polito.it/didattica']}>
     <>Strategie - prospettiva psicologica</>
 </LectureRow>
 
@@ -186,20 +186,20 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 </LectureRow>
 
 <LectureRow
-    date="17/05/2024" time="13:00-14:30" pdf = "https://elite.polito.it/materiale-benesseredigitale-2024/slide/lezioni/06-strategie-informatiche.pdf" video={['https://www.polito.it/didattica']}>
+    date="17/05/2024" time="13:00-14:30" pdf = "https://elite.polito.it/2024-benesseredigitale-materials/slide/lezioni/06-strategie-informatiche.pdf" video={['https://www.polito.it/didattica']}>
     <>Strategie - prospettiva informatica (parte II)</>
 </LectureRow>
 
 <LectureDivider topic = "Settimana 10"/>
 
 <LectureRow
-    date="21/05/2024" time="16:00-17:30" pdf = "https://elite.polito.it/materiale-benesseredigitale-2024/slide/lezioni/10-prototipazione.pdf">
+    date="21/05/2024" time="16:00-17:30" pdf = "https://elite.polito.it/2024-benesseredigitale-materials/slide/lezioni/10-prototipazione.pdf">
     <>Prototipazione rapida di strumenti per il benessere digitale </>
 </LectureRow>
 
 <LectureRow
     date="21/05/2024" time="17:30-19:00"
-    type = "Esercitazione" pdf = "https://elite.polito.it/materiale-benesseredigitale-2024/slide/assignment/A3-lowfi.pdf">
+    type = "Esercitazione" pdf = "https://elite.polito.it/2024-benesseredigitale-materials/slide/assignment/A3-lowfi.pdf">
     <>ASSIGNMENT 3: Prototipo a bassa fedeltà</>
 </LectureRow>
 
@@ -238,7 +238,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 
 <LectureRow
     date="04/06/2024" time="16:00-17:30"
-    type = "Esercitazione" teacher = "Monica Molino" pdf ="https://elite.polito.it/materiale-benesseredigitale-2024/slide/assignment/A4-exam.pdf">
+    type = "Esercitazione" teacher = "Monica Molino" pdf ="https://elite.polito.it/2024-benesseredigitale-materials/slide/assignment/A4-exam.pdf">
     <>ASSIGNMENT 4: Prototipo ad alta fedeltà</>
 </LectureRow>
 
