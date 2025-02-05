@@ -11,9 +11,14 @@ Deve essere superato **nell'anno accademico corrente**. Il materiale per la valu
 
 Prossimi appelli, con scadenze:
 
-- DATA APPELLO 
-    - ricordarsi di iscriversi all'esame entro il *data*, sul Portale della Didattica
-    - tutti gli assignments (compreso il codice) devono essere presenti sui repository GitHub del gruppo entro il *data*.
+- **04/02/2025 h. 08:00, Lab 8**
+    - ricordarsi di iscriversi all'esame entro il *29/01/2025*, sul Portale della Didattica
+    - tutti gli assignments (compreso il codice) devono essere presenti sui repository GitHub del gruppo entro il *28/01/2025*.
+    - il programma delle presentazioni dei gruppi sarà condiviso qualche giorno prima dell'esame
+
+- **17/02/2025 h. 08:00, Aula 2I**
+    - ricordarsi di iscriversi all'esame entro il *11/02/2025*, sul Portale della Didattica
+    - tutti gli assignments (compreso il codice) devono essere presenti sui repository GitHub del gruppo entro il *10/02/2025*.
     - il programma delle presentazioni dei gruppi sarà condiviso qualche giorno prima dell'esame
 
 ## Progetti (con Assignment)
