@@ -188,8 +188,12 @@ const config = {
             from: '/teaching/current-courses/513-02jskov-hci'
           },
           { // bit.ly/tecn-progr
-            to: '/teaching/past-courses/03fyz-tdp/',
+            to: '/teaching/past-courses/2024-03fyz-tdp',
             from: '/teaching-mainmenu-69/laurea-i-livello-mainmenu-82/164-03fyz-tecn-progr'
+          },
+          { // TdP removed from current courses
+            to: '/teaching/past-courses/2024-03fyz-tdp',
+            from: '/teaching/03fyz-tdp'
           },
           { // http://bit.ly/polito-informatica
             to: '/teaching/14bhd-informatica',

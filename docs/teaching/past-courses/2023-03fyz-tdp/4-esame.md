@@ -9,7 +9,7 @@ description: "Materiale per la preparazione all'esame"
 :::caution
 Questa pagina contiene la versione __archiviata__ dell'edizione 2022/2023 del corso.
 
-Vai alla [versione più recente](/teaching/03fyz-tdp)
+Vai alla [versione più recente](/teaching/past-courses/2024-03fyz-tdp)
 ::: 
 
 
