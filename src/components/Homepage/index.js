@@ -114,7 +114,6 @@ export default function Home({recentPosts}) {
                                 <Link to='/teaching/01udf-aw1'>Applicazioni Web I</Link><br/>
                                 <Link to='/teaching/01del-benesseredigitale'>Benessere Digitale</Link><br/>
                                 <Link to='/teaching/01dxu-iaw'>Introduzione alle Applicazioni Web</Link><br/>
-                                <Link to='/teaching/03fyz-tdp'>Tecniche di Programmazione</Link><br/>
                                 <Link to='/teaching/01txy-wa1'>Web Applications I</Link><br/>
                                 <br/>
                                 <Link to='/thesis-offers'>Thesis offers</Link>
