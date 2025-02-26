@@ -2,10 +2,15 @@
 pagination_prev: null
 description: "Avvisi e informazioni di base"
 ---
-
+ 
 # Introduzione
 
-Pagina ufficiale del corso "Benessere Digitale" (codice 01DEL) offerto al secondo/terzo anno delle lauree in Ingegneria Politecnico di Torino, all'interno del catalogo delle "Grandi Sfide". Anno accademico 2022/2023.
+:::caution
+Questa pagina contiene la __versione archiviata__ dell'edizione 2023/2024 del corso.
+
+Vai all'[ultima versione](/teaching/01del-benesseredigitale)
+:::
+
 
 ## Informazioni in sintesi
 
@@ -20,11 +25,11 @@ Il materiale del corso (lezioni, esercizi e laboratori) è disponibile nella sez
 | Docente titolare:       | Alberto Monge Roffarello (alberto.monge@polito.it)        |
 | Docenti collaboratori:  | Monica Molino (monica.molino@unito.it)                    |
 | Pagina ufficiale:       | [Portale della Didattica](https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=01DELMQ&p_a_acc=2024&p_header=S&p_lang=&multi=N)                            |
-| Telegram group:         | https://t.me/+wz2h20VQAiRlMDlk                            |
+| Telegram group:         | https://t.me/+LzMHwuFl5aJiMTI0                            |
 
 ## Orario delle lezioni
 
-Fare riferimento alla sezione Calendario per eventuali variazioni e dettagli. Le prime due settimane e mezza del corso sono comuni tra i corsi delle "Grandi Sfide": la prima lezione di Benessere Digitale è il 17/03/2023.
+Fare riferimento alla sezione Calendario per eventuali variazioni e dettagli. Le prime due settimane e mezza del corso sono comuni tra i corsi delle "Grandi Sfide": la prima lezione di Benessere Digitale è il 22/03/2024.
 
 
 | Giorno   | Ora         | Dove     | Tipo                   | Note               |

@@ -10,7 +10,7 @@ Tutte le ore di lezione ed esercitazione verranno svolte in aula e le lezioni sa
 ## Comunicazioni
 Per le comunicazioni durante il corso, utilizzeremo Telegram come strumento principale. Tutte le comunicazioni, siano esse avvisi, link, novità, ecc. avverranno unicamente nel gruppo dedicato al corso su Telegram.
 
-Tutta la classe deve, quindi, essere presente nel gruppo Telegram del corso, chiamato "Benessere Digitale 2024". Il link di invito per entrare nel gruppo è il seguente: 
+Tutta la classe deve, quindi, essere presente nel gruppo Telegram del corso, chiamato "Benessere Digitale 2024". Il link di invito per entrare nel gruppo è il seguente: https://t.me/+LzMHwuFl5aJiMTI0
 
 Non useremo, pertanto, né le e-mail né gli avvisi sul Portale della Didattica.
 
