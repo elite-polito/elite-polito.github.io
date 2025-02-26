@@ -12,4 +12,226 @@ Questa sezione contiene il calendario del corso e i materiali di tutte le lezion
 Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della Didattica.
 
 
-  
+<LectureTable defaultTeacher="Alberto Monge Roffarello" defaultType="Lezione" showMaterial={true} language='IT'>
+
+<LectureDivider topic = "Settimana 1"/>
+
+<LectureRow
+    date="11/03/2025" time="16:00-17:30">
+    <>Introduzione al corso e al Benessere Digitale</>
+</LectureRow>
+
+<LectureRow
+    date="11/03/2025" time="17:30-19:00">
+    <>Attention Economy</>
+</LectureRow>
+
+<LectureRow
+    date="14/03/2025" time="13:00-14:30" teacher = "Monica Molino">
+    <>Benessere digitale: prospettiva psicologica</>
+</LectureRow>
+
+
+<LectureDivider topic = "Settimana 2"/>
+
+<LectureRow
+    date="18/03/2025" time="16:00-17:30" teacher = "Monica Molino">
+    <>Stress Digitale</>
+</LectureRow>
+
+<LectureRow
+    date="18/03/2025" time="17:30-19:00" teacher = "Monica Molino">
+    <>Benessere Digitale e Lavoro (parte I)</>
+</LectureRow>
+
+<LectureRow
+    date="21/03/2025" time="13:00-14:30" teacher = "Monica Molino">
+    <>Benessere Digitale e Lavoro (parte II)</>
+</LectureRow>
+
+
+<LectureDivider topic = "Settimana 3"/>
+
+<LectureRow
+    date="25/03/2025" time="16:00-17:30" teacher = "Monica Molino" type = "Esercitazione">
+    <>ASSIGNMENT 1: Journey Map</>
+</LectureRow>
+
+<LectureRow
+    date="25/03/2025" time="17:30-19:00" teacher = "Monica Molino"  type = "Esercitazione">
+    <>ASSIGNMENT 1: Journey Map</>
+</LectureRow>
+
+<LectureRow
+    date="28/03/2025" time="13:00-14:30">
+    <>Metodi di needfinding (parte I)</>
+</LectureRow>
+
+
+<LectureDivider topic = "Settimana 4"/>
+
+<LectureRow
+    date="01/04/2025" time="16:00-17:30" type = "Esercitazione">
+    <>Feedback su ASSIGNMENT 1</>
+</LectureRow>
+
+<LectureRow
+    date="01/04/2025" time="17:30-19:00" type = "Esercitazione">
+    <>Feedback su ASSIGNMENT 1</>
+</LectureRow>
+
+<LectureRow
+    date="11/04/2025" time="13:00-14:30">
+    <>Metodi di needfinding (parte II)</>
+</LectureRow>
+
+
+<LectureDivider topic = "Settimana 5"/>
+
+<LectureRow
+    date="08/04/2025" time="16:00-17:30" teacher = "Monica Molino">
+    <>Medodi di needfinding (parte III)</>
+</LectureRow>
+
+<LectureRow
+    date="08/04/2025" time="17:30-19:00" teacher = "Monica Molino">
+    <>Differenze individuali</>
+</LectureRow>
+
+<LectureRow
+    date="11/04/2025" time="13:00-14:30" type = "Esercitazione" teacher = "Monica Molino">
+    <>ASSIGNMENT 2: Needfinding</>
+</LectureRow>
+
+
+<LectureDivider topic = "Settimana 6"/>
+
+<LectureRow
+    date="15/04/2025" time="16:00-17:30" type = "Esercitazione">
+    <>ASSIGNMENT 2: Needfinding</>
+</LectureRow>
+
+<LectureRow
+    date="15/04/2025" time="17:30-19:00" type = "Esercitazione">
+    <>ASSIGNMENT 2: Needfinding</>
+</LectureRow>
+
+<LectureRow variant="warning" teacher="" type="">
+    <em>Vacanze di Pasqua</em>
+</LectureRow>
+
+<LectureDivider topic = "Settimana 7"/>
+
+<LectureRow variant="warning" teacher="" type="">
+    <em>Vacanze di Pasqua/25 Aprile</em>
+</LectureRow>
+
+
+<LectureDivider topic = "Settimana 8"/>
+
+<LectureRow
+    date="29/04/2025" time="16:00-17:30" type = "Esercitazione" teacher = "Monica Molino">
+    <>ASSIGNMENT 2: Needfinding</>
+</LectureRow>
+
+<LectureRow
+    date="29/04/2025" time="17:30-19:00" type = "Esercitazione" teacher = "Monica Molino">
+    <>ASSIGNMENT 2: Needfinding</>
+</LectureRow>
+
+<LectureRow
+    date="02/05/2025" time="13:00-14:30" teacher = "Monica Molino">
+    <>Strategie - prospettiva psicologica</>
+</LectureRow>
+
+
+<LectureDivider topic = "Settimana 9"/>
+
+<LectureRow
+    date="06/05/2025" time="16:00-17:30" type = "Esercitazione" teacher = "Monica Molino">
+    <>Feedback su ASSIGNMENT 2</>
+</LectureRow>
+
+<LectureRow
+    date="06/05/2025" time="17:30-19:00" type = "Esercitazione" teacher = "Monica Molino">
+    <>Feedback su ASSIGNMENT 2</>
+</LectureRow>
+
+<LectureRow
+    date="09/05/2025" time="13:00-14:30">
+    <>Strategie - prospettiva informatica (parte I)</>
+</LectureRow>
+
+
+<LectureDivider topic = "Settimana 10"/>
+
+<LectureRow
+    date="13/05/2025" time="16:00-17:30">
+    <>Strategie - prospettiva informatica (parte II)</>
+</LectureRow>
+
+<LectureRow
+    date="13/05/2025" time="17:30-19:00">
+    <>Prototipazione rapida di strumenti per il benessere digitale</>
+</LectureRow>
+
+<LectureRow
+    date="16/05/2025" time="13:00-14:30">
+    <>Prototipazione ad alta fedeltà e utilizzo di Figma</>
+</LectureRow>
+
+
+<LectureDivider topic = "Settimana 11"/>
+
+<LectureRow
+    date="20/05/2025" time="16:00-17:30">
+    <>ASASSIGNMENT 3: Valutazione euristica</>
+</LectureRow>
+
+<LectureRow
+    date="20/05/2025" time="17:30-19:00" type = "Esercitazione">
+    <>ASSIGNMENT 3: Valutazione euristica</>
+</LectureRow>
+
+<LectureRow
+    date="24/05/2025" time="13:00-14:30" type = "Esercitazione">
+    <>ASSIGNMENT 4: Prototipo ad alta fedeltà</>
+</LectureRow>
+
+
+<LectureDivider topic = "Settimana 12"/>
+
+<LectureRow
+    date="27/05/2025" time="16:00-17:30" type = "Esercitazione" teacher = "Monica Molino">
+    <>ASSIGNMENT 4: Prototipo ad alta fedeltà</>
+</LectureRow>
+
+<LectureRow
+    date="27/05/2025" time="17:30-19:00" type = "Esercitazione" teacher = "Monica Molino">
+    <>ASSIGNMENT 4: Prototipo ad alta fedeltà</>
+</LectureRow>
+
+<LectureRow
+    date="30/05/2025" time="13:00-14:30" type = "Esercitazione">
+    <>ASSIGNMENT 4: Prototipo ad alta fedeltà</>
+</LectureRow>
+
+
+<LectureDivider topic = "Settimana 13"/>
+
+<LectureRow
+    date="03/06/2025" time="16:00-17:30" type = "Esercitazione">
+    <>ASSIGNMENT 4: Prototipo ad alta fedeltà</>
+</LectureRow>
+
+<LectureRow
+    date="03/06/2025" time="17:30-19:00" type = "Esercitazione">
+    <>ASSIGNMENT 4: Prototipo ad alta fedeltà</>
+</LectureRow>
+
+<LectureRow
+    date="06/06/2025" variant="warning" time="13:00-14:30" teacher="" type="">
+    <em>No Lezione</em>
+</LectureRow>
+
+</LectureTable>  
