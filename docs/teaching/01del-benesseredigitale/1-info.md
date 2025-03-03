@@ -20,7 +20,7 @@ Il materiale del corso (lezioni, esercizi e laboratori) è disponibile nella sez
 | Semestre:               | Secondo semestre (Marzo-Giugno)                           |
 | Lingua:                 | Italiano                                                  |
 | Docente titolare:       | Alberto Monge Roffarello (alberto.monge@polito.it)        |
-| Docenti collaboratori:  | Monica Molino (monica.molino@unito.it)                    |
+| Docenti collaboratori:  | Monica Molino (monica.molino@unito.it), Luca Scibetta (luca.scibetta@polito.it), Francesca Russo (francesca.russo@polito.it)                   |
 | Pagina ufficiale:       | [Portale della Didattica](https://didattica.polito.it/pls/portal30/sviluppo.pagina_corso_2023.main)                            |
 | Telegram group:         | https://t.me/+_d_my8C3j4I3NzE0                            |
 

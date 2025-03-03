@@ -53,12 +53,12 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 <LectureDivider topic = "Settimana 3"/>
 
 <LectureRow
-    date="25/03/2025" time="16:00-17:30" teacher = "Monica Molino" type = "Esercitazione">
+    date="25/03/2025" time="16:00-17:30" teacher = "Monica Molino e Luca Scibetta" type = "Esercitazione">
     <>ASSIGNMENT 1: Journey Map</>
 </LectureRow>
 
 <LectureRow
-    date="25/03/2025" time="17:30-19:00" teacher = "Monica Molino"  type = "Esercitazione">
+    date="25/03/2025" time="17:30-19:00" teacher = "Monica Molino e Luca Scibetta"  type = "Esercitazione">
     <>ASSIGNMENT 1: Journey Map</>
 </LectureRow>
 
@@ -71,12 +71,12 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 <LectureDivider topic = "Settimana 4"/>
 
 <LectureRow
-    date="01/04/2025" time="16:00-17:30" type = "Esercitazione">
+    date="01/04/2025" time="16:00-17:30" type = "Esercitazione" teacher = "Alberto Monge Roffarello, Luca Scibetta, e Francesca Russo">
     <>Feedback su ASSIGNMENT 1</>
 </LectureRow>
 
 <LectureRow
-    date="01/04/2025" time="17:30-19:00" type = "Esercitazione">
+    date="01/04/2025" time="17:30-19:00" type = "Esercitazione" teacher = "Alberto Monge Roffarello, Luca Scibetta, e Francesca Russo">
     <>Feedback su ASSIGNMENT 1</>
 </LectureRow>
 
@@ -99,7 +99,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 </LectureRow>
 
 <LectureRow
-    date="11/04/2025" time="13:00-14:30" type = "Esercitazione" teacher = "Monica Molino">
+    date="11/04/2025" time="13:00-14:30" type = "Esercitazione" teacher = "Monica Molino e Luca Scibetta">
     <>ASSIGNMENT 2: Needfinding</>
 </LectureRow>
 
@@ -107,12 +107,12 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 <LectureDivider topic = "Settimana 6"/>
 
 <LectureRow
-    date="15/04/2025" time="16:00-17:30" type = "Esercitazione">
+    date="15/04/2025" time="16:00-17:30" type = "Esercitazione" teacher = "Alberto Monge Roffaerello e Luca Scibetta">
     <>ASSIGNMENT 2: Needfinding</>
 </LectureRow>
 
 <LectureRow
-    date="15/04/2025" time="17:30-19:00" type = "Esercitazione">
+    date="15/04/2025" time="17:30-19:00" type = "Esercitazione" teacher = "Alberto Monge Roffaerello e Luca Scibetta">
     <>ASSIGNMENT 2: Needfinding</>
 </LectureRow>
 
@@ -130,12 +130,12 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 <LectureDivider topic = "Settimana 8"/>
 
 <LectureRow
-    date="29/04/2025" time="16:00-17:30" type = "Esercitazione" teacher = "Monica Molino">
+    date="29/04/2025" time="16:00-17:30" type = "Esercitazione" teacher = "Monica Molino e Francesca Russo">
     <>ASSIGNMENT 2: Needfinding</>
 </LectureRow>
 
 <LectureRow
-    date="29/04/2025" time="17:30-19:00" type = "Esercitazione" teacher = "Monica Molino">
+    date="29/04/2025" time="17:30-19:00" type = "Esercitazione" teacher = "Monica Molino e Francesca Russo">
     <>ASSIGNMENT 2: Needfinding</>
 </LectureRow>
 
@@ -148,12 +148,12 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 <LectureDivider topic = "Settimana 9"/>
 
 <LectureRow
-    date="06/05/2025" time="16:00-17:30" type = "Esercitazione" teacher = "Monica Molino">
+    date="06/05/2025" time="16:00-17:30" type = "Esercitazione" teacher = "Monica Molino, Luca Scibetta, e Francesca Russo">
     <>Feedback su ASSIGNMENT 2</>
 </LectureRow>
 
 <LectureRow
-    date="06/05/2025" time="17:30-19:00" type = "Esercitazione" teacher = "Monica Molino">
+    date="06/05/2025" time="17:30-19:00" type = "Esercitazione" teacher = "Monica Molino, Luca Scibetta, e Francesca Russo">
     <>Feedback su ASSIGNMENT 2</>
 </LectureRow>
 
@@ -176,7 +176,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 </LectureRow>
 
 <LectureRow
-    date="16/05/2025" time="13:00-14:30">
+    date="16/05/2025" time="13:00-14:30" teacher="Alberto Monge Roffarello e Luca Scibetta">
     <>Prototipazione ad alta fedeltà e utilizzo di Figma</>
 </LectureRow>
 
@@ -184,17 +184,17 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 <LectureDivider topic = "Settimana 11"/>
 
 <LectureRow
-    date="20/05/2025" time="16:00-17:30">
+    date="20/05/2025" time="16:00-17:30" type = "Esercitazione" teacher="Alberto Monge Roffarello, Luca Scibetta, e Francesca Russo">
     <>ASASSIGNMENT 3: Valutazione euristica</>
 </LectureRow>
 
 <LectureRow
-    date="20/05/2025" time="17:30-19:00" type = "Esercitazione">
+    date="20/05/2025" time="17:30-19:00" type = "Esercitazione" teacher="Alberto Monge Roffarello, Luca Scibetta, e Francesca Russo">
     <>ASSIGNMENT 3: Valutazione euristica</>
 </LectureRow>
 
 <LectureRow
-    date="24/05/2025" time="13:00-14:30" type = "Esercitazione">
+    date="24/05/2025" time="13:00-14:30" type = "Esercitazione" teacher="Alberto Monge Roffarello e Luca Scibetta">
     <>ASSIGNMENT 4: Prototipo ad alta fedeltà</>
 </LectureRow>
 
@@ -202,17 +202,17 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 <LectureDivider topic = "Settimana 12"/>
 
 <LectureRow
-    date="27/05/2025" time="16:00-17:30" type = "Esercitazione" teacher = "Monica Molino">
+    date="27/05/2025" time="16:00-17:30" type = "Esercitazione" teacher = "Monica Molino e Luca Scibetta">
     <>ASSIGNMENT 4: Prototipo ad alta fedeltà</>
 </LectureRow>
 
 <LectureRow
-    date="27/05/2025" time="17:30-19:00" type = "Esercitazione" teacher = "Monica Molino">
+    date="27/05/2025" time="17:30-19:00" type = "Esercitazione" teacher = "Monica Molino e Luca Scibetta">
     <>ASSIGNMENT 4: Prototipo ad alta fedeltà</>
 </LectureRow>
 
 <LectureRow
-    date="30/05/2025" time="13:00-14:30" type = "Esercitazione">
+    date="30/05/2025" time="13:00-14:30" type = "Esercitazione" teacher = "Alberto Monge Roffarello e Luca Scibetta">
     <>ASSIGNMENT 4: Prototipo ad alta fedeltà</>
 </LectureRow>
 
