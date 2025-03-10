@@ -17,12 +17,12 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 <LectureDivider topic = "Settimana 1"/>
 
 <LectureRow
-    date="11/03/2025" time="16:00-17:30">
+    date="11/03/2025" time="16:00-17:30" pdf = "https://elite.polito.it/2025-benesseredigitale-materials/slides/lezioni/00-intro-corso.pdf" video={['https://www.polito.it/didattica']}>
     <>Introduzione al corso e al Benessere Digitale</>
 </LectureRow>
 
 <LectureRow
-    date="11/03/2025" time="17:30-19:00">
+    date="11/03/2025" time="17:30-19:00" pdf = "https://elite.polito.it/2025-benesseredigitale-materials/slides/lezioni/01-attention-economy.pdf" video={['https://www.polito.it/didattica']}>
     <>Attention Economy</>
 </LectureRow>
 
@@ -219,7 +219,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 
 <LectureDivider topic = "Settimana 13"/>
 
-<LectureRow
+<LectureRow 
     date="03/06/2025" time="16:00-17:30" type = "Esercitazione">
     <>ASSIGNMENT 4: Prototipo ad alta fedeltà</>
 </LectureRow>
