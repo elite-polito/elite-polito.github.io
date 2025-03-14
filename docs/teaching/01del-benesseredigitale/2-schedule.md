@@ -27,7 +27,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 </LectureRow>
 
 <LectureRow
-    date="14/03/2025" time="13:00-14:30" teacher = "Monica Molino">
+    date="14/03/2025" time="13:00-14:30" teacher = "Monica Molino" pdf = "https://elite.polito.it/2025-benesseredigitale-materials/slides/lezioni/02-benessere-digitale-psicologia.pdf" video={['https://www.polito.it/didattica']}>
     <>Benessere digitale: prospettiva psicologica</>
 </LectureRow>
 
