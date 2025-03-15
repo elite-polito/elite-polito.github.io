@@ -46,6 +46,7 @@ const people = [
         img: '/img/people/TommasoCalo.jpeg',
         github: 'tommasocalo',
         linkedin: 'tommaso-caló-20509512a',
+        website: 'https://tommasocalo.github.io/'
     },
     {
         name: 'Luca Scibetta',

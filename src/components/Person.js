@@ -3,6 +3,7 @@ import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import '@fortawesome/free-solid-svg-icons'
 import { faGithub, faTelegram, faXTwitter, faLinkedin, faYoutube } from '@fortawesome/free-brands-svg-icons'
+import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 import Link from "@docusaurus/Link";
 
 
@@ -42,6 +43,9 @@ export const Person = (props) => (
                 {props.twitter &&
                     <>&nbsp;<Link to={"https://twitter.com/" + props.twitter} title='Twitter'>
                         <FontAwesomeIcon icon={faXTwitter} className='fa-xl' /></Link>&nbsp;</>}
+                {props.website &&
+                    <>&nbsp;<Link to={props.website} title='Website'>
+                        <FontAwesomeIcon icon={faGlobe} className='fa-xl' /></Link>&nbsp;</>}
                 &nbsp;
             </div>
         </div>
