@@ -35,7 +35,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 <LectureDivider topic = "Settimana 2"/>
 
 <LectureRow
-    date="18/03/2025" time="16:00-17:30" teacher = "Monica Molino">
+    date="18/03/2025" time="16:00-17:30" teacher = "Monica Molino" pdf = "https://elite.polito.it/2025-benesseredigitale-materials/slides/lezioni/03-stress-digitale.pdf" video={['https://www.polito.it/didattica']}>
     <>Stress Digitale</>
 </LectureRow>
 
