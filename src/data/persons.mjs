@@ -38,6 +38,7 @@ const people = [
         img: '/img/people/JuanSaenz.png',
         github: 'jpsaenzmo',
         linkedin: 'jpsaenz',
+        youtube: '@jpsaenzmo.polito'
     },
     {
         name: 'Tommaso Calò',
