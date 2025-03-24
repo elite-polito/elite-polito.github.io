@@ -45,7 +45,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 </LectureRow>
 
 <LectureRow
-    date="21/03/2025" time="13:00-14:30" teacher = "Monica Molino">
+    date="21/03/2025" time="13:00-14:30" teacher = "Monica Molino" video={['https://www.polito.it/didattica']}>
     <>Benessere Digitale e Lavoro (parte II)</>
 </LectureRow>
 
