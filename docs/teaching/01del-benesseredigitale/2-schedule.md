@@ -53,7 +53,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 <LectureDivider topic = "Settimana 3"/>
 
 <LectureRow
-    date="25/03/2025" time="16:00-17:30" teacher = "Monica Molino e Luca Scibetta" type = "Esercitazione">
+    date="25/03/2025" time="16:00-17:30" teacher = "Monica Molino e Luca Scibetta" pdf = "https://elite.polito.it/2025-benesseredigitale-materials/assignments/A1-journeymap.pdf" type = "Esercitazione">
     <>ASSIGNMENT 1: Journey Map</>
 </LectureRow>
 
