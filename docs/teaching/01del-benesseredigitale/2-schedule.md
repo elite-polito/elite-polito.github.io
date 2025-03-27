@@ -63,7 +63,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 </LectureRow>
 
 <LectureRow
-    date="28/03/2025" time="13:00-14:30">
+    date="28/03/2025" time="13:00-14:30"  pdf = "https://elite.polito.it/2025-benesseredigitale-materials/slides/lezioni/05-needfinding.pdf" video={['https://www.polito.it/didattica']}>
     <>Metodi di needfinding (parte I)</>
 </LectureRow>
 
