@@ -91,6 +91,11 @@ const people = [
         img: '/img/people/MiriamFiorenza.jpeg',
         linkedin: 'miriam-fiorenza-725611137'
     },
+    {
+        name: 'Andrea Sillano',
+        role: 'Research Grant Holder',
+        email: 'andrea.sillano@polito.it'
+    },
 ]
 
 const alumni = [
