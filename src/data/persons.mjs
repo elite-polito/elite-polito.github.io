@@ -94,7 +94,10 @@ const people = [
     {
         name: 'Andrea Sillano',
         role: 'Research Grant Holder',
-        email: 'andrea.sillano@polito.it'
+        email: 'andrea.sillano@polito.it',
+        img: '/img/people/AndreaSillano.jpg',
+        github: 'AndreaSillano',
+        linkedin: 'andrea-sillano-a051562b9'
     },
 ]
 
