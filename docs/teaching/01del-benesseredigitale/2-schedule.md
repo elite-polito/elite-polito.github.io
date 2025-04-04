@@ -99,7 +99,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 </LectureRow>
 
 <LectureRow
-    date="11/04/2025" time="13:00-14:30" type = "Esercitazione" teacher = "Monica Molino e Luca Scibetta">
+    date="11/04/2025" time="13:00-14:30" type = "Esercitazione" teacher = "Monica Molino e Luca Scibetta" pdf = "https://elite.polito.it/2025-benesseredigitale-materials/assignments/A2-needfinding.pdf">
     <>ASSIGNMENT 2: Needfinding</>
 </LectureRow>
 
