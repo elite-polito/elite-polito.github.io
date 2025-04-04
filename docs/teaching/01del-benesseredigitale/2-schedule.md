@@ -81,7 +81,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 </LectureRow>
 
 <LectureRow
-    date="04/04/2025" time="13:00-14:30">
+    date="04/04/2025" time="13:00-14:30" video={['https://www.polito.it/didattica']}>
     <>Metodi di needfinding (parte II)</>
 </LectureRow>
 
