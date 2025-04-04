@@ -15,7 +15,7 @@ Il progetto di gruppo sarà valutato tramite la correzione delle consegne interm
 
 ## Esercitazioni intermedie
 
-*[Assignment 1: Journey Map](https://elite.polito.it/2025-benesseredigitale-materials/assignments/A1-journeymap.pdf)
-*[Assignment 2: Needfinding](https://elite.polito.it/2025-benesseredigitale-materials/assignments/A2-needfinding.pdf)
+- [Assignment 1: Journey Map](https://elite.polito.it/2025-benesseredigitale-materials/assignments/A1-journeymap.pdf)
+- [Assignment 2: Needfinding](https://elite.polito.it/2025-benesseredigitale-materials/assignments/A2-needfinding.pdf)
 
 ## Assignment 4 - Esame
