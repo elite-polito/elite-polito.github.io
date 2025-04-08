@@ -89,12 +89,12 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 <LectureDivider topic = "Settimana 5"/>
 
 <LectureRow
-    date="08/04/2025" time="16:00-17:30" teacher = "Monica Molino">
+    date="08/04/2025" time="16:00-17:30" teacher = "Monica Molino" pdf = "https://elite.polito.it/2025-benesseredigitale-materials/slides/lezioni/07-needfinding-analisi-qualitativa.pdf" video={['https://www.polito.it/didattica']}>
     <>Medodi di needfinding (parte III)</>
 </LectureRow>
 
 <LectureRow
-    date="08/04/2025" time="17:30-19:00" teacher = "Monica Molino">
+    date="08/04/2025" time="17:30-19:00" teacher = "Monica Molino" pdf = "https://elite.polito.it/2025-benesseredigitale-materials/slides/lezioni/06-differenze-individuali.pdf" video={['https://www.polito.it/didattica']}>
     <>Differenze individuali</>
 </LectureRow>
 
