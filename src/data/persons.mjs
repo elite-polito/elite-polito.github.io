@@ -58,14 +58,6 @@ const people = [
         linkedin: 'luca-scibetta-26290b22b',
     },
     {
-        name: 'Massimiliano Pellegrino',
-        role: 'Research Fellow',
-        email: 'massimiliano.pellegrino@polito.it',
-        img: '/img/people/MassimilianoPellegrino.jpg',
-        github: 'MassimilianoPellegrino',
-        linkedin: 'massimiliano-pellegrino',
-    },
-    {
         name: 'Daniela Finotto',
         role: 'Research Fellow',
         email: 'daniela.finotto@polito.it',
@@ -102,6 +94,14 @@ const people = [
 ]
 
 const alumni = [
+    {
+        name: 'Massimiliano Pellegrino',
+        role: 'Front-end Developer',
+        //email: 'massimiliano.pellegrino@polito.it',
+        img: '/img/people/MassimilianoPellegrino.jpg',
+        github: 'MassimilianoPellegrino',
+        linkedin: 'massimiliano-pellegrino',
+    },
     {
         name: 'Luca Pezzolla',
         role: 'Co-Founder & CEO at Sbam',
