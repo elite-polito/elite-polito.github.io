@@ -140,7 +140,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 </LectureRow>
 
 <LectureRow
-    date="02/05/2025" time="13:00-14:30" teacher = "Monica Molino">
+    date="02/05/2025" time="13:00-14:30" teacher = "Monica Molino" pdf = "https://elite.polito.it/2025-benesseredigitale-materials/slides/lezioni/08-strategie-psicologiche.pdf" video={['https://www.polito.it/didattica']}>
     <>Strategie - prospettiva psicologica</>
 </LectureRow>
 
