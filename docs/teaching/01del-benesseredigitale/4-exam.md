@@ -19,5 +19,6 @@ Il progetto di gruppo sarà valutato tramite la correzione delle consegne interm
 - [Assignment 2: Needfinding](https://elite.polito.it/2025-benesseredigitale-materials/assignments/A2-needfinding.pdf)
     - [Template consenso informati](https://docs.google.com/document/d/16PhEKEeyu-0HlloUAvDmACATgraXu3KnGjv7BxPI8AM/edit?tab=t.0)   
     - [Template consenso informati genitori](https://docs.google.com/document/d/16RK4r2BfUzgAJRO17VAkGoeE_-zKioSi0xiuCFbiGPI/edit?tab=t.0)   
+- [Assignment 3: Valutazione Euristica](https://elite.polito.it/2025-benesseredigitale-materials/assignments/A3-heuristic-eval.pdf)
 
 ## Assignment 4 - Esame
