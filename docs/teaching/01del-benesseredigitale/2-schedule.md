@@ -171,7 +171,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 </LectureRow>
 
 <LectureRow
-    date="13/05/2025" time="17:30-19:00" pdf = {["https://elite.polito.it/2025-benesseredigitale-materials/slides/lezioni/10-prototipazione.pdf],[https://elite.polito.it/2025-benesseredigitale-materials/slides/lezioni/11-valutazione.pdf]}" video={['https://www.polito.it/didattica']}>
+    date="13/05/2025" time="17:30-19:00" pdf = {["https://elite.polito.it/2025-benesseredigitale-materials/slides/lezioni/10-prototipazione.pdf,https://elite.polito.it/2025-benesseredigitale-materials/slides/lezioni/11-valutazione.pdf]}" video={['https://www.polito.it/didattica']}>
     <ul><li>Prototipazione rapida di strumenti per il benessere digitale</li><li>Valutazione euristica</li></ul>
 </LectureRow>
 
