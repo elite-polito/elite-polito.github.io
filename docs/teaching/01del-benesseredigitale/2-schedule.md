@@ -171,8 +171,8 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 </LectureRow>
 
 <LectureRow
-    date="13/05/2025" time="17:30-19:00">
-    <>Prototipazione rapida di strumenti per il benessere digitale</>
+    date="13/05/2025" time="17:30-19:00" pdf = {['https://elite.polito.it/2025-benesseredigitale-materials/slides/lezioni/10-prototipazione.pdf','https://elite.polito.it/2025-benesseredigitale-materials/slides/lezioni/11-valutazione.pdf']}  video={['https://www.polito.it/didattica']}>
+    <ul><li>Prototipazione rapida di strumenti per il benessere digitale</li><li>Valutazione euristica</li></ul>
 </LectureRow>
 
 <LectureRow
@@ -184,7 +184,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 <LectureDivider topic = "Settimana 11"/>
 
 <LectureRow
-    date="20/05/2025" time="16:00-17:30" type = "Esercitazione" teacher="Alberto Monge Roffarello, Luca Scibetta, e Francesca Russo">
+    date="20/05/2025" time="16:00-17:30" type = "Esercitazione" teacher="Alberto Monge Roffarello, Luca Scibetta, e Francesca Russo" pdf = "https://elite.polito.it/2025-benesseredigitale-materials/assignments/A3-heuristic-eval.pdf">
     <>ASASSIGNMENT 3: Valutazione euristica</>
 </LectureRow>
 
