@@ -176,7 +176,7 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 </LectureRow>
 
 <LectureRow
-    date="16/05/2025" time="13:00-14:30" teacher="Alberto Monge Roffarello e Luca Scibetta">
+    date="16/05/2025" time="13:00-14:30" teacher="Luca Scibetta" video={['https://www.polito.it/didattica']}>
     <>Prototipazione ad alta fedeltà e utilizzo di Figma</>
 </LectureRow>
 
