@@ -22,3 +22,4 @@ Il progetto di gruppo sarà valutato tramite la correzione delle consegne interm
 - [Assignment 3: Valutazione Euristica](https://elite.polito.it/2025-benesseredigitale-materials/assignments/A3-heuristic-eval.pdf)
 
 ## Assignment 4 - Esame
+- [Assignment 4: Prototipazione ad Alta Fedeltà](https://elite.polito.it/2025-benesseredigitale-materials/assignments/A3-heuristic-eval.pdf)

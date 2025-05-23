@@ -189,12 +189,12 @@ Tutte le lezioni saranno video-registrate e rese disponibili sul Portale della D
 </LectureRow>
 
 <LectureRow
-    date="20/05/2025" time="17:30-19:00" type = "Esercitazione" teacher="Alberto Monge Roffarello, Luca Scibetta, e Francesca Russo">
+    date="20/05/2025" time="17:30-19:00" type = "Esercitazione" teacher="Alberto Monge Roffarello, Luca Scibetta">
     <>ASSIGNMENT 3: Valutazione euristica</>
 </LectureRow>
 
 <LectureRow
-    date="24/05/2025" time="13:00-14:30" type = "Esercitazione" teacher="Alberto Monge Roffarello e Luca Scibetta">
+    date="24/05/2025" time="13:00-14:30" type = "Esercitazione" teacher="Alberto Monge Roffarello, Luca Scibetta e Francesca Russo" pdf = "https://elite.polito.it/2025-benesseredigitale-materials/assignments/A4-exam.pdf">
     <>ASSIGNMENT 4: Prototipo ad alta fedeltà</>
 </LectureRow>
 
