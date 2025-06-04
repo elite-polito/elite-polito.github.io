@@ -21,6 +21,11 @@ Prossimi appelli, con scadenze:
     - tutti gli assignments (compreso il codice) devono essere presenti sui repository GitHub del gruppo entro il *10/02/2025*.
     - il programma delle presentazioni dei gruppi sarà condiviso qualche giorno prima dell'esame
 
+- **26/06/2025**
+    - ricordarsi di iscriversi all'esame entro il *20/06/2025*, sul Portale della Didattica
+    - tutti gli assignments (compreso il codice) devono essere presenti sui repository GitHub del gruppo entro il *19/02/2025*.
+    - il programma delle presentazioni dei gruppi sarà condiviso qualche giorno prima dell'esame
+
 ## Progetti (con Assignment)
 
 *Tutte le scadenze sono EOD (End Of Day).*
