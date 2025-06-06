@@ -76,3 +76,12 @@ mannella:
   socials:
     github: LucaMannella
     linkedin: lucamannella
+
+russo:
+  name: Francesca Russo
+  title: Ph.D. Student
+  url: https://github.com/frarus
+  image_url: /img/people/FrancescaRusso.jpg
+  socials:
+    linkedin: francesca-russo2
+
