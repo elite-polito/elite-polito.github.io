@@ -19,7 +19,10 @@ Prossimi appelli, con scadenze:
     - ricordarsi di iscriversi all'esame entro il *17/06/2025*, sul Portale della Didattica
     - consegna del materiale entro il *18/06/2025*.
     - il programma delle presentazioni dei gruppi sarà condiviso qualche giorno prima dell'esame
-
+- **07/07/2025**
+    - ricordarsi di iscriversi all'esame entro il *01/07/2025*, sul Portale della Didattica
+    - consegna del materiale entro il *02/07/2025*.
+    - il programma delle presentazioni dei gruppi sarà condiviso qualche giorno prima dell'esame
 ## Esercitazioni intermedie
 
 - [Assignment 1: Journey Map](https://elite.polito.it/2025-benesseredigitale-materials/assignments/A1-journeymap.pdf)
