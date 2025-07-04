@@ -253,6 +253,7 @@ const config = {
     // enable docusaurus faster
     future: {
       experimental_faster: true,
+      v4: true,
     },
 };
 
