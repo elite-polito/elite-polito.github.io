@@ -42,7 +42,7 @@ const people = [
     },
     {
         name: 'Tommaso Calò',
-        role: 'Ph.D. Candidate',
+        role: 'Post-Doc Researcher',
         email: 'tommaso.calo@polito.it',
         img: '/img/people/TommasoCalo.jpeg',
         github: 'tommasocalo',
