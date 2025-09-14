@@ -1,0 +1,450 @@
+---
+description: "Testi e soluzioni pdella prova in itinere"
+---
+
+
+# Prova in itinere
+
+
+**Prove in itinere 2024/25 - Corso 9 - 20 e 21 novembre 2024**
+
+:::info
+I turni di laboratorio del 20 e 21 Novembre 2024 sono dedicati allo svolgimento della *Prova in itinere*, che consiste nello svolgimento in 30 minuti di 4 esercizi.
+- [Slide informative e turni di laboratorio](https://polito-informatica.github.io/Materiale/Prova%20in%20Itinere.pdf)
+:::
+
+### Risultati
+
+:::warning Risultati
+- Possibili soluzioni agli esercizi di programmazione: [video](https://youtu.be/X1D3gvL6wBU) e [codice](https://github.com/polito-informatica/Settimane2024/tree/main/Settimana10)
+- [Risultati della prova in itinere](https://github.com/polito-informatica/Settimane2024/blob/main/Esame/Risultati%20-%20Itinere.pdf)
+:::
+
+## Teoria - Rappresentazione dell'informazione
+
+### Turno 1
+
+Si considerino i seguenti numeri espressi in base 10:
+
+- x = 17
+- y = 51
+
+Si convertano i numeri dati in complemento a 2 su 8 bit, e si calcoli il valore di x-y, rappresentandolo su base 16, e si indichi se si verifica overflow, motivandolo.
+
+{/* <details>
+<summary>Soluzione</summary>
+</details> */}
+
+### Turno 2
+
+Si considerino i seguenti numeri in Complemento a 2, espressi in base 16 su 8 bit:
+
+- x = C7
+- y = 22
+
+Si calcoli il valore di x-y, rappresentandolo sempre su 8 bit in complemento a due su base 16, e si indichi se si verifica overflow, motivandolo.
+
+### Turno 3
+
+Si considerino i seguenti numeri in Complemento a 2, espressi in base 8 su 9 bit:
+
+- x = 134
+- y = 402
+
+Si calcoli il valore di x-y, rappresentandolo sempre su 9 bit in complemento a due su base 8, e si indichi se si verifica overflow, motivandolo.
+
+### Turno 4
+
+Si considerino i seguenti numeri in Complemento a 2, espressi in base 16 su 8 bit:
+
+- x = BA
+- y = 33
+
+Si calcoli il valore di x+y, rappresentandolo sempre su 8 bit in complemento a due su base 16, e si indichi se si verifica overflow, motivandolo.
+
+### Turno 5
+
+Si considerino i seguenti numeri in Complemento a 2, espressi in base 8 su 9 bit:
+
+- x = 314
+- y = 307
+
+Si calcoli il valore di x+y, rappresentandolo sempre su 9 bit in complemento a due su base 8, e si indichi se si verifica overflow, motivandolo.
+
+### Turno 6
+
+Si considerino i seguenti numeri espressi in base 10:
+
+- x = 98
+- y = -35
+
+Si convertano i numeri dati in complemento a 2 su 8 bit, e si calcoli il valore di x+y, rappresentandolo su base 16, e si indichi se si verifica overflow, motivandolo.
+
+
+## Teoria - Architettura degli elaboratori
+
+### Turno 1
+
+Il software per applicare un filtro grafico su un'immagine richiede di impiegare 40 istruzioni macchina per ogni pixel dell'immagine, in una CPU in cui il numero medio di cicli di clock per istruzione pari a 4.
+Data una serie di immagini di 800x600 pixel, quale dovrebbe essere la frequenza di clock della CPU per elaborare almeno 100 immagini al secondo?
+
+Riportare tutti i passaggi.
+
+### Turno 2
+
+La CPU e la memoria RAM di un calcolatore sono collegate da un Data Bus di 32 bit ed un Address Bus di 24 bit, operante alla frequenza di clock di 256 MHz.
+
+Si determini il tempo necessario a trasferire 128 MB dalla memoria ai registri della CPU.
+
+Riportare tutti i passaggi.
+
+### Turno 3
+
+La CPU e la memoria RAM di un calcolatore sono collegate da un Data Bus di 32 bit ed un Address Bus di 24 bit.
+Per trasferire 1 GB di dati dalla CPU alla memoria, il sistema impiega 1 ms.
+
+Si determini la frequenza di clock del bus di sistema.
+
+Riportare tutti i passaggi.
+
+### Turno 4
+
+Un sistema di elaborazione è dotato di una memoria RAM di 36 GB, di una memoria di massa di 1 TB, e di 32 registri di 64 bit ciascuno.
+
+Si determini la dimensione minima dell'address bus.
+
+Riportare tutti i passaggi.
+
+### Turno 5
+
+Un sistema di elaborazione è dotato di una bus di indirizzi di 28 bit, di una memoria di massa di 1 TB, e di 16 registri di 32 bit ciascuno.
+
+Si determini la dimensione massima della memoria RAM.
+
+Riportare tutti i passaggi.
+
+### Turno 6
+
+Il software per applicare un filtro grafico su un'immagine richiede di impiegare 25 istruzioni macchina per ogni pixel dell'immagine.
+Data una serie di immagini di 1000x1000 pixel, quante immagini al secondo si riescono ad elaborare con una CPU operante con clock a 2 GHz, assumendo un numero medio di cicli di clock per istruzione pari a 2.5?
+
+Riportare tutti i passaggi.
+
+## Teoria - Python
+
+### Codice corretto
+
+Il seguente codice Python ricerca in una lista di numeri reali il primo valore che risulta maggiore dei due elementi ad esso adiacenti.
+
+```Python
+trovato = False
+posizione = -1
+i = 1
+while i < len(numeri)-1 and not trovato:
+    if numeri[i] > numeri[i-1] and numeri[i] > numeri[i+1]:
+        trovato = True
+        posizione = i
+    i = i + 1
+print(f'valore trovato {trovato} in posizione {posizione}')
+```
+
+### Turno 1
+
+Sia dato il seguente codice Python, che ricerca in una lista di numeri reali il primo valore che risulta maggiore dei due elementi ad esso adiacenti:
+
+```python
+trovato = False
+posizione = -1
+i = 1
+while not trovato:
+    if numeri[i] > numeri[i-1] and numeri[i] > numeri[i+1]:
+        trovato = True
+        posizione = i
+    i = i + 1
+print(f'valore trovato {trovato} in posizione {posizione}')
+```
+
+Sapendo che questo codice contiene un errore, si identifichi l'errore, spiegandone il motivo.
+
+### Turno 2
+
+Sia dato il seguente codice Python, che ricerca in una lista di numeri reali il primo valore che risulta maggiore dei due elementi ad esso adiacenti:
+
+```python
+trovato = False
+i = 1
+while i < len(numeri)-1 and not trovato:
+    if numeri[i] > numeri[i-1] and numeri[i] > numeri[i+1]:
+        trovato = True
+    i = i + 1
+print(f'valore trovato {trovato} in posizione {i}')
+```
+
+Sapendo che questo codice contiene un errore, si identifichi l'errore, spiegandone il motivo.
+
+### Turno 3
+
+Sia dato il seguente codice Python, che ricerca in una lista di numeri reali il primo valore che risulta maggiore dei due elementi ad esso adiacenti:
+
+```python
+posizione = -1
+i = 1
+while i < len(numeri)-1:
+    if numeri[i] > numeri[i-1] and numeri[i] > numeri[i+1]:
+        posizione = i
+    i = i + 1
+print(f'valore trovato in posizione {posizione}')
+```
+
+Sapendo che questo codice contiene un errore, si identifichi l'errore, spiegandone il motivo.
+
+### Turno 4
+
+Sia dato il seguente codice Python, che ricerca in una lista di numeri reali il primo valore che risulta maggiore dei due elementi ad esso adiacenti:
+
+```python
+trovato = False
+posizione = -1
+i = 1
+while i < len(numeri)-1 and not trovato:
+    if numeri[i] > numeri[i-1] and numeri[i] > numeri[i+1]:
+        trovato = True
+        posizione = i
+print(f'valore trovato {trovato} in posizione {posizione}')
+```
+
+Sapendo che questo codice contiene un errore, si identifichi l'errore, spiegandone il motivo.
+
+### Turno 5
+
+Sia dato il seguente codice Python, che ricerca in una lista di numeri reali il primo valore che risulta maggiore dei due elementi ad esso adiacenti:
+
+```python
+trovato = False
+posizione = -1
+i = 0
+while i < len(numeri) and not trovato:
+    if numeri[i] > numeri[i-1] and numeri[i] > numeri[i+1]:
+        trovato = True
+        posizione = i
+    i = i + 1
+print(f'valore trovato {trovato} in posizione {posizione}')
+```
+
+Sapendo che questo codice contiene un errore, si identifichi l'errore, spiegandone il motivo.
+
+
+### Turno 6
+
+Sia dato il seguente codice Python, che ricerca in una lista di numeri reali il primo valore che risulta maggiore dei due elementi ad esso adiacenti:
+
+```python
+trovato = False
+posizione = -1
+i = 1
+while i < len(numeri)-1 and not trovato:
+    if numeri[i] > numeri[i-1] and numeri[i+1]:
+        trovato = True
+        posizione = i
+    i = i + 1
+print(f'valore trovato {trovato} in posizione {posizione}')
+```
+
+Sapendo che questo codice contiene un errore, si identifichi l'errore, spiegandone il motivo.
+
+
+## Programmazione
+
+### Esempio 1
+
+Si scriva un frammento di codice Python che, data una lista di stringhe contenenti dei nomi propri, compia le seguenti operazioni:
+- verifichi che tutti i nomi siano scritti con la prima lettera maiuscola e le altre minuscole
+- crei una nuova lista contenente gli stessi nomi, scritti però partendo dall'ultima lettera verso la prima; i nuovi nomi devono avere le corrette maiuscole e minuscole.
+
+Si assuma che i nomi siamo composti da una sola parola e che siano già disponibili in una lista chiamata 'nomi'.
+
+
+Ad esempio, data la lista:
+
+```python
+nomi = ['Mario', 'Luigi', 'Paolo', 'Giovanni']
+```
+
+Il programma deve calcolare la lista:
+
+```python
+rovescio = ['Oiram', 'Iugil', 'Olaop', 'Innavoig']
+```
+
+### Esempio 2
+
+Si consideri una lista di numeri interi che rappresentano le altezze (espresse come numero di piani) di una fila di grattacieli.
+
+```python
+altezze = [ 21, 18, 30, 22, 20, 33 ]
+```
+
+Suppomento di essere sul tetto di un grattacielo (ad esempio quello di altezza 22), guardando a sinistra si potrà vedere solo un 
+grattacielo (quello di altezza 30 - gli altri sono "coperti" da quello alto), mentre guardando a destra si vedranno due grattacieli (20 e 33).
+
+Si scirva un frammento di codice Python il quale, partendo dalla lista 'altezze' (che si assume già nota), calcoli una seconda
+lista 'destra' che contenga il numero di grattacieli che si possono vedere guardando a destra dal grattacielo che si trova in quella posizione.
+
+Nel caso di esempio, il risultato sarà:
+```python
+destra = [ 2, 1, 3, 2, 1, 0 ]
+```
+
+### Esempio 3
+
+Si consideri il seguente algoritmo (tratto dal problema matematico della "congettura di Collatz"):
+
+ - Si prenda un intero positivo n.
+ - Se n = 1, l'algoritmo termina.
+ - Se n è pari, si divida per due; altrimenti si moltiplichi per 3 e si aggiunga 1.
+
+Ad esempio, per n=6 l'algoritmo genera la sequenza 6, 3, 10, 5, 16, 8, 4, 2, 1, che ha lunghezza 9.
+
+Si scriva un frammento di codice Python che, partendo da tutti i valori di n compresi tra 1 e 100, per ciascuno di essi calcoli la lunghezza della sequenza generata dall'algoritmo di Collatz, e costruisca una lista 'lunghezze' che contenga tali lunghezze (nell'esempio, lunghezze[6]=9).
+
+
+### Esempio 4
+
+Nella lingua di una strana tribù antica, le parole vengono scritte separando le consonanti dalle vocali,
+in particolare per ciascuna parola si scrivono per prime tutte le consonanti, e poi tutte le vocali.
+Quindi la frase italiana "prova in itinere" verrebbe scritta come "prvoa ni tnriiee"
+
+Si scriva un frammento di codice Python che, data una stringa di testo memorizzata nella variabile 'frase', 
+la trasformi in una stringa scritta secondo le regole della lingua della tribù antica. Si supponga che le 
+lettere siano tutte minuscole. Si memorizzi la stringha risultanete nella variabile 'antica'.
+
+(Suggerimento: può essere comodo trasformare la frase in una lista di stringhe, come passaggio intermedio).
+
+### Turno 1
+
+Si consideri il gioco "Tetris Piatto e Compatto", in cui è necessario di collocare dei pezzi (composti da 1 a 4 quadretti, sempre disposti in orizzontale) su una tabella composta da 10 colonne ed un numero illimitato di righe.
+Un nuovo pezzo si può posizionare solamente in forma orizzontale, e deve appoggiarsi completamente sulla base della tabella, oppure sopra dei pezzi già esistenti. Non è quindi permesso formare dei "buchi" con l'arrivo di nuovi pezzi. Se non è possibile disporre un pezzo senza formare un buco, il gioco termina.
+
+La situazione della tabella di gioco può quindi essere riassunta da una lista di 10 numeri interi, che rappresentano l'altezza dei quadretti già posizionati in ciascuna colonna. Ad esempio, la lista:
+```python
+altezze = [ 0, 1, 0, 2, 0, 3, 3, 2, 2, 0 ]
+```
+rappresenta questa tabella di gioco:
+```
+        . . . . . . . . . .
+        . . . . . X X . . .
+        . . . X . X X X X .
+        . X . X . X X X X .
+        ___________________
+        1 2 3 4 5 6 7 8 9 10
+```
+Se arrivasse un pezzo di lunghezza 1, può essere piazzato in qualsiasi colonna. Se arrivasse un pezzo di lunghezza 2, 
+potrà essere piazzato solo sulle colonne 6-7 oppure sulle colonne 8-9. Se arrivasse un pezzo di lunghezza 3, non 
+potrebbe essere piazzato senza formare un buco, e quindi la partita terminerebbe.
+
+Si scriva un frammento di codice Python che, data una situazione di partenza rappresentata dalla matrice 'altezze', e data la lunghezza del pezzo in arrivo (tra 1 e 4), indicata dalla variabile 'pezzo', determini:
+- se è possibile collocare il pezzo senza formare buchi
+- in caso affermativo, scelga dove collocarlo ed aggiorni la lista 'altezze' con la nuova situazione di gioco.
+
+
+### Turno 2
+
+Una famiglia nobile vuole assolutamente dare un doppio nome al proprio figlio, e per farlo vuole combinare i nomi dei propri avi, in modo però che il nome complessivo non risulti troppo lungo.
+
+I nomi degli avi sono contenuti in una lista di stringhe di nome 'avi', come ad esempio:
+
+```python
+avi = ['Giovanni', 'Maria', 'Luigi', 'Anna', 'Paolo', 'Giulia', 'Carlo', 'Rosa']
+```
+
+I possibili nomi devono essere creati combinando tra di loro due nomi degli avi, in tutti i modi possibili, con le seguenti regole:
+- il nome complessivo deve avere una lunghezza massima di 10 caratteri
+- la vocale finale del primo nome deve essere cancellata
+- se, dopo avere cancellato la vocale, il nome terminasse con due consonanti, la seconda consonante deve essere cancellata
+
+Ad esempio, si potranno ottenere i seguenti nomi: Giovananna, Paolcarlo, Anrosa, Mariluigi, Ananna, ecc.
+
+Si scriva un frammento di codice Python che, partendo dalla lista 'avi', calcoli la lista di tutti i possibili nomi che rispettano le regole sopra indicate, rispettando il corretto uso delle maiuscole e minuscole.
+
+
+### Turno 3
+
+Consideriamo una serie di punti nel piano, dei quali sono memorizzate le coordinate (ascissa, ordinata) in due liste di numeri reali, chiamate rispettivamente 'x' e 'y'.
+
+Ad esempio, supponendo di avere 8 punti nel piano, le coordinate potrebbero essere:
+
+```python
+x = [-84.71, -17.58, 6.85, 1.34, -91.5, 78.47, -62.66, -6.13]
+y = [54.55, -61.9, 78.31, 37.2, -34.29, -77.22, 68.04, 41.15]
+```
+Si scriva un frammento di codice Python che, partendo dalle liste 'x' e 'y', determini quali sono i due punti più vicini tra loro (considerando la distanza euclidea calcolata con il teorema di Pitagora), ed i due punti più lontani tra loro. Si stampino le coordinate dei punti trovati.
+
+
+### Turno 4
+
+Un correttore ortografico deve verificare, data una parola appena scritta dall'utente, se questa è presente nel dizionario 
+oppure se esiste una parola ad essa simile che sia presente nel dizionario.
+
+Il dizionario è memorizzato in una lista di stringhe di nome 'dizionario', che contiene singole parole minuscole prive di spazi.
+
+Esempio:
+```python
+dizionario = ['casa', 'cane', 'gatto', 'topo', 'mela', 'pera', 
+              'uva', 'ciccia', 'cicoria', 'cicogna', 'ciclamino']
+```
+
+Si scriva un frammento di codice Python che, partendo dalla lista 'dizionario' e dalla parola 'parola' da correggere, 
+verifichi se la parola è presente nel dizionario, e in caso contrario verifichi se esiste una parola simile (ossia che 
+differisca per una sola lettera) presente nel dizionario. In tal caso, si stampi la parola corretta.
+
+Ad esempio: la parola 'pera' è indicata come corretta, mentre la parola 'getto' viene corretta in 'gatto'. 
+Invece, la parola 'sotto' è indicata come errata ma priva di correzione, perché differisce di 2 lettere da 'gatto'.
+
+
+### Turno 5
+
+Lo studio di una funzione ha determinato una serie di 'zeri' di una funzione, ossia le ascisse in cui la funzione si azzera. Tali ascisse sono memorizzate in una lista 'zeri' di numeri reali. Gli zeri sono riportati in un ordine qualsiasi. Ad esempio:
+
+```python
+zeri = [-84.71, -17.58, 6.85, 1.34, -91.5, 78.47, -62.66, -6.13]
+```
+
+Per ciascuno di tali zeri (tranne il minimo ed il massimo), è possibile identificare lo zero che sta immediatamente alla sua sinistra, e lo zero che sta immediatamente alla sua destra, sulla retta dei numeri.
+Ad esempio, 1.34 è preceduto da -6.13 e seguito da 6.85, mentre -17.58 è preceduto da -62.66 e seguito da -6.13.
+
+Si stampi, per ciascuno degli zeri iniziali (tranne il minimo ed il massimo) la coppia di zeri che sono immediatamente adiacenti
+
+Nel caso di esempio, si stampi (non è importante l'ordine in cui vengono stampati):
+
+```
+-84.71 si trova tra -91.5 e -62.66
+-62.66 si trova tra -84.71 e -17.58
+-17.58 si trova tra -62.66 e -6.13
+-6.13 si trova tra -17.58 e 1.34
+1.34 si trova tra -6.13 e 6.85
+6.85 si trova tra 1.34 e 78.47
+```
+
+### Turno 6
+
+Le targhe delle auto italiane seguono un formato standard, di 7 caratteri ciascuna (2 lettere maiuscole, 3 cifre decimali, 
+2 lettere maiuscole). Ad esempio, `"AB123CD"`.
+Tuttavia, non tutte le lettere sono ammissibili, per evitare confusione con la forma di alcuni numeri. In paticolare, 
+le lettere `'I'`, `'O'` e `'Q'` non sono ammesse. Inoltre, le prime due lettere non possono essere `"EE"`.
+
+Data una lista di stringhe denominata 'targhe', che contiene una serie di codici alfanumerici, effettuare due operazioni:
+- costruire una lista di valori booleani, denominato 'valide', della stessa lunghezza di 'targhe', che contenga il valore True per tutte e sole le targhe che rispettano i criteri indicati
+- costruire una lista di stringhe, denominata 'targhe_valide', che contiene tutte e sole le targhe valide tra quelle di partenza, nello stesso ordine.
+
+Ad esempio, dato:
+```python 
+targhe = ['AB123CD', 'EE123CD', 'AB123CE', 'AB123CO', 'AB123CI', 'AB123CQ', 'ab123fg', 'AB123', 'AB888EE']
+```
+si calcolerà:
+```python    
+valide = [True, False, True, False, False, False, False, False, True]
+targhe_valide = ['AB123CD', 'AB123CE', 'AB123CD', 'AB123CD', 'AB888EE']
+```
+
+
+
