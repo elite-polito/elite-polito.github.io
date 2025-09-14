@@ -20,13 +20,14 @@ _Legenda:_ la colonna Tipo può essere Lez/Es=Lezione/Esercitazione in aula, Lab
 
 | Data | Orario | Tipo | Ore | Argomento | Aula | Docente |
 |----|-------------|--------|----|------|------|-----|
-| gio 31/10/24 | 8.30-10.00 | Lez/Es | 1,5 | Presentazione del progetto - parte 1. | 10I | L. Canale |
-| mar 05/11/24 | 16.00-17.30 | Lab sq. A | 1,5 | Laboratorio #3: SQL. Squadra A | 5T | L. Canale |
-| mar 05/11/24 | 17.30-19.00 | Lab sq. B | 1,5 | Laboratorio #3: SQL. Squadra B | 5T | L. Canale |
-| mer 06/11/24 | 8.30-11.30 | Lez/Es | 3 | Progettazione concettuale. Modello E-R. | 9T | L. Farinetti |
-| gio 07/11/24 | 8.30-10.00 | Lez/Es | 1,5 | Presentazione del progetto - parte 2. | 10I | L. Canale |
-| mar 12/11/24 | 16.00-17.30 | Lab sq. B | 1,5 | Laboratorio #4: Progetto - fase 1. Squadra B | 5T | L. Canale |
-| mar 12/11/24 | 17.30-19.00 | Lab sq. A | 1,5 | Laboratorio #4: Progetto - fase 1. Squadra A | 5T | L. Canale |
+| mer 24/09/25 | 8.30-11.30 | Lez/Es | 3 | Presentazione del Corso. Modello relazionale| 2I | L. Farinetti |
+| gio 25/09/25 | 8.30-10.00 | Lez/Es | 1,5 | SQL base | 2I | L. Farinetti |
+| mer 01/10/25 | 8.30-11.00 | Lez/Es | 1,5 | SQL base | 2I | L. Farinetti |
+| mar 07/10/25 | 16.00-17.30 | Lez/Es | 1,5 | SQL base | ? | L. Farinetti |
+| gio 09/10/25 | 8.30-10.00 | Lez/Es | 1,5 | Presentazione dei laboratori | 2I | L. Canale |
+| mar 14/10/25 | 16.00-17.30 | Lab sq. A | 1,5 | Laboratorio #1: SQL+LLM. Squadra A | LAIB 3 | L. Canale |
+| mar 14/10/25 | 17.30-19.00 | Lab sq. B | 1,5 | Laboratorio #1: SQL+LLM. Squadra B | LAIB 3 | L. Canale |
+
 | mer 13/11/24 | 8.30-11.30 | Lez/Es | 3 | Esempi di progettazione concettuale. | 9T | L. Farinetti |
 | gio 14/11/24 | 8.30-10.00 | Lez/Es | 1,5 | Presentazione del progetto - parte 3. | 10I | L. Canale |
 | mar 19/11/24 | 16.00-17.30 | Lab sq. A | 1,5 | Laboratorio #5: Progetto - fase 2. Squadra A | 5T | L. Canale |
