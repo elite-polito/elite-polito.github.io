@@ -24,29 +24,32 @@ description: "Materiale didattico (slide, documenti, link, ...)"
     - [Traduzione nel modello logico](https://farinetti.github.io/materiale-bdcin/14-Progettazione_modello_logico.pdf)    
     - [Esempio di progettazione logica relazionale](https://farinetti.github.io/materiale-bdcin/15-Esempio_progettazione_logica.pdf)
 
-## Videolezioni e quiz
+## Pillole video ed esercizi
 
-- Sul Portale della didattica trovate 13 video-lezioni pre-registrate (non sono registrazioni in aula di anni precedenti, ma lezioni da 1 ora focalizzate  su argomenti specifici).
-Sono utili per il ripasso o il recupero di lezioni perse.
+- Sul Portale della didattica troverete 16 "pillole" video, molto brevi, utili al ripasso degli aspetti fondamentali e/o più "ostici" di un determinato argomento.
+- A ciascuna pillola sono legati alcuni esercizi da svolgere in un intervallo di tempo specifico (circa una settimana) e sottomettere su Moodle. I testi degli esercizi sono all'interno delle pillole video. La sottomissione degli esercizi entro la scadenza e la loro valutazione contribuisce, insieme al laboratorio, al voto dell'esame (vedere le Regole d'esame <!-- (https://farinetti.github.io/materiale-bdcin/RegoleEsame23-24.pdf)--> ).
+- Gli argomenti delle "pillole", la data di pubblicazione e le date di apertura e chiusura per la sottomissione della soluzione degli esercizi sono pubblicati nella sezione "Piano del corso".
 
-- Su Moodle sono pubblicati 13 quiz (formative assessment) relativi agli argomenti visti a lezione, da svolgere in un intervallo di tempo specifico (circa una settimana). L'obettivo è incentivare lo studio progressivo e rendere più efficace la partecipazione ad esercitazioni e laboratori.
-La sottomissione dei quiz entro la scadenza consente di ottenere alcuni punti extra (vedere le Regole d'esame <!-- (https://farinetti.github.io/materiale-bdcin/RegoleEsame23-24.pdf)--> ).
-    - Gli argomenti dei quiz e le date di apertura e chiusura per la sottomissione sono pubblicati nella sezione "Piano del corso".
+## Videolezioni
+
+- Sul Portale della didattica troverete inoltre 13 video-lezioni pre-registrate (non sono registrazioni in aula di anni precedenti, ma lezioni da 1 ora focalizzate  su argomenti specifici), che potrete usare per il recupero di lezioni perse.
+
+- Su Moodle saranno pubblicati 13 quiz (formative assessment) relativi agli argomenti visti a lezione, utili per verificare la comprensione dei concetti fondamentali e per prepararsi all'esame. La sottomissione di questi quiz non contribuisce al voto dell'esame.
 
 
 ## Esercitazioni
  
 - SQL
     - Blocco 1: [Testo](https://farinetti.github.io/materiale-bdcin/EsSQL_1-Testo.pdf)
-     e [Soluzione](https://farinetti.github.io/materiale-bdcin/EsSQL_1-Soluz.pdf)
+     e <!-- [Soluzione](https://farinetti.github.io/materiale-bdcin/EsSQL_1-Soluz.pdf) -->
     - Blocco 2: [Testo](https://farinetti.github.io/materiale-bdcin/EsSQL_2-Testo.pdf) 
-     e [Soluzione](https://farinetti.github.io/materiale-bdcin/EsSQL_2-Soluz.pdf)
+     e <!-- [Soluzione](https://farinetti.github.io/materiale-bdcin/EsSQL_2-Soluz.pdf) -->
     - Blocco 3: [Testo](https://farinetti.github.io/materiale-bdcin/EserciziSQL-parte1.pdf)
-     e [Soluzione](https://farinetti.github.io/materiale-bdcin/EserciziSQL-parte1_sol.pdf)
+     e <!-- [Soluzione](https://farinetti.github.io/materiale-bdcin/EserciziSQL-parte1_sol.pdf) -->
     - Blocco 4: [Testo](https://farinetti.github.io/materiale-bdcin/EserciziSQL-parte2.pdf) 
-     e [Soluzione](https://farinetti.github.io/materiale-bdcin/EserciziSQL-parte2_sol.pdf)
+     e <!-- [Soluzione](https://farinetti.github.io/materiale-bdcin/EserciziSQL-parte2_sol.pdf) -->
     - Blocco 5: [Testo](https://farinetti.github.io/materiale-bdcin/EserciziSQL-parte3.pdf)
-     e [Soluzione](https://farinetti.github.io/materiale-bdcin/EserciziSQL-parte3_sito.pdf)
+     e <!-- [Soluzione](https://farinetti.github.io/materiale-bdcin/EserciziSQL-parte3_sito.pdf) -->
 
     <!-- 
     - Blocco 3: [Testo](https://farinetti.github.io/materiale-bdcin/EsSQL_3-Testo.pdf)
@@ -55,13 +58,15 @@ La sottomissione dei quiz entro la scadenza consente di ottenere alcuni punti ex
     e [Soluzione](https://farinetti.github.io/materiale-bdcin/EsSQL_4-Soluz.pdf)
     - [Pillola video](https://youtu.be/5dUdTthfgvs) su GROUP BY e NOT IN -->
 
+<!--
     - [Esercitazione SQL](https://farinetti.github.io/materiale-bdcin/Es_SQL_17102024.pdf) del 17/10/2024
     - Altri [esercizi di SQL](https://farinetti.github.io/materiale-bdcin/Esercizi_SQL.pdf) svolti in aula
+-->
 
 - Progettazione
-    - ER 1: [Testo](https://farinetti.github.io/materiale-bdcin/EsER_1-Testo.pdf) e [Soluzione](https://farinetti.github.io/materiale-bdcin/EsER_1-Soluz.pdf)
-    - ER 2: [Testo](https://farinetti.github.io/materiale-bdcin/EsER_2-Testo.pdf) e [Soluzione](https://farinetti.github.io/materiale-bdcin/EsER_2-Soluz.pdf)
-    - Esercizio proposto in aula il 27/11: [Testo](https://farinetti.github.io/materiale-bdcin/ER-aula-27-11-24.pdf) e [Soluzione](https://farinetti.github.io/materiale-bdcin/ER-aula-27-11-24-sol.pdf)
+    - ER 1: [Testo](https://farinetti.github.io/materiale-bdcin/EsER_1-Testo.pdf) e <!-- [Soluzione](https://farinetti.github.io/materiale-bdcin/EsER_1-Soluz.pdf) -->
+    - ER 2: [Testo](https://farinetti.github.io/materiale-bdcin/EsER_2-Testo.pdf) e <!-- [Soluzione](https://farinetti.github.io/materiale-bdcin/EsER_2-Soluz.pdf) -->
+    <!-- - Esercizio proposto in aula il 27/11: [Testo](https://farinetti.github.io/materiale-bdcin/ER-aula-27-11-24.pdf) e [Soluzione](https://farinetti.github.io/materiale-bdcin/ER-aula-27-11-24-sol.pdf) -->
 
 <!--
 ## Esercitazioni CCT
@@ -72,6 +77,7 @@ La sottomissione dei quiz entro la scadenza consente di ottenere alcuni punti ex
 
 ## Laboratori - materiale
 
+<!--
 - Laboratorio #1: 15/10 - SQL
     - [Testo](https://farinetti.github.io/materiale-bdcin/Lab1-testo.pdf)
     - [Risultati attesi](https://farinetti.github.io/materiale-bdcin/Lab-1-risultati_attesi.pdf) 
@@ -120,6 +126,7 @@ La sottomissione dei quiz entro la scadenza consente di ottenere alcuni punti ex
 
     Per dubbi o domande potete scrivere su Telegram a @Talk2Movies
 
+-->
 
 <!--
     - Obiettivo: progettare, creare e valutare un Chatbot Telegram in grado di rispondere a domande specifiche a partire da una base di conoscenza
