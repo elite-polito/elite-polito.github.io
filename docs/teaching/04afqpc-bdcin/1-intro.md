@@ -5,9 +5,9 @@ description: "Informazioni di base"
 
 # Presentazione
 
--   [Lucidi di introduzione al corso](https://farinetti.github.io/materiale-bdcin/PresentazioneCorso.pdf)
+-   Lucidi di introduzione al corso <!--(https://farinetti.github.io/materiale-bdcin/PresentazioneCorso-25.pdf) -->
 -   Regole d'esame
--   [Pagina ufficiale del corso](https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=04AFQPC&p_a_acc=2024&p_header=S&p_lang=IT&multi=N) sul Portale della Didattica
+-   [Pagina ufficiale del corso](https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=04AFQPC&p_a_acc=2025&p_header=S&p_lang=IT&multi=N) sul Portale della Didattica
 
 Il corso aderisce al progetto OCSE dal titolo «Fostering and assessing creativity and critical thinking in higher education and teacher education».
 
@@ -20,10 +20,10 @@ Il corso aderisce al progetto OCSE dal titolo «Fostering and assessing creativi
 
 | Giorno   | Ora |Tipo | Aula |
 |----------|----|-----|------|
-| Martedì | 16:00-17:30 | Laboratorio/Lezione | Aula 5T |
-| Martedì | 17:30-19:00 | Laboratorio | Aula 5T |
-| Mercoledì | 8:30-11:30 | Lezione/Esercitazione | Aula 9T |
-| Giovedì | 8:30-10:00 | Lezione/Esercitazione | Aula 10I |
+| Martedì | 16:00-17:30 | Laboratorio | LAIB 3 |
+| Martedì | 17:30-19:00 | Laboratorio | LAIB 3 |
+| Mercoledì | 8:30-11:30 | Lezione/Esercitazione | Aula 2I |
+| Giovedì | 8:30-10:00 | Lezione/Esercitazione | Aula 2I |
 
 IMPORTANTE: Le attività potrebbero variare da settimana a settimana: consultate frequentemente la sezione "Piano del corso" per le informazioni aggiornate.
 
