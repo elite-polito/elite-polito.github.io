@@ -5,9 +5,9 @@ description: "Piano del corso"
 
 # Piano del corso
 
-In questa sezione trovate 
+In questa sezione trovate: 
 - il calendario delle lezioni del corso, in cui sono riportate le attività e gli argomenti;
-- l'elenco dei quiz, con gli argomenti, le date di apertura e chiusura per la sottomissione, e le videolezioni utili per un eventuale ripasso.
+- l'elenco delle "pillole" video con le date di pubblicazione e le date di apertura e chiusura per la sottomissione degli esercizi su Moodle.
 
 
 ## Calendario delle lezioni
@@ -16,6 +16,7 @@ La seguente tabella riporta la pianificazione delle lezioni del corso, per trasp
 
 _Legenda:_ la colonna Tipo può essere Lez/Es=Lezione/Esercitazione in aula, Lab=Esercitazione di laboratorio.
 
+<!--
 
 | Data | Orario | Tipo | Ore | Argomento | Aula | Docente |
 |----|-------------|--------|----|------|------|-----|
@@ -62,7 +63,13 @@ _Legenda:_ la colonna Tipo può essere Lez/Es=Lezione/Esercitazione in aula, Lab
 | mer 30/10/24 | 8.30-10.00 | Lez/Es | 1,5 | Presentazione del progetto - parte 1. | 9T | L. Canale |
 | mer 30/10/24 | 10.00-11.30 | Lez/Es | 1,5 | Gestione delle tabelle. | 9T | L. Farinetti |
 
+-->
+
+<!--
+
 ## Esercizi da svolgere prima delle esercitazioni in aula
+
+
 
 | Esercizi proposti | Da svolgere prima del ... | Soluzione |
 |----|-------------|--------|
@@ -80,14 +87,17 @@ _Legenda:_ la colonna Tipo può essere Lez/Es=Lezione/Esercitazione in aula, Lab
 
 */}
 
-## Elenco dei quiz
+-->
 
-La tabella riporta la sequenza dei quiz con le relative date di apertura e chiusura. I quiz devono essere sottomessi ENTRO la mezzanotte della data di chiusura, e possono essere sottomessi 1 SOLA VOLTA. Si noti che più quiz potrebbero essere aperti contemporaneamente.
+## Elenco delle "pillole" video
+
+La tabella riporta la sequenza delle pillole video e le relative date di apertura e chiusura degli esercizi associati. Le soluzioni degli esercizi devono essere sottomesse ENTRO la mezzanotte della data di chiusura, e possono essere sottomesse 1 SOLA VOLTA. Si noti che più argomenti potrebbero essere aperti contemporaneamente.
 
 Note:
-- I quiz sono sul Portale della Didattica, nella sezione Moodle;
-- Le videolezioni sono sul Portale della Didattica, nella sezione Virtual Classroom.
+- Le pillole video sono sul Portale della Didattica, nella sezione Virtual Classroom.
+- Gli esercizi sono sul Portale della Didattica, nella sezione Moodle;
 
+<!--
 
 | Quiz | Argomento | Apertura quiz | Chiusura quiz | Videolezione |
 |----|-------------|--------|----|------|
@@ -105,9 +115,12 @@ Note:
 | Q12 | Progettazione logico-relazionale: ristrutturazione dello schema E-R. Traduzione nel modello relazionale. Vincoli di integrità referenziale. | 22/11 | 28/11 | VL12 |
 | Q13 | Esempio di progettazione logica: data base per la gestione di prenotazioni in una ASL. | 22/11 | 28/11 | VL13 |
 
+
 {/*
 
 | Q14 | Gestione delle transazioni. Proprietà delle transazioni. Controllo dell'accesso e sicurezza dei dati. Gestione dei privilegi in SQL. |  |  | VL10 |
 
 | VL14 | Esempio di progettazione logica: data base per la gestione di prenotazioni in una ASL. | 20/11 - 26/11 | VL14 | 20/11 | 26/11 | [![icona_pdf](https://farinetti.github.io/materiale-bdcin/iconaPdf.png)](https://farinetti.github.io/materiale-bdcin/VL14-EsempioProgLogica.pdf) |
 */}
+
+-->
