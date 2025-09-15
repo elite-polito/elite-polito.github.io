@@ -22,11 +22,38 @@ _Legenda:_ la colonna Tipo può essere Lez/Es=Lezione/Esercitazione in aula, Lab
 |----|-------------|--------|----|------|------|-----|
 | mer 24/09/25 | 8.30-11.30 | Lez/Es | 3 | Presentazione del Corso. Modello relazionale| 2I | L. Farinetti |
 | gio 25/09/25 | 8.30-10.00 | Lez/Es | 1,5 | SQL base | 2I | L. Farinetti |
-| mer 01/10/25 | 8.30-11.00 | Lez/Es | 1,5 | SQL base | 2I | L. Farinetti |
+| mer 01/10/25 | 8.30-11.00 | Lez/Es | 3 | SQL base | 2I | L. Farinetti |
 | mar 07/10/25 | 16.00-17.30 | Lez/Es | 1,5 | SQL base | ? | L. Farinetti |
 | gio 09/10/25 | 8.30-10.00 | Lez/Es | 1,5 | Presentazione dei laboratori | 2I | L. Canale |
 | mar 14/10/25 | 16.00-17.30 | Lab sq. A | 1,5 | Laboratorio #1: SQL+LLM. Squadra A | LAIB 3 | L. Canale |
 | mar 14/10/25 | 17.30-19.00 | Lab sq. B | 1,5 | Laboratorio #1: SQL+LLM. Squadra B | LAIB 3 | L. Canale |
+| mer 15/10/25 | 8.30-11.30 | Lez/Es | 3 | SQL avanzato | 2I | L. Farinetti |
+| mar 21/10/25 | 16.00-17.30 | Lab sq. B | 1,5 | Laboratorio #2: SQL+LLM. Squadra B | LAIB 3 | L. Canale |
+| mar 21/10/25 | 17.30-19.00 | Lab sq. A | 1,5 | Laboratorio #2: SQL+LLM. Squadra A | LAIB 3 | L. Canale |
+| mer 22/10/25 | 8.30-11.30 | Lez/Es | 3 | SQL avanzato | 2I | L. Farinetti |
+| gio 23/10/25 | 8.30-10.00 | Lez/Es | 1,5 | Il punto sui laboratori | 2I | L. Canale |
+| gio 30/10/25 | 8.30-10.00 | Lez/Es | 1,5 | SQL avanzato | 2I | L. Farinetti |
+| mar 04/11/25 | 16.00-17.30 | Lab sq. A | 1,5 | Laboratorio #3: SQL+LLM. Squadra A | LAIB 3 | L. Canale |
+| mar 04/11/25 | 17.30-19.00 | Lab sq. B | 1,5 | Laboratorio #3: SQL+LLM. Squadra B | LAIB 3 | L. Canale |
+| mer 05/11/25 | 8.30-11.30 | Lez/Es | 3 | Progettazione | 2I | L. Farinetti |
+| mar 11/11/25 | 16.00-17.30 | Lab sq. B | 1,5 | Laboratorio #4: SQL+LLM. Squadra B | LAIB 3 | L. Canale |
+| mar 11/11/25 | 17.30-19.00 | Lab sq. A | 1,5 | Laboratorio #4: SQL+LLM. Squadra A | LAIB 3 | L. Canale |
+| gio 13/11/25 | 8.30-10.00 | Lez/Es | 1,5 | Presentazione del progetto | 2I | L. Canale |
+| mar 18/11/25 | 16.00-17.30 | Lab sq. A | 1,5 | Laboratorio #5: Progetto. Squadra A | LAIB 3 | L. Canale |
+| mar 18/11/25 | 17.30-19.00 | Lab sq. B | 1,5 | Laboratorio #5: Progetto. Squadra B | LAIB 3 | L. Canale |
+| mer 19/11/25 | 8.30-11.30 | Lez/Es | 3 | Progettazione | 2I | L. Farinetti |
+| mar 25/11/25 | 16.00-17.30 | Lab sq. B | 1,5 | Laboratorio #6: Progetto. Squadra B | LAIB 3 | L. Canale |
+| mar 25/11/25 | 17.30-19.00 | Lab sq. A | 1,5 | Laboratorio #6: Progetto. Squadra A | LAIB 3 | L. Canale |
+| mer 26/11/25 | 8.30-11.30 | Lez/Es | 3 | Il punto sul progetto | 2I | L. Canale |
+| gio 27/11/25 | 8.30-10.00 | Lez/Es | 1,5 | Progettazione | 2I | L. Farinetti |
+| mar 02/12/25 | 16.00-17.30 | Lab sq. A | 1,5 | Laboratorio #7: Progetto. Squadra A | LAIB 3 | L. Canale |
+| mar 02/12/25 | 17.30-19.00 | Lab sq. B | 1,5 | Laboratorio #7: Progetto. Squadra B | LAIB 3 | L. Canale |
+| gio 04/12/25 | 8.30-10.00 | Lez/Es | 1,5 | Temi d'esame | 2I | L. Canale |
+| mar 09/12/25 | 16.00-17.30 | Lab sq. B | 1,5 | Laboratorio #8: Progetto. Squadra B | LAIB 3 | L. Canale |
+| mar 09/12/25 | 17.30-19.00 | Lab sq. A | 1,5 | Laboratorio #8: Progetto. Squadra A | LAIB 3 | L. Canale |
+
+
+
 
 | mer 13/11/24 | 8.30-11.30 | Lez/Es | 3 | Esempi di progettazione concettuale. | 9T | L. Farinetti |
 | gio 14/11/24 | 8.30-10.00 | Lez/Es | 1,5 | Presentazione del progetto - parte 3. | 10I | L. Canale |
