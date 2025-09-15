@@ -16,8 +16,6 @@ La seguente tabella riporta la pianificazione delle lezioni del corso, per trasp
 
 _Legenda:_ la colonna Tipo può essere Lez/Es=Lezione/Esercitazione in aula, Lab=Esercitazione di laboratorio.
 
-<!--
-
 | Data | Orario | Tipo | Ore | Argomento | Aula | Docente |
 |----|-------------|--------|----|------|------|-----|
 | mer 24/09/25 | 8.30-11.30 | Lez/Es | 3 | Presentazione del Corso. Modello relazionale| 2I | L. Farinetti |
@@ -32,6 +30,9 @@ _Legenda:_ la colonna Tipo può essere Lez/Es=Lezione/Esercitazione in aula, Lab
 | mar 21/10/25 | 17.30-19.00 | Lab sq. A | 1,5 | Laboratorio #2: SQL+LLM. Squadra A | LAIB 3 | L. Canale |
 | mer 22/10/25 | 8.30-11.30 | Lez/Es | 3 | SQL avanzato | 2I | L. Farinetti |
 | gio 23/10/25 | 8.30-10.00 | Lez/Es | 1,5 | Il punto sui laboratori | 2I | L. Canale |
+
+{/*
+
 | gio 30/10/25 | 8.30-10.00 | Lez/Es | 1,5 | SQL avanzato | 2I | L. Farinetti |
 | mar 04/11/25 | 16.00-17.30 | Lab sq. A | 1,5 | Laboratorio #3: SQL+LLM. Squadra A | LAIB 3 | L. Canale |
 | mar 04/11/25 | 17.30-19.00 | Lab sq. B | 1,5 | Laboratorio #3: SQL+LLM. Squadra B | LAIB 3 | L. Canale |
@@ -51,47 +52,10 @@ _Legenda:_ la colonna Tipo può essere Lez/Es=Lezione/Esercitazione in aula, Lab
 | gio 04/12/25 | 8.30-10.00 | Lez/Es | 1,5 | Temi d'esame | 2I | L. Canale |
 | mar 09/12/25 | 16.00-17.30 | Lab sq. B | 1,5 | Laboratorio #8: Progetto. Squadra B | LAIB 3 | L. Canale |
 | mar 09/12/25 | 17.30-19.00 | Lab sq. A | 1,5 | Laboratorio #8: Progetto. Squadra A | LAIB 3 | L. Canale |
+| mer 10/12/25 | 8.30-11.30 | Lez/Es | 3 | Simulazione d'esame | 2I | L. Farinetti |
 
 
-
-
-| mer 13/11/24 | 8.30-11.30 | Lez/Es | 3 | Esempi di progettazione concettuale. | 9T | L. Farinetti |
-| gio 14/11/24 | 8.30-10.00 | Lez/Es | 1,5 | Presentazione del progetto - parte 3. | 10I | L. Canale |
-| mar 19/11/24 | 16.00-17.30 | Lab sq. A | 1,5 | Laboratorio #5: Progetto - fase 2. Squadra A | 5T | L. Canale |
-| mar 19/11/24 | 17.30-19.00 | Lab sq. B | 1,5 | Laboratorio #5: Progetto - fase 2. Squadra B | 5T | L. Canale |
-| mer 20/11/24 | 8.30-11.30 | Lez/Es | 3 | Progettazione logico-relazionale. | 9T | L. Farinetti |
-| gio 21/11/24 | 8.30-10.00 | Lez/Es | 1,5 | Presentazione del progetto - parte 4. | 10I | L. Canale |
-| mar 26/11/24 | 16.00-17.30 | Lab sq. B | 1,5 | Laboratorio #6: Progetto - fase 3. Squadra B | 5T | L. Canale |
-| mar 26/11/24 | 17.30-19.00 | Lab sq. A | 1,5 | Laboratorio #6: Progetto - fase 3. Squadra A | 5T | L. Canale |
-| mer 27/11/24 | 8.30-11.30 | Lez/Es | 3 | Esercizi di progettazione. | 9T | L. Farinetti |
-| gio 28/11/24 | 8.30-10.00 | Lez/Es | 1,5 | Presentazione del progetto - parte 5. | 10I | L. Canale |
-| mar 03/12/24 | 16.00-17.30 | Lab sq. A | 1,5 | Laboratorio #7: Progetto - fase 4. Squadra A | 5T | L. Canale |
-| mar 03/12/24 | 17.30-19.00 | Lab sq. B | 1,5 | Laboratorio #7: Progetto - fase 4. Squadra B | 5T | L. Canale |
-| mer 04/12/24 | 8.30-11.30 | Lez/Es | 3 | Temi d'esame | 10I | L. Farinetti |
-| mar 10/12/24 | 16.00-17.30 | Lab sq. B | 1,5 | Laboratorio #8: SQL. Squadra B | 5T | L. Canale |
-| mar 10/12/24 | 17.30-19.00 | Lab sq. A | 1,5 | Laboratorio #8: SQL. Squadra A | 5T | L. Canale |
-| mer 11/12/24 | 8.30-11.30 | Lez/Es | 3 | Temi d'esame. | 9T | L. Farinetti |
-
-{/*
-
-| mer 25/09/24 | 8.30-11.30 | Lez/Es | 3 | Presentazione del corso. Introduzione alla basi dati. Modello relazionale. | 9T | L. Farinetti |
-| gio 26/09/24 | 8.30-10.00 | Lez/Es | 1,5 | Modello relazionale. SQL: struttura base.| 10I | L. Farinetti |
-| mer 02/10/24 | 8.30-11.30 | Lez/Es | 3 | SQL: struttura base, ordinamento, join. | 9T | L. Farinetti |
-| gio 03/10/24 | 8.30-10.00 | Lez/Es | 1,5 | SQL: join, funzioni aggregate. | 10I | L. Farinetti |
-| mar 08/10/24 | 16.00-17.30 | Lez/Es | 1,5 | SQL: raggruppamento. | 5T | L. Farinetti |
-| mer 09/10/24 | 8.30-11.30 | Lez/Es | 3 | SQL: interrogazioni annidate, IN e NOT IN. | 9T | L. Farinetti |
-| gio 10/10/24 | 8.30-10.00 | Lez/Es | 1,5 | SQL: EXISTS, correlazione. | 10I | L. Farinetti |
-| mar 15/10/24 | 16.00-17.30 | Lab sq. A | 1,5 | Laboratorio #1: SQL. Squadra A | 5T | L. Canale |
-| mar 15/10/24 | 17.30-19.00 | Lab sq. B | 1,5 | Laboratorio #1: SQL. Squadra B | 5T | L. Canale |
-| gio 17/10/24 | 8.30-10.00 | Lez/Es | 1,5 | Esercitazione SQL. | 10I | L. Canale |
-| mar 22/10/24 | 16.00-17.30 | Lab sq. B | 1,5 | Laboratorio #2: SQL. Squadra B | 5T | L. Canale |
-| mar 22/10/24 | 17.30-19.00 | Lab sq. A | 1,5 | Laboratorio #2: SQL. Squadra A | 5T | L. Canale |
-| mer 23/10/24 | 8.30-11.30 | Lez/Es | 3 | SQL: divisione, table function. | 9T | L. Farinetti |
-| gio 24/10/24 | 8.30-10.00 | Lez/Es | 1,5 | SQL: operatori insiemistici, manipolazione dati. | 10I | L. Farinetti |
-| mer 30/10/24 | 8.30-10.00 | Lez/Es | 1,5 | Presentazione del progetto - parte 1. | 9T | L. Canale |
-| mer 30/10/24 | 10.00-11.30 | Lez/Es | 1,5 | Gestione delle tabelle. | 9T | L. Farinetti |
-
--->
+*/}
 
 <!--
 
