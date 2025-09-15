@@ -108,7 +108,7 @@ export default function Home({recentPosts}) {
                             <p>The main <Link to='/research/Topics'>research areas</Link> are on the crossing of <b>Human-Computer
                                 Interaction</b>, <b>Ubiquitous Computing</b>, and <b>Artificial Intelligence</b>.</p>
                         </div>
-                        {/* Second semester */}
+                        {/* Second semester 
                         <div className="col col--3">
                             <Admonition type="info" icon="⚡️" title={'Quick links'}>
                                 <Link to='/teaching/01udf-aw1'>Applicazioni Web I</Link><br/>
@@ -119,7 +119,8 @@ export default function Home({recentPosts}) {
                                 <Link to='/thesis-offers'>Thesis offers</Link>
                             </Admonition>
                         </div>
-                        {/* First semester
+                        */}
+                        {/* First semester */}
                         <div className="col col--3">
                             <Admonition type="info" icon="⚡️" title={'Quick links'}>
                                 <Link to='/teaching/04afqpc-bdcin'>Basi di dati</Link><br/>
@@ -130,7 +131,6 @@ export default function Home({recentPosts}) {
                                 <Link to='/thesis-offers'>Thesis offers</Link>
                             </Admonition>
                         </div>
-                        */}
                         
                     </div>
                 </div>
