@@ -87,25 +87,18 @@ La tabella riporta la sequenza delle pillole video e le relative date di apertur
 
 Note:
 - Le pillole video sono sul Portale della Didattica, nella sezione Virtual Classroom.
-- Gli esercizi sono sul Portale della Didattica, nella sezione Moodle;
+- Gli esercizi sono sul Portale della Didattica, nella sezione Moodle.
 
-<!--
-
-| Quiz | Argomento | Apertura quiz | Chiusura quiz | Videolezione |
+| Pillola video | Argomento | Pullicazione | Apertura esercizi | Chiusura esercizi |
 |----|-------------|--------|----|------|
-| Q01 | Il modello relazionale. Definizioni. Vincoli di integrità. Chiave primaria. Vincoli di integrità referenziale. | 27/09 | 03/10 | VL01 |
-| Q02 | Il linguaggio SQL. Introduzione. L'istruzione SELECT. Struttura base. La clausola WHERE.  Gli operatori LIKE e IS. Ordinamento del risultato. | 04/10 | 10/10 | VL02 |
-| Q03 | L'istruzione SELECT. Join fra tabelle. | 04/10 | 10/10 | VL03 |
-| Q04 | Funzioni aggregate. L'operatore GROUP BY. Condizione di selezione sui gruppi. | 11/10 | 17/10 | VL04 |
-| Q05 | Il linguaggio SQL. Select annidate. Gli operatori IN e NOT IN. Costruttore di tupla. | 18/10 | 24/10 | VL05 |
-| Q06 | Il linguaggio SQL. Select annidate. Gli operatori EXISTS e NOT EXISTS. Correlazione fra interrogazioni. | 18/10 | 24/10 | VL06 |
-| Q07 | Divisione. Table function. | 25/10 | 31/10 | VL07 |
-| Q08 | Gli operatori insiemistici: UNION, INTERSECT, EXCEPT. Le istruzioni di aggiornamento: INSERT, DELETE, UPDATE. | 01/11 | 07/11 | VL08 |
-| Q09 | Gestione delle tabelle. Creazione, modifica, cancellazione. Vincoli di tabella. Vincoli di integrità referenziale e gestione dei vincoli. | 08/11 | 14/11 | VL09 |
-| Q10 | Progettazione delle basi dati. Metodologia di progettazione. Il modello E-R: entità, relazioni, cardinalità, generalizzazione. | 15/11 | 21/11 | VL10 |
-| Q11 | Progettazione concettuale. Esempio: data base per la gestione di prenotazioni in una ASL. | 15/11 | 21/11 | VL11 |
-| Q12 | Progettazione logico-relazionale: ristrutturazione dello schema E-R. Traduzione nel modello relazionale. Vincoli di integrità referenziale. | 22/11 | 28/11 | VL12 |
-| Q13 | Esempio di progettazione logica: data base per la gestione di prenotazioni in una ASL. | 22/11 | 28/11 | VL13 |
+| P#01 | Il modello relazionale: definizioni e proprietà. | 26/09 | 26/09 | 03/10 |
+| P#02 | Il modello relazionale: vincoli di integrità referenziale. | 26/09 | 26/09 | 03/10 |
+| P#03 | Il linguaggio SQL: la SELECT base. | 02/10 | 02/10 | 09/10 |
+| P#04 | Il linguaggio SQL: join e self-join. | 02/10 | 02/10 | 09/10 |
+| P#05 | Il linguaggio SQL: le funzioni aggregate. | 06/10 | 06/10 | 13/10 |
+| P#06 | Il linguaggio SQL: l'istruzione GROUP BY. | 10/10 | 10/10 | 17/10 |
+| P#07 | Il linguaggio SQL: raggruppamento con condizione. | 10/10 | 10/10 | 17/10 |
+
 
 
 {/*
