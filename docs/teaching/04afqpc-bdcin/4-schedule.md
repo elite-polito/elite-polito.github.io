@@ -89,7 +89,7 @@ Note:
 - Le pillole video sono sul Portale della Didattica, nella sezione Virtual Classroom.
 - Gli esercizi sono sul Portale della Didattica, nella sezione Moodle.
 
-| Pillola video | Argomento | Pullicazione | Apertura esercizi | Chiusura esercizi |
+| Pillola video | Argomento | Pubblicazione entro | Apertura esercizi | Chiusura esercizi |
 |----|-------------|--------|----|------|
 | P#01 | Il modello relazionale: definizioni e proprietà. | 26/09 | 26/09 | 03/10 |
 | P#02 | Il modello relazionale: vincoli di integrità referenziale. | 26/09 | 26/09 | 03/10 |
