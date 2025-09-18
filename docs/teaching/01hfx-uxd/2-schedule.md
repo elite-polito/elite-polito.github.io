@@ -6,7 +6,7 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 import Link from '@docusaurus/Link';
 
 
-# Calendario
+# Calendario 
 
 :::tip Quick Links
 * [Materiale del corso](https://github.com/polito-uxd-2025/materiale) (su GitHub)
@@ -22,17 +22,17 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
  
 <LectureRow
     date="23/09/2025" time="08:30-10:00" type ="Lezione">
-    <>Introduzione al corso</>
+    <Link to="https://polito-uxd-2025.github.io/materiale/slides/00-intro.pdf">Introduzione al corso</Link>
 </LectureRow>
 
 <LectureRow 
     date="26/09/2025" time="10:00-11:30" type ="Lezione">
-    <>Che cos'è lo UXD?</>
+    <Link to="https://polito-uxd-2025.github.io/materiale/slides/01-whatisUXD.pdf">Che cos'è lo UXD?</Link>
 </LectureRow>
 
 <LectureRow
     date="26/09/2024" time="11:30-13:00" type ="Lezione">
-    <>Temi e overview dei progetti</>
+    <Link to="https://polito-uxd-2024.github.io/materiale/slides/02-themes-projects-overview.pdf">Temi e overview dei progetti</Link>
 </LectureRow>
 
 
