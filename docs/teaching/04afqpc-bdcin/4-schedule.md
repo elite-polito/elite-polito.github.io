@@ -108,4 +108,3 @@ Note:
 | VL14 | Esempio di progettazione logica: data base per la gestione di prenotazioni in una ASL. | 20/11 - 26/11 | VL14 | 20/11 | 26/11 | [![icona_pdf](https://farinetti.github.io/materiale-bdcin/iconaPdf.png)](https://farinetti.github.io/materiale-bdcin/VL14-EsempioProgLogica.pdf) |
 */}
 
--->

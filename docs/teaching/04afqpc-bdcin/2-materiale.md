@@ -26,7 +26,7 @@ description: "Materiale didattico (slide, documenti, link, ...)"
 
 ## Pillole video ed esercizi
 
-- Sul Portale della didattica troverete 16 "pillole" video, molto brevi, utili al ripasso degli aspetti fondamentali e/o più "ostici" di un determinato argomento.
+- Sul Portale della didattica troverete 16 brevi "pillole" video, utili al ripasso degli aspetti fondamentali e/o più "ostici" di un determinato argomento.
 - A ciascuna pillola sono legati alcuni esercizi da svolgere in un intervallo di tempo specifico (circa una settimana) e sottomettere su Moodle. I testi degli esercizi sono all'interno delle pillole video. La sottomissione degli esercizi entro la scadenza e la loro valutazione contribuisce, insieme al laboratorio, al voto dell'esame (vedere le Regole d'esame <!-- (https://farinetti.github.io/materiale-bdcin/RegoleEsame23-24.pdf)--> ).
 - Gli argomenti delle "pillole", la data di pubblicazione e le date di apertura e chiusura per la sottomissione della soluzione degli esercizi sono pubblicati nella sezione "Piano del corso".
 
@@ -41,15 +41,15 @@ description: "Materiale didattico (slide, documenti, link, ...)"
  
 - SQL
     - Blocco 1: [Testo](https://farinetti.github.io/materiale-bdcin/EsSQL_1-Testo.pdf)
-     e <!-- [Soluzione](https://farinetti.github.io/materiale-bdcin/EsSQL_1-Soluz.pdf) -->
+  <!-- e [Soluzione](https://farinetti.github.io/materiale-bdcin/EsSQL_1-Soluz.pdf) -->
     - Blocco 2: [Testo](https://farinetti.github.io/materiale-bdcin/EsSQL_2-Testo.pdf) 
-     e <!-- [Soluzione](https://farinetti.github.io/materiale-bdcin/EsSQL_2-Soluz.pdf) -->
+  <!-- e [Soluzione](https://farinetti.github.io/materiale-bdcin/EsSQL_2-Soluz.pdf) -->
     - Blocco 3: [Testo](https://farinetti.github.io/materiale-bdcin/EserciziSQL-parte1.pdf)
-     e <!-- [Soluzione](https://farinetti.github.io/materiale-bdcin/EserciziSQL-parte1_sol.pdf) -->
+  <!-- e [Soluzione](https://farinetti.github.io/materiale-bdcin/EserciziSQL-parte1_sol.pdf) -->
     - Blocco 4: [Testo](https://farinetti.github.io/materiale-bdcin/EserciziSQL-parte2.pdf) 
-     e <!-- [Soluzione](https://farinetti.github.io/materiale-bdcin/EserciziSQL-parte2_sol.pdf) -->
+  <!-- e [Soluzione](https://farinetti.github.io/materiale-bdcin/EserciziSQL-parte2_sol.pdf) -->
     - Blocco 5: [Testo](https://farinetti.github.io/materiale-bdcin/EserciziSQL-parte3.pdf)
-     e <!-- [Soluzione](https://farinetti.github.io/materiale-bdcin/EserciziSQL-parte3_sito.pdf) -->
+  <!-- e [Soluzione](https://farinetti.github.io/materiale-bdcin/EserciziSQL-parte3_sito.pdf) -->
 
     <!-- 
     - Blocco 3: [Testo](https://farinetti.github.io/materiale-bdcin/EsSQL_3-Testo.pdf)
@@ -64,8 +64,8 @@ description: "Materiale didattico (slide, documenti, link, ...)"
 -->
 
 - Progettazione
-    - ER 1: [Testo](https://farinetti.github.io/materiale-bdcin/EsER_1-Testo.pdf) e <!-- [Soluzione](https://farinetti.github.io/materiale-bdcin/EsER_1-Soluz.pdf) -->
-    - ER 2: [Testo](https://farinetti.github.io/materiale-bdcin/EsER_2-Testo.pdf) e <!-- [Soluzione](https://farinetti.github.io/materiale-bdcin/EsER_2-Soluz.pdf) -->
+    - ER 1: [Testo](https://farinetti.github.io/materiale-bdcin/EsER_1-Testo.pdf) <!-- e [Soluzione](https://farinetti.github.io/materiale-bdcin/EsER_1-Soluz.pdf) -->
+    - ER 2: [Testo](https://farinetti.github.io/materiale-bdcin/EsER_2-Testo.pdf) <!-- e [Soluzione](https://farinetti.github.io/materiale-bdcin/EsER_2-Soluz.pdf) -->
     <!-- - Esercizio proposto in aula il 27/11: [Testo](https://farinetti.github.io/materiale-bdcin/ER-aula-27-11-24.pdf) e [Soluzione](https://farinetti.github.io/materiale-bdcin/ER-aula-27-11-24-sol.pdf) -->
 
 <!--
