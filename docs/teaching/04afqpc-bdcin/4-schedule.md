@@ -91,8 +91,8 @@ Note:
 
 | Pillola video | Argomento | Pubblicazione entro | Apertura esercizi | Chiusura esercizi |
 |----|-------------|--------|----|------|
-| P#01 | Il modello relazionale: definizioni e proprietà. | 26/09 | 26/09 | 03/10 |
-| P#02 | Il modello relazionale: vincoli di integrità referenziale. | 26/09 | 26/09 | 03/10 |
+| P#01 | Il modello relazionale: definizioni e proprietà. | Pubblicata | 26/09 | 03/10 |
+| P#02 | Il modello relazionale: vincoli di integrità referenziale. | Pubblicata | 26/09 | 03/10 |
 | P#03 | Il linguaggio SQL: la SELECT base. | 02/10 | 02/10 | 09/10 |
 | P#04 | Il linguaggio SQL: join e self-join. | 02/10 | 02/10 | 09/10 |
 | P#05 | Il linguaggio SQL: le funzioni aggregate. | 06/10 | 06/10 | 13/10 |
