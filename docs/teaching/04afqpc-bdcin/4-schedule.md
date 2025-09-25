@@ -21,7 +21,7 @@ _Legenda:_ la colonna Tipo può essere Lez/Es=Lezione/Esercitazione in aula, Lab
 | mer 24/09/25 | 8.30-11.30 | Lez/Es | 3 | Presentazione del Corso. Modello relazionale| 2I | L. Farinetti |
 | gio 25/09/25 | 8.30-10.00 | Lez/Es | 1,5 | SQL base | 2I | L. Farinetti |
 | mer 01/10/25 | 8.30-11.00 | Lez/Es | 3 | SQL base | 2I | L. Farinetti |
-| mar 07/10/25 | 16.00-17.30 | Lez/Es | 1,5 | SQL base | ? | L. Farinetti |
+| mar 07/10/25 | 16.00-17.30 | Lez/Es | 1,5 | SQL base | <strong>1T</strong>  | L. Farinetti |
 | gio 09/10/25 | 8.30-10.00 | Lez/Es | 1,5 | Presentazione dei laboratori | 2I | L. Canale |
 | mar 14/10/25 | 16.00-17.30 | Lab sq. A | 1,5 | Laboratorio #1: SQL+LLM. Squadra A | LAIB 3 | L. Canale |
 | mar 14/10/25 | 17.30-19.00 | Lab sq. B | 1,5 | Laboratorio #1: SQL+LLM. Squadra B | LAIB 3 | L. Canale |
