@@ -21,7 +21,7 @@ _Legenda:_ la colonna Tipo può essere Lez/Es=Lezione/Esercitazione in aula, Lab
 | mer 24/09/25 | 8.30-11.30 | Lez/Es | 3 | Presentazione del Corso. Modello relazionale| 2I | L. Farinetti |
 | gio 25/09/25 | 8.30-10.00 | Lez/Es | 1,5 | SQL base | 2I | L. Farinetti |
 | mer 01/10/25 | 8.30-11.00 | Lez/Es | 3 | SQL base | 2I | L. Farinetti |
-| mar 07/10/25 | 16.00-17.30 | Lez/Es | 1,5 | SQL base | <strong>1T</strong>  | L. Farinetti |
+| mar 07/10/25 | 16.00-17.30 | Lez/Es | 1,5 | SQL base | <strong>10</strong>  | L. Farinetti |
 | gio 09/10/25 | 8.30-10.00 | Lez/Es | 1,5 | Presentazione dei laboratori | 2I | L. Canale |
 | mar 14/10/25 | 16.00-17.30 | Lab sq. A | 1,5 | Laboratorio #1: SQL+LLM. Squadra A | LAIB 3 | L. Canale |
 | mar 14/10/25 | 17.30-19.00 | Lab sq. B | 1,5 | Laboratorio #1: SQL+LLM. Squadra B | LAIB 3 | L. Canale |
@@ -94,7 +94,7 @@ Note:
 | P#01 | Il modello relazionale: definizioni e proprietà. | Pubblicata | 26/09 | 03/10 |
 | P#02 | Il modello relazionale: vincoli di integrità referenziale. | Pubblicata | 26/09 | 03/10 |
 | P#03 | Il linguaggio SQL: la SELECT base. | Pubblicata | 02/10 | 09/10 |
-| P#04 | Il linguaggio SQL: join e self-join. | 02/10 | 02/10 | 09/10 |
+| P#04 | Il linguaggio SQL: join e self-join. | Pubblicata | 02/10 | 09/10 |
 | P#05 | Il linguaggio SQL: le funzioni aggregate. | 06/10 | 06/10 | 13/10 |
 | P#06 | Il linguaggio SQL: l'istruzione GROUP BY. | 10/10 | 10/10 | 17/10 |
 | P#07 | Il linguaggio SQL: raggruppamento con condizione. | 10/10 | 10/10 | 17/10 |
