@@ -32,14 +32,14 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 
 <LectureRow
     date="26/09/2024" time="11:30-13:00" type ="Lezione" video={['https://www.polito.it/didattica']}>
-    <Link to="https://polito-uxd-2024.github.io/materiale/slides/02-themes-projects-overview.pdf">Temi e overview dei progetti</Link>
+    <Link to="https://polito-uxd-2025.github.io/materiale/slides/02-themes-projects-overview.pdf">Temi e overview dei progetti</Link>
 </LectureRow>
 
 <LectureDivider topic='Settimana 2'/>{/*-------------------------------------------*/}
 
 <LectureRow
     date="30/09/2025" time="08:30-10:00" type ="Lezione" video={['https://www.polito.it/didattica']}>
-    <Link to="https://polito-uxd-2024.github.io/materiale/slides/03-users-needs-tasks.pdf">Bisogni, Task, e loro analisi </Link>
+    <Link to="https://polito-uxd-2025.github.io/materiale/slides/03-users-needs-tasks.pdf">Bisogni, Task, e loro analisi </Link>
 </LectureRow>
 
 <LectureRow 
