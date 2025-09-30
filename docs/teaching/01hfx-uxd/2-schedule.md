@@ -44,19 +44,19 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 
 <LectureRow 
     date="03/10/2025" time="10:00-11:30" type ="Lezione" teacher = "Andrea Caputo" video={['https://www.polito.it/didattica']}>
-    <>Needfinding</>
+    <Link to="https://polito-uxd-2025.github.io/materiale/slides/04-needfinding.pdf">Needfinding</Link>
 </LectureRow>
     
 <LectureRow
     date="03/10/2025" time="11:30-13:00" type ="Lezione" teacher = "Andrea Caputo" video={['https://www.polito.it/didattica']}>
-    <>Needfinding</>
+    <Link to="https://polito-uxd-2025.github.io/materiale/slides/04-needfinding.pdf">Needfinding</Link>
 </LectureRow>
 
 <LectureDivider topic='Settimana 3'/>{/*-------------------------------------------*/}
 
 <LectureRow
     date="07/10/2025" time="08:30-10:00" type ="Lezione" teacher = "Andrea Caputo" video={['https://www.polito.it/didattica']}>
-    <>Needfinding</>
+    <Link to="https://polito-uxd-2025.github.io/materiale/slides/04-needfinding.pdf">Needfinding</Link>
 </LectureRow>
 
 <LectureRow    
