@@ -36,6 +36,12 @@ description: "Materiale didattico (slide, documenti, link, ...)"
 
 - Su Moodle saranno pubblicati 13 quiz (formative assessment) relativi agli argomenti visti a lezione, utili per verificare la comprensione dei concetti fondamentali e per prepararsi all'esame. La sottomissione di questi quiz non contribuisce al voto dell'esame.
 
+## Esercizi proposti e svolti in aula 
+
+Qui trovate gli esercizi svolti in aula. 
+Nota: è un unico file che viene aggiornato di volta in volta con nuovi esercizi proposti e/o svolti.
+- [Esercizi aggiornati al 01/01/2025](https://farinetti.github.io/materiale-bdcin/Esercizi-01.pdf)
+
 
 ## Esercitazioni
  
