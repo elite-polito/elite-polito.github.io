@@ -34,4 +34,4 @@ Consulta la sezione [Calendario](schedule) per informazioni dettagliate ed event
 | Giorno     | Ora        | Luogo | Tipo            |
 |---------|-------------|----------|-----------------|
 | Martedì  | 08:30-10:00 | Aula 11 | Laboratorio           |  
-| Venerdì | 10:00-13:00 | Aula 4I  | Lezione/Esercitazione           |
+| Venerdì | 10:00-13:00 | Aula 4T  | Lezione/Esercitazione           |
