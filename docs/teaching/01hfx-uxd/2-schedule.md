@@ -61,7 +61,7 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 
 <LectureRow    
     date="10/10/2025" time="10:00-11:30" type ="Laboratorio" teacher = "Andrea Caputo, Rob Schwartz">
-    <>Assignment 1: Needfinding</>
+    <Link to="https://polito-uxd-2025.github.io/materiale/assignments/A1-needfinding.pdf">Assignment 1: Needfinding</Link>
 </LectureRow>
     
 <LectureRow
