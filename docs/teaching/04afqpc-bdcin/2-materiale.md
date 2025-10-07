@@ -81,7 +81,11 @@ Nota: è un unico file che viene aggiornato di volta in volta con nuovi esercizi
 -->
 
 
-## Laboratori - materiale
+## Laboratori 
+
+Suddivisione in squadre per il laboratorio:
+    - Squadra A: da ALASIA a GIANNINI
+    - Squadra B: da GIASSI a YUAN
 
 <!--
 - Laboratorio #1: 15/10 - SQL
