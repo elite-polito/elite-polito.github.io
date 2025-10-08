@@ -87,6 +87,9 @@ Suddivisione in squadre per il laboratorio:
     - Squadra A: da ALASIA a GIANNINI
     - Squadra B: da GIASSI a YUAN
 
+Link all'area condivisa che contiene le informazioni ed il materiale dei laboratori (a cura dell'ing. Lorenzo Canale):
+[https://drive.google.com/drive/folders/1mKb8fVeaWHtG5c79SiNEoJ8KYqLlGVDm](https://drive.google.com/drive/folders/1mKb8fVeaWHtG5c79SiNEoJ8KYqLlGVDm)
+
 <!--
 - Laboratorio #1: 15/10 - SQL
     - [Testo](https://farinetti.github.io/materiale-bdcin/Lab1-testo.pdf)
