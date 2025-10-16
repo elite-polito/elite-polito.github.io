@@ -24,7 +24,7 @@ Prossimi appelli, con scadenze:
   - Deadline: 09/10/2025
   - [Sottometti il form](https://forms.gle/vKxwRL2t416gkQHS9)
 - [Assignment 1: Needfinding](https://polito-uxd-2025.github.io/materiale/assignments/A1-needfinding.pdf)
-  - Deadline: 22/10/2025
+  - Deadline: 29/10/2025
 - Assignment 2: Storyboard e prototipo a bassa fedeltà
   - Deadline: 5/11/2025
 - Assignment 3: Valutazione euristica
