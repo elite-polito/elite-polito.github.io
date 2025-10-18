@@ -78,12 +78,12 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 
 <LectureRow    
     date="17/10/2025" time="10:00-11:30" type ="Lezione" video={['https://www.polito.it/didattica']}>
-    <>Scenari, storyboard, e prototipazione a bassa fedeltà</>
+    <Link to="https://polito-uxd-2025.github.io/materiale/slides/05-scenarios-storyboards-lowfi.pdf">Scenari, storyboard, e prototipazione a bassa fedeltà</Link>
 </LectureRow>
     
 <LectureRow
     date="17/10/2025" time="11:30-13:00" type ="Lezione" video={['https://www.polito.it/didattica']}>
-    <>Principi di design</>
+    <Link to="https://polito-uxd-2025.github.io/materiale/slides/06-design-principles.pdf">Principi di design</Link>
 </LectureRow>
 
 <LectureDivider topic='Settimana 5'/>{/*-------------------------------------------*/}
@@ -94,30 +94,30 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 </LectureRow>
 
 <LectureRow    
-    date="24/10/2025" time="10:00-11:30" type ="Laboratorio" teacher = "Andrea Caputo, Rob Schwartz">
-    <>Feedback su Assignment 1</>
+    date="24/10/2025" time="10:00-11:30" type ="Lezione" teacher = "Alberto Monge Roffarello" video={['https://www.polito.it/didattica']}>
+    <>Design visivo</> 
 </LectureRow>
     
 <LectureRow
-    date="24/10/2025" time="11:30-13:00" type ="Laboratorio" teacher = "Andrea Caputo, Rob Schwartz">
-    <>Feedback su Assignment 1</>
+    date="24/10/2025" time="11:30-13:00" type ="Lezione" teacher = "Alberto Monge Roffarello" video={['https://www.polito.it/didattica']}>
+    <>Pattern di design e linee guide</>
 </LectureRow>
 
 <LectureDivider topic='Settimana 6'/>{/*-------------------------------------------*/}
 
 <LectureRow
-    date="28/10/2025" time="08:30-10:00" type ="Laboratorio" teacher = "Alberto Monge Roffarello, Rob Schwartz">
-    <>Assignment 2: Storyboard e prototipazione a bassa fedeltà</>
+    date="28/10/2025" time="08:30-10:00" type ="Lezione" teacher = "Andrea Caputo" video={['https://www.polito.it/didattica']}>
+    <>Approcci gamificati</> 
 </LectureRow>
 
 <LectureRow    
-    date="31/10/2025" time="10:00-11:30" type ="Lezione" teacher = "Andrea Caputo" video={['https://www.polito.it/didattica']}>
-    <>Approcci gamificati</>
+    date="31/10/2025" time="10:00-11:30" type ="Laboratorio" teacher = "Andrea Caputo, Rob Schwartz ">
+    <>Feedback su Assignment 1</>
 </LectureRow>
     
 <LectureRow
-    date="31/10/2025" time="11:30-13:00" type ="Lezione" teacher = "Andrea Caputo" video={['https://www.polito.it/didattica']}>
-    <>Approcci gamificati</>
+    date="31/10/2025" time="11:30-13:00" type ="Laboratorio" teacher = "Andrea Caputo, Rob Schwartz">
+    <>Feedback su Assignment 1</>
 </LectureRow>
 
 <LectureDivider topic='Settimana 7'/>{/*-------------------------------------------*/}
@@ -128,30 +128,30 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 </LectureRow>
 
 <LectureRow    
-    date="07/11/2025" time="10:00-11:30" type ="Laboratorio" teacher = "Alberto Monge Roffarello, Rob Schwartz">
-    <>Feedback su Assignment 2</>
+    date="07/11/2025" time="10:00-11:30" type ="Lezione" teacher = "Andrea Caputo" video={['https://www.polito.it/didattica']}>
+    <>Approcci gamificati</>
 </LectureRow>
     
 <LectureRow
-    date="07/11/2025" time="11:30-13:00" type ="Laboratorio" teacher = "Alberto Monge Roffarello, Rob Schwartz">
-    <>Feedback su Assignment 2</>
+    date="07/11/2025" time="11:30-13:00" type ="Lezione" teacher = "Andrea Caputo" video={['https://www.polito.it/didattica']}>
+    <>Approcci gamificati</>
 </LectureRow>
 
 <LectureDivider topic='Settimana 8'/>{/*-------------------------------------------*/}
 
 <LectureRow
-    date="11/11/2025" time="08:30-10:00" type ="Lezione" teacher = "Andrea Caputo" video={['https://www.polito.it/didattica']}>
-    <>Approcci gamificati</>
+    date="11/11/2025" time="08:30-10:00" type ="Laboratorio" teacher = "Alberto Monge Roffarello, Rob Schwartz">
+    <>Assignment 2: Storyboard e prototipazione a bassa fedeltà</>
 </LectureRow>
 
 <LectureRow    
-    date="14/11/2025" time="10:00-11:30" type ="Lezione" teacher = "Alberto Monge Roffarello" video={['https://www.polito.it/didattica']}>
-    <>Design visivo</>
+    date="14/11/2025" time="10:00-11:30" type ="Laboratorio" teacher = "Alberto Monge Roffarello">
+    <>Feedback su Assignment 2</>
 </LectureRow>
     
 <LectureRow
-    date="14/11/2025" time="11:30-13:00" type ="Lezione" teacher = "Alberto Monge Roffarello" video={['https://www.polito.it/didattica']}>
-    <>Pattern di design e linee guide</>
+    date="14/11/2025" time="11:30-13:00" type ="Laboratorio" teacher = "Alberto Monge Roffarello">
+    <>Feedback su Assignment 2</>
 </LectureRow>
 
 <LectureDivider topic='Settimana 9'/>{/*-------------------------------------------*/}
@@ -242,12 +242,12 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 <LectureDivider topic='Settimana 14'/>{/*-------------------------------------------*/}
 
 <LectureRow    
-    date="09/01/2026" time="10:00-11:30" type ="Laboratorio" teacher = "Alberto Monge Roffarello">
+    date="09/01/2026" time="10:00-11:30" type ="Laboratorio" teacher = "Alberto Monge Roffarello, Rob Schwartz">
     <>Assignment 5: prototipazione ad alta feldeltà</>
 </LectureRow>
     
 <LectureRow
-    date="09/01/2026" time="11:30-13:00" type ="Lezione" teacher = "Alberto Monge Roffarello" video={['https://www.polito.it/didattica']}>
+    date="09/01/2026" time="11:30-13:00" type ="Laboratorio" teacher = "Alberto Monge Roffarello, Rob Schwartz">
     <>Q&A sull'esame</>
 </LectureRow>
 </LectureTable>

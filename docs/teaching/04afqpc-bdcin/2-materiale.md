@@ -41,7 +41,8 @@ description: "Materiale didattico (slide, documenti, link, ...)"
 Qui trovate gli esercizi svolti in aula. 
 Nota: è un unico file che viene aggiornato di volta in volta con nuovi esercizi proposti e/o svolti.
 - [Esercizi aggiornati al 01/10/2025](https://farinetti.github.io/materiale-bdcin/Esercizi-01.pdf)
-
+- [Esercizi aggiornati al 08/10/2025](https://farinetti.github.io/materiale-bdcin/Esercizi-02.pdf)
+- [Esercizi aggiornati al 15/10/2025](https://farinetti.github.io/materiale-bdcin/Esercizi-03.pdf)
 
 ## Esercitazioni
  

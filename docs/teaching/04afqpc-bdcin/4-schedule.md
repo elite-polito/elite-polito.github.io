@@ -18,11 +18,6 @@ _Legenda:_ la colonna Tipo può essere Lez/Es=Lezione/Esercitazione in aula, Lab
 
 | Data | Orario | Tipo | Ore | Argomento | Aula | Docente |
 |----|-------------|--------|----|------|------|-----|
-| mer 24/09/25 | 8.30-11.30 | Lez/Es | 3 | Presentazione del Corso. Modello relazionale| 2I | L. Farinetti |
-| gio 25/09/25 | 8.30-10.00 | Lez/Es | 1,5 | SQL base | 2I | L. Farinetti |
-| mer 01/10/25 | 8.30-11.00 | Lez/Es | 3 | SQL base | 2I | L. Farinetti |
-| mar 07/10/25 | 16.00-17.30 | Lez/Es | 1,5 | SQL base | <strong>10</strong>  | L. Farinetti |
-| gio 09/10/25 | 8.30-10.00 | Lez/Es | 1,5 | Presentazione dei laboratori | 2I | L. Canale |
 | mar 14/10/25 | 16.00-17.30 | Lab sq. A | 1,5 | Laboratorio #1: SQL+LLM. Squadra A | LAIB 3 | L. Canale |
 | mar 14/10/25 | 17.30-19.00 | Lab sq. B | 1,5 | Laboratorio #1: SQL+LLM. Squadra B | LAIB 3 | L. Canale |
 | mer 15/10/25 | 8.30-11.30 | Lez/Es | 3 | SQL avanzato | 2I | L. Farinetti |
@@ -30,9 +25,6 @@ _Legenda:_ la colonna Tipo può essere Lez/Es=Lezione/Esercitazione in aula, Lab
 | mar 21/10/25 | 17.30-19.00 | Lab sq. A | 1,5 | Laboratorio #2: SQL+LLM. Squadra A | LAIB 3 | L. Canale |
 | mer 22/10/25 | 8.30-11.30 | Lez/Es | 3 | SQL avanzato | 2I | L. Farinetti |
 | gio 23/10/25 | 8.30-10.00 | Lez/Es | 1,5 | Il punto sui laboratori | 2I | L. Canale |
-
-{/*
-
 | gio 30/10/25 | 8.30-10.00 | Lez/Es | 1,5 | SQL avanzato | 2I | L. Farinetti |
 | mar 04/11/25 | 16.00-17.30 | Lab sq. A | 1,5 | Laboratorio #3: SQL+LLM. Squadra A | LAIB 3 | L. Canale |
 | mar 04/11/25 | 17.30-19.00 | Lab sq. B | 1,5 | Laboratorio #3: SQL+LLM. Squadra B | LAIB 3 | L. Canale |
@@ -43,6 +35,9 @@ _Legenda:_ la colonna Tipo può essere Lez/Es=Lezione/Esercitazione in aula, Lab
 | mar 18/11/25 | 16.00-17.30 | Lab sq. A | 1,5 | Laboratorio #5: Progetto. Squadra A | LAIB 3 | L. Canale |
 | mar 18/11/25 | 17.30-19.00 | Lab sq. B | 1,5 | Laboratorio #5: Progetto. Squadra B | LAIB 3 | L. Canale |
 | mer 19/11/25 | 8.30-11.30 | Lez/Es | 3 | Progettazione | 2I | L. Farinetti |
+
+{/*
+
 | mar 25/11/25 | 16.00-17.30 | Lab sq. B | 1,5 | Laboratorio #6: Progetto. Squadra B | LAIB 3 | L. Canale |
 | mar 25/11/25 | 17.30-19.00 | Lab sq. A | 1,5 | Laboratorio #6: Progetto. Squadra A | LAIB 3 | L. Canale |
 | mer 26/11/25 | 8.30-11.30 | Lez/Es | 3 | Il punto sul progetto | 2I | L. Canale |
@@ -98,9 +93,12 @@ Note:
 | P#05 | Il linguaggio SQL: le funzioni aggregate. | Pubblicata | 06/10 | 13/10 |
 | P#06 | Il linguaggio SQL: l'istruzione GROUP BY. | Pubblicata | 10/10 | 17/10 |
 | P#07 | Il linguaggio SQL: raggruppamento con condizione. | Pubblicata | 10/10 | 17/10 |
-| P#08 | Il linguaggio SQL: L'istruzione NOT IN. | 22/10 | 22/10 | 29/10 |
-| P#09 | Il linguaggio SQL: EXISTS e correlazione. | 22/10 | 22/10 | 29/10 |
-
+| P#08 | Il linguaggio SQL: L'istruzione NOT IN. | Pubblicata | 22/10 | 29/10 |
+| P#09 | Il linguaggio SQL: EXISTS e correlazione. | Pubblicata | 22/10 | 29/10 |
+| P#10 | Il linguaggio SQL: divisione. | 3/11 | 3/11 | 10/11 |
+| P#11 | Il linguaggio SQL: CTE e table function. | 3/11 | 3/11 | 10/11 |
+| P#12 | Progettazione: Entità, relazioni e gerarchie. | 13/11 | 13/11 | 20/11 |
+| P#13 | Progettazione: Entità deboli. | 13/11 | 13/11 | 20/11 |
 
 
 {/*
