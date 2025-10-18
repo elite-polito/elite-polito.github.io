@@ -11,11 +11,10 @@ description: "Materiale didattico (slide, documenti, link, ...)"
 - Linguaggio SQL
     - [Istruzione SELECT: fondamenti](https://farinetti.github.io/materiale-bdcin/03-SQL_fondamenti.pdf)
     - [Interrogazioni nidificate](https://farinetti.github.io/materiale-bdcin/04-SQL_query_nidificate.pdf)
-    - [Interrogazioni avanzate](https://farinetti.github.io/materiale-bdcin/05-SQL_query_avanzate.pdf)
+    - [Interrogazioni avanzate](https://farinetti.github.io/materiale-bdcin/05-SQL_query_avanzate_NEW.pdf)
     - [Operatori insiemistici](https://farinetti.github.io/materiale-bdcin/06-SQL_operatori_insiemistici.pdf)
     - [Manipolazione dei dati](https://farinetti.github.io/materiale-bdcin/07-SQL_manipolazione_dati.pdf)
     - [Gestione delle tabelle](https://farinetti.github.io/materiale-bdcin/08-SQL_gestione_tabelle.pdf)
-    - [Costrutti avanzati](https://farinetti.github.io/materiale-bdcin/09-SQL_costrutti_avanzati.pdf)
 - Progettazione delle basi di dati
     - [Modello Entità-Relazione](https://farinetti.github.io/materiale-bdcin/10-Progettazione_ER.pdf)
     - [Esempio di progettazione concettuale](https://farinetti.github.io/materiale-bdcin/11-Esempio_progettazione_concettuale.pdf)
