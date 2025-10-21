@@ -90,7 +90,7 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 
 <LectureRow
     date="21/10/2025" time="08:30-10:00" type ="Lezione" teacher = "Andrea Caputo" video={['https://www.polito.it/didattica']}>
-    <>Interazione con l'intelligenza artificiale</>
+    <Link to="https://polito-uxd-2025.github.io/materiale/slides/07-interazione-ai.pdf">Interazione con l'intelligenza artificiale</Link>
 </LectureRow>
 
 <LectureRow    
