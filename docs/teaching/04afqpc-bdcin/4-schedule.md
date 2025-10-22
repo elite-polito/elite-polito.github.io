@@ -96,7 +96,7 @@ Note:
 | P#08 | Il linguaggio SQL: L'istruzione NOT IN. | Pubblicata | 22/10 | 29/10 |
 | P#09 | Il linguaggio SQL: EXISTS e correlazione. | Pubblicata | 22/10 | 29/10 |
 | P#10 | Il linguaggio SQL: divisione. | Pubblicata | 3/11 | 10/11 |
-| P#11 | Il linguaggio SQL: CTE e table function. | 3/11 | 3/11 | 10/11 |
+| P#11 | Il linguaggio SQL: CTE e table function. | Pubblicata | 3/11 | 10/11 |
 | P#12 | Progettazione: Entità, relazioni e gerarchie. | 13/11 | 13/11 | 20/11 |
 | P#13 | Progettazione: Entità deboli. | 13/11 | 13/11 | 20/11 |
 
