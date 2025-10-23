@@ -95,12 +95,12 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 
 <LectureRow    
     date="24/10/2025" time="10:00-11:30" type ="Lezione" teacher = "Alberto Monge Roffarello" video={['https://www.polito.it/didattica']}>
-    <>Design visivo</> 
+    <Link to="https://polito-uxd-2025.github.io/materiale/slides/08-visual-design.pdf">Design visivo (parte I)</Link> 
 </LectureRow>
     
 <LectureRow
     date="24/10/2025" time="11:30-13:00" type ="Lezione" teacher = "Alberto Monge Roffarello" video={['https://www.polito.it/didattica']}>
-    <>Pattern di design e linee guide</>
+    <Link to="https://polito-uxd-2025.github.io/materiale/slides/08-visual-design.pdf">Design visivo (parte II)</Link>
 </LectureRow>
 
 <LectureDivider topic='Settimana 6'/>{/*-------------------------------------------*/}
@@ -158,12 +158,12 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 
 <LectureRow
     date="18/11/2025" time="08:30-10:00" type ="Lezione" teacher = "Alberto Monge Roffarello" video={['https://www.polito.it/didattica']}>
-    <>Valutazione euristica</>
+    <Link to="https://polito-uxd-2025.github.io/materiale/slides/09-design-patterns.pdf">Pattern di design e linee guide</Link>
 </LectureRow>
 
 <LectureRow    
-    date="21/11/2025" time="10:00-11:30" type ="Laboratorio" teacher = "Alberto Monge Roffarello">
-    <>Assignment 3: Valutazione euristica</>
+    date="21/11/2025" time="10:00-11:30" type ="Lezione" teacher = "Alberto Monge Roffarello">
+    <>Valutazione euristica</>
 </LectureRow>
     
 <LectureRow
