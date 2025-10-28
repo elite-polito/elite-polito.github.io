@@ -107,7 +107,7 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 
 <LectureRow
     date="28/10/2025" time="08:30-10:00" type ="Lezione" teacher = "Andrea Caputo" video={['https://www.polito.it/didattica']}>
-    <>Approcci gamificati</> 
+    <Link to="https://polito-uxd-2025.github.io/materiale/slides/10-gamification-1.pdf">Approcci gamificati (parte 1)</Link> 
 </LectureRow>
 
 <LectureRow    
