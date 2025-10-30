@@ -35,15 +35,15 @@ _Legenda:_ la colonna Tipo può essere Lez/Es=Lezione/Esercitazione in aula, Lab
 | mar 18/11/25 | 16.00-17.30 | Lab sq. A | 1,5 | Laboratorio #5: Progetto. Squadra A | LAIB 3 | L. Canale |
 | mar 18/11/25 | 17.30-19.00 | Lab sq. B | 1,5 | Laboratorio #5: Progetto. Squadra B | LAIB 3 | L. Canale |
 | mer 19/11/25 | 8.30-11.30 | Lez/Es | 3 | Progettazione | 2I | L. Farinetti |
-
-{/*
-
 | mar 25/11/25 | 16.00-17.30 | Lab sq. B | 1,5 | Laboratorio #6: Progetto. Squadra B | LAIB 3 | L. Canale |
 | mar 25/11/25 | 17.30-19.00 | Lab sq. A | 1,5 | Laboratorio #6: Progetto. Squadra A | LAIB 3 | L. Canale |
 | mer 26/11/25 | 8.30-11.30 | Lez/Es | 3 | Il punto sul progetto | 2I | L. Canale |
 | gio 27/11/25 | 8.30-10.00 | Lez/Es | 1,5 | Progettazione | 2I | L. Farinetti |
 | mar 02/12/25 | 16.00-17.30 | Lab sq. A | 1,5 | Laboratorio #7: Progetto. Squadra A | LAIB 3 | L. Canale |
 | mar 02/12/25 | 17.30-19.00 | Lab sq. B | 1,5 | Laboratorio #7: Progetto. Squadra B | LAIB 3 | L. Canale |
+
+{/*
+
 | gio 04/12/25 | 8.30-10.00 | Lez/Es | 1,5 | Temi d'esame | 2I | L. Canale |
 | mar 09/12/25 | 16.00-17.30 | Lab sq. B | 1,5 | Laboratorio #8: Progetto. Squadra B | LAIB 3 | L. Canale |
 | mar 09/12/25 | 17.30-19.00 | Lab sq. A | 1,5 | Laboratorio #8: Progetto. Squadra A | LAIB 3 | L. Canale |
