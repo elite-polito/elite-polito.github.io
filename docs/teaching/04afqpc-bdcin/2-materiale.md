@@ -57,7 +57,7 @@ Nota: è un unico file che viene aggiornato di volta in volta con nuovi esercizi
     - Blocco 4: [Testo](https://farinetti.github.io/materiale-bdcin/EserciziSQL-parte2.pdf) 
    e [Soluzione](https://farinetti.github.io/materiale-bdcin/EserciziSQL-parte2_sol.pdf) 
     - Blocco 5: [Testo](https://farinetti.github.io/materiale-bdcin/EserciziSQL-parte3.pdf)
-   e [Soluzione](https://farinetti.github.io/materiale-bdcin/EserciziSQL-parte3_sito.pdf) 
+   e [Soluzione](https://farinetti.github.io/materiale-bdcin/EserciziSQL_parte3_sito.pdf) 
 
     <!-- 
     - Blocco 3: [Testo](https://farinetti.github.io/materiale-bdcin/EsSQL_3-Testo.pdf)
