@@ -43,20 +43,21 @@ Nota: è un unico file che viene aggiornato di volta in volta con nuovi esercizi
 - [Esercizi aggiornati al 08/10/2025](https://farinetti.github.io/materiale-bdcin/Esercizi-02.pdf)
 - [Esercizi aggiornati al 15/10/2025](https://farinetti.github.io/materiale-bdcin/Esercizi-03.pdf)
 - [Esercizi aggiornati al 22/10/2025](https://farinetti.github.io/materiale-bdcin/Esercizi-04.pdf)
+- [Esercizi aggiornati al 30/10/2025](https://farinetti.github.io/materiale-bdcin/Esercizi-05.pdf)
 
 ## Esercitazioni
  
 - SQL
     - Blocco 1: [Testo](https://farinetti.github.io/materiale-bdcin/EsSQL_1-Testo.pdf)
-  <!-- e [Soluzione](https://farinetti.github.io/materiale-bdcin/EsSQL_1-Soluz.pdf) -->
+   e [Soluzione](https://farinetti.github.io/materiale-bdcin/EsSQL_1-Soluz.pdf) 
     - Blocco 2: [Testo](https://farinetti.github.io/materiale-bdcin/EsSQL_2-Testo.pdf) 
-  <!-- e [Soluzione](https://farinetti.github.io/materiale-bdcin/EsSQL_2-Soluz.pdf) -->
+   e [Soluzione](https://farinetti.github.io/materiale-bdcin/EsSQL_2-Soluz.pdf) 
     - Blocco 3: [Testo](https://farinetti.github.io/materiale-bdcin/EserciziSQL-parte1.pdf)
-  <!-- e [Soluzione](https://farinetti.github.io/materiale-bdcin/EserciziSQL-parte1_sol.pdf) -->
+   e [Soluzione](https://farinetti.github.io/materiale-bdcin/EserciziSQL-parte1_sol.pdf) 
     - Blocco 4: [Testo](https://farinetti.github.io/materiale-bdcin/EserciziSQL-parte2.pdf) 
-  <!-- e [Soluzione](https://farinetti.github.io/materiale-bdcin/EserciziSQL-parte2_sol.pdf) -->
+   e [Soluzione](https://farinetti.github.io/materiale-bdcin/EserciziSQL-parte2_sol.pdf) 
     - Blocco 5: [Testo](https://farinetti.github.io/materiale-bdcin/EserciziSQL-parte3.pdf)
-  <!-- e [Soluzione](https://farinetti.github.io/materiale-bdcin/EserciziSQL-parte3_sito.pdf) -->
+   e [Soluzione](https://farinetti.github.io/materiale-bdcin/EserciziSQL-parte3_sito.pdf) 
 
     <!-- 
     - Blocco 3: [Testo](https://farinetti.github.io/materiale-bdcin/EsSQL_3-Testo.pdf)
