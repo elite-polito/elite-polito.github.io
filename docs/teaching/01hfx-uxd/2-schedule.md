@@ -124,7 +124,7 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 
 <LectureRow
     date="04/11/2025" time="08:30-10:00" type ="Laboratorio" teacher = "Alberto Monge Roffarello, Rob Schwartz">
-    <>Assignment 2: Storyboard e prototipazione a bassa fedeltà</>
+    <Link to="https://polito-uxd-2025.github.io/materiale/assignments/A2-storyboard-paper-prototypes.pdf">Assignment 2: Storyboard e prototipazione a bassa fedeltà</Link>
 </LectureRow>
 
 <LectureRow    
