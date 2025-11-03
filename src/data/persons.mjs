@@ -85,11 +85,16 @@ const people = [
     },
     {
         name: 'Andrea Sillano',
-        role: 'Research Grant Holder',
+        role: 'Ph.D. Student',
         email: 'andrea.sillano@polito.it',
         img: '/img/people/AndreaSillano.jpg',
         github: 'AndreaSillano',
         linkedin: 'andrea-sillano-a051562b9'
+    },
+    {
+        name: 'Riccardo Graziosi',
+        role: 'Ph.D. Student',
+        email: 'riccardo.graziosi@polito.it'
     },
 ]
 
