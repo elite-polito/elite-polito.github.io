@@ -38,12 +38,17 @@ description: "Materiale didattico (slide, documenti, link, ...)"
 ## Esercizi proposti e svolti in aula 
 
 Qui trovate gli esercizi svolti in aula. 
+
+- SQL
 Nota: è un unico file che viene aggiornato di volta in volta con nuovi esercizi proposti e/o svolti.
-- [Esercizi aggiornati al 01/10/2025](https://farinetti.github.io/materiale-bdcin/Esercizi-01.pdf)
-- [Esercizi aggiornati al 08/10/2025](https://farinetti.github.io/materiale-bdcin/Esercizi-02.pdf)
-- [Esercizi aggiornati al 15/10/2025](https://farinetti.github.io/materiale-bdcin/Esercizi-03.pdf)
-- [Esercizi aggiornati al 22/10/2025](https://farinetti.github.io/materiale-bdcin/Esercizi-04.pdf)
-- [Esercizi aggiornati al 30/10/2025](https://farinetti.github.io/materiale-bdcin/Esercizi-05.pdf)
+    - [Esercizi aggiornati al 01/10/2025](https://farinetti.github.io/materiale-bdcin/Esercizi-01.pdf)
+    - [Esercizi aggiornati al 08/10/2025](https://farinetti.github.io/materiale-bdcin/Esercizi-02.pdf)
+    - [Esercizi aggiornati al 15/10/2025](https://farinetti.github.io/materiale-bdcin/Esercizi-03.pdf)
+    - [Esercizi aggiornati al 22/10/2025](https://farinetti.github.io/materiale-bdcin/Esercizi-04.pdf)
+    - [Esercizi aggiornati al 30/10/2025](https://farinetti.github.io/materiale-bdcin/Esercizi-05.pdf)
+
+- Progettazione
+    - [ER proposto il 05/11/2025](https://farinetti.github.io/materiale-bdcin/ER-Negozi.pdf)
 
 ## Esercitazioni
  
