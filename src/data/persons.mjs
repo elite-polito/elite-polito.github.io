@@ -94,7 +94,10 @@ const people = [
     {
         name: 'Riccardo Graziosi',
         role: 'Ph.D. Student',
-        email: 'riccardo.graziosi@polito.it'
+        email: 'riccardo.graziosi@polito.it',
+        img: '/img/people/RiccardoGraziosi.jpg',
+        github: 'riggraz',
+        linkedin: 'riccardo-graziosi'
     },
 ]
 
