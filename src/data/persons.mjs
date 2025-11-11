@@ -12,6 +12,7 @@ const people = [
     },
     {
         name: 'Laura Farinetti',
+        img: '/img/people/LauraFarinetti.jpg',
         role: 'Assistant Professor',
         email: 'laura.farinetti@polito.it'
     },
