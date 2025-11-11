@@ -20,7 +20,6 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenAnchors: 'throw',
-  onBrokenMarkdownLinks: 'throw',
   favicon: 'img/favicon.ico',
 
   // Even if you don't use internalization, you can use this field to set useful
@@ -246,6 +245,9 @@ const config = {
     ],
     markdown: {
         mermaid: true,
+        hooks: {
+          onBrokenMarkdownLinks: 'throw',
+        }
     },
     themes: ['@docusaurus/theme-mermaid'],
     stylesheets: ['https://use.fontawesome.com/releases/v6.4.0/css/svg-with-js.css'],
