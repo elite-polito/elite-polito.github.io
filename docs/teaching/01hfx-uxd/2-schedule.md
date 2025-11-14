@@ -140,7 +140,7 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 <LectureDivider topic='Settimana 8'/>{/*-------------------------------------------*/}
 
 <LectureRow
-    date="11/11/2025" time="08:30-10:00" type ="Laboratorio" teacher = "Alberto Monge Roffarello, Rob Schwartz">
+    date="11/11/2025" time="08:30-10:00" type ="Laboratorio" teacher = "Rob Schwartz">
     <>Assignment 2: Storyboard e prototipazione a bassa fedeltà</>
 </LectureRow>
 
@@ -162,19 +162,19 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 </LectureRow>
 
 <LectureRow    
-    date="21/11/2025" time="10:00-11:30" type ="Lezione" teacher = "Alberto Monge Roffarello">
+    date="21/11/2025" time="10:00-11:30" type ="Lezione" teacher = "Alberto Monge Roffarello" video={['https://www.polito.it/didattica']}>
     <>Valutazione euristica</>
 </LectureRow>
     
 <LectureRow
-    date="21/11/2025" time="11:30-13:00" type ="Laboratorio" teacher = "Alberto Monge Roffarello">
-    <>Assignment 3: Valutazione euristica</>
+    date="21/11/2025" time="11:30-13:00" type ="Esercitazione" teacher = "Alberto Monge Roffarello">
+    <>Valutazione euristica</>
 </LectureRow>
 
 <LectureDivider topic='Settimana 10'/>{/*-------------------------------------------*/}
 
 <LectureRow
-    date="25/11/2025" time="08:30-10:00" type ="Lezione" teacher = "Alberto Monge Roffarello" video={['https://www.polito.it/didattica']}>
+    date="25/11/2025" time="08:30-10:00" type ="Laboratorio" teacher = "Andrea Caputo" >
     <>Assignment 3: Valutazione euristica</>
 </LectureRow>
 
@@ -185,19 +185,19 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
     
 <LectureRow
     date="28/11/2025" time="11:30-13:00" type ="Laboratorio" teacher = "Alberto Monge Roffarello">
-    <>Assignment 4: Da media ad alta fedeltà</>
+    <>Assignment 3: Valutazione euristica</>
 </LectureRow>
 
 <LectureDivider topic='Settimana 11'/>{/*-------------------------------------------*/}
 
 <LectureRow
-    date="02/12/2025" time="08:30-10:00" type ="Lezione" teacher = "Alberto Monge Roffarello" video={['https://www.polito.it/didattica']}>
-    <>Prototipazione ad alta feldeltà</>
+    date="02/12/2025" time="08:30-10:00" type ="Laboratorio" teacher = "Alberto Monge Roffarello">
+    <>Assignment 4: Da media ad alta feldeltà</>
 </LectureRow>
 
 <LectureRow    
     date="05/12/2025" time="10:00-11:30" type ="Lezione" teacher = "Alberto Monge Roffarello" video={['https://www.polito.it/didattica']}>
-    <>Test di usabilità</>
+    <>Prototipazione ad alta feldeltà</>
 </LectureRow>
     
 <LectureRow
