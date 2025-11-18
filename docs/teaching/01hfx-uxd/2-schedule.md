@@ -167,8 +167,8 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 </LectureRow>
     
 <LectureRow
-    date="21/11/2025" time="11:30-13:00" type ="Esercitazione" teacher = "Alberto Monge Roffarello">
-    <>Valutazione euristica</>
+    date="21/11/2025" time="11:30-13:00" type ="Laboratorio" teacher = "Alberto Monge Roffarello">
+    <>Assignment 3: Valutazione euristica</>
 </LectureRow>
 
 <LectureDivider topic='Settimana 10'/>{/*-------------------------------------------*/}
