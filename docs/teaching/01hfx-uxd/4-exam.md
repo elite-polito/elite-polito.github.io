@@ -27,12 +27,12 @@ Prossimi appelli, con scadenze:
   - Deadline: 29/10/2025
 - [Assignment 2: Storyboard e prototipo a bassa fedeltà](https://polito-uxd-2025.github.io/materiale/assignments/A2-storyboard-paper-prototypes.pdf)
   - Deadline: 13/11/2025
-- Assignment 3: Valutazione euristica
-  - Deadline: 28/11/2025
+- [Assignment 3: Valutazione euristica](https://polito-uxd-2025.github.io/materiale/assignments/A3-heuristic-evaluation.pdf)
+  - Deadline: 1/12/2025
 - Assignment 4: Da media ad alta fedeltà
   - Deadline: 08/12/2025
 - Assignment 5: Prototipo ad alta fedeltà
   - Deadline: 7 giorni prima di ogni appello (vedi sopra per le date esatte)  
-- Report finale: Template e Istruzioni
+- [Report finale: Template e Istruzioni](https://polito-uxd-2025.github.io/materiale/assignments/final-report-instructions.pdf)
   - Deadline: 7 giorni prima di ogni appello (vedi sopra per le date esatte) 
 

@@ -163,12 +163,12 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 
 <LectureRow    
     date="21/11/2025" time="10:00-11:30" type ="Lezione" teacher = "Alberto Monge Roffarello" video={['https://www.polito.it/didattica']}>
-    <>Valutazione euristica</>
+    <Link to="https://polito-uxd-2025.github.io/materiale/slides/09-heuristic-evaluation.pdf">Valutazione euristica</Link>
 </LectureRow>
     
 <LectureRow
     date="21/11/2025" time="11:30-13:00" type ="Laboratorio" teacher = "Alberto Monge Roffarello">
-    <>Assignment 3: Valutazione euristica</>
+    <Link to="https://polito-uxd-2025.github.io/materiale/assignments/A3-heuristic-evaluation.pdf">Assignment 3: Valutazione euristica</Link>
 </LectureRow>
 
 <LectureDivider topic='Settimana 10'/>{/*-------------------------------------------*/}
