@@ -1,4 +1,5 @@
 ---
+title: 'Publications'
 description: 'Full list of publications'
 hide_table_of_contents: true
 ---

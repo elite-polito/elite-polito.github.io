@@ -2,7 +2,7 @@
 description: 'AccessCoVE project information'
 ---
 
-import logo from '../../00-Projects-Logos/AccessCoVE.png'
+import logo from '../00-logos/AccessCoVE.png'
 
 # AccessCoVE
 

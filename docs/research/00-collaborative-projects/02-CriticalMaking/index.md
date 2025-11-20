@@ -2,7 +2,7 @@
 description: 'Critical Making project information'
 ---
 
-import logo from '../../00-Projects-Logos/Critical-Making.png'
+import logo from '../00-logos/Critical-Making.png'
 
 
 # Critical Making

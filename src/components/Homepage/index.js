@@ -105,7 +105,7 @@ export default function Home({recentPosts}) {
                                 intelligent
                                 software components.</blockquote>
 
-                            <p>The main <Link to='/research/Topics'>research areas</Link> are on the crossing of <b>Human-Computer
+                            <p>The main <Link to='/research/initiatives'>research areas</Link> are on the crossing of <b>Human-Computer
                                 Interaction</b>, <b>Ubiquitous Computing</b>, and <b>Artificial Intelligence</b>.</p>
                         </div>
                         {/* Second semester 

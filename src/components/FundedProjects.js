@@ -1,4 +1,3 @@
-import React from 'react'
 import Link from '@docusaurus/Link'
 
 export const ProjectCard = ({title, icon, url, children, period}) => {
@@ -8,10 +7,10 @@ export const ProjectCard = ({title, icon, url, children, period}) => {
                 <div className="avatar">
                     {icon && url && <Link to={url}><img alt={`${title} logo`} title={`${title} logo`}
                         width="120px"
-                        src={require(`@site/docs/research/00-Projects-Logos/${icon}`).default}/></Link>}
+                        src={require(`@site/docs/research/00-collaborative-projects/00-logos/${icon}`).default}/></Link>}
                     {icon && !url && <img alt={`${title} logo`} title={`${title} logo`}
                         width="120px"
-                        src={require(`@site/docs/research/00-Projects-Logos/${icon}`).default}/>}
+                        src={require(`@site/docs/research/00-collaborative-projects/00-logos/${icon}`).default}/>}
                     <div className="avatar__intro">
                         {url ? <div className="avatar__name"><Link to={url}>{title}</Link></div>
                             : <div className="avatar__name">{title}</div>}
