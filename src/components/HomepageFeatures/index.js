@@ -10,7 +10,7 @@ const FeatureList = [
             Our publications are available through <Link to={'https://iris.polito.it/'}>PORTO@Iris</Link>, the open repository of publications produced by the
             scientific community of Politecnico di Torino.
         </>),
-        link: '/research/Publications'
+        link: '/research/publications'
     },
     {
         title: 'Projects and Collaborations',
@@ -18,16 +18,16 @@ const FeatureList = [
         description: (<>
             We actively collaborate with international associations, non-profit and public institutions, as well as industrial partners. Have a look at our current and past collaborations!
         </>),
-        link: '/research/Projects'
+        link: '/research/collaborative-projects'
 
     },
     {
-        title: 'Research Topics',
+        title: 'Research Initiatives',
         icon: '💡',
         description: (<>
-            Discover our research topics and our commitment to the Open Source community, throught the software tool we realize. Check out our research!
+            Discover our research project and our commitment to the Open Source community, throught the software tool we realize. Check out our research!
         </>),
-        link: '/research/Topics'
+        link: '/research/initiatives'
 
     },
 ];
