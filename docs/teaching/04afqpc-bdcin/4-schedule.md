@@ -100,6 +100,7 @@ Note:
 | P#12 | Progettazione: entità e relazioni. | Pubblicata | 10/11 | 17/11 |
 | P#13 | Progettazione: rappresentazione di eventi. | Pubblicata | 18/11 | 25/11 |
 | P#14 | Progettazione: attributi dipendenti dal tempo. | Pubblicata | 18/11 | 25/11 |
+| P#15 | Progettazione: progettazione logico-relazionale. | Pubblicata | 28/11 | 5/12 |
 
 {/*
 
