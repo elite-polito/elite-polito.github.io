@@ -1,0 +1,34 @@
+---
+title: "MorphGUI"
+slug: "../morphgui"
+sidebar_position: 997
+---
+# MorphGUI: Real-time GUIs Customization with Large Language Models
+
+import Admonition from '@theme/Admonition';
+import Link from '@docusaurus/Link';
+
+<Admonition type="note" title={'Topic'}>
+*Human-centred AI*
+</Admonition>
+
+<img src={require("./img/carousel1.png").default} />
+
+<Link className="button button--primary" to="https://ui-personalization-morphui-4c695b38ec3d.herokuapp.com/">🔗 Demo</Link>
+<Link className="button button--primary" to="https://github.com/anomaut/morphgui">\<\/\> Code</Link>
+
+MorphGUI is a **framework** that leverages Large Language Models to enable users to customize interfaces using **natural language** without altering the application's **core functionalities**.
+Its structured dual-input design separates **functional goals** ("what it should do") from **visual specifications** ("how it should appear"), allowing users to modify interface elements while maintaining the integrity of the underlying system logic. Powered by a **dynamic component** architecture, MorphGUI applies updates at runtime, preserving both the application state and baseline functionality.
+
+## Customization Interface
+
+<img src={require("./img/customizationMenu.png").default} width="40%" style={{float: 'left', marginRight: '1em'}}/>
+
+The "Enhance With AI" panel in MorphGUI enables users to personalize and modify their interface through AI-assisted customization. It features two main sections, **Static Settings** and **Dynamic Settings**, allowing configuration of both fixed and adaptive interface components. 
+Within the **Dynamic Settings** tab, the **Personalize** section introduces **component-level targeting** for modifying or adding UI elements. 
+Users specify *What it should do* to define the element's functional behavior and *How it should appear* to control its styling and layout.
+The panel also provides three main actions: *Generate* to apply the defined changes, *Previous* to roll back to a previous configuration, and *Restore* to return the interface to its last stable state.
+
+## Publication
+
+Tommaso Calò, Andrea Sillano, Luigi De Russis. In press. MorphGUI: Real-time GUIs customization with large language models. International Journal of Human-Computer Studies, DOI: https://doi.org/10.1016/j.ijhcs.2025.103695
