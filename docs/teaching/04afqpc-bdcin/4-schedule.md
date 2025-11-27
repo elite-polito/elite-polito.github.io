@@ -41,12 +41,13 @@ _Legenda:_ la colonna Tipo può essere Lez/Es=Lezione/Esercitazione in aula, Lab
 | gio 27/11/25 | 8.30-10.00 | Lez/Es | 1,5 | Progettazione | 2I | L. Farinetti |
 | mar 02/12/25 | 16.00-17.30 | Lab sq. A | 1,5 | Laboratorio #7: Progetto. Squadra A | LAIB 3 | L. Canale |
 | mar 02/12/25 | 17.30-19.00 | Lab sq. B | 1,5 | Laboratorio #7: Progetto. Squadra B | LAIB 3 | L. Canale |
+| mer 03/12/25 | 8.30-10.00 | Lez/Es | 1,5 | Temi d'esame | 2I | L. Canale |
+| mer 03/12/25 | 10.00-11.30 | Lez/Es | 1,5 | Temi d'esame | 2I | L. Farinetti |
+| mar 09/12/25 | 16.00-17.30 | Lab sq. B | 1,5 | Laboratorio #8: Progetto. Squadra B | LAIB 3 | L. Canale |
+| mar 09/12/25 | 17.30-19.00 | Lab sq. A | 1,5 | Laboratorio #8: Progetto. Squadra A | LAIB 3 | L. Canale |
 
 {/*
 
-| gio 04/12/25 | 8.30-10.00 | Lez/Es | 1,5 | Temi d'esame | 2I | L. Canale |
-| mar 09/12/25 | 16.00-17.30 | Lab sq. B | 1,5 | Laboratorio #8: Progetto. Squadra B | LAIB 3 | L. Canale |
-| mar 09/12/25 | 17.30-19.00 | Lab sq. A | 1,5 | Laboratorio #8: Progetto. Squadra A | LAIB 3 | L. Canale |
 | mer 10/12/25 | 8.30-11.30 | Lez/Es | 3 | Simulazione d'esame | 2I | L. Farinetti |
 
 
@@ -100,6 +101,7 @@ Note:
 | P#12 | Progettazione: entità e relazioni. | Pubblicata | 10/11 | 17/11 |
 | P#13 | Progettazione: rappresentazione di eventi. | Pubblicata | 18/11 | 25/11 |
 | P#14 | Progettazione: attributi dipendenti dal tempo. | Pubblicata | 18/11 | 25/11 |
+| P#15 | Progettazione: progettazione logico-relazionale. | Pubblicata | 28/11 | 05/12 |
 
 {/*
 
