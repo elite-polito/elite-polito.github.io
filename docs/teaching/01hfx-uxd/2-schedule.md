@@ -180,7 +180,7 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 
 <LectureRow    
     date="28/11/2025" time="10:00-11:30" type ="Lezione" teacher = "Alberto Monge Roffarello" video={['https://www.polito.it/didattica']}>
-    <>Prototipazione a media fedeltà e Figma</>
+    <Link to="https://polito-uxd-2025.github.io/materiale/slides/12-mid-fi-prototypes.pdf">Prototipazione a media fedeltà e Figma</Link>
 </LectureRow>
     
 <LectureRow
