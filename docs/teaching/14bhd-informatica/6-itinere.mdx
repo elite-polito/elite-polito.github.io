@@ -12,7 +12,7 @@ pagination_next: null
 - Il giorno precedente (mercoledì 26/11) si terrà una *consulenza pre-itinere*, per chiarire eventuali dubbi o domande specifiche
 :::
 
-# Svolgimento della prova in itinere
+## Svolgimento della prova in itinere
 
 - La prova ha la durata di 30 minuti, si svolgerà sui PC presenti nell'aula 3D
 - La prova verte sui contenuti delle unità T1, T2 (teoria) e P1-P6 (programmazione, fino a liste e tabelle), esclusa P5.
@@ -27,7 +27,217 @@ pagination_next: null
 - Non è necessario prenotarsi. Non serve la prenotazione. Presentatevi senza prenotarvi. (chiaro?)
 - È permesso portare solo fogli bianchi ed una penna, ogni altro oggetto (calcolatrice, telefono, etc) dovrà rimanere spento e chiuso nello zaino
 
-# Altre Informazioni
+## Testi degli esercizi proposti
+
+### Domanda 1 - Numeri
+
+#### Turno 1
+
+Si considerino i seguenti numeri in Complemento a 2, espressi in base 16 su 8 bit:
+```
+    x = C0
+    y = 66
+```
+Si calcoli il valore di `x-y`, rappresentandolo sempre su 8 bit in complemento a due su base 16, e si indichi se si verifica overflow, motivandolo.
+
+
+#### Turno 2
+
+Si considerino i seguenti numeri in Complemento a 2, espressi in base 8 su 8 bit:
+```
+    x = 366
+    y = 142
+```
+Si calcoli il valore di `x-y`, rappresentandolo sempre su 8 bit in complemento a due su base 8, e si indichi se si verifica overflow, motivandolo.
+
+#### Turno 3
+
+Si considerino i seguenti numeri in Complemento a 2, espressi in base 16 su 8 bit:
+```
+    x = C0
+    y = 86
+```
+Si calcoli il valore di `x+y`, rappresentandolo sempre su 8 bit in complemento a due su base 16, e si indichi se si verifica overflow, motivandolo.
+
+#### Turno 4
+
+Si considerino i seguenti numeri in Complemento a 2, espressi in base 8 su 8 bit:
+```
+    x = 366
+    y = 242
+```
+Si calcoli il valore di `x+y`, rappresentandolo sempre su 8 bit in complemento a due su base 8, e si indichi se si verifica overflow, motivandolo.
+
+### Domanda 2 - Architetture
+
+#### Turno 1
+
+Si consideri una CPU con clock a 2 GHz, 16 registri a 64 bit, una cache di primo livello di 128 kB e la capacità di eseguire un'istruzione macchina in 2 cicli di clock in media.
+La CPU è connessa ad una memoria RAM di 32 GB tramite bus operante a 800 MHz.
+
+Determinare la dimensione minima del data bus e dell'address bus del sistema.
+
+#### Turno 2
+
+Si consideri una CPU con clock a 2 GHz, 16 registri a 64 bit, una cache di primo livello di 128 kB e la capacità di eseguire un'istruzione macchina in 2 cicli di clock in media.
+La CPU è connessa ad una memoria RAM di 32 GB tramite bus operante a 800 MHz.
+
+Determinare il tempo necessario ad azzerare in contenuto della memoria, assumendo che sia sufficiente un'istruzione macchina per ciascuna cella da azzerare.
+
+#### Turno 3
+
+Si consideri una CPU con clock a 1.5 GHz, 32 registri a 32 bit, un disco SSD di 1.5 TB e tempo di accesso di 35 ms.
+La CPU è connessa ad una memoria RAM tramite bus operante a 1200 MHz.
+
+Determinare la dimensione massima della memoria RAM, assumendo un Address Bus di 28 bit.
+
+
+#### Turno 4
+
+Si consideri una CPU con clock a 1.5 GHz, 32 registri a 32 bit, un disco SSD di 1.5 TB e tempo di accesso di 35 ms.
+La CPU è connessa ad una memoria RAM di 8 GB tramite bus operante a 1200 MHz.
+
+Determinare la dimensione minima del data bus e dell'address bus del sistema.
+
+### Domanda 3 - Python
+
+#### Turno 1
+
+Assumento che `lista` sia una lista di numeri, spiegare la differenza tra un ciclo espresso come
+```
+    for x in lista:
+```
+e un ciclo come:
+```
+    for x in enumerate(lista):
+```
+#### Turno 2
+
+Assumendo che `nomi` sia una lista di stringhe, si descriva la differenza tra l'istruzione:
+```
+    nomi[-1] = ""
+```
+e l'istruzione:
+```
+    nomi.pop()
+```
+#### Turno 3
+
+
+Assumendo che `a` e `b` siano due liste di numeri, si descriva la differenza tra l'istruzione:
+```
+    a = a + b
+```
+e l'istruzione:
+```
+    a = [a, b]
+```
+#### Turno 4
+
+Assumendo che `nomi` sia una lista di stringhe, si descriva la differenza tra l'istruzione:
+```
+    nomi[0] = "A"
+```
+e l'istruzione:
+```
+    nomi[0][0] = "A"
+```
+### Domanda 4 - Programmazione
+
+#### Turno 1
+
+Si consideri una lista di nomi di città ed una lista di temperature corrispondenti alle città.
+Si scriva un frammento di codice che stampi tutte le città, con la relativa temperatura a fianco di ciascuna.
+Si stampi anche il nome della città con la temperatura più alta.
+
+Nota: nel frammento di codice è possibile inserire dei dati di prova, definendo direttamente le liste all'interno del codice (non effettuare input da tastiera).
+
+**Esempio:**
+
+Dati di ingresso:
+```python
+citta = ["Torino", "Milano", "Roma", "Napoli", "Palermo"]
+temperature = [15, 18, 22, 24, 26]
+```
+
+Output atteso:
+```
+Torino: 15°C
+Milano: 18°C
+Roma: 22°C
+Napoli: 24°C
+Palermo: 26°C
+
+Città più calda: Palermo (26°C)
+```
+
+#### Turno 2 
+
+Si consideri una tabella contenente N righe e 2 colonne, in cui le due colonne rappresentino le coordinate X e Y di N punti in un piano cartesiano.
+Si scriva un frammento di codice che calcoli e stampi la distanza euclidea tra ogni coppia di punti nella tabella.
+
+Nota: nel frammento di codice è possibile inserire dei dati di prova, definendo direttamente le liste all'interno del codice (non effettuare input da tastiera).
+
+
+**Esempio:**    
+
+Dati di ingresso:
+```python
+punti = [[1, 2], [4, 6], [7, 8]]  
+```
+
+Output atteso:
+```
+Distanza tra [1, 2] e [4, 6] = 2.24
+Distanza tra [1, 2] e [7, 8] = 5.48
+Distanza tra [4, 6] e [1, 2] = 3.61
+Distanza tra [4, 6] e [7, 8] = 2.65
+Distanza tra [7, 8] e [1, 2] = 6.48
+Distanza tra [7, 8] e [4, 6] = 3.32
+```
+
+#### Turno 3
+
+Si consideri una serie di temperature registrate in una città, con una misurazione al giorno, per N giorni consecutivi.
+Si scriva un frammento di codice che calcoli e stampi il quale giorno la media dellle temperature dei 3 giorni adiacenti (giorno precedente, giorno corrente, giorno successivo) è stata la più alta.
+
+Nota: nel frammento di codice è possibile inserire dei dati di prova, definendo direttamente le liste all'interno del codice (non effettuare input da tastiera).
+
+**Esempio:**
+Dati di ingresso:
+
+```python   
+temperature = [15, 18, 22, 24, 26, 20, 19]
+```
+
+Output atteso:
+
+```
+Temperatura massima nei giorni 2, 3, 4, con media 24.00
+```
+
+#### Turno 4
+
+Si consideri una lista contenente N password segrete (sequenze di 8 caratteri ciascuna), ed una nuova stringa di 8 caratteri fornita dall'utente.
+Si scriva un frammento di codice che verifichi se la nuova password è identica ad una delle password segrete, oppure se tale password differisce di un solo carattere da una delle password segrete.
+
+Nota: nel frammento di codice è possibile inserire dei dati di prova, definendo direttamente le liste all'interno del codice (non effettuare input da tastiera).
+
+**Esempio:**
+
+Dati di ingresso:
+
+```python
+segrete = ["abc12345", "passw0rd", "letmein1", "qwerty12"]
+nuova = "abc12346"
+```
+Output atteso:
+```
+Password abc12346 simile a abc12345
+```
+
+
+## Altre Informazioni
 
 - È possibile consultare [testi e soluzioni delle prove in itinere dell'anno 2024/25](../past-courses/2024-14bhd-informatica/6-itinere.mdx)
 - Si ricorda che sono disponibili [tutte le domande d'esame degli anni precedenti](https://github.com/polito-informatica/Esempi-esame)
