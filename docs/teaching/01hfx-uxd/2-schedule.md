@@ -192,7 +192,7 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 
 <LectureRow
     date="02/12/2025" time="08:30-10:00" type ="Laboratorio" teacher = "Alberto Monge Roffarello">
-    <>Assignment 4: Da media ad alta feldeltà</>
+    <Link to="https://polito-uxd-2025.github.io/materiale/assignments/A4-mid-to-hi-fidelity.pdf">Assignment 4: Da media ad alta feldeltà</Link>
 </LectureRow>
 
 <LectureRow    

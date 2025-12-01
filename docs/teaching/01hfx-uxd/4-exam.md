@@ -29,7 +29,7 @@ Prossimi appelli, con scadenze:
   - Deadline: 13/11/2025
 - [Assignment 3: Valutazione euristica](https://polito-uxd-2025.github.io/materiale/assignments/A3-heuristic-evaluation.pdf)
   - Deadline: 1/12/2025
-- Assignment 4: Da media ad alta fedeltà
+- [Assignment 4: Da media ad alta fedeltà](https://polito-uxd-2025.github.io/materiale/assignments/A4-mid-to-hi-fidelity.pdf)
   - Deadline: 08/12/2025
 - Assignment 5: Prototipo ad alta fedeltà
   - Deadline: 7 giorni prima di ogni appello (vedi sopra per le date esatte)  
