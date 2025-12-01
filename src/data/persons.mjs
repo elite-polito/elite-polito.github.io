@@ -107,7 +107,7 @@ const people = [
         img: '/img/people/GiuseppeArbore.jpg',
         github: 'GiuseppeArbore',
         linkedin: 'giuseppe-arbore-099057331',
-        youtube: 'peppearb'
+        youtube: '@peppearb'
     },
 ]
 
