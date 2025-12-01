@@ -104,6 +104,7 @@ const people = [
         name: 'Giuseppe Arbore',
         role: 'Research Grant Holder',
         email: 'giuseppe.arbore@polito.it',
+        img: '/img/people/GiuseppeArbore.jpg',
         github: 'GiuseppeArbore',
         linkedin: 'giuseppe-arbore-099057331',
         youtube: 'peppearb'
