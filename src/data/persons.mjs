@@ -96,9 +96,14 @@ const people = [
         name: 'Riccardo Graziosi',
         role: 'Ph.D. Student',
         email: 'riccardo.graziosi@polito.it',
-        img: '/img/people/RiccardoGraziosi.jpg',
+        img: '/img/people/RiccardoGraziosi.png',
         github: 'riggraz',
         linkedin: 'riccardo-graziosi'
+    },
+    {
+        name: 'Giuseppe Arbore',
+        role: 'Research Grant Holder',
+        email: 'giuseppe.arbore@polito.it'
     },
 ]
 
