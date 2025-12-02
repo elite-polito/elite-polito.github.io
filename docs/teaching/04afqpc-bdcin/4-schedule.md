@@ -45,13 +45,8 @@ _Legenda:_ la colonna Tipo può essere Lez/Es=Lezione/Esercitazione in aula, Lab
 | mer 03/12/25 | 10.00-11.30 | Lez/Es | 1,5 | Temi d'esame | 2I | L. Farinetti |
 | mar 09/12/25 | 16.00-17.30 | Lab sq. B | 1,5 | Laboratorio #8: Progetto. Squadra B | LAIB 3 | L. Canale |
 | mar 09/12/25 | 17.30-19.00 | Lab sq. A | 1,5 | Laboratorio #8: Progetto. Squadra A | LAIB 3 | L. Canale |
-
-{/*
-
-| mer 10/12/25 | 8.30-11.30 | Lez/Es | 3 | Simulazione d'esame | 2I | L. Farinetti |
-
-
-*/}
+| mer 10/12/25 | 8.30-11.30 | Lez/Es | 3 | Temi d'esame | 2I | L. Farinetti |
+| mer 07/01/26 | 8.30-13.00 | Lez/Es | 4,5 | Simulazione d'esame | 2I | L. Farinetti |
 
 <!--
 
