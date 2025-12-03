@@ -12,22 +12,70 @@ import Link from '@docusaurus/Link';
 *Human-centred AI*
 </Admonition>
 
-<img src={require("./img/carousel1.png").default} />
+<img src={require("./img/carousel1.png").default} className="border--shadow"/>
 
-<Link className="button button--primary" to="http://lys.polito.it:5174/">🔗 Demo</Link>
-<Link className="button button--primary" to="https://github.com/elite-polito/morphGUI">\<\/\> Code</Link>
+<div style={{ display: 'flex', justifyContent: 'center', gap: '1rem', margin: '1.5rem 0' }}>
+  <Link className="button  button--lg button--primary" to="http://lys.polito.it:5174/">🔗 Demo</Link>
+  <Link className="button  button--lg button--primary" to="https://github.com/elite-polito/morphGUI">&lt;/&gt; Code</Link>
+</div>
 
 MorphGUI is a **framework** that leverages Large Language Models to enable users to customize interfaces using **natural language** without altering the application's **core functionalities**.
 Its structured dual-input design separates **functional goals** ("what it should do") from **visual specifications** ("how it should appear"), allowing users to modify interface elements while maintaining the integrity of the underlying system logic. Powered by a **dynamic component** architecture, MorphGUI applies updates at runtime, preserving both the application state and baseline functionality.
 
 ## Customization Interface
+<div className="container">
+  <div className="row">
+    <div className="col col--5">
+      <img src={require("./img/customizationMenu.png").default} width="100%" className="border--shadow"/>
+    </div>
+    <div className="col col--7" style={{paddingLeft: '1rem', alignContent: 'center'}}>
+        The "Enhance With AI" panel in MorphGUI enables users to personalize and modify their interface through AI-assisted customization. It features two main sections, **Static Settings** and **Dynamic Settings**, allowing configuration of both fixed and adaptive interface components. 
+        Within the **Dynamic Settings** tab, the **Personalize** section introduces **component-level targeting** for modifying or adding UI elements. 
+        Users specify *What it should do* to define the element's functional behavior and *How it should appear* to control its styling and layout.
+        The panel also provides three main actions: *Generate* to apply the defined changes, *Previous* to roll back to a previous configuration, and *Restore* to return the interface to its last stable state.
+    </div>
+  </div>
+</div>
 
-<img src={require("./img/customizationMenu.png").default} width="40%" style={{float: 'left', marginRight: '1em'}}/>
+## Workflow & Real-time Updates
 
-The "Enhance With AI" panel in MorphGUI enables users to personalize and modify their interface through AI-assisted customization. It features two main sections, **Static Settings** and **Dynamic Settings**, allowing configuration of both fixed and adaptive interface components. 
-Within the **Dynamic Settings** tab, the **Personalize** section introduces **component-level targeting** for modifying or adding UI elements. 
-Users specify *What it should do* to define the element's functional behavior and *How it should appear* to control its styling and layout.
-The panel also provides three main actions: *Generate* to apply the defined changes, *Previous* to roll back to a previous configuration, and *Restore* to return the interface to its last stable state.
+<img src={require("./img/feedback.png").default} width="100%" className="border--shadow"/>
+MorphGUI combines selected component context, user inputs, and constraints into **structured prompts** for the LLM, then validates specifications and **transforms them into executable UI code**. 
+The **dynamic component** bridges generated code and the app's runtime, handling dependency resolution and compilation in real-time effectively rendering the new UI.
+
+
+## Architecture
+
+<img src={require("./img/workflow.png").default} width="100%" className="border--shadow"/>
+
+The system architecture implements a modular **client-server** model that enables real-time GUI customization through natural language interaction. 
+The **Front-end** is a web-based interface built on a component-driven framework that communicates bidirectionally with **Dynamic Components** for runtime rendering and update of interface elements. 
+These components interface with the **Server** layer via **RESTful APIs** to support synchronous data exchange and asynchronous updates. The **Server**, developed using Node.js and the Express.js 
+framework, orchestrates communication with the **AI module**,a large language model that parses natural language inputs and translates them into executable interface specifications. 
+The **Database** layer, implemented with SQLite, manages persistent storage of user preferences, interface states, and component configurations, enabling rollback and version control functionalities. 
+The **User Preferences** subsystem provides contextual adaptation by maintaining individualized configuration data that influence interface behavior and visual presentation across sessions.
+
+
+## User Study Results
+
+The user study evaluated *MorphGUI* in terms of usability, learning curve, and interaction effectiveness when customizing graphical interfaces through **natural language**. 
+Participants performed a series of **interface modification tasks** using a calendar application. Each participant started with _base calendar layout_ and used MorphGUI to reproduce one or more **target interfaces** of increasing complexity. 
+The __easy task__ involved straightforward visual or structural edits (e.g., changing colors, repositioning elements), while the _complex task_ required **functional and aesthetic modifications**, such as adding components, reorganizing layouts, or combining multiple requests into a single prompt.
+
+<img src={require("./img/target_interfaces.png").default} width="100%" className="border--shadow"/>
+
+Results from the **System Usability Scale (SUS)** and custom **Likert-scale items** indicate that participants found MorphGUI **intuitive, well-integrated, and easy to use**, with low perceived complexity. 
+Most participants _disagreed_ with statements suggesting high cognitive demand or inconsistency, confirming a **low learning overhead** and **high user confidence**.
+
+<img src={require("./img/exper.png").default} width="100%" className="border--shadow"/>
+
+Correlation analyses revealed <strong>no significant relationship</strong> between users' familiarity with large language models (LLMs) and overall task performance (Pearson r = -0.03, p = 0.883), suggesting that <strong>even participants unfamiliar with LLMs were able to effectively complete customization tasks</strong>. 
+However, a mild positive trend (r = 0.24, p = 0.165) was observed between **prompt descriptiveness** and task success, implying that clearer and more detailed natural language prompts tended to produce better customization outcomes.
+Additionally, analysis of **template usage patterns** showed that participants primarily relied on the _"what" field_ for **functional modifications** and the _"how" field_ for **styling and layout changes**, supporting MorphGUI's dual-input design principle.
+
+<img src={require("./img/exp_corr.png").default} width="45%" style={{float: 'left', marginRight: '1em'}}className="border--shadow" alt="Correlation between LLM familiarity and MorphGUI task performance."/>
+<img src={require("./img/sus.png").default} width="50%" className="border--shadow"  alt="SUS Likert-scale responses for MorphGUI usability."/>
+
 
 ## Publication
 

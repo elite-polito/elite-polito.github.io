@@ -1,0 +1,46 @@
+---
+authors: [sillano]
+tags: [journal, paper, human-centered AI]
+description: Our recent paper published on the International Journal of Human-Computer Studies presents MorphGUI framework, enabling users to customize application's interfaces using natural language.
+image: ./sciencedirectbanner.png
+image_alt: Elsevier's ScienceDirect logo.
+---
+import workflow from './workflow.png';
+import ijhcs from './ijhcs.jpg';
+import feedback from './feedback.png';
+
+# New Publication: MorphGUI, real-time GUIs customization with large language models
+
+We are pleased to announce the publication of our article, **MorphGUI: Real-Time GUI Customization with Large Language Models** in the Elsevier International Journal of Human-Computer Studies (IJHCS).
+Authored by Tommaso Calò, Andrea Sillano, and Luigi De Russis, the work introduces MorphGUI, a novel framework designed to change how users personalize graphical user interfaces. 
+The framework was evaluated through a use-case implementation with a calendar application and a user study involving 18 participants.
+
+<p className="text--center">
+    <img src={ijhcs} alt="IJHCS's cover" width="50%"></img>
+</p>
+
+{/* truncate */}
+
+Traditional customization tools rely on predefined configuration settings, often restricting user flexibility and requiring technical expertise. MorphGUI lowers these barriers by allowing users to customize interfaces simply by describing their desired changes in natural language without altering the application's core functionalities.
+The AI assisted customization process starts in the _Enhance With AI_ panel, it offers component level targeting for modifying or adding UI elements. Users specify *What it should do* to define the element's functional behavior and *How it should appear* to control its styling and layout. 
+Finally, the panel provides three main actions: *Generate* to apply the defined changes, *Previous* to roll back to a previous configuration, and *Restore* to return the interface to its last stable state.
+<p className="text--center">
+    <img src={feedback} alt="A graph showing the number of publications per year in our general corpus, highlighting the rise of research on AI-powered wellbeing tools in the last 5 years." width="90%" style={{borderRadius: '12px', boxShadow: '0 4px 8px rgba(0,0,0,0.1)', padding: '16px' }}></img>
+</p>
+
+Behind the scenes, MorphGUI combines user inputs, component context, and system constraints into structured prompts sent to the LLM. The model’s output is validated and converted into executable interface code. 
+A dynamic component handles dependency resolution, compilation, and rendering, enabling the updated interface to appear immediately and supporting a seamless, iterative workflow.
+
+We conducted a user study with 18 participants evaluating MorphGUI’s usability and effectiveness using a calendar application as a testbed. 
+Participants were asked to complet two tasks one simple visual adjustments the other a complex combinations of functional and stylistic changes. 
+
+Overall, the system was perceived as intuitive, well-integrated, and easy to learn. Usability scores and Likert-scale responses indicated low cognitive effort and high user confidence. 
+Importantly, familiarity with LLMs did not influence performance, suggesting that MorphGUI is accessible even to those without prior experience with generative AI.
+
+---
+
+Additional information:
+
+* [Paper on ScienceDirect](https://www.sciencedirect.com/science/article/pii/S1071581925002502)
+* [Demo & Code](/research/initiatives/morphgui)
+* [Paper on PORTO@IRIS](https://hdl.handle.net/11583/3005610)

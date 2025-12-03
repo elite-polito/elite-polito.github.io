@@ -81,6 +81,11 @@ table tr.danger {
 .text--center {
     text-align: center;
 }
+.border--shadow{
+    border-radius: 12px;
+    box-shadow:  0 4px 8px rgba(0,0,0,0.1);
+    padding: 16px 
+}
 
 .text--left {
     text-align: left;
