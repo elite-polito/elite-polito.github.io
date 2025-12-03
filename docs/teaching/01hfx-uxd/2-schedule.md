@@ -202,7 +202,7 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
     
 <LectureRow
     date="05/12/2025" time="11:30-13:00" type ="Lezione" teacher = "Alberto Monge Roffarello" video={['https://www.polito.it/didattica']}>
-    <ink to="https://polito-uxd-2025.github.io/materiale/slides/14-usability-testing.pdf">Test di usabilità</Link>
+    <Link to="https://polito-uxd-2025.github.io/materiale/slides/14-usability-testing.pdf">Test di usabilità</Link>
 </LectureRow>
 
 <LectureDivider topic='Settimana 12'/>{/*-------------------------------------------*/}
