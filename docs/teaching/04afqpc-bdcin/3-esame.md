@@ -30,6 +30,6 @@ Regole d'esame <!-- (https://farinetti.github.io/materiale-bdcin/RegoleEsame24-2
     - Tema 6: [Testo](https://farinetti.github.io/materiale-bdcin/TE-ER6-Testo.pdf) <!-- e [Soluzione](https://farinetti.github.io/materiale-bdcin/TE-ER6-Soluzione.pdf) -->
     - Tema 7: [Testo](https://farinetti.github.io/materiale-bdcin/TE-ER7-Testo.pdf) <!-- e [Soluzione](https://farinetti.github.io/materiale-bdcin/TE-ER7-Soluzione.pdf) -->
 
-    - Tema d'esame proposto in aula il 03/12/2025: [Testo](https://farinetti.github.io/materiale-bdcin/ER1_2025-01-29.pdf) e [Soluzione](https://farinetti.github.io/materiale-bdcin/Soluz-ER1_2025-01-29.pdf.pdf)
+    - Tema d'esame proposto in aula il 03/12/2025: [Testo](https://farinetti.github.io/materiale-bdcin/ER1_2025-01-29.pdf) e [Soluzione](https://farinetti.github.io/materiale-bdcin/Soluz-ER1_2025-01-29.pdf)
 
 
