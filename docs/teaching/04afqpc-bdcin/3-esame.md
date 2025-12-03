@@ -21,9 +21,7 @@ Regole d'esame <!-- (https://farinetti.github.io/materiale-bdcin/RegoleEsame24-2
     - Tema 9: [Testo](https://farinetti.github.io/materiale-bdcin/TE-SQL9-Testo.pdf) <!-- e [Soluzione](https://farinetti.github.io/materiale-bdcin/TE-SQL9-Soluzione.pdf) -->
 
 
-<!--
-    - Temi d'esame proposti in aula il 12/01/2024: [Testo](https://farinetti.github.io/materiale-bdcin/Esercizi-12-01-24.pdf) e [Soluzione](https://farinetti.github.io/materiale-bdcin/Soluzioni-12-01-24.pdf)
--->
+    - Tema d'esame proposto in aula il 03/12/2025: [Testo](https://farinetti.github.io/materiale-bdcin/ER1_2025-01-29.pdf) <!-- e [Soluzione](https://farinetti.github.io/materiale-bdcin/Soluzioni-12-01-24.pdf) -->
 
 
 - Parte di progettazione
