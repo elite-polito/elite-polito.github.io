@@ -197,12 +197,12 @@ Tutte le slide, esempi, esercizi e ogni altro materiale usato in aula e durante 
 
 <LectureRow    
     date="05/12/2025" time="10:00-11:30" type ="Lezione" teacher = "Alberto Monge Roffarello" video={['https://www.polito.it/didattica']}>
-    <>Prototipazione ad alta feldeltà</>
+    <Link to="https://polito-uxd-2025.github.io/materiale/slides/13-hi-fi-prototypes-with-examples.pdf">Prototipazione ad alta feldeltà</Link>
 </LectureRow>
     
 <LectureRow
     date="05/12/2025" time="11:30-13:00" type ="Lezione" teacher = "Alberto Monge Roffarello" video={['https://www.polito.it/didattica']}>
-    <>Test di usabilità</>
+    <ink to="https://polito-uxd-2025.github.io/materiale/slides/14-usability-testing.pdf">Test di usabilità</Link>
 </LectureRow>
 
 <LectureDivider topic='Settimana 12'/>{/*-------------------------------------------*/}
