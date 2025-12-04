@@ -4,7 +4,7 @@ description: "Informazioni sull'esame"
 
 # Esame
 
-Regole d'esame <!-- (https://farinetti.github.io/materiale-bdcin/RegoleEsame24-25.pdf) -->
+[Regole d'esame](https://farinetti.github.io/materiale-bdcin/RegoleEsame25-26.pdf)
 
 ## Temi d'esame
 
