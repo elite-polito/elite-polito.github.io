@@ -76,10 +76,10 @@ Qui trovate gli esercizi svolti in aula.
 -->
 
 - Progettazione
-    - ER 1: [Testo](https://farinetti.github.io/materiale-bdcin/EsER_1-Testo.pdf) <!-- e [Soluzione](https://farinetti.github.io/materiale-bdcin/EsER_1-Soluz.pdf) -->
-    - ER 2: [Testo](https://farinetti.github.io/materiale-bdcin/EsER_2-Testo.pdf) <!-- e [Soluzione](https://farinetti.github.io/materiale-bdcin/EsER_2-Soluz.pdf) -->
-    - ER 3: [Testo](https://farinetti.github.io/materiale-bdcin/ER_modello_concettuale.pdf) <!-- e [Soluzione](https://farinetti.github.io/materiale-bdcin/ER_modello_concettuale_sol.pdf) -->
-    - ER 4: [Testo](https://farinetti.github.io/materiale-bdcin/raccolta_esercizi_progettazione_BD.pdf) <!-- e [Soluzione](https://farinetti.github.io/materiale-bdcin/raccolta_esercizi_progettazione_BD_sol.pdf) -->
+    - ER 1: [Testo](https://farinetti.github.io/materiale-bdcin/EsER_1-Testo.pdf) e [Soluzione](https://farinetti.github.io/materiale-bdcin/EsER_1-Soluz.pdf)
+    - ER 2: [Testo](https://farinetti.github.io/materiale-bdcin/EsER_2-Testo.pdf) e [Soluzione](https://farinetti.github.io/materiale-bdcin/EsER_2-Soluz.pdf)
+    - ER 3: [Testo](https://farinetti.github.io/materiale-bdcin/ER_modello_concettuale.pdf) e [Soluzione](https://farinetti.github.io/materiale-bdcin/ER_modello_concettuale_sol.pdf)
+    - ER 4: [Testo](https://farinetti.github.io/materiale-bdcin/raccolta_esercizi_progettazione_BD.pdf) e [Soluzione](https://farinetti.github.io/materiale-bdcin/raccolta_esercizi_progettazione_BD_sol.pdf)
     <!-- - Esercizio proposto in aula il 27/11: [Testo](https://farinetti.github.io/materiale-bdcin/ER-aula-27-11-24.pdf) e [Soluzione](https://farinetti.github.io/materiale-bdcin/ER-aula-27-11-24-sol.pdf) -->
 
 <!--
