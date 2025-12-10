@@ -24,13 +24,13 @@ description: "Informazioni sull'esame"
 
 
 - Parte di progettazione
-    - Tema 1: [Testo](https://farinetti.github.io/materiale-bdcin/TE-ER1-Testo.pdf) <!-- e [Soluzione](https://farinetti.github.io/materiale-bdcin/TE-ER1-Soluzione.pdf) -->
-    - Tema 2: [Testo](https://farinetti.github.io/materiale-bdcin/TE-ER2-Testo.pdf) <!-- e [Soluzione](https://farinetti.github.io/materiale-bdcin/TE-ER2-Soluzione.pdf) -->
-    - Tema 3: [Testo](https://farinetti.github.io/materiale-bdcin/TE-ER3-Testo.pdf) <!-- e [Soluzione](https://farinetti.github.io/materiale-bdcin/TE-ER3-Soluzione.pdf) -->
-    - Tema 4: [Testo](https://farinetti.github.io/materiale-bdcin/TE-ER4-Testo.pdf) <!-- e [Soluzione](https://farinetti.github.io/materiale-bdcin/TE-ER4-Soluzione.pdf) -->
-    - Tema 5: [Testo](https://farinetti.github.io/materiale-bdcin/TE-ER5-Testo.pdf) <!-- e [Soluzione](https://farinetti.github.io/materiale-bdcin/TE-ER5-Soluzione.pdf) -->
-    - Tema 6: [Testo](https://farinetti.github.io/materiale-bdcin/TE-ER6-Testo.pdf) <!-- e [Soluzione](https://farinetti.github.io/materiale-bdcin/TE-ER6-Soluzione.pdf) -->
-    - Tema 7: [Testo](https://farinetti.github.io/materiale-bdcin/TE-ER7-Testo.pdf) <!-- e [Soluzione](https://farinetti.github.io/materiale-bdcin/TE-ER7-Soluzione.pdf) -->
+    - Tema 1: [Testo](https://farinetti.github.io/materiale-bdcin/TE-ER1-Testo.pdf) e [Soluzione](https://farinetti.github.io/materiale-bdcin/TE-ER1-Soluzione.pdf)
+    - Tema 2: [Testo](https://farinetti.github.io/materiale-bdcin/TE-ER2-Testo.pdf) e [Soluzione](https://farinetti.github.io/materiale-bdcin/TE-ER2-Soluzione.pdf)
+    - Tema 3: [Testo](https://farinetti.github.io/materiale-bdcin/TE-ER3-Testo.pdf) e [Soluzione](https://farinetti.github.io/materiale-bdcin/TE-ER3-Soluzione.pdf)
+    - Tema 4: [Testo](https://farinetti.github.io/materiale-bdcin/TE-ER4-Testo.pdf) e [Soluzione](https://farinetti.github.io/materiale-bdcin/TE-ER4-Soluzione.pdf)
+    - Tema 5: [Testo](https://farinetti.github.io/materiale-bdcin/TE-ER5-Testo.pdf) e [Soluzione](https://farinetti.github.io/materiale-bdcin/TE-ER5-Soluzione.pdf)
+    - Tema 6: [Testo](https://farinetti.github.io/materiale-bdcin/TE-ER6-Testo.pdf) e [Soluzione](https://farinetti.github.io/materiale-bdcin/TE-ER6-Soluzione.pdf)
+    - Tema 7: [Testo](https://farinetti.github.io/materiale-bdcin/TE-ER7-Testo.pdf) e [Soluzione](https://farinetti.github.io/materiale-bdcin/TE-ER7-Soluzione.pdf)
 
     - Tema d'esame proposto in aula il 03/12/2025: [Testo](https://farinetti.github.io/materiale-bdcin/ER1_2025-01-29.pdf) e [Soluzione](https://farinetti.github.io/materiale-bdcin/Soluz-ER1_2025-01-29.pdf)
 
