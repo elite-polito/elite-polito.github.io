@@ -20,6 +20,8 @@ description: "Informazioni sull'esame"
     - Tema 8: [Testo](https://farinetti.github.io/materiale-bdcin/TE-SQL8-Testo.pdf) <!-- e [Soluzione](https://farinetti.github.io/materiale-bdcin/TE-SQL8-Soluzione.pdf) -->
     - Tema 9: [Testo](https://farinetti.github.io/materiale-bdcin/TE-SQL9-Testo.pdf) <!-- e [Soluzione](https://farinetti.github.io/materiale-bdcin/TE-SQL9-Soluzione.pdf) -->
 
+    - Temi d'esame proposti in aula il 10/12/2025: [Testo](https://farinetti.github.io/materiale-bdcin/Esercizi-25-12-10-testo.pdf) e [Soluzione](https://farinetti.github.io/materiale-bdcin/Esercizi-25-12-10-soluz.pdf)
+
 
 - Parte di progettazione
     - Tema 1: [Testo](https://farinetti.github.io/materiale-bdcin/TE-ER1-Testo.pdf) <!-- e [Soluzione](https://farinetti.github.io/materiale-bdcin/TE-ER1-Soluzione.pdf) -->
