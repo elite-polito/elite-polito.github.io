@@ -214,6 +214,10 @@ const config = {
             to: '/teaching/past-courses/2024-acsrs-Palermo',
             from: ['/teaching/python-dottorato', '/teaching/python-dottorato/intro']
           },
+          { // Python Dottorato Palermo
+            to: 'https://www.polito.it',
+            from: '/people/derussis'
+          },
         ]
       }
       ],
