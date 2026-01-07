@@ -34,7 +34,7 @@ description: "Informazioni sull'esame"
 
     - Tema d'esame proposto in aula il 03/12/2025: [Testo](https://farinetti.github.io/materiale-bdcin/ER1_2025-01-29.pdf) e [Soluzione](https://farinetti.github.io/materiale-bdcin/Soluz-ER1_2025-01-29.pdf)
 
-- Simulazione d'esame proposta in aula il 07/01/2026: [Testo](https://farinetti.github.io/materiale-bdcin/ProvaEsame-2026-01-07.pdf) <!-- e [Soluzione](https://farinetti.github.io/materiale-bdcin/ProvaEsame-2026-01-07-sol.pdf) -->
+- Simulazione d'esame proposta in aula il 07/01/2026: [Testo](https://farinetti.github.io/materiale-bdcin/ProvaEsame-2026-01-07.pdf) e [Soluzione](https://farinetti.github.io/materiale-bdcin/ProvaEsame-2026-01-07-sol.pdf)
 
 
 
