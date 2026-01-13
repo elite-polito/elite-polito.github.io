@@ -178,10 +178,6 @@ const config = {
             to: '/teaching/',
             from: '/teaching/current-courses/556-01txyov-wa1'
           },
-          { // http://bit.ly/polito-hcai
-            to: '/teaching/',
-            from: '/teaching/current-courses/516-01ujuiu-human-ai-interaction'
-          },
           { // http://bit.ly/polito-hci
             to: '/teaching/02jsk-hci',
             from: '/teaching/current-courses/513-02jskov-hci'
@@ -217,6 +213,10 @@ const config = {
           { // temporary redirect
             to: 'https://www.polito.it/en/staff?p=luigi.derussis',
             from: '/people/derussis'
+          },
+          { // http://elite.polito.it/haii (plus old bitly)
+            to: '/teaching/01ujuiu-haii',
+            from: ['/teaching/current-courses/516-01ujuiu-human-ai-interaction', '/haii']
           },
         ]
       }
