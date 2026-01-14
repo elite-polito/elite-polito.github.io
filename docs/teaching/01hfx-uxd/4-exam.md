@@ -11,9 +11,14 @@ Deve essere superato **nell'anno accademico corrente**. Il materiale per la valu
 
 Prossimi appelli, con scadenze:
 
-- **gg/mm/aaaa h. hh:mm, Aula**
-    - ricordarsi di iscriversi all'esame entro il *gg/mm/aaaa*, sul Portale della Didattica
-    - tutti gli assignments (compreso il codice) devono essere presenti sui repository GitHub del gruppo entro il *gg/mm/aaaa*.
+- **27/01/2026 - orario da definire, Aula 5N**
+    - ricordarsi di iscriversi all'esame entro il *20/01/2026*, sul Portale della Didattica
+    - tutti gli assignments (compreso il codice) devono essere presenti sui repository GitHub del gruppo entro il *19/01/2026*.
+    - il programma delle presentazioni dei gruppi sarà condiviso qualche giorno prima dell'esame
+
+- **11/02/2026 - orario da definire, Aula 6C**
+    - ricordarsi di iscriversi all'esame entro il *04/02/2026*, sul Portale della Didattica
+    - tutti gli assignments (compreso il codice) devono essere presenti sui repository GitHub del gruppo entro il *03/02/2026*.
     - il programma delle presentazioni dei gruppi sarà condiviso qualche giorno prima dell'esame
 
 ## Progetti (con Assignment)
