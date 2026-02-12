@@ -158,10 +158,10 @@ const config = {
             to: '/teaching/',
             from: '/teaching/current-courses/559-01del-digital-wellbeing'
           },
-          //{ // https://bit.ly/polito-iaw
-            //to: '/teaching/01dxu-iaw',
-            //from: '/teaching/current-courses/564-01dxu-iaw'
-          //},
+          { // https://bit.ly/polito-iaw
+            to: '/teaching/',
+            from: '/teaching/current-courses/564-01dxu-iaw'
+          },
           { // http://bit.ly/polito-design4dwb
             to: '/teaching/',
             from: '/teaching/current-courses/565-01gofiu-strategies-for-dwb'
