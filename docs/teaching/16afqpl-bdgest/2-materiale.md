@@ -2,11 +2,11 @@
 description: "Materiale didattico (slide, documenti, link, ...)"
 ---
  
-# Materiale di studio -- DA AGGIORNARE
+# Materiale di studio
 
 ## Lucidi delle lezioni
 
-- Introduzione alle basi di dati
+- [Introduzione alle basi di dati](https://farinetti.github.io/materiale-bdcin/01-Introduzione_alle_basi_dati.pdf)
 - [Modello relazionale](https://farinetti.github.io/materiale-bdcin/02-Modello_relazionale.pdf)
 - Linguaggio SQL
     - [Istruzione SELECT: fondamenti](https://farinetti.github.io/materiale-bdcin/03-SQL_fondamenti.pdf)
