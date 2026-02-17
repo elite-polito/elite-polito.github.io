@@ -3,7 +3,7 @@ pagination_next: null
 description: "Piano del corso"
 ---
 
-# Piano del corso -- DA AGGIORNARE
+# Piano del corso
 
 In questa sezione trovate: 
 - il calendario delle lezioni del corso, in cui sono riportate le attività e gli argomenti;

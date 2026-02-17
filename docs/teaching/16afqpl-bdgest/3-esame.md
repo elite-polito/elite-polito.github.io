@@ -2,7 +2,7 @@
 description: "Informazioni sull'esame"
 ---
 
-# Esame
+# Esame -- DA AGGIORNARE
 
 [Regole d'esame](https://farinetti.github.io/materiale-bdcin/RegoleEsame25-26.pdf)
 

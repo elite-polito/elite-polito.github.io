@@ -3,7 +3,7 @@ pagination_prev: null
 description: "Informazioni di base"
 ---
 
-# Presentazione
+# Presentazione -- DA AGGIORNARE
 
 -   [Lucidi di introduzione al corso](https://farinetti.github.io/materiale-bdcin/PresentazioneCorso25-26.pdf) 
 -   [Regole d'esame](https://farinetti.github.io/materiale-bdcin/RegoleEsame25-26.pdf)
@@ -13,12 +13,12 @@ Questo insegnamento partecipa ad un percorso di sperimentazione didattica e pert
 
 Inoltre, l'insegnamento aderisce al progetto OCSE dal titolo «Fostering and assessing creativity and critical thinking in higher education and teacher education».
 
-## Docenti
+## Docenti -- DA AGGIORNARE
 
 - prof. Laura Farinetti (laura.farinetti@polito.it)
 - ing. Lorenzo Canale (lorenzo.canale@polito.it)
 
-## Orario delle lezioni
+## Orario delle lezioni -- DA AGGIORNARE
 
 | Giorno   | Ora |Tipo | Aula |
 |----------|----|-----|------|

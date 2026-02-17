@@ -3,22 +3,22 @@ pagination_prev: null
 description: "Informazioni di base"
 ---
 
-# Presentazione -- DA AGGIORNARE
+# Presentazione
 
-- Lucidi di introduzione al corso
-- Regole d'esame
-- Pagina ufficiale del corso sul Portale della Didattica
+-   [Lucidi di introduzione al corso](https://farinetti.github.io/materiale-bdcin/PresentazioneCorso25-26.pdf) 
+-   [Regole d'esame](https://farinetti.github.io/materiale-bdcin/RegoleEsame25-26.pdf)
+-   [Pagina ufficiale del corso](https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=04AFQPC&p_a_acc=2025&p_header=S&p_lang=IT&multi=N) sul Portale della Didattica
 
 Questo insegnamento partecipa ad un percorso di sperimentazione didattica e pertanto introduce già dal 2025/26 alcuni elementi che saranno caratteristici del nuovo modello formativo, che sarà applicato per tutti gli insegnamenti a partire dall'a.a. 2027/28.
 
 Inoltre, l'insegnamento aderisce al progetto OCSE dal titolo «Fostering and assessing creativity and critical thinking in higher education and teacher education».
 
-## Docenti -- DA AGGIORNARE
+## Docenti
 
 - prof. Laura Farinetti (laura.farinetti@polito.it)
 - ing. Lorenzo Canale (lorenzo.canale@polito.it)
 
-## Orario delle lezioni -- DA AGGIORNARE
+## Orario delle lezioni
 
 | Giorno   | Ora |Tipo | Aula |
 |----------|----|-----|------|
