@@ -4,6 +4,10 @@ description: "Risorse"
  
 # Risorse
 
+:::caution
+Questa pagina contiene la __versione archiviata__ dell'edizione 2024/2025 del corso.
+:::
+
 Tutte le ore di lezione ed esercitazione verranno svolte in aula e le lezioni saranno videoregistrate. Questa sezione riporta gli altri strumenti asincroni e le occasioni di comunicazione e dialogo, con i docenti e tra studenti.
 
 

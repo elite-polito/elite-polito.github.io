@@ -5,6 +5,10 @@ description: "Esame"
 
 # Esame
 
+:::caution
+Questa pagina contiene la __versione archiviata__ dell'edizione 2024/2025 del corso.
+:::
+
 L'esame consisterà nella valutazione di un progetto di gruppo, di un assignment individuale, e nell’accertamento delle conoscenze teoriche apprese durante il corso. Il progetto sarà quindi obbligatorio e dovrà essere consegnato durante l'anno accademico.
 
 Il progetto di gruppo sarà valutato tramite la correzione delle consegne intermedie e tramite una prova orale, dove tutti i componenti del gruppo devono essere presenti. Durante la prova orale, verranno accertate anche le conoscenze teoriche, specialmente quelle non elaborate e/o utilizzate nelle consegne progettuali. I criteri di valutazione per i progetti includeranno: 
@@ -23,8 +27,8 @@ Prossimi appelli, con scadenze:
     - ricordarsi di iscriversi all'esame entro il *01/07/2025*, sul Portale della Didattica
     - consegna del materiale entro il *02/07/2025*.
     - il programma delle presentazioni dei gruppi sarà condiviso qualche giorno prima dell'esame
-## Esercitazioni intermedie
 
+## Esercitazioni intermedie
 - [Assignment 1: Journey Map](https://elite.polito.it/2025-benesseredigitale-materials/assignments/A1-journeymap.pdf)
 - [Assignment 2: Needfinding](https://elite.polito.it/2025-benesseredigitale-materials/assignments/A2-needfinding.pdf)
     - [Template consenso informati](https://docs.google.com/document/d/16PhEKEeyu-0HlloUAvDmACATgraXu3KnGjv7BxPI8AM/edit?tab=t.0)   

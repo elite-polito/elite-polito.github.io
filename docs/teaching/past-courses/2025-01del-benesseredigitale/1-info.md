@@ -5,9 +5,11 @@ description: "Avvisi e informazioni di base"
  
 # Introduzione
 
-Pagina ufficiale del corso "Benessere Digitale" (codice 01DEL) offerto al secondo/terzo anno delle lauree in Ingegneria Politecnico di Torino, all'interno del catalogo delle "Grandi Sfide".
+:::caution
+Questa pagina contiene la __versione archiviata__ dell'edizione 2024/2025 del corso.
+:::
 
-Link breve a questa pagina: http://bit.ly/polito-benesseredigitale
+Pagina ufficiale del corso "Benessere Digitale" (codice 01DEL) offerto al secondo/terzo anno delle lauree in Ingegneria Politecnico di Torino, all'interno del catalogo delle "Grandi Sfide".
 
 ## Informazioni in sintesi
 
