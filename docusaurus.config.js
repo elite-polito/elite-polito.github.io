@@ -154,9 +154,9 @@ const config = {
       '@docusaurus/plugin-client-redirects',
       {
         redirects: [
-          { // http://bit.ly/polito-benessere-digitale
-            to: '/teaching/',
-            from: '/teaching/current-courses/559-01del-digital-wellbeing'
+          { // Inactive 'Benessere Digitale' course (with old bitly)
+            to: '/teaching/past-courses/2025-01del-benesseredigitale',
+            from: ['/teaching/current-courses/559-01del-digital-wellbeing', '/teaching/01del-benesseredigitale']
           },
           { // https://bit.ly/polito-iaw
             to: '/teaching/',
@@ -202,17 +202,13 @@ const config = {
             to: '/teaching/04afqpc-bdcin',
             from: '/teaching/current-courses/526-04afqpc'
           },
-          { // http://bit.ly/polito-aw1
+          { // http://elite.polito.it/aw1 (with old bitly)
             to: '/teaching/01udf-aw1',
-            from: '/teaching/current-courses/532-01udfov-aw1'
+            from: ['/teaching/current-courses/532-01udfov-aw1', '/aw1']
           },
           { // Python Dottorato Palermo
             to: '/teaching/past-courses/2024-acsrs-Palermo',
             from: ['/teaching/python-dottorato', '/teaching/python-dottorato/intro']
-          },
-          { // temporary redirect
-            to: 'https://www.polito.it/en/staff?p=luigi.derussis',
-            from: '/people/derussis'
           },
           { // http://elite.polito.it/haii (plus old bitly)
             to: '/teaching/01ujuiu-haii',
