@@ -8,7 +8,7 @@ description: "Avvisi e informazioni di base"
 :::caution
 Questa pagina contiene la __versione archiviata__ dell'edizione 2023/2024 del corso.
 
-Vai all'[ultima versione](/teaching/01del-benesseredigitale)
+Vai all'[ultima versione](/teaching/past-courses/2025-01del-benesseredigitale/)
 :::
 
 
