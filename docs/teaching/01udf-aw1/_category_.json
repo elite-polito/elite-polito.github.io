@@ -1,9 +1,10 @@
 {
   "label": "Applicazioni Web I (01UDF)",
+  "description": "Laurea Magistrale in Ingegneria Informatica",
   "link": {
     "type": "generated-index",
     "slug": "/teaching/01udf-aw1",
-    "description": "Sito ufficiale del corso 'Applicazioni Web I' (codice 01UDF) offerto agli studenti del primo anno della Laurea Magistrale in Ingegneria Informatica. Anno Accademico 2024/2025."
+    "description": "Sito ufficiale del corso 'Applicazioni Web I' (codice 01UDF) offerto agli studenti del primo anno della Laurea Magistrale in Ingegneria Informatica. Anno Accademico 2025/2026."
   },
   "position": 1
 }
