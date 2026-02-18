@@ -1,6 +1,6 @@
 ---
 description: "Materiale archiviato del corso di Informatica (codice 12BHD, in linguaggio C) tenutosi nell'anno 2012 presso il Politecnico di Torino."
-sidebar_position: 1500
+sidebar_position: -2011
 ---
 
 # 2011/2012 - Informatica (12BHD)
