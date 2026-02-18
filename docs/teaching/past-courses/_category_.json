@@ -1,8 +1,8 @@
 {
   "label": "Past Courses",
+  "description": "Courses held in the previous academic years",
   "link": {
     "type": "generated-index",
-    "slug": "/teaching/past-courses",
-    "description": "Courses held in the previous academic years"
+    "slug": "/teaching/past-courses"
   }
 }
