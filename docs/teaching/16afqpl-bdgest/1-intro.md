@@ -3,40 +3,38 @@ pagination_prev: null
 description: "Informazioni di base"
 ---
 
-# Presentazione -- DA AGGIORNARE
-
--   [Lucidi di introduzione al corso](https://farinetti.github.io/materiale-bdcin/PresentazioneCorso25-26.pdf) 
--   [Regole d'esame](https://farinetti.github.io/materiale-bdcin/RegoleEsame25-26.pdf)
--   [Pagina ufficiale del corso](https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=04AFQPC&p_a_acc=2025&p_header=S&p_lang=IT&multi=N) sul Portale della Didattica
+# Presentazione
 
 Questo insegnamento partecipa ad un percorso di sperimentazione didattica e pertanto introduce già dal 2025/26 alcuni elementi che saranno caratteristici del nuovo modello formativo, che sarà applicato per tutti gli insegnamenti a partire dall'a.a. 2027/28.
 
-Inoltre, l'insegnamento aderisce al progetto OCSE dal titolo «Fostering and assessing creativity and critical thinking in higher education and teacher education».
+-   [Lucidi di introduzione al corso](https://farinetti.github.io/materiale-bdcin/IntroCorso25-26.pdf) 
 
-## Docenti -- DA AGGIORNARE
+
+## Docenti 
 
 - prof. Laura Farinetti (laura.farinetti@polito.it)
-- ing. Lorenzo Canale (lorenzo.canale@polito.it)
+- prof. Luca Cagliero (luca.cagliero@polito.it)
+- ing. Giuseppe Gallipoli (giuseppe.gallipoli@polito.it)
+- ing. Alberto Verna (alberto.verna@polito.it)
 
-## Orario delle lezioni -- DA AGGIORNARE
+## Orario delle lezioni 
 
 | Giorno   | Ora |Tipo | Aula |
 |----------|----|-----|------|
-| Martedì | 16:00-17:30 | Laboratorio | LAIB 3 |
-| Martedì | 17:30-19:00 | Laboratorio | LAIB 3 |
-| Mercoledì | 8:30-11:30 | Lezione/Esercitazione | Aula 2I |
-| Giovedì | 8:30-10:00 | Lezione/Esercitazione | Aula 2I |
+| Mercoledì | 16:00-19:00 | Lezione/Esercitazione | Aula 8 |
+| Giovedì | 14:30-17:00 | Lezione/Esercitazione/Laboratorio | Aula 25 |
 
 IMPORTANTE: Le attività potrebbero variare da settimana a settimana: consultate frequentemente la sezione "Piano del corso" per le informazioni aggiornate.
 
 ## Materiale di studio
 
-Materiale fornito dai docenti: slide, videolezioni, laboratori, esercitazioni e temi d'esame.
+Il materiale di studio: slide, esercizi, testi e soluzioni dei laboratori sono sul [sito ufficiale](https://dbdmg.polito.it/dbdmg_web/basi-di-dati-16afqpl-16afqpi/) del corso.
 
-## Testo di riferimento
+## Pillole video ed esercizi
 
-Atzeni, Ceri, Paraboschi, Torlone, “Basi di dati - Modelli e linguaggi di interrogazione”, 4 ed., McGraw Hill, 2013.
+- Sul Portale della didattica troverete 16 brevi "pillole" video, utili al ripasso degli aspetti fondamentali e/o più "ostici" di un determinato argomento.
+- A ciascuna pillola sono legati due esercizi da svolgere in un intervallo di tempo specifico (circa una settimana) e sottomettere su Moodle. I testi degli esercizi sono all'interno delle pillole video. La sottomissione degli esercizi entro la scadenza e la loro valutazione contribuisce, insieme al laboratorio, al voto dell'esame.
+- Gli argomenti delle "pillole", la data di pubblicazione e le date di apertura e chiusura per la sottomissione della soluzione degli esercizi sono pubblicati nella sezione "Piano del corso".
 
-## Modalità di comunicazione con i docenti
 
-- Portale della didattica ed email per le comunicazioni ufficiali
+
