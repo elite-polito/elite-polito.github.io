@@ -3,7 +3,7 @@ pagination_next: null
 description: "Piano del corso"
 ---
 
-# Piano del corso -- DA AGGIORNARE
+# Piano del corso 
 
 In questa sezione trovate: 
 - il calendario delle lezioni del corso, in cui sono riportate le attività e gli argomenti;
@@ -41,7 +41,11 @@ _Legenda:_ la colonna Tipo può essere Lez/Es=Lezione/Esercitazione in aula, Lab
 | mer 06/05/26 | 16.00-19.00 | Lez/Es | 3 | SQL: Gestione viste. | 8 | L. Cagliero |
 | mer 13/05/26 | 16.00-19.00 | Lab | 3 | Laboratorio #5: LLM e SQL. | 8 | G. Gallipoli, A. Verna |
 | gio 14/05/26 | 14.30-17.30 | Lez/Es | 3 | Progettazione. | 5 | L. Farinetti |
-
+| mer 20/05/26 | 16.00-17.30 | Lez/Es | 1,5 | Temi d'esame. | 8 | L. Farinetti |
+| mer 20/05/26 | 17.30-19.00 | Lab | 1,5 | Laboratorio #6: creazione di tabelle. | 8 | G. Gallipoli, A. Verna |
+| gio 21/05/26 | 14.30-17.30 | Lez/Es | 3 | Temi d'esame. | 5 | L. Cagliero |
+| mer 27/05/26 | 16.00-17.30 | Lez/Es | 1,5 | Temi d'esame. | 8 | L. Farinetti |
+| mer 27/05/26 | 17.30-19.00 | Lab | 1,5 | Laboratorio #7: riepilogo. | 8 | G. Gallipoli, A. Verna |
 
 <!--
 
