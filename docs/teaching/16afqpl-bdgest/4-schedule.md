@@ -36,6 +36,10 @@ _Legenda:_ la colonna Tipo può essere Lez/Es=Lezione/Esercitazione in aula, Lab
 | mer 22/04/26 | 16.00-17.30 | Lez/Es | 1,5 | SQL: Gestione tabelle. | 8 | L. Cagliero |
 | mer 22/04/26 | 17.30-19.00 | Lab | 1,5 | Laboratorio #4: LLM e SQL. | 8 | G. Gallipoli, A. Verna |
 | gio 23/04/26 | 14.30-17.30 | Lez/Es | 3 | Progettazione. | 5 | L. Farinetti |
+| mer 29/04/26 | 16.00-19.00 | Lez/Es | 3 | SQL: Gestione tabelle, transazioni ed accessi. | 8 | L. Cagliero |
+| gio 30/04/26 | 14.30-17.30 | Lez/Es | 3 | Progettazione. | 5 | L. Farinetti |
+| mer 06/05/26 | 16.00-19.00 | Lez/Es | 3 | SQL: Gestione viste. | 8 | L. Cagliero |
+
 
 <!--
 
