@@ -18,8 +18,17 @@ _Legenda:_ la colonna Tipo può essere Lez/Es=Lezione/Esercitazione in aula, Lab
 
 | Data | Orario | Tipo | Ore | Argomento | Aula | Docente |
 |----|-------------|--------|----|------|------|-----|
-| mer 19/11/25 | 8.30-11.30 | Lez/Es | 3 | Progettazione | 2I | L. Farinetti |
-| mar 25/11/25 | 16.00-17.30 | Lab sq. B | 1,5 | Laboratorio #6: Progetto. Squadra B | LAIB 3 | L. Canale |
+| mer 25/02/26 | 16.00-19.00 | Lez/Es | 3 | Introduzione. Modello relazionale. | 8 | L. Farinetti |
+| gio 26/02/26 | 14.30-17.30 | Lez/Es | 3 | Modello relazionale. Algebra relazionale. | 5 | L. Farinetti |
+| mer 04/03/26 | 16.00-19.00 | Lez/Es | 3 | Algebra relazionale. | 8 | L. Farinetti |
+| gio 05/03/26 | 14.30-17.30 | Lez/Es | 3 | SQL: SELECT base. | 5 | L. Farinetti |
+| mer 11/03/26 | 16.00-19.00 | Lez/Es | 3 | SQL: SELECT base. | 8 | L. Farinetti |
+| gio 12/03/26 | 14.30-17.30 | Lez/Es | 3 | SQL: SELECT base. | 5 | L. Farinetti |
+| mer 18/03/26 | 16.00-17.30 | Lez/Es | 1,5 | Esercizi SQL. | 8 | L. Cagliero |
+| mer 18/03/26 | 17.30-19.00 | Lab | 1,5 | Laboratorio #1: SQL-1. | 8 | G. Gallipoli, A. Verna |
+
+
+
 | mar 25/11/25 | 17.30-19.00 | Lab sq. A | 1,5 | Laboratorio #6: Progetto. Squadra A | LAIB 3 | L. Canale |
 | mer 26/11/25 | 8.30-11.30 | Lez/Es | 3 | Il punto sul progetto | 2I | L. Canale |
 | gio 27/11/25 | 8.30-10.00 | Lez/Es | 1,5 | Progettazione | 2I | L. Farinetti |
