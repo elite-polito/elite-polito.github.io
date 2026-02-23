@@ -5,7 +5,7 @@ description: "Informazioni di base"
 
 # Presentazione
 
-Questo insegnamento partecipa ad un percorso di sperimentazione didattica e pertanto introduce già dal 2025/26 alcuni elementi che saranno caratteristici del nuovo modello formativo, che sarà applicato per tutti gli insegnamenti a partire dall'a.a. 2027/28.
+**Il Corso 2 (DOO-OKZ) - prof. Farinetti** partecipa ad un percorso di sperimentazione didattica e pertanto introduce già dal 2025/26 alcuni elementi che saranno caratteristici del nuovo modello formativo, che sarà applicato per tutti gli insegnamenti a partire dall'a.a. 2027/28.
 
 -   [Lucidi di introduzione al corso](https://farinetti.github.io/materiale-bdcin/IntroCorso25-26.pdf) 
 
