@@ -69,11 +69,11 @@ Note:
 | P#01 | Il modello relazionale: definizioni e proprietà. | 26/02 | 27/02 | 06/03 |
 | P#02 | Il modello relazionale: vincoli di integrità referenziale. | 26/02 | 27/02 | 06/03 |
 | P#03 | L'algebra relazionale: definizioni e operatori. | 05/03 | 06/03 | 13/03 |
-| P#04 | Il linguaggio SQL: la SELECT base. |  |  |  |
-| P#05 | Il linguaggio SQL: join e self-join. |  |  |  |
-| P#06 | Il linguaggio SQL: le funzioni aggregate. |  |  |  |
-| P#07 | Il linguaggio SQL: l'istruzione GROUP BY. |  |  |  |
-| P#08 | Il linguaggio SQL: raggruppamento con condizione. |  |  |  |
+| P#04 | Il linguaggio SQL: la SELECT base. | 12/03 | 13/03 | 20/03 |
+| P#05 | Il linguaggio SQL: join e self-join. | 12/03 | 13/03 | 20/03 |
+| P#06 | Il linguaggio SQL: le funzioni aggregate. | 19/03 | 20/03 | 27/03 |
+| P#07 | Il linguaggio SQL: l'istruzione GROUP BY. | 26/03 | 27/03 | 03/04 |
+| P#08 | Il linguaggio SQL: raggruppamento con condizione. | 26/03 | 27/03 | 03/04 |
 | P#09 | Il linguaggio SQL: L'istruzione NOT IN. |  |  |  |
 | P#10 | Il linguaggio SQL: EXISTS e correlazione. |  |  |  |
 | P#11 | Il linguaggio SQL: divisione. |  |  |  |
