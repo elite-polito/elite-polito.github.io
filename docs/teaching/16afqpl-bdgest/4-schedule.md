@@ -66,27 +66,22 @@ Note:
 
 | Pillola video | Argomento | Pubblicazione entro | Apertura esercizi | Chiusura esercizi |
 |----|-------------|--------|----|------|
-| P#01 | Il modello relazionale: definizioni e proprietà. | Pubblicata | 26/09 | 03/10 |
-| P#02 | Il modello relazionale: vincoli di integrità referenziale. | Pubblicata | 26/09 | 03/10 |
-| P#03 | Il linguaggio SQL: la SELECT base. | Pubblicata | 02/10 | 09/10 |
-| P#04 | Il linguaggio SQL: join e self-join. | Pubblicata | 02/10 | 09/10 |
-| P#05 | Il linguaggio SQL: le funzioni aggregate. | Pubblicata | 06/10 | 13/10 |
-| P#06 | Il linguaggio SQL: l'istruzione GROUP BY. | Pubblicata | 10/10 | 17/10 |
-| P#07 | Il linguaggio SQL: raggruppamento con condizione. | Pubblicata | 10/10 | 17/10 |
-| P#08 | Il linguaggio SQL: L'istruzione NOT IN. | Pubblicata | 22/10 | 29/10 |
-| P#09 | Il linguaggio SQL: EXISTS e correlazione. | Pubblicata | 22/10 | 29/10 |
-| P#10 | Il linguaggio SQL: divisione. | Pubblicata | 5/11 | 12/11 |
-| P#11 | Il linguaggio SQL: CTE e table function. | Pubblicata | 5/11 | 12/11 |
-| P#12 | Progettazione: entità e relazioni. | Pubblicata | 10/11 | 17/11 |
-| P#13 | Progettazione: rappresentazione di eventi. | Pubblicata | 18/11 | 25/11 |
-| P#14 | Progettazione: attributi dipendenti dal tempo. | Pubblicata | 18/11 | 25/11 |
-| P#15 | Progettazione: progettazione logico-relazionale. | Pubblicata | 28/11 | 05/12 |
-| P#16 | Riepilogo delle competenze. | Pubblicata | 15/12 | 22/12 |
+| P#01 | Il modello relazionale: definizioni e proprietà. | 26/02 | 27/02 | 06/03 |
+| P#02 | Il modello relazionale: vincoli di integrità referenziale. | 26/02 | 27/02 | 06/03 |
+| P#03 | L'algebra relazionale: definizioni e operatori. | 05/03 | 06/03 | 13/03 |
+| P#04 | Il linguaggio SQL: la SELECT base. |  |  |  |
+| P#05 | Il linguaggio SQL: join e self-join. |  |  |  |
+| P#06 | Il linguaggio SQL: le funzioni aggregate. |  |  |  |
+| P#07 | Il linguaggio SQL: l'istruzione GROUP BY. |  |  |  |
+| P#08 | Il linguaggio SQL: raggruppamento con condizione. |  |  |  |
+| P#09 | Il linguaggio SQL: L'istruzione NOT IN. |  |  |  |
+| P#10 | Il linguaggio SQL: EXISTS e correlazione. |  |  |  |
+| P#11 | Il linguaggio SQL: divisione. |  |  |  |
+| P#12 | Il linguaggio SQL: CTE e table function. |  |  |  |
+| P#13 | Progettazione: entità e relazioni. |  |  |  |
+| P#14 | Progettazione: rappresentazione di eventi. |  |  |  |
+| P#15 | Progettazione: attributi dipendenti dal tempo. |  |  |  |
+| P#16 | Progettazione: progettazione logico-relazionale. |  |  |  |
 
-{/*
 
-| Q14 | Gestione delle transazioni. Proprietà delle transazioni. Controllo dell'accesso e sicurezza dei dati. Gestione dei privilegi in SQL. |  |  | VL10 |
-
-| VL14 | Esempio di progettazione logica: data base per la gestione di prenotazioni in una ASL. | 20/11 - 26/11 | VL14 | 20/11 | 26/11 | [![icona_pdf](https://farinetti.github.io/materiale-bdcin/iconaPdf.png)](https://farinetti.github.io/materiale-bdcin/VL14-EsempioProgLogica.pdf) |
-*/}
 
