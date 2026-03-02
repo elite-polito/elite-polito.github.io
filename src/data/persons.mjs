@@ -120,7 +120,7 @@ const alumni = [
     },
     {
         name: 'Massimiliano Pellegrino',
-        role: 'Front-end Developer',
+        role: 'Full Stack Engineer at Plino',
         //email: 'massimiliano.pellegrino@polito.it',
         img: '/img/people/MassimilianoPellegrino.jpg',
         github: 'MassimilianoPellegrino',
@@ -128,7 +128,7 @@ const alumni = [
     },
     {
         name: 'Luca Pezzolla',
-        role: 'Co-Founder & CEO at Sbam',
+        role: 'Cloud Developer at Corley Cloud',
         // email: 'luca.pezzolla@polito.it',
         img: '/img/people/LucaPezzolla.jpg',
         github: 'lpezzolla',
@@ -136,7 +136,7 @@ const alumni = [
     },
     {
         name: 'Luca Mannella',
-        role: 'Post-Doc Researcher at Politecnico di Torino',
+        role: 'Post-Doc at Politecnico di Torino',
         // email: 'luca.mannella@polito.it',
         img: '/img/people/LucaMannella.jpg',
         github: 'LucaMannella',
@@ -152,7 +152,7 @@ const alumni = [
     },
     {
         name: 'Luisa Barrera León',
-        role: 'Post-Doc Researcher at Università degli Studi del Piemonte Orientale ',
+        role: 'Functional Analyst',
         img: '/img/people/LuisaBarrera.jpg',
         github: 'luifabelo',
         linkedin: 'luisabarreraleon',
@@ -165,14 +165,14 @@ const alumni = [
     },
     {
         name: 'Teodoro Montanaro',
-        role: 'Post-Doc Researcher at Università del Salento',
+        role: 'Assistant Professor (RTDa) at Università del Salento',
         img: '/img/people/TeodoroMontanaro.webp',
         github: 'tmontanaro',
         linkedin: 'teodoro-montanaro-94a50991',
     },
     {
         name: 'Sebastián Aced López',
-        role: 'Computer Science Teacher and Robotic Instructor',
+        role: 'Computer Science Teacher at Istituto Sant\'Anna',
         img: '/img/people/SebastianAcedLopez.webp',
         linkedin: 'sebastián-aced-lópez-3a07b870',
     },
@@ -185,19 +185,19 @@ const alumni = [
     },
     {
         name: 'Muhammad Sanaullah',
-        role: 'Associate Professor, Air University (Multan Campus)',
+        role: 'Associate Professor at Air University (Multan Campus)',
         img: '/img/people/MuhammadSanaullah.jpeg',
         linkedin: 'muhammad-sanaullah-dr-a3a4849',
     },
     {
         name: 'Emiliano Castellina',
-        role: 'Insegnante di informatica presso IIS Avogadro Vercelli',
+        role: 'Computer Science Teacher at IIS Avogadro Vercelli',
         img: '/img/people/EmilianoCastellina.jpg',
         linkedin: 'emiliano-castellina',
     },
     {
         name: 'Faisal Razzak',
-        role: 'Senior Product Manager, R&D at Venafi Inc.',
+        role: 'Group Product Manager at CyberArk',
         img: '/img/people/FaisalRazzak.jpg',
         linkedin: 'faisalrazzak',
     },
@@ -206,7 +206,7 @@ const alumni = [
     },
     {
         name: 'Alessandro Garbo',
-        role: 'Senior Software Engineering at Cerence Inc. ',
+        role: 'Senior Research Scientist at Cerence AI',
         img: '/img/people/AlessandroGarbo.jpeg',
         linkedin: 'alessandro-garbo-325506147',
     },
@@ -233,7 +233,7 @@ const alumni = [
     },
     {
         name: 'Federico Pescarmona',
-        role: 'Software development engineer at Apple',
+        role: 'Software Development Engineer at Apple',
         img: '/img/people/FedericoPescarmona.jpg',
         linkedin: 'federicopescarmona',
     },
