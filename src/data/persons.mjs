@@ -42,15 +42,6 @@ const people = [
         youtube: '@jpsaenzmo.polito'
     },
     {
-        name: 'Tommaso Calò',
-        role: 'Post-Doc Researcher',
-        email: 'tommaso.calo@polito.it',
-        img: '/img/people/TommasoCalo.jpeg',
-        github: 'tommasocalo',
-        linkedin: 'tommaso-caló-20509512a',
-        website: 'https://tommasocalo.github.io/'
-    },
-    {
         name: 'Luca Scibetta',
         role: 'Ph.D. Student',
         email: 'luca.scibetta@polito.it',
@@ -102,16 +93,31 @@ const people = [
     },
     {
         name: 'Giuseppe Arbore',
-        role: 'Research Grant Holder',
+        role: 'Ph.D. Student',
         email: 'giuseppe.arbore@polito.it',
         img: '/img/people/GiuseppeArbore.jpg',
         github: 'GiuseppeArbore',
         linkedin: 'giuseppe-arbore-099057331',
         youtube: '@peppearb'
     },
+     {
+        name: 'Andrea De Luca',
+        role: 'Research Grant Holder',
+        email: 'andrea.deluca@polito.it',
+        //img: '/img/people/AndreaDeLuca.jpg'
+    },
 ]
 
 const alumni = [
+    {
+        name: 'Tommaso Calò',
+        role: 'Post-Doc at IT University of Copenhagen',
+        //email: 'tommaso.calo@polito.it',
+        img: '/img/people/TommasoCalo.jpeg',
+        github: 'tommasocalo',
+        linkedin: 'tommaso-caló-20509512a',
+        website: 'https://tommasocalo.github.io/'
+    },
     {
         name: 'Massimiliano Pellegrino',
         role: 'Front-end Developer',
