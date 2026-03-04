@@ -104,7 +104,10 @@ const people = [
         name: 'Andrea De Luca',
         role: 'Research Grant Holder',
         email: 'andrea_deluca@polito.it',
-        //img: '/img/people/AndreaDeLuca.jpg'
+        img: '/img/people/AndreaDeLuca.png',
+        github: 'andredelu98',
+        linkedin: 'andredelu'
+
     },
 ]
 
