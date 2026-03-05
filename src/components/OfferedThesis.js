@@ -17,10 +17,15 @@ export function OfferedThesisList() {
 
     if (allThesis.length) {
         const today = (new Date()).toISOString().substring(0,10);
+
+        const availableThesis = allThesis.filter(t => t.exp_date >= today);
         
         return <>
-            {allThesis.filter(t => t.exp_date >= today).map(t => (
-                <OfferedThesis key={t.ID} {...t} />))}
+            { availableThesis.length ?
+                availableThesis.map(t => (
+                    <OfferedThesis key={t.ID} {...t} />))
+                : <p>Check back soon! New thesis proposals will be posted here.</p>
+            }
         </>;
     } else
         return <p>Loading...</p>
