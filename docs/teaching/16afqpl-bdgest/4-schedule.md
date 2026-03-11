@@ -24,9 +24,9 @@ _Legenda:_ la colonna Tipo può essere Lez/Es=Lezione/Esercitazione in aula, Lab
 | gio 05/03/26 | 14.30-17.30 | Lez/Es | 3 | SQL: SELECT base. | 5 | L. Farinetti |
 | mer 11/03/26 | 16.00-19.00 | Lez/Es | 3 | SQL: SELECT base. | 8 | L. Farinetti |
 | gio 12/03/26 | 14.30-17.30 | Lez/Es | 3 | SQL: SELECT base. | 5 | L. Farinetti |
-| mer 18/03/26 | 16.00-17.30 | Lez/Es | 1,5 | Esercizi SQL. | 8 | L. Cagliero |
+| mer 18/03/26 | 16.00-17.30 | Lez/Es | 1,5 | SQL avanzata. | 8 | L. Farinetti |
 | mer 18/03/26 | 17.30-19.00 | Lab | 1,5 | Laboratorio #1: SQL-1. | 8 | G. Gallipoli, A. Verna |
-| mer 25/03/26 | 16.00-17.30 | Lez/Es | 1,5 | SQL: SELECT avanzata. | 8 | L. Farinetti |
+| mer 25/03/26 | 16.00-17.30 | Lez/Es | 1,5 | Esercizi SQL. | 8 | L. Cagliero |
 | mer 25/03/26 | 17.30-19.00 | Lab | 1,5 | Laboratorio #2: SQL-2. | 8 | G. Gallipoli, A. Verna |
 | gio 26/03/26 | 14.30-17.30 | Lez/Es | 3 | SQL: SELECT avanzata. | 5 | L. Farinetti |
 | gio 09/04/26 | 14.30-17.30 | Lez/Es | 3 | SQL: SELECT avanzata. | 5 | L. Farinetti |
@@ -35,10 +35,10 @@ _Legenda:_ la colonna Tipo può essere Lez/Es=Lezione/Esercitazione in aula, Lab
 | gio 16/04/26 | 14.30-17.30 | Lez/Es | 3 | Generative AI e LLM. | 5 | L. Cagliero |
 | mer 22/04/26 | 16.00-17.30 | Lez/Es | 1,5 | SQL: Gestione tabelle. | 8 | L. Cagliero |
 | mer 22/04/26 | 17.30-19.00 | Lab | 1,5 | Laboratorio #4: LLM e SQL. | 8 | G. Gallipoli, A. Verna |
-| gio 23/04/26 | 14.30-17.30 | Lez/Es | 3 | Progettazione. | 5 | L. Farinetti |
 | mer 29/04/26 | 16.00-19.00 | Lez/Es | 3 | SQL: Gestione tabelle, transazioni ed accessi. | 8 | L. Cagliero |
 | gio 30/04/26 | 14.30-17.30 | Lez/Es | 3 | Progettazione. | 5 | L. Farinetti |
 | mer 06/05/26 | 16.00-19.00 | Lez/Es | 3 | SQL: Gestione viste. | 8 | L. Cagliero |
+| gio 07/05/26 | 14.30-17.30 | Lez/Es | 3 | Progettazione. | 5 | L. Farinetti |
 | mer 13/05/26 | 16.00-19.00 | Lab | 3 | Laboratorio #5: LLM e SQL. | 8 | G. Gallipoli, A. Verna |
 | gio 14/05/26 | 14.30-17.30 | Lez/Es | 3 | Progettazione. | 5 | L. Farinetti |
 | mer 20/05/26 | 16.00-17.30 | Lez/Es | 1,5 | Temi d'esame. | 8 | L. Farinetti |
