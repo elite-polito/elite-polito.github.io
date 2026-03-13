@@ -31,7 +31,7 @@ function Type(name, order) {
 
 // Main component for generating the publication list
 export function PublicationList(props) {
-
+    
     const [allPublications, setAllPublications] = useState([]);
     useEffect(() => {
         const loadPubs = async () => {
@@ -158,8 +158,8 @@ function PublicationListTypeYear({ typePublications, year }) {
 
 async function loadAllPublications() {
     // get all JSON for all authors, in parallel
-    const allLists = await Promise.all(allMembers.map((m) => loadPublications(m.id)))
-
+    const allLists = await Promise.all(allMembers.map((m) => loadPublications(m.id)));
+    
     // merge into a single list
     let mergedList = allLists.reduce((prev, curr) => (prev.concat(curr.records)), [])
 

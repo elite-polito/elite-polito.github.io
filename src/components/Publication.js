@@ -1,10 +1,8 @@
 // Format the citation of a single publication, according to the ACM style (https://www.acm.org/publications/authors/reference-formatting)
 
 import Link from "@docusaurus/Link";
-import React from "react";
 
 export function Publication({ publication }) {
-
     const p = publication; // shortname
     const lu = p.lookupValues; // short name
     const title = sanitizeText(lu.title);
