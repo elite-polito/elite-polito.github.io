@@ -158,11 +158,14 @@ function PublicationListTypeYear({ typePublications, year }) {
 
 async function loadAllPublications() {
     // get all JSON for all authors, in parallel
-    const allLists = await Promise.all(allMembers.map((m) => loadPublications(m.id)));
+    let allLists = await Promise.all(allMembers.map((m) => loadPublications(m.id)));
+
+    // in case any author isn't on IRIS yet
+    allLists = allLists.filter(item => item !== undefined);
     
     // merge into a single list
-    let mergedList = allLists.reduce((prev, curr) => (prev.concat(curr.records)), [])
-
+    let mergedList = allLists.reduce((prev, curr) => (prev.concat(curr.records)), []);
+    
     // copy the elements into one Map, to de-duplicate
     let uniqueMap = new Map();
     mergedList.forEach((item) => uniqueMap.set(item.handle, item));
@@ -173,8 +176,14 @@ async function loadAllPublications() {
 }
 
 async function loadPublications(id) {
-    const response = await fetch(`/iris/${id}.json`);
-    return await response.json();
+    try {
+        const response = await fetch(`/iris/${id}.json`);
+        return await response.json();
+    }
+    catch (error) {
+        // in case of errors for any author, skip it and continue with the others
+        // console.error(error);
+    }
 }
 
 function getYears(publications) {
