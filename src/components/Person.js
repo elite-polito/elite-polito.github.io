@@ -1,8 +1,6 @@
-import React from "react";
-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import '@fortawesome/free-solid-svg-icons'
-import { faGithub, faTelegram, faXTwitter, faLinkedin, faYoutube } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faTelegram, faXTwitter, faLinkedin, faYoutube, faGitlab } from '@fortawesome/free-brands-svg-icons'
 import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 import Link from "@docusaurus/Link";
 
@@ -31,6 +29,9 @@ export const Person = (props) => (
                 {props.github &&
                     <>&nbsp;<Link to={"http://github.com/" + props.github} title='GitHub'>
                         <FontAwesomeIcon icon={faGithub} className='fa-xl' /></Link>&nbsp;</>}
+                {props.gitlab &&
+                    <>&nbsp;<Link to={"http://gitlab.com/" + props.gitlab} title='GitLab'>
+                        <FontAwesomeIcon icon={faGitlab} className='fa-xl' /></Link>&nbsp;</>}
                 {props.linkedin &&
                     <>&nbsp;<Link to={"https://www.linkedin.com/in/" + props.linkedin} title='LinkedIn'>
                         <FontAwesomeIcon icon={faLinkedin} className='fa-xl' /></Link>&nbsp;</>}

@@ -114,8 +114,9 @@ const people = [
         role: 'Research Grant Holder',
         email: 'stefano.dileo@polito.it',
         //img: '/img/people/AndreaDeLuca.png',
-        //github: 'andredelu98',
-        //linkedin: 'andredelu'
+        github: 'dlste',
+        gitlab: 'dlste',
+        linkedin: 'stefano-di-leo-479845393'
 
     },
 ]
