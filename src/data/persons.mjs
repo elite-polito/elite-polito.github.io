@@ -100,13 +100,22 @@ const people = [
         linkedin: 'giuseppe-arbore-099057331',
         youtube: '@peppearb'
     },
-     {
+    {
         name: 'Andrea De Luca',
         role: 'Research Grant Holder',
         email: 'andrea_deluca@polito.it',
         img: '/img/people/AndreaDeLuca.png',
         github: 'andredelu98',
         linkedin: 'andredelu'
+
+    },
+    {
+        name: 'Stefano Di Leo',
+        role: 'Research Grant Holder',
+        email: 'stefano.dileo@polito.it',
+        //img: '/img/people/AndreaDeLuca.png',
+        //github: 'andredelu98',
+        //linkedin: 'andredelu'
 
     },
 ]

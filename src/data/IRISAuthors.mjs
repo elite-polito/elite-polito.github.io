@@ -18,5 +18,7 @@ export const allMembers = [
     { first: "Massimiliano", last: "Pellegrino", id: "107532", active: false },
     { first: "Francesca", last: "Russo", id: "096342", active: true },
     { first: "Robert Everett", last: "Schwartz", id: "099074", active: true },
+    { first: "Andrea", last: "Sillano", id: "103582", active: true },
+    { first: "Riccardo", last: "Graziosi", id: "119913", active: true },
     { first: "Giuseppe", last: "Arbore", id: "093633", active: true },
 ];
