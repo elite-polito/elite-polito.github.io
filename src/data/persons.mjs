@@ -113,7 +113,7 @@ const people = [
         name: 'Stefano Di Leo',
         role: 'Research Grant Holder',
         email: 'stefano.dileo@polito.it',
-        //img: '/img/people/AndreaDeLuca.png',
+        img: '/img/people/StefanoDiLeo.jpeg',
         github: 'dlste',
         gitlab: 'dlste',
         linkedin: 'stefano-di-leo-479845393'
