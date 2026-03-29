@@ -87,8 +87,8 @@ Note:
 | P#04 | Il linguaggio SQL: la SELECT base. | Pubblicata | 13/03 | 20/03 |
 | P#05 | Il linguaggio SQL: join e self-join. | Pubblicata | 13/03 | 20/03 |
 | P#06 | Il linguaggio SQL: le funzioni aggregate. | Pubblicata | 20/03 | 27/03 |
-| P#07 | Il linguaggio SQL: l'istruzione GROUP BY. | 26/03 | 27/03 | 03/04 |
-| P#08 | Il linguaggio SQL: raggruppamento con condizione. | 26/03 | 27/03 | 03/04 |
+| P#07 | Il linguaggio SQL: l'istruzione GROUP BY. | Pubblicata | 27/03 | 03/04 |
+| P#08 | Il linguaggio SQL: raggruppamento con condizione. | Pubblicata | 27/03 | 03/04 |
 | P#09 | Il linguaggio SQL: L'istruzione NOT IN. | 09/04 | 10/04 | 17/04 |
 | P#10 | Il linguaggio SQL: EXISTS e correlazione. | 09/04 | 10/04 | 17/04 |
 | P#11 | Il linguaggio SQL: divisione. | 16/04 | 17/04 | 24/04 |
