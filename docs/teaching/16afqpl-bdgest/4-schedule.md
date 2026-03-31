@@ -89,8 +89,8 @@ Note:
 | P#06 | Il linguaggio SQL: le funzioni aggregate. | Pubblicata | 20/03 | 27/03 |
 | P#07 | Il linguaggio SQL: l'istruzione GROUP BY. | Pubblicata | 27/03 | 03/04 |
 | P#08 | Il linguaggio SQL: raggruppamento con condizione. | Pubblicata | 27/03 | 03/04 |
-| P#09 | Il linguaggio SQL: L'istruzione NOT IN. | 09/04 | 10/04 | 17/04 |
-| P#10 | Il linguaggio SQL: EXISTS e correlazione. | 09/04 | 10/04 | 17/04 |
+| P#09 | Il linguaggio SQL: L'istruzione NOT IN. | Pubblicata | 10/04 | 17/04 |
+| P#10 | Il linguaggio SQL: EXISTS e correlazione. | Pubblicata | 10/04 | 17/04 |
 | P#11 | Il linguaggio SQL: divisione. | 16/04 | 17/04 | 24/04 |
 | P#12 | Il linguaggio SQL: CTE e table function. | 23/04 | 24/04 | 01/05 |
 | P#13 | Progettazione: entità e relazioni. | 30/04 | 01/05 | 08/05 |
