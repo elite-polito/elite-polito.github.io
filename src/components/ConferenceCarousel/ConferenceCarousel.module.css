@@ -333,7 +333,7 @@
   background: #e8a87c;
 }
 
-/* Download button & menu */
+/* Download button */
 .dlWrap {
   position: relative;
 }
@@ -372,60 +372,6 @@
   background: rgba(255, 255, 255, 0.15);
 }
 
-.dlMenu {
-  position: absolute;
-  bottom: 100%;
-  right: 0;
-  margin-bottom: 6px;
-  background: #fff;
-  border: 1px solid rgba(155, 77, 43, 0.15);
-  border-radius: 8px;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
-  overflow: hidden;
-  z-index: 10;
-  min-width: 160px;
-}
-
-[data-theme='dark'] .dlMenu {
-  background: #352a27;
-  border-color: rgba(255, 255, 255, 0.1);
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.35);
-}
-
-.dlMenuItem {
-  display: block;
-  width: 100%;
-  padding: 0.5rem 0.85rem;
-  border: none;
-  background: none;
-  color: #3d2c28;
-  font-size: 0.82rem;
-  font-family: inherit;
-  text-align: left;
-  cursor: pointer;
-  transition: background 0.15s;
-}
-
-.dlMenuItem:hover {
-  background: rgba(155, 77, 43, 0.08);
-}
-
-.dlMenuItem + .dlMenuItem {
-  border-top: 1px solid rgba(155, 77, 43, 0.08);
-}
-
-[data-theme='dark'] .dlMenuItem {
-  color: #e8ddd6;
-}
-
-[data-theme='dark'] .dlMenuItem:hover {
-  background: rgba(255, 255, 255, 0.06);
-}
-
-[data-theme='dark'] .dlMenuItem + .dlMenuItem {
-  border-color: rgba(255, 255, 255, 0.06);
-}
-
 /* Counter pill */
 .ctr {
   position: absolute;
@@ -453,8 +399,6 @@
   .carousel {
     max-width: 100%;
     border-radius: 0;
-    margin-left: -1rem;
-    margin-right: -1rem;
   }
 
   .bottomBar {
