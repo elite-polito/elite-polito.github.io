@@ -29,10 +29,10 @@ _Legenda:_ la colonna Tipo può essere Lez/Es=Lezione/Esercitazione in aula, Lab
 | mer 25/03/26 | 16.00-17.30 | Lez/Es | 1,5 | Esercizi SQL. | 8 | L. Cagliero |
 | mer 25/03/26 | 17.30-19.00 | Lab | 1,5 | Laboratorio #2: SQL-2. | 8 | G. Gallipoli, A. Verna |
 | gio 26/03/26 | 14.30-17.30 | Lez/Es | 3 | SQL: SELECT avanzata. | 5 | L. Farinetti |
-| gio 09/04/26 | 14.30-17.30 | Lez/Es | 3 | SQL: SELECT avanzata. | 5 | L. Farinetti |
+| gio 09/04/26 | 14.30-17.30 | Lez/Es | 3 | Generative AI e LLM. | 5 | L. Cagliero |
 | mer 15/04/26 | 16.00-17.30 | Lez/Es | 1,5 | SQL: SELECT avanzata. | 8 | L. Farinetti |
 | mer 15/04/26 | 17.30-19.00 | Lab | 1,5 | Laboratorio #3: SQL-3. | 8 | G. Gallipoli, A. Verna |
-| gio 16/04/26 | 14.30-17.30 | Lez/Es | 3 | Generative AI e LLM. | 5 | L. Cagliero |
+| gio 16/04/26 | 14.30-17.30 | Lez/Es | 3 | SQL: SELECT avanzata. | 5 | L. Farinetti |
 | mer 22/04/26 | 16.00-17.30 | Lez/Es | 1,5 | SQL: Gestione tabelle. | 8 | L. Cagliero |
 | mer 22/04/26 | 17.30-19.00 | Lab | 1,5 | Laboratorio #4: LLM e SQL. | 8 | G. Gallipoli, A. Verna |
 | mer 29/04/26 | 16.00-19.00 | Lez/Es | 3 | SQL: Gestione tabelle, transazioni ed accessi. | 8 | L. Cagliero |
