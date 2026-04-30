@@ -93,7 +93,7 @@ Note:
 | P#10 | Il linguaggio SQL: EXISTS e correlazione. | Pubblicata | 10/04 | 17/04 |
 | P#11 | Il linguaggio SQL: divisione. | Pubblicata | 17/04 | 24/04 |
 | P#12 | Il linguaggio SQL: CTE e table function. | Pubblicata | 24/04 | 01/05 |
-| P#13 | Progettazione: entità e relazioni. | 30/04 | 01/05 | 08/05 |
+| P#13 | Progettazione: entità e relazioni. | Pubblicata | 01/05 | 08/05 |
 | P#14 | Progettazione: rappresentazione di eventi. | 07/05 | 08/05 | 15/05 |
 | P#15 | Progettazione: attributi dipendenti dal tempo. | 14/05 | 15/05 | 22/05 |
 | P#16 | Progettazione: progettazione logico-relazionale. | 21/05 | 22/05 | 29/05 |
