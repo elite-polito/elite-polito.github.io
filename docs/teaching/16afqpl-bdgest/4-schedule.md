@@ -97,6 +97,6 @@ Note:
 | P#13 | Progettazione: entità e relazioni. | Pubblicata | 01/05 | 08/05 |
 | P#14 | Progettazione: rappresentazione di eventi. | Pubblicata | 08/05 | 15/05 |
 | P#15 | Progettazione: attributi dipendenti dal tempo. | Pubblicata | 15/05 | 22/05 |
-| P#16 | Progettazione: progettazione logico-relazionale. | 21/05 | 22/05 | 29/05 |
+| P#16 | Progettazione: progettazione logico-relazionale. | Pubblicata | 22/05 | 29/05 |
 
 
