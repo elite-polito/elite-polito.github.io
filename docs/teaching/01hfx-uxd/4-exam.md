@@ -20,6 +20,10 @@ Prossimi appelli, con scadenze:
     - ricordarsi di iscriversi all'esame entro il *04/02/2026*, sul Portale della Didattica
     - tutti gli assignments (compreso il codice) devono essere presenti sui repository GitHub del gruppo entro il *03/02/2026*.
     - il programma delle presentazioni dei gruppi sarà condiviso qualche giorno prima dell'esame
+- **25/06/2026 - orario e aula da definire**
+  - ricordarsi di iscriversi all'esame entro il *19/06/2026*, sul Portale della Didattica
+  - tutti gli assignments (compreso il codice) devono essere presenti sui repository GitHub del gruppo entro il *18/06/2026*.
+  - il programma delle presentazioni dei gruppi sarà condiviso qualche giorno prima dell'esame
 
 ## Progetti (con Assignment)
 
