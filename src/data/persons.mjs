@@ -27,7 +27,7 @@ const people = [
     },
     {
         name: 'Alberto Monge Roffarello',
-        role: 'Assistant Professor (RTDb)',
+        role: 'Associate Professor',
         img: '/img/people/AlbertoMonge.jpg',
         email: 'alberto.monge@polito.it',
         github: 'alberto-mr'
