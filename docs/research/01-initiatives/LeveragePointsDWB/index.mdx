@@ -1,0 +1,158 @@
+---
+title: "Leverage Points for Digital Wellbeing"
+slug: "../leverage-points-digital-wellbeing"
+sidebar_position: 995
+---
+# What is Digital Wellbeing? A Leverage Points Framework to Guide Research and Action
+
+import Admonition from '@theme/Admonition';
+import Link from '@docusaurus/Link';
+
+<Admonition type="note" title={'Topics'}>
+*Digital Wellbeing*, *Conceptual Frameworks*, *Systems Thinking*
+</Admonition>
+
+<img src={require("./img/lever.png").default} className="border--shadow"/>
+
+<div style={{ display: 'flex', justifyContent: 'center', gap: '1rem', margin: '1.5rem 0', flexWrap: 'wrap' }}>
+  <Link className="button  button--lg button--primary" to="https://lys.polito.it/dwb-leverage-points">🔗 Explorer Tool</Link>
+  <Link className="button  button--lg button--primary" to="https://doi.org/10.1145/3772318.3793192">📄 Paper</Link>
+  <Link className="button  button--lg button--primary" to="https://osf.io/78ecs/">📊 Materials</Link>
+</div>
+
+Digital wellbeing has become a recurring theme in HCI, invoked by researchers, policymakers, and technology companies alike as a design goal. Yet the construct itself remains **inconsistently defined**: the field oscillates between narrow individualistic metrics — above all **screen time** — and broad aspirations about "a good digital life" that fail to capture how people are actually entangled with technology.
+
+This work brings **conceptual clarity** to digital wellbeing along two connected contributions. First, a **layered taxonomy** that characterizes digital wellbeing across three dimensions — *technology scope and users*, *mediators*, and *interventions and strategies* — grounded in a review of ten years of CHI publications and refined through its application to 68 student projects. Second, the **Leverage Points for Digital Wellbeing**, a framework inspired by systems thinking that situates interventions along **self-oriented**, **collective**, and **systemic** orientations of change. Together, they provide an actionable account of digital wellbeing that captures users' evolving entanglements with technology — including generative AI — as well as the broader social and political conditions in which these entanglements unfold.
+
+## Building the Model
+
+<div className="container">
+  <div className="row">
+    <div className="col col--7">
+      <img src={require("./img/method.png").default} width="100%" className="border--shadow" alt="The conceptual-to-empirical strategy: grounding, applying and revising, iteration."/>
+    </div>
+    <div className="col col--5" style={{paddingLeft: '1rem', alignContent: 'center'}}>
+      Following established approaches to taxonomy building, we adopted a **conceptual–to–empirical strategy**.
+      We first *grounded* an initial set of components in a **scoping review** of ten years of CHI publications, then *applied and revised* that scaffold against a fixed set of empirical examples — **68 student projects** — and finally *iterated* among the authors to articulate the taxonomy and derive the Leverage Points framework.
+      The three meta-characteristics — technology scope and users, mediators, and strategies — were derived from prior conceptualizations of wellbeing as a layered construct and from HCI work distinguishing technological domains, processes of interaction, and intervention approaches.
+    </div>
+  </div>
+</div>
+
+**Ten years of CHI.** We searched the ACM Digital Library for research articles published at CHI between **2015 and 2025** containing the term "digital wellbeing" (or "digital well-being"), adhering to the key elements of the **PRISMA Extension for Scoping Reviews**. The search returned 100 items; after applying inclusion and exclusion criteria we excluded 38, resulting in a final corpus of **62 articles** (46 full papers and 16 Late-Breaking Works). Each paper was coded through an **open coding** process by two researchers using a structured extraction sheet, capturing the main focus, target audience, technologies involved, and how digital wellbeing was operationalized.
+
+**Sixty-eight student projects.** The initial taxonomy was then applied to a collection of **68 interactive prototypes** developed across four editions (2021–2024) of a multidisciplinary university course on digital wellbeing, co-taught by a psychologist and a computer scientist. The course involved more than **500 students** working in teams of 6–8, whose needfinding activities engaged an estimated **5,000+ participants**. Projects were coded against the initial classification, with new components added inductively — surfacing orientations less prominent in the CHI corpus, such as concerns around **generative AI**. Following design research traditions of *annotative* knowledge production, the projects served both as descriptive material and as generative inspiration, rather than as an objective validation.
+
+## The Definitional Gap
+
+Although digital wellbeing is prominent in HCI — with 14 contributions at CHI 2025 alone — only **eight of the 62 surveyed publications (12.9%) explicitly define the term**. Most of those rely on two broad theoretical formulations: Burr et al.'s framing of digital wellbeing as *"the impact of digital technologies on what it means to live a life that is good for a human being,"* and Vanden Abeele's *"subjective individual experience of optimal balance between the benefits and drawbacks obtained from mobile connectivity."* Others adopt **corporate-style formulations** that mirror industry rhetoric, emphasizing individual responsibility and tool-based self-regulation.
+
+These expansive definitions are often only **loosely connected** to the work in which they appear: even when citing Burr's definition, contributions tend to focus narrowly on digital self-control, paying little attention to structural or societal determinants. The result is a concept that functions more as a **rhetorical umbrella** than as a coherent construct — articulated in broad, aspirational terms yet operationalized in narrow and reductionist ways.
+
+A central manifestation of this translation gap is the **lack of anchoring in theories of psychological wellbeing**, long conceptualized as multidimensional: **Ryff's model** of six interrelated components and **Self-Determination Theory**'s three basic needs both shift the focus from surface-level outcomes to the deeper psychological processes that sustain human flourishing over time. Rather than pursuing a singular definition, our work argues for a more **structured and actionable account** of the construct.
+
+## The Three Layers
+
+Behind the term "digital wellbeing" lies a wide range of interpretations, priorities, and implicit assumptions. Our analysis surfaced three recurrent layers, consistently reflected — often explicitly, sometimes implicitly — across both corpora:
+
+| Layer | Question it answers |
+| :-- | :-- |
+| **Technology scope and users** | *What* technology is being targeted, and *for whom*? |
+| **Mediators of digital wellbeing** | *What* influences wellbeing in the digital context? |
+| **Interventions and strategies** | *How* is change enacted in practice? |
+
+These interrelated layers make it possible to compare approaches that might otherwise appear unrelated, and to spot opportunities for closing gaps and synthesizing evidence across research traditions.
+
+### Technology Scope and Users
+
+<img src={require("./img/tech_users.png").default} width="100%" className="border--shadow" alt="Distribution of contributions across technological domains and user populations, with the technology scope decomposition and key user groups."/>
+
+Both corpora reveal a strong association between digital wellbeing and **smartphones and social media**, which together dominate the technology scope (44 and 38 contributions, respectively). This creates a contradiction that differentiates digital wellbeing from other behavior change domains: devices and social media are *simultaneously* the source of the problem and the very platforms through which interventions are delivered. Beyond these dominant categories the distribution becomes fragmented — the web, personal devices, **short-form videos**, videogames, productivity tools, messaging apps — with a small but emerging strand on **GenAI systems**, positioned as a source of novel risks such as overreliance and persuasive deception.
+
+The technology scope can be organized into **four nested layers of intervention**: the **UI/feature layer** (feeds, notifications, interaction mechanics), the **device layer** (screen time dashboards, focus modes, cross-application restrictions), the **algorithmic layer** (recommenders, ranking systems, and GenAI models), and the **socio-technical and governance layer** (policies, standards, and audits). Most contributions concentrate on the first two, reflecting a **micro-level focus** where wellbeing is seen as shaped by everyday interaction choices.
+
+On the user side, **young adults** are the most frequently studied and designed-for group (29 research works, 36 student projects), followed by adults. **Teens** are far more visible in student projects (29) than in research papers (6), while **children** and the **elderly** remain underexplored in the literature. Three communities stand out: *education-related groups*, *inclusion and accessibility*, and *professional contexts*. Overall, the field is strongly biased toward younger and educational populations, leaving workplace wellbeing, aging, and inclusion relatively underdeveloped.
+
+### Mediators of Digital Wellbeing
+
+<img src={require("./img/mediators.png").default} width="100%" className="border--shadow" alt="Mediators of digital wellbeing, organized into self-related (behavioral, cognitive, emotional) and environment-related (social, societal) pathways."/>
+
+This layer takes a **dual perspective**: it specifies the dimensions through which technology use affects digital wellbeing, while also representing the pathways through which interventions can foster or hinder it. Most contributions concentrate on **mediators of the self**, grouped into three clusters:
+
+- **Behavioral.** *Screen time* dominates the corpus (49 contributions), positioning digital wellbeing primarily as a matter of overcoming "addiction" and "overuse." This focus is particularly strong in student projects (38), while literature contributions adopt a more critical stance, acknowledging that duration of use is a **poor proxy** that obscures qualitative differences in how and why technologies are used. Other behavioral mediators include *habitual use and automaticity*, *productivity*, and *distractions*.
+- **Cognitive.** The *sense of agency* (21 contributions) is the most prominent construct — the feeling of control over one's actions and their outcomes — advanced as a more appropriate lens than screen time. Closely related are *attentional focus*, often examined through **attention-capture damaging patterns** such as infinite scroll and autoplay, and *media literacy*, which shifts attention to the meta-level skills needed to navigate digital environments.
+- **Emotional.** Less numerous but essential: *emotional regulation*, *perceived stress*, and *attachment to technology* — the affective counterpart to habitual use, where bonds with devices and platforms complicate disengagement.
+
+A smaller but important group of contributions addresses **mediators of the environment**. *Social mediators* capture the **quality of relational life** (comparison pressures, phubbing, family conflicts) and **real-world engagement**; *societal mediators* capture **inclusion and accessibility** and **structural inequalities**, underscoring that digital wellbeing cannot be disentangled from questions of who technologies serve, exclude, or disadvantage.
+
+### Interventions and Strategies
+
+<img src={require("./img/strategies.png").default} width="100%" className="border--shadow" alt="Interventions and strategies classified into harm mitigation and wellbeing cultivation."/>
+
+Approaches cluster around two main orientations. **Harm mitigation** accounts for **77%** of the combined corpus: here, achieving digital wellbeing means reducing the negative effects of technology use. Its most common strategy is **self-regulation** (31 research works, 33 student projects), typically through *digital self-control tools* offering dashboards, timers, and personalization; **co-regulation** distributes responsibility across social contexts through shared agreements, parental mediation, and peer support; **redesign** tackles harms at their source by reworking engagement mechanisms; and **understanding harms** (12 works) identifies and communicates risks, surfacing mechanisms such as deceptive design and dark patterns.
+
+The remaining **23%** pursue **wellbeing cultivation** — framing digital wellbeing not as the absence of harm but as the presence of human flourishing. **Positive design** intentionally creates technologies that foster growth, meaning, and quality of life, often for underserved groups; **education** builds the knowledge and critical thinking needed to navigate digital environments; and a few studies adopt a **governance** perspective, recognizing that digital wellbeing requires institutional and policy-level engagement.
+
+## Leverage Points for Digital Wellbeing
+
+Taken alone, the three layers do not address the crucial question of **where to intervene**. Inspired by Donella Meadows' *"Leverage Points to Intervene in a System"* and the Center for Humane Technology's *"Leverage Points for Intervening in the Extractive Tech Ecosystem,"* we introduce the **Leverage Points for Digital Wellbeing**: a framework that situates interventions along a **continuum of orientations for change**. Meadows emphasized that not all points of intervention carry the same weight — some changes are easy to implement but produce marginal effects, while others are harder to enact yet hold the potential to transform the entire system. In our framework, components of the three layers **combine to define a leverage point**; moving from self-oriented to systemic orientations, the potential leverage increases, but so does the difficulty of implementation.
+
+| Orientation | Focus | Character |
+| :-- | :-- | :-- |
+| **Self-oriented** *(personal)* | The individual user: self-regulation, personal awareness, digital self-control tools, reflective prompts, media literacy | Relatively easy to activate, but effects are typically limited in scope and confined to individual motivation and persistence |
+| **Collective** *(social/community)* | Social contexts and shared practices: parental mediation, peer accountability, school-based programs, community norms | Harder to coordinate, but can create **multiplier effects** — once new norms are established, they reshape the broader environments in which technologies are used |
+| **Systemic** *(platform/ecosystem)* | Structures, rules, and infrastructures: platform redesign, algorithmic accountability, governance regimes, cultural expectations | Difficult to move, requiring alignment of institutions, industries, and political forces, but with the greatest potential for **durable and equitable** change |
+
+Each orientation can be understood through **three guiding questions**, which help determine how an intervention may move along the continuum: *(i) Who bears responsibility for change?* (from individuals, to groups, to institutions and infrastructures); *(ii) What scale of conditions is being modified?* (from personal habits, to shared norms, to structural features of platforms and governance); and *(iii) How durable is the expected impact?* (from short-term behavioral adjustments, to socially reinforced practices, to system-level transformations).
+
+Applying these questions shows how **similar components can yield very different leverage**. A mobile app that helps high-school students critically engage with AI-generated content targets GenAI through *education* and the *sense of agency*, yet remains **self-oriented**: impactful for motivated students, but localized to the individual. A workshop that engages **both students and teachers** on the same theme mobilizes the same technology, mediator, and strategy, but operates as a **collective** lever — responsibility is distributed, the scale of change involves classroom norms, and durability increases as practices become embedded in pedagogical routines. At the systemic end, limiting autoplay in social media newsfeeds shifts responsibility to the **platform level**, while future regulation on generative AI ensuring equitable outcomes for marginalized communities demands **institutional responsibility**.
+
+## Reading Prototypes Through the Lever
+
+The framework can decompose concrete artifacts. Three prototypes from the digital wellbeing course illustrate how student projects distribute themselves along the continuum — and how design choices, rather than technology alone, determine their orientation.
+
+<img src={require("./img/dedoom.png").default} width="100%" className="border--shadow" alt="DEDOOM: individual tracking alongside shared journeys, group challenges, and collective achievements."/>
+
+**DEDOOM** is a mobile app for adolescents that counters compulsive social media use through gamified challenges. It combines individual tracking with weekly goals, but its distinctive feature is the **shared journey**: users advance along visual paths together, complete disconnection challenges with friends, and celebrate collective achievements through badges and rankings. Although self-oriented in nature, these cooperative experiences shift responsibility toward the **peer group**, extend the scale of change to shared norms, and enhance durability — placing the app closer to the **collective** orientation.
+
+<img src={require("./img/gaia.png").default} width="100%" className="border--shadow" alt="GAIA: self-regulation strategies, encouraging reasoning over direct answers, and rewarding learning-oriented use."/>
+
+**GAIA** supports university students in maintaining **agency** when using generative AI for study. The app pairs a chatbot with educational scaffolds — pre-defined prompts, reward mechanisms (tokens, or *ghiande*), and time-of-use monitoring — and gamifies reflective interaction by rewarding students who upload their own reasoning rather than asking for direct answers. The leverage point here is primarily **self-oriented**, although education can extend its impact beyond purely individual self-regulation: the changes remain localized to the individual and do not alter the collective or structural conditions shaping AI use.
+
+<img src={require("./img/aut.png").default} width="100%" className="border--shadow" alt="AUT: browsing a limited selection of suggested events, choosing to participate, and seeing who else is attending."/>
+
+**AUT** counters FOMO and compulsive social media use among university students by encouraging them to meet around **real-world events** aligned with their interests. Unlike traditional event-discovery platforms, it deliberately limits suggestions to **five per week**, reducing information overload and curbing the anxiety of constant comparison. By targeting the *quality of relational life* through collective engagement, AUT shifts responsibility to the group, alters local social conditions, and creates opportunities for more enduring relational practices — a **collective** leverage point.
+
+## The Leverage Points Explorer
+
+The framework is also available as a **web application**: a *living community framework* where researchers, designers, and educators can explore interventions positioned along the lever, and contribute their own. The tool turns the conceptual model into an interactive artifact organized around two tabs — **Explore Framework** and **Share Intervention**.
+
+<img src={require("./img/tool_explore.png").default} width="100%" className="border--shadow" alt="The Explore tab of the Leverage Points Explorer, with the three layers of the taxonomy presented as cards."/>
+
+In the **Explore** tab, the three layers of the taxonomy are presented as **expandable cards**, each unpacking its internal structure: the technology decomposition from *UI/feature* to *governance*, the self-related and environment-related **mediator pathways**, and the split between *harm mitigation* and *wellbeing cultivation*. A sidebar of **taxonomy filters** lets users narrow the collection by technology, users, mediator, and strategy, and each intervention opens into a detail view with its full set of tags, description, and image.
+
+<img src={require("./img/tool_layer.png").default} width="65%" style={{display: 'block', margin: '0 auto'}} className="border--shadow" alt="Layer details for the mediators of wellbeing, unpacking self-related and environment-related pathways."/>
+
+The **lever** is the visual centerpiece: it can be clicked or dragged along its arm to filter interventions by orientation. Moving the fulcrum point rightwards raises the *Digital Wellbeing* counterweight, making the framework's core intuition tangible — *easier to implement · lower leverage* on the left, *harder to achieve · higher leverage* on the right.
+
+<img src={require("./img/tool_lever.png").default} width="85%" style={{display: 'block', margin: '0 auto'}} className="border--shadow" alt="The interactive lever, with self-oriented, collective, and systemic positions along the arm."/>
+
+The **Share** tab makes the framework participatory. Contributors describe an intervention, tag it against the four taxonomy dimensions — adding **custom terms** where the existing vocabulary falls short — and then answer the **three guiding questions** of the framework. The answers are combined into a score that **infers the orientation** of the intervention and places it automatically along the lever, showing in practice how the same components can yield self-oriented, collective, or systemic leverage. Submissions are reviewed before joining the shared, live collection.
+
+<img src={require("./img/tool_share.png").default} width="85%" style={{display: 'block', margin: '0 auto'}} className="border--shadow" alt="The three guiding questions in the Share tab, with the inferred orientation shown below."/>
+
+## Implications for Research, Design, and Policy
+
+For **HCI researchers**, the framework and its layers serve as **boundary objects** across fragmented traditions — digital self-control tools, persuasive design critiques, education — that have proliferated without shared language and definitions. By making explicit both the mediators at stake and the leverage orientation adopted, it allows researchers to position their contributions within a broader landscape and recognize complementarities and tensions. It also has **agenda-setting** potential: by highlighting how most interventions cluster around self-oriented levers, it directs attention to underexplored areas, particularly systemic levers where governance, infrastructural design, and accountability play decisive roles.
+
+For **designers, practitioners, and educators**, the framework is a generative tool for exploration, inspiring reframings through *"what if"* reflective practices: *what if this solution moves from the self to the collective? What if it embeds systemic constraints rather than nudges?* Such questions broaden the design space, preventing fixation on individualistic approaches. Beyond ideation, the framework also supports **evaluation and critique** — examining whether wellbeing features in commercial products merely offload responsibility onto users, foster shared practices, or confront structural issues — functioning as a pedagogical device for cultivating **critical design literacy**.
+
+For **policymakers**, it acts as a **diagnostic lens**. Regulations such as the EU's Digital Services Act and AI Act increasingly address manipulative design, yet the interventions platforms actually deploy often remain limited to superficial controls such as screen time counters or break reminders — firmly **self-oriented** measures that shift responsibility onto individuals and risk being perceived as cosmetic gestures that deflect accountability. Situating interventions across orientations makes these mismatches visible and highlights where regulatory energy could be directed.
+
+The framework should be considered a **living structure** rather than a fixed model: as new technologies and mediators emerge, its layers and orientations will require adaptation. It is open-ended by design, inviting refinement and extension — which is precisely what the Explorer tool is meant to support.
+
+## Publication
+
+Alberto Monge Roffarello, Monica Molino, and Luigi De Russis. 2026. What is Digital Wellbeing? A Leverage Points Framework to Guide Research and Action. In Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems (CHI '26), April 13–17, 2026, Barcelona, Spain. ACM, New York, NY, USA, 21 pages. DOI: https://doi.org/10.1145/3772318.3793192
+
+Supplementary materials — the data extraction sheet for the literature corpus and the coding of the student projects — are available on [OSF](https://osf.io/78ecs/).

@@ -1,0 +1,138 @@
+---
+title: "Digital Attention Heuristics"
+slug: "../digital-attention-heuristics"
+sidebar_position: 996
+---
+# The Digital Attention Heuristics: Supporting the User's Attention by Design
+
+import Admonition from '@theme/Admonition';
+import Link from '@docusaurus/Link';
+
+<Admonition type="note" title={'Topics'}>
+*Digital Wellbeing*, *Deceptive Design Patterns*, *Design Heuristics*
+</Admonition>
+
+<img src={require("./img/heuristics_overview.png").default} className="border--shadow"/>
+
+<div style={{ display: 'flex', justifyContent: 'center', gap: '1rem', margin: '1.5rem 0', flexWrap: 'wrap' }}>
+  <Link className="button  button--lg button--primary" to="https://lys.polito.it/digital-attention-heuristics/">🔗 Evaluator Tool</Link>
+  <Link className="button  button--lg button--primary" to="https://doi.org/10.1145/3725215">📄 Paper</Link>
+  <Link className="button  button--lg button--primary" to="https://osf.io/tjc7x/">📊 Materials</Link>
+</div>
+
+The HCI community has traditionally treated digital wellbeing as an **end-user responsibility**, designing *Digital Self-Control Tools* (DSCTs) that help people self-regulate how they use apps and websites.
+These attempts are often ineffective in the long term: they suffer from high attrition, they focus almost exclusively on reducing screen time, and — being **external** to the services they regulate — they cannot change the "attention-capture" designs that compromise users' sense of agency in the first place.
+
+Taking a complementary perspective, the **Digital Attention Heuristics** move the responsibility back to *design*. They are a set of **eight reusable, generally applicable heuristics** for creating user interfaces that preserve and respect user attention *by design*, accompanied by **18 practical strategies** and real-world implementation examples.
+Respecting attention here goes beyond limiting screen time: it means that technology should adapt in ways that align with the user's **goals, values, and context**, fostering mindful and meaningful interactions where people are not coerced into habitual or unintended usage.
+
+## From the Literature to the Heuristics
+
+<div className="container">
+  <div className="row">
+    <div className="col col--5">
+      <img src={require("./img/prisma.png").default} width="100%" className="border--shadow" alt="PRISMA flowchart of the systematic literature review."/>
+    </div>
+    <div className="col col--7" style={{paddingLeft: '1rem', alignContent: 'center'}}>
+      The heuristics stem from a **systematic literature review** of the computing and HCI literature on digital wellbeing, conducted following the **PRISMA** guidelines.
+      We searched the *ACM Guide to the Computing Literature* with 12 queries combining terms like "digital wellbeing," "attention economy," and "dark pattern" with "design," "guideline," and "principle," covering articles published between **January 2000 and June 2023**.
+      Of the **2,233 papers** retrieved, 399 duplicates were removed, title-and-abstract screening left 100 candidates, and a full-text assessment produced a final corpus of **55 papers** (43 conference papers and 12 journal articles, 26 of them from CHI).
+      We then extracted design recommendations, implementation examples, and design evaluations from each paper, and ran an **open coding** process with two independent researchers, grouping codes into heuristics and strategies. A third researcher independently reviewed the final set.
+    </div>
+  </div>
+</div>
+
+Following the criteria adopted for state-of-the-art heuristics such as the *Human-AI Interaction Guidelines* and the *Wellbeing Supportive Design Heuristics*, each heuristic has a short title and a one-sentence description, and adopts a **"beneficence" approach**: rather than only checking for violations, the heuristics are framed around promoting positive experiences, so that they can be applied **proactively** during design. In line with this, we deliberately separate **heuristics** — overarching principles that guide the design philosophy — from **strategies**, the concrete steps that implement them.
+
+<div className="container">
+  <div className="row">
+    <div className="col col--4">
+      <img src={require("./img/sankey.png").default} width="100%" className="border--shadow" alt="Sankey diagram relating the 55 papers in the corpus to the eight heuristics they informed."/>
+    </div>
+    <div className="col col--8" style={{paddingLeft: '1rem', alignContent: 'center'}}>
+      The Sankey diagram illustrates how the **55 papers** in the corpus map onto the heuristics they informed.
+      Some papers were **focused**, contributing to a single heuristic, while others presented **multifaceted insights** that gave rise to several of them.
+      The mapping is also uneven across heuristics: *promoting the user's sense of agency* (H1, 26 papers) and *balancing goal-directed and ritualistic uses* (H3, 23 papers) are the most densely supported, reflecting how much of the digital wellbeing literature revolves around **control** and **the quality of time spent**, while heuristics about *relatedness* rest on a smaller but distinct body of work.
+    </div>
+  </div>
+</div>
+
+## The Eight Heuristics
+
+The heuristics are categorized using the **Self-Determination Theory** (SDT), which posits that humans have three fundamental psychological needs — **autonomy**, **competence**, and **relatedness** — that are vital for motivation, wellbeing, and personal growth. SDT was chosen for its extensive empirical support, its validated assessment tools, and the suitability of its three needs as *design objectives*.
+The resulting categorization yields **four heuristics for autonomy, two for competence, and two for relatedness**. The three needs are interdependent, so the heuristics complement each other and are **not mutually exclusive**.
+
+| | Heuristic | Description | Strategies |
+| :-- | :-- | :-- | :-- |
+| **H1** | **Promote user sense of agency** | Design to support volitional experiences of focus and mindful awareness, allowing users to exercise their sense of agency and regain attention. | 2 |
+| **H2** | **Informed usage sessions** | Provide the user with the information necessary for deciding whether it is worth starting or continuing a usage session, with a transparent design that is clear about intentions and honest in actions. | 3 |
+| **H3** | **Balance goal-directed and ritualistic uses** | Adopt designs that let users maximize the *quality* of time spent rather than the quantity, balancing ritualistic use (open-ended, diversionary) with instrumental use (goal-directed, informational). | 3 |
+| **H4** | **Customization** | Ensure that users can understand and customize the digital environment they interact with, to better suit their goals, values, and digital wellbeing. | 2 |
+| **H5** | **Align usage with user and context needs** | Ensure the level of complexity or challenge required to start, perform, or end a usage session is appropriate for the user and the context. | 2 |
+| **H6** | **Inform about digital wellbeing** | Promote awareness about digital wellbeing, allowing users to understand and internalize good practices or solidify existing safe behaviors. | 2 |
+| **H7** | **Meaningful connections** | Support experiences of meaningful and fair connection to others, respecting one's preferences and vulnerabilities and those of others. | 2 |
+| **H8** | **Support real-world connections** | Provide tools that facilitate real-world experiences and connections that go, or may go, "beyond the screen." | 2 |
+
+H1–H4 support **autonomy**, H5–H6 support **competence**, and H7–H8 support **relatedness**.
+
+Each heuristic is unpacked into practical strategies. To support **agency** (H1), for instance, interfaces can provide *self-regulation tools* (H1-S1) and adopt *positive friction mechanisms* that prompt reflection and disrupt automatic behavior (H1-S2).
+To **balance ritualistic and goal-directed use** (H3), designers can simplify and organize the interface while minimizing attention-capture patterns like infinite scroll and autoplay (H3-S1), let users make *lightweight plans* that guide their sessions (H3-S2), and connect usage to larger life goals (H3-S3).
+Every strategy is grounded in the corpus and paired with **implementation examples** from prior research and existing digital services — from Medium's estimated read time and X's "Following" tab, to Mastodon's options for disabling attention-capture patterns and WHISPER, an audio narrative box that supports co-located conversation.
+
+## The Digital Attention Heuristics Evaluator
+
+Beyond designing new interfaces, the heuristics are also a tool for **critically evaluating existing ones**. The *Digital Attention Heuristics Evaluator* is a web application that turns the eight heuristics into a structured **heuristic evaluation** workflow: designers and researchers can walk through an interface, assess it against each heuristic, and export a shareable report.
+
+<div className="container">
+  <div className="row">
+    <div className="col col--5">
+      <img src={require("./img/tool_intro.png").default} width="100%" className="border--shadow" alt="Start screen of the Digital Attention Heuristics Evaluator."/>
+    </div>
+    <div className="col col--7" style={{paddingLeft: '1rem', alignContent: 'center'}}>
+      An evaluation starts by naming the **interface under analysis** and, optionally, the evaluator.
+      The tool then guides the assessment **one heuristic at a time**, keeping the three SDT needs — *Autonomy*, *Competence*, and *Relatedness* — visible throughout, so that the evaluator always knows which psychological need the current heuristic is meant to serve.
+      Progress is tracked with a dot navigator, and heuristics can be revisited in any order.
+    </div>
+  </div>
+</div>
+
+<div className="container">
+  <div className="row">
+    <div className="col col--7" style={{paddingRight: '1rem', alignContent: 'center'}}>
+      For each heuristic, the tool shows its **description**, the associated **design strategies**, and a set of concrete **evaluation prompts** ("Can users set time limits or usage goals?", "Are there break reminders or natural stopping cues?") that translate the heuristic into questions an evaluator can actually answer while inspecting an interface.
+      The evaluator then assigns a **severity rating** — from *well supported* to *critical violation* — and can record free-text notes and upload a **screenshot** as evidence for the finding.
+    </div>
+    <div className="col col--5">
+      <img src={require("./img/tool_evaluate.png").default} width="100%" className="border--shadow" alt="Evaluating a heuristic: strategies, evaluation prompts, severity rating, and notes."/>
+    </div>
+  </div>
+</div>
+
+Once the walkthrough is complete, the tool produces an **evaluation report**: a radar chart of the *attention profile* across the eight heuristics, aggregate severity scores broken down by the three SDT dimensions, and the detailed findings with notes and screenshot evidence. The report can be **exported as a PDF** to be shared with a design team or attached to a design review.
+
+<img src={require("./img/tool_report.png").default} width="70%" style={{display: 'block', margin: '0 auto'}} className="border--shadow" alt="Evaluation report with attention profile radar chart, SDT dimension scores, and detailed findings."/>
+
+## Pathways for Impact
+
+The heuristics have implications that go beyond individual designers. For **end users**, a shared vocabulary for attention-respecting design makes it easier to recognize — and demand alternatives to — interfaces that exploit their attention. For **companies and regulators**, the heuristics offer a bridge between design practice and a regulatory landscape, such as the EU's Digital Services Act, that is beginning to address manipulative design at the level of specific patterns.
+
+<div className="container">
+  <div className="row">
+    <div className="col col--5">
+      <img src={require("./img/dwlens.png").default} width="100%" className="border--shadow" alt="Digital Wellbeing Lens, a Figma plugin that scans a prototype and computes a digital wellbeing score."/>
+    </div>
+    <div className="col col--7" style={{paddingLeft: '1rem', alignContent: 'center'}}>
+      The heuristics have already inspired further tools that bring them into the **design workflow**.
+      **EDDI** is a prototype of an online platform that lets designers explore ethical design practices derived from the heuristics, understand their pros and cons, and browse and rate prototypes shared by the community.
+      **Digital Wellbeing Lens** — shown here — is a **Figma plugin** that scans a prototype and computes a *digital wellbeing score*: it detects attention-capture damaging patterns such as infinite scroll and suggests alternatives (e.g., content pagination), while also highlighting **positive** practices that preserve attention, such as videos that start only after an explicit interaction.
+    </div>
+  </div>
+</div>
+
+We hope these heuristics will not only guide the creation of user interfaces, but also foster a **mindset shift** within the design community — a more conscientious approach that prioritizes respect for the user's attention throughout the entire design process.
+
+## Publication
+
+Alberto Monge Roffarello, Luigi De Russis, and Kai Lukoff. 2025. The Digital Attention Heuristics: Supporting the User's Attention by Design. ACM Transactions on Computer-Human Interaction, DOI: https://doi.org/10.1145/3725215
+
+Supplementary materials — the corpus of reviewed papers, the initial set of codes, and the final set of heuristics, strategies, and implementation examples — are available on [OSF](https://osf.io/tjc7x/).
