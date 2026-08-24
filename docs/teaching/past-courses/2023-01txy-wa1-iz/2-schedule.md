@@ -13,7 +13,7 @@ This page contains the __archived__ version for the 2022/2023 edition of the cou
 Go to the [latest version](/teaching/01txy-wa1)
 ::: 
 
-:::tip Quick Links
+:::tip[Quick Links]
 * [Code developed](https://github.com/polito-WA1-AW1-2023/wa1-iz-weeks) during the lectures (on GitHub)
 * [Videolectures' playlist](https://www.youtube.com/playlist?list=PLs7DWGc_wmwTGEyUzKpqQDaa5TSnhshmp) (on YouTube)
 * [Course material](https://github.com/polito-WA1-AW1-2023/materials) (on GitHub)

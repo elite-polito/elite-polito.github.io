@@ -5,7 +5,7 @@ description: "Avvisi e informazioni di base"
 
 # Introduzione
 
-:::info Come arrivare qui
+:::info[Come arrivare qui]
 Link breve a questa pagina: http://bit.ly/polito-uxd 
 :::
 

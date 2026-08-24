@@ -11,7 +11,7 @@ Vai alla [versione più recente](/teaching/past-courses/2024-03fyz-tdp)
 ::: 
 
 
-:::note Link diretti ai Repository GitHub
+:::note[Link diretti ai Repository GitHub]
 - [Materiale di studio](https://github.com/TdP-2023/materiale) (slide, istruzioni)
 - [Esercizi svolti in aula](https://github.com/TdP-2023)
 - [Temi d'esame](https://github.com/TdP-esami)

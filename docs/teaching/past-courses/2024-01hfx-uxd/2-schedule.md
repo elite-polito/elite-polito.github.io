@@ -8,7 +8,7 @@ import Link from '@docusaurus/Link';
 
 # Calendario
 
-:::tip Quick Links
+:::tip[Quick Links]
 * [Materiale del corso](https://github.com/polito-uxd-2024/materiale) (su GitHub)
 :::
 
