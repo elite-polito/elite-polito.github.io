@@ -36,7 +36,7 @@ Vai all'[ultima versione](/teaching/04afqpc-bdcin)
 Sono utili per il ripasso o il recupero di lezioni perse.
 
 - Su Moodle sono pubblicati 13 quiz (formative assessment) relativi agli argomenti visti a lezione, da svolgere in un intervallo di tempo specifico (circa una settimana). L'obettivo è incentivare lo studio progressivo e rendere più efficace la partecipazione ad esercitazioni e laboratori.
-La sottomissione dei quiz entro la scadenza consente di ottenere alcuni punti extra (vedere le Regole d'esame <!-- (https://farinetti.github.io/materiale-bdcin/RegoleEsame23-24.pdf)--> ).
+La sottomissione dei quiz entro la scadenza consente di ottenere alcuni punti extra (vedere le Regole d'esame {/* (https://farinetti.github.io/materiale-bdcin/RegoleEsame23-24.pdf)*/} ).
     - Gli argomenti dei quiz e le date di apertura e chiusura per la sottomissione sono pubblicati nella sezione "Piano del corso".
 
 
@@ -54,12 +54,12 @@ La sottomissione dei quiz entro la scadenza consente di ottenere alcuni punti ex
     - Blocco 5: [Testo](https://farinetti.github.io/materiale-bdcin/EserciziSQL-parte3.pdf)
      e [Soluzione](https://farinetti.github.io/materiale-bdcin/EserciziSQL-parte3_sito.pdf)
 
-    <!-- 
+    {/* 
     - Blocco 3: [Testo](https://farinetti.github.io/materiale-bdcin/EsSQL_3-Testo.pdf)
     e [Soluzione](https://farinetti.github.io/materiale-bdcin/EsSQL_3-Soluz.pdf)
     - Blocco 4: [Testo](https://farinetti.github.io/materiale-bdcin/EsSQL_4-Testo.pdf)
     e [Soluzione](https://farinetti.github.io/materiale-bdcin/EsSQL_4-Soluz.pdf)
-    - [Pillola video](https://youtu.be/5dUdTthfgvs) su GROUP BY e NOT IN -->
+    - [Pillola video](https://youtu.be/5dUdTthfgvs) su GROUP BY e NOT IN */}
 
     - [Esercitazione SQL](https://farinetti.github.io/materiale-bdcin/Es_SQL_17102024.pdf) del 17/10/2024
     - Altri [esercizi di SQL](https://farinetti.github.io/materiale-bdcin/Esercizi_SQL.pdf) svolti in aula
@@ -69,11 +69,11 @@ La sottomissione dei quiz entro la scadenza consente di ottenere alcuni punti ex
     - ER 2: [Testo](https://farinetti.github.io/materiale-bdcin/EsER_2-Testo.pdf) e [Soluzione](https://farinetti.github.io/materiale-bdcin/EsER_2-Soluz.pdf)
     - Esercizio proposto in aula il 27/11: [Testo](https://farinetti.github.io/materiale-bdcin/ER-aula-27-11-24.pdf) e [Soluzione](https://farinetti.github.io/materiale-bdcin/ER-aula-27-11-24-sol.pdf)
 
-<!--
+{/*
 ## Esercitazioni CCT
 - Esercitazione CCT#1: ChatGPT e SQL, caccia all'errore - [Presentazione](https://farinetti.github.io/materiale-bdcin/Es_CCT_1.pdf) e [Schemi](https://farinetti.github.io/materiale-bdcin/SchemiProposti.docx)
 - Esercitazione CCT#2: Progettazione di basi dati - [Testo](https://farinetti.github.io/materiale-bdcin/EsercitazioneCCT_2.pdf)
--->
+*/}
 
 
 ## Laboratori - materiale
@@ -127,7 +127,7 @@ La sottomissione dei quiz entro la scadenza consente di ottenere alcuni punti ex
     Per dubbi o domande potete scrivere su Telegram a @Talk2Movies
 
 
-<!--
+{/*
     - Obiettivo: progettare, creare e valutare un Chatbot Telegram in grado di rispondere a domande specifiche a partire da una base di conoscenza
     - Attività unica, ma organizzata in fasi (con consegna dopo ciascuna fase)
     - Fase 1: [presentazione](https://farinetti.github.io/materiale-bdcin/Chatbot-Fase1.pdf) e [link](https://colab.research.google.com/drive/1sIy6IVzW5ANHoTpWYNXlf9IXlNL3Cw-P?usp=sharing) al Notebook con istruzioni/tutorial -> consegna prima del laboratorio di lunedì 13/11
@@ -137,7 +137,7 @@ La sottomissione dei quiz entro la scadenza consente di ottenere alcuni punti ex
         -  [link](https://colab.research.google.com/drive/1zxR_11AjstEPfWcqw5ehmhr-ukOgfw9H?usp=share_link) ad un Notebook di supporto
     - Fase 4 (collegare il chatbot a Telegram): [link](https://colab.research.google.com/drive/1QNuZ00D-LeZHOju_JVmNOB7X3gQRbPSp?usp=sharing) al Notebook
     - Fase 5 (valutazione finale del chatbot): [link](https://colab.research.google.com/drive/1f43u1B5VhLjgB3RMlgUwAG3a3yrqW0lt?usp=sharing) al Notebook        
--->
+*/}
         
    
     

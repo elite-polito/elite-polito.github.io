@@ -26,7 +26,7 @@ description: "Materiale didattico (slide, documenti, link, ...)"
 ## Pillole video ed esercizi
 
 - Sul Portale della didattica troverete 16 brevi "pillole" video, utili al ripasso degli aspetti fondamentali e/o più "ostici" di un determinato argomento.
-- A ciascuna pillola sono legati alcuni esercizi da svolgere in un intervallo di tempo specifico (circa una settimana) e sottomettere su Moodle. I testi degli esercizi sono all'interno delle pillole video. La sottomissione degli esercizi entro la scadenza e la loro valutazione contribuisce, insieme al laboratorio, al voto dell'esame (vedere le Regole d'esame <!-- (https://farinetti.github.io/materiale-bdcin/RegoleEsame23-24.pdf)--> ).
+- A ciascuna pillola sono legati alcuni esercizi da svolgere in un intervallo di tempo specifico (circa una settimana) e sottomettere su Moodle. I testi degli esercizi sono all'interno delle pillole video. La sottomissione degli esercizi entro la scadenza e la loro valutazione contribuisce, insieme al laboratorio, al voto dell'esame (vedere le Regole d'esame {/* (https://farinetti.github.io/materiale-bdcin/RegoleEsame23-24.pdf)*/} ).
 - Gli argomenti delle "pillole", la data di pubblicazione e le date di apertura e chiusura per la sottomissione della soluzione degli esercizi sono pubblicati nella sezione "Piano del corso".
 
 ## Videolezioni
@@ -63,30 +63,30 @@ Qui trovate gli esercizi svolti in aula.
     - Blocco 5: [Testo](https://farinetti.github.io/materiale-bdcin/EserciziSQL-parte3.pdf)
    e [Soluzione](https://farinetti.github.io/materiale-bdcin/Esercizi_SQL_Parte_3_sito.pdf) 
 
-    <!-- 
+    {/* 
     - Blocco 3: [Testo](https://farinetti.github.io/materiale-bdcin/EsSQL_3-Testo.pdf)
     e [Soluzione](https://farinetti.github.io/materiale-bdcin/EsSQL_3-Soluz.pdf)
     - Blocco 4: [Testo](https://farinetti.github.io/materiale-bdcin/EsSQL_4-Testo.pdf)
     e [Soluzione](https://farinetti.github.io/materiale-bdcin/EsSQL_4-Soluz.pdf)
-    - [Pillola video](https://youtu.be/5dUdTthfgvs) su GROUP BY e NOT IN -->
+    - [Pillola video](https://youtu.be/5dUdTthfgvs) su GROUP BY e NOT IN */}
 
-<!--
+{/*
     - [Esercitazione SQL](https://farinetti.github.io/materiale-bdcin/Es_SQL_17102024.pdf) del 17/10/2024
     - Altri [esercizi di SQL](https://farinetti.github.io/materiale-bdcin/Esercizi_SQL.pdf) svolti in aula
--->
+*/}
 
 - Progettazione
     - ER 1: [Testo](https://farinetti.github.io/materiale-bdcin/EsER_1-Testo.pdf) e [Soluzione](https://farinetti.github.io/materiale-bdcin/EsER_1-Soluz.pdf)
     - ER 2: [Testo](https://farinetti.github.io/materiale-bdcin/EsER_2-Testo.pdf) e [Soluzione](https://farinetti.github.io/materiale-bdcin/EsER_2-Soluz.pdf)
     - ER 3: [Testo](https://farinetti.github.io/materiale-bdcin/ER_modello_concettuale.pdf) e [Soluzione](https://farinetti.github.io/materiale-bdcin/ER_modello_concettuale_sol.pdf)
     - ER 4: [Testo](https://farinetti.github.io/materiale-bdcin/raccolta_esercizi_progettazione_BD.pdf) e [Soluzione](https://farinetti.github.io/materiale-bdcin/raccolta_esercizi_progettazione_BD_sol.pdf)
-    <!-- - Esercizio proposto in aula il 27/11: [Testo](https://farinetti.github.io/materiale-bdcin/ER-aula-27-11-24.pdf) e [Soluzione](https://farinetti.github.io/materiale-bdcin/ER-aula-27-11-24-sol.pdf) -->
+    {/* - Esercizio proposto in aula il 27/11: [Testo](https://farinetti.github.io/materiale-bdcin/ER-aula-27-11-24.pdf) e [Soluzione](https://farinetti.github.io/materiale-bdcin/ER-aula-27-11-24-sol.pdf) */}
 
-<!--
+{/*
 ## Esercitazioni CCT
 - Esercitazione CCT#1: ChatGPT e SQL, caccia all'errore - [Presentazione](https://farinetti.github.io/materiale-bdcin/Es_CCT_1.pdf) e [Schemi](https://farinetti.github.io/materiale-bdcin/SchemiProposti.docx)
 - Esercitazione CCT#2: Progettazione di basi dati - [Testo](https://farinetti.github.io/materiale-bdcin/EsercitazioneCCT_2.pdf)
--->
+*/}
 
 
 ## Laboratori 
@@ -98,7 +98,7 @@ Suddivisione in squadre per il laboratorio:
 Link all'area condivisa che contiene le informazioni ed il materiale dei laboratori (a cura dell'ing. Lorenzo Canale):
 - [https://drive.google.com/drive/folders/1mKb8fVeaWHtG5c79SiNEoJ8KYqLlGVDm](https://drive.google.com/drive/folders/1mKb8fVeaWHtG5c79SiNEoJ8KYqLlGVDm)
 
-<!--
+{/*
 - Laboratorio #1: 15/10 - SQL
     - [Testo](https://farinetti.github.io/materiale-bdcin/Lab1-testo.pdf)
     - [Risultati attesi](https://farinetti.github.io/materiale-bdcin/Lab-1-risultati_attesi.pdf) 
@@ -147,9 +147,9 @@ Link all'area condivisa che contiene le informazioni ed il materiale dei laborat
 
     Per dubbi o domande potete scrivere su Telegram a @Talk2Movies
 
--->
+*/}
 
-<!--
+{/*
     - Obiettivo: progettare, creare e valutare un Chatbot Telegram in grado di rispondere a domande specifiche a partire da una base di conoscenza
     - Attività unica, ma organizzata in fasi (con consegna dopo ciascuna fase)
     - Fase 1: [presentazione](https://farinetti.github.io/materiale-bdcin/Chatbot-Fase1.pdf) e [link](https://colab.research.google.com/drive/1sIy6IVzW5ANHoTpWYNXlf9IXlNL3Cw-P?usp=sharing) al Notebook con istruzioni/tutorial -> consegna prima del laboratorio di lunedì 13/11
@@ -159,7 +159,7 @@ Link all'area condivisa che contiene le informazioni ed il materiale dei laborat
         -  [link](https://colab.research.google.com/drive/1zxR_11AjstEPfWcqw5ehmhr-ukOgfw9H?usp=share_link) ad un Notebook di supporto
     - Fase 4 (collegare il chatbot a Telegram): [link](https://colab.research.google.com/drive/1QNuZ00D-LeZHOju_JVmNOB7X3gQRbPSp?usp=sharing) al Notebook
     - Fase 5 (valutazione finale del chatbot): [link](https://colab.research.google.com/drive/1f43u1B5VhLjgB3RMlgUwAG3a3yrqW0lt?usp=sharing) al Notebook        
--->
+*/}
         
    
     

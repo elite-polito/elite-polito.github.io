@@ -32,7 +32,7 @@ _Legenda:_ la colonna Tipo può essere Lez/Es=Lezione/Esercitazione in aula, Lab
 | mar 16/12/25 | 17.30-19.00 | Lab sq. A | 1,5 | Laboratorio #8: Progetto. Squadra A | LAIB 3 | L. Canale |
 | mer 07/01/26 | 8.30-13.00 | Lez/Es | 4,5 | Simulazione d'esame | 2I | L. Farinetti |
 
-<!--
+{/*
 
 ## Esercizi da svolgere prima delle esercitazioni in aula
 
@@ -53,8 +53,6 @@ _Legenda:_ la colonna Tipo può essere Lez/Es=Lezione/Esercitazione in aula, Lab
 | [TE #2](https://farinetti.github.io/materiale-bdcin/Esercizi-TE_2.pdf): Tema d'esame | 19/01 | [Soluzioni TE #2](https://farinetti.github.io/materiale-bdcin/Soluzioni-TE_2.pdf) - comprende le soluzioni degli altri esercizi proposti in aula |
 
 */}
-
--->
 
 ## Elenco delle "pillole" video
 

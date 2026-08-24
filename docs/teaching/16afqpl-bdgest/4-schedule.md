@@ -48,7 +48,7 @@ _Legenda:_ la colonna Tipo può essere Lez/Es=Lezione/Esercitazione in aula, Lab
 | gio 28/05/26 | 14.30-17.30 | Lez/Es | 3 | Temi d'esame. | 5 | L. Cagliero |
 | mer 03/06/26 | 16.00-19.00 | Lez/Es | 3 | Temi d'esame. | 8 | L. Farinetti |
 
-<!--
+{/*
 
 ## Esercizi da svolgere prima delle esercitazioni in aula
 
@@ -69,8 +69,6 @@ _Legenda:_ la colonna Tipo può essere Lez/Es=Lezione/Esercitazione in aula, Lab
 | [TE #2](https://farinetti.github.io/materiale-bdcin/Esercizi-TE_2.pdf): Tema d'esame | 19/01 | [Soluzioni TE #2](https://farinetti.github.io/materiale-bdcin/Soluzioni-TE_2.pdf) - comprende le soluzioni degli altri esercizi proposti in aula |
 
 */}
-
--->
 
 ## Elenco delle "pillole" video
 
