@@ -5,6 +5,12 @@ description: "Esame"
 
 # Esame
 
+:::caution
+Questa pagina contiene la __versione archiviata__ dell'edizione 2025/2026 del corso.
+
+Il corso non è più offerto a partire dall'anno accademico 2026/2027.
+:::
+
 L'esame consiste nella valutazione dei progetti (a gruppi), seguita da un esame orale.
 
 Deve essere superato **nell'anno accademico corrente**. Il materiale per la valutazione dei progetti deve essere disponibile sui repository GitHub assegnati a ciascun gruppo.

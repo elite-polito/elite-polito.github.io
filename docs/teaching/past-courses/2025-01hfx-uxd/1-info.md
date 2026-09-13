@@ -5,8 +5,10 @@ description: "Avvisi e informazioni di base"
 
 # Introduzione
 
-:::info[Come arrivare qui]
-Link breve a questa pagina: http://bit.ly/polito-uxd 
+:::caution
+Questa pagina contiene la __versione archiviata__ dell'edizione 2025/2026 del corso.
+
+Il corso non è più offerto a partire dall'anno accademico 2026/2027.
 :::
 
 ## In breve

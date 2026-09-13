@@ -4,6 +4,12 @@ description: "Risorse per lo Sviluppo"
 
 # Risorse per lo Sviluppo
 
+:::caution
+Questa pagina contiene la __versione archiviata__ dell'edizione 2025/2026 del corso.
+
+Il corso non è più offerto a partire dall'anno accademico 2026/2027.
+:::
+
 Questa sezione presenta alcune risorse utili per lo sviluppo del software che *potrebbero* essere rilevanti per i prototipi (finali) ad alta fedeltà.
 
 Avete bisogno di rinfrescarvi la memoria sullo **sviluppo web**? [Web Fundamentals](https://developers.google.com/web/fundamentals/) è "il punto di riferimento di Google per costruire esperienze web straordinarie".

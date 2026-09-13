@@ -6,7 +6,13 @@ import {LectureRow, LectureDivider, LectureTable} from '@site/src/components/Lec
 import Link from '@docusaurus/Link';
 
 
-# Calendario 
+# Calendario
+
+:::caution
+Questa pagina contiene la __versione archiviata__ dell'edizione 2025/2026 del corso.
+
+Il corso non è più offerto a partire dall'anno accademico 2026/2027.
+:::
 
 :::tip[Quick Links]
 * [Materiale del corso](https://github.com/polito-uxd-2025/materiale) (su GitHub)
