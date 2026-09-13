@@ -9,7 +9,7 @@ description: "Informazioni di base"
 -   [Regole d'esame](https://farinetti.github.io/materiale-bdcin/RegoleEsame25-26.pdf)
 -   [Pagina ufficiale del corso](https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=04AFQPC&p_a_acc=2025&p_header=S&p_lang=IT&multi=N) sul Portale della Didattica
 
-Questo insegnamento partecipa ad un percorso di sperimentazione didattica e pertanto introduce già dal 2025/26 alcuni elementi che saranno caratteristici del nuovo modello formativo, che sarà applicato per tutti gli insegnamenti a partire dall'a.a. 2027/28.
+Questo insegnamento partecipa ad un percorso di sperimentazione didattica e pertanto introduce già dal 2026/27 alcuni elementi che saranno caratteristici del nuovo modello formativo, che sarà applicato per tutti gli insegnamenti a partire dall'a.a. 2027/28.
 
 Inoltre, l'insegnamento aderisce al progetto OCSE dal titolo «Fostering and assessing creativity and critical thinking in higher education and teacher education».
 
@@ -22,10 +22,10 @@ Inoltre, l'insegnamento aderisce al progetto OCSE dal titolo «Fostering and ass
 
 | Giorno   | Ora |Tipo | Aula |
 |----------|----|-----|------|
-| Martedì | 16:00-17:30 | Laboratorio | LAIB 3 |
-| Martedì | 17:30-19:00 | Laboratorio | LAIB 3 |
-| Mercoledì | 8:30-11:30 | Lezione/Esercitazione | Aula 2I |
-| Giovedì | 8:30-10:00 | Lezione/Esercitazione | Aula 2I |
+| Martedì | 16:00-17:30 | Laboratorio | Aula 4M |
+| Martedì | 17:30-19:00 | Laboratorio | LAIB 4M |
+| Mercoledì | 8:30-11:30 | Lezione/Esercitazione | Aula 1T |
+| Giovedì | 8:30-10:00 | Lezione/Esercitazione | Aula 9T |
 
 IMPORTANTE: Le attività potrebbero variare da settimana a settimana: consultate frequentemente la sezione "Piano del corso" per le informazioni aggiornate.
 
