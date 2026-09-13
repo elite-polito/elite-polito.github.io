@@ -211,7 +211,7 @@ const config = {
             from: ['/teaching/python-dottorato', '/teaching/python-dottorato/intro']
           },
           { // http://elite.polito.it/haii (plus old bitly)
-            to: '/teaching/01ujuiu-haii',
+            to: '/teaching/past-courses/2026-01ujuiu-haii',
             from: ['/teaching/current-courses/516-01ujuiu-human-ai-interaction', '/haii']
           },
         ]
