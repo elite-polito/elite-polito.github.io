@@ -179,8 +179,16 @@ const config = {
             from: '/teaching/current-courses/556-01txyov-wa1'
           },
           { // http://bit.ly/polito-hci
-            to: '/teaching/02jsk-hci',
+            to: '/teaching/past-courses/2025-02jsk-hci',
             from: '/teaching/current-courses/513-02jskov-hci'
+          },
+          { // http://bit.ly/polito-hci-fun-i
+            to: '/teaching/01wmr-hci-fun-al',
+            from: '/hci-fun-i'
+          },
+          { // http://bit.ly/polito-hci-fun-ii
+            to: '/teaching/01wmr-hci-fun-mz',
+            from: '/hci-fun-ii'
           },
           { // bit.ly/tecn-progr
             to: '/teaching/past-courses/2024-03fyz-tdp',
