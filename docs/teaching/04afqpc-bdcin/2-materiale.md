@@ -14,16 +14,16 @@ description: "Materiale didattico (slide, documenti, link, ...)"
     - [Esempi di gestione del tempo](https://farinetti.github.io/materiale-bdcin/04b-Progettazione_ER_gestione_tempo.pdf)
     - [Ristrutturazione dello schema ER](https://farinetti.github.io/materiale-bdcin/05-Progettazione_ER_ristrutturazione.pdf)
     - [Traduzione nel modello logico](https://farinetti.github.io/materiale-bdcin/06-Progettazione_modello_logico.pdf)    
-    - [Esempio di progettazione logica relazionale](https://farinetti.github.io/materiale-bdcin/15-Esempio_progettazione_logica.pdf)
+    - [Esempio di progettazione logica relazionale](https://farinetti.github.io/materiale-bdcin/07-Esempio_progettazione_logica.pdf)
 
 {/*
 - Linguaggio SQL
-    - [Istruzione SELECT: fondamenti](https://farinetti.github.io/materiale-bdcin/03-SQL_fondamenti.pdf)
-    - [Interrogazioni nidificate](https://farinetti.github.io/materiale-bdcin/04-SQL_query_nidificate.pdf)
-    - [Interrogazioni avanzate](https://farinetti.github.io/materiale-bdcin/05-SQL_query_avanzate_NEW.pdf)
-    - [Operatori insiemistici](https://farinetti.github.io/materiale-bdcin/06-SQL_operatori_insiemistici.pdf)
-    - [Manipolazione dei dati](https://farinetti.github.io/materiale-bdcin/07-SQL_manipolazione_dati.pdf)
-    - [Gestione delle tabelle](https://farinetti.github.io/materiale-bdcin/08-SQL_gestione_tabelle.pdf)
+    - [Istruzione SELECT: fondamenti](https://farinetti.github.io/materiale-bdcin/08-SQL_fondamenti.pdf)
+    - [Interrogazioni nidificate](https://farinetti.github.io/materiale-bdcin/09-SQL_query_nidificate.pdf)
+    - [Interrogazioni avanzate](https://farinetti.github.io/materiale-bdcin/10-SQL_query_avanzate_NEW.pdf)
+    - [Operatori insiemistici](https://farinetti.github.io/materiale-bdcin/11-SQL_operatori_insiemistici.pdf)
+    - [Manipolazione dei dati](https://farinetti.github.io/materiale-bdcin/12-SQL_manipolazione_dati.pdf)
+    - [Gestione delle tabelle](https://farinetti.github.io/materiale-bdcin/13-SQL_gestione_tabelle.pdf)
 */}
 
 ## Pillole video ed esercizi
