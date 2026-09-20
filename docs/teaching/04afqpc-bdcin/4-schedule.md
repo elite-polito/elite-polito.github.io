@@ -18,10 +18,10 @@ _Legenda:_ la colonna Tipo può essere Lez/Es=Lezione/Esercitazione in aula, Lab
 
 | Data | Orario | Tipo | Ore | Argomento | Aula | Docente |
 |----|-------------|--------|----|------|------|-----|
-| mer 19/11/25 | 8.30-11.30 | Lez/Es | 3 | Progettazione | 2I | L. Farinetti |
-| mar 25/11/25 | 16.00-17.30 | Lab sq. B | 1,5 | Laboratorio #6: Progetto. Squadra B | LAIB 3 | L. Canale |
-| mar 25/11/25 | 17.30-19.00 | Lab sq. A | 1,5 | Laboratorio #6: Progetto. Squadra A | LAIB 3 | L. Canale |
-| mer 26/11/25 | 8.30-11.30 | Lez/Es | 3 | Il punto sul progetto | 2I | L. Canale |
+| mer 23/09/26 | 8.30-11.30 | Lez/Es | 3 | Introduzione al corso e alle basi dati. Modello relazionale. | 1T | L. Farinetti |
+| mer 30/09/26 | 8.30-11.30 | Lez/Es | 3 | Progettazione concettuale. | 1T | L. Farinetti |
+| gio 08/10/26 | 8.30-10.00 | Lez/Es | 1,5 | Progettazione concettuale. | 9T | L. Farinetti |
+| mer 14/10/26 | 8.30-11.30 | Lez/Es | 3 | Esercizi di progettazione. Presentazione del progetto | 9T | L. Canale |
 | gio 27/11/25 | 8.30-10.00 | Lez/Es | 1,5 | Progettazione | 2I | L. Farinetti |
 | mar 02/12/25 | 16.00-17.30 | Lab sq. A | 1,5 | Laboratorio #7: Progetto. Squadra A | LAIB 3 | L. Canale |
 | mar 02/12/25 | 17.30-19.00 | Lab sq. B | 1,5 | Laboratorio #7: Progetto. Squadra B | LAIB 3 | L. Canale |
@@ -67,8 +67,8 @@ Note:
 | P#01 | Il modello relazionale: definizioni e proprietà. | 23/09 | 24/09 | 01/10 |
 | P#02 | Il modello relazionale: vincoli di integrità referenziale. | 23/09 | 24/09 | 01/10 |
 | P#03 | Progettazione: entità e relazioni. | 30/09 | 01/10 | 08/10 |
-| P#04 | Progettazione: rappresentazione di eventi. | 06/10 | 07/10 | 14/10 |
-| P#05 | Progettazione: attributi dipendenti dal tempo. | 06/10 | 07/10 | 14/10 |
+| P#04 | Progettazione: rappresentazione di eventi. | 08/10 | 09/10 | 16/10 |
+| P#05 | Progettazione: attributi dipendenti dal tempo. | 08/10 | 09/10 | 16/10 |
 | P#06 | Progettazione: progettazione logico-relazionale. | 21/10 | 22/10 | 27/10 |
 | P#07 | Il linguaggio SQL: la SELECT base. | 28/10 | 29/10 | 05/11 |
 | P#08 | Il linguaggio SQL: join e self-join. | 28/10 | 29/10 | 05/11 |
