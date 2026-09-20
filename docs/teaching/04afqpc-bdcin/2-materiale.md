@@ -39,6 +39,8 @@ description: "Materiale didattico (slide, documenti, link, ...)"
 
 Qui trovate gli esercizi svolti in aula. 
 
+    {/* 
+
 - SQL (Nota: è un unico file che viene aggiornato di volta in volta con nuovi esercizi proposti e/o svolti)
     - [Esercizi aggiornati al 01/10/2025](https://farinetti.github.io/materiale-bdcin/Esercizi-01.pdf)
     - [Esercizi aggiornati al 08/10/2025](https://farinetti.github.io/materiale-bdcin/Esercizi-02.pdf)
@@ -49,7 +51,15 @@ Qui trovate gli esercizi svolti in aula.
 - Progettazione
     - [ER proposto il 05/11/2025](https://farinetti.github.io/materiale-bdcin/ER-Negozi.pdf)
 
+    */}
+
 ## Esercitazioni
+
+- Progettazione
+    - ER 1: [Testo](https://farinetti.github.io/materiale-bdcin/EsER_1-Testo.pdf) 
+    - ER 2: [Testo](https://farinetti.github.io/materiale-bdcin/EsER_2-Testo.pdf) 
+    - ER 3: [Testo][https://farinetti.github.io/materiale-bdcin/ER_modello_concettuale.pdf] 
+    - ER 4: [Testo](https://farinetti.github.io/materiale-bdcin/raccolta_esercizi_progettazione_BD.pdf) 
 
 {/* 
 - SQL
