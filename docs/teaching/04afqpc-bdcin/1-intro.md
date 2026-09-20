@@ -5,9 +5,8 @@ description: "Informazioni di base"
 
 # Presentazione
 
--   [Lucidi di introduzione al corso]
-{/*(https://farinetti.github.io/materiale-bdcin/PresentazioneCorso25-26.pdf) */}
--   [Regole d'esame]
+-   [Lucidi di introduzione al corso](https://farinetti.github.io/materiale-bdcin/PresentazioneCorso26-27.pdf)
+-   Regole d'esame
 {/* (https://farinetti.github.io/materiale-bdcin/RegoleEsame25-26.pdf) */}
 -   [Pagina ufficiale del corso](https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=04AFQPC&p_a_acc=2027&p_header=S&p_lang=IT&multi=N) sul Portale della Didattica
 
