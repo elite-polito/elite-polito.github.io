@@ -4,10 +4,15 @@ description: "Informazioni sull'esame"
 
 # Esame
 
+Regole d'esame
+
+{/*
 [Regole d'esame](https://farinetti.github.io/materiale-bdcin/RegoleEsame25-26.pdf)
+*/}
 
 ## Temi d'esame
 
+{/*
 
 - Parte di SQL
     - Tema 1: [Testo](https://farinetti.github.io/materiale-bdcin/TE-SQL1-Testo.pdf) e [Soluzione](https://farinetti.github.io/materiale-bdcin/TE-SQL1-Soluzione.pdf)
@@ -36,6 +41,6 @@ description: "Informazioni sull'esame"
 
 - Simulazione d'esame proposta in aula il 07/01/2026: [Testo](https://farinetti.github.io/materiale-bdcin/ProvaEsame-2026-01-07.pdf) e [Soluzione](https://farinetti.github.io/materiale-bdcin/ProvaEsame-2026-01-07-sol.pdf)
 
-
+*/}
 
 
