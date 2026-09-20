@@ -103,6 +103,7 @@ Qui trovate gli esercizi svolti in aula.
 
 I laboratori inizieranno martedì 20 ottobre. La suddivisione in squadre verrà pubblicata a breve.
 
+    {/* 
 Suddivisione in squadre per il laboratorio:
     - Squadra A: da ALASIA a GIANNINI
     - Squadra B: da GIASSI a YUAN
@@ -159,6 +160,7 @@ Link all'area condivisa che contiene le informazioni ed il materiale dei laborat
 
     Per dubbi o domande potete scrivere su Telegram a @Talk2Movies
 
+*/}
 
 {/*
     - Obiettivo: progettare, creare e valutare un Chatbot Telegram in grado di rispondere a domande specifiche a partire da una base di conoscenza
