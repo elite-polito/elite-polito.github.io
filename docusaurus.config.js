@@ -200,7 +200,7 @@ const config = {
           },
           { // http://bit.ly/polito-informatica
             to: '/teaching/14bhd-informatica',
-            from: '/teaching/current-courses/527-14bhd-info'
+            from: ['/teaching/current-courses/527-14bhd-info', '/info']
           },
           { // http://bit.ly/informatica-corno
             to: '/teaching/past-courses/12bhd-informatica-C',
