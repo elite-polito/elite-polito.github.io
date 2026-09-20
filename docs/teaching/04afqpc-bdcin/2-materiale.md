@@ -58,7 +58,7 @@ Qui trovate gli esercizi svolti in aula.
 - Progettazione
     - ER 1: [Testo](https://farinetti.github.io/materiale-bdcin/EsER_1-Testo.pdf) 
     - ER 2: [Testo](https://farinetti.github.io/materiale-bdcin/EsER_2-Testo.pdf) 
-    - ER 3: [Testo][https://farinetti.github.io/materiale-bdcin/ER_modello_concettuale.pdf] 
+    - ER 3: [Testo](https://farinetti.github.io/materiale-bdcin/ER_modello_concettuale.pdf) 
     - ER 4: [Testo](https://farinetti.github.io/materiale-bdcin/raccolta_esercizi_progettazione_BD.pdf) 
 
 {/* 
