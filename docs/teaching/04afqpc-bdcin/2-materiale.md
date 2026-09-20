@@ -51,7 +51,7 @@ Qui trovate gli esercizi svolti in aula.
 
 ## Esercitazioni
 
-
+{/* 
 - SQL
     - Blocco 1: [Testo](https://farinetti.github.io/materiale-bdcin/EsSQL_1-Testo.pdf)
    e [Soluzione](https://farinetti.github.io/materiale-bdcin/EsSQL_1-Soluz.pdf) 
@@ -64,25 +64,29 @@ Qui trovate gli esercizi svolti in aula.
     - Blocco 5: [Testo](https://farinetti.github.io/materiale-bdcin/EserciziSQL-parte3.pdf)
    e [Soluzione](https://farinetti.github.io/materiale-bdcin/Esercizi_SQL_Parte_3_sito.pdf) 
 
-
+*/}
 
     {/* 
     - Blocco 3: [Testo](https://farinetti.github.io/materiale-bdcin/EsSQL_3-Testo.pdf)
     e [Soluzione](https://farinetti.github.io/materiale-bdcin/EsSQL_3-Soluz.pdf)
     - Blocco 4: [Testo](https://farinetti.github.io/materiale-bdcin/EsSQL_4-Testo.pdf)
     e [Soluzione](https://farinetti.github.io/materiale-bdcin/EsSQL_4-Soluz.pdf)
-    - [Pillola video](https://youtu.be/5dUdTthfgvs) su GROUP BY e NOT IN */}
+    - [Pillola video](https://youtu.be/5dUdTthfgvs) su GROUP BY e NOT IN 
+    */}
 
 {/*
     - [Esercitazione SQL](https://farinetti.github.io/materiale-bdcin/Es_SQL_17102024.pdf) del 17/10/2024
     - Altri [esercizi di SQL](https://farinetti.github.io/materiale-bdcin/Esercizi_SQL.pdf) svolti in aula
 */}
 
+    {/* 
 - Progettazione
     - ER 1: [Testo](https://farinetti.github.io/materiale-bdcin/EsER_1-Testo.pdf) e [Soluzione](https://farinetti.github.io/materiale-bdcin/EsER_1-Soluz.pdf)
     - ER 2: [Testo](https://farinetti.github.io/materiale-bdcin/EsER_2-Testo.pdf) e [Soluzione](https://farinetti.github.io/materiale-bdcin/EsER_2-Soluz.pdf)
     - ER 3: [Testo][https://farinetti.github.io/materiale-bdcin/ER_modello_concettuale.pdf] e [Soluzione](https://farinetti.github.io/materiale-bdcin/ER_modello_concettuale_sol.pdf)
     - ER 4: [Testo](https://farinetti.github.io/materiale-bdcin/raccolta_esercizi_progettazione_BD.pdf) e [Soluzione](https://farinetti.github.io/materiale-bdcin/raccolta_esercizi_progettazione_BD_sol.pdf)
+
+    */}
 
  {/* 
     - Esercizio proposto in aula il 27/11: [Testo](https://farinetti.github.io/materiale-bdcin/ER-aula-27-11-24.pdf) e  [Soluzione](https://farinetti.github.io/materiale-bdcin/ER-aula-27-11-24-sol.pdf) 
