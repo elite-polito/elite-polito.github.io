@@ -18,19 +18,25 @@ _Legenda:_ la colonna Tipo può essere Lez/Es=Lezione/Esercitazione in aula, Lab
 
 | Data | Orario | Tipo | Ore | Argomento | Aula | Docente |
 |----|-------------|--------|----|------|------|-----|
-| mer 23/09/26 | 8.30-11.30 | Lez/Es | 3 | Introduzione al corso e alle basi dati. Modello relazionale. | 1T | L. Farinetti |
+| mer 23/09/26 | 8.30-11.30 | Lez/Es | 3 | Introduzione al corso. Modello relazionale. | 1T | L. Farinetti |
 | mer 30/09/26 | 8.30-11.30 | Lez/Es | 3 | Progettazione concettuale. | 1T | L. Farinetti |
 | gio 08/10/26 | 8.30-10.00 | Lez/Es | 1,5 | Progettazione concettuale. | 9T | L. Farinetti |
 | mer 14/10/26 | 8.30-11.30 | Lez/Es | 3 | Esercizi di progettazione. Presentazione del progetto | 9T | L. Canale |
-| gio 27/11/25 | 8.30-10.00 | Lez/Es | 1,5 | Progettazione | 2I | L. Farinetti |
-| mar 02/12/25 | 16.00-17.30 | Lab sq. A | 1,5 | Laboratorio #7: Progetto. Squadra A | LAIB 3 | L. Canale |
-| mar 02/12/25 | 17.30-19.00 | Lab sq. B | 1,5 | Laboratorio #7: Progetto. Squadra B | LAIB 3 | L. Canale |
-| mer 03/12/25 | 8.30-10.00 | Lez/Es | 1,5 | Temi d'esame | 2I | L. Canale |
-| mer 03/12/25 | 10.00-11.30 | Lez/Es | 1,5 | Temi d'esame | 2I | L. Farinetti |
-| mer 10/12/25 | 8.30-11.30 | Lez/Es | 3 | Temi d'esame | 2I | L. Farinetti |
-| mar 16/12/25 | 16.00-17.30 | Lab sq. B | 1,5 | Laboratorio #8: Progetto. Squadra B | LAIB 3 | L. Canale |
-| mar 16/12/25 | 17.30-19.00 | Lab sq. A | 1,5 | Laboratorio #8: Progetto. Squadra A | LAIB 3 | L. Canale |
-| mer 07/01/26 | 8.30-13.00 | Lez/Es | 4,5 | Simulazione d'esame | 2I | L. Farinetti |
+| mar 20/10/26 | 16.00-17.30 | Lab sq. A | 1,5 | Laboratorio #1: Progettazione concettuale. Squadra A | 4M | L. Canale |
+| mar 20/10/26 | 17.30-19.00 | Lab sq. B | 1,5 | Laboratorio #1: Progettazione concettuale. Squadra B | 4M | L. Canale |
+| mer 21/10/26 | 8.30-11.30 | Lez/Es | 3 | Progettazione logico-relazionale. | 1T | L. Farinetti |
+| gio 22/10/26 | 8.30-10.00 | Lez/Es | 1,5 | Progettazione logico-relazionale. | 9T | L. Farinetti |
+| mar 27/10/26 | 16.00-17.30 | Lab sq. B | 1,5 | Laboratorio #2: Progetto. Squadra B | 4M | L. Canale |
+| mar 27/10/26 | 17.30-19.00 | Lab sq. A | 1,5 | Laboratorio #2: Progetto. Squadra A | 4M | L. Canale |
+| mer 28/10/26 | 8.30-11.30 | Lez/Es | 3 | SQL base. | 1T | L. Farinetti | 
+| mar 03/11/26 | 16.00-17.30 | Lab sq. A | 1,5 | Laboratorio #3: Progetto. Squadra A | 4M | L. Canale |
+| mar 03/11/26 | 17.30-19.00 | Lab sq. B | 1,5 | Laboratorio #3: Progetto. Squadra B | 4M | L. Canale |
+| mer 04/11/26 | 8.30-11.30 | Es gruppo | 3 | Attività su progettazione. | 1T | L. Farinetti, L. Canale |
+| gio 05/11/26 | 8.30-10.00 | Lez/Es | 1,5 | SQL base. | 9T | L. Farinetti |
+| mar 10/11/26 | 16.00-17.30 | Lab sq. B | 1,5 | Laboratorio #4: Progetto. Squadra B | 4M | L. Canale |
+| mar 10/11/26 | 17.30-19.00 | Lab sq. A | 1,5 | Laboratorio #4: Progetto. Squadra A | 4M | L. Canale |
+| mer 11/11/26 | 8.30-11.30 | Lez/Es | 3 | SQL base. | 1T | L. Farinetti |
+
 
 {/*
 
