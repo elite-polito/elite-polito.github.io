@@ -50,7 +50,8 @@ Qui trovate gli esercizi svolti in aula.
     - [ER proposto il 05/11/2025](https://farinetti.github.io/materiale-bdcin/ER-Negozi.pdf)
 
 ## Esercitazioni
- 
+
+   {/* 
 - SQL
     - Blocco 1: [Testo](https://farinetti.github.io/materiale-bdcin/EsSQL_1-Testo.pdf)
    e [Soluzione](https://farinetti.github.io/materiale-bdcin/EsSQL_1-Soluz.pdf) 
@@ -62,6 +63,8 @@ Qui trovate gli esercizi svolti in aula.
    e [Soluzione](https://farinetti.github.io/materiale-bdcin/EserciziSQL-parte2_sol.pdf) 
     - Blocco 5: [Testo](https://farinetti.github.io/materiale-bdcin/EserciziSQL-parte3.pdf)
    e [Soluzione](https://farinetti.github.io/materiale-bdcin/Esercizi_SQL_Parte_3_sito.pdf) 
+
+   */}
 
     {/* 
     - Blocco 3: [Testo](https://farinetti.github.io/materiale-bdcin/EsSQL_3-Testo.pdf)
@@ -76,10 +79,10 @@ Qui trovate gli esercizi svolti in aula.
 */}
 
 - Progettazione
-    - ER 1: [Testo](https://farinetti.github.io/materiale-bdcin/EsER_1-Testo.pdf) e [Soluzione](https://farinetti.github.io/materiale-bdcin/EsER_1-Soluz.pdf)
-    - ER 2: [Testo](https://farinetti.github.io/materiale-bdcin/EsER_2-Testo.pdf) e [Soluzione](https://farinetti.github.io/materiale-bdcin/EsER_2-Soluz.pdf)
-    - ER 3: [Testo](https://farinetti.github.io/materiale-bdcin/ER_modello_concettuale.pdf) e [Soluzione](https://farinetti.github.io/materiale-bdcin/ER_modello_concettuale_sol.pdf)
-    - ER 4: [Testo](https://farinetti.github.io/materiale-bdcin/raccolta_esercizi_progettazione_BD.pdf) e [Soluzione](https://farinetti.github.io/materiale-bdcin/raccolta_esercizi_progettazione_BD_sol.pdf)
+    - ER 1: [Testo](https://farinetti.github.io/materiale-bdcin/EsER_1-Testo.pdf) <!-- e [Soluzione](https://farinetti.github.io/materiale-bdcin/EsER_1-Soluz.pdf) -->
+    - ER 2: [Testo](https://farinetti.github.io/materiale-bdcin/EsER_2-Testo.pdf) <!-- e [Soluzione](https://farinetti.github.io/materiale-bdcin/EsER_2-Soluz.pdf) -->
+    - ER 3: [Testo](https://farinetti.github.io/materiale-bdcin/ER_modello_concettuale.pdf) <!-- e [Soluzione](https://farinetti.github.io/materiale-bdcin/ER_modello_concettuale_sol.pdf) -->
+    - ER 4: [Testo](https://farinetti.github.io/materiale-bdcin/raccolta_esercizi_progettazione_BD.pdf) <!-- e [Soluzione](https://farinetti.github.io/materiale-bdcin/raccolta_esercizi_progettazione_BD_sol.pdf) -->
     {/* - Esercizio proposto in aula il 27/11: [Testo](https://farinetti.github.io/materiale-bdcin/ER-aula-27-11-24.pdf) e [Soluzione](https://farinetti.github.io/materiale-bdcin/ER-aula-27-11-24-sol.pdf) */}
 
 {/*
@@ -91,6 +94,9 @@ Qui trovate gli esercizi svolti in aula.
 
 ## Laboratori 
 
+I laboratori inizieranno martedì 20 ottobre. La suddivisione in squadre verrà pubblicata a breve.
+
+{/*
 Suddivisione in squadre per il laboratorio:
     - Squadra A: da ALASIA a GIANNINI
     - Squadra B: da GIASSI a YUAN
@@ -98,7 +104,7 @@ Suddivisione in squadre per il laboratorio:
 Link all'area condivisa che contiene le informazioni ed il materiale dei laboratori (a cura dell'ing. Lorenzo Canale):
 - [https://drive.google.com/drive/folders/1mKb8fVeaWHtG5c79SiNEoJ8KYqLlGVDm](https://drive.google.com/drive/folders/1mKb8fVeaWHtG5c79SiNEoJ8KYqLlGVDm)
 
-{/*
+
 - Laboratorio #1: 15/10 - SQL
     - [Testo](https://farinetti.github.io/materiale-bdcin/Lab1-testo.pdf)
     - [Risultati attesi](https://farinetti.github.io/materiale-bdcin/Lab-1-risultati_attesi.pdf) 
