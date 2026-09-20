@@ -181,7 +181,3 @@ Link all'area condivisa che contiene le informazioni ed il materiale dei laborat
     - Fase 5 (valutazione finale del chatbot): [link](https://colab.research.google.com/drive/1f43u1B5VhLjgB3RMlgUwAG3a3yrqW0lt?usp=sharing) al Notebook        
 */}
         
-   
-    
-
-[def]: https://farinetti.github.io/materiale-bdcin/ER_modello_concettuale.pdf
