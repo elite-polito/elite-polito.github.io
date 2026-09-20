@@ -21,7 +21,7 @@ _Legenda:_ la colonna Tipo può essere Lez/Es=Lezione/Esercitazione in aula, Lab
 | mer 23/09/26 | 8.30-11.30 | Lez/Es | 3 | Introduzione al corso. Modello relazionale. | 1T | L. Farinetti |
 | mer 30/09/26 | 8.30-11.30 | Lez/Es | 3 | Progettazione concettuale. | 1T | L. Farinetti |
 | gio 08/10/26 | 8.30-10.00 | Lez/Es | 1,5 | Progettazione concettuale. | 9T | L. Farinetti |
-| mer 14/10/26 | 8.30-11.30 | Lez/Es | 3 | Esercizi di progettazione. Presentazione del progetto | 9T | L. Canale |
+| mer 14/10/26 | 8.30-11.30 | Lez/Es | 3 | Esercizi di progettazione. Presentazione del progetto. | 9T | L. Canale |
 | mar 20/10/26 | 16.00-17.30 | Lab sq. A | 1,5 | Laboratorio #1: Progettazione concettuale. Squadra A | 4M | L. Canale |
 | mar 20/10/26 | 17.30-19.00 | Lab sq. B | 1,5 | Laboratorio #1: Progettazione concettuale. Squadra B | 4M | L. Canale |
 | mer 21/10/26 | 8.30-11.30 | Lez/Es | 3 | Progettazione logico-relazionale. | 1T | L. Farinetti |
