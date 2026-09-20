@@ -64,22 +64,22 @@ Note:
 
 | Pillola video | Argomento | Pubblicazione entro | Apertura esercizi | Chiusura esercizi |
 |----|-------------|--------|----|------|
-| P#01 | Il modello relazionale: definizioni e proprietà. | Pubblicata | 26/09 | 03/10 |
-| P#02 | Il modello relazionale: vincoli di integrità referenziale. | Pubblicata | 26/09 | 03/10 |
-| P#03 | Il linguaggio SQL: la SELECT base. | Pubblicata | 02/10 | 09/10 |
-| P#04 | Il linguaggio SQL: join e self-join. | Pubblicata | 02/10 | 09/10 |
-| P#05 | Il linguaggio SQL: le funzioni aggregate. | Pubblicata | 06/10 | 13/10 |
-| P#06 | Il linguaggio SQL: l'istruzione GROUP BY. | Pubblicata | 10/10 | 17/10 |
-| P#07 | Il linguaggio SQL: raggruppamento con condizione. | Pubblicata | 10/10 | 17/10 |
-| P#08 | Il linguaggio SQL: L'istruzione NOT IN. | Pubblicata | 22/10 | 29/10 |
-| P#09 | Il linguaggio SQL: EXISTS e correlazione. | Pubblicata | 22/10 | 29/10 |
-| P#10 | Il linguaggio SQL: divisione. | Pubblicata | 5/11 | 12/11 |
-| P#11 | Il linguaggio SQL: CTE e table function. | Pubblicata | 5/11 | 12/11 |
-| P#12 | Progettazione: entità e relazioni. | Pubblicata | 10/11 | 17/11 |
-| P#13 | Progettazione: rappresentazione di eventi. | Pubblicata | 18/11 | 25/11 |
-| P#14 | Progettazione: attributi dipendenti dal tempo. | Pubblicata | 18/11 | 25/11 |
-| P#15 | Progettazione: progettazione logico-relazionale. | Pubblicata | 28/11 | 05/12 |
-| P#16 | Riepilogo delle competenze. | Pubblicata | 15/12 | 22/12 |
+| P#01 | Il modello relazionale: definizioni e proprietà. | 23/09 | 24/09 | 01/10 |
+| P#02 | Il modello relazionale: vincoli di integrità referenziale. | 23/09 | 24/09 | 01/10 |
+| P#03 | Progettazione: entità e relazioni. | 30/09 | 01/10 | 08/10 |
+| P#04 | Progettazione: rappresentazione di eventi. | 06/10 | 07/10 | 14/10 |
+| P#05 | Progettazione: attributi dipendenti dal tempo. | 06/10 | 07/10 | 14/10 |
+| P#06 | Progettazione: progettazione logico-relazionale. | 21/10 | 22/10 | 27/10 |
+| P#07 | Il linguaggio SQL: la SELECT base. | 28/10 | 29/10 | 05/11 |
+| P#08 | Il linguaggio SQL: join e self-join. | 28/10 | 29/10 | 05/11 |
+| P#09 | Il linguaggio SQL: le funzioni aggregate. | 05/11 | 06/11 | 13/11 |
+| P#10 | Il linguaggio SQL: l'istruzione GROUP BY. | 05/11 | 06/11 | 13/11 |
+| P#11 | Il linguaggio SQL: raggruppamento con condizione. | 11/11 | 12/11 | 19/11 |
+| P#12 | Il linguaggio SQL: L'istruzione NOT IN. | 11/11 | 12/11 | 19/11 |
+| P#13 | Il linguaggio SQL: EXISTS e correlazione. | 25/11 | 26/11 | 03/12 |
+| P#14 | Il linguaggio SQL: divisione. | 25/11 | 26/11 | 03/12 |
+| P#15 | Il linguaggio SQL: CTE e table function. | 02/12 | 03/12 | 10/12 |
+| P#16 | Tema d'esame. | 09/12 | 10/12 | 15/01 |
 
 {/*
 
