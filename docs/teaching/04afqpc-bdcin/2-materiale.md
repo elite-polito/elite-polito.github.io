@@ -83,7 +83,7 @@ Qui trovate gli esercizi svolti in aula.
     <!-- e [Soluzione](https://farinetti.github.io/materiale-bdcin/EsER_1-Soluz.pdf) -->
     - ER 2: [Testo](https://farinetti.github.io/materiale-bdcin/EsER_2-Testo.pdf) 
     <!-- e [Soluzione](https://farinetti.github.io/materiale-bdcin/EsER_2-Soluz.pdf) -->
-    - ER 3: [Testo](https://farinetti.github.io/materiale-bdcin/ER_modello_concettuale.pdf) 
+    - ER 3: [Testo][https://farinetti.github.io/materiale-bdcin/EsER_3-Testo.pdf] 
     <!-- e [Soluzione](https://farinetti.github.io/materiale-bdcin/ER_modello_concettuale_sol.pdf) -->
     - ER 4: [Testo](https://farinetti.github.io/materiale-bdcin/raccolta_esercizi_progettazione_BD.pdf) 
     <!-- e [Soluzione](https://farinetti.github.io/materiale-bdcin/raccolta_esercizi_progettazione_BD_sol.pdf) -->
@@ -175,3 +175,5 @@ Link all'area condivisa che contiene le informazioni ed il materiale dei laborat
         
    
     
+
+[def]: https://farinetti.github.io/materiale-bdcin/ER_modello_concettuale.pdf
