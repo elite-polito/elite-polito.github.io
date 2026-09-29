@@ -60,8 +60,7 @@ function OfferedThesis({
         <div className='fix-new-lines'>{description}</div>
         <hr/>
         {keywords.length > 0 && <div><strong>Keywords: </strong>{keywords.join(', ')}</div>}
-        <div><Link to={`https://didattica.polito.it/pls/portal30/sviluppo.tesiv.elenchi?idt=${ID}&lang=EN`}>View the proposal on Portale della Didattica</Link></div>
-        <div><Link to={`https://didattica.polito.it/pls/portal30/sviluppo.tesiv.candidati?id=${ID}`}>Submit your application</Link></div>
+        <div><Link to={`https://didattica.polito.it/pls/portal30/sviluppo.tesi_proposte.visualizza?p_id=${ID}`}>View the proposal on Portale della Didattica</Link></div>
     </Details>
 }
 
@@ -79,6 +78,6 @@ async function loadEliteThesis() {
     }
 };
 
-// https://didattica.polito.it/pls/portal30/sviluppo.tesiv.elenchi?idt=12453&lang=EN
+// https://didattica.polito.it/pls/portal30/sviluppo.tesi_proposte.visualizza?p_id=12453
 
 // https://didattica.polito.it/pls/portal30/sviluppo.tesiv.jsn?dgrp=DAUIN%20%2D%20GR%2D10%20%2D%20Intelligent%20and%20Interactive%20Systems%20%2D%20e%2DLITE&lang=EN
