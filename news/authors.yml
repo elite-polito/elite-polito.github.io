@@ -37,15 +37,16 @@ saenz:
 
 calo:
   name: Tommaso Calò
-  title: Ph.D. Student
+  title: (former) Ph.D. Student
   url: https://tommasocalo.github.io
   image_url: /img/people/TommasoCalo.jpeg
   socials:
     github: tommasocalo
     linkedin: tommasocalo
+
 pezzolla:
   name: Luca Pezzolla
-  title: Ph.D. Student
+  title: (former) Ph.D. Student
   url: https://github.com/lpezzolla
   image_url: /img/people/LucaPezzolla.jpg
   socials:
@@ -102,3 +103,12 @@ arbore:
   socials:
     github: GiuseppeArbore
     linkedin: giuseppe-arbore-099057331
+
+deluca:
+  name: Andrea De Luca
+  title: Ph.D. Student
+  url: http://github.com/andredelu98
+  image_url: /img/people/AndreaDeLuca.png
+  socials:
+    github: andredelu98
+    linkedin: andredelu
