@@ -16,7 +16,6 @@ description: "Materiale didattico (slide, documenti, link, ...)"
     - [Traduzione nel modello logico](https://farinetti.github.io/materiale-bdcin/06-Progettazione_modello_logico.pdf)    
     - [Esempio di progettazione logica relazionale](https://farinetti.github.io/materiale-bdcin/07-Esempio_progettazione_logica.pdf)
 
-{/*
 - Linguaggio SQL
     - [Istruzione SELECT: fondamenti](https://farinetti.github.io/materiale-bdcin/08-SQL_fondamenti.pdf)
     - [Interrogazioni nidificate](https://farinetti.github.io/materiale-bdcin/09-SQL_query_nidificate.pdf)
@@ -24,7 +23,7 @@ description: "Materiale didattico (slide, documenti, link, ...)"
     - [Operatori insiemistici](https://farinetti.github.io/materiale-bdcin/11-SQL_operatori_insiemistici.pdf)
     - [Manipolazione dei dati](https://farinetti.github.io/materiale-bdcin/12-SQL_manipolazione_dati.pdf)
     - [Gestione delle tabelle](https://farinetti.github.io/materiale-bdcin/13-SQL_gestione_tabelle.pdf)
-*/}
+
 
 ## Pillole video ed esercizi
 
