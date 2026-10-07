@@ -1,0 +1,62 @@
+---
+authors: [monge]
+tags: [conference, paper, research, digital wellbeing]
+description: From 10 to 14 October 2026, the e-Lite group will participate in the 29th ACM Conference on Computer-Supported Cooperative Work and Social Computing in Salt Lake City, Utah, USA. Alberto will present a full paper and a poster on attention-capture damaging patterns and digital wellbeing.
+image: ./CSCWlogo.png
+image_alt: Logo of the CSCW 2026 conference
+---
+
+import logo from './CSCWlogo.png'
+import plugin from './dwb-plugin.png'
+import atl from './atl-youtube.png'
+
+# Participation at CSCW 2026
+
+The e-Lite group will attend the [29th ACM Conference on Computer-Supported Cooperative Work and Social Computing (CSCW '26)](https://cscw.acm.org/2026/), held from October 10-14, 2026, in Salt Lake City, Utah, USA.
+
+I will present the full paper "_Digital Wellbeing by Design: Safeguarding End-Users' Time and Attention in UI/UX Practices_", published in the Proceedings of the ACM on Human-Computer Interaction (PACM HCI). The work explores how to support UI/UX designers in identifying Attention-Capture Damaging Patterns (ACDPs) in their prototypes and in discovering alternative designs that prioritize users' digital wellbeing.
+
+I will also present the poster "_ACDPs Transparency Labels: Supporting User Agency Against Attention-Capture Damaging Patterns_", a work that proposes contextual, in-app notices that make ACDPs visible to social media users and give them a clear way to regain control.
+
+The two contributions are detailed below.
+
+<p className="text--center">
+    <img src={logo} alt="Logo of the CSCW 2026 conference" width="70%" />
+</p>
+{/* truncate */}
+
+### Digital Wellbeing by Design: Safeguarding End-Users' Time and Attention in UI/UX Practices
+
+User interfaces, particularly those of social media, promote mindless usage through ACDPs like infinite scroll and content autoplay, prioritizing user engagement over digital wellbeing. Recent work suggests that a promising approach to realigning technology with users' digital wellbeing is to prioritize it _by design_, moving beyond individual self-control tools.
+
+Building on this idea, we first defined and assessed a multi-modal prompting technique that lets a Large Language Model detect ACDPs in Figma prototypes and suggest alternative designs that promote mindful and active technology use, evaluating its outputs with 4 experts in deceptive designs. We then integrated the technique into a plugin for Figma that acts as a "digital-wellbeing assistant": designers can scan their mockups at any stage of the design process, receive feedback on potential ACDPs and their risks (e.g., _infinite scroll_), flag incorrect detections, and explore alternatives that achieve similar functionality (e.g., _pagination_).
+
+<p className="text--center">
+    <img src={plugin} alt="Screenshot of the Figma plugin that detects attention-capture damaging patterns and suggests alternative designs" width="80%" />
+</p>
+
+A formative lab study with 15 UI/UX designers suggests that the plugin can inspire designers to reconsider their choices early in the design process. By design, the plugin does not enforce decisions: it externalizes normative concerns early in the workflow, leaving designers space to exercise judgment and negotiate trade-offs.
+
+### ACDPs Transparency Labels: Supporting User Agency Against Attention-Capture Damaging Patterns
+
+While emerging regulations such as the European Digital Services Act and AI Act require platforms to be more transparent about how they shape users' behaviors, how to concretely map this requirement to ACDPs remains unclear. In this poster, we propose ACDPs Transparency Labels (ATLs): contextual, in-app interface notices that make ACDPs visible, explain how they may affect users' digital wellbeing, and offer a clear call to action to regain control, similarly to what cookie notices do for data collection.
+
+We developed the ATL concept through two co-design workshops with 13 users of TikTok and YouTube. From the workshops, we distilled five preliminary design considerations: ATLs should respect the platform's _visual identity_, use a neutral and non-judgmental _language_, appear at the right _time and position_, _adapt_ over time to counter habituation, and offer _interactive_ ways to act on the underlying ACDP directly (e.g., disabling autoplay).
+
+<p className="text--center">
+    <img src={atl} alt="An ATL for YouTube warning that autoplay is active and offering a toggle to disable it" width="70%" />
+</p>
+
+Overall, ATLs are positioned as a socio-technical proposal that connects user agency, platform design responsibility, and regulatory enforcement.
+
+---
+
+Additional information:
+
+* [CSCW 2026 Main Page](https://cscw.acm.org/2026/)
+* [CSCW 2026 Program](https://programs.sigchi.org/cscw/2026)
+* _Digital Wellbeing by Design: Safeguarding End-Users' Time and Attention in UI/UX Practices_ by Alberto Monge Roffarello, Luigi De Russis & Massimiliano Pellegrino
+    * DOI: [10.1145/3816925](https://doi.org/10.1145/3816925)
+    * [Get it from PORTO@IRIS](https://iris.polito.it/handle/11583/3010247)
+* _ACDPs Transparency Labels: Supporting User Agency Against Attention-Capture Damaging Patterns_ by Alberto Monge Roffarello, Riccardo Graziosi & Luca Passarella
+    * [Get it from PORTO@IRIS](https://iris.polito.it/handle/11583/3012848)
