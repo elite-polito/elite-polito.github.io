@@ -116,10 +116,10 @@ Qui trovate gli esercizi svolti in aula.
 I laboratori inizieranno martedì 20 ottobre. 
 
 Suddivisione in squadre:
-- Squadra A: cognomi da A a L -> dalle 16.00 alle 17.30
-- Squadra B: cognomi da M a Z -> dalle 17.30 alle 19.00
+- Squadra A: cognomi da A a L 
+- Squadra B: cognomi da M a Z 
 
-- Laboratorio #1: 120/10 - Progettazione concettuale
+- Laboratorio #1: 20/10 - Progettazione concettuale
     - [Testo](https://farinetti.github.io/materiale-bdcin/Lab1_testo.pdf)
     {/*
     - [Soluzioni](https://farinetti.github.io/materiale-bdcin/Lab1_soluzione.pdf)
