@@ -123,8 +123,8 @@ Suddivisione in squadre:
     - [Testo](https://farinetti.github.io/materiale-bdcin/Lab1_testo.pdf)
 
 
-Link all'area condivisa che contiene le informazioni ed il materiale dei laboratori di progetto (a cura dell'ing. Lorenzo Canale):
-- [https://drive.google.com/drive/folders/19rRv6x-1Pk0Tig_FsY6DEdgKlXSJsNzF](https://drive.google.com/drive/folders/19rRv6x-1Pk0Tig_FsY6DEdgKlXSJsNzF)
+- Link all'area condivisa che contiene le informazioni ed il materiale dei laboratori di progetto (a cura dell'ing. Lorenzo Canale):
+    - [https://drive.google.com/drive/folders/19rRv6x-1Pk0Tig_FsY6DEdgKlXSJsNzF](https://drive.google.com/drive/folders/19rRv6x-1Pk0Tig_FsY6DEdgKlXSJsNzF)
 
 
     {/* 
