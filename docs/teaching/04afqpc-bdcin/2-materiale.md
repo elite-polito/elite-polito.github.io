@@ -113,7 +113,21 @@ Qui trovate gli esercizi svolti in aula.
 
 ## Laboratori 
 
-I laboratori inizieranno martedì 20 ottobre. La suddivisione in squadre verrà pubblicata a breve.
+I laboratori inizieranno martedì 20 ottobre. 
+
+Suddivisione in squadre:
+- Squadra A: cognomi da A a L -> dalle 16.00 alle 17.30
+- Squadra B: cognomi da M a Z -> dalle 17.30 alle 19.00
+
+- Laboratorio #1: 120/10 - Progettazione concettuale
+    - [Testo](https://farinetti.github.io/materiale-bdcin/Lab1_testo.pdf)
+    {/*
+    - [Soluzioni](https://farinetti.github.io/materiale-bdcin/Lab1_soluzione.pdf)
+    */}
+
+Link all'area condivisa che contiene le informazioni ed il materiale dei laboratori di progetto (a cura dell'ing. Lorenzo Canale):
+- [https://drive.google.com/drive/folders/19rRv6x-1Pk0Tig_FsY6DEdgKlXSJsNzF?usp=sharing](https://drive.google.com/drive/folders/19rRv6x-1Pk0Tig_FsY6DEdgKlXSJsNzF?usp=sharing)
+
 
     {/* 
 Suddivisione in squadre per il laboratorio:
