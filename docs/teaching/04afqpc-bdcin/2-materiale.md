@@ -113,9 +113,9 @@ Qui trovate gli esercizi svolti in aula.
 
 ## Laboratori 
 
-I laboratori inizieranno martedì 20 ottobre. Suddivisione in squadre:
-- Squadra A: cognomi da A a L 
-- Squadra B: cognomi da M a Z 
+- I laboratori inizieranno martedì 20 ottobre. Suddivisione in squadre:
+    - Squadra A: cognomi da A a L 
+    - Squadra B: cognomi da M a Z 
 
 
     {/* 
