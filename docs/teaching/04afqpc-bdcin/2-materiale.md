@@ -117,6 +117,7 @@ Qui trovate gli esercizi svolti in aula.
     - Squadra A: cognomi da A a L 
     - Squadra B: cognomi da M a Z 
 
+- Laboratorio #1: 20/10 - Progettazione concettuale
 
     {/* 
 Suddivisione in squadre per il laboratorio:
