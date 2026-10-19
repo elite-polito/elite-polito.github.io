@@ -24,3 +24,5 @@ yarn-error.log*
 
 # VSCode
 /.vscode
+
+/Claude outputs/
